@@ -622,8 +622,8 @@ ol.list-featured li {
 }
 ol.list-featured li:before {
     content: "0" counter(my-awesome-counter);
-    font-weight: bold;
-    font-size: 2rem;
+    font-weight: normal;
+    font-size: 34px;
     margin-right: 16px;
     font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
     line-height: 1;
