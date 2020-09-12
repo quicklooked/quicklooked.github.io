@@ -3856,8 +3856,8 @@ input[type="button"].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #292929;
-  background-color: #fff;
-  border: 1px solid #dee2e6; }
+  background-color: hsla(0,0%,100%,.8);
+  border: 1px solid #d2d2d7; }
   .page-link:hover {
     z-index: 2;
     color: #292929;
