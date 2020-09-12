@@ -33,7 +33,7 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
     <div> 
         <small class="d-block text-muted">
             {% layouts post.html %}
-                {{ author.name }} in <span class="catlist">
+            {{ author.name }} in <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
@@ -64,7 +64,7 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
                     <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
                     </h2>
                     <small class="d-block text-muted">
-                     {{ author.name }} In <span class="catlist">
+                        In <span class="catlist">
                         {% for category in second_post.categories %}
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
