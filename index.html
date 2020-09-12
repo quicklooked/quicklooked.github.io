@@ -32,7 +32,7 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
     </p>
     <div> 
         <small class="d-block text-muted">
-{% assign author = site[page.author] %} {% include author.html %}
+{% assign author = site[page.author] %} {% layouts author.html %}
 {% if author %}
                 {{ author.name }} {% else %} Quicklook {% endif %} in <span class="catlist">
                 {% for category in latest_post.categories %}
