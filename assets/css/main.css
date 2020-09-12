@@ -5223,19 +5223,19 @@ button.bg-lightblue:focus {
   background-color: transparent !important; }
 
 .border {
-  border: 1px solid #e8f3ec !important; }
+  border: 1px solid rgba(0,0,0,.15) !important; }
 
 .border-top {
-  border-top: 1px solid #e8f3ec !important; }
+  border-top: 1px solid rgba(0,0,0,.15) !important; }
 
 .border-right {
-  border-right: 1px solid #e8f3ec !important; }
+  border-right: 1px solid rgba(0,0,0,.15) !important; }
 
 .border-bottom {
-  border-bottom: 1px solid #e8f3ec !important; }
+  border-bottom: 1px solid rgba(0,0,0,.15) !important; }
 
 .border-left {
-  border-left: 1px solid #e8f3ec !important; }
+  border-left: 1px solid rgba(0,0,0,.15) !important; }
 
 .border-0 {
   border: 0 !important; }
@@ -5304,7 +5304,7 @@ button.bg-lightblue:focus {
   border-color: #fff !important; }
 
 .rounded {
-  border-radius: 0.25rem !important; }
+  border-radius: 0rem !important; }
 
 .rounded-top {
   border-top-left-radius: 0.25rem !important;
