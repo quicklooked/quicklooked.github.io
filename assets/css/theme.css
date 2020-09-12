@@ -618,7 +618,7 @@ ol.list-featured {
 ol.list-featured li {
 	counter-increment:my-awesome-counter;
 	display:flex;
-	font-size:0.8rem;
+	font-size:15px;
 }
 ol.list-featured li:before {
     content: "0" counter(my-awesome-counter);
