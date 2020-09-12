@@ -27,10 +27,10 @@ a,a:hover {
 	text-decoration:none;
 }
 a {
-	color:#03a87c;
+	color:#292929;
 }
 a.text-dark:hover {
-	color:#03a87c !important;
+	color:#292929 !important;
 }
 .c-pointer:hover {
 	cursor:pointer;
@@ -404,7 +404,7 @@ a.text-dark:hover {
 }
 .card a:hover {
 	text-decoration:none;
-	color:#03a87c;
+	color:#292929;
 }
 .card-pricing .card ul li {
 	margin-bottom:1.5rem;
