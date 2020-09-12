@@ -117,9 +117,6 @@
     font-display: swap;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300itlic,400italic,500,500italic,700,700italic,900italic,900);
-@import url(http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,100,100italic,300,300itlic,400italic,500,500italic,700,700italic,900italic,900);
-
 *,
 *::before,
 *::after {
@@ -191,7 +188,7 @@ ul ol {
   margin-bottom: 0; }
 
 dt {
-  font-weight: 700; }
+  font-weight: 600; }
 
 dd {
   margin-bottom: .5rem;
@@ -518,7 +515,7 @@ kbd {
   kbd kbd {
     padding: 0;
     font-size: 100%;
-    font-weight: 700; }
+    font-weight: 600; }
 
 pre {    
     background: #eee;
@@ -3931,7 +3928,7 @@ input[type="button"].btn-block {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 84%;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -4102,7 +4099,7 @@ input[type="button"].btn-block {
   color: inherit; }
 
 .alert-link {
-  font-weight: 700; }
+  font-weight: 600; }
 
 .alert-dismissible {
   padding-right: 4rem; }
@@ -4539,7 +4536,7 @@ input[type="button"].btn-block {
 .close {
   float: right;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
