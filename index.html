@@ -32,8 +32,8 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
     </p>
     <div> 
         <small class="d-block text-muted">
-            {% assign author = site.data.authors[page.author] %}
-            {{ author.name }} in <span class="catlist">
+                {% assign author = site.data.authors[page.author] %}
+                {{ author.name }} in <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
