@@ -1855,8 +1855,7 @@ fieldset:disabled a.btn {
   background-color: #0070c9;;
   background: linear-gradient(#42a1ec,#0070c9);
   border-color: #07c;
-   cursor: default;
-    opacity: .3; }
+   cursor: default; }
 
   .btn-success:hover {
     background-color: #147bcd;
