@@ -36,7 +36,8 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
-                </span>                   
+                </span>
+         </small>
         </small>
         <small class="text-muted">
             {{ latest_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}
