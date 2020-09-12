@@ -1424,8 +1424,9 @@ pre {
   padding: 0.45rem 1.2rem;
   font-size: 1rem;
   line-height: 1.6;
-  color: #495057;
-  background-color: #fff;
+  margin-bottom: 16px;
+  color: #292929;
+  background-color: hsla(0,0%,100%,.8);
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -1436,31 +1437,32 @@ pre {
   .form-control::-ms-expand {
     background-color: transparent;
     border: 0; }
+
   .form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: #2ffbc5;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
+    color: #292929;
+    background-color: hsla(0,0%,100%,.8);
+    border-color: #0071e3;
+    outline: none;
+   box-shadow: 0 0 0 4px rgba(0,125,250,.6); }
   .form-control::-webkit-input-placeholder {
-    color: #6c757d;
+    color: #292929;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: #292929;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: #6c757d;
+    color: #292929;
     opacity: 1; }
   .form-control::placeholder {
-    color: #6c757d;
+    color: #292929;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
-  color: #495057;
-  background-color: #fff; }
+  color: #292929;
+  background-color: hsla(0,0%,100%,.8); }
 
 .form-control-file,
 .form-control-range {
@@ -1522,7 +1524,7 @@ textarea.form-control {
   height: auto; }
 
 .form-group {
-  margin-bottom: 1rem; }
+  margin-bottom: 0rem; }
 
 .form-text {
   display: block;
