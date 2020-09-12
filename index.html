@@ -140,8 +140,8 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
-                <p class="mb-3 lead">
+                <h1 class="mb-3" style="font-family: 'Noe Display' !important;">{{post.title}}</h1>
+                <p class="mb-3 lead" style="font-size: 18px;">
                     {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
                 </p>
                 <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
