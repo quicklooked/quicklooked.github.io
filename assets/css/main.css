@@ -1445,16 +1445,16 @@ pre {
     outline: none;
    box-shadow: 0 0 0 4px rgba(0,125,250,.6); }
   .form-control::-webkit-input-placeholder {
-    color: #292929;
+    color: rgba(0, 0, 0, 0.54);
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #292929;
+    color: rgba(0, 0, 0, 0.54);
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: #292929;
+    color: rgba(0, 0, 0, 0.54);
     opacity: 1; }
   .form-control::placeholder {
-    color: #292929;
+    color: rgba(0, 0, 0, 0.54);
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
