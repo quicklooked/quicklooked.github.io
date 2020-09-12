@@ -261,9 +261,10 @@ a.text-dark:hover {
 .bd-search .form-control {
 	font-size:.85rem;
 	color:#999;
-	border-radius:0px;
+	border-radius:24px;
 	height:35px;
 	border:1px solid #eee;
+	margin: 0px;
 }
 .mb-2rem {
 	margin-bottom:2rem;
