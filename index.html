@@ -39,7 +39,7 @@ description: "Quicklook’s corporate mission is “to organize the world’s pr
                 </span>                   
         </small>
         <small class="text-muted">
-            {{ latest_post.date | date: '%b %d, %Y' }}
+            {{ latest_post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}
         </small>
     </div>
     </div>
