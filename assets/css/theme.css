@@ -654,10 +654,10 @@ footer {
 article {
 	font-size:20px;
 	line-height:1.86;
-    font-family:Lora;
+	font-family: 'Content', 'Content VN', 'Source Serif Pro';
 }
 .article-headline {
-    font-family: Georgia,Times,"Times New Roman",serif;
+    font-family: 'Title';
     font-size: 3.2rem;
     font-weight: 400;
     line-height: 1.15;
