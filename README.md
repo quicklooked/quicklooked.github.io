@@ -1,1 +1,1 @@
-[Quicklook Website](quicklooked.github.io)
+[Quicklook Website](https://quicklooked.github.io)
