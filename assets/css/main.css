@@ -1852,14 +1852,21 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #03a87c;
-  border-color: #03a87c; }
+  background-color: #0070c9;;
+  background: linear-gradient(#42a1ec,#0070c9);
+  border-color: #07c;
+   cursor: default;
+    opacity: .3; }
+
   .btn-success:hover {
-    color: #fff;
-    background-color: #028260;
-    border-color: #027657; }
+    background-color: #147bcd;
+    background: linear-gradient(#51a9ee,#147bcd);
+    border-color: #1482d0;
+    text-decoration: none; }
+
   .btn-success:focus, .btn-success.focus {
     box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.5); }
+
   .btn-success.disabled, .btn-success:disabled {
     color: #fff;
     background-color: #03a87c;
