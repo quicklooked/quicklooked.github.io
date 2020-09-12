@@ -3889,7 +3889,7 @@ input[type="button"].btn-block {
   pointer-events: none;
   cursor: auto;
   background-color: hsla(0,0%,100%,.8);
-  border-color: rgba(0, 0, 0, 0.54); }
+  border-color: #d2d2d7; }
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
