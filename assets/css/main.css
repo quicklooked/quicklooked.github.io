@@ -8570,3 +8570,12 @@ html {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
 }
+
+.ac-gf-footer-legal-link {
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
