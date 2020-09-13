@@ -52,7 +52,8 @@ description: "Quicklook’s mission is “to organize the world’s product info
 {%- assign second_post = site.posts[1] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
-<div class="extremePostPreview-image u-flex0"><a href="https://medium.com/@Chef_BoyarDEJI/7-beliefs-you-must-give-up-if-you-want-to-live-a-great-life-5833da1d367c?source=extreme_main_feed---------2-58--------------------8f70c3fe_652b_4202_8429_d34c1a4a8d32--6" data-action="open-post" data-action-value="https://medium.com/@Chef_BoyarDEJI/7-beliefs-you-must-give-up-if-you-want-to-live-a-great-life-5833da1d367c?source=extreme_main_feed---------2-58--------------------8f70c3fe_652b_4202_8429_d34c1a4a8d32--6" data-action-source="extreme_main_feed---------2-58--------------------8f70c3fe_652b_4202_8429_d34c1a4a8d32--6" class="u-block u-backgroundCover u-sizeFull" style="background-image: url(&quot;https://cdn-images-1.medium.com/fit/c/152/156/1*9iIyfM6VEbh66vkMgO2zew.jpeg&quot;); background-position: 50% 50% !important;" aria-label="7 Beliefs You Must Give Up If You Want to Live a Great Life"></a></div>
+            <div class="col-md-4">
+                <a href="{{site.baseurl}}{{second_post.url}}" class="w-100" style="background-image: url({% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}); height: 100%; width: 152px; background-position: 50% 50% !important; width: 20px; background-size: cover; background-repeat: no-repeat; aria-label={{ second_post.title }}"></a></div>
                 {% endif %}                
                 <div>
                     <h2 class="mb-2 h6 font-weight-bold">
