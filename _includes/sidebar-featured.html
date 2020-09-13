@@ -18,7 +18,7 @@
                     </span>
                 </span>
                 	<small class="text-muted">
-		{{ post.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}
+		{{ post.date | date: '%b %d, %Y' }} · {% for meta-read-time in post.meta-read-time %}{% post.meta-read-time.html %}{% endfor %}
 	</small>
             </span>
             </li>                
