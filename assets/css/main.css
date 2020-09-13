@@ -386,7 +386,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.15;
   color: inherit; }
 
@@ -8548,3 +8548,25 @@ html {
     align-self: baseline !important; }
   .align-self-xl-stretch {
     align-self: stretch !important; } }
+
+.u-backgroundCover {
+    background-position: center!important;
+    background-origin: border-box!important;
+    background-size: cover!important;
+}
+.u-sizeFull {
+    width: 100%!important;
+    height: 100%!important;
+}
+.u-block {
+    display: block!important;
+}
+.extremePostPreview-image {
+    width: 152px;
+}
+.u-flex0 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
