@@ -15,7 +15,6 @@ description: "Quicklook’s mission is “to organize the world’s product info
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row remove-site-content-margin">
-    
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
     {% assign author = site.authors[page.author] %}
@@ -48,10 +47,9 @@ description: "Quicklook’s mission is “to organize the world’s product info
     </div>
     </div>
     
-    <div class="col-md-6">
-        
-        <!-- second latest post -->
-        {%- assign second_post = site.posts[1] -%}        
+<div class="col-md-6">
+<!-- second latest post -->
+{%- assign second_post = site.posts[1] -%}        
         <div class="mb-3 d-flex align-items-center">                
                 {% if second_post.image %}
                 <div class="col-md-4">
@@ -78,9 +76,9 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 </div>
             </div>
         
-        <!-- third latest post -->
-        {%- assign third_post = site.posts[2] -%}        
-        <div class="mb-3 d-flex align-items-center">                
+<!-- third latest post -->
+{%- assign third_post = site.posts[2] -%}        
+<div class="mb-3 d-flex align-items-center">                
                 {% if third_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{third_post.url}}">
@@ -106,9 +104,9 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 </div>
             </div>
         
-        <!-- fourth latest post -->
-        {%- assign fourth_post = site.posts[3] -%}        
-        <div class="mb-3 d-flex align-items-center">                
+<!-- fourth latest post -->
+{%- assign fourth_post = site.posts[3] -%}        
+<div class="mb-3 d-flex align-items-center">                
                 {% if fourth_post.image %}
                 <div class="col-md-4">
                 <a href="{{site.baseurl}}{{fourth_post.url}}">
@@ -133,8 +131,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                     </small>
                 </div>
             </div>
-        
-    </div>
+</div>
     
 </div>
     
@@ -171,19 +168,19 @@ description: "Quicklook’s mission is “to organize the world’s product info
     
 <div class="row mt-3">
    
-    <div class="col-md-8 main-loop">
+<div class="col-md-8 main-loop">
         
-        <h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
+<h4 class="font-weight-bold spanborder"><span>All Stories</span></h4>
         
 
-        {% for post in paginator.posts %}
+{% for post in paginator.posts %}
         
-            {% include main-loop-card.html %}
+{% include main-loop-card.html %}
         
-        {% endfor %}
+{% endfor %}
         
-        <div class="mt-5">
-         <!-- Pagination links -->
+<div class="mt-5">
+<!-- Pagination links -->
             {% if paginator.total_pages > 1 %}
             <ul class="pagination"> 
               {% if paginator.previous_page %}
@@ -192,7 +189,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
               {% endif %}
 
-              {% for page in (1..paginator.total_pages) %}
+{% for page in (1..paginator.total_pages) %}
                 {% if page == paginator.page %}
                 <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
                 {% elsif page == 1 %}
@@ -202,7 +199,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 {% endif %}
               {% endfor %}
 
-              {% if paginator.next_page %}
+{% if paginator.next_page %}
                 <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
               {% else %}
                 <li class="page-item disabled"><span class="next page-link">&raquo;</span></li>
@@ -211,9 +208,9 @@ description: "Quicklook’s mission is “to organize the world’s product info
             {% endif %}      
         </div>
         
-    </div>
+</div>
     
-    <div class="col-md-4">
+<div class="col-md-4">
         {% include sidebar-featured.html %}    
     </div>
     
