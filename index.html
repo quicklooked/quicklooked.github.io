@@ -31,7 +31,11 @@ description: "Quicklook’s mission is “to organize the world’s product info
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
     <div> 
-        <small class="d-block text-muted" style = "color: #292929 !important;">  
+        <small class="d-block text-muted" style = "color: #292929 !important;">   {% if post.author %}
+                                {{ post.author }}
+                            {% else %}
+                                {{ site.data.settings.author }}
+                            {% endif %}
                 <span><a target="_blank" href="{{ author.twitter }}">{{ latest_post.author | author.name }}</a></span> in <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
