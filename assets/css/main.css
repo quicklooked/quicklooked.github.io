@@ -144,7 +144,8 @@ body {
   line-height: 20px;
   color: #292929;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  letter-spacing: -0.003em;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -388,7 +389,8 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 600;
   line-height: 1.15;
-  color: inherit; }
+  color: inherit;
+letter-spacing: -0.022em !important; }
 
 h1, .h1 {
   font-size: 2.5rem; }
