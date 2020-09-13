@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    Sal:
       name:           Sal
       site:           https://quicklooked.github.io/
       avatar:         'assets/images/avatar1.jpg'
@@ -43,7 +43,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
+      author: Sal
       avatar: 'assets/images/avatar1.jpg'
       
   # all pages
