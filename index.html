@@ -54,7 +54,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 {% if second_post.image %}
             <div class="col-md-4">
                 <a href="{{site.baseurl}}{{second_post.url}}">
-                   <img class="w-100" style="background-image: url({% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}); height: 100%; width: 152px; background-position: 50% 50% !important; background-size: cover; background-repeat: no-repeat; aria-label="{{ second_post.title }}""></img>
+                   <img class="w-100" style="background-image: url({% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %});height: 100px;background-position: 64% 46% !important;background-size: cover;background-repeat: no-repeat;"></img>
                 </a>
     </div>
                 {% endif %}                
