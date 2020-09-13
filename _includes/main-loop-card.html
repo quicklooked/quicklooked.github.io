@@ -8,7 +8,7 @@
 	</p>
 	<small class="d-block text-muted" style = "color: #292929 !important;">
 		{% for author in post.author %}
-		<a class="text-dark" href="{{site.baseurl}}author-{{post.author}}">{{ author.name }}</a>
+		<a class="text-dark" href="{{site.baseurl}}author-{{post.author}}">{{ post.author }}</a>
 		{% endfor %}
 		in <span class="catlist">
 		{% for category in post.categories %}
