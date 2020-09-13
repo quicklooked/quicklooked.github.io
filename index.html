@@ -54,7 +54,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 {% if second_post.image %}
             <div class="col-md-4" style="padding-left: 0px; padding-right: 30px;">
                 <a href="{{site.baseurl}}{{second_post.url}}">
-                   <img class="w-100" style="background-image: url({% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %});height: 108px;background-position: 64% 46% !important;background-size: cover; min-width: 154px !important; background-repeat: no-repeat;"></img>
+                   <img class="w-100" style="background-image: url({% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %});height: 108px;background-position: 64% 46% !important;background-size: cover; min-width: 154px !important; max-width: 154px !important; background-repeat: no-repeat;"></img>
                 </a>
     </div>
                 {% endif %}                
@@ -82,7 +82,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 {% if third_post.image %}
                 <div class="col-md-4" style="padding-left: 0px; padding-right: 30px;">
                 <a href="{{site.baseurl}}{{third_post.url}}">
-                    <img class="w-100" style="background-image: url({% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %});height: 108px;background-position: 64% 46% !important;background-size: cover; min-width: 154px !important; background-repeat: no-repeat;"></img>
+                    <img class="w-100" style="background-image: url({% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %});height: 108px;background-position: 64% 46% !important;background-size: cover; min-width: 154px !important; max-width: 154px !important; background-repeat: no-repeat;"></img>
                 </a>
                 </div>
                 {% endif %}                
@@ -110,7 +110,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 {% if fourth_post.image %}
                 <div class="col-md-4" style="padding-left: 0px; padding-right: 30px;">
                 <a href="{{site.baseurl}}{{fourth_post.url}}">
-                                   <img class="w-100" style="background-image: url({% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %});height: 108px;background-position: 64% 46% !important; min-width: 154px !important; background-size: cover;background-repeat: no-repeat;"></img>    
+                                   <img class="w-100" style="background-image: url({% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{site.baseurl}}/{{ fourth_post.image }}{% endif %});height: 108px;background-position: 64% 46% !important; min-width: 154px !important; max-width: 154px !important; background-size: cover;background-repeat: no-repeat;"></img>    
                 </a>
                 </div>
                 {% endif %}                
