@@ -23,7 +23,7 @@
 {% if post.image %}
 	<div class="col-md-3 pr-0 text-right">
 	<a href="{{site.baseurl}}{{post.url}}">
-		<img class="w-100" style="background-image: url({% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %});height: 123px;background-position: 50% 50% !important;background-size: cover; width: 154px !important; background-repeat: no-repeat;" alt="{{ post.title }}"></img>
+		<img class="w-100" style="background-image: url({% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %});height: 123px;background-position: 50% 50% !important;background-size: cover; width: 154px !important; background-repeat: no-repeat;"></img>
 	</a>
 	</div>
 {% endif %}
