@@ -36,7 +36,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                 <a class="text-dark" href="{{site.baseurl}}/@{{latest_post.author}}">{{ latest_post.author | author.name }}</a>
                 in <span class="catlist">
                 {% for category in latest_post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
                 </span>
         </small>
@@ -68,7 +68,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                         <a class="text-dark" href="{{site.baseurl}}/@{{second_post.author}}">{{ second_post.author }}</a>
                         in <span class="catlist">
                         {% for category in second_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
@@ -96,7 +96,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                         <a class="text-dark" href="{{site.baseurl}}/@{{third_post.author}}">{{ third_post.author }}</a>
                         in <span class="catlist">
                         {% for category in third_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
@@ -124,7 +124,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
                         <a class="text-dark" href="{{site.baseurl}}/@{{fourth_post.author}}">{{ fourth_post.author }}</a>
                         in <span class="catlist">
                         {% for category in fourth_post.categories %}
-                        <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                        <a class="text-capitalize text-muted smoothscroll" style = "color: #292929 !important;" href="{{site.baseurl}}/categories#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
                     </small>
