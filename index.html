@@ -18,6 +18,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
     
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
+    {% assign author = site.authors[page.author] %}
     <div class="col-md-6">
     <div class="card border-0 mb-4 box-shadow">   
     <a href="{{site.baseurl}}{{latest_post.url}}">
