@@ -1980,12 +1980,14 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529; }
+  background-color: #0071e3;
+  border-color: #0071e3; }
+
   .btn-dark:hover {
     color: #fff;
-    background-color: #101214;
-    border-color: #0a0c0d; }
+    background-color: #0077ed;
+    border-color: #0077ed; }
+
   .btn-dark:focus, .btn-dark.focus {
     box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5); }
   .btn-dark.disabled, .btn-dark:disabled {
