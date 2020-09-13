@@ -32,7 +32,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
     </p>
     <div> 
         <small class="d-block text-muted">
-                {% for author in site.authors %} {{ author[1].name }} {% endfor %} in <span class="catlist">
+                {% for author in site.authors %} {{ author.name }} {% endfor %} in <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
