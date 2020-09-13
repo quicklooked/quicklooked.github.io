@@ -21,7 +21,7 @@ plugins:
 authors:
     sal:
       name:           Sal
-      site:           https://quicklooked.github.io/author-sal
+      site:           https://quicklooked.github.io/@sal
       avatar:         'assets/images/avatar1.jpg'
       bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
       email:          quicklook.vn@gmail.com
@@ -29,7 +29,7 @@ authors:
 
     jane:
       name:           Jane
-      site:           https://quicklooked.github.io/author-jane
+      site:           https://quicklooked.github.io/@jane
       avatar:         'assets/images/avatar2.jpg'
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          quicklook.vn@gmail.com
