@@ -8583,3 +8583,64 @@ html {
     margin-top: 5px;
     white-space: nowrap;
 }
+
+.u-paddingLeft4 {
+    padding-left: 4px!important;
+}
+
+.uiScale-caption--small .ui-caption .svgIcon {
+    vertical-align: middle!important;
+    -webkit-transform: translateY(-1.25px)!important;
+    transform: translateY(-1.25px)!important;
+}
+.uiScale .ui-body .svgIcon, .uiScale .ui-brand1 .svgIcon, .uiScale .ui-brand2 .svgIcon, .uiScale .ui-caps .svgIcon, .uiScale .ui-caption .svgIcon, .uiScale .ui-captionStrong .svgIcon, .uiScale .ui-h1 .svgIcon, .uiScale .ui-h2 .svgIcon, .uiScale .ui-h3 .svgIcon, .uiScale .ui-h4 .svgIcon, .uiScale .ui-summary .svgIcon, .uiScale .ui-tab .svgIcon, .uiScale .ui-tabActive .svgIcon {
+    position: relative!important;
+    height: 0!important;
+    line-height: 0!important;
+    margin-top: 0!important;
+    top: 0!important;
+}
+.svgIcon--15px {
+    line-height: 15px;
+    height: 15px;
+}
+.svgIcon {
+    display: inline-block;
+}
+.u-noWrap {
+    white-space: nowrap!important;
+}
+.v-glyph--m2 .uiScale-caption--small .ui-caption {
+    font-weight: 400!important;
+}
+.uiScale-caption--small .ui-caption {
+    --x-height-multiplier: 0.342!important;
+    --baseline-multiplier: 0.22!important;
+    font-family: medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+    letter-spacing: -.02em!important;
+    font-weight: 400!important;
+    font-style: normal!important;
+    letter-spacing: 0!important;
+    font-size: 15px!important;
+    line-height: 20px!important;
+    -webkit-transform: translateY(1.8px);
+    transform: translateY(1.8px);
+}
+.uiScale .ui-caption {
+    color: rgba(0,0,0,.54)!important;
+    fill: rgba(0,0,0,.54)!important;
+}
+.u-noWrapWithEllipsis {
+    white-space: nowrap!important;
+    text-overflow: ellipsis!important;
+    overflow: hidden!important;
+}
+.uiScale {
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.uiScale .ui-body .svgIcon-use, .uiScale .ui-brand1 .svgIcon-use, .uiScale .ui-brand2 .svgIcon-use, .uiScale .ui-caps .svgIcon-use, .uiScale .ui-caption .svgIcon-use, .uiScale .ui-captionStrong .svgIcon-use, .uiScale .ui-h1 .svgIcon-use, .uiScale .ui-h2 .svgIcon-use, .uiScale .ui-h3 .svgIcon-use, .uiScale .ui-h4 .svgIcon-use, .uiScale .ui-summary .svgIcon-use, .uiScale .ui-tab .svgIcon-use, .uiScale .ui-tabActive .svgIcon-use {
+    -webkit-transform: translateY(-50%)!important;
+    transform: translateY(-50%)!important;
+}
