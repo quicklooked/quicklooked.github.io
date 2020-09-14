@@ -8586,6 +8586,7 @@ html {
 
 .u-paddingLeft4 {
     padding-left: 4px!important;
+      vertical-align: baseline;
 }
 
 .uiScale-caption--small .ui-caption .svgIcon {
@@ -8606,7 +8607,6 @@ html {
 }
 .svgIcon {
     display: inline-block;
-  vertical-align: text-top;
     fill: rgba(0, 0, 0, 0.54);
 }
 .u-noWrap {
