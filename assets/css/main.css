@@ -8678,18 +8678,8 @@ html {
 
 
 
-nav {
-  background-color: rgba(0,0,0,.8);
-  transition: all .8s ease;
-  overflow: hidden;
-}
-
-nav.dark {
-  background-color: rgba(0,0,0,1);
-}
-
 nav a {
-  color: white;
+  color: #f5f5f7;
   text-decoration: none;
 
 }
