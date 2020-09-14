@@ -265,6 +265,7 @@ a.text-dark:hover {
 	height:35px;
 	border:0px solid #eee;
 	margin: 0px;
+	line-height: normal !important;
 }
 .mb-2rem {
 	margin-bottom:2rem;
