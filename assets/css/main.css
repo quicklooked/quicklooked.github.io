@@ -8700,7 +8700,7 @@ nav .menu {
 }
 
 nav .menu a {
-  padding: 0px;
+  padding: 21px 13.5px;
   transition: all .3s ease;
   transition-delay: .6s;
 }
