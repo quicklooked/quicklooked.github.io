@@ -8735,3 +8735,9 @@ nav.dark .menu a:last-child {
     opacity: 1;
   }
 }
+
+
+.menusvg-bot {
+   background-image: url("/assets/images/reorder-two-outline.svg");
+ background-color: #f5f5f7;
+}
