@@ -80,110 +80,23 @@ function lunr_search(term) {
 
 
 <form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <label for="from">
+        <i class="ion-location"></i>
+    </label>
 <input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Search Quicklook"> 
 </form>
 
-<div class="wrapper">
-  <div class="icon-search-container" data-ic-class="search-trigger">
-    <span class="fa fa-search"></span>
-    <input type="text" class="search-input" data-ic-class="search-input" placeholder="Search"/>
-    <span class="fa fa-times-circle" data-ic-class="search-clear"></span>
-  </div>
-</div>
+
 
 <style>
-* { box-sizing: border-box; }
-
-.wrapper {
-  text-align: center;
-  margin: 100px auto;
+i {
+  font-size: 1.3rem;
 }
-.icon-search-container {
-  display: inline-block;
-  border: 2px solid #d9d9d9;
-  border-radius: 50px;
-  height: 50px;
-  width: 50px;
-  position: relative;
-  transition: width 0.2s ease-out;
-  backface-visibility: hidden;
-  
-  &.active {
-    width: 285px;
-    
-    .fa-times-circle {
-      opacity: 1;
-    }
-    .search-input {
-      width: 200px;
-    }
-  }
-  
-.fa-search {
-    color: #2980b9;
-    font-size: 30px;
-    position: absolute;
-    top: 7px;
-    left: 8px;
-    cursor: pointer;
-  }
-  .fa-times-circle {
-    opacity: 0;
-    color: #d9d9d9;
-    font-size: 20px;
-    position: absolute;
-    top: 12px;
-    right: 8px;
-    transition: opacity 0.2s ease-out;
-    cursor: pointer;
-  }
-  
-  .search-input {
-    position: absolute;
-    cursor: default;
-    left: 45px;
-    top: 6px;
-    width: 0;
-    padding: 5px;
-    border: none;
-    outline: none;
-    font-size: 18px;
-    line-height: 20px;
-    background-color: rgba(255, 255, 255, 0);
-    transition: width 0.2s ease-out;
-  }
-  
-}
+    .ion-location {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='svgIcon-use' width='25' height='25'%3E%3Cpath d='M20.067 18.933l-4.157-4.157a6 6 0 1 0-.884.884l4.157 4.157a.624.624 0 1 0 .884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z'%3E%3C/path%3E%3C/svg%3E");
+        background-repeat: no-repeat;
 </style>
 
 <script>
-$(document).ready(function(){
-  
-  var $searchTrigger = $('[data-ic-class="search-trigger"]'),
-      $searchInput = $('[data-ic-class="search-input"]'),
-      $searchClear = $('[data-ic-class="search-clear"]');
-  
-  $searchTrigger.click(function(){
-    
-    var $this = $('[data-ic-class="search-trigger"]');
-    $this.addClass('active');
-    $searchInput.focus();
-    
-  });
-  
-  $searchInput.blur(function(){
-    
-    if($searchInput.val().length > 0){
-      
-      return false;
-      
-    } else {
-      
-      $searchTrigger.removeClass('active');
-      
-    }
-    });
-$searchClear.click(function(){$searchInput.val('');});
-$searchInput.focus(function(){$searchTrigger.addClass('active');});
-});
+
 </script>
