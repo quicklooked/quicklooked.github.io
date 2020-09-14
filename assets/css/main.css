@@ -8699,12 +8699,8 @@ nav .menu {
   justify-content: space-between;
 }
 
-.fa.fa-apple {
-  font-size: 25px;
-}
-
 nav .menu a {
-  padding: 15px;
+  padding: 0px;
   transition: all .3s ease;
   transition-delay: .6s;
 }
@@ -8722,9 +8718,10 @@ nav.dark .menu a:last-child {
 
 .menu-icon {
   position: relative;
-  padding: 1px 12px;  
+  padding: 1px 17px 0 0;  
   background-color: white;
   transition: all .3s ease;
+      border-radius: 0.5px;
 }
 
 .menu-icon-box.open .menu-icon:first-child {
