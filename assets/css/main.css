@@ -605,8 +605,8 @@ pre {
   max-width: 16.66667%; }
 
 .col-3 {
-  flex: 0 0 25%;
-  max-width: 25%; }
+  flex: 0 0 154px;
+  max-width: 154px; }
 
 .col-4 {
   flex: 0 0 33.33333%;
