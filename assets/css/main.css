@@ -8740,4 +8740,10 @@ nav.dark .menu a:last-child {
 .menusvg-bot {
    background-image: url("/assets/images/reorder-two-outline.svg");
  background-color: #f5f5f7;
+    display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background: no-repeat center center;
+  background-size: 100% 100%; }
 }
