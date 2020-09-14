@@ -1839,6 +1839,7 @@ fieldset:disabled a.btn {
 .btn-secondary {
   color: #fff;
   background-color: #0071e3;
+   background: linear-gradient(#42a1ec,#0070c9);
   border-color: #0071e3; }
   .btn-secondary:hover {
     color: #fff;
