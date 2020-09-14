@@ -8825,7 +8825,7 @@ nav.dark .menu a:last-child {
 #menuToggle input:checked ~ span
 {
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(-3px, -1px);
   background: #fff;
 }
 
