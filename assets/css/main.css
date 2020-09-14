@@ -1428,7 +1428,7 @@ pre {
   display: block;
   width: 100%;
   height: calc(2.5rem + 2px);
-  padding: 0.45rem 1.2rem;
+  padding: 0.45rem 1.2rem !important;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 16px;
