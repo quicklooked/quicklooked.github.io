@@ -5,7 +5,7 @@ label {
 label::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: 6px;
   top: 0;
   bottom: 0;
   width: 25px;
