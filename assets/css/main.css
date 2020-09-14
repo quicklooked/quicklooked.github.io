@@ -1461,7 +1461,7 @@ pre {
     color: rgba(0, 0, 0, 0.54);
     opacity: 1; }
   .form-control::placeholder {
-    color: rgba(0, 0, 0, 0.54);
+    color: #6e6e73;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
     background-color: #e9ecef;
