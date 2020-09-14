@@ -1452,13 +1452,13 @@ pre {
     outline: none;
    box-shadow: 0 0 0 4px rgba(0,125,250,.6); }
   .form-control::-webkit-input-placeholder {
-    color: rgba(0, 0, 0, 0.54);
+    color: #6e6e73;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: rgba(0, 0, 0, 0.54);
+    color: #6e6e73;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-    color: rgba(0, 0, 0, 0.54);
+    color: #6e6e73;
     opacity: 1; }
   .form-control::placeholder {
     color: #6e6e73;
