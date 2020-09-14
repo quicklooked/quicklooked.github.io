@@ -81,21 +81,13 @@ function lunr_search(term) {
 
 
 <form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-<input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Search for something..."> 
-</form>
-
-
-
-
-<div class="search">
+    <div class="search">
     <svg x="0px" y="0px" viewBox="0 0 24 24" width="20px" height="20px">
         <g stroke-linecap="square" stroke-linejoin="miter" stroke="currentColor">
             <line fill="none" stroke-miterlimit="10" x1="22" y1="22" x2="16.4" y2="16.4"/>
             <circle fill="none" stroke="currentColor" stroke-miterlimit="10" cx="10" cy="10" r="9"/>
         </g>
     </svg>
-    <div>
-        <input type="text" placeholder="Search for something...">
-    </div>
 </div>
-
+<input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Search for something..."> 
+</form>
