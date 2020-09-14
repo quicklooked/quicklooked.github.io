@@ -8646,3 +8646,13 @@ html {
     -webkit-transform: translateY(-50%)!important;
     transform: translateY(-50%)!important;
 }
+
+.middotDivider:after {
+    content: '\00B7';
+}
+.middotDivider {
+    padding-right: .3em;
+    padding-left: .3em;
+    font-size: 16px;
+}
+
