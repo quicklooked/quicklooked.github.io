@@ -1983,7 +1983,9 @@ fieldset:disabled a.btn {
 .btn-dark {
   color: #fff;
   background-color: #0071e3;
-  border-color: #0071e3; }
+  border-color: #0071e3;
+line-height: 20px !important;
+}
 
   .btn-dark:hover {
     color: #fff;
@@ -1994,13 +1996,13 @@ fieldset:disabled a.btn {
 box-shadow: 0 0 0 4px rgba(0,125,250,.6); }
   .btn-dark.disabled, .btn-dark:disabled {
     color: #fff;
-    background-color: #212529;
-    border-color: #212529; }
+    background-color: #0071e3;
+    border-color: #0071e3; }
   .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
   .show > .btn-dark.dropdown-toggle {
     color: #fff;
-    background-color: #0a0c0d;
-    border-color: #050506; }
+    background-color: #0071e3;
+    border-color: #0071e3; }
     .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
     .show > .btn-dark.dropdown-toggle:focus {
      box-shadow: 0 0 0 4px rgba(0,125,250,.6); }
