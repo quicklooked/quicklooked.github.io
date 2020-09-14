@@ -262,10 +262,7 @@ img {
 
 svg {
   overflow: hidden;
-  vertical-align: bottom;
--webkit-transform: translateX(-50%);
--ms-transform: translateX(-50%);
-transform: translateX(-50%); }
+  vertical-align: bottom; }
 
 table {
   border-collapse: collapse; }
@@ -8588,7 +8585,7 @@ html {
 }
 
 .u-paddingLeft4 {
-    padding-left: 4px!important;
+    padding-left: 0px!important;
       vertical-align: baseline;
 }
 
