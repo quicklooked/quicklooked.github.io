@@ -262,7 +262,10 @@ img {
 
 svg {
   overflow: hidden;
-  vertical-align: middle; }
+  vertical-align: bottom;
+-webkit-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+transform: translateX(-50%); }
 
 table {
   border-collapse: collapse; }
