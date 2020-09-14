@@ -1840,7 +1840,8 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #0071e3;
    background: linear-gradient(#42a1ec,#0070c9);
-  border-color: #0071e3; }
+  border-color: #0071e3;
+line-height: 20px !important; }
   .btn-secondary:hover {
     color: #fff;
     background-color: #0077ed;
