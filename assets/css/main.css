@@ -8671,6 +8671,49 @@ html {
     height: 20px;
 }
 
+
+
+
+
+
+
+
+nav {
+  background-color: rgba(0,0,0,.8);
+  transition: all .8s ease;
+  overflow: hidden;
+}
+
+nav.dark {
+  background-color: rgba(0,0,0,1);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa.fa-apple {
+  font-size: 25px;
+}
+
+nav .menu a {
+  padding: 15px;
+  transition: all .3s ease;
+  transition-delay: .6s;
+}
+
+nav.dark .menu a:last-child {
+  transition-delay: .1s;
+  transform: translateX(100%);
+}
+
 .menu-icon-box {
   display: flex;
   flex-flow: column;
@@ -8691,4 +8734,17 @@ html {
 
 .menu-icon-box.open .menu-icon:last-child {
   transform: rotateZ(-45deg);
+}
+
+
+
+@keyframes cortina {
+  0% {
+    transform: translate(-25px,-25px);
+  }
+  
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
 }
