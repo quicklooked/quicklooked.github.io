@@ -15,3 +15,7 @@ label::before {
 input {
   padding: 10px 30px !important;
 }
+
+input:-internal-autofill-selected {
+  background-color: #fff !important;
+}
