@@ -838,8 +838,8 @@ pre {
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
   .col-md-3 {
-    flex: 0 0 25%;
-    max-width: 25%; }
+    flex: 0 0 154px;
+    max-width: 154px; }
   .col-md-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
@@ -7760,8 +7760,8 @@ html {
     flex: 0 0 16.66667%;
     max-width: 16.66667%; }
   .col-md-3 {
-    flex: 0 0 25%;
-    max-width: 25%; }
+    flex: 0 0 154px;
+    max-width: 154px; }
   .col-md-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
