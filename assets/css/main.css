@@ -8875,6 +8875,28 @@ nav.dark .menu a:last-child {
   transform: none;
 }
 
+
+
+
+#apple {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+
+#apple .msg {
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	padding: 0.25em 0.75em;
+	position: relative;
+	z-index: 2;
+}
+
+#apple .text {
+	padding: 0.5em;
+	max-width: 16em;
+}
+
 #apple .buttons {
 	text-align: right;
 }
@@ -8910,36 +8932,4 @@ nav.dark .menu a:last-child {
 #apple button.blue:active,
 #apple button.blue:focus {
 	box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.8), 0 0 8px rgba(6, 125, 255, 0.1);
-}
-#apple .actions {
-	width: 30%;
-	height: 100%;
-	left: 0;
-	top: 0;
-	position: absolute;
-	z-index: 0;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-}
-#apple .actions:after,
-#apple .actions:before,
-#apple .mid {
-	content: "";
-	display: block;
-	width: 0.8em;
-	height: 0.8em;
-	border-radius: 50%;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	margin: 0 0 0 0.4em;
-	cursor: pointer;
-}
-#apple .actions:before {
-	background-color: #fd5f61;
-}
-#apple .mid {
-	background-color: #fabe4c;
-}
-#apple .actions:after {
-	background-color: #46c954;
 }
