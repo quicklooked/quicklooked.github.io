@@ -84,13 +84,10 @@ hr {
     padding: 0px;
     background-color: #0000;
     border-radius: 0px;
-    font-family: 'Feed', sans-serif !important;
+    font-family: 'Feed', 'Segoe UI' !important;
     color: rgba(117, 117, 117, 1);
     font-size: 18px;
     line-height: 24px;
-    margin-top: 0.79em;
-    margin-bottom: -0.42em;
-    letter-spacing: 0;
 }
 
 #boxit {
@@ -105,9 +102,4 @@ hr {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.003em;
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: -0.46em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
