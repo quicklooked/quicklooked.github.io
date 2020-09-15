@@ -8843,7 +8843,7 @@ nav.dark .menu a:last-child {
  */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, 0px);
 }
 
 /*
