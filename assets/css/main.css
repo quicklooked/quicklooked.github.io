@@ -8874,3 +8874,72 @@ nav.dark .menu a:last-child {
 {
   transform: none;
 }
+
+#apple .buttons {
+	text-align: right;
+}
+#apple button {
+	background-color: #fff;
+	padding: 0.25em 1em;
+	margin-left: 0.25em;
+	border: 1px solid #adadad;
+	border-radius: 0.3em;
+	transition: 0.3s;
+	outline: none;
+	box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	font-family: "Roboto", sans-serif;
+}
+#apple button.blue {
+	background: -moz-linear-gradient(#6bb3fb, #067dff);
+	background: linear-gradient(#6bb3fb, #067dff);
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#apple button:hover {
+	box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25),
+		0 0 16px rgba(255, 255, 255, 0.6);
+}
+#apple button.blue:hover {
+	box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25), 0 0 16px rgba(6, 125, 255, 0.4);
+}
+#apple button:active,
+#apple button:focus {
+	box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.8), 0 0 8px rgba(255, 255, 255, 0.5);
+}
+#apple button.blue:active,
+#apple button.blue:focus {
+	box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.8), 0 0 8px rgba(6, 125, 255, 0.1);
+}
+#apple .actions {
+	width: 30%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+	z-index: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+#apple .actions:after,
+#apple .actions:before,
+#apple .mid {
+	content: "";
+	display: block;
+	width: 0.8em;
+	height: 0.8em;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	margin: 0 0 0 0.4em;
+	cursor: pointer;
+}
+#apple .actions:before {
+	background-color: #fd5f61;
+}
+#apple .mid {
+	background-color: #fabe4c;
+}
+#apple .actions:after {
+	background-color: #46c954;
+}
