@@ -199,9 +199,9 @@ a.text-dark:hover {
 	color:#fff !important;
 }
 .navbar-brand {
-	margin-right:2rem;
-	font-size:1.55rem;
-	font-family: "Charter", "Georgia";
+	margin-right:0rem;
+	font-size:15px;
+	font-family: "Feed", "Georgia";
 }
 .dropdown-item {
 	font-weight:400;
