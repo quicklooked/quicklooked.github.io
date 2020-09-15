@@ -22,7 +22,7 @@ authors:
     sal:
       name:           Sal
       site:           https://quicklooked.github.io/@sal
-      avatar:         'assets/images/Sal.png'
+      avatar:         'assets/images/Sal.jpg'
       bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
       email:          quicklook.vn@gmail.com
       twitter:        https://twitter.com/Quicklook102
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: 'assets/images/Sal.png'
+      avatar: 'assets/images/Sal.jpg'
       
   # all pages
   - scope:
