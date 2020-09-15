@@ -8879,7 +8879,7 @@ nav.dark .menu a:last-child {
 
 
 #apple {
-	font-family: "Roboto", sans-serif;
+	font-family: "Feed", 'Segoe UI';
 	font-weight: 400;
 }
 
@@ -8910,7 +8910,7 @@ nav.dark .menu a:last-child {
 	outline: none;
 	box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25);
 	cursor: pointer;
-	font-family: "Roboto", sans-serif;
+	font-family: "Feed", 'Segoe UI';
 }
 #apple button.blue {
 	background: -moz-linear-gradient(#6bb3fb, #067dff);
