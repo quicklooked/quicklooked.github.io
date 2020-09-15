@@ -24,7 +24,7 @@ comments: false
 
 <p class="p1">What could be better? No wonder we are excited to get to work with everyone anywhere in the world!</p>
 
-### Reach out to Quicklook
+### Contact
 <p class="p1"><a href= "https://twitter.com/Quicklook102" target="_blank">Twitter</a> — Shoot me a dm or just tweet <span style="font-family: 'Charter', 'Source Serif Pro';font-weight: 600; ">@Quicklook102</span>. I am not really into professional social media circle but anyway here is my <a href= "https://www.linkedin.com/in/quicklook-inc-586967173/" target="_blank">LinkedIn</a> just in case.</p>
 
 <p class="p1">Ho Chi Minh is pretty large, so I can’t promise but If you happen to be in city by chance and want to chat, drop an <a href="mailto:quicklook.vn@gmail.com?subject=[Coffee]">Email</a> and include [Coffee] in the subject line, and we can work something out.</p>
