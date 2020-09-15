@@ -8754,16 +8754,14 @@ nav.dark .menu a:last-child {
   user-select: none;
 }
 
-#menuToggle a
-{
+#menuToggle a {
   text-decoration: none;
   color: #232323;
   
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
-{
+#menuToggle a:hover {
   color: tomato;
 }
 
@@ -8771,50 +8769,40 @@ nav.dark .menu a:last-child {
 #menuToggle input
 {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 31px;
+  height: 35px;
   position: absolute;
-  top: -7px;
-  left: -5px;
-  
+  top: -14px;
+  left: -7px;
   cursor: pointer;
-  
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-  
   -webkit-touch-callout: none;
 }
 
 /*
  * Just a quick hamburger
  */
-#menuToggle span
-{
+#menuToggle span {
   display: block;
-  width: 28px;
+  width: 17px;
   height: 1px;
   margin-bottom: 6px;
   position: relative;
-  
   background: #cdcdcd;
-  border-radius: 1px;
-  
+  border-radius: 0.5px;
   z-index: 1;
-  
   transform-origin: 4px 0px;
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
@@ -8841,8 +8829,7 @@ nav.dark .menu a:last-child {
 /*
  * Ohyeah and the last one should go the other direction
  */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, 0px);
 }
 
@@ -8850,8 +8837,7 @@ nav.dark .menu a:last-child {
  * Make this absolute positioned
  * at the top left of the screen
  */
-#menu
-{
+#menu {
   position: absolute;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -8863,15 +8849,13 @@ nav.dark .menu a:last-child {
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
+#menu li {
   padding: 10px 0;
   font-size: 22px;
 }
 
 
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul {
   transform: none;
 }
 
