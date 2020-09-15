@@ -2266,7 +2266,7 @@ box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25), 0 0 16px rgba(6, 125, 255, 0.4);
    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25), 0 0 16px rgba(6, 125, 255, 0.4); }
     .btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-success.dropdown-toggle:focus {
-box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.8), 0 0 8px rgba(6, 125, 255, 0.1); }
+box-shadow: 0 0 3px -1px rgba(0, 0, 0, 0.8), 0 0 8px rgba(6, 125, 255, 0.1); color: #fff; }
 
 .btn-outline-info {
   color: #09ebaf;
