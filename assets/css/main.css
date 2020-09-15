@@ -2241,14 +2241,19 @@ box-shadow: 0 0 0 4px rgba(0,125,250,.6); }
       box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
 
 .btn-outline-success {
-  color: #03a87c;
-  background-color: transparent;
-  background-image: none;
-  border-color: #03a87c; }
+	background-color: #fff;
+	padding: 0.25em 1em;
+	margin-left: 0.25em;
+	border: 1px solid #adadad;
+	border-radius: 0.3em;
+	transition: 0.3s;
+	outline: none;
+	box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25);
+	cursor: pointer;
+	font-family: "Feed", 'Segoe UI'; }
   .btn-outline-success:hover {
-    color: #fff;
-    background-color: #03a87c;
-    border-color: #03a87c; }
+	box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.25),
+		0 0 16px rgba(255, 255, 255, 0.6); }
   .btn-outline-success:focus, .btn-outline-success.focus {
     box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.5); }
   .btn-outline-success.disabled, .btn-outline-success:disabled {
