@@ -36,7 +36,7 @@
   flex: 0 0 auto;
 }
 
-.btn {
+.btnn {
   display: inline-block;
   position: relative;
   color: rgba(0, 0, 0, 0.54);
@@ -65,30 +65,30 @@
   transition: 0.1s background-color, 0.1s border-color, 0.1s color, 0.1s fill;
 }
 
-.btn:active,
-.btn:hover,
-.btn:focus {
+.btnn:active,
+.btnn:hover,
+.btnn:focus {
   color: rgba(0, 0, 0, 0.68);
 }
 
-.btn:active,
-.btn:active .svg {
+.btnn:active,
+.btnn:active .svg {
   transition: none;
 }
 
-.btn:hover {
+.btnn:hover {
   color: rgba(0, 0, 0, 0.68);
   border-color: rgba(0, 0, 0, 0.54);
 }
-.btn:active,
-.btn:focus {
+.btnn:active,
+.btnn:focus {
   outline: 0;
   color: rgba(0, 0, 0, 0.84);
 }
 
-.btn[disabled],
-.btn[disabled]:active,
-.btn[disabled]:hover {
+.btnn[disabled],
+.btnn[disabled]:active,
+.btnn[disabled]:hover {
     pointer-events: none;
     opacity: .25;
     cursor: default;
@@ -176,7 +176,7 @@ svg:not(:root) {
     height: 39px;
   }
 
-  .btn {
+  .btnn {
     line-height: normal;
   }
 }
