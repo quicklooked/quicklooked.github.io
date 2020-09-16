@@ -27,9 +27,6 @@
     <!-- User Stylesheet -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/user.css">
     
-    <!-- Header Stylesheet -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.min.css">
-    
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -44,7 +41,7 @@
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
 
     <!-- Navbar -->
-    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #1D1D1F !important; display:none;">
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #1D1D1F !important;">
     <div class="container">
         <a class="navbar-brand" href="{{ site.baseurl }}/index.html" style="padding-right: 0.9rem;padding-top: 0.8rem;padding-bottom: 0.8rem;"><strong style="color: #f5f5f7;font-family: Feed;font-size: 15px;font-weight: 400;">HOME</strong></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
@@ -67,50 +64,6 @@
         </div>
     </div>
     </nav>
-    
-<header id="MagicMenu" class="navbar-light fixed-top navbar mediumnavigation">
-    <div class="container">
-       <div class="d-lg-flex justify-content-between align-items-center brandrow w-100">
-           <!-- Begin Logo --> 
-           <div class="logoarea">
-               <a class="navbar-brand" href="https://www.themepush.com/demo-mundana/">Mundana</a>
-           </div>
-           <!-- End Logo -->
-           <!-- Secondary Top Menu -->
-           <div class="navbar-expand-lg  d-lg-flex align-items-center text-lg-right">
-               <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#bs4navbar,#bs4navbartop" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="menuclose">X</span><span class="navbar-toggler-icon"></span></button>
-               <div id="bs4navbartop" class="collapse navbar-collapse">
-                   <ul id="menu-extra-menu" class="navbar-nav w-100 d-lg-flex align-items-center">
-                       <li class="menu-item search align-self-center">
-                   <form action="https://www.themepush.com/demo-mundana/" class="search-form" autocomplete="off">
-                       <div class="form-group has-feedback">
-                           <input type="hidden" name="post_type" value="post">
-                           <input type="text" class="form-control" name="s" placeholder="Type and hit enter...">
-                           <i class="fa fa-search form-control-feedback"></i>
-                       </div>
-                   </form>
-                       </li>
-                   </ul>
-               </div>      
-           </div>
-           <!-- Secondary Top Menu -->
-        </div>
-        <!-- Main Menu -->
-        <div class="navbar-expand-lg d-flex  align-items-center w-100">
-            <div id="bs4navbar" class="collapse navbar-collapse">
-                <ul id="menu-top-menu" class="navbar-nav w-100 d-flex align-items-center justify-content-between">
-                    <li id="menu-item-574" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-574 nav-item"><a href="https://www.themepush.com/demo-mundana/" class="nav-link">Home</a></li>
-                    <li id="menu-item-464" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-464 nav-item"><a href="https://www.themepush.com/demo-mundana/category/life/" class="nav-link">life</a></li>
-                    <li id="menu-item-465" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-465 nav-item"><a href="https://www.themepush.com/demo-mundana/category/marketing/" class="nav-link">marketing</a></li>
-                </ul>
-            </div>       
-        </div>
-        <!-- Main Menu -->
-    </div>
-</header>    
-  
-    
-    
     
     <!-- Search Results -->
     <div id="lunrsearchresults">
