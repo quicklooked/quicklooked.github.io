@@ -13974,8 +13974,8 @@ main {
 }
 
 .row {
-        margin-right: -20px;
-        margin-left: -20px
+        margin-right: 0px;
+        margin-left: 0px
 }
 
 .row:after,.row:before {
