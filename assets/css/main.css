@@ -8677,16 +8677,8 @@ html {
 }
 
 
-
-
-
-
-
-
 nav a {
-  color: #f5f5f7;
   text-decoration: none;
-
 }
 
 nav .menu {
@@ -8740,10 +8732,6 @@ nav.dark .menu a:last-child {
     opacity: 1;
   }
 }
-
-
-
-
 
 
 
