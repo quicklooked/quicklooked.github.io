@@ -4,7 +4,7 @@
         {% for post in site.tags.featured %}                
             <li class="mb-4">
             <span>
-                <h6 class="font-weight-bold" style="line-height: 20px;">
+                <h6 class="font-weight-bold" style="line-height: 20px; overflow: hidden!important; max-height: 60px!important; text-overflow: ellipsis!important; display: -webkit-box!important; -webkit-line-clamp: 3!important; -webkit-box-orient: vertical;">
                     <a href="{{site.baseurl}}{{ post.url }}" class="text-dark">{{ post.title }}</a>
                 </h6>
                 <span class="d-block text-muted limco" style = "color: #292929 !important;">
