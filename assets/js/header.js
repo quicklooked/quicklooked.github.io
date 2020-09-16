@@ -1,99 +1,62 @@
-const carouselForward = document.querySelectorAll('.carousel-forward');
-const carouselReverse = document.querySelectorAll('.carousel-reverse');
-let resizing = false;
+function getX(item) {
+  var currTrans = item.css("transform");
 
-const updateNavWidth = () => {
-    const carouselInner = document.querySelector('.carousel-navigation-inner');
-    let carouselInnerWidth = 0;
-
-    for (let i = 0; i < carouselInner.children.length; i++) {
-        carouselInnerWidth += carouselInner.children[i].offsetWidth;
-        carouselInnerWidth += parseFloat(window.getComputedStyle(carouselInner.children[i]).marginLeft);
-        carouselInnerWidth += parseFloat(window.getComputedStyle(carouselInner.children[i]).marginRight);
-    }
-
-    carouselInner.style.width = `${carouselInnerWidth}px`;
-    carouselInner.style.transform = "translateX(0)";
-
-    // carousel forward button
-    carouselInner.parentElement.nextElementSibling.children[0].disabled = false;
-
-    // carousel reverse button
-    carouselInner.parentElement.previousElementSibling.children[0].disabled = true;
+  if (currTrans == "none") {
+    return 0;
+  } else {
+    var transSplit = currTrans.split(/[()]/)[1];
+    var posx = transSplit.split(",")[4];
+    return Number(posx);
+  }
 }
 
-const updateNavControls = () => {
-    const carouselEL = document.querySelector('.carousel-navigation');
-    const carouselInner = document.querySelector('.carousel-navigation-inner');
+function getOverflow() {
+  console.log($(".js-carouselInner").parent()[0]);
+  var overflow = $(".js-carouselInner").parent()[0].scrollWidth;
+  var width = $(".js-carouselInner").width();
+  var ow = overflow - width;
+  console.log(ow);
+  return ow;
+}
 
-    const isCarouselSameWidth = Math.ceil(carouselEL.getBoundingClientRect().width) >= carouselInner.style.width.slice(0, -2);
+var ow = 0;
 
-    if (isCarouselSameWidth) {
-        carouselForward[0].style.display = 'none';
-        carouselReverse[0].style.display = 'none';
+$(window).on("resize", function() {
+  ow = getOverflow();
+  $(".js-carouselInner").css({ transform: "translateX(0)" });
+  $(".js-carouselReverse").prop("disabled", true);
+  $(".js-carouselForward").prop("disabled", false);
+});
+
+$(document).ready(function() {
+  ow = getOverflow();
+
+  $(".js-carouselReverse").click(function(e) {
+    var x = getX($(".js-carouselInner"));
+    var difference = 274;
+    var minus = x + difference;
+
+    if (x <= -difference) {
+      $(".js-carouselInner").css({ transform: "translateX(" + minus + "px)" });
+      $(".js-carouselForward").prop("disabled", false);
     } else {
-        carouselForward[0].style.display = 'initial';
-        carouselReverse[0].style.display = 'initial';
+      $(".js-carouselInner").css({ transform: "translateX(0)" });
+      $(this).prop("disabled", true);
     }
-}
+  });
 
-carouselReverse.forEach((button) => {
-    button.addEventListener('click', e => {
-        if (e.target.nodeName === "BUTTON") {
-            const carouselEl = e.target.parentElement.nextElementSibling;
-            const carouselElInner = carouselEl.firstElementChild;
-            const translateX = parseInt(window.getComputedStyle(carouselElInner).transform.slice(7, -1).split(',')[4]);
+  $(".js-carouselForward").click(function(e) {
+    var x = getX($(".js-carouselInner"));
+    var difference = -274;
+    var plus = x + difference;
+    console.log(x);
 
-            const distance = (e.target.getBoundingClientRect().right) - (carouselElInner.getBoundingClientRect().left);
-            
-            if (distance - (carouselEl.getBoundingClientRect().width) < 0) {
-                carouselElInner.style.transform = "translateX(0)";
-                
-                // styling
-                e.target.disabled = true;
-                e.target.parentElement.nextElementSibling.nextElementSibling.children[0].disabled = false;
-            } else {
-                carouselElInner.style.transform = `translateX(${translateX + (carouselEl.getBoundingClientRect().width)}px)`;
-                e.target.parentElement.nextElementSibling.nextElementSibling.children[0].disabled = false;
-            }
-        }
-    });
-});
-
-carouselForward.forEach((button) => {
-    button.addEventListener('click', e => {
-        if (e.target.nodeName === "BUTTON") {
-            const carouselEl = e.target.parentElement.previousElementSibling;
-            const carouselElInner = carouselEl.firstElementChild;
-            const translateX = parseInt(window.getComputedStyle(carouselElInner).transform.slice(7, -1).split(',')[4]);        
-
-            const distance = (e.target.getBoundingClientRect().left) - (carouselElInner.getBoundingClientRect().right);
-
-            if (distance + (carouselEl.getBoundingClientRect().width) > 0) {
-                carouselElInner.style.transform = `translateX(-${carouselElInner.getBoundingClientRect().width - carouselEl.getBoundingClientRect().width}px)`;
-
-                // styling
-                e.target.disabled = true;
-                e.target.parentElement.previousElementSibling.previousElementSibling.children[0].disabled = false;
-            } else {
-                carouselElInner.style.transform = `translateX(${translateX - (carouselEl.getBoundingClientRect().width)}px)`;
-                e.target.parentElement.previousElementSibling.previousElementSibling.children[0].disabled = false;
-            }
-        }
-    });
-});
-
-window.addEventListener('resize', () => {
-    resizing = true;
-});
-
-setInterval(() => {
-    if (resizing) {
-        resizing = false;
-        updateNavWidth();
-        updateNavControls();
+    if (x > -(ow + difference)) {
+      $(".js-carouselInner").css({ transform: "translateX(" + plus + "px)" });
+      $(".js-carouselReverse").prop("disabled", false);
+    } else {
+      $(".js-carouselInner").css({ transform: "translateX(" + -ow + "px)" });
+      $(this).prop("disabled", true);
     }
-}, 250);
-
-updateNavWidth();
-updateNavControls();
+  });
+});
