@@ -7,6 +7,8 @@ html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
+    font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -16,6 +18,9 @@ html {
 }
 
 body {
+    color: $black;
+    font-family: -apple-system, 'Inter UI', sans-serif;
+    font-weight: 300;
     position: relative;
 }
 
@@ -24,6 +29,11 @@ ul {
   padding: 0;
 }
 
+button[disabled] {
+    pointer-events: none;
+    opacity: .25;
+    cursor: default;
+}
 
 header {
     width: 100%;
