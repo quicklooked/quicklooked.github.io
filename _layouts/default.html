@@ -41,7 +41,7 @@
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
 
     <!-- Navbar -->
-    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #1D1D1F !important;">
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #1D1D1F !important; display:none">
     <div class="container">
         <a class="navbar-brand" href="{{ site.baseurl }}/index.html" style="padding-right: 0.9rem;padding-top: 0.8rem;padding-bottom: 0.8rem;"><strong style="color: #f5f5f7;font-family: Feed;font-size: 15px;font-weight: 400;">HOME</strong></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation" style="outline: none;">
@@ -77,6 +77,7 @@
       <!-- search, notifications, bookmarkStack -->
     <div class="metabar-block u-flex0">
       <div class="buttonSet buttonSet--wide">
+          {% include search-lunr.html %}
         <label class="button button--small button--chromeless button--withIcon button--withSvgIcon inputGroup u-sm-hide metabar-predictiveSearch u-baseColor--buttonNormal u-baseColor--placeholderNormal" title="Search Medium">
           <span class="svgIcon svgIcon--search svgIcon--25px u-baseColor--iconLight">
             <svg class="svgIcon-use" width="25" height="25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 10-.884.884l4.157 4.157a.624.624 0 10.884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg>
