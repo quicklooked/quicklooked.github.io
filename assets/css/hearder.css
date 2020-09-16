@@ -1,13 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900');
-
 $black:         #2b2b2b;
 $darkgray:      #636363;
-
-html {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 
 *, *:before, *:after {
     -webkit-box-sizing: inherit;
@@ -33,18 +25,15 @@ button[disabled] {
 header {
     width: 100%;
     max-width: 1200px;
-
     margin: 0 auto;
     padding: 0 16px;
-
     text-align: center;
-
     .title {
         margin: 0;
         margin-top: 16px;
         margin-bottom: 16px;
         font-size: 32px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Noe Display';
     }
 }
 
@@ -52,7 +41,6 @@ header {
     width: 100%;
     height: 32px;
     margin: 0 auto;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,18 +55,14 @@ header {
 .carousel-navigation-inner {
     width: 100%;
     height: 100%;
-    
     display: flex;
-
     transform: translateX(0);
     transition: 250ms;
 
     li {
         text-transform: uppercase;
-
         display: flex;
         align-items: center;
-
         &:not(:first-child) {
             margin-left: 24px;
         }
@@ -88,7 +72,6 @@ header {
         color: $darkgray;
         font-size: 14px;
         text-decoration: none;
-
         &:hover {
             color: $black;
         }
@@ -98,23 +81,17 @@ header {
 .carousel-reverse, .carousel-forward {
     width: 28px;
     height: 32px;
-
     background: white;
-
     button {
         width: 100%;
         height: 100%;
-
         display: flex;
         align-items: center;
         justify-content: center;
-
         padding: 0;
         border: 0;
-
         background: inherit;
         cursor: pointer;
-
         svg {
             pointer-events: none;
             fill: $darkgray;
