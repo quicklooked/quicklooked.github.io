@@ -44,13 +44,41 @@
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
     
-<div>
-  <ul class="medium" role="navigation">
-    <li class="medium__title">Quicklook</li>
-    <li id="search-icon"><i class="fa fa-search"></i></li> 
-    <li class="medium__search"><form><input type="search"  id="search-input" placeholder="Search Quicklook"/></form></li>
-  </ul>   
-</div> 
+<div class="metabar-inner">
+  <nav role="navigation" class="metabar-block">
+    <div class="navbar-wrap">
+      <nav class="navbar">
+        <div class="navbar-inner">
+          <div class="nav nav-left">
+            <button class="btn js-carouselReverse" disabled>
+            <span class="svg svg-left"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M13.402 16.957l-6.478-6.479L13.402 4l.799.71-5.768 5.768 5.768 5.77z" fill-rule="evenodd"></path></svg></span>
+            </button>
+          </div>
+          <div class="nav-list-wrap">
+            <div class="nav-list js-carouselInner">
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/">Home</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/s/futurehuman">Future Human</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/culture">Culture</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/technology">Tech</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/entrepreneurship">Entrepreneurship</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/self">Self</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/politics">Politics</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/digital-design">Design</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/science">Science</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/popular">Popular</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topics">More</a></span></li>
+            </div>
+          </div>
+          <div class="nav nav-right">
+            <button class="btn js-carouselForward" data-action="scroll-carousel">
+              <span class="svg svg-right"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M8.3 4.2l6.4 6.3-6.4 6.3-.8-.8 5.5-5.5L7.5 5" fill-rule="evenodd"></path></svg></span>
+            </button> 
+          </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</div>
 
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #1D1D1F !important; display: none">
