@@ -123,8 +123,6 @@
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
@@ -139,13 +137,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: 'Feed', "Segoe UI", "Helvetica Neue", "Arial";
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 400;
-  line-height: 20px;
-  color: #292929;
+  line-height: 1.4;
+  color: rgba(0,0,0,.84);
   text-align: left;
-  background-color: #fff;
-  letter-spacing: -0.003em;}
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  counter-reset: sidenote-counter; 
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+  min-height: 100vh;  
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -157,11 +160,13 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  letter-spacing: 0;
+font-weight: 600;
+}
 
 p {
-  margin-top: 0;
-  margin-bottom: 12px; }
+  margin-bottom: 30px; }
 
 abbr[title],
 abbr[data-original-title] {
@@ -255,7 +260,9 @@ pre {
 
 figure {
   margin: 0 0 1rem; }
-
+figcaption {
+        -webkit-nbsp-mode: normal
+}
 img {
   vertical-align: middle;
   border-style: none; }
