@@ -1,6 +1,5 @@
 function getX(item) {
   var currTrans = item.css("transform");
-
   if (currTrans == "none") {
     return 0;
   } else {
@@ -35,7 +34,6 @@ $(document).ready(function() {
     var x = getX($(".js-carouselInner"));
     var difference = 274;
     var minus = x + difference;
-
     if (x <= -difference) {
       $(".js-carouselInner").css({ transform: "translateX(" + minus + "px)" });
       $(".js-carouselForward").prop("disabled", false);
@@ -50,7 +48,6 @@ $(document).ready(function() {
     var difference = -274;
     var plus = x + difference;
     console.log(x);
-
     if (x > -(ow + difference)) {
       $(".js-carouselInner").css({ transform: "translateX(" + plus + "px)" });
       $(".js-carouselReverse").prop("disabled", false);
