@@ -223,10 +223,6 @@ td,th {
 }
 
 body {
-        font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
-        letter-spacing: 0;
-        font-weight: 400;
-        font-style: normal;
         text-rendering: optimizeLegibility;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -239,7 +235,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
         font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
         letter-spacing: 0;
-        font-weight: 700;
+        font-weight: 600;
         font-style: normal
 }
 
