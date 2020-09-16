@@ -1,9 +1,9 @@
 <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
-	<h2 class="mb-1 h4 font-weight-bold">
+	<h2 class="mb-1 h4 font-weight-bold" style="overflow: hidden!important;max-height: 84px!important;text-overflow: ellipsis!important;display: -webkit-box!important;-webkit-line-clamp: 3!important;-webkit-box-orient: vertical;">
 	<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
 	</h2>
-	<p class="excerpt" style="margin-bottom: 15px;">
+	<p class="excerpt" style="margin-bottom: 12px;">
 	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
 	</p>
 	<small class="d-block text-muted limco" style = "color: #292929 !important;">
