@@ -9,7 +9,7 @@ const updateNavWidth = () => {
         carouselInnerWidth += parseFloat(window.getComputedStyle(carouselInner.children[i]).marginLeft);
         carouselInnerWidth += parseFloat(window.getComputedStyle(carouselInner.children[i]).marginRight);
     }
-    carouselInner.style.width = ${carouselInnerWidth}px;
+    carouselInner.style.width = $(carouselInnerWidth)px;
     carouselInner.style.transform = "translateX(0)";
     carouselInner.parentElement.nextElementSibling.children[0].disabled = false;
     carouselInner.parentElement.previousElementSibling.children[0].disabled = true;
