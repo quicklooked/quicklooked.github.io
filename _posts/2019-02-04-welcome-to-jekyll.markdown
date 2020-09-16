@@ -41,33 +41,40 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 <header>
-        <p class="title">Quicklook</p>
-        <div class="horizontal-carousel-navigation">
-            <div class="carousel-reverse">
-                <button type="button" disabled>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.707 4.293a1 1 0 0 1 0 1.414L9.414 12l6.293 6.293a1 1 0 1 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 0 1 1.414 0z" fill-opacity=".8"></path></svg>
-                </button>
+<p class="title">Quicklook</p>
+<div class="metabar-inner">
+  <nav role="navigation" class="metabar-block">
+    <div class="navbar-wrap">
+      <nav class="navbar">
+        <div class="navbar-inner">
+          <div class="nav nav-left">
+            <button class="btn js-carouselReverse" disabled>
+            <span class="svg svg-left"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M13.402 16.957l-6.478-6.479L13.402 4l.799.71-5.768 5.768 5.768 5.77z" fill-rule="evenodd"></path></svg></span>
+            </button>
+          </div>
+          <div class="nav-list-wrap">
+            <div class="nav-list js-carouselInner">
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/">Home</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/s/futurehuman">Future Human</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/culture">Culture</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/technology">Tech</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/entrepreneurship">Entrepreneurship</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/self">Self</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/politics">Politics</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/digital-design">Design</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/science">Science</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topic/popular">Popular</a></span></li>
+              <li class="nav-item"><span class="nav-text"><a class="nav-link" href="https://medium.com/topics">More</a></span></li>
             </div>
-            <div class="carousel-navigation">
-                <ul class="carousel-navigation-inner">
-                    <li><a href="">Lunch</a></li>
-                    <li><a href="">Pasta</a></li>
-                    <li><a href="">Seafood</a></li>
-                    <li><a href="">Pastries</a></li>
-                    <li><a href="">Healthy</a></li>
-                    <li><a href="">Six</a></li>
-                    <li><a href="">Twelve</a></li>
-                    <li><a href="">Breakfast</a></li>
-                    <li><a href="">Sides</a></li>
-                    <li><a href="">Dessert</a></li>
-                    <li><a href="">Drinks</a></li>
-                    <li><a href="">Snacks</a></li>
-                </ul>
-            </div>
-            <div class="carousel-forward">
-                <button type="button">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.293 4.293a1 1 0 0 1 1.414 0l7 7a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414-1.414L14.586 12 8.293 5.707a1 1 0 0 1 0-1.414z" fill-opacity=".8"></path></svg>
-                </button>
-            </div>
+          </div>
+          <div class="nav nav-right">
+            <button class="btn js-carouselForward" data-action="scroll-carousel">
+              <span class="svg svg-right"><svg class="svgIcon-use" width="21" height="21" viewBox="0 0 21 21"><path d="M8.3 4.2l6.4 6.3-6.4 6.3-.8-.8 5.5-5.5L7.5 5" fill-rule="evenodd"></path></svg></span>
+            </button> 
+          </div>
         </div>
+      </nav>
+    </div>
+  </nav>
+</div>
     </header>
