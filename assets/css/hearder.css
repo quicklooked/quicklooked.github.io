@@ -7863,28 +7863,28 @@ main {
 }
 
 .u-uiTextBold {
-        font-family: Feed, "Segoe UI", "Helvetica Neue", Arial!important;
+        font-family: 'Feed', "Segoe UI", "Helvetica Neue", Arial!important;
         letter-spacing: 0!important;
         font-weight: 700!important;
         font-style: normal!important
 }
 
 .u-uiTextSemibold {
-        font-family: Feed, "Segoe UI", "Helvetica Neue", Arial!important;
+        font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
         letter-spacing: 0!important;
         font-weight: 600!important;
         font-style: normal!important
 }
 
 .u-uiTextMedium {
-        font-family: Feed, "Segoe UI", "Helvetica Neue", Arial!important;
+        font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
         letter-spacing: 0!important;
         font-weight: 500!important;
         font-style: normal!important
 }
 
 .u-uiTextRegular {
-        font-family: Feed, "Segoe UI", "Helvetica Neue", Arial!important;
+        font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
         letter-spacing: 0!important;
         font-weight: 400!important;
         font-style: normal!important
@@ -7996,41 +7996,41 @@ main {
 }
 
 .u-contentSerifRegular {
-        --x-height-multiplier:0.375!important;--baseline-multiplier:0.17!important;font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
+        --x-height-multiplier:0.375!important;--baseline-multiplier:0.17!important;font-family: 'Content', 'Content VN', 'Source Serif Pro'!important;
         letter-spacing: .01rem!important;
         font-weight: 400!important;
         font-style: normal!important
 }
 
 .u-contentSerifItalic {
-        --x-height-multiplier:0.375!important;--baseline-multiplier:0.17!important;font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
+        --x-height-multiplier:0.375!important;--baseline-multiplier:0.17!important;font-family: 'Content', 'Content VN', 'Source Serif Pro'!important;
         letter-spacing: .01rem!important;
         font-weight: 400!important;
         font-style: italic!important
 }
 
 .u-contentSerifBold {
-        --x-height-multiplier:0.375!important;--baseline-multiplier:0.17!important;font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
+        --x-height-multiplier:0.375!important;--baseline-multiplier:0.17!important;font-family: 'Content', 'Content VN', 'Source Serif Pro'!important;
         letter-spacing: .01rem!important;
         font-weight: 700!important;
         font-style: normal!important
 }
 
 .u-uiSerifRegular {
-        --x-height-multiplier:0.342!important;--baseline-multiplier:0.22!important;font-family: medium-ui-serif-font,medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif!important;
+        --x-height-multiplier:0.342!important;--baseline-multiplier:0.22!important;font-family: 'Content', 'Content VN', 'Source Serif Pro'!important;
         letter-spacing: .01rem!important;
         font-weight: 400!important;
         font-style: normal!important
 }
 
 .u-accentTextSerif {
-        font-family: medium-marketing-gift-serif,Georgia,Cambria,"Times New Roman",Times,serif!important;
+        font-family: 'Content', 'Content VN', 'Source Serif Pro'!important;
         letter-spacing: .01rem!important;
         font-weight: 400!important
 }
 
 .u-accentTextSansSerif {
-        font-family: medium-marketing-gift-sans,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+        font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
         font-style: normal!important;
         font-weight: 400!important
 }
