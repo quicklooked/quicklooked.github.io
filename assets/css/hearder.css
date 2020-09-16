@@ -1,30 +1,3 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
-article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
-        display: block
-}
-
-audio,canvas,progress,video {
-        display: inline-block;
-        vertical-align: baseline
-}
-
-audio:not([controls]) {
-        display: none;
-        height: 0
-}
-
-[hidden],template {
-        display: none
-}
-
-a {
-        background-color: transparent
-}
-
-a:active,a:hover {
-        outline: 0
-}
 
 abbr[title] {
         border-bottom: 1px dotted
@@ -38,19 +11,12 @@ dfn {
         font-style: italic
 }
 
-h1 {
-        font-size: 2em;
-        margin: .67em 0
-}
 
 mark {
         background: #ff0;
         color: #000
 }
 
-small {
-        font-size: 80%
-}
 
 sub,sup {
         font-size: 75%;
@@ -67,23 +33,12 @@ sub {
         bottom: -.25em
 }
 
-img {
-        border: 0
-}
 
 svg:not(:root) {
         overflow: hidden
 }
 
-figure {
-        margin: 1em 40px
-}
 
-hr {
-        -webkit-box-sizing: content-box;
-        box-sizing: content-box;
-        height: 0
-}
 
 pre {
         overflow: auto
@@ -174,8 +129,6 @@ td,th {
         padding: 0
 }
 
-:root {
-        --x-height-multiplier:0;--baseline-multiplier:0}
 
 .m-breakWord {
         word-break: break-word;
@@ -206,38 +159,6 @@ td,th {
         content: '\00B7'
 }
 
-.subscript {
-        margin-left: 2px;
-        font-size: 15px;
-        vertical-align: subscript
-}
-
-@font-face {
-        font-family: Cambria;
-        src: local('Arial'),local('Helvetica');
-        unicode-range: U+2500-259F
-}
-
-@-ms-viewport {
-        width: device-width
-}
-
-body {
-        text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -moz-font-feature-settings: "liga" on;
-        color: rgba(0,0,0,.84);
-        font-size: 20px;
-        line-height: 1.4
-}
-
-h1,h2,h3,h4,h5,h6 {
-        font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial'!important;
-        letter-spacing: 0;
-        font-weight: 600;
-        font-style: normal
-}
 
 a {
         color: inherit;
@@ -248,21 +169,11 @@ a,button,input {
         -webkit-tap-highlight-color: transparent
 }
 
-html {
-        overflow-y: scroll
-}
-
-body,html {
-        overflow-x: hidden
-}
 
 blockquote,dd,dl,figure,form,h1,h2,h3,h4,h5,h6,menu,ol,p,pre,ul {
         margin: 0
 }
 
-p {
-        margin-bottom: 30px
-}
 
 menu,ol,ul {
         padding: 0;
@@ -274,9 +185,6 @@ figcaption {
         -webkit-nbsp-mode: normal
 }
 
-main {
-        display: block
-}
 
 @media screen and (max-device-width: 1000px) {
         html {
