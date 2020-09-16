@@ -43,7 +43,39 @@
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
-
+<nav>
+    <p class="title">Quicklook</p>
+    <div class="horizontal-carousel-navigation">
+        <div class="carousel-reverse">
+            <button type="button" disabled>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.707 4.293a1 1 0 0 1 0 1.414L9.414 12l6.293 6.293a1 1 0 1 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 0 1 1.414 0z" fill-opacity=".8"></path></svg>
+            </button>
+        </div>
+        <div class="carousel-navigation">
+            <ul class="carousel-navigation-inner">
+                <li><a href="">Lunch</a></li>
+                <li><a href="">Pasta</a></li>
+                <li><a href="">Seafood</a></li>
+                <li><a href="">Pastries</a></li>
+                <li><a href="">Healthy</a></li>
+                <li><a href="">Six</a></li>
+                <li><a href="">Twelve</a></li>
+                <li><a href="">Breakfast</a></li>
+                <li><a href="">Sides</a></li>
+                <li><a href="">Dessert</a></li>
+                <li><a href="">Drinks</a></li>
+                <li><a href="">Snacks</a></li>
+            </ul>
+        </div>
+        <div class="carousel-forward">
+            <button type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.293 4.293a1 1 0 0 1 1.414 0l7 7a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414-1.414L14.586 12 8.293 5.707a1 1 0 0 1 0-1.414z" fill-opacity=".8"></path></svg>
+            </button>
+        </div>
+    </div>
+</nav>
+    
+    
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top" style="background-color: #1D1D1F !important; display: none">
     <div class="container">
