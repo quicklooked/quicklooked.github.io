@@ -13856,20 +13856,6 @@ figcaption {
         border-bottom: 3px solid #218799!important
 }
 
-.col,.container,.row {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box
-}
-
-
-.row:after,.row:before {
-        display: table;
-        content: " "
-}
-
-.row:after {
-        clear: both
-}
 
 .col {
         position: relative;
