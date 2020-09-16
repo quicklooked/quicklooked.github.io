@@ -9,7 +9,7 @@ const updateNavWidth = () => {
         carouselInnerWidth += parseFloat(window.getComputedStyle(carouselInner.children[i]).marginLeft);
         carouselInnerWidth += parseFloat(window.getComputedStyle(carouselInner.children[i]).marginRight);
     }
-    carouselInner.style.width = `${carouselInnerWidth}px`;
+    carouselInner.style.width = ${carouselInnerWidth}px;
     carouselInner.style.transform = "translateX(0)";
     // carousel forward button
     carouselInner.parentElement.nextElementSibling.children[0].disabled = false;
@@ -41,7 +41,7 @@ carouselReverse.forEach((button) => {
                 e.target.disabled = true;
                 e.target.parentElement.nextElementSibling.nextElementSibling.children[0].disabled = false;
             } else {
-                carouselElInner.style.transform = `translateX(${translateX + (carouselEl.getBoundingClientRect().width)}px)`;
+                carouselElInner.style.transform = translateX(${translateX + (carouselEl.getBoundingClientRect().width)}px);
                 e.target.parentElement.nextElementSibling.nextElementSibling.children[0].disabled = false;
             }
         }
@@ -55,12 +55,12 @@ carouselForward.forEach((button) => {
             const translateX = parseInt(window.getComputedStyle(carouselElInner).transform.slice(7, -1).split(',')[4]);        
             const distance = (e.target.getBoundingClientRect().left) - (carouselElInner.getBoundingClientRect().right);
             if (distance + (carouselEl.getBoundingClientRect().width) > 0) {
-                carouselElInner.style.transform = `translateX(-${carouselElInner.getBoundingClientRect().width - carouselEl.getBoundingClientRect().width}px)`;
+                carouselElInner.style.transform = translateX(-${carouselElInner.getBoundingClientRect().width - carouselEl.getBoundingClientRect().width}px);
                 // styling
                 e.target.disabled = true;
                 e.target.parentElement.previousElementSibling.previousElementSibling.children[0].disabled = false;
             } else {
-                carouselElInner.style.transform = `translateX(${translateX - (carouselEl.getBoundingClientRect().width)}px)`;
+                carouselElInner.style.transform = translateX(${translateX - (carouselEl.getBoundingClientRect().width)}px);
                 e.target.parentElement.previousElementSibling.previousElementSibling.children[0].disabled = false;
             }
         }
