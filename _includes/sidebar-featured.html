@@ -16,7 +16,7 @@
          <li class="u-flex u-marginBottom24">
             <a class="link u-baseColor--link avatar" href="{{site.baseurl}}/@{{post.author}}" data-action="show-user-card" data-action-value="d00bc5bb7954" data-action-type="hover" data-user-id="d00bc5bb7954" dir="auto">
 		    <div class="u-relative u-inlineBlock u-flex0">
-			    {% for author in post.author %}
+			    {% for image in post.image %}
                   <img src="{{site.baseurl}}/{{post.avatar}}" class="avatar-image avatar-image--smaller" alt="Go to the profile of {{ post.author }} ">{% endfor %}
                   <div class="avatar-halo u-absolute u-textColorGreenNormal svgIcon" style=" display:flex; flex-direction:row; align-items: center; justify-content: center; height:calc(100% + 25px); width:calc(100% + 25px); pointer-events: none; top:50%; left:50%; transform:translateY(-50%) translateX(-50%); ">
                      <svg width="49" height="49" viewBox="0 0 49 49" xmlns="http://www.w3.org/2000/svg" style="width: calc(100% - 16px); height: calc(100% - 16px);">
