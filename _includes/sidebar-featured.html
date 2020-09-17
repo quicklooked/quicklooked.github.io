@@ -44,29 +44,43 @@
                      </ol>
                   </aside>
                </div>
+		    
+		    
+		    
+		    
                <div class="streamItem streamItem--extremeAdaptiveSection js-streamItem">
                   <aside class="extremeAdaptiveSection uiScale uiScale-ui--small uiScale-caption--small">
-                     <a class="ds-link ds-link--stylePointer" href="https://medium.com/topic/popular">
+                     <a class="ds-link ds-link--stylePointer" href="https://quicklooked.github.io/">
                         <div class="u-flexCenter u-justifyContentSpaceBetween u-borderBottomLighter u-marginTop32 u-paddingBottom16 u-marginRight32 u-marginLeft32">
-                           <h3 class="ui-h2">Popular on Medium</h3>
+                           <h3 class="ui-h2">Popular on Quicklook</h3>
                         </div>
                      </a>
                      <ol class=" u-padding32">
+			      {% for post in site.tags.featured %} 
                         <li class="u-flex u-marginBottom24">
                            <div class="u-textColorLighter u-fontSize32 u-marginTop4">01</div>
                            <div class="u-flex1 u-marginLeft16 u-minWidth200 js-trackPostPresentation" data-post-id="31cb8eba9d63" data-source="extreme_sidebar---------1-49----------9d34e48ecf94------------" data-scroll="native">
-                              <a class="ds-link ds-link--stylePointer u-overflowHidden u-flex0 u-width100pct" href="https://elemental.medium.com/a-supercomputer-analyzed-covid-19-and-an-interesting-new-theory-has-emerged-31cb8eba9d63?source=extreme_sidebar---------1-49----------9d34e48ecf94------------" data-action-source="extreme_sidebar---------1-49----------9d34e48ecf94------------" data-post-id="31cb8eba9d63">
-                                 <h2 class="ui-h4 ui-clamp3 u-marginBottom4">A Supercomputer Analyzed Covid-19&#8202;—&#8202;and an Interesting New Theory Has&nbsp;Emerged</h2>
+                              <a class="ds-link ds-link--stylePointer u-overflowHidden u-flex0 u-width100pct" href="{{site.baseurl}}{{ post.url }}?source=extreme_sidebar---------1-49----------9d34e48ecf94------------" data-action-source="extreme_sidebar---------1-49----------9d34e48ecf94------------" data-post-id="31cb8eba9d63">
+                                 <h2 class="ui-h4 ui-clamp3 u-marginBottom4">{{ post.title }}</h2>
                               </a>
                               <div class="u-flexCenter  u-minWidth0 u-flex1">
                                  <div class="u-flexTop u-noWrapWithEllipsis u-flex1">
                                     <div class="u-noWrapWithEllipsis u-flex1">
                                        <div class="ui-captionStrong u-noWrapWithEllipsis">
-                                          <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis"><a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="https://elemental.medium.com/@tomsmith585" data-action="show-user-card" data-action-value="d00bc5bb7954" data-action-type="hover" data-user-id="d00bc5bb7954" data-collection-slug="elemental-by-medium" dir="auto">Thomas Smith</a> in <a class="ds-link ds-link--styleSubtle" href="https://elemental.medium.com" data-action="show-collection-card" data-action-value="elemental-by-medium" data-action-type="hover" data-collection-slug="elemental-by-medium">Elemental</a></div>
+                                          <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis">
+						  {% for author in post.author %}
+						  <a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="d00bc5bb7954" data-action-type="hover" data-user-id="d00bc5bb7954" data-collection-slug="elemental-by-medium" dir="auto">{{ post.author }}</a>
+						  {% endfor %}
+						  in <span class="catlist">
+						  {% for category in post.categories %}
+						  <a class="ds-link ds-link--styleSubtle" href="{{site.baseurl}}/categories#{{ category | downcase }}" data-action="show-collection-card" data-action-value="elemental-by-medium" data-action-type="hover" data-collection-slug="elemental-by-medium">{{ category }}</a><span class="sep">, </span>
+						  {% endfor %}
+						  </span>
+						  </div>
                                        </div>
                                        <div class="ui-caption u-noWrapWithEllipsis">
                                           <span class="u-noWrap" data-tooltip="Updated Sep 4">
-                                             <time class="u-inlineBlock u-lineHeightBase">Sep 1</time><span class="middotDivider"></span><span class="readingTime" title="8 min read"></span>
+                                             <time class="u-inlineBlock u-lineHeightBase">{{ post.date | date: '%b %d' }}</time><span class="middotDivider"></span><span class="readingTime" title="">{% include meta-read-time.html %}</span>
                                              <span class="u-paddingLeft4">
                                                 <span class="svgIcon svgIcon--star svgIcon--15px">
                                                    <svg class="svgIcon-use" width="15" height="15">
@@ -84,6 +98,8 @@
                      </ol>
                   </aside>
                </div>
+		    
+		    
             </div>
             <footer class="u-marginTop30 u-marginAuto container u-maxWidth740">
                <div class="u-flex u-flexWrap u-paddingTop10 u-paddingBottom25 m-breakWord u-borderTopLightest u-xs-paddingLeft20 u-xs-paddingRight20"><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="https://help.medium.com/hc/en-us" title="Visit Medium’s help center" aria-label="Visit Medium’s help center">Help</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="https://medium.statuspage.io" title="Status of Medium" aria-label="Status of Medium">Status</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="https://medium.com/earn" title="Learn about writing on Medium" aria-label="Learn about writing on Medium">Writers</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="https://blog.medium.com" title="Visit Medium’s blog" aria-label="Visit Medium’s blog">Blog</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e" title="View open job positions at Medium" aria-label="View open job positions at Medium">Careers</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="https://policy.medium.com/medium-privacy-policy-f03bf92035c9" title="Read Medium’s policies" aria-label="Read Medium’s policies">Privacy</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0 u-marginRight16" href="//policy.medium.com/medium-terms-of-service-9db0094a1e0f" title="Read Medium’s terms of service" aria-label="Read Medium’s terms of service">Terms</a><a class="link u-baseColor--link u-textColorNormal u-fontSize14 u-flex0" href="https://medium.com/about" title="More about Medium" aria-label="More about Medium">About</a></div>
