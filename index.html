@@ -158,7 +158,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
     <div class="u-foreground u-minHeight100vh">
         <div class="extreme-container12col u-flex u-marginTop48">
         <div class="extreme-container8col u-width100pct u-flex1 u-borderBox u-paddingRight24 extreme-10colSizeFull extreme-10colPadding0 js-mainfeed">
-            {% for post in paginator.posts %}
+            {% for post in site.posts %}
             {% include main-loop-card.html %}
             {% endfor %}
             </div>
