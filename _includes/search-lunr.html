@@ -74,12 +74,3 @@ function lunr_search(term) {
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
     .lunrsearchresult a:hover .title {text-decoration: underline;}
 </style>
-
-
-
-
-<form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <label style="margin-bottom: 0px !important; width: 100% !important;">
-        <input type="text" class="form-control text-small" style="box-shadow: 0 0 0 0px rgba(0,125,250,.6); border-color: #fff; background-color: #fff !important; padding: 10px 35px !important; opacity: 100%;"  id="lunrsearch" name="q" value="" placeholder="Search Quicklook">
-    </label>
-</form>
