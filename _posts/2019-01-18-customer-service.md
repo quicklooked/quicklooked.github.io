@@ -4,6 +4,7 @@ title:  "‘Biofeedback’ Could Ease Headaches, Anxiety — and Maybe a Lot Els
 author: jane
 categories: [ Tutorial ]
 image: assets/images/11.jpg
+tags: [news]
 ---
 
 No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML & CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here.
