@@ -2,7 +2,7 @@
 layout: post
 title:  "33 Things I Stole From People Smarter Than Me"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll, Tutorial ]
 image: assets/images/6.jpg
 tags: popular
 ---
