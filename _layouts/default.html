@@ -80,6 +80,7 @@
       <!-- search, notifications, bookmarkStack -->
     <div class="metabar-block u-flex0">
       <div class="buttonSet buttonSet--wide">
+          {% include search-lunr.html %}
           <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
         <label class="button button--small button--chromeless button--withIcon button--withSvgIcon inputGroup u-sm-hide metabar-predictiveSearch u-baseColor--buttonNormal u-baseColor--placeholderNormal" title="Quicklook">
           <span class="svgIcon svgIcon--search svgIcon--25px u-baseColor--iconLight">
