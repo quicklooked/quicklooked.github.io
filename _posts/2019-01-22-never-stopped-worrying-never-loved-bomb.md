@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Never stopped worrying or loving the bomb"
+title:  "Your ‘Surge Capacity’ Is Depleted — It’s Why You Feel Awful"
 author: sal
 categories: [ Jekyll ]
 image: assets/images/14.jpg
