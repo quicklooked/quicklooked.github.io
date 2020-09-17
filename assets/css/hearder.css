@@ -8337,13 +8337,7 @@ figcaption {
         }
 }
 
-.u-noWrap {
-        white-space: nowrap!important
-}
 
-.u-normalWrap {
-        white-space: normal!important
-}
 
 .u-noWrapWithEllipsis {
         white-space: nowrap!important;
@@ -9131,10 +9125,6 @@ figcaption {
         fill: inherit!important
 }
 
-.uiScale {
-        line-height: 20px;
-        font-size: 16px
-}
 
 .v-glyph--unified01 .uiScale {
         line-height: 18px;
