@@ -48,10 +48,11 @@ description: "Quicklook’s mission is “to organize the world’s product info
                                         <div class="u-noWrapWithEllipsis u-flex1">
                                             <div class="ui-captionStrong u-noWrapWithEllipsis">
                                                 <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis">
-                                                    <a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{second_post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="890b995a50b5" data-action-type="hover" data-user-id="890b995a50b5" data-collection-slug="elemental-by-medium" dir="auto">{{ second_post.author }}</a> in 
+                                                    <a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{second_post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="890b995a50b5" data-action-type="hover" data-user-id="890b995a50b5" data-collection-slug="elemental-by-medium" dir="auto">{{ second_post.author }}</a> in <span class="catlist">
                                                     {% for category in second_post.categories %}
                                                     <a class="ds-link ds-link--styleSubtle" href="{{site.baseurl}}/categories#{{ category | downcase }}" data-action="show-collection-card" data-action-value="" data-action-type="hover" data-collection-slug="">{{ category }}</a><span class="sep">, </span>
                                                     {% endfor %}
+                                                    </span>
                                                 </div>
                                             </div>
                                             <div class="ui-caption u-noWrapWithEllipsis">
