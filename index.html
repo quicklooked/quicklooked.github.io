@@ -31,7 +31,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
         {{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}
     </p>
     <div> 
-        <small class="d-block text-muted limco" style="line-height: 20px;font-size: 15px;">
+        <small class="d-block text-muted limco" style="line-height: 20px;font-size: 15px;color: #292929 !important;">
                 <a class="text-dark" href="{{site.baseurl}}/@{{latest_post.author}}" style="text-transform: capitalize;">{{ latest_post.author | author.name }}</a>
                 in <span class="catlist">
                 {% for category in latest_post.categories %}
