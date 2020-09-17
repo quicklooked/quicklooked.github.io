@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "We all wait for summer"
+title:  "USB-C Was Supposed to Simplify Our Lives. Instead, It’s a Total Mess."
 author: jane
 categories: [ Jekyll ]
 image: assets/images/1.jpg
