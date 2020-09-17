@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "What is Jekyll"
+title:  "‘Biofeedback’ Could Ease Headaches, Anxiety — and Maybe a Lot Else"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ Tutorial ]
 image: assets/images/11.jpg
 ---
 
