@@ -143,7 +143,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
                 <h1 class="mb-3" style="font-family: 'Noe Display' !important;line-height: 38px !important;font-size: 32px !important;">{{post.title}}</h1>
-                <p class="mb-3 lead" style="font-size: 16px;-webkit-line-clamp: 2;-webkit-box-orient: vertical; color: rgba(0, 0, 0, 0.54) !important; overflow: hidden;text-overflow: ellipsis;display: block;display: -webkit-box;max-width: 100%;height: 40px;">
+                <p class="mb-3 lead" style="line-height: 20px;font-size: 16px;-webkit-line-clamp: 2;-webkit-box-orient: vertical; color: rgba(0, 0, 0, 0.54) !important; overflow: hidden;text-overflow: ellipsis;display: block;display: -webkit-box;max-width: 100%;height: 40px;">
                     {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
                 </p>
                 <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
