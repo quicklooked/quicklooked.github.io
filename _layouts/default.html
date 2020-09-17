@@ -81,7 +81,7 @@
     <div class="metabar-block u-flex0">
       <div class="buttonSet buttonSet--wide">
           {% include search-lunr.html %}
-          <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+          <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" style="display: inline-block;">
         <label class="button button--small button--chromeless button--withIcon button--withSvgIcon inputGroup u-sm-hide metabar-predictiveSearch u-baseColor--buttonNormal u-baseColor--placeholderNormal" title="Quicklook">
           <span class="svgIcon svgIcon--search svgIcon--25px u-baseColor--iconLight">
             <svg class="svgIcon-use" width="25" height="25"><path d="M20.067 18.933l-4.157-4.157a6 6 0 10-.884.884l4.157 4.157a.624.624 0 10.884-.884zM6.5 11c0-2.62 2.13-4.75 4.75-4.75S16 8.38 16 11s-2.13 4.75-4.75 4.75S6.5 13.62 6.5 11z"></path></svg>
