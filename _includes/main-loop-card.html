@@ -1,24 +1,33 @@
 <div class="extreme-container8col u-width100pct u-flex1 u-borderBox u-paddingRight24 extreme-10colSizeFull extreme-10colPadding0 js-mainfeed">
+   {% if page.url == "/" %}
    <div class="streamItem streamItem--extremePostPreview js-streamItem" data-action-scope="_actionscope_32">
+      {% assign latest_post = site.posts[0] %}
+      {% assign author = site.authors[page.author] %}
       <article class="extremePostPreview u-marginBottom48 uiScale uiScale-ui--small uiScale-caption--small">
          <div class="extremePostPreview-post u-minWidth0 u-flex1 u-marginRight24 u-textAlignLeft js-trackPostPresentation" data-post-id="e3ae61f3b818" data-source="extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-scroll="native">
             <span class="ui-capsSubtle">Based on your reading history</span>
-            <a class="ds-link ds-link--stylePointer u-overflowHidden u-flex0 u-width100pct" href="https://medium.com/history-of-yesterday/the-tallest-person-to-ever-walk-on-this-planet-e3ae61f3b818?source=extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-action-source="extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-post-id="e3ae61f3b818">
-               <h2 class="ui-h2 ui-xs-h4 ui-clamp3">The Tallest Person to Ever Walk on This&nbsp;Planet</h2>
+            <a class="ds-link ds-link--stylePointer u-overflowHidden u-flex0 u-width100pct" href="{{site.baseurl}}{{latest_post.url}}?source=extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-action-source="extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-post-id="e3ae61f3b818">
+               <h2 class="ui-h2 ui-xs-h4 ui-clamp3">{{ latest_post.title }}</h2>
             </a>
-            <a class="ds-link ds-link--stylePointer u-width100pct" href="https://medium.com/history-of-yesterday/the-tallest-person-to-ever-walk-on-this-planet-e3ae61f3b818?source=extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-action-source="extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-post-id="e3ae61f3b818">
-               <div class="ui-summary ui-clamp2 u-marginTop2">Robert Wadlow: a true&nbsp;giant</div>
+            <a class="ds-link ds-link--stylePointer u-width100pct" href="{{site.baseurl}}{{latest_post.url}}?source=extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-action-source="extreme_main_feed---------25-58--------------------b1e000db_c688_48e0_b240_44985ed201fb--8" data-post-id="e3ae61f3b818">
+               <div class="ui-summary ui-clamp2 u-marginTop2">{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 136 }}</div>
             </a>
             <div class="u-flex u-minWidth0 u-justifyContentSpaceBetween u-marginTop12">
                <div class="u-flexCenter  u-minWidth0 u-flex1">
                   <div class="u-flexTop u-noWrapWithEllipsis u-flex1">
                      <div class="u-noWrapWithEllipsis u-flex1">
                         <div class="ui-captionStrong u-noWrapWithEllipsis">
-                           <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis"><a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="https://medium.com/@atapalaga97" data-action="show-user-card" data-action-value="72198dc59ac" data-action-type="hover" data-user-id="72198dc59ac" dir="auto">Andrei Tapalaga ✒️</a> in <a class="ds-link ds-link--styleSubtle" href="https://medium.com/history-of-yesterday" data-action="show-collection-card" data-action-value="history-of-yesterday" data-action-type="hover">History of Yesterday</a></div>
+                           <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis"><a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{latest_post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="72198dc59ac" data-action-type="hover" data-user-id="72198dc59ac" dir="auto">{{ latest_post.author | author.name }} ✒️</a> 
+                              in <span class="catlist">
+                              {% for category in latest_post.categories %}
+                              <a class="ds-link ds-link--styleSubtle" href="{{site.baseurl}}/categories#{{ category | downcase }}" data-action="show-collection-card" data-action-value="history-of-yesterday" data-action-type="hover">{{ category }}</a><span class="sep">, </span>
+                               {% endfor %}
+                              </span>
+                              </div>
                         </div>
                         <div class="ui-caption u-noWrapWithEllipsis">
                            <span class="u-noWrap" data-tooltip="Updated Jul 16">
-                              <time class="u-inlineBlock u-lineHeightBase">Jul 12</time><span class="middotDivider"></span><span class="readingTime" title="5 min read"></span>
+                              <time class="u-inlineBlock u-lineHeightBase">{{latest_post.date | date: '%b %d'}}</time><span class="middotDivider"></span><span class="readingTime" title="">{% include meta-read-time.html %}</span>
                               <span class="u-paddingLeft4">
                                  <span class="svgIcon svgIcon--star svgIcon--15px">
                                     <svg class="svgIcon-use" width="15" height="15">
