@@ -136,7 +136,7 @@ description: "Quicklook’s mission is “to organize the world’s product info
 {% if page.url == "/" %}
     
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
-<div class="row remove-site-content-margin">
+<div class="row remove-site-content-margin" style="display:none;">
     <!-- latest post -->
     {% assign latest_post = site.posts[0] %}
     {% assign author = site.authors[page.author] %}
