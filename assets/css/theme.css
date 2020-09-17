@@ -628,13 +628,13 @@ ol.list-featured li {
 	font-size:15px;
 }
 ol.list-featured li:before {
-    content: "0" counter(my-awesome-counter);
-    font-weight: normal;
-    font-size: 34px;
-    margin-right: 16px;
-    font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
-    line-height: 1;
-    opacity: .1;
+        content: "0" counter(my-awesome-counter);
+        font-weight: normal;
+        font-size: 34px !important;
+        font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
+        color: rgba(0,0,0,.15)!important;
+        fill: rgba(0,0,0,.15)!important;
+        margin-top: 4px!important;
 }
 .catlist .sep:last-child {
 	display:none;
