@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Accumulated experience of social living"
+title:  "A Scientist and Engineer Explain Everything Elon Musk’s Neuralink Can (and Can’t) Do"
 author: sal
-categories: [ Jekyll, Tutorial ]
+categories: [ Jekyll ]
 image: assets/images/15.jpg
+tags: [news]
 ---
 The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
 
