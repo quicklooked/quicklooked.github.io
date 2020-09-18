@@ -458,9 +458,6 @@ mark,
   background-color: rgba(12, 242, 143, 0.2);
         color: #292929;}
 
-.mark:hover {
-	background-color: rgba(12, 235, 160, 0.9);
-}
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
