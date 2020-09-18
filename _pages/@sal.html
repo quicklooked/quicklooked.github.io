@@ -132,6 +132,7 @@ permalink: "/@sal"
                <h4 class="bc eu gb gc cl">Featured</h4>
             </div>
             {% assign posts = site.posts | where:"author","sal" %}
+            {% assign posts = site.posts | where:"author","sal" %}
             {% for post in site.tags.featured %}
             <div class="gf gg gh gi gj ab c">
                <div class="w gk">
@@ -204,9 +205,9 @@ permalink: "/@sal"
                                  </div>
                               </figure>
                               <div>
-                                 <h1 id="97cb" class="ew hq hr bc eu ev hs ht cl">{{ post.title }}</h1>
+                                 <h1 id="97cb" class="ew hq hr bc eu ev hs ht cl" style="line-height: 28px;font-size: 24px;">{{ post.title }}</h1>
                               </div>
-                              <h2 id="7ef4" class="hu hv hr bc bd hw hx hy bg" style="overflow: hidden!important;max-height: 32px!important;text-overflow: ellipsis!important;display: -webkit-box!important;-webkit-line-clamp: 1!important;-webkit-box-orient: vertical;">{{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}</h2>
+                              <h2 id="7ef4" class="hu hv hr bc bd hw hx hy bg" style="overflow: hidden!important;max-height: 20px!important;text-overflow: ellipsis!important;display: -webkit-box!important;-webkit-line-clamp: 1!important;-webkit-box-orient: vertical;font-size: 16px;line-height: 20px;">{{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}</h2>
                            </section>
                         </div>
                      </a>
