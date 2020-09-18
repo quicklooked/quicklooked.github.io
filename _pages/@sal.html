@@ -99,7 +99,7 @@ permalink: "/@sal"
                   <p class="bc bd fh fi cl">{{ site.authors.sal.bio }}</p>
                </div>
                <span class="bc bd be bf bg">
-                  <div class="fj">Medium member since May 2017</div>
+                  <div class="fj">Quicklook member since May 2017</div>
                   <div class="fk fl fj">·</div>
                   <div class="fj">Editor of&nbsp;<a href="/humungus" class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener">Humungus</a></div>
                   <div class="fk fl fj">·</div>
@@ -128,7 +128,7 @@ permalink: "/@sal"
          <div data-reach-tabs="" class="fq">
             <ul data-reach-tab-list="" role="tablist" class="fr bp ce fs ft">
                <li data-reach-tab="" role="tab" id="tab--1--0" tabindex="0" aria-selected="true" aria-controls="panel--1--0" data-selected="" class="cf ew fu fv jc ch">
-                  <h4 class="bc bd be bf cl"><a class="cq cr bj bk bl bm bn bo bp bq cs ct bt cu cv" rel="noopener" href="/@johndevore">Profile</a></h4>
+                  <h4 class="bc bd be bf cl"><a class="cq cr bj bk bl bm bn bo bp bq cs ct bt cu cv" rel="noopener" href="{{ site.authors.sal.site }}">Profile</a></h4>
                </li>
                <li data-reach-tab="" role="tab" id="tab--1--1" tabindex="-1" aria-selected="false" aria-controls="panel--1--1" class="cf ew fu fv fw ch">
                   <h4 class="bc bd be bf bg"><a class="cq cr bj bk bl bm bn bo bp bq cs ct bt cu cv" rel="noopener" href="/@johndevore/has-recommended" style="display:none;">Claps</a></h4>
@@ -150,20 +150,22 @@ permalink: "/@sal"
             <div class="fy fz n ga">
                <h4 class="bc eu gb gc cl">Featured</h4>
             </div>
+            {% assign posts = site.posts | where:"author","sal" %}
+            {% for post in posts %}
             <div class="gf gg gh gi gj ab c">
                <div class="w gk">
                   <div class="gl n">
                      <div class="gd s t">
                         <div class="o n">
                            <div>
-                              <a rel="noopener" href="/@johndevore?source=---------2----------------------------">
+                              <a rel="noopener" href="{{site.baseurl}}{{post.url}}">
                                  <div class="cn gm gn">
                                     <div class="bi n ee o p ac ef eg eh ei ej ek">
                                        <svg width="49" height="49" viewBox="0 0 49 49">
                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 1.1c-9.39 0-17.53 5.55-21.51 13.66L2 14.28C6.15 5.82 14.66 0 24.5 0S42.85 5.82 47 14.28l-.99.48C42.03 6.65 33.9 1.1 24.5 1.1zM2.99 34.24C6.97 42.35 15.1 47.9 24.5 47.9c9.39 0 17.53-5.55 21.51-13.66l.99.48C42.85 43.18 34.34 49 24.5 49S6.15 43.18 2 34.72l.99-.48z"></path>
                                        </svg>
                                     </div>
-                                    <img alt="John DeVore" class="ab dt gn gm" src="https://miro.medium.com/fit/c/40/40/1*fDAPBOEwFZ_odDhE5Nq3kg.jpeg" width="40" height="40">
+                                    <img alt="John DeVore" class="ab dt gn gm" src="{{site.baseurl}}/assets/images/{{ post.author }}.jpg" width="40" height="40">
                                  </div>
                               </a>
                            </div>
@@ -262,6 +264,15 @@ permalink: "/@sal"
                   </div>
                </div>
             </div>
+            {% endfor %} 
+             
+             
+             
+             
+             
+             
+             
+             
             <div class="fy fz n ga">
                <h4 class="bc eu gb gc cl">Latest</h4>
             </div>
