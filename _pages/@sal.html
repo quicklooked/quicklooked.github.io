@@ -173,14 +173,20 @@ permalink: "/@sal"
                               <div class="n">
                                  <div style="flex: 1 1 0%;">
                                     <span class="bc bd be bf cl">
-                                       <div class="gp n o gq"><span class="bc bd be bf z gr cd gs gt gu cl"><a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="/@johndevore?source=---------2----------------------------">John DeVore</a><span> in <a href="/humungus?source=---------2----------------------------" class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener">Humungus</a></span></span></div>
+                                        {% for author in post.author %}
+                                       <div class="gp n o gq"><span class="bc bd be bf z gr cd gs gt gu cl"><a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="{{site.baseurl}}/@{{post.author}}">{{ post.author }}</a> 
+                                           {% endfor %}
+                                           <span> in <span class="catlist">
+                                           {% for category in post.categories %}
+                                               <a href="{{site.baseurl}}/categories#{{ category | downcase }}" class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener">{{ category }}</a><span class="sep">, </span> {% endfor %} </span>
+                                               </span></span></div>
                                     </span>
                                  </div>
                               </div>
                               <span class="bc bd be bf bg">
                                  <span class="bc bd be bf z gr cd gs gt gu bg">
                                     <div>
-                                       <a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="/humungus/she-taught-me-how-to-read-tarot-cards-901b420fd0ec?source=---------2----------------------------">Sep 14</a> · 7 min read
+                                       <a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: '%b %d' }}</a><span class="middotDivider"></span>{% include meta-read-time.html %}
                                        <span style="padding-left: 4px;">
                                           <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;">
                                              <path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path>
@@ -199,7 +205,7 @@ permalink: "/@sal"
                      </div>
                   </div>
                   <div class="s t ab">
-                     <a rel="noopener" href="/humungus/she-taught-me-how-to-read-tarot-cards-901b420fd0ec?source=---------2----------------------------">
+                     <a rel="noopener" href="{{site.baseurl}}{{ post.url }}">
                         <div>
                            <div class="ac af gv gw gx ek"></div>
                            <section class="gy gz ha hb hc">
@@ -207,17 +213,19 @@ permalink: "/@sal"
                                  <div class="hf">
                                     <div class="hj ab cn hk">
                                        <div class="hl hm ab">
-                                          <div class="cj hg ac ae af gk w z hh hi"><img alt="Tarot cards spread on a wooden surface; the main card that’s visible is the Four of Pentacles, green with a bee on it." class="ac ae af gk w hn ho ba jf" src="https://miro.medium.com/max/30/1*FwaRghqxOIYjNqdnU-oNew.jpeg?q=20" width="700" height="210"></div>
-                                          <img alt="Tarot cards spread on a wooden surface; the main card that’s visible is the Four of Pentacles, green with a bee on it." class="jd je ac ae af gk w c" width="700" height="210" src="https://miro.medium.com/focal/700/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg" srcset="https://miro.medium.com/focal/276/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 276w, https://miro.medium.com/focal/552/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 552w, https://miro.medium.com/focal/640/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 640w, https://miro.medium.com/focal/700/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 700w" sizes="700px">
+                                           {% if post.image %}
+                                          <div class="cj hg ac ae af gk w z hh hi"><img alt="{{ post.title }}" class="ac ae af gk w hn ho ba jf" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" width="700" height="210"></div>
+                                          <img alt="{{ post.title }}" class="jd je ac ae af gk w c" width="700" height="210" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" srcset="https://miro.medium.com/focal/276/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 276w, https://miro.medium.com/focal/552/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 552w, https://miro.medium.com/focal/640/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 640w, https://miro.medium.com/focal/700/210/50/38/1*FwaRghqxOIYjNqdnU-oNew.jpeg 700w" sizes="700px">
+                                           {% endif %}
                                           <noscript></noscript>
                                        </div>
                                     </div>
                                  </div>
                               </figure>
                               <div>
-                                 <h1 id="97cb" class="ew hq hr bc eu ev hs ht cl">She Taught Me To Read Tarot Cards</h1>
+                                 <h1 id="97cb" class="ew hq hr bc eu ev hs ht cl">{{ post.title }}</h1>
                               </div>
-                              <h2 id="7ef4" class="hu hv hr bc bd hw hx hy bg">This happened long ago, before they were cool</h2>
+                              <h2 id="7ef4" class="hu hv hr bc bd hw hx hy bg">{{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}</h2>
                            </section>
                         </div>
                      </a>
