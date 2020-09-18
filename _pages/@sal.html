@@ -131,9 +131,9 @@ permalink: "/@sal"
             <div class="fy fz n ga">
                <h4 class="bc eu gb gc cl">Featured</h4>
             </div>
-            {% for post in site.tags.featured %}
             {% assign posts = site.posts | where:"author","sal" %}
-               {% for post in posts %}
+            {% for post in posts %}
+            {% for post in site.tags.featured %}
             <div class="gf gg gh gi gj ab c">
                <div class="w gk">
                   <div class="gl n">
