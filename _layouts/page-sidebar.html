@@ -3,10 +3,10 @@ layout: default
 ---
 
 <div class="u-foreground u-minHeight100vh">
-   <div class="extreme-container12col u-flex u-marginTop48">
       {% if page.image %} 
-      <img class="card-img-top mb-5 shadow-lg" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+      <img class="card-img-top mb-5 shadow-lg" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}" style="height: 500px;position: relative;left: 50%;background-repeat: no-repeat;background-size: cover;background-position: center 30%;min-height: 540px;margin-left: -900px;width: 1800px;"> 
       {% endif %} 
+   <div class="extreme-container12col u-flex u-marginTop48">
       <div class="extreme-container8col u-width100pct u-flex1 u-borderBox u-paddingRight24 extreme-10colSizeFull extreme-10colPadding0 js-mainfeed">
          <div class="page-content">
             {{ content }}
