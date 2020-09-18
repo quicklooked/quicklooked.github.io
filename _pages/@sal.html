@@ -133,6 +133,7 @@ permalink: "/@sal"
             </div>
             {% for post in site.tags.featured %}
             {% assign posts = site.posts | where:"author","sal" %}
+               {% for post in posts %}
             <div class="gf gg gh gi gj ab c">
                <div class="w gk">
                   <div class="gl n">
@@ -254,7 +255,7 @@ permalink: "/@sal"
                </div>
             </div>
             {% endfor %} 
-             
+            {% endfor %} 
              
              
              
