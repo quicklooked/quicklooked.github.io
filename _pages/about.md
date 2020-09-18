@@ -1,6 +1,6 @@
 ---
 title: "About"
-layout: page-sidebar
+layout: page
 permalink: "/about"
 image: "https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/hero-banner-homepage.image.large_2x.jpg"
 comments: false
