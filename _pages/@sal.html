@@ -258,20 +258,22 @@ permalink: "/@sal"
             <div class="fy fz n ga">
                <h4 class="bc eu gb gc cl">Latest</h4>
             </div>
+            {% assign posts = site.posts | where:"author","sal" %}
+            {% for post in posts %}
             <div class="gf gg gh gi gj ab c">
                <div class="w gk">
                   <div class="gl n">
                      <div class="gd s t">
                         <div class="o n">
                            <div>
-                              <a rel="noopener" href="/@johndevore?source=---------266----------------------------">
+                              <a rel="noopener" href="{{site.baseurl}}{{post.url}}">
                                  <div class="cn gm gn">
                                     <div class="bi n ee o p ac ef eg eh ei ej ek">
                                        <svg width="49" height="49" viewBox="0 0 49 49">
                                           <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 1.1c-9.39 0-17.53 5.55-21.51 13.66L2 14.28C6.15 5.82 14.66 0 24.5 0S42.85 5.82 47 14.28l-.99.48C42.03 6.65 33.9 1.1 24.5 1.1zM2.99 34.24C6.97 42.35 15.1 47.9 24.5 47.9c9.39 0 17.53-5.55 21.51-13.66l.99.48C42.85 43.18 34.34 49 24.5 49S6.15 43.18 2 34.72l.99-.48z"></path>
                                        </svg>
                                     </div>
-                                    <img alt="John DeVore" class="ab dt gn gm" src="https://miro.medium.com/fit/c/40/40/1*fDAPBOEwFZ_odDhE5Nq3kg.jpeg" width="40" height="40">
+                                    <img alt="{{ post.author }}" class="ab dt gn gm" src="{{site.baseurl}}/assets/images/{{ post.author }}.jpg" width="40" height="40">
                                  </div>
                               </a>
                            </div>
@@ -279,30 +281,59 @@ permalink: "/@sal"
                               <div class="n">
                                  <div style="flex: 1 1 0%;">
                                     <span class="bc bd be bf cl">
-                                       <div class="gp n o gq"><span class="bc bd be bf z gr cd gs gt gu cl"><a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="/@johndevore?source=---------266----------------------------">John DeVore</a></span></div>
+                                        {% for author in post.author %}
+                                       <div class="gp n o gq"><span class="bc bd be bf z gr cd gs gt gu cl"><a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="{{site.baseurl}}/@{{post.author}}" style="text-transform: capitalize;">{{ post.author }}</a> 
+                                           {% endfor %}
+                                           <span> in <span class="catlist">
+                                           {% for category in post.categories %}
+                                               <a href="{{site.baseurl}}/categories#{{ category | downcase }}" class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener">{{ category }}</a><span class="sep">, </span> {% endfor %} </span>
+                                               </span></span></div>
                                     </span>
                                  </div>
                               </div>
                               <span class="bc bd be bf bg">
                                  <span class="bc bd be bf z gr cd gs gt gu bg">
-                                    <div><a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="/@johndevore/a-letter-to-10-year-old-me-ff925bd544f4?source=---------266----------------------------">Jul 27, 2013</a> · 2 min read</div>
+                                    <div>
+                                       <a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: '%b %d' }}</a><span class="middotDivider"></span>{% include meta-read-time.html %}
+                                       <span style="padding-left: 4px;">
+                                          <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;">
+                                             <path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path>
+                                          </svg>
+                                       </span>
+                                    </div>
                                  </span>
                               </span>
                            </div>
                         </div>
                      </div>
-                     <div class="ge"></div>
+                     <div class="ge">
+                        <svg width="19" height="19" viewBox="0 0 19 19" class="bx">
+                           <path d="M9.42 2.6c.04-.13.12-.13.16 0l1.64 4.86a.4.4 0 0 0 .35.26h5.3c.15 0 .17.06.05.15l-4.28 2.98a.37.37 0 0 0-.14.4l1.64 4.86c.04.14-.02.18-.14.1l-4.28-3a.41.41 0 0 0-.44 0L5 16.2c-.12.08-.18.04-.13-.1l1.64-4.85a.37.37 0 0 0-.14-.4l-4.28-3c-.12-.09-.1-.16.05-.16h5.3a.4.4 0 0 0 .35-.26L9.42 2.6z"></path>
+                        </svg>
+                     </div>
                   </div>
                   <div class="s t ab">
-                     <a rel="noopener" href="/@johndevore/a-letter-to-10-year-old-me-ff925bd544f4?source=---------266----------------------------">
+                     <a rel="noopener" href="{{site.baseurl}}{{ post.url }}">
                         <div>
                            <div class="ac af gv gw gx ek"></div>
                            <section class="gy gz ha hb hc">
+                              <figure class="hd he paragraph-image">
+                                 <div class="hf">
+                                    <div class="hj ab cn hk">
+                                       <div class="hl hm ab">
+                                           {% if post.image %}
+                                          <div class="cj hg ac ae af gk w z hh hi"><img alt="{{ post.title }}" class="ac ae af gk w hn ho ba jf" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" width="700" height="210"></div>
+                                          <img alt="{{ post.title }}" class="jd je ac ae af gk w c" width="700" height="210" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" srcset="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 276w, {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 552w, {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 640w, {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 700w" sizes="700px" style="object-fit: cover;">
+                                           {% endif %}
+                                          <noscript></noscript>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </figure>
                               <div>
-                                 <h1 id="title" class="ew hq hr bc eu ev hs ht cl">A Letter To 10-Year-Old Me</h1>
+                                 <h1 id="97cb" class="ew hq hr bc eu ev hs ht cl" style="line-height: 28px;font-size: 24px;">{{ post.title }}</h1>
                               </div>
-                              <p id="e270" class="gc km hr kn b ko kp kq kr ks kt ku kv kw kx js gy fh cl" data-selectable-paragraph="">Dear 10-Year-Old Me,</p>
-                              <p id="c54d" class="gc km hr kn b ko kp kq kr ks kt ku kv kw kx js gy fh cl" data-selectable-paragraph="">I regret to inform you that you do not grow up to become an experimental attack helicopter test pilot nor do you grow up to be the first firefighter President. You do not grow up to be a demolitions expert, or a private investigator.</p>
+                              <h2 id="7ef4" class="hu hv hr bc bd hw hx hy bg" style="overflow: hidden!important;max-height: 20px!important;text-overflow: ellipsis!important;display: -webkit-box!important;-webkit-line-clamp: 1!important;-webkit-box-orient: vertical;font-size: 16px;line-height: 20px;">{{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}</h2>
                            </section>
                         </div>
                      </a>
@@ -323,19 +354,19 @@ permalink: "/@sal"
                            </div>
                            <div class="ab ip iq ir is it iu iv">
                               <div class="iw">
-                                 <h4 class="bc bd be bf bg">57</h4>
+                                 <h4 class="bc bd be bf bg" style="display:none;">2K</h4>
                               </div>
                            </div>
                         </div>
                      </div>
                      <div class="ge n ee o">
-                        <h4 class="bc bd be bf bg"></h4>
+                        <h4 class="bc bd be bf bg" style="display:none;">23 responses</h4>
                      </div>
                      <div class="ge n ee o">
                         <div class="ix ab">
                            <div class="iy">
                               <div>
-                                 <div class="cf" role="tooltip" aria-hidden="false" aria-describedby="13812" aria-labelledby="13812">
+                                 <div class="cf" role="tooltip" aria-hidden="false" aria-describedby="2" aria-labelledby="2">
                                     <button class="cq cr bj bk bl bm bn bo bp bq cs ct bt cu cv" aria-label="Bookmark Post">
                                        <svg width="25" height="25" viewBox="0 0 25 25">
                                           <path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path>
@@ -349,6 +380,7 @@ permalink: "/@sal"
                   </div>
                </div>
             </div>
+            {% endfor %} 
             <div>
                <div class="fy fz n ga">
                   <h4 id="highlights" class="bc eu gb gc cl">Highlighted by {{ site.authors.sal.name }}</h4>
