@@ -5,9 +5,12 @@ permalink: "/about"
 image: "https://support.apple.com/content/dam/edam/applecare/images/en_US/homepage/hero-banner-homepage.image.large_2x.jpg"
 comments: false
 ---
-
+<h4 class="mb-3">Mission</h4>
+<p class="p1">Quicklook’s mission is “to organize the world’s product information and make it symmetric and useful.”</p>
+<p class="p1">Our philosophy is “continuous improvement to survive and develop”.</p>
+<p class="p1">Our goal is “to global brand”.</p>
 <p class="p1">The Internet has changed business, education, government, healthcare, and even the ways in which we interact with our loved ones—it has become one of the key drivers of social evolution. By creating a space for people to share, expressly improve, and seek opportunities to promote brand value.</p>
-
+<h4 class="mb-3">Letterhead</h4>
 <p class="p1">At Quicklook, Ladies and Gentlemen can trade and share exciting stories to build a civilized community, thus bringing their brand to overcome the barriers of geography and times. We always believe Quicklook will bring the best values to people.</p>
 
 <p class="p1">We are excited about…</p>
@@ -24,7 +27,7 @@ comments: false
 
 <p class="p1">What could be better? No wonder we are excited to get to work with everyone anywhere in the world!</p>
 
-### Contact
+#### Contact
 <p class="p1"><a href= "https://twitter.com/Quicklook102" target="_blank">Twitter</a> — Shoot me a dm or just tweet <span style="font-family: 'Charter', 'Source Serif Pro';font-weight: 600; ">@Quicklook102</span>. I am not really into professional social media circle but anyway here is my <a href= "https://www.linkedin.com/in/quicklook-inc-586967173/" target="_blank">LinkedIn</a> just in case.</p>
 
 <p class="p1">Ho Chi Minh is pretty large, so I can’t promise but If you happen to be in city by chance and want to chat, drop an <a href="mailto:quicklook.vn@gmail.com?subject=[Coffee]">Email</a> and include [Coffee] in the subject line, and we can work something out.</p>
