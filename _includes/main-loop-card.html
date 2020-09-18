@@ -13,7 +13,7 @@
                <div class="u-flexTop u-noWrapWithEllipsis u-flex1">
                   <div class="u-noWrapWithEllipsis u-flex1">
                      <div class="ui-captionStrong u-noWrapWithEllipsis">
-                        <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis"><a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{latest_post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="72198dc59ac" data-action-type="hover" data-user-id="72198dc59ac" dir="auto">{{ post.author | author.name }} </a> 
+                        <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis"><a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="72198dc59ac" data-action-type="hover" data-user-id="72198dc59ac" dir="auto">{{ post.author | author.name }} </a> 
                            in <span class="catlist">
                            {% for category in post.categories %}
                            <a class="ds-link ds-link--styleSubtle" href="{{site.baseurl}}/categories#{{ category | downcase }}" data-action="show-collection-card" data-action-value="history-of-yesterday" data-action-type="hover">{{ category }}</a><span class="sep">, </span>
