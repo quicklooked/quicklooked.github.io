@@ -251,7 +251,7 @@ comments: false
                         <div class="position hawks-theme">
                            <style>
                               #root_content_flex_items_flex_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-mobile-image01-CC-600x448.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image01-CC-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 100%; 
                               }
                               #root_content_flex_items_flex_items_position.dexter-LazyImage {
@@ -260,7 +260,7 @@ comments: false
                               }
                               @media screen and (min-width: 1200px) {
                               #root_content_flex_items_flex_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-image01-CC-890x500.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image01-CC-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_items_position.dexter-LazyImage {
