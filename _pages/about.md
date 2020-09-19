@@ -338,7 +338,7 @@ comments: false
                      min-height: auto;
                      }
                      #root_content_flex_items_flex_100287867 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-01.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-01.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_100287867.dexter-LazyImage {
@@ -347,7 +347,7 @@ comments: false
                      }
                      @media screen and (min-width: 600px) {
                      #root_content_flex_items_flex_100287867 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-01.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-01.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_100287867.dexter-LazyImage {
@@ -357,7 +357,7 @@ comments: false
                      }
                      @media screen and (min-width: 1200px) {
                      #root_content_flex_items_flex_100287867 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-01.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-01.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_100287867.dexter-LazyImage {
@@ -395,7 +395,7 @@ comments: false
                      min-height: auto;
                      }
                      #root_content_flex_items_flex_461786615 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-02.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-02.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_461786615.dexter-LazyImage {
@@ -404,7 +404,7 @@ comments: false
                      }
                      @media screen and (min-width: 600px) {
                      #root_content_flex_items_flex_461786615 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-02.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-02.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_461786615.dexter-LazyImage {
@@ -414,7 +414,7 @@ comments: false
                      }
                      @media screen and (min-width: 1200px) {
                      #root_content_flex_items_flex_461786615 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-02.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-02.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_461786615.dexter-LazyImage {
@@ -671,7 +671,7 @@ comments: false
                      min-height: auto;
                      }
                      #root_content_flex_items_flex_1692651456 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-03.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-03.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_1692651456.dexter-LazyImage {
@@ -680,7 +680,7 @@ comments: false
                      }
                      @media screen and (min-width: 600px) {
                      #root_content_flex_items_flex_1692651456 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-03.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-03.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_1692651456.dexter-LazyImage {
@@ -690,7 +690,7 @@ comments: false
                      }
                      @media screen and (min-width: 1200px) {
                      #root_content_flex_items_flex_1692651456 {
-                     background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2fquote-03.jpg.img.jpg); background-size: cover; 
+                     background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/quote-03.jpg.img.jpg); background-size: cover; 
                      background-position: 50% 50%; 
                      }
                      #root_content_flex_items_flex_1692651456.dexter-LazyImage {
@@ -872,7 +872,7 @@ comments: false
                                  #root_content_flex_items_flex_1272305012_items_image { width:auto; }
                                  }
                               </style>
-                              <img id="root_content_flex_items_flex_1272305012_items_image" data-src="/content/dam/cc/en/aboutadobe/images/logo-TFA-336x196.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMzYiIGhlaWdodD0iMTk2Ij48cmVjdCB3aWR0aD0iMzM2IiBoZWlnaHQ9IjE5NiIgc3R5bGU9ImZpbGw6Izk0OTQ5NCIgLz48L3N2Zz4=" class=" dexter-LazyImage " alt="Teach For America logo">
+                              <img id="root_content_flex_items_flex_1272305012_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-TFA-336x196.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMzYiIGhlaWdodD0iMTk2Ij48cmVjdCB3aWR0aD0iMzM2IiBoZWlnaHQ9IjE5NiIgc3R5bGU9ImZpbGw6Izk0OTQ5NCIgLz48L3N2Zz4=" class=" dexter-LazyImage " alt="Teach For America logo">
                            </div>
                         </div>
                      </div>
@@ -1145,7 +1145,7 @@ comments: false
                                  #root_content_flex_items_flex_965012927_items_image { width:auto; }
                                  }
                               </style>
-                              <img id="root_content_flex_items_flex_965012927_items_image" data-src="/content/dam/cc/en/aboutadobe/images/logo-fortune-280x260.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMjYwIj48cmVjdCB3aWR0aD0iMjgwIiBoZWlnaHQ9IjI2MCIgc3R5bGU9ImZpbGw6Izk0OTQ5NCIgLz48L3N2Zz4=" class=" dexter-LazyImage " alt="Fortune 100 logo">
+                              <img id="root_content_flex_items_flex_965012927_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-fortune-280x260.jpg.img.jpg.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMjYwIj48cmVjdCB3aWR0aD0iMjgwIiBoZWlnaHQ9IjI2MCIgc3R5bGU9ImZpbGw6Izk0OTQ5NCIgLz48L3N2Zz4=" class=" dexter-LazyImage " alt="Fortune 100 logo">
                            </div>
                         </div>
                      </div>
@@ -1331,7 +1331,7 @@ comments: false
                      <style>
                         #root_content_flex_copy_copy_copy_items_image { width:auto; }
                      </style>
-                     <img id="root_content_flex_copy_copy_copy_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/COVID-19-keep-business-summit.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjEyIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjE2MTIiIGhlaWdodD0iNjAwIiBzdHlsZT0iZmlsbDojOTQ5NDk0IiAvPjwvc3ZnPg==" class=" dexter-LazyImage ">
+                     <img id="root_content_flex_copy_copy_copy_items_image" data-src="/content/dam/cc/en/aboutadobe/images/COVID-19-keep-business-summit.jpg.img.jpg" src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/COVID-19-keep-business-summit.jpg.img.jpg" class=" dexter-LazyImage ">
                   </div>
                </div>
             </div>
