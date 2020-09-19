@@ -872,7 +872,7 @@ comments: false
                                  #root_content_flex_items_flex_1272305012_items_image { width:auto; }
                                  }
                               </style>
-                              <img id="root_content_flex_items_flex_1272305012_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-TFA-336x196.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMzYiIGhlaWdodD0iMTk2Ij48cmVjdCB3aWR0aD0iMzM2IiBoZWlnaHQ9IjE5NiIgc3R5bGU9ImZpbGw6Izk0OTQ5NCIgLz48L3N2Zz4=" class=" dexter-LazyImage " alt="Teach For America logo">
+                              <img id="root_content_flex_items_flex_1272305012_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-TFA-336x196.jpg.img.jpg" src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-TFA-336x196.jpg.img.jpg" class=" dexter-LazyImage " alt="Teach For America logo">
                            </div>
                         </div>
                      </div>
@@ -1145,7 +1145,7 @@ comments: false
                                  #root_content_flex_items_flex_965012927_items_image { width:auto; }
                                  }
                               </style>
-                              <img id="root_content_flex_items_flex_965012927_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-fortune-280x260.jpg.img.jpg.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyODAiIGhlaWdodD0iMjYwIj48cmVjdCB3aWR0aD0iMjgwIiBoZWlnaHQ9IjI2MCIgc3R5bGU9ImZpbGw6Izk0OTQ5NCIgLz48L3N2Zz4=" class=" dexter-LazyImage " alt="Fortune 100 logo">
+                              <img id="root_content_flex_items_flex_965012927_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-fortune-280x260.jpg.img.jpg.jpg.img.jpg" src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/logo-fortune-280x260.jpg.img.jpg.jpg.img.jpg" class=" dexter-LazyImage " alt="Fortune 100 logo">
                            </div>
                         </div>
                      </div>
