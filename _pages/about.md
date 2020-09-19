@@ -575,7 +575,7 @@ comments: false
                         <div class="position hawks-theme">
                            <style>
                               #root_content_flex_items_flex_copy_copy_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-mobile-image03-DC-600x448.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image03-DC-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_items_position.dexter-LazyImage {
@@ -584,7 +584,7 @@ comments: false
                               }
                               @media screen and (min-width: 600px) {
                               #root_content_flex_items_flex_copy_copy_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-mobile-image03-DC-600x448.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image03-DC-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_items_position.dexter-LazyImage {
@@ -594,7 +594,7 @@ comments: false
                               }
                               @media screen and (min-width: 1200px) {
                               #root_content_flex_items_flex_copy_copy_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-image03-DC-890x500.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image03-DC-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_items_position.dexter-LazyImage {
@@ -748,7 +748,7 @@ comments: false
                         <div class="position hawks-theme">
                            <style>
                               #root_content_flex_items_flex_copy_copy_copy_1309410225_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-mobile-image04-600x448.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image04-1342x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_copy_1309410225_items_position.dexter-LazyImage {
@@ -757,7 +757,7 @@ comments: false
                               }
                               @media screen and (min-width: 1200px) {
                               #root_content_flex_items_flex_copy_copy_copy_1309410225_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-image04-1342x500.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image04-1342x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_copy_1309410225_items_position.dexter-LazyImage {
@@ -905,7 +905,7 @@ comments: false
                         <div class="position hawks-theme">
                            <style>
                               #root_content_flex_items_flex_copy_copy_copy_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-mobile-image05-600x448.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image05-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_copy_items_position.dexter-LazyImage {
@@ -914,7 +914,7 @@ comments: false
                               }
                               @media screen and (min-width: 1200px) {
                               #root_content_flex_items_flex_copy_copy_copy_items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-image05-890x500.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image05-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_copy_items_position.dexter-LazyImage {
@@ -1017,7 +1017,7 @@ comments: false
                         <div class="position hawks-theme">
                            <style>
                               #root_content_flex_items_flex_copy_copy_copy__items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-mobile-image06-600x448.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image06-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_copy__items_position.dexter-LazyImage {
@@ -1026,7 +1026,7 @@ comments: false
                               }
                               @media screen and (min-width: 1200px) {
                               #root_content_flex_items_flex_copy_copy_copy__items_position {
-                              background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-image06-890x500.jpg.img.jpg); background-size: cover; 
+                              background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-image06-890x500.jpg.img.jpg); background-size: cover; 
                               background-position: 50% 50%; 
                               }
                               #root_content_flex_items_flex_copy_copy_copy__items_position.dexter-LazyImage {
@@ -1331,7 +1331,7 @@ comments: false
                      <style>
                         #root_content_flex_copy_copy_copy_items_image { width:auto; }
                      </style>
-                     <img id="root_content_flex_copy_copy_copy_items_image" data-src="/content/dam/cc/en/aboutadobe/images/COVID-19-keep-business-summit.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjEyIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjE2MTIiIGhlaWdodD0iNjAwIiBzdHlsZT0iZmlsbDojOTQ5NDk0IiAvPjwvc3ZnPg==" class=" dexter-LazyImage ">
+                     <img id="root_content_flex_copy_copy_copy_items_image" data-src="https://www.adobe.com/content/dam/cc/en/aboutadobe/images/COVID-19-keep-business-summit.jpg.img.jpg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNjEyIiBoZWlnaHQ9IjYwMCI+PHJlY3Qgd2lkdGg9IjE2MTIiIGhlaWdodD0iNjAwIiBzdHlsZT0iZmlsbDojOTQ5NDk0IiAvPjwvc3ZnPg==" class=" dexter-LazyImage ">
                   </div>
                </div>
             </div>
