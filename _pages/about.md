@@ -15,11 +15,11 @@ comments: false
             background-color: rgba(5,30,40,0.6); 
             }
             #root_content_position {
-            background-image: url(https://pixabay.com/get/57e2dd424f54ae14ead98774c12830791222dfe35351754e712b7dd1.jpg); background-size: cover; 
+            background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
             background-position: 50% 50%; 
             }
             #root_content_position.dexter-LazyImage {
-            background-image: url(data:image\2fsvg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9Ijc2MCI+PHJlY3Qgd2lkdGg9IjE0NDAiIGhlaWdodD0iNzYwIiBzdHlsZT0iZmlsbDojOTQ5NDk0IiAvPjwvc3ZnPg==); background-size: cover; 
+            background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
             background-position: 50% 50%; 
             }
             @media screen and (min-width: 600px) {
@@ -28,17 +28,17 @@ comments: false
             background-position: 50% 50%; 
             }
             #root_content_position.dexter-LazyImage {
-            background-image: url(data:image\2fsvg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9Ijc2MCI+PHJlY3Qgd2lkdGg9IjE0NDAiIGhlaWdodD0iNzYwIiBzdHlsZT0iZmlsbDojOTQ5NDk0IiAvPjwvc3ZnPg==); background-size: cover; 
+            background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
             background-position: 50% 50%; 
             }
             }
             @media screen and (min-width: 1200px) {
             #root_content_position {
-            background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
+            background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
             background-position: 50% 50%; 
             }
             #root_content_position.dexter-LazyImage {
-            background-image: url(data:image\2fsvg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDQwIiBoZWlnaHQ9Ijc2MCI+PHJlY3Qgd2lkdGg9IjE0NDAiIGhlaWdodD0iNzYwIiBzdHlsZT0iZmlsbDojOTQ5NDk0IiAvPjwvc3ZnPg==); background-size: cover; 
+            background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
             background-position: 50% 50%; 
             }
             }
