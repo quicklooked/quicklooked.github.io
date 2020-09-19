@@ -15,7 +15,7 @@ comments: false
             background-color: rgba(5,30,40,0.6); 
             }
             #root_content_position {
-            background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
+            background-image: url(https://pixabay.com/get/57e2dd424f54ae14ead98774c12830791222dfe35351754e712b7dd1.jpg); background-size: cover; 
             background-position: 50% 50%; 
             }
             #root_content_position.dexter-LazyImage {
