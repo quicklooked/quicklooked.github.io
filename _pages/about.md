@@ -17,29 +17,35 @@ comments: false
             #root_content_position {
             background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
             background-position: 50% 50%; 
+            object-fit: cover;
             }
             #root_content_position.dexter-LazyImage {
             background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
-            background-position: 50% 50%; 
+            background-position: 50% 50%;
+            object-fit: cover;
             }
             @media screen and (min-width: 600px) {
             #root_content_position {
-            background-image: url(\2f content\2f dam\2f cc\2f en\2f aboutadobe\2fimages\2f about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
-            background-position: 50% 50%; 
+            background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
+            background-position: 50% 50%;
+            object-fit: cover;
             }
             #root_content_position.dexter-LazyImage {
             background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
-            background-position: 50% 50%; 
+            background-position: 50% 50%;
+            object-fit: cover;
             }
             }
             @media screen and (min-width: 1200px) {
             #root_content_position {
             background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
-            background-position: 50% 50%; 
+            background-position: 50% 50%;
+            object-fit: cover;
             }
             #root_content_position.dexter-LazyImage {
             background-image: url(https://www.adobe.com/content/dam/cc/en/aboutadobe/images/about-adobe-overview-marquee-1440x760.jpg.img.jpg); background-size: cover; 
-            background-position: 50% 50%; 
+            background-position: 50% 50%;
+            object-fit: cover;
             }
             }
             #root_content_position {
