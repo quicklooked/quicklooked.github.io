@@ -85,9 +85,9 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStart dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart dexter-FlexContainer--desktopJustifyStart dexter-FlexContainer--desktopAlignItemStart dexter-FlexContainer--desktopAlignContentCenter dexter-FlexContainer--desktopAlignItemContentStart">
                         <div class="text spectrum-Body-1">
                            <div class="cmp-text mobile-padding-bottom-40">
-                              <h1>Changing the world through digital experiences.</h1>
+                              <h1 style="font-family: 'Adobe Clean';">Changing the world through digital experiences.</h1>
                               <p>&nbsp;</p>
-                              <p>Great experiences have the power to inspire, transform, and move the world forward. And every great experience starts with creativity.</p>
+                              <p style="font-family: 'Adobe Clean';">Great experiences have the power to inspire, transform, and move the world forward. And every great experience starts with creativity.</p>
                            </div>
                         </div>
                      </div>
@@ -224,9 +224,9 @@ comments: false
             <div class="dexter-FlexContainer-Items   container dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                <div class="text spectrum-Body-1">
                   <div class="cmp-text mobile-padding-top-60 mobile-padding-bottom-40">
-                     <h1><b>About Adobe</b></h1>
+                     <h1><b style="font-family: 'Adobe Clean';">About Adobe</b></h1>
                      <p>&nbsp;</p>
-                     <p>Creativity is in our DNA.&nbsp;Our game-changing innovations are redefining the possibilities of digital experiences. We connect content and data and introduce new technologies that democratize creativity, shape the next generation of storytelling, and inspire entirely new categories of business.</p>
+                     <p style="font-family: 'Adobe Clean';">Creativity is in our DNA.&nbsp;Our game-changing innovations are redefining the possibilities of digital experiences. We connect content and data and introduce new technologies that democratize creativity, shape the next generation of storytelling, and inspire entirely new categories of business.</p>
                      <p><b>&nbsp;</b></p>
                   </div>
                </div>
@@ -317,10 +317,10 @@ comments: false
                               <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                                  <div class="text spectrum-Body-3">
                                     <div class="cmp-text mobile-padding-top-20 mobile-padding-right-20 mobile-padding-bottom-20 mobile-padding-left-20 desktop-padding-left-80">
-                                       <h3><b>Creativity for all.</b></h3>
-                                       <p>We believe everybody has a story to tell. Adobe Creative Cloud unleashes creativity so anyone — from the most demanding professional to students just starting out — can make whatever they want, wherever they want.</p>
+                                       <h3><b style="font-family: 'Adobe Clean';">Creativity for all.</b></h3>
+                                       <p style="font-family: 'Adobe Clean';">We believe everybody has a story to tell. Adobe Creative Cloud unleashes creativity so anyone — from the most demanding professional to students just starting out — can make whatever they want, wherever they want.</p>
                                        <p><br>
-                                          <b><a disablelinktracking="false" href="https://www.adobe.com/creativecloud.html">Learn more</a></b>
+                                          <b><a disablelinktracking="false" href="https://www.adobe.com/creativecloud.html" style="font-family: 'Adobe Clean';">Learn more</a></b>
                                        </p>
                                        <p>&nbsp;</p>
                                     </div>
@@ -382,7 +382,7 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemCenter dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentCenter">
                         <div class="text spectrum-Body-3 spectrum-Display--quiet">
                            <div class="cmp-text mobile-padding-top-100 mobile-padding-bottom-100 desktop-margin-right-40 desktop-margin-left-40">
-                              <h2>The future belongs to those who create.</h2>
+                              <h2 style="font-family: 'Adobe Clean';">The future belongs to those who create.</h2>
                            </div>
                         </div>
                      </div>
@@ -439,7 +439,7 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemCenter dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentCenter">
                         <div class="text spectrum-Body-3 spectrum-Display--quiet">
                            <div class="cmp-text mobile-padding-top-100 mobile-padding-bottom-100 desktop-margin-right-40 desktop-margin-left-40">
-                              <h2>In the experience economy, every business must be a digital business.</h2>
+                              <h2 style="font-family: 'Adobe Clean';">In the experience economy, every business must be a digital business.</h2>
                            </div>
                         </div>
                      </div>
@@ -542,10 +542,10 @@ comments: false
                               <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                                  <div class="text spectrum-Body-3">
                                     <div class="cmp-text mobile-padding-top-20 mobile-padding-right-20 mobile-padding-bottom-20 mobile-padding-left-20 desktop-padding-left-80">
-                                       <h3><b>Empowering digital businesses.</b></h3>
-                                       <p>Businesses count on Adobe to help them meet the challenges of digital transformation. With Adobe Experience Cloud they can harness their data and deliver personalized experiences that drive business growth and customer loyalty.</p>
+                                       <h3><b style="font-family: 'Adobe Clean';">Empowering digital businesses.</b></h3>
+                                       <p style="font-family: 'Adobe Clean';">Businesses count on Adobe to help them meet the challenges of digital transformation. With Adobe Experience Cloud they can harness their data and deliver personalized experiences that drive business growth and customer loyalty.</p>
                                        <p>&nbsp;</p>
-                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/experience-cloud.html">Learn more</a></b></p>
+                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/experience-cloud.html" style="font-family: 'Adobe Clean';">Learn more</a></b></p>
                                     </div>
                                  </div>
                               </div>
@@ -651,10 +651,10 @@ comments: false
                               <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                                  <div class="text spectrum-Body-3">
                                     <div class="cmp-text mobile-padding-top-20 mobile-padding-right-20 mobile-padding-bottom-20 mobile-padding-left-20 desktop-padding-left-80">
-                                       <h3><b>Accelerating document productivity.</b></h3>
-                                       <p>Adobe pioneered the paper-to-digital transformation with the invention of PDF. We created Adobe Document Cloud so people can scan, edit, share, and sign documents anytime, anywhere. Today, we’re revolutionizing the way people and businesses communicate, collaborate, and get work done.</p>
+                                       <h3><b style="font-family: 'Adobe Clean';">Accelerating document productivity.</b></h3>
+                                       <p style="font-family: 'Adobe Clean';">Adobe pioneered the paper-to-digital transformation with the invention of PDF. We created Adobe Document Cloud so people can scan, edit, share, and sign documents anytime, anywhere. Today, we’re revolutionizing the way people and businesses communicate, collaborate, and get work done.</p>
                                        <p>&nbsp;</p>
-                                       <p><b><a disablelinktracking="false" href="https://acrobat.adobe.com/">Learn more</a></b></p>
+                                       <p><b><a disablelinktracking="false" href="https://acrobat.adobe.com/" style="font-family: 'Adobe Clean';">Learn more</a></b></p>
                                        <p>&nbsp;</p>
                                     </div>
                                  </div>
@@ -715,7 +715,7 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                         <div class="text spectrum-Body-3 spectrum-Display--quiet">
                            <div class="cmp-text mobile-padding-top-100 mobile-padding-bottom-100 desktop-margin-right-40 desktop-margin-left-40">
-                              <h2>Documents are core to how people work, transact business, and communicate in everyday life.</h2>
+                              <h2 style="font-family: 'Adobe Clean';">Documents are core to how people work, transact business, and communicate in everyday life.</h2>
                            </div>
                         </div>
                      </div>
@@ -814,10 +814,10 @@ comments: false
                               <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStart dexter-FlexContainer--mobileAlignItemCenter dexter-FlexContainer--mobileAlignContentStart dexter-FlexContainer--mobileAlignItemContentStart">
                                  <div class="text spectrum-Body-3">
                                     <div class="cmp-text mobile-padding-top-20 mobile-padding-bottom-20 desktop-padding-top-0 desktop-padding-right-40 desktop-padding-bottom-20">
-                                       <h3><b>Imagining tomorrow to give our customers an edge.</b></h3>
+                                       <h3><b style="font-family: 'Adobe Clean';">Imagining tomorrow to give our customers an edge.</b></h3>
                                        <p>We’re always looking around the corner to develop new technologies and bring innovation to our customers, year after year.</p>
                                        <p>&nbsp;</p>
-                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/sensei.html">Learn more</a></b></p>
+                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/sensei.html" style="font-family: 'Adobe Clean';">Learn more</a></b></p>
                                     </div>
                                  </div>
                               </div>
@@ -854,9 +854,9 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStart dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                         <div class="text spectrum-Body-3 spectrum-Heading2--quiet">
                            <div class="cmp-text mobile-padding-bottom-20">
-                              <h2>“We’re excited to partner with Adobe to expand students’ access to creative technology in the rural and urban communities where our teachers work.”</h2>
+                              <h2 style="font-family: 'Adobe Clean';">“We’re excited to partner with Adobe to expand students’ access to creative technology in the rural and urban communities where our teachers work.”</h2>
                               <p>&nbsp;</p>
-                              <p><b>Elisa Villanueva Beard</b><br>
+                              <p style="font-family: 'Adobe Clean';"><b style="font-family: 'Adobe Clean';">Elisa Villanueva Beard</b><br>
                                  CEO of Teach For America
                               </p>
                            </div>
@@ -973,10 +973,10 @@ comments: false
                               <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                                  <div class="text spectrum-Body-3">
                                     <div class="cmp-text mobile-padding-top-20 mobile-padding-right-20 mobile-padding-bottom-20 mobile-padding-left-20 desktop-padding-left-80">
-                                       <h3><b>Together, we create change.</b></h3>
-                                       <p>We're working with our employees and communities to unlock the creative potential in everyone and impact the world in ways both big and small.</p>
+                                       <h3><b style="font-family: 'Adobe Clean';">Together, we create change.</b></h3>
+                                       <p style="font-family: 'Adobe Clean';">We're working with our employees and communities to unlock the creative potential in everyone and impact the world in ways both big and small.</p>
                                        <p>&nbsp;</p>
-                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/about-adobe/corporate-responsibility.html">Learn about Adobe Corporate Responsibility</a></b></p>
+                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/about-adobe/corporate-responsibility.html" style="font-family: 'Adobe Clean';">Learn about Adobe Corporate Responsibility</a></b></p>
                                     </div>
                                  </div>
                               </div>
@@ -1087,10 +1087,10 @@ comments: false
                               <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                                  <div class="text spectrum-Body-3">
                                     <div class="cmp-text mobile-padding-top-20 mobile-padding-right-20 mobile-padding-bottom-20 mobile-padding-left-20 desktop-padding-left-80">
-                                       <h3><b>A workplace that works for everyone.</b></h3>
-                                       <p>Our people are our most important asset. We’re committed to making Adobe a place where employees can be themselves, do their best work, and thrive.</p>
+                                       <h3><b style="font-family: 'Adobe Clean';">A workplace that works for everyone.</b></h3>
+                                       <p style="font-family: 'Adobe Clean';">Our people are our most important asset. We’re committed to making Adobe a place where employees can be themselves, do their best work, and thrive.</p>
                                        <p>&nbsp;</p>
-                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/diversity.html">Learn more</a></b><br></p>
+                                       <p><b><a disablelinktracking="false" href="https://www.adobe.com/diversity.html" style="font-family: 'Adobe Clean';">Learn more</a></b><br></p>
                                     </div>
                                  </div>
                               </div>
@@ -1129,9 +1129,9 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStart dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                         <div class="text spectrum-Body-3 spectrum-Heading2--quiet">
                            <div class="cmp-text mobile-padding-bottom-20">
-                              <h2>Celebrating 20 years on Fortune's "100 Best Companies to Work For" list.</h2>
+                              <h2 style="font-family: 'Adobe Clean';">Celebrating 20 years on Fortune's "100 Best Companies to Work For" list.</h2>
                               <p>&nbsp;</p>
-                              <p><b>Find a career at Adobe</b></p>
+                              <p><b style="font-family: 'Adobe Clean';">Find a career at Adobe</b></p>
                            </div>
                         </div>
                         <div class="image parbase">
@@ -1174,8 +1174,8 @@ comments: false
             <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemCenter dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                <div class="text hawks-theme">
                   <div class="cmp-text ">
-                     <h2 style="text-align: center;"><span class="text-light"><a name="values"></a>Our values.</span></h2>
-                     <h2 style="text-align: center;">&nbsp;</h2>
+                     <h2 style="text-align: center; font-family: 'Adobe Clean';"><span class="text-light"><a name="values"></a>Our values.</span></h2>
+                     <h2 style="text-align: center; font-family: 'Adobe Clean';">&nbsp;</h2>
                   </div>
                </div>
                <div class="flex">
@@ -1233,26 +1233,26 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                         <div class="text spectrum-Body-3 hawks-Body3--quiet">
                            <div class="cmp-text ">
-                              <h3 style="text-align: left;"><span class="text-light"><b>Genuine</b></span></h3>
-                              <p>Sincere, trustworthy and reliable</p>
+                              <h3 style="text-align: left;"><span class="text-light"><b style="font-family: 'Adobe Clean';">Genuine</b></span></h3>
+                              <p style="font-family: 'Adobe Clean';">Sincere, trustworthy and reliable</p>
                            </div>
                         </div>
                         <div class="text spectrum-Body-3 hawks-Body3--quiet">
                            <div class="cmp-text ">
-                              <h3 style="text-align: left;"><span class="text-light"><b>Exceptional</b></span></h3>
-                              <p>Committed to creating exceptional experiences that delight our employees and customers</p>
+                              <h3 style="text-align: left;"><span class="text-light"><b style="font-family: 'Adobe Clean';">Exceptional</b></span></h3>
+                              <p style="font-family: 'Adobe Clean';">Committed to creating exceptional experiences that delight our employees and customers</p>
                            </div>
                         </div>
                         <div class="text spectrum-Body-3 hawks-Body3--quiet">
                            <div class="cmp-text ">
-                              <h3 style="text-align: left;"><span class="text-light"><b>Innovative</b></span></h3>
-                              <p>Highly creative and always striving to connect new ideas with business realities</p>
+                              <h3 style="text-align: left;"><span class="text-light"><b style="font-family: 'Adobe Clean';">Innovative</b></span></h3>
+                              <p style="font-family: 'Adobe Clean';">Highly creative and always striving to connect new ideas with business realities</p>
                            </div>
                         </div>
                         <div class="text spectrum-Body-3 hawks-Body3--quiet">
                            <div class="cmp-text ">
-                              <h3 style="text-align: left;"><span class="text-light"><b>Involved</b></span></h3>
-                              <p>Inclusive, open and actively engaged with our customers, partners, employees and the communities we serve</p>
+                              <h3 style="text-align: left;"><span class="text-light"><b style="font-family: 'Adobe Clean';">Involved</b></span></h3>
+                              <p style="font-family: 'Adobe Clean';">Inclusive, open and actively engaged with our customers, partners, employees and the communities we serve</p>
                            </div>
                         </div>
                      </div>
@@ -1313,13 +1313,13 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyStretch dexter-FlexContainer--mobileAlignAlignmentStretch dexter-FlexContainer--mobileAlignContentStretch dexter-FlexContainer--mobileAlignItemContentStart">
                         <div class="text spectrum-Body-3">
                            <div class="cmp-text mobile-padding-top-20 mobile-padding-right-20 mobile-padding-bottom-40 mobile-padding-left-20 desktop-padding-bottom-20 desktop-padding-left-0">
-                              <p>See the latest CXM insights, product innovations, and best practices in keynotes and 100+ breakout sessions.</p>
+                              <p style="font-family: 'Adobe Clean';">See the latest CXM insights, product innovations, and best practices in keynotes and 100+ breakout sessions.</p>
                            </div>
                         </div>
                         <div class="cta">
                            <div class="dexter-Cta dexter-Cta--align-left">
                               <a href="http://apps.enterprise.adobe.com/go/7011O000003JuTAQA0" class="spectrum-Button spectrum-Button-cta--White" target="_self" data-disable-query="false">
-                              <span class="spectrum-Button-label">Watch now</span>
+                              <span class="spectrum-Button-label" style="font-family: 'Adobe Clean';">Watch now</span>
                               </a>
                            </div>
                         </div>
@@ -1358,7 +1358,7 @@ comments: false
             <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                <div class="text hawks-theme">
                   <div class="cmp-text mobile-padding-bottom-40">
-                     <h2 style="text-align: center;"><span class="text-light">Adobe in the news.</span></h2>
+                     <h2 style="text-align: center;"><span class="text-light" style="font-family: 'Adobe Clean';">Adobe in the news.</span></h2>
                   </div>
                </div>
                <div class="flex">
@@ -1442,16 +1442,16 @@ comments: false
                      <div class="dexter-FlexContainer-Items   dexter-FlexContainer--mobileJustifyCenter dexter-FlexContainer--mobileAlignItemStart dexter-FlexContainer--mobileAlignContentCenter dexter-FlexContainer--mobileAlignItemContentStart">
                         <div class="text spectrum-Body-3">
                            <div class="cmp-text mobile-margin-right-20 mobile-margin-left-20">
-                              <p style="text-align: left;" class="text-6-block"><span class="text-light"><a disablelinktracking="false" href="https://fortune.com/2020/06/12/adobe-ceo-shantanu-narayen-record-revenue-coronavirus-economy/" data-disable-query="false" target="_blank">Adobe's CEO on how the company is posting record results amid economic chaos&nbsp;— Fortune</a></span></p>
+                              <p style="text-align: left;" class="text-6-block"><span class="text-light"><a disablelinktracking="false" href="https://fortune.com/2020/06/12/adobe-ceo-shantanu-narayen-record-revenue-coronavirus-economy/" data-disable-query="false" target="_blank" style="font-family: 'Adobe Clean';">Adobe's CEO on how the company is posting record results amid economic chaos&nbsp;— Fortune</a></span></p>
                               <p style="text-align: left;" class="text-6-block">&nbsp;</p>
-                              <p style="text-align: left;" class="text-6-block"><span class="text-light">June 12, 2020</span></p>
+                              <p style="text-align: left;" class="text-6-block" style="font-family: 'Adobe Clean';"><span class="text-light">June 12, 2020</span></p>
                            </div>
                         </div>
                         <div class="text spectrum-Body-3">
                            <div class="cmp-text mobile-margin-right-20 mobile-margin-left-20">
-                              <p style="text-align: left;" class="text-6-block"><span class="text-light"><a disablelinktracking="false" href="https://www.forbes.com/sites/marcoannunziata/2020/06/11/adobe-photoshop-camera-ai-magic-to-unleash-your-creativity-at-the-push-of-a-shutter-button/#48d8dc9d4b0b" data-disable-query="false" target="_blank">Adobe Photoshop Camera: AI magic to unleash your creativity at the push of a (shutter) button&nbsp;— Forbes</a></span></p>
+                              <p style="text-align: left;" class="text-6-block"><span class="text-light"><a disablelinktracking="false" href="https://www.forbes.com/sites/marcoannunziata/2020/06/11/adobe-photoshop-camera-ai-magic-to-unleash-your-creativity-at-the-push-of-a-shutter-button/#48d8dc9d4b0b" data-disable-query="false" target="_blank" style="font-family: 'Adobe Clean';">Adobe Photoshop Camera: AI magic to unleash your creativity at the push of a (shutter) button&nbsp;— Forbes</a></span></p>
                               <p style="text-align: left;" class="text-6-block">&nbsp;</p>
-                              <p style="text-align: left;" class="text-6-block"><span class="text-light">June 11, 2020</span></p>
+                              <p style="text-align: left;" class="text-6-block"><span class="text-light" style="font-family: 'Adobe Clean';">June 11, 2020</span></p>
                            </div>
                         </div>
                         <div class="text spectrum-Body-3">
