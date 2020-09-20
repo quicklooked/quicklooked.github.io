@@ -18,15 +18,13 @@ permalink: "/contact"
 </form>
 
 <header>
+<link href="/jobs/css/etc/designs/apple/globalnav/en_US/styles/ac-globalnav.built.css" type="text/css" rel="stylesheet">
 	
+<link href="/jobs/css/etc/designs/apple/globalfooter/en_US/styles/ac-globalfooter.built.css" type="text/css" rel="stylesheet">
 	
-	 	<link href="/jobs/css/etc/designs/apple/globalnav/en_US/styles/ac-globalnav.built.css" type="text/css" rel="stylesheet">
+<link href="/jobs/css/etc/designs/apple/ac/localnav/3.0/styles/ac-localnav.built.css" type="text/css" rel="stylesheet">
 	
-     	<link href="/jobs/css/etc/designs/apple/globalfooter/en_US/styles/ac-globalfooter.built.css" type="text/css" rel="stylesheet">
-	
-	<link href="/jobs/css/etc/designs/apple/ac/localnav/3.0/styles/ac-localnav.built.css" type="text/css" rel="stylesheet">
-	
-  	<meta name="ac-gn-store-key" content="SJHJUH4YFCTTPD4F4">
+<meta name="ac-gn-store-key" content="SJHJUH4YFCTTPD4F4">
   	
 
 		
