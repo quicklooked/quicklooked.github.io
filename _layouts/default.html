@@ -70,7 +70,7 @@ const updateNavControls = () => {
     }
 }
 
-carouselReverse.forEach((button) => {
+js-carouselReverse.forEach((button) => {
     button.addEventListener('click', e => {
         if (e.target.nodeName === "BUTTON") {
             const carouselEl = e.target.parentElement.nextElementSibling;
@@ -93,7 +93,7 @@ carouselReverse.forEach((button) => {
     });
 });
 
-carouselForward.forEach((button) => {
+js-carouselForward.forEach((button) => {
     button.addEventListener('click', e => {
         if (e.target.nodeName === "BUTTON") {
             const carouselEl = e.target.parentElement.previousElementSibling;
