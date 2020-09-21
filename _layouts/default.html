@@ -31,8 +31,8 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/hearder.css">
     <script type="text/javascript" src="https://cdn-static-1.medium.com/_/fp/gen-js/main-common-async.bundle.-ESp_eLvx2XVrsxih9MkzA.js"></script>
     <script>
-    const carouselForward = document.querySelectorAll('.carousel-forward');
-const carouselReverse = document.querySelectorAll('.carousel-reverse');
+    const js-carouselForward = document.querySelectorAll('.carousel-forward');
+const js-carouselReverse = document.querySelectorAll('.carousel-reverse');
 let resizing = false;
 
 const updateNavWidth = () => {
@@ -62,11 +62,11 @@ const updateNavControls = () => {
     const isCarouselSameWidth = Math.ceil(carouselEL.getBoundingClientRect().width) >= carouselInner.style.width.slice(0, -2);
 
     if (isCarouselSameWidth) {
-        carouselForward[0].style.display = 'none';
-        carouselReverse[0].style.display = 'none';
+        js-carouselForward[0].style.display = 'none';
+        js-carouselReverse[0].style.display = 'none';
     } else {
-        carouselForward[0].style.display = 'initial';
-        carouselReverse[0].style.display = 'initial';
+        js-carouselForward[0].style.display = 'initial';
+        js-carouselReverse[0].style.display = 'initial';
     }
 }
 
