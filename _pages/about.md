@@ -523,5 +523,4 @@ comments: false
          </div>
       </div>
    </div>
-   <script>window.main();</script>
 </body>
