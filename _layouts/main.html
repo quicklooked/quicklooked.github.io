@@ -31,6 +31,10 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/hearder.css">
 
     <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
     {% include tracking-header.html %}
 
@@ -107,6 +111,49 @@
       </div>
     </div>
   </div>
+  <!-- inSiteNavBar -->
+  <div class="metabar-inner u-marginAuto u-maxWidth1032 u-paddingHorizontal20 js-metabarBottom" style="display:none;">
+    <nav role="navigation" class="metabar-block metabar-block--below u-flexCenter u-overflowHidden u-height50 u-xs-height39">
+      <div class="u-noWrap navBar-scrollFix uiScale uiScale-ui--regular uiScale-caption--regular">
+        <nav class="ds-nav ds-nav--textCaps ds-nav--spacingNone js-navBar" data-action-scope="_actionscope_3">
+          <div class="u-flexCenter u-minWidth0">
+            <div class="u-flex0 u-paddingRight10 js-carouselNavigation">
+              <button class="button button--chromeless u-baseColor--buttonNormal button--withIcon button--withSvgIcon js-carouselReverse" data-action="scroll-carousel" data-action-value="-1" disabled="disabled">
+                <span class="svgIcon svgIcon--arrowLeft svgIcon--21px is-flushLeft">
+                  <svg class="svgIcon-use" width="21" height="21"><path d="M13.402 16.957l-6.478-6.479L13.402 4l.799.71-5.768 5.768 5.768 5.77z" fill-rule="evenodd"></path></svg>
+                </span>
+              </button>
+            </div>
+            <div class="u-flex1 u-overflowHidden">
+              <div class="u-flexTop js-carouselInner">
+                <li class="ds-nav-item js-tabsItem is-active"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}/index.html">HOME</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">NATURAL</a></span></li>                
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">SCIENCE</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">ENGLISH</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">HISTORY</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">ART</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">TECHNOLOGY</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">INDUSTRY</a></span></li>                  
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">BOOKS</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">TALK</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">STYLE</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">POLITICS</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">POLITICS</a></span></li>
+                <li class="ds-nav-item js-tabsItem"><span class="ds-nav-text"><a class="ds-link ds-link--stylePointer" href="{{site.baseurl}}">POLITICS</a></span></li>  
+              </div>
+            </div>
+            <div class="u-flex0 u-marginLeftAuto u-paddingLeft10 js-carouselNavigation">
+              <button class="button button--chromeless u-baseColor--buttonNormal button--withIcon button--withSvgIcon js-carouselForward" data-action="scroll-carousel">
+                <span class="svgIcon svgIcon--arrowRight svgIcon--21px is-flushRight">
+                  <svg class="svgIcon-use" width="21" height="21"><path d="M8.3 4.2l6.4 6.3-6.4 6.3-.8-.8 5.5-5.5L7.5 5" fill-rule="evenodd"></path></svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+  </div>
 </div>
     <!-- Search Results -->
     <div id="lunrsearchresults">
@@ -124,6 +171,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
+    <script src="{{site.baseurl}}/assets/js/header.js"></script>
 
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small" style="display: none;">
