@@ -572,7 +572,5 @@ comments: false
    <script src="https://cdn-client.medium.com/lite/static/js/vendors~main.719c533f.chunk.js"></script><script src="https://cdn-client.medium.com/lite/static/js/main.a1e62fd7.chunk.js"></script><script src="https://cdn-client.medium.com/lite/static/js/vendors~instrumentation.ae3662e5.chunk.js"></script>
    <script src="https://cdn-client.medium.com/lite/static/js/instrumentation.ec4b06fb.chunk.js"></script>
    <script src="https://cdn-client.medium.com/lite/static/js/reporting.4fe27031.chunk.js"></script>
-   <script src="https://cdn-client.medium.com/lite/static/js/Homepage~YourStories.221709e5.chunk.js"></script>
-   <script src="https://cdn-client.medium.com/lite/static/js/Homepage.5a028d00.chunk.js"></script>
    <script>window.main();</script>
 </body>
