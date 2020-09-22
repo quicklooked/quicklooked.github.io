@@ -21,7 +21,7 @@ function getOverflow() {
 
 var ow = 0;
 
-$(window).on("", function() {
+$(window).on("resize", function() {
   ow = getOverflow();
   $(".js-carouselInner").css({ transform: "translateX(0)" });
   $(".js-carouselReverse").prop("disabled", true);
