@@ -575,5 +575,4 @@ comments: false
    <script src="https://cdn-client.medium.com/lite/static/js/Homepage~YourStories.221709e5.chunk.js"></script>
    <script src="https://cdn-client.medium.com/lite/static/js/Homepage.5a028d00.chunk.js"></script>
    <script>window.main();</script>
-   <iframe src="https://a16180790160.cdn.optimizely.com/client_storage/a16180790160.html" hidden="" tabindex="-1" title="Optimizely Internal Frame" height="0" width="0" style="display: none;"></iframe>
 </body>
