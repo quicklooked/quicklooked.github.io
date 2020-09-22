@@ -60,3 +60,22 @@ $(document).ready(function() {
     }
   });
 });
+
+
+
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+var metabar = document.getElementById("metabar");
+
+// Get the offset position of the navbar
+var is-minimized = metabar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= is-minimized) {
+    metabar.classList.add("sticky")
+  } else {
+    metabar.classList.remove("is-minimized");
+  }
