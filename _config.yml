@@ -2,7 +2,7 @@
 name: 'Quicklook'
 description: 'Quicklook’s corporate mission is “to organize the world’s product information and make it symmetric and useful.” Our business philosophy is “continuous improvement to survive and develop”. Our goal is “to global brand”'
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.svg'
+favicon: 'assets/images/quicklook_favicon.svg'
 baseurl: ''
 disqus: 'demowebsite'
 email: 'quicklook.vn@gmail.com'
