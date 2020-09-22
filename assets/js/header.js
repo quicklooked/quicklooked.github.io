@@ -33,7 +33,7 @@ $(document).ready(function() {
 
   $(".js-carouselReverse").click(function(e) {
     var x = getX($(".js-carouselInner"));
-    var difference = 300;
+    var difference = 150;
     var minus = x + difference;
 
     if (x <= -difference) {
@@ -47,7 +47,7 @@ $(document).ready(function() {
 
   $(".js-carouselForward").click(function(e) {
     var x = getX($(".js-carouselInner"));
-    var difference = -300;
+    var difference = -150;
     var plus = x + difference;
     console.log(x);
 
