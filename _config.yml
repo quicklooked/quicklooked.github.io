@@ -46,7 +46,7 @@ defaults:
       author: sal
       avatar: 'assets/images/sal.jpg'
       
-  # all pages
+  # all pages 
   - scope:
       path: "_pages"
     values:
