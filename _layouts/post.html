@@ -4,15 +4,6 @@ layout: default
 
 
 
-{% assign category = page.title | downcase %}
-{% for post in site.posts %}
-{% if post.categories contains {{category}}  %}
-<li>{{ post.title }}</li>
-{% endif %}
-{% endfor %}
-
-
-
 
 
 {% assign author = site.authors[page.author] %}
