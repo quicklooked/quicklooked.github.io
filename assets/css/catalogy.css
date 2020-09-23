@@ -7706,7 +7706,7 @@ main {
 }
 
 .u-accentTextSansSerif {
-  font-family: medium-marketing-gift-sans, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif!important;
+  font-family:'Noe Display';
   font-style: normal!important;
   font-weight: 400!important
 }
@@ -8385,7 +8385,7 @@ main {
 }
 
 .brand {
-  font-family: medium-marketing-content-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif!important;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -8393,7 +8393,7 @@ main {
 }
 
 .brand-headerMain {
-  font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif!important;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 500;
   font-size: 52px;
@@ -8402,7 +8402,7 @@ main {
 }
 
 .brand-headerAccent {
-  font-family: medium-marketing-content-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif!important;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -8411,7 +8411,7 @@ main {
 }
 
 .brand-headerSentence {
-  font-family: medium-marketing-content-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif!important;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -8419,7 +8419,7 @@ main {
 }
 
 .brand-headerContrast {
-  font-family: medium-marketing-content-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif!important;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -8444,7 +8444,7 @@ main {
 }
 
 .brand .link {
-  font-family: medium-marketing-content-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif!important;
+  font-family: 'Noe Display'!important;
   font-style: normal;
   font-weight: 600;
   padding-bottom: 2px;
@@ -19978,7 +19978,7 @@ text {
 .sortableTable-title {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -22006,7 +22006,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 .compressedPostListItem-title {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -22091,7 +22091,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 .streamItem-card--collectionManagerPost .post-title {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -22110,7 +22110,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
   display: block;
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 300;
   font-style: normal;
@@ -25274,7 +25274,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .postArticle-content .graf--p {
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: .01rem;
   font-weight: 400;
   font-style: normal;
@@ -25286,7 +25286,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--h2 {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -25303,7 +25303,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--h3 {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -25320,7 +25320,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--h4 {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -25337,7 +25337,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--title {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -25355,7 +25355,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--subtitle {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 300;
   font-style: normal;
@@ -25372,7 +25372,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--kicker {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 300;
   font-style: normal;
@@ -25387,7 +25387,7 @@ section.is-darkBackgrounded>.section-captionContent {
 }
 
 .postArticle--full .graf--title {
-  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   font-weight: 400;
   font-style: normal;
   font-weight: 400;
@@ -25406,7 +25406,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--blockquote {
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: .01rem;
   font-weight: 400;
   font-style: italic;
@@ -25418,7 +25418,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--pullquote {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-slab-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -25430,7 +25430,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .markup--pullquote-strong {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-slab-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   font-weight: 400;
   font-style: italic
 }
@@ -25438,7 +25438,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--li {
   --x-height-multiplier: 0.375;
   --baseline-multiplier: 0.17;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: .01rem;
   font-weight: 400;
   font-style: normal;
@@ -25470,7 +25470,7 @@ ul.postList>li:before {
 hr.section-divider:before {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-slab-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -25519,7 +25519,7 @@ hr.section-divider:before {
 .graf-dropCap {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 700;
   font-style: normal;
@@ -25578,7 +25578,7 @@ p[data-align=center] {
 .imageCaption {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
   letter-spacing: -.02em;
   font-weight: 300;
   font-style: normal;
@@ -27707,7 +27707,7 @@ section.is-darkBackgrounded .markup--highlight {
 }
 
 .meterStars-count {
-  font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -27726,7 +27726,7 @@ section.is-darkBackgrounded .markup--highlight {
 
 @media screen and (max-width:767px) {
   .meterThumbnail {
-    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    font-family: 'Feed', "Segoe UI", "Helvetica Neue", 'Arial';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -27747,7 +27747,7 @@ section.is-darkBackgrounded .markup--highlight {
 }
 
 .slotMachine-number {
-  font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif!important;
+  font-family: 'Noe Display';
   font-style: normal;
   font-weight: 500;
   margin-top: 7px
