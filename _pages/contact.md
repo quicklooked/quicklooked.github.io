@@ -16,3 +16,14 @@ permalink: "/contact"
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
 <input class="btn btn-success" type="submit" value="Send">
 </form>
+
+
+
+
+{% assign category = page.title|downcase %}
+
+{% for post in site.posts %}
+{% if post.categories contains {{category}}  %}
+<li>{{ post.title }}</li>
+{% endif %}
+{% endfor %}
