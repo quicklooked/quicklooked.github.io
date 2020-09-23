@@ -43,7 +43,7 @@
                                  </div>
                                  <div class="ui-caption u-noWrapWithEllipsis">
                                     <span class="u-noWrap">
-                                       <time class="u-inlineBlock u-lineHeightBase">{{ post.date | date: '%b %d' }}</time><span class="middotDivider"></span><span class="readingTime" title="">{% include meta-read-time.html %}</span>
+                                       <time class="u-inlineBlock u-lineHeightBase">{{ post.date | date: '%b %d' }}</time><span class="middotDivider"></span><span class="readingTime" title="">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 200 | divided_by: 200 | append: " minute read" }}{% endunless %}</span>
                                        <span class="u-paddingLeft4">
                                           <span class="svgIcon svgIcon--star svgIcon--15px">
                                              <svg class="svgIcon-use" width="15" height="15">
@@ -95,7 +95,7 @@
                                  </div>
                                  <div class="ui-caption u-noWrapWithEllipsis">
                                     <span class="u-noWrap" data-tooltip="Updated Sep 4">
-                                       <time class="u-inlineBlock u-lineHeightBase">{{ post.date | date: '%b %d' }}</time><span class="middotDivider"></span><span class="readingTime" title="">{% include meta-read-time.html %}</span>
+                                       <time class="u-inlineBlock u-lineHeightBase">{{ post.date | date: '%b %d' }}</time><span class="middotDivider"></span><span class="readingTime" title="">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 200 | divided_by: 200 | append: " minute read" }}{% endunless %}</span>
                                        <span class="u-paddingLeft4">
                                           <span class="svgIcon svgIcon--star svgIcon--15px">
                                              <svg class="svgIcon-use" width="15" height="15">
