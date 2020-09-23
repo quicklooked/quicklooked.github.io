@@ -355,7 +355,7 @@ th {
 }
 
 body {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -374,7 +374,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -7474,7 +7474,7 @@ main {
 }
 
 .u-textColorYellow {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -7525,42 +7525,42 @@ main {
 }
 
 .u-uiTextBold {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 700!important;
   font-style: normal!important
 }
 
 .u-uiTextSemibold {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 600!important;
   font-style: normal!important
 }
 
 .u-uiTextMedium {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 500!important;
   font-style: normal!important
 }
 
 .u-uiTextRegular {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 400!important;
   font-style: normal!important
 }
 
 .u-uiTextThin {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 300!important;
   font-style: normal!important
 }
 
 .u-uiDisplayBold {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 700!important;
   font-style: normal!important
@@ -7571,7 +7571,7 @@ main {
 }
 
 .u-uiDisplaySemibold {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 600!important;
   font-style: normal!important
@@ -7582,7 +7582,7 @@ main {
 }
 
 .u-uiDisplayMedium {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 500!important;
   font-style: normal!important
@@ -7593,7 +7593,7 @@ main {
 }
 
 .u-uiDisplayRegular {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 400!important;
   font-style: normal!important
@@ -7604,7 +7604,7 @@ main {
 }
 
 .u-uiDisplayThin {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: 0!important;
   font-weight: 300!important;
   font-style: normal!important
@@ -7624,7 +7624,7 @@ main {
 .u-contentSansBold {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -7638,7 +7638,7 @@ main {
 .u-contentSansRegular {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -7652,7 +7652,7 @@ main {
 .u-contentSansThin {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 300!important;
   font-style: normal!important;
@@ -8947,7 +8947,7 @@ main {
 .uiScale-ui--large .ui-h1 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9007,7 +9007,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--large .ui-h1 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9067,7 +9067,7 @@ main {
 .uiScale-ui--large .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9127,7 +9127,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--large .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9187,7 +9187,7 @@ main {
 .uiScale-ui--large .ui-h3 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9247,7 +9247,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--large .ui-h3 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9307,7 +9307,7 @@ main {
 .uiScale-ui--large .ui-h4 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9367,7 +9367,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--large .ui-h4 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9428,7 +9428,7 @@ main {
 .uiScale-ui--large .ui-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -9528,7 +9528,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--large .ui-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -9627,7 +9627,7 @@ main {
 .uiScale-ui--regular .ui-h1 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9718,7 +9718,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--regular .ui-h1 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9809,7 +9809,7 @@ main {
 .uiScale-ui--regular .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9900,7 +9900,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--regular .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -9991,7 +9991,7 @@ main {
 .uiScale-ui--regular .ui-h3 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10113,7 +10113,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--regular .ui-h3 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10235,7 +10235,7 @@ main {
 .uiScale-ui--regular .ui-h4 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10295,7 +10295,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--regular .ui-h4 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10356,7 +10356,7 @@ main {
 .uiScale-ui--regular .ui-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -10456,7 +10456,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--regular .ui-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -10555,7 +10555,7 @@ main {
 .uiScale-ui--small .ui-h1 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10646,7 +10646,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--small .ui-h1 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10737,7 +10737,7 @@ main {
 .uiScale-ui--small .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10828,7 +10828,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--small .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -10919,7 +10919,7 @@ main {
 .uiScale-ui--small .ui-h3 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -11041,7 +11041,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--small .ui-h3 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -11163,7 +11163,7 @@ main {
 .uiScale-ui--small .ui-h4 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -11254,7 +11254,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--small .ui-h4 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -11346,7 +11346,7 @@ main {
 .uiScale-ui--small .ui-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11446,7 +11446,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--small .ui-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11511,7 +11511,7 @@ main {
 .uiScale-ui--smaller .ui-h2 {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -11576,7 +11576,7 @@ main {
 .uiScale-caption--regular .ui-caption {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11635,7 +11635,7 @@ main {
 .v-glyph--unified01 .uiScale-caption--regular .ui-caption {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11694,7 +11694,7 @@ main {
 .uiScale-caption--small .ui-caption {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11722,7 +11722,7 @@ main {
 .v-glyph--unified01 .uiScale-caption--small .ui-caption {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11755,7 +11755,7 @@ main {
 .uiScale-caption--regular .ui-captionStrong {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11783,7 +11783,7 @@ main {
 .v-glyph--unified01 .uiScale-caption--regular .ui-captionStrong {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11811,7 +11811,7 @@ main {
 .uiScale-caption--small .ui-captionStrong {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11839,7 +11839,7 @@ main {
 .v-glyph--unified01 .uiScale-caption--small .ui-captionStrong {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11940,7 +11940,7 @@ main {
 .uiScale-ui--small .ui-caps {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -11978,7 +11978,7 @@ main {
 .v-glyph--unified01 .uiScale-ui--small .ui-caps {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12050,7 +12050,7 @@ main {
 .uiScale .ui-capsSubtle {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12082,7 +12082,7 @@ main {
 .v-glyph--unified01 .uiScale .ui-capsSubtle {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12142,7 +12142,7 @@ main {
 .uiScale .ui-capsBold {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -12173,7 +12173,7 @@ main {
 .v-glyph--unified01 .uiScale .ui-capsBold {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12249,7 +12249,7 @@ main {
 .uiScale .ds-nav--textRegular .ds-nav-text {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12277,7 +12277,7 @@ main {
 .v-glyph--unified01 .uiScale .ds-nav--textRegular .ds-nav-text {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12305,7 +12305,7 @@ main {
 .uiScale .ds-nav--textCaps .ds-nav-text {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12335,7 +12335,7 @@ main {
 .v-glyph--unified01 .uiScale .ds-nav--textCaps .ds-nav-text {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12461,7 +12461,7 @@ main {
 .uiScale .ds-button--sizeLarge {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12490,7 +12490,7 @@ main {
 .v-glyph--unified01 .uiScale .ds-button--sizeLarge {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12518,7 +12518,7 @@ main {
 .uiScale .ds-button--sizeRegular {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12547,7 +12547,7 @@ main {
 .v-glyph--unified01 .uiScale .ds-button--sizeRegular {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12575,7 +12575,7 @@ main {
 .uiScale .ds-button--sizeSmall {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12604,7 +12604,7 @@ main {
 .v-glyph--unified01 .uiScale .ds-button--sizeSmall {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12632,7 +12632,7 @@ main {
 .uiScale .ds-button--sizeCompact {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12661,7 +12661,7 @@ main {
 .v-glyph--unified01 .uiScale .ds-button--sizeCompact {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -12803,7 +12803,7 @@ main {
   .uiScale-ui--large .ui-xs-h2 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -12836,7 +12836,7 @@ main {
   .uiScale-ui--large .ui-xs-h3 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -12869,7 +12869,7 @@ main {
   .uiScale-ui--large .ui-xs-h4 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -12902,7 +12902,7 @@ main {
   .uiScale-ui--large .ui-xs-bodyRegular {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 400!important;
     font-style: normal!important;
@@ -12942,7 +12942,7 @@ main {
   .uiScale-ui--regular .ui-xs-h2 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -12983,7 +12983,7 @@ main {
   .uiScale-ui--regular .ui-xs-h3 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -13032,7 +13032,7 @@ main {
   .uiScale-ui--regular .ui-xs-h4 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -13073,7 +13073,7 @@ main {
   .uiScale-ui--small .ui-xs-h2 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -13114,7 +13114,7 @@ main {
   .uiScale-ui--small .ui-xs-h3 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -13163,7 +13163,7 @@ main {
   .uiScale-ui--small .ui-xs-h4 {
     --x-height-multiplier: 0.342!important;
     --baseline-multiplier: 0.22!important;
-    font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+    font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
     letter-spacing: -.02em!important;
     font-weight: 700!important;
     font-style: normal!important;
@@ -14279,7 +14279,7 @@ main {
   user-select: none;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -15453,7 +15453,7 @@ main {
   width: auto;
   margin-right: auto;
   margin-left: auto;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 500;
   font-style: normal
@@ -15476,7 +15476,7 @@ main {
 }
 
 .button--collection2upload {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -16013,7 +16013,7 @@ main {
   font-size: 18px;
   border: none;
   padding: 0;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -16156,7 +16156,7 @@ main {
   box-sizing: border-box;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -16169,7 +16169,7 @@ main {
   font-size: 16px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -16217,14 +16217,14 @@ main {
   padding: 7px;
   width: 500px;
   white-space: nowrap;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
 }
 
 .textInput--jumbo {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -16517,7 +16517,7 @@ main {
   -webkit-border-radius: 0;
   border-radius: 0;
   padding-right: 20px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -16570,7 +16570,7 @@ main {
 }
 
 .form-heading {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 600;
   font-style: normal
@@ -16591,7 +16591,7 @@ main {
 }
 
 .form-asterisk {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -16757,7 +16757,7 @@ main {
 }
 
 .heading--page .heading-title {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -16772,7 +16772,7 @@ main {
 
 .heading--simple .heading-content,
 .heading--simple .heading-title {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -16822,7 +16822,7 @@ main {
 }
 
 .heading--section .heading-title {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -16880,7 +16880,7 @@ main {
 
 .heading-count {
   margin-left: 8px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -17202,7 +17202,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
 }
 
 .hero-title {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   font-weight: 700;
   font-style: normal;
   font-size: 46px;
@@ -17478,7 +17478,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
 }
 
 .postMetaInline {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -17539,7 +17539,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
 }
 
 .catalog-title {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 600;
   font-style: normal;
@@ -17547,7 +17547,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
 }
 
 .catalog-description {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -17779,7 +17779,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
   padding-right: 1px;
   font-size: 26px;
   color: rgba(0, 0, 0, .84);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -17858,7 +17858,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
   font-size: 38px;
   line-height: 1.2;
   color: rgba(0, 0, 0, .84);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -17868,7 +17868,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
   padding-bottom: 5px;
   font-size: 22px;
   color: rgba(0, 0, 0, .54);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -18034,7 +18034,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
   font-size: 46px;
   line-height: 1.1;
   color: rgba(0, 0, 0, .84);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -18044,7 +18044,7 @@ body.is-zoomableActive .postActionsBar.is-visible .postActionsBar-content {
   padding-bottom: 10px;
   font-size: 26px;
   color: rgba(0, 0, 0, .54);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -18230,7 +18230,7 @@ hr.homeHr {
   line-height: 1em;
   vertical-align: bottom;
   padding: 2px 0 30px 0;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -18238,7 +18238,7 @@ hr.homeHr {
 
 .homeContainer-nextUp {
   color: rgba(0, 0, 0, .84);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -18481,7 +18481,7 @@ hr.homeHr {
 .overlay-subtitle {
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -18663,7 +18663,7 @@ hr.homeHr {
 
 .overlay--import>.overlay-title {
   font-size: 46px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -18671,7 +18671,7 @@ hr.homeHr {
 
 .overlay--import>.overlay-content {
   margin: 30px -100px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -18946,7 +18946,7 @@ hr.homeHr {
   font-size: 16px;
   background: #fff;
   color: rgba(0, 0, 0, .54);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -19208,7 +19208,7 @@ hr.homeHr {
 
 .listChoice-itemTitle>small {
   display: block;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -19457,7 +19457,7 @@ hr.homeHr {
   color: rgba(0, 0, 0, .54);
   font-size: 16px;
   line-height: 1.3;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -19468,7 +19468,7 @@ hr.homeHr {
   line-height: 1.3;
   margin: 10px 0 10px 28px;
   font-size: 15px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -19496,7 +19496,7 @@ hr.homeHr {
   padding: 5px 0 10px 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -19534,7 +19534,7 @@ hr.homeHr {
 
 .popover-cite {
   display: block;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -19759,7 +19759,7 @@ hr.homeHr {
   font-size: 20px;
   -webkit-transition: color .2s;
   transition: color .2s;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -19821,7 +19821,7 @@ line.bargraph-averageLine {
 .bargraph-xAxis .bargraph-yAxis,
 text {
   fill: rgba(0, 0, 0, .54);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -20015,7 +20015,7 @@ text {
 }
 
 .sortableTable-tip {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -20026,7 +20026,7 @@ text {
 }
 
 .sortableTable-number {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -20069,7 +20069,7 @@ tbody.is-muted .is-active {
   margin-bottom: -2px;
   white-space: nowrap;
   text-align: inherit;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -20210,7 +20210,7 @@ tbody.is-muted .is-active {
 }
 
 .table-thead {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -20244,7 +20244,7 @@ tbody.is-muted .is-active {
 }
 
 .table-cell {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -20259,7 +20259,7 @@ tbody.is-muted .is-active {
 }
 
 .table-cell--value {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -20552,7 +20552,7 @@ body.is-diagnosticsVisible .site-main {
 }
 
 .typeahead .typeahead-post {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -20619,7 +20619,7 @@ body.is-diagnosticsVisible .site-main {
 .infoCard {
   font-size: 16px;
   color: rgba(0, 0, 0, .84);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -20776,7 +20776,7 @@ body.is-diagnosticsVisible .site-main {
 
 .tags {
   font-size: 15px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -20916,7 +20916,7 @@ body.is-diagnosticsVisible .site-main {
 .tags--postTags>.button,
 .tags--postTags>a,
 .tags--postTags>li {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   font-weight: 400;
   font-style: normal;
   color: #000;
@@ -21094,7 +21094,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 .tags-token>.tags-button {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   font-weight: 700;
   font-style: normal;
   color: rgba(255, 255, 255, .97);
@@ -21388,7 +21388,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 
 .promo-title {
   line-height: 1.2;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal
@@ -21396,7 +21396,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 
 .promo-subtitle,
 .promo-text {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -21485,7 +21485,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
   padding: 0 50px;
   color: rgba(255, 255, 255, .65);
   font-size: 20px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -21537,7 +21537,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 
 .promo--stream .promo-title {
   font-size: 34px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
@@ -21674,7 +21674,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 .letters-statsPercentage {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -22282,7 +22282,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 .userAnnotation-text {
   display: table-cell;
   vertical-align: middle;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -22311,7 +22311,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 .catalogPreview-name {
   font-size: 16px;
   line-height: 1.2;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 500;
   font-style: normal
@@ -22322,7 +22322,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 .catalogPreview-footer {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 500;
   font-style: normal
@@ -22390,7 +22390,7 @@ body.is-withMagicUnderlines .tags a.markup--anchor {
 }
 
 .graf--mixtapeEmbed {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -22425,7 +22425,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .markup--mixtapeEmbed-strong {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -22524,7 +22524,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .creditCardForm {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -22533,7 +22533,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .creditCardForm-heading {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -22552,7 +22552,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .creditCardForm--error {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -23706,7 +23706,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .onboardingTopBar-greeting {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -23747,7 +23747,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .onboardingContent-subtitle {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -23756,7 +23756,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .onboardingContent-waiting {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -23925,7 +23925,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 
 .stats-titleHeading {
   color: rgba(0, 0, 0, .68);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -23952,7 +23952,7 @@ body.is-withMagicUnderlines .markup--anchor.markup--mixtapeEmbed-anchor {
 }
 
 .stats-totalNumber {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   font-weight: 700;
   font-style: normal;
   font-size: 52px;
@@ -24913,7 +24913,7 @@ section.is-darkBackgrounded>.section-captionContent {
 .graf--li.graf--containsTK:after,
 .graf.graf--containsTK:not(.graf--li):before {
   content: 'TK';
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 700;
   font-style: normal;
@@ -27061,7 +27061,7 @@ body.is-withMagicUnderlines section.section--card .markup--anchor {
 
 .quoteResponses .inlineEditor-header .avatar-text,
 .quoteResponses .inlineEditor-placeholder {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -27097,7 +27097,7 @@ body.is-withMagicUnderlines section.section--card .markup--anchor {
 }
 
 .privateNotes {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -27193,7 +27193,7 @@ body.is-withMagicUnderlines section.section--card .markup--anchor {
 }
 
 .privateNotes-authorLockup {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -27221,7 +27221,7 @@ body.is-withMagicUnderlines section.section--card .markup--anchor {
 
 .quoteResponses-section--tips,
 .quoteResponses-section--tips:last-child {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -27250,7 +27250,7 @@ body.is-withMagicUnderlines section.section--card .markup--anchor {
 
 .notesPositionContainer {
   position: relative;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -27326,7 +27326,7 @@ section.is-darkBackgrounded .markup--highlight {
 
 .quoteItem-attribution {
   color: rgba(0, 0, 0, .54);
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -27624,7 +27624,7 @@ section.is-darkBackgrounded .markup--highlight {
 
 .customTitleControl-field {
   font-size: 16px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal;
@@ -27863,7 +27863,7 @@ section.is-darkBackgrounded .markup--highlight {
 .elevate-summary {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -27881,7 +27881,7 @@ section.is-darkBackgrounded .markup--highlight {
 .elevate-body {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 400!important;
   font-style: normal!important;
@@ -27899,7 +27899,7 @@ section.is-darkBackgrounded .markup--highlight {
 .elevate-caps {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -27918,7 +27918,7 @@ section.is-darkBackgrounded .markup--highlight {
 .elevate-accent {
   --x-height-multiplier: 0.342!important;
   --baseline-multiplier: 0.22!important;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’ !important;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial' !important;
   letter-spacing: -.02em!important;
   font-weight: 700!important;
   font-style: normal!important;
@@ -28476,7 +28476,7 @@ section.is-darkBackgrounded .markup--highlight {
 }
 
 .defaultValue--prompt {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -28638,7 +28638,7 @@ figure.is-defaultValue .imageCaption {
   bottom: 0;
   padding: 2px 5px;
   background: #f0f0f0;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -28858,14 +28858,14 @@ figure.is-defaultValue .imageCaption {
   letter-spacing: -.04em;
   padding: 10px 50px;
   width: 800px;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 300;
   font-style: normal
 }
 
 .drawer-list {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -29164,7 +29164,7 @@ figure.is-defaultValue .imageCaption {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -29284,7 +29284,7 @@ figure.is-defaultValue .imageCaption {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
@@ -29363,7 +29363,7 @@ figure.is-defaultValue .imageCaption {
 }
 
 .diagnostics {
-  font-family: ‘Feed’, ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal;
@@ -29415,7 +29415,7 @@ body.is-diagnosticsVisible .diagnostics {
 }
 
 .variants {
-  font-family: 'Feed', ‘Segoe UI’, ‘Helvetica Neue’, ‘Arial’;
+  font-family: 'Feed', 'Segoe UI', 'Helvetica Neue', 'Arial';
   letter-spacing: 0;
   font-weight: 400;
   font-style: normal
