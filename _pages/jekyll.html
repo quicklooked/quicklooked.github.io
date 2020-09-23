@@ -71,8 +71,6 @@ layout: catalogy
                
                
                <div class="metabar metabar--spacer js-metabarSpacer u-tintBgColor u-height65 u-xs-height56"></div>
-               
-               
                <div class="collectionHeader js-collectionHeaderContainer u-relative collectionHeader--layoutLarge collectionHeader--alignmentCenter collectionHeader--withLogo collectionHeader--withoutBackground collectionHeader--colorBehaviorBold collectionHeader--withNavigation collectionHeader--editorLayoutLogo is-modeView u-tintBgColor">
                   <div class="collectionHeader-aspectRatioTable">
                      <div class="collectionHeader-aspectRatioContent u-backgroundSizeCover js-collectionHeaderBackground">
@@ -120,7 +118,7 @@ layout: catalogy
                                  </span>
                                  <input class="js-predictiveSearchInput textInput textInput--rounded textInput--darkText u-baseColor--textNormal textInput--transparent" type="search" placeholder="Search Quicklook" required="true" data-collection-id="f5af2b715248">
                               </label>
-                              <button class="button button--primary button--smallest u-noUserSelect button--withChrome u-accentColor--buttonNormal js-relationshipButton is-smallPill" data-action="sign-up-prompt" data-sign-in-action="toggle-follow-collection" data-requires-token="true" data-redirect="{{ site.twitter }}" data-action-source="{{ site.twitter }}" data-collection-id=""><span class="button-label  js-buttonLabel">Follow</span></button>
+                              <button class="button button--primary button--smallest u-noUserSelect button--withChrome u-accentColor--buttonNormal" data-action="{{ site.twitter }}" data-sign-in-action="toggle-follow-collection" data-requires-token="true" data-redirect="{{ site.twitter }}" data-action-source="{{ site.twitter }}" data-collection-id=""><span class="button-label"><a href="{{ site.twitter }}">Follow</a></span></button>
                            </div>
                         </nav>
                      </div>
