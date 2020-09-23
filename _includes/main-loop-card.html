@@ -16,14 +16,14 @@
                         <div class="postMetaInline postMetaInline-authorLockup u-padding0 u-flexShrink1 u-noWrapWithEllipsis"><a class="ds-link ds-link--styleSubtle postMetaInline postMetaInline--author" href="{{site.baseurl}}/@{{post.author}}" style="text-transform: capitalize;" data-action="show-user-card" data-action-value="72198dc59ac" data-action-type="hover" data-user-id="72198dc59ac" dir="auto">{{ post.author | author.name }}</a> 
                            in <span class="catlist">
                            {% for category in post.categories %}
-                           <a class="ds-link ds-link--styleSubtle" href="{{site.baseurl}}/categories#{{ category | downcase }}" data-action="show-collection-card" data-action-value="history-of-yesterday" data-action-type="hover">{{ category }}</a><span class="sep">, </span>
+                           <a class="ds-link ds-link--styleSubtle" href="{{site.baseurl}}/categories#{{ category | downcase }}" data-action="show-collection-card" data-action-value="" data-action-type="hover">{{ category }}</a><span class="sep">, </span>
                            {% endfor %}
                            </span>
                         </div>
                      </div>
                      <div class="ui-caption u-noWrapWithEllipsis">
                         <span class="u-noWrap" data-tooltip="Updated Jul 16">
-                           <time class="u-inlineBlock u-lineHeightBase">{{post.date | date: '%b %d'}}</time><span class="middotDivider"></span><span class="readingTime" title="">{% include meta-read-time.html %}</span>
+                           <time class="u-inlineBlock u-lineHeightBase">{{post.date | date: '%b %d'}}</time><span class="middotDivider"></span><span class="readingTime" title="">{% include meta-read-time.html %}{{ words | plus: 10 | divided_by: 180 | append: " minute read" }}{% unless words contains "-" %}{{ words | plus: 180 | divided_by: 180 | append: " minute read" }}{% endunless %}</span>
                            <span class="u-paddingLeft4">
                               <span class="svgIcon svgIcon--star svgIcon--15px">
                                  <svg class="svgIcon-use" width="15" height="15">
