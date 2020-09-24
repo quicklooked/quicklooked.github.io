@@ -1,135 +1,164 @@
 ---
-layout: default
-permalink: "/tests"
+title: "Categories"
+layout: main
+permalink: "/test"
 ---
 
-        <div class="fx ab">
-            <div class="fy fz n ga">
-                <h4 class="bc eu gb gc cl">Featured</h4>
-            </div>
-{% for post in site.categories.jekyll %}
-{% if post.tags contains page.featured %}
-                {% include main-loop-card.html %}
-<div class="gf gg gh gi gj ab c">
-                <div class="w gk">
-                    <div class="gl n">
-                        <div class="gd s t">
-                            <div class="o n">
-                                <div>
-                                    <a rel="noopener" href="{{site.baseurl}}{{post.url}}">
-                                        <div class="cn gm gn">
-                                            <div class="bi n ee o p ac ef eg eh ei ej ek">
-                                                <svg width="49" height="49" viewBox="0 0 49 49">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.5 1.1c-9.39 0-17.53 5.55-21.51 13.66L2 14.28C6.15 5.82 14.66 0 24.5 0S42.85 5.82 47 14.28l-.99.48C42.03 6.65 33.9 1.1 24.5 1.1zM2.99 34.24C6.97 42.35 15.1 47.9 24.5 47.9c9.39 0 17.53-5.55 21.51-13.66l.99.48C42.85 43.18 34.34 49 24.5 49S6.15 43.18 2 34.72l.99-.48z"></path>
-                                                </svg>
-                                            </div>
-                                            <img alt="John DeVore" class="ab dt gn gm" src="{{site.baseurl}}/assets/images/{{ post.author }}.jpg" width="40" height="40">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="go w ab">
-                                    <div class="n">
-                                        <div style="flex: 1 1 0%;">
-                                            <span class="bc bd be bf cl">
-                                                {% for author in post.author %}
-                                                <div class="gp n o gq"><span class="bc bd be bf z gr cd gs gt gu cl"><a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="{{site.baseurl}}/@{{post.author}}" style="text-transform: capitalize;">{{ post.author }}</a> 
-                                                    {% endfor %}
-                                                    <span> in <span class="catlist">
-                                                    {% for category in post.categories %}
-                                                    <a href="{{site.baseurl}}/categories#{{ category | downcase }}" class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener">{{ category }}</a><span class="sep">, </span> {% endfor %} </span>
-                                                    </span></span>
-                                                </div>
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <span class="bc bd be bf bg">
-                                        <span class="bc bd be bf z gr cd gs gt gu bg">
-                                            <div>
-                                                <a class="cq cr bj bk bl bm bn bo bp bq fm bt cu cv" rel="noopener" href="{{site.baseurl}}{{ post.url }}">{{ post.date | date: '%b %d' }}</a><span class="middotDivider"></span>{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 200 | divided_by: 200 | append: " minute read" }}{% endunless %}
-                                                <span style="padding-left: 4px;">
-                                                    <svg class="star-15px_svg__svgIcon-use" width="15" height="15" viewBox="0 0 15 15" style="margin-top: -2px;">
-                                                        <path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path>
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </span>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ge">
-                            <svg width="19" height="19" viewBox="0 0 19 19" class="bx">
-                                <path d="M9.42 2.6c.04-.13.12-.13.16 0l1.64 4.86a.4.4 0 0 0 .35.26h5.3c.15 0 .17.06.05.15l-4.28 2.98a.37.37 0 0 0-.14.4l1.64 4.86c.04.14-.02.18-.14.1l-4.28-3a.41.41 0 0 0-.44 0L5 16.2c-.12.08-.18.04-.13-.1l1.64-4.85a.37.37 0 0 0-.14-.4l-4.28-3c-.12-.09-.1-.16.05-.16h5.3a.4.4 0 0 0 .35-.26L9.42 2.6z"></path>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="s t ab">
-                        <a rel="noopener" href="{{site.baseurl}}{{ post.url }}">
-                            <div>
-                                <div class="ac af gv gw gx ek"></div>
-                                <section class="gy gz ha hb hc">
-                                    <figure class="hd he paragraph-image">
-                                        <div class="hf">
-                                            <div class="hj ab cn hk">
-                                                <div class="hl hm ab">
-                                                    {% if post.image %}
-                                                    <div class="cj hg ac ae af gk w z hh hi"><img alt="{{ post.title }}" class="ac ae af gk w hn ho ba jf" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" width="700" height="210"></div>
-                                                    <img alt="{{ post.title }}" class="jd je ac ae af gk w c" width="700" height="210" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" srcset="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 276w, {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 552w, {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 640w, {% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %} 700w" sizes="700px" style="object-fit: cover;">
-                                                    {% endif %}
-                                                    <noscript></noscript>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </figure>
-                                    <div>
-                                        <h1 id="97cb" class="ew hq hr bc eu ev hs ht cl" style="line-height: 28px;font-size: 24px;">{{ post.title }}</h1>
-                                    </div>
-                                    <h2 id="7ef4" class="hu hv hr bc bd hw hx hy bg" style="overflow: hidden!important;max-height: 20px!important;text-overflow: ellipsis!important;display: -webkit-box!important;-webkit-line-clamp: 1!important;-webkit-box-orient: vertical;font-size: 16px;line-height: 20px;">{{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}</h2>
-                                </section>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="hz ia gl n">
-                        <div class="gd n ee o">
-                            <div class="n o">
-                                <div class="ab cn ib ic id ie if">
-                                    <div class="">
-                                        <button class="bo ig ih ii ij ik il jb q in io">
-                                            <svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap">
-                                                <g fill-rule="evenodd">
-                                                    <path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path>
-                                                </g>
-                                            </svg>
-                                        </button>
-                                    </div>
-                                </div>
-                                <div class="ab ip iq ir is it iu iv">
-                                    <div class="iw">
-                                        <h4 class="bc bd be bf bg" style="display:none;">2K</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="ge n ee o">
-                            <h4 class="bc bd be bf bg" style="display:none;">23 responses</h4>
-                        </div>
-                        <div class="ge n ee o">
-                            <div class="ix ab">
-                                <div class="iy">
-                                    <div>
-                                        <div class="cf" role="tooltip" aria-hidden="false" aria-describedby="2" aria-labelledby="2">
-                                            <button class="cq cr bj bk bl bm bn bo bp bq cs ct bt cu cv" aria-label="Bookmark Post">
-                                                <svg width="25" height="25" viewBox="0 0 25 25">
-                                                    <path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path>
-                                                </svg>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {% endif %} 
-            {% endfor %} 
+<div class="u-foreground u-minHeight100vh">
+  <div class="extreme-container12col u-flex u-marginTop48">
+    <div class="extreme-container8col u-width100pct u-flex1 u-borderBox u-paddingRight24 extreme-10colSizeFull extreme-10colPadding0 js-mainfeed">
+        {% for category in site.categories %}
+        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h4>
+        {% assign pages_list = category[1] %}
+        {% for post in pages_list %}
+        {% if post.title != null %}
+        {% if group == null or group == post.group %}
+        {% include main-loop-card.html %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        {% assign pages_list = nil %}
+        {% assign group = nil %}
+        {% endfor %}
+    </div>
+    {% include sidebar-featured.html %}
+  </div>
+    <style class="js-collectionStyle"></style>
+    <style class="js-collectionStyleConstant">
+        .u-imageBgColor {background-color: rgba(0, 0, 0, 0.24705882352941178);}
+   .u-imageSpectrum .u-baseColor--borderLight {border-color: rgba(255, 255, 255, 0.6980392156862745) !important;}
+   .u-imageSpectrum .u-baseColor--borderNormal {border-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+   .u-imageSpectrum .u-baseColor--borderDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--iconLight .svgIcon,.u-imageSpectrum .u-baseColor--iconLight.svgIcon {fill: rgba(255, 255, 255, 0.8) !important;}
+   .u-imageSpectrum .u-baseColor--iconNormal .svgIcon,.u-imageSpectrum .u-baseColor--iconNormal.svgIcon {fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--iconDark .svgIcon,.u-imageSpectrum .u-baseColor--iconDark.svgIcon {fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--textNormal {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--textNormal.u-baseColor--textDarken:hover {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--textDark {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--textDarker {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--backgroundLight {background-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+   .u-imageSpectrum .u-baseColor--backgroundNormal {background-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--backgroundDark {background-color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--buttonLight {border-color: rgba(255, 255, 255, 0.6980392156862745) !important; color: rgba(255, 255, 255, 0.8) !important;}
+   .u-imageSpectrum .u-baseColor--buttonLight:hover {border-color: rgba(255, 255, 255, 0.6980392156862745) !important;}
+   .u-imageSpectrum .u-baseColor--buttonLight .icon:before,.u-imageSpectrum .u-baseColor--buttonLight .svgIcon {color: rgba(255, 255, 255, 0.8) !important; fill: rgba(255, 255, 255, 0.8) !important;}
+   .u-imageSpectrum .u-baseColor--buttonDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--buttonDark:hover {border-color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--buttonDark .icon:before,.u-imageSpectrum .u-baseColor--buttonDark .svgIcon {color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--buttonNormal {border-color: rgba(255, 255, 255, 0.8980392156862745) !important; color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--buttonNormal:hover {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--buttonNormal .icon:before,.u-imageSpectrum .u-baseColor--buttonNormal .svgIcon {color: rgba(255, 255, 255, 0.9490196078431372) !important; fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--buttonDark.button--filled,.u-imageSpectrum .u-baseColor--buttonDark.button--withChrome.is-active {background-color: rgba(255, 255, 255, 1) !important; border-color: rgba(255, 255, 255, 1) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+   .u-imageSpectrum .u-baseColor--buttonNormal.button--filled,.u-imageSpectrum .u-baseColor--buttonNormal.button--withChrome.is-active {background-color: rgba(255, 255, 255, 0.9490196078431372) !important; border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+   .u-imageSpectrum .u-baseColor--link {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-baseColor--link.link--darkenOnHover:hover {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--link.link--darken:hover,.u-imageSpectrum .u-baseColor--link.link--darken:focus,.u-imageSpectrum .u-baseColor--link.link--darken:active {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--link.link--dark {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--link.link--dark.link--darken:hover,.u-imageSpectrum .u-baseColor--link.link--dark.link--darken:focus,.u-imageSpectrum .u-baseColor--link.link--dark.link--darken:active {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--link.link--darker {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-baseColor--placeholderNormal ::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.8);}
+   .u-imageSpectrum .u-baseColor--placeholderNormal ::-moz-placeholder {color: rgba(255, 255, 255, 0.8);}
+   .u-imageSpectrum .u-baseColor--placeholderNormal :-ms-input-placeholder {color: rgba(255, 255, 255, 0.8);}
+   .u-imageSpectrum .svgIcon--logoWordmark {stroke: none !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .svgIcon--logoMonogram {stroke: none !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum  .ui-h1,.u-imageSpectrum  .ui-h2,.u-imageSpectrum  .ui-h3,.u-imageSpectrum  .ui-h4,.u-imageSpectrum  .ui-brand1,.u-imageSpectrum  .ui-brand2,.u-imageSpectrum  .ui-captionStrong {color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum  .ui-body,.u-imageSpectrum  .ui-caps {color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum  .ui-summary,.u-imageSpectrum  .ui-caption {color: rgba(255, 255, 255, 0.8) !important; fill: rgba(255, 255, 255, 0.8) !important;}
+   .u-imageSpectrum .u-accentColor--borderLight {border-color: rgba(255, 255, 255, 0.6980392156862745) !important;}
+   .u-imageSpectrum .u-accentColor--borderNormal {border-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+   .u-imageSpectrum .u-accentColor--borderDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--iconLight .svgIcon,.u-imageSpectrum .u-accentColor--iconLight.svgIcon {fill: rgba(255, 255, 255, 0.8) !important;}
+   .u-imageSpectrum .u-accentColor--iconNormal .svgIcon,.u-imageSpectrum .u-accentColor--iconNormal.svgIcon {fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--iconDark .svgIcon,.u-imageSpectrum .u-accentColor--iconDark.svgIcon {fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--textNormal {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--hoverTextNormal:hover {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--textNormal.u-accentColor--textDarken:hover {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--textDark {color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--backgroundLight {background-color: rgba(255, 255, 255, 0.8980392156862745) !important;}
+   .u-imageSpectrum .u-accentColor--backgroundNormal {background-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--backgroundDark {background-color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--buttonDark {border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--buttonDark:hover {border-color: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--buttonDark .icon:before,.u-imageSpectrum .u-accentColor--buttonDark .svgIcon{color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-imageSpectrum .u-accentColor--buttonNormal:not(.clapButton--largePill) {border-color: rgba(255, 255, 255, 0.8980392156862745) !important; color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--buttonNormal:hover {border-color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--buttonNormal .icon:before,.u-imageSpectrum .u-accentColor--buttonNormal .svgIcon{color: rgba(255, 255, 255, 0.9490196078431372) !important; fill: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--buttonNormal.button--filled .icon:before,.u-imageSpectrum .u-accentColor--buttonNormal.button--filled .svgIcon{color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+   .u-imageSpectrum .u-accentColor--buttonDark.button--filled,.u-imageSpectrum .u-accentColor--buttonDark.button--withChrome.is-active,.u-imageSpectrum .u-accentColor--fillWhenActive.is-active {background-color: rgba(255, 255, 255, 1) !important; border-color: rgba(255, 255, 255, 1) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+   .u-imageSpectrum .u-accentColor--buttonNormal.button--filled:not(.clapButton--largePill),.u-imageSpectrum .u-accentColor--buttonNormal.button--withChrome.is-active:not(.clapButton--largePill) {background-color: rgba(255, 255, 255, 0.9490196078431372) !important; border-color: rgba(255, 255, 255, 0.9490196078431372) !important; color: rgba(0, 0, 0, 0.24705882352941178) !important; fill: rgba(0, 0, 0, 0.24705882352941178) !important;}
+   .u-imageSpectrum .postArticle.is-withAccentColors .markup--user,.u-imageSpectrum .postArticle.is-withAccentColors .markup--query {color: rgba(255, 255, 255, 0.9490196078431372) !important;}
+   .u-imageSpectrum .u-accentColor--highlightFaint {background-color: rgba(255, 255, 255, 0.2) !important;}
+   .u-imageSpectrum .u-accentColor--highlightStrong.is-active .svgIcon {fill: rgba(255, 255, 255, 0.6) !important;}
+   .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-other {background-color: rgba(255, 255, 255, 0.2) !important;}
+   body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-other {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));}
+   .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-me {background-color: rgba(255, 255, 255, 0.4) !important;}
+   body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-me {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));}
+   .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-targeted {background-color: rgba(255, 255, 255, 0.6) !important;}
+   body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-targeted {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));}
+   .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-selected {background-color: rgba(255, 255, 255, 0.6) !important;}
+   body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--quote.is-selected {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));}
+   .postArticle.is-withAccentColors .u-imageSpectrum .markup--highlight {background-color: rgba(255, 255, 255, 0.6) !important;}
+   body.is-withMagicUnderlines .postArticle.is-withAccentColors .u-imageSpectrum .markup--highlight {background-color: transparent !important; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));}.u-resetSpectrum .u-tintBgColor {background-color: rgba(255, 255, 255, 1) !important;}.u-resetSpectrum .u-tintBgColor .u-fadeLeft:before {background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%) !important;}.u-resetSpectrum .u-tintBgColor .u-fadeRight:after {background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%) !important;}
+   .u-resetSpectrum .u-baseColor--borderLight {border-color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--borderNormal {border-color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--borderDark {border-color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--iconLight .svgIcon,.u-resetSpectrum .u-baseColor--iconLight.svgIcon {fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--iconNormal .svgIcon,.u-resetSpectrum .u-baseColor--iconNormal.svgIcon {fill: rgba(0, 0, 0, 0.4980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--iconDark .svgIcon,.u-resetSpectrum .u-baseColor--iconDark.svgIcon {fill: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--textNormal {color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--textNormal.u-baseColor--textDarken:hover {color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--textDark {color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--textDarker {color: rgba(0, 0, 0, 0.8) !important;}
+   .u-resetSpectrum .u-baseColor--backgroundLight {background-color: rgba(0, 0, 0, 0.09803921568627451) !important;}
+   .u-resetSpectrum .u-baseColor--backgroundNormal {background-color: rgba(0, 0, 0, 0.2) !important;}
+   .u-resetSpectrum .u-baseColor--backgroundDark {background-color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--buttonLight {border-color: rgba(0, 0, 0, 0.2980392156862745) !important; color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--buttonLight:hover {border-color: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--buttonLight .icon:before,.u-resetSpectrum .u-baseColor--buttonLight .svgIcon {color: rgba(0, 0, 0, 0.2980392156862745) !important; fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--buttonDark {border-color: rgba(0, 0, 0, 0.6) !important; color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--buttonDark:hover {border-color: rgba(0, 0, 0, 0.8) !important;}
+   .u-resetSpectrum .u-baseColor--buttonDark .icon:before,.u-resetSpectrum .u-baseColor--buttonDark .svgIcon {color: rgba(0, 0, 0, 0.6) !important; fill: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--buttonNormal {border-color: rgba(0, 0, 0, 0.4980392156862745) !important; color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--buttonNormal:hover {border-color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--buttonNormal .icon:before,.u-resetSpectrum .u-baseColor--buttonNormal .svgIcon {color: rgba(0, 0, 0, 0.4980392156862745) !important; fill: rgba(0, 0, 0, 0.4980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--buttonDark.button--filled,.u-resetSpectrum .u-baseColor--buttonDark.button--withChrome.is-active {background-color: rgba(0, 0, 0, 0.2980392156862745) !important; border-color: rgba(0, 0, 0, 0.2980392156862745) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-resetSpectrum .u-baseColor--buttonNormal.button--filled,.u-resetSpectrum .u-baseColor--buttonNormal.button--withChrome.is-active {background-color: rgba(0, 0, 0, 0.2) !important; border-color: rgba(0, 0, 0, 0.2) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-resetSpectrum .u-baseColor--link {color: rgba(0, 0, 0, 0.4980392156862745) !important;}
+   .u-resetSpectrum .u-baseColor--link.link--darkenOnHover:hover {color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--link.link--darken:hover,.u-resetSpectrum .u-baseColor--link.link--darken:focus,.u-resetSpectrum .u-baseColor--link.link--darken:active {color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--link.link--dark {color: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .u-baseColor--link.link--dark.link--darken:hover,.u-resetSpectrum .u-baseColor--link.link--dark.link--darken:focus,.u-resetSpectrum .u-baseColor--link.link--dark.link--darken:active {color: rgba(0, 0, 0, 0.8) !important;}
+   .u-resetSpectrum .u-baseColor--link.link--darker {color: rgba(0, 0, 0, 0.8) !important;}
+   .u-resetSpectrum .u-baseColor--placeholderNormal ::-webkit-input-placeholder {color: rgba(0, 0, 0, 0.2980392156862745);}
+   .u-resetSpectrum .u-baseColor--placeholderNormal ::-moz-placeholder {color: rgba(0, 0, 0, 0.2980392156862745);}
+   .u-resetSpectrum .u-baseColor--placeholderNormal :-ms-input-placeholder {color: rgba(0, 0, 0, 0.2980392156862745);}
+   .u-resetSpectrum .svgIcon--logoWordmark {stroke: none !important; fill: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum .svgIcon--logoMonogram {stroke: none !important; fill: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum  .ui-h1,.u-resetSpectrum  .ui-h2,.u-resetSpectrum  .ui-h3,.u-resetSpectrum  .ui-h4,.u-resetSpectrum  .ui-brand1,.u-resetSpectrum  .ui-brand2,.u-resetSpectrum  .ui-captionStrong {color: rgba(0, 0, 0, 0.8) !important; fill: rgba(0, 0, 0, 0.8) !important;}
+   .u-resetSpectrum  .ui-body,.u-resetSpectrum  .ui-caps {color: rgba(0, 0, 0, 0.6) !important; fill: rgba(0, 0, 0, 0.6) !important;}
+   .u-resetSpectrum  .ui-summary,.u-resetSpectrum  .ui-caption {color: rgba(0, 0, 0, 0.2980392156862745) !important; fill: rgba(0, 0, 0, 0.2980392156862745) !important;}
+   .u-resetSpectrum .u-accentColor--borderLight {border-color: rgba(2, 184, 117, 1) !important;}
+   .u-resetSpectrum .u-accentColor--borderNormal {border-color: rgba(2, 184, 117, 1) !important;}
+   .u-resetSpectrum .u-accentColor--borderDark {border-color: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--iconLight .svgIcon,.u-resetSpectrum .u-accentColor--iconLight.svgIcon {fill: rgba(2, 184, 117, 1) !important;}
+   .u-resetSpectrum .u-accentColor--iconNormal .svgIcon,.u-resetSpectrum .u-accentColor--iconNormal.svgIcon {fill: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--iconDark .svgIcon,.u-resetSpectrum .u-accentColor--iconDark.svgIcon {fill: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--textNormal {color: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--hoverTextNormal:hover {color: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--textNormal.u-accentColor--textDarken:hover {color: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--textDark {color: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--backgroundLight {background-color: rgba(2, 184, 117, 1) !important;}
+   .u-resetSpectrum .u-accentColor--backgroundNormal {background-color: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--backgroundDark {background-color: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonDark {border-color: rgba(0, 171, 107, 1) !important; color: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonDark:hover {border-color: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonDark .icon:before,.u-resetSpectrum .u-accentColor--buttonDark .svgIcon{color: rgba(28, 153, 99, 1) !important; fill: rgba(28, 153, 99, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonNormal:not(.clapButton--largePill) {border-color: rgba(2, 184, 117, 1) !important; color: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonNormal:hover {border-color: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonNormal .icon:before,.u-resetSpectrum .u-accentColor--buttonNormal .svgIcon{color: rgba(0, 171, 107, 1) !important; fill: rgba(0, 171, 107, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonNormal.button--filled .icon:before,.u-resetSpectrum .u-accentColor--buttonNormal.button--filled .svgIcon{color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonDark.button--filled,.u-resetSpectrum .u-accentColor--buttonDark.button--withChrome.is-active,.u-resetSpectrum .u-accentColor--fillWhenActive.is-active {background-color: rgba(28, 153, 99, 1) !important; border-color: rgba(28, 153, 99, 1) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-resetSpectrum .u-accentColor--buttonNormal.button--filled:not(.clapButton--largePill),.u-resetSpectrum .u-accentColor--buttonNormal.button--withChrome.is-active:not(.clapButton--largePill) {background-color: rgba(0, 171, 107, 1) !important; border-color: rgba(0, 171, 107, 1) !important; color: rgba(255, 255, 255, 1) !important; fill: rgba(255, 255, 255, 1) !important;}
+   .u-resetSpectrum .postArticle.is-withAccentColors .markup--user,.u-resetSpectrum .postArticle.is-withAccentColors .markup--query {color: rgba(0, 171, 107, 1) !important;}
+</style>
+</div>
