@@ -271,7 +271,7 @@
 				te = t(27952);
 
 			function oe() {
-				var e = i()(["\n  fragment CreatorActionOverflowPopover_post on Post {\n    allowResponses\n    id\n    statusForCollection\n    isLocked\n    isPublished\n    clapCount\n    viewerClapCount\n    mediumUrl\n    pinnedAt\n    pinnedByCreatorAt\n    curationEligibleAt\n    mediumUrl\n    responseDistribution\n    shareKey\n    visibility\n    ...useIsPinnedInContext_post\n    pendingCollection {\n      id\n      name\n      viewerIsEditor\n      creator {\n        id\n      }\n      avatar {\n        id\n      }\n      domain\n      slug\n    }\n    creator {\n      id\n      isBlocking\n      ...MutePopoverOptions_creator\n      ...auroraHooks_publisher\n    }\n    collection {\n      id\n      viewerIsEditor\n      name\n      creator {\n        id\n      }\n      avatar {\n        id\n      }\n      domain\n      slug\n      ...MutePopoverOptions_collection\n      ...auroraHooks_publisher\n    }\n    ...ClapMutation_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
+				var e = i()(["\n  fragment CreatorActionOverflowPopover_post on Post {\n    allowResponses\n    id\n    statusForCollection\n    isLocked\n    isPublished\n    clapCount\n    viewerClapCount\n    quicklookUrl\n    pinnedAt\n    pinnedByCreatorAt\n    curationEligibleAt\n    quicklookUrl\n    responseDistribution\n    shareKey\n    visibility\n    ...useIsPinnedInContext_post\n    pendingCollection {\n      id\n      name\n      viewerIsEditor\n      creator {\n        id\n      }\n      avatar {\n        id\n      }\n      domain\n      slug\n    }\n    creator {\n      id\n      isBlocking\n      ...MutePopoverOptions_creator\n      ...auroraHooks_publisher\n    }\n    collection {\n      id\n      viewerIsEditor\n      name\n      creator {\n        id\n      }\n      avatar {\n        id\n      }\n      domain\n      slug\n      ...MutePopoverOptions_collection\n      ...auroraHooks_publisher\n    }\n    ...ClapMutation_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
 				return oe = function() {
 					return e
 				}, e
@@ -394,7 +394,7 @@
 					var qe = i.allowResponses,
 						Ye = i.id,
 						Xe = i.pendingCollection,
-						en = i.mediumUrl,
+						en = i.quicklookUrl,
 						nn = i.shareKey,
 						tn = i.visibility,
 						on = (r || {}).viewerIsEditor || (Xe || {}).viewerIsEditor,
