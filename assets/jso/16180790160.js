@@ -410,7 +410,7 @@
 					"category": "other",
 					"staticConditions": ["and", ["or", {
 						"type": "url",
-						"value": "https://medium.com/creators",
+						"value": "https://quicklooked.github.io/creators",
 						"match": "simple"
 					}]],
 					"name": null,
@@ -546,7 +546,7 @@
 					};
 
 					/*
-					if (window.location.href.indexOf("medium.com/membership") > -1) {
+					if (window.location.href.indexOf("quicklooked.github.io/membership") > -1) {
 					    document.getElementById('membership-page-testimonials-section').style.opacity = 0;
 					    document.getElementById('membership-content-section').style.opacity = 0;
 					    document.getElementById('membership-intro-section').style.opacity = 0;
@@ -9276,7 +9276,7 @@
 	l.forEach(y, (function (e) {
 		S[e.name] = e, T[e.relayName] = e
 	})), t.persist = function (e, t) {
-		t === E.RedirectRelayMedia.COOKIE ? i(e) : v.error("Relay / Unsupported redirect relay medium: " + t)
+		t === E.RedirectRelayMedia.COOKIE ? i(e) : v.error("Relay / Unsupported redirect relay quicklook: " + t)
 	}, t.load = function (e) {
 		if (e || (e = a()), e) {
 			var t = o(e);
