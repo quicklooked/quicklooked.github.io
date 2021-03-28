@@ -636,17 +636,17 @@
 					scale: "M",
 					tag: "div"
 				}, "Report", " ", a.createElement(i.rU, {
-					href: "https://medium.com/policy/mediums-copyright-and-dmca-policy-d126f73695",
+					href: "https://quicklooked.github.io/policy/quicklooks-copyright-and-dmca-policy",
 					linkStyle: "OBVIOUS",
 					target: "_blank",
 					inline: !0
 				}, "copyright infringement"), " ", "or", " ", a.createElement(i.rU, {
-					href: "https://medium.com/policy/mediums-trademark-policy-e3bb53df59a7",
+					href: "https://quicklooked.github.io/policy/quicklooks-trademark-policy-e3bb53df59a7",
 					linkStyle: "OBVIOUS",
 					target: "_blank",
 					inline: !0
 				}, "trademark infringement"), ". ", !u && a.createElement("br", null), "Read", " ", a.createElement(i.rU, {
-					href: "https://medium.com/policy/medium-rules-30e5502c4eb4",
+					href: "https://quicklooked.github.io/policy/quicklook-rules",
 					linkStyle: "OBVIOUS",
 					target: "_blank",
 					inline: !0
