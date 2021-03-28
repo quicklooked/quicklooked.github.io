@@ -463,9 +463,9 @@
 								extraTopPadding: !0
 							}, u.createElement(x.X6, {
 								scale: "XS"
-							}, "Youâ€˜re following ", M)), u.createElement(D, null, u.createElement(x.F, {
+							}, "You're following ", M)), u.createElement(D, null, u.createElement(x.F, {
 								scale: "M"
-							}, "Youâ€˜ll now see more stories from ", M, " across Medium.")), r.canToggleEmail && u.createElement(D, null, u.createElement(x.F, {
+							}, "You'll now see more stories from ", M, " across Medium.")), r.canToggleEmail && u.createElement(D, null, u.createElement(x.F, {
 								scale: "M"
 							}, u.createElement("label", null, u.createElement(g.xu, {
 								display: "inline",
@@ -505,7 +505,7 @@
 						duration: 2e3
 					}, u.createElement(x.F, {
 						scale: "M"
-					}, ce ? "Youâ€˜ll now receive emails from ".concat(M, ".") : "Youâ€˜ll no longer receive emails from ".concat(M, ".")))))
+					}, ce ? "You'll now receive emails from ".concat(M, ".") : "You'll no longer receive emails from ".concat(M, ".")))))
 				},
 				H = function (e, t, n) {
 					return t.slug && (n && n.id ? (0, I.TAb)(e, t.slug, n.id) : (0, I.LlO)(e, t.slug))
@@ -976,7 +976,7 @@
 					tag: "span"
 				}, l.createElement(f._, {
 					maxWidth: 300,
-					tooltipText: "The story is only visible to those with the link. It wonâ€™t be listed on Mediumâ€™s public pages (e.g. homepage) and it cannot be found using a search engine."
+					tooltipText: "The story is only visible to those with the link. It won't be listed on Medium's public pages (e.g. homepage) and it cannot be found using a search engine."
 				}, l.createElement(k.Z, {
 					className: n(R),
 					style: {
@@ -997,7 +997,7 @@
 				return e.hasUnpublishedEdits ? l.createElement(c.xu, null, l.createElement(f._, {
 					placement: "bottom",
 					maxWidth: 300,
-					tooltipText: "This story has changes that havenâ€™t been published yet."
+					tooltipText: "This story has changes that haven't been published yet."
 				}, l.createElement(u.F, {
 					scale: "M",
 					tag: "span"
@@ -3220,7 +3220,7 @@
 							featureString: On,
 							target: "subhead-copy",
 							tag: "span"
-						}, "Read and share new perspectives on just about any topic. Everyoneâ€™s welcome.", " "), r.createElement(Rn.W, {
+						}, "Read and share new perspectives on just about any topic. Everyone's welcome.", " "), r.createElement(Rn.W, {
 							featureString: On,
 							target: "subhead-link",
 							tag: "span"
@@ -3712,7 +3712,7 @@
 						"aria-label": "bookmark"
 					}))), r.createElement(ee.xu, null, r.createElement(I.F, {
 						scale: "M"
-					}, "Start saving stories by clicking the bookmark icon and youâ€™ll find them all here.")))
+					}, "Start saving stories by clicking the bookmark icon and you'll find them all here.")))
 				},
 				Yn = function () {
 					return r.createElement(y.xu, null, r.createElement(y.xu, {
@@ -4473,7 +4473,7 @@
 				},
 				Dr = (0, E.Ps)(Rr()),
 				Fr = function (e) {
-					return "".concat(e, " â€“ Where good ideas find you.")
+					return "".concat(e, " - Where good ideas find you.")
 				},
 				Br = function (e) {
 					return "".concat(e, " is an open platform where readers find dynamic thinking, ") + "and where expert and undiscovered voices can share their writing on any topic."
