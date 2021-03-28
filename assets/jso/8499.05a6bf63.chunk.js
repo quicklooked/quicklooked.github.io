@@ -409,9 +409,9 @@
 							return "Featured for members";
 						case r.YV.RECOMMENDED_BY_USER:
 							return "Recommended by people in your network";
-						case r.YV.TOP_STORY_ON_MEDIUM:
+						case r.YV.TOP_STORY_ON_QUICKLOOK:
 						case r.YV.TOP_POSTS_GLOBALLY:
-							return "Popular on Medium";
+							return "Popular on Quicklook";
 						case r.YV.EXPLORE_POST_UNDER_PRESENTED:
 							return "You might like"
 					}
@@ -865,7 +865,7 @@
 				a = t(27952);
 
 			function l() {
-				var e = i()(["\n  fragment AuthorToFollow_user on User {\n    id\n    name\n    bio\n    mediumMemberAt\n    isFollowing\n    imageId\n    ...userUrl_user\n  }\n  ", "\n"]);
+				var e = i()(["\n  fragment AuthorToFollow_user on User {\n    id\n    name\n    bio\n    quicklookMemberAt\n    isFollowing\n    imageId\n    ...userUrl_user\n  }\n  ", "\n"]);
 				return l = function() {
 					return e
 				}, e
