@@ -761,7 +761,7 @@
 						u = e.profile_username,
 						d = e.page_type,
 						m = e.currentUserId,
-						p = i && i.mediumMemberAt ? i.mediumMemberAt : null,
+						p = i && i.quicklookMemberAt ? i.quicklookMemberAt : null,
 						f = n || {},
 						h = f.creator,
 						g = f.layerCake,
@@ -778,7 +778,7 @@
 								is_logged_in: !!i,
 								is_member: !!p && p > 0,
 								user_created_at: i ? i.createdAt : "Null",
-								medium_member_at: p || "Null",
+								quicklook_member_at: p || "Null",
 								post_topic_name: P || "Null",
 								post_topic_slug: w || "Null",
 								post_publication_name: b ? b.name : "Null",
@@ -1982,7 +1982,7 @@
 				W = (0, s.$j)((function(e) {
 					return {
 						authDomain: e.config.authDomain,
-						isNativeMedium: e.client.isNativeMedium
+						isNativeQuicklook: e.client.isNativeQuicklook
 					}
 				}))((function(e) {
 					var t, n, r = e.authDomain,
@@ -1996,7 +1996,7 @@
 						g = e.isLogoCentered,
 						E = e.isMonogramOnly,
 						b = e.isTransparent,
-						P = e.isNativeMedium,
+						P = e.isNativeQuicklook,
 						w = e.marginBottom,
 						_ = e.marginBottomSm,
 						x = e.backLink,
@@ -2562,7 +2562,7 @@
 			}
 
 			function be() {
-				var e = o()(["\n  fragment NotificationCollectionPostApproved_notification on Notification {\n    collection {\n      name\n      slug\n      id\n      ...collectionUrl_collection\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationCollectionPostApproved_notification on Notification {\n    collection {\n      name\n      slug\n      id\n      ...collectionUrl_collection\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n  ", "\n"]);
 				return be = function() {
 					return e
 				}, e
@@ -2594,7 +2594,7 @@
 			}));
 
 			function Pe() {
-				var e = o()(["\n  fragment NotificationCollectionPostPublished_notification on Notification {\n    collection {\n      name\n      slug\n      id\n      ...collectionUrl_collection\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationCollectionPostPublished_notification on Notification {\n    collection {\n      name\n      slug\n      id\n      ...collectionUrl_collection\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n  ", "\n"]);
 				return Pe = function() {
 					return e
 				}, e
@@ -2628,7 +2628,7 @@
 			var Oe = (0, a.Ps)(Pe(), ie, ce.nfI);
 
 			function _e() {
-				var e = o()(["\n  fragment NotificationCollectionPostSubmitted_notification on Notification {\n    collection {\n      name\n      slug\n      id\n      ...collectionUrl_collection\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationCollectionPostSubmitted_notification on Notification {\n    collection {\n      name\n      slug\n      id\n      ...collectionUrl_collection\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n  ", "\n"]);
 				return _e = function() {
 					return e
 				}, e
@@ -2659,7 +2659,7 @@
 			}));
 
 			function Te() {
-				var e = o()(["\n  fragment NotificationFastrakPostAccepted_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n  }\n"]);
+				var e = o()(["\n  fragment NotificationFastrakPostAccepted_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n  }\n"]);
 				return Te = function() {
 					return e
 				}, e
@@ -2686,7 +2686,7 @@
 				ke = (0, a.Ps)(Te());
 
 			function Re() {
-				var e = o()(["\n  fragment NotificationHighlightWasPiledOnto_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    actor {\n      id\n      name\n    }\n    quote {\n      id\n      startOffset\n      endOffset\n      paragraphs {\n        text\n        type\n      }\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationHighlightWasPiledOnto_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    actor {\n      id\n      name\n    }\n    quote {\n      id\n      startOffset\n      endOffset\n      paragraphs {\n        text\n        type\n      }\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Re = function() {
 					return e
 				}, e
@@ -2725,7 +2725,7 @@
 			var Ne = (0, a.Ps)(Re(), ie);
 
 			function Le() {
-				var e = o()(["\n  fragment NotificationMentionInNote_notification on Notification {\n    note {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationMentionInNote_notification on Notification {\n    note {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Le = function() {
 					return e
 				}, e
@@ -2758,7 +2758,7 @@
 			var Ue = (0, a.Ps)(Le(), ie);
 
 			function Me() {
-				var e = o()(["\n  fragment NotificationMentionInNoteReply_notification on Notification {\n    noteReply {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationMentionInNoteReply_notification on Notification {\n    noteReply {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Me = function() {
 					return e
 				}, e
@@ -2791,7 +2791,7 @@
 			var je = (0, a.Ps)(Me(), ie);
 
 			function Be() {
-				var e = o()(["\n  fragment NotificationMentionInNoteReplyUpdate_notification on Notification {\n    noteReply {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationMentionInNoteReplyUpdate_notification on Notification {\n    noteReply {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Be = function() {
 					return e
 				}, e
@@ -2824,7 +2824,7 @@
 			var Ve = (0, a.Ps)(Be(), ie);
 
 			function Ge() {
-				var e = o()(["\n  fragment NotificationMentionInNoteUpdate_notification on Notification {\n    note {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationMentionInNoteUpdate_notification on Notification {\n    note {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Ge = function() {
 					return e
 				}, e
@@ -2857,7 +2857,7 @@
 			var ze = (0, a.Ps)(Ge(), ie);
 
 			function qe() {
-				var e = o()(["\n  fragment NotificationMentionInPost_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationMentionInPost_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return qe = function() {
 					return e
 				}, e
@@ -2883,7 +2883,7 @@
 			var Ye = (0, a.Ps)(qe(), ie);
 
 			function Ze() {
-				var e = o()(["\n  fragment NotificationMentionInSeries_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationMentionInSeries_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Ze = function() {
 					return e
 				}, e
@@ -2909,7 +2909,7 @@
 			var Xe = (0, a.Ps)(Ze(), ie);
 
 			function Qe() {
-				var e = o()(["\n  fragment NotificationNoteReplied_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    noteReply {\n      content\n      id\n    }\n    actor {\n      id\n      name\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationNoteReplied_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    noteReply {\n      content\n      id\n    }\n    actor {\n      id\n      name\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Qe = function() {
 					return e
 				}, e
@@ -2942,7 +2942,7 @@
 			var et = (0, a.Ps)(Qe(), ie);
 
 			function tt() {
-				var e = o()(["\n  fragment NotificationPostAddedToHomepageCatalog_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostAddedToHomepageCatalog_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return tt = function() {
 					return e
 				}, e
@@ -2967,12 +2967,12 @@
 						post: t.post,
 						isYours: !0,
 						isFirst: !0
-					})), " was featured on the Medium homepage"))
+					})), " was featured on the Quicklook homepage"))
 				},
 				rt = (0, a.Ps)(tt(), ie);
 
 			function ot() {
-				var e = o()(["\n  fragment NotificationPostClappedMilestone_notification on Notification {\n    milestoneArg\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    occurredAt\n    isUnread\n    rollupItems {\n      actor {\n        id\n      }\n    }\n  }\n"]);
+				var e = o()(["\n  fragment NotificationPostClappedMilestone_notification on Notification {\n    milestoneArg\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    occurredAt\n    isUnread\n    rollupItems {\n      actor {\n        id\n      }\n    }\n  }\n"]);
 				return ot = function() {
 					return e
 				}, e
@@ -2998,7 +2998,7 @@
 				it = (0, a.Ps)(ot());
 
 			function ct() {
-				var e = o()(["\n  fragment NotificationPostCollaboratedPublished_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    actor {\n      id\n      name\n    }\n    quote {\n      id\n      quoteParagraphPreview {\n        id\n        text\n      }\n      paragraphs {\n        type\n      }\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostCollaboratedPublished_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    actor {\n      id\n      name\n    }\n    quote {\n      id\n      quoteParagraphPreview {\n        id\n        text\n      }\n      paragraphs {\n        type\n      }\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return ct = function() {
 					return e
 				}, e
@@ -3024,7 +3024,7 @@
 			var st = (0, a.Ps)(ct(), ie);
 
 			function ut() {
-				var e = o()(["\n  fragment NotificationPostMongerRequestSent_notification on Notification {\n    actor {\n      id\n      name\n      username\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostMongerRequestSent_notification on Notification {\n    actor {\n      id\n      name\n      username\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return ut = function() {
 					return e
 				}, e
@@ -3047,7 +3047,7 @@
 			var mt = (0, a.Ps)(ut(), ie);
 
 			function pt() {
-				var e = o()(["\n  fragment NotificationPostNoteReplied_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    noteReply {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostNoteReplied_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    noteReply {\n      content\n    }\n    actor {\n      id\n      name\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return pt = function() {
 					return e
 				}, e
@@ -3080,7 +3080,7 @@
 			var ht = (0, a.Ps)(pt(), ie);
 
 			function gt() {
-				var e = o()(["\n  fragment NotificationPostNoted_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    note {\n      id\n      content\n      anchor\n    }\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostNoted_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    note {\n      id\n      content\n      anchor\n    }\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return gt = function() {
 					return e
 				}, e
@@ -3117,7 +3117,7 @@
 			var Et = (0, a.Ps)(gt(), ie);
 
 			function bt() {
-				var e = o()(["\n  fragment NotificationPostPublishedBySomeoneYouFollow_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostPublishedBySomeoneYouFollow_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return bt = function() {
 					return e
 				}, e
@@ -3143,7 +3143,7 @@
 			var yt = (0, a.Ps)(bt(), ie);
 
 			function Pt() {
-				var e = o()(["\n  fragment NotificationPostRecommended_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostRecommended_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Pt = function() {
 					return e
 				}, e
@@ -3171,7 +3171,7 @@
 			var Ot = (0, a.Ps)(Pt(), ie);
 
 			function _t() {
-				var e = o()(["\n  fragment NotificationPostRecommendedMilestone_notification on Notification {\n    milestoneArg\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    occurredAt\n    isUnread\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostRecommendedMilestone_notification on Notification {\n    milestoneArg\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    occurredAt\n    isUnread\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return _t = function() {
 					return e
 				}, e
@@ -3200,7 +3200,7 @@
 				Ct = (0, a.Ps)(_t(), ie);
 
 			function Tt() {
-				var e = o()(["\n  fragment NotificationPostShared_notification on Notification {\n    actor {\n      id\n      name\n    }\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    occurredAt\n    isUnread\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationPostShared_notification on Notification {\n    actor {\n      id\n      name\n    }\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    occurredAt\n    isUnread\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Tt = function() {
 					return e
 				}, e
@@ -3231,7 +3231,7 @@
 			var kt = (0, a.Ps)(Tt(), ie);
 
 			function Rt() {
-				var e = o()(["\n  fragment NotificationQuote_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    actor {\n      id\n      name\n    }\n    quote {\n      id\n      startOffset\n      endOffset\n      paragraphs {\n        text\n        type\n      }\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationQuote_notification on Notification {\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    actor {\n      id\n      name\n    }\n    quote {\n      id\n      startOffset\n      endOffset\n      paragraphs {\n        text\n        type\n      }\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Rt = function() {
 					return e
 				}, e
@@ -3278,7 +3278,7 @@
 			var Nt = (0, a.Ps)(Rt(), ie);
 
 			function Lt() {
-				var e = o()(["\n  fragment NotificationResponseCreated_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    responsePost {\n      id\n      mediumUrl\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationResponseCreated_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    responsePost {\n      id\n      quicklookUrl\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Lt = function() {
 					return e
 				}, e
@@ -3308,7 +3308,7 @@
 			var Ut = (0, a.Ps)(Lt(), ie);
 
 			function Mt() {
-				var e = o()(["\n  fragment NotificationSeriesPublishedBySomeoneYouFollow_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationSeriesPublishedBySomeoneYouFollow_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Mt = function() {
 					return e
 				}, e
@@ -3334,7 +3334,7 @@
 			var jt = (0, a.Ps)(Mt(), ie);
 
 			function Bt() {
-				var e = o()(["\n  fragment NotificationSeriesSubscribed_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationSeriesSubscribed_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Bt = function() {
 					return e
 				}, e
@@ -3360,7 +3360,7 @@
 			var Vt = (0, a.Ps)(Bt(), ie);
 
 			function Gt() {
-				var e = o()(["\n  fragment NotificationSeriesYouFollowUpdated_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      mediumUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationSeriesYouFollowUpdated_notification on Notification {\n    actor {\n      id\n      name\n    }\n    occurredAt\n    isUnread\n    post {\n      id\n      quicklookUrl\n      title\n      visibility\n    }\n    rollupItems {\n      actor {\n        id\n      }\n    }\n    ...NotificationLayout_notification\n  }\n  ", "\n"]);
 				return Gt = function() {
 					return e
 				}, e
@@ -3414,7 +3414,7 @@
 				$t = n(64504);
 
 			function Xt() {
-				var e = o()(["\n  fragment NotificationsFollowersDialog_user on User {\n    username\n    name\n    imageId\n    bio\n    isFollowing\n    mediumMemberAt\n    ...userUrl_user\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment NotificationsFollowersDialog_user on User {\n    username\n    name\n    imageId\n    bio\n    isFollowing\n    quicklookMemberAt\n    ...userUrl_user\n  }\n  ", "\n"]);
 				return Xt = function() {
 					return e
 				}, e
@@ -3956,7 +3956,7 @@
 					w || On.V6.on("load", (function() {
 						return O(!0)
 					}));
-					var x = !!o.mediumMemberAt,
+					var x = !!o.quicklookMemberAt,
 						C = "Collection" === (null == n ? void 0 : n.__typename) && n || r && r.pendingCollection,
 						T = (0, tn.P5)("can_edit_members_only_posts"),
 						R = null == n ? void 0 : n.isAuroraVisible,
@@ -4361,7 +4361,7 @@
 					n = e.viewer,
 					r = e.setIsMetabarLocked,
 					m = n.username,
-					p = n.mediumMemberAt,
+					p = n.quicklookMemberAt,
 					f = n.isPartnerProgramEnrolled,
 					h = (0, C.Av)(),
 					g = (0, b.T)(),
@@ -4676,7 +4676,7 @@
 				p = n(27952);
 
 			function f() {
-				var e = i()(["\n  fragment MetabarPostMenuList_post on Post {\n    id\n    shareKey\n    mediumUrl\n  }\n"]);
+				var e = i()(["\n  fragment MetabarPostMenuList_post on Post {\n    id\n    shareKey\n    quicklookUrl\n  }\n"]);
 				return f = function() {
 					return e
 				}, e
@@ -4691,7 +4691,7 @@
 						n = e.openFriendLinkPopover,
 						r = e.post,
 						o = r && r.shareKey,
-						a = r && r.mediumUrl,
+						a = r && r.quicklookUrl,
 						i = !(0, m.T)(),
 						c = o && a ? l.createElement(u.Sl, null, l.createElement(d.rU, {
 							onClick: n
@@ -4880,7 +4880,7 @@
 					var e = (0, i.YC)().value,
 						t = !(0, l.T)(),
 						n = !!(0, a.P5)("enable_homepage_write_button"),
-						r = !(null == e || !e.mediumMemberAt);
+						r = !(null == e || !e.quicklookMemberAt);
 					return {
 						isNewPostButtonVisible: !!e && t && (r || !n)
 					}
@@ -5698,7 +5698,7 @@
 				g = n(27952);
 
 			function v() {
-				var e = o()(["\n  fragment PostListingItemBylineWithAvatar_post on Post {\n    creator {\n      username\n      name\n      id\n      imageId\n      mediumMemberAt\n      ...userUrl_user\n    }\n    isLocked\n    readingTime\n    updatedAt\n    statusForCollection\n    collection {\n      id\n      name\n      ...collectionUrl_collection\n    }\n  }\n  ", "\n  ", "\n"]);
+				var e = o()(["\n  fragment PostListingItemBylineWithAvatar_post on Post {\n    creator {\n      username\n      name\n      id\n      imageId\n      quicklookMemberAt\n      ...userUrl_user\n    }\n    isLocked\n    readingTime\n    updatedAt\n    statusForCollection\n    collection {\n      id\n      name\n      ...collectionUrl_collection\n    }\n  }\n  ", "\n  ", "\n"]);
 				return v = function() {
 					return e
 				}, e
@@ -5783,7 +5783,7 @@
 				g = n(27952);
 
 			function v() {
-				var e = o()(["\n  fragment PostListingItemImage_post on Post {\n    id\n    mediumUrl\n    previewImage {\n      id\n      focusPercentX\n      focusPercentY\n    }\n  }\n"]);
+				var e = o()(["\n  fragment PostListingItemImage_post on Post {\n    id\n    quicklookUrl\n    previewImage {\n      id\n      focusPercentX\n      focusPercentY\n    }\n  }\n"]);
 				return v = function() {
 					return e
 				}, e
@@ -5937,7 +5937,7 @@
 				l = "post-view",
 				s = "post-read",
 				u = "topic-view",
-				d = "medium-search",
+				d = "quicklook-search",
 				m = "external-search",
 				p = (r = {}, i()(r, l, 200), i()(r, s, 200), i()(r, u, 200), i()(r, d, 200), i()(r, m, 200), r),
 				f = (o = {}, i()(o, l, new c.Z("pv")), i()(o, s, new c.Z("pr")), i()(o, u, new c.Z("tv")), i()(o, d, new c.Z("ms")), i()(o, m, new c.Z("es")), o),
@@ -7085,7 +7085,7 @@
 			}
 
 			function l() {
-				var e = o()(["\n  fragment ViewerFragment on User {\n    __typename\n    id\n    username\n    name\n    imageId\n    mediumMemberAt\n    hasPastMemberships\n    isPartnerProgramEnrolled\n    email\n    unverifiedEmail\n    createdAt\n    isAuroraVisible\n    isEligibleToViewNewResponses\n    isMembershipTrialEligible\n    isSuspended\n    styleEditorOnboardingVersionSeen\n    allowEmailAddressSharingEditorWriter\n    hasSubdomain\n    dismissableFlags\n    hasWebMembershipTrialEnabled\n    twitterScreenName\n    geolocation {\n      country\n    }\n  }\n"]);
+				var e = o()(["\n  fragment ViewerFragment on User {\n    __typename\n    id\n    username\n    name\n    imageId\n    quicklookMemberAt\n    hasPastMemberships\n    isPartnerProgramEnrolled\n    email\n    unverifiedEmail\n    createdAt\n    isAuroraVisible\n    isEligibleToViewNewResponses\n    isMembershipTrialEligible\n    isSuspended\n    styleEditorOnboardingVersionSeen\n    allowEmailAddressSharingEditorWriter\n    hasSubdomain\n    dismissableFlags\n    hasWebMembershipTrialEnabled\n    twitterScreenName\n    geolocation {\n      country\n    }\n  }\n"]);
 				return l = function() {
 					return e
 				}, e
@@ -7214,7 +7214,7 @@
 				h = n(27952);
 
 			function g() {
-				var e = i()(["\n  fragment ShareFriendLink_post on Post {\n    id\n    shareKey\n    mediumUrl\n  }\n"]);
+				var e = i()(["\n  fragment ShareFriendLink_post on Post {\n    id\n    shareKey\n    quicklookUrl\n  }\n"]);
 				return g = function() {
 					return e
 				}, e
@@ -7254,7 +7254,7 @@
 						i = (0, m.Iq)(),
 						c = (0, m.Fg)(),
 						g = n && n.shareKey,
-						v = n && n.mediumUrl,
+						v = n && n.quicklookUrl,
 						S = "".concat(v, "?source=friends_link&sk=").concat(g),
 						y = l.createElement(s.rU, {
 							linkStyle: "OBVIOUS",
@@ -7480,7 +7480,7 @@
 			}
 
 			function y() {
-				var e = o()(["\n  fragment SusiClickable_post on Post {\n    id\n    mediumUrl\n    ...SusiContainer_post\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment SusiClickable_post on Post {\n    id\n    quicklookUrl\n    ...SusiContainer_post\n  }\n  ", "\n"]);
 				return y = function() {
 					return e
 				}, e
@@ -7546,7 +7546,7 @@
 						R = "http[s]?://[^/]*" + T,
 						A = null == I.match(R),
 						N = (0, u.j)().openModal,
-						L = k && b ? b.mediumUrl || (0, g.o2w)(T, b.id) : I,
+						L = k && b ? b.quicklookUrl || (0, g.o2w)(T, b.id) : I,
 						D = (0, h.Rk)((0, g.Kkz)(T), O(O({}, t && {
 							actionUrl: t
 						}), {}, {
@@ -8318,7 +8318,7 @@
 								s.event("susi.methodClicked", {
 									entryPoint: u,
 									operation: t,
-									susiMethod: "medium"
+									susiMethod: "quicklook"
 								}), n()
 							},
 							shape: "RECTANGLE",
@@ -8973,7 +8973,7 @@
 										var i = N ? y.sCX : y.WVE,
 											c = (0, S.Rk)(i(o), {
 												token: a.value,
-												state: "medium"
+												state: "quicklook"
 											});
 										A(c);
 										break;
@@ -9323,7 +9323,7 @@
 										"User does not exist" === (t = e.sendAcctAuthEmail.message) ? (I.event("susi.blocked", {
 											operation: o,
 											entryPoint: A,
-											susiMethod: "medium"
+											susiMethod: "quicklook"
 										}), (0, _.Zs)(!1, "", "", "", !0), c(""), ce(!1), l("UNRECOGNIZED_EMAIL")) : F && "Show password signup" === t ? (c(r), he(!0)) : Ee(t);
 										break;
 									case "NotFound":
@@ -10159,7 +10159,7 @@
 						}, r.createElement(s.F, {
 							color: "LIGHTER",
 							scale: "L"
-						}, "Get the Medium app"), r.createElement(l.xu, {
+						}, "Get the Quicklook app"), r.createElement(l.xu, {
 							display: "flex",
 							marginTop: "16px"
 						}, r.createElement(l.xu, {
@@ -10555,7 +10555,7 @@
 					}, "For help, contact", " ", a.createElement(k.rU, {
 						href: "/",
 						linkStyle: "OBVIOUS"
-					}, "yourfriends@medium.com")))))
+					}, "yourfriends@quicklooked.github.io")))))
 				}
 		},
 		82418: (e, t, n) => {
@@ -11732,7 +11732,7 @@
 				g = n(27952);
 
 			function v() {
-				var e = o()(["\n  fragment UserAvatar_user on User {\n    __typename\n    username\n    id\n    name\n    imageId\n    mediumMemberAt\n    ...userUrl_user\n  }\n  ", "\n"]);
+				var e = o()(["\n  fragment UserAvatar_user on User {\n    __typename\n    username\n    id\n    name\n    imageId\n    quicklookMemberAt\n    ...userUrl_user\n  }\n  ", "\n"]);
 				return v = function() {
 					return e
 				}, e
@@ -11830,7 +11830,7 @@
 					S = u.username,
 					w = u.imageId,
 					O = u.name,
-					_ = u.mediumMemberAt;
+					_ = u.quicklookMemberAt;
 				if(!S) return null;
 				var x, C = "User" === u.__typename ? (0, g.AWr)(u, v) : (0, g.Qyn)(S, v),
 					T = !!_ && m,
@@ -12081,7 +12081,7 @@
 					inline: !0,
 					linkStyle: "OBVIOUS",
 					target: "_blank",
-					href: "https://help.medium.com/hc/en-us/articles/217048077-Block-a-user"
+					href: "https://quicklooked.github.io/Block-a-user"
 				}, "Learn more about blocking"), ".")
 			}
 		},
@@ -12412,15 +12412,15 @@
 							scale: "M",
 							tag: "div"
 						}, "Report", " ", h.createElement(g.rU, {
-							href: "https://medium.com/policy/mediums-copyright-and-dmca-policy-d126f73695",
+							href: "https://quicklooked.github.io/quicklooks-copyright-and-dmca-policy",
 							linkStyle: "OBVIOUS",
 							inline: !0
 						}, "copyright infringement"), " ", "or", " ", h.createElement(g.rU, {
-							href: "https://medium.com/policy/mediums-trademark-policy-e3bb53df59a7",
+							href: "https://quicklooked.github.io/quicklooks-trademark-policy",
 							linkStyle: "OBVIOUS",
 							inline: !0
 						}, "trademark infringement"), ".", h.createElement("br", null), "Read", " ", h.createElement(g.rU, {
-							href: "https://medium.com/policy/medium-rules-30e5502c4eb4",
+							href: "https://quicklooked.github.io/quicklook-rules",
 							linkStyle: "OBVIOUS",
 							inline: !0
 						}, "our rules"), ".")))
@@ -15926,7 +15926,7 @@
 					scale: "M",
 					color: "DARKER"
 				}, "The following content is under review as a potential violation of our", " ", h.createElement(g.rU, {
-					href: "https://medium.com/policy/medium-rules-30e5502c4eb4",
+					href: "https://quicklooked.github.io/quicklook-rules",
 					inline: !0,
 					linkStyle: "OBVIOUS",
 					target: "_blank"
@@ -15950,7 +15950,7 @@
 					}, h.createElement("b", {
 						style: B
 					}, "An error occured."), " Please try again or", " ", h.createElement(g.rU, {
-						href: "https://help.medium.com/hc/en-us/requests/new",
+						href: "https://quicklooked.github.io/requests/new",
 						inline: !0,
 						linkStyle: "OBVIOUS",
 						target: "_blank"
@@ -16060,7 +16060,7 @@
 						inline: !0,
 						linkStyle: "OBVIOUS",
 						target: "_blank"
-					}, "Medium Rules"), ".")))
+					}, "Quicklook Rules"), ".")))
 				},
 				Y = n(95614),
 				Z = function(e) {
@@ -16087,7 +16087,7 @@
 						inline: !0,
 						linkStyle: "OBVIOUS",
 						target: "_blank"
-					}, "Medium Rules"), ".", " ", r && t ? h.createElement(h.Fragment, null, h.createElement(g.rU, {
+					}, "Quicklook Rules"), ".", " ", r && t ? h.createElement(h.Fragment, null, h.createElement(g.rU, {
 						inline: !0,
 						linkStyle: "OBVIOUS",
 						href: (0, x.d0A)(n, t)
@@ -20682,32 +20682,32 @@
 					content: "#000000"
 				}), s.createElement("meta", {
 					name: "twitter:app:name:iphone",
-					content: "Medium"
+					content: "Quicklook"
 				}), s.createElement("meta", {
 					name: "twitter:app:id:iphone",
 					content: "828256236"
 				}), s.createElement("meta", {
 					property: "al:ios:app_name",
-					content: "Medium"
+					content: "Quicklook"
 				}), s.createElement("meta", {
 					property: "al:ios:app_store_id",
 					content: "828256236"
 				}), s.createElement("meta", {
 					property: "al:android:package",
-					content: "com.medium.reader"
+					content: "com.quicklook.reader"
 				}), s.createElement("meta", {
 					property: "al:android:app_name",
-					content: "Medium"
+					content: "Quicklook"
 				}), s.createElement("meta", {
 					property: "fb:app_id",
 					content: "542599432471018"
 				}), s.createElement("meta", {
 					property: "og:site_name",
-					content: "Medium"
+					content: "Quicklook"
 				}), s.createElement("link", {
 					rel: "search",
 					type: "application/opensearchdescription+xml",
-					title: "Medium",
+					title: "Quicklook",
 					href: "/osd.xml"
 				}), '\x3c!--[if lt IE 9]><script charset="UTF-8" src="https://cdn-static-1.medium.com/_/fp/js/shiv.RI2ePTZ5gFmMgLzG5bEVAA.js"><\/script><![endif]--\x3e', s.createElement("link", {
 					rel: "apple-touch-icon",
