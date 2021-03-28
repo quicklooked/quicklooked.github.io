@@ -464,9 +464,9 @@
 							}, u.createElement(x.X6, {
 								scale: "XS"
 							}, "You're following ", M)), u.createElement(D, null, u.createElement(x.F, {
-								scale: "M"
-							}, "You'll now see more stories from ", M, " across Medium.")), r.canToggleEmail && u.createElement(D, null, u.createElement(x.F, {
-								scale: "M"
+								scale: "Q"
+							}, "You'll now see more stories from ", M, " across Quicklook.")), r.canToggleEmail && u.createElement(D, null, u.createElement(x.F, {
+								scale: "Q"
 							}, u.createElement("label", null, u.createElement(g.xu, {
 								display: "inline",
 								marginRight: "5px"
@@ -477,7 +477,7 @@
 							})), "Receive emails from this publication"))), u.createElement(D, {
 								extraBottomPadding: !0
 							}, u.createElement(x.F, {
-								scale: "M"
+								scale: "Q"
 							}, u.createElement(g.rU, {
 								onClick: re,
 								linkStyle: "OBVIOUS",
@@ -504,7 +504,7 @@
 						hide: le,
 						duration: 2e3
 					}, u.createElement(x.F, {
-						scale: "M"
+						scale: "Q"
 					}, ce ? "You'll now receive emails from ".concat(M, ".") : "You'll no longer receive emails from ".concat(M, ".")))))
 				},
 				H = function (e, t, n) {
@@ -628,14 +628,14 @@
 				})), i.createElement(d.xu, {
 					textAlign: "center",
 					margin: "20px 0"
-				}, "Discover Medium writers you already follow on Twitter."), i.createElement(s.G, {
+				}, "Discover Quicklook writers you already follow on Twitter."), i.createElement(s.G, {
 					operation: "connect",
 					customCopy: "Connect to Twitter",
 					redirectTo: o
 				}), i.createElement(d.xu, {
 					marginTop: "20px"
 				}, i.createElement(p.F, {
-					scale: "M"
+					scale: "Q"
 				}, i.createElement(d.rU, {
 					linkStyle: "OBVIOUS",
 					inline: !0,
@@ -802,7 +802,7 @@
 						user: s,
 						withHalo: !1
 					})), r.createElement(u.xu, null, r.createElement(m.F, {
-						scale: "M",
+						scale: "Q",
 						color: "DARKER"
 					}, s.name)))))
 				},
@@ -888,7 +888,7 @@
 					s = a.collection,
 					d = a.statusForCollection;
 				return s && "APPROVED" === d ? l.createElement(u.F, {
-					scale: "M",
+					scale: "Q",
 					tag: "span"
 				}, n ? "In " : "in ", l.createElement(c.rU, {
 					href: (0, m.WGd)(s, r),
@@ -916,7 +916,7 @@
 					n = (0, g.Iq)();
 				return t && "LOCKED" === t ? l.createElement(f._, {
 					placement: "bottom",
-					tooltipText: "This story is for Medium members"
+					tooltipText: "This story is for Quicklook members"
 				}, l.createElement(E.Z, {
 					className: n(h),
 					style: {
@@ -943,7 +943,7 @@
 				})) : l.createElement(l.Fragment, null, "on ", l.createElement(w.Z, {
 					timestamp: r
 				})), l.createElement(c.xu, null, l.createElement(u.F, {
-					scale: "M",
+					scale: "Q",
 					tag: "span"
 				}, "Published", " ", l.createElement(c.xu, {
 					display: "inline-block"
@@ -972,11 +972,11 @@
 				var t = e.visibility,
 					n = (0, g.Iq)();
 				return t && "UNLISTED" === t ? l.createElement(u.F, {
-					scale: "M",
+					scale: "Q",
 					tag: "span"
 				}, l.createElement(f._, {
 					maxWidth: 300,
-					tooltipText: "The story is only visible to those with the link. It won't be listed on Medium's public pages (e.g. homepage) and it cannot be found using a search engine."
+					tooltipText: "The story is only visible to those with the link. It won't be listed on Quicklook's public pages (e.g. homepage) and it cannot be found using a search engine."
 				}, l.createElement(k.Z, {
 					className: n(R),
 					style: {
@@ -999,7 +999,7 @@
 					maxWidth: 300,
 					tooltipText: "This story has changes that haven't been published yet."
 				}, l.createElement(u.F, {
-					scale: "M",
+					scale: "Q",
 					tag: "span"
 				}, "Unpublished changes"))) : null
 			}
@@ -1016,7 +1016,7 @@
 				var t = e.readingTime,
 					n = e.updatedAt;
 				return n ? l.createElement(c.xu, null, l.createElement(u.F, {
-					scale: "M",
+					scale: "Q",
 					tag: "span"
 				}, t ? "Last edited" : "Created", " ", l.createElement(y.Z, {
 					timestamp: n
@@ -1034,7 +1034,7 @@
 			function U(e) {
 				var t = e.wordCount;
 				return t ? l.createElement(u.F, {
-					scale: "M",
+					scale: "Q",
 					tag: "span"
 				}, "(".concat(t, " word").concat(1 === t ? "" : "s", ")"), " so far") : null
 			}
@@ -1256,7 +1256,7 @@
 			}
 
 			function D() {
-				var e = d()(["\n  fragment IntentionalRecentlyUpdatedEntityData on RankedModuleUpdatedFollowedEntity {\n    entity {\n      __typename\n      ... on Collection {\n        id\n        name\n        avatar {\n          id\n        }\n        domain\n        slug\n      }\n      ... on User {\n        id\n        name\n        username\n        imageId\n        mediumMemberAt\n      }\n    }\n    updatesCount\n    updatesCountText\n  }\n"]);
+				var e = d()(["\n  fragment IntentionalRecentlyUpdatedEntityData on RankedModuleUpdatedFollowedEntity {\n    entity {\n      __typename\n      ... on Collection {\n        id\n        name\n        avatar {\n          id\n        }\n        domain\n        slug\n      }\n      ... on User {\n        id\n        name\n        username\n        imageId\n        quicklookMemberAt\n      }\n    }\n    updatesCount\n    updatesCountText\n  }\n"]);
 				return D = function () {
 					return e
 				}, e
@@ -1361,7 +1361,7 @@
 						g = Z()(f, 2),
 						E = g[0],
 						x = g[1],
-						h = t.mediumUrl,
+						h = t.quicklookUrl,
 						v = t.title,
 						b = t.previewContent,
 						w = t.creator,
@@ -1527,7 +1527,7 @@
 				ce = n(83850);
 
 			function ue() {
-				var e = d()(["\n  fragment HomeFeedItem_post on Post {\n    __typename\n    id\n    title\n    firstPublishedAt\n    mediumUrl\n    collection {\n      id\n      name\n      domain\n      logo {\n        id\n      }\n    }\n    creator {\n      id\n      name\n      username\n      imageId\n      mediumMemberAt\n    }\n    previewImage {\n      id\n    }\n    previewContent {\n      subtitle\n    }\n    readingTime\n    ...BookmarkButton_post\n    ...CreatorActionOverflowPopover_post\n    ...PostPresentationTracker_post\n    ...PostPreviewAvatar_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment HomeFeedItem_post on Post {\n    __typename\n    id\n    title\n    firstPublishedAt\n    quicklookUrl\n    collection {\n      id\n      name\n      domain\n      logo {\n        id\n      }\n    }\n    creator {\n      id\n      name\n      username\n      imageId\n      quicklookMemberAt\n    }\n    previewImage {\n      id\n    }\n    previewContent {\n      subtitle\n    }\n    readingTime\n    ...BookmarkButton_post\n    ...CreatorActionOverflowPopover_post\n    ...PostPresentationTracker_post\n    ...PostPreviewAvatar_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
 				return ue = function () {
 					return e
 				}, e
@@ -1570,7 +1570,7 @@
 							padding: "32px 16px"
 						}
 					}, r.createElement(I.Dx, {
-						scale: "M"
+						scale: “Q”
 					}, "For you")), r.createElement(j.F, null), r.createElement(ee.xu, {
 						sm: {
 							padding: "0 16px 32px"
@@ -1673,7 +1673,7 @@
 				ye = n(45113);
 
 			function Ie() {
-				var e = d()(["\n  fragment HomeReadingListItem_post on Post {\n    id\n    title\n    creator {\n      id\n      name\n      username\n      ...UserAvatar_user\n    }\n    mediumUrl\n    createdAt\n    readingTime\n    collection {\n      id\n      name\n      navItems {\n        url\n      }\n      ...CollectionAvatar_collection\n    }\n    visibility\n  }\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment HomeReadingListItem_post on Post {\n    id\n    title\n    creator {\n      id\n      name\n      username\n      ...UserAvatar_user\n    }\n    quicklookUrl\n    createdAt\n    readingTime\n    collection {\n      id\n      name\n      navItems {\n        url\n      }\n      ...CollectionAvatar_collection\n    }\n    visibility\n  }\n  ", "\n  ", "\n"]);
 				return Ie = function () {
 					return e
 				}, e
@@ -1770,16 +1770,16 @@
 						maxWidth: "580px",
 						margin: "auto"
 					}, r.createElement(I.QE, {
-						scale: "M"
+						scale: “Q”
 					}, "Let's see if", " ", r.createElement(y.rU, {
 						onClick: c,
 						linkStyle: "OBVIOUS",
 						inline: !0
 					}, "refreshing the page"), " ", "will fix it. If that doesn't work, you can", " ", r.createElement(y.rU, {
-						href: "https://medium.statuspage.io/",
+						href: "https://quicklook.statuspage.io/",
 						linkStyle: "OBVIOUS",
 						inline: !0
-					}, "check Medium's site status"), ".")), r.createElement(y.zx, {
+					}, "check Quicklook's site status"), ".")), r.createElement(y.zx, {
 						buttonStyle: "STRONG",
 						onClick: c
 					}, "Refresh")))
@@ -1790,7 +1790,7 @@
 				Be = n(27390);
 
 			function Le() {
-				var e = d()(["\n  fragment HomeTrendingPostPreview_post on Post {\n    id\n    title\n    mediumUrl\n    readingTime\n    firstPublishedAt\n    ...PostPreviewAvatar_post\n    ...PostPresentationTracker_post\n  }\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment HomeTrendingPostPreview_post on Post {\n    id\n    title\n    quicklookUrl\n    readingTime\n    firstPublishedAt\n    ...PostPreviewAvatar_post\n    ...PostPresentationTracker_post\n  }\n  ", "\n  ", "\n"]);
 				return Le = function () {
 					return e
 				}, e
@@ -1803,7 +1803,7 @@
 						l = o.title,
 						a = o.firstPublishedAt,
 						c = o.readingTime,
-						u = o.mediumUrl,
+						u = o.quicklookUrl,
 						m = (0, P.Iq)(),
 						s = (0, we.v9)((function (e) {
 							return e.client.isSafariMobile
@@ -1910,7 +1910,7 @@
 			}
 
 			function Ve() {
-				var e = d()(["\n  fragment PostListModulePostPreviewData on Post {\n    id\n    firstPublishedAt\n    readingTime\n    createdAt\n    mediumUrl\n    previewImage {\n      id\n    }\n    title\n    collection {\n      id\n      domain\n      slug\n      name\n      navItems {\n        url\n      }\n      logo {\n        id\n      }\n      avatar {\n        id\n      }\n    }\n    creator {\n      id\n      name\n      username\n      imageId\n      mediumMemberAt\n      ...userUrl_user\n    }\n    visibility\n    isProxyPost\n    isLocked\n    ...HomeFeedItem_post\n    ...HomeReadingListItem_post\n    ...HomeTrendingModule_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment PostListModulePostPreviewData on Post {\n    id\n    firstPublishedAt\n    readingTime\n    createdAt\n    quicklookUrl\n    previewImage {\n      id\n    }\n    title\n    collection {\n      id\n      domain\n      slug\n      name\n      navItems {\n        url\n      }\n      logo {\n        id\n      }\n      avatar {\n        id\n      }\n    }\n    creator {\n      id\n      name\n      username\n      imageId\n      quicklookMemberAt\n      ...userUrl_user\n    }\n    visibility\n    isProxyPost\n    isLocked\n    ...HomeFeedItem_post\n    ...HomeReadingListItem_post\n    ...HomeTrendingModule_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
 				return Ve = function () {
 					return e
 				}, e
@@ -1924,7 +1924,7 @@
 			}
 
 			function Qe() {
-				var e = d()(["\n  fragment FollowedStoryPreviewData on RankedModuleFollowedStoriesItem {\n    post {\n      __typename\n      id\n      title\n      readingTime\n      mediumUrl\n      firstPublishedAt\n      previewImage {\n        id\n      }\n      previewContent {\n        isFullContent\n        subtitle\n      }\n      creator {\n        id\n        name\n        imageId\n        mediumMemberAt\n        username\n        ...userUrl_user\n      }\n      collection {\n        id\n        name\n        avatar {\n          id\n        }\n        domain\n        slug\n      }\n      isProxyPost\n      visibility\n      isLocked\n      ...BookmarkButton_post\n      ...CreatorActionOverflowPopover_post\n    }\n  }\n  ", "\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment FollowedStoryPreviewData on RankedModuleFollowedStoriesItem {\n    post {\n      __typename\n      id\n      title\n      readingTime\n      quicklookUrl\n      firstPublishedAt\n      previewImage {\n        id\n      }\n      previewContent {\n        isFullContent\n        subtitle\n      }\n      creator {\n        id\n        name\n        imageId\n        quicklookMemberAt\n        username\n        ...userUrl_user\n      }\n      collection {\n        id\n        name\n        avatar {\n          id\n        }\n        domain\n        slug\n      }\n      isProxyPost\n      visibility\n      isLocked\n      ...BookmarkButton_post\n      ...CreatorActionOverflowPopover_post\n    }\n  }\n  ", "\n  ", "\n  ", "\n"]);
 				return Qe = function () {
 					return e
 				}, e
@@ -1938,7 +1938,7 @@
 			}
 
 			function Xe() {
-				var e = d()(["\n  fragment RecentlyUpdatedEntityData on RankedModuleUpdatedFollowedEntity {\n    entity {\n      __typename\n      ... on Collection {\n        id\n        name\n        avatar {\n          id\n        }\n        domain\n        slug\n      }\n      ... on User {\n        id\n        name\n        username\n        imageId\n        mediumMemberAt\n        ...userUrl_user\n      }\n    }\n    updatesCount\n    updatesCountText\n  }\n  ", "\n"]);
+				var e = d()(["\n  fragment RecentlyUpdatedEntityData on RankedModuleUpdatedFollowedEntity {\n    entity {\n      __typename\n      ... on Collection {\n        id\n        name\n        avatar {\n          id\n        }\n        domain\n        slug\n      }\n      ... on User {\n        id\n        name\n        username\n        imageId\n        quicklookMemberAt\n        ...userUrl_user\n      }\n    }\n    updatesCount\n    updatesCountText\n  }\n  ", "\n"]);
 				return Xe = function () {
 					return e
 				}, e
@@ -2656,7 +2656,7 @@
 							return a(!0)
 						}
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "ACCENT"
 					}, "See More")))))
 				},
@@ -2981,7 +2981,7 @@
 							paddingBottom: "0"
 						}
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						tag: "div"
 					}, r.createElement(y.rU, {
 						linkStyle: "OBVIOUS",
@@ -3195,7 +3195,7 @@
 								t.onClickEventName && e.event(t.onClickEventName, {})
 							}
 						}, r.createElement(I.F, {
-							scale: "M",
+							scale: “Q”,
 							color: "LIGHTER"
 						}, t.name)))
 					})))
@@ -3345,7 +3345,7 @@
 					}, r.createElement(Cn.s, {
 						sm: !0
 					}, r.createElement(I.QE, {
-						scale: "M",
+						scale: “Q”,
 						color: "DARKER"
 					}, n)), r.createElement(Cn.e, {
 						sm: !0
@@ -3464,7 +3464,7 @@
 					}, r.createElement(y.xu, {
 						marginRight: "25px"
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "DARKER"
 					}, r.createElement(Wn, {
 						href: (0, We.jQk)({
@@ -3479,7 +3479,7 @@
 					}, r.createElement(y.xu, {
 						marginRight: "25px"
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "DARKER"
 					}, r.createElement(Wn, {
 						href: (0, We.OAg)(a),
@@ -3492,7 +3492,7 @@
 					}, r.createElement(y.xu, {
 						marginRight: "25px"
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "DARKER"
 					}, r.createElement(Wn, {
 						href: (0, We.GMb)(a, c),
@@ -3505,7 +3505,7 @@
 					}, r.createElement(y.xu, {
 						marginRight: "25px"
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "DARKER"
 					}, r.createElement(Mn.R9, {
 						operation: "login",
@@ -3588,14 +3588,14 @@
 						flexDirection: "row",
 						marginBottom: "8px"
 					}, r.createElement(ee.rU, {
-						href: (null == t ? void 0 : t.mediumUrl) || "#"
+						href: (null == t ? void 0 : t.quicklookUrl) || "#"
 					}, r.createElement(I.Dx, {
 						scale: "XS"
 					}, null == t ? void 0 : t.title))), r.createElement(ee.xu, {
 						display: "flex",
 						flexDirection: "row"
 					}, r.createElement(ee.xu, null, r.createElement(ee.rU, {
-						href: (null == t ? void 0 : t.mediumUrl) || "#"
+						href: (null == t ? void 0 : t.quicklookUrl) || "#"
 					}, r.createElement(I.F, {
 						scale: "S"
 					}, r.createElement(z.Z, {
@@ -3603,7 +3603,7 @@
 					})))), r.createElement(ee.xu, {
 						margin: "0 6px"
 					}, r.createElement(Y.Z, null)), r.createElement(ee.rU, {
-						href: (null == t ? void 0 : t.mediumUrl) || "#"
+						href: (null == t ? void 0 : t.quicklookUrl) || "#"
 					}, r.createElement(Ae.Nx, {
 						readingTime: null == t ? void 0 : t.readingTime
 					})), (null == t ? void 0 : t.visibility) === ne.Wn.LOCKED ? r.createElement($.y, null) : null))) : null
@@ -3686,7 +3686,7 @@
 					})), r.createElement(ee.rU, {
 						href: (0, We.cTO)(i)
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "ACCENT"
 					}, "See your full reading list")))) : r.createElement(ee.xu, {
 						backgroundColor: "BASE_LIGHT",
@@ -3711,7 +3711,7 @@
 						className: o(Xn),
 						"aria-label": "bookmark"
 					}))), r.createElement(ee.xu, null, r.createElement(I.F, {
-						scale: "M"
+						scale: “Q”
 					}, "Start saving stories by clicking the bookmark icon and you'll find them all here.")))
 				},
 				Yn = function () {
@@ -3846,7 +3846,7 @@
 				or = n(27721);
 
 			function ir() {
-				var e = d()(["\n  fragment TopFollowedStoryModule_post on Post {\n    __typename\n    id\n    title\n    firstPublishedAt\n    mediumUrl\n    previewImage {\n      id\n    }\n    previewContent {\n      subtitle\n    }\n    readingTime\n    ...PostPresentationTracker_post\n    ...PostPreviewAvatar_post\n    ...BookmarkButton_post\n    ...CreatorActionOverflowPopover_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment TopFollowedStoryModule_post on Post {\n    __typename\n    id\n    title\n    firstPublishedAt\n    quicklookUrl\n    previewImage {\n      id\n    }\n    previewContent {\n      subtitle\n    }\n    readingTime\n    ...PostPresentationTracker_post\n    ...PostPreviewAvatar_post\n    ...BookmarkButton_post\n    ...CreatorActionOverflowPopover_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
 				return ir = function () {
 					return e
 				}, e
@@ -3862,7 +3862,7 @@
 						n = e.setMutedAuthorId,
 						o = e.setMutedPubId,
 						i = Boolean((0, rr.P5)("enable_top_ranked_posts_section_menu_buttons")),
-						l = t.mediumUrl,
+						l = t.quicklookUrl,
 						a = t.title,
 						c = t.previewContent,
 						u = t.readingTime,
@@ -3958,7 +3958,7 @@
 				};
 
 			function cr() {
-				var e = d()(["\n  fragment YourDailyReadPostPreview_post on Post {\n    id\n    title\n    firstPublishedAt\n    mediumUrl\n    previewImage {\n      id\n    }\n    previewContent {\n      subtitle\n    }\n    readingTime\n    ...PostPresentationTracker_post\n    ...PostPreviewAvatar_post\n    ...BookmarkButton_post\n    ...CreatorActionOverflowPopover_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
+				var e = d()(["\n  fragment YourDailyReadPostPreview_post on Post {\n    id\n    title\n    firstPublishedAt\n    quicklookUrl\n    previewImage {\n      id\n    }\n    previewContent {\n      subtitle\n    }\n    readingTime\n    ...PostPresentationTracker_post\n    ...PostPreviewAvatar_post\n    ...BookmarkButton_post\n    ...CreatorActionOverflowPopover_post\n  }\n  ", "\n  ", "\n  ", "\n  ", "\n"]);
 				return cr = function () {
 					return e
 				}, e
@@ -3974,7 +3974,7 @@
 						a = e.setMutedPubId,
 						c = (0, P.Iq)(),
 						u = Boolean((0, o.P5)("enable_top_ranked_posts_section_menu_buttons")),
-						m = n.mediumUrl,
+						m = n.quicklookUrl,
 						s = n.title,
 						d = n.readingTime,
 						p = n.firstPublishedAt,
@@ -4173,7 +4173,7 @@
 					}), r.createElement(ee.xu, null, r.createElement(I.Lh, {
 						scale: "S",
 						color: "EDITORIAL"
-					}, "Trending on Medium"))), r.createElement(ee.xu, {
+					}, "Trending on Quicklook"))), r.createElement(ee.xu, {
 						width: "100%"
 					}, r.createElement(ee.T5, {
 						alignItems: "flex-start"
@@ -4347,7 +4347,7 @@
 					}, r.createElement(ee.rU, {
 						href: (0, We.a4F)(n)
 					}, r.createElement(I.F, {
-						scale: "M",
+						scale: “Q”,
 						color: "ACCENT"
 					}, "See all topics"))))
 				},
@@ -4545,11 +4545,11 @@
 						card: "summary_large_image",
 						title: Fr(d),
 						description: Br(d),
-						imageUrl: "https://miro.medium.com/1*5ER2KRyL5S0S_xX8Pf0lgg.png",
+						imageUrl: "https://raw.githubusercontent.com/quicklooked/quicklooked.github.io/master/assets/images/1_5ER2KRyL5S0S_xX8Pf0lgg.png",
 						pageUrl: "https://".concat(s),
 						pageType: "website",
 						publicationName: d,
-						publicationTwitterHandle: "@Medium",
+						publicationTwitterHandle: "@Quicklook",
 						isHomePage: !0
 					}), y ? r.createElement(Zn, null) : r.createElement(Sr.kw, {
 						isHomePage: !0,
@@ -4647,7 +4647,7 @@
 					}, _ && r.createElement(wt, null), r.createElement(Tn, null)))))))))))
 				},
 				Nr = function () {
-					var e = Boolean((0, o.P5)("enable_medium_app")),
+					var e = Boolean((0, o.P5)("enable_quicklook_app")),
 						t = (0, l.Av)(),
 						n = (0, i.rZ)().viewerId,
 						a = n && (0, ct.j)(n);
@@ -4685,20 +4685,20 @@
 						p = e.pageUrl,
 						f = e.publicationName,
 						g = e.publicationTwitterHandle,
-						E = void 0 === g ? "@Medium" : g,
+						E = void 0 === g ? "@Quicklook" : g,
 						x = e.creatorTwitterHandle,
 						h = void 0 === x ? E : x,
 						v = e.pageType,
 						b = {
 							"@context": "http://schema.org",
 							"@type": "Organization",
-							url: "https://medium.com",
-							name: "Medium",
+							url: "https://quicklooked.github.io/",
+							name: "Quicklook",
 							description: d || m,
-							publishingPrinciples: "https://policy.medium.com/medium-terms-of-service-9db0094a1e0f",
+							publishingPrinciples: "https://quicklooked.github.io/quicklook-terms-of-service",
 							logo: {
 								"@type": "ImageObject",
-								url: "https://miro.medium.com/max/968/1*F6SrJR7_s95r6oCF3ugMZw.png",
+								url: "https://raw.githubusercontent.com/quicklooked/quicklooked.github.io/master/assets/images/1_F6SrJR7_s95r6oCF3ugMZw.png",
 								width: 484,
 								height: 168
 							}
