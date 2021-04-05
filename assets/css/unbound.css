@@ -3,7 +3,7 @@
   font-family: 'charter';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/latin/charter-400-italic.woff') format('woff');
+  src: url('/assets/css/latin/charter-400-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -12,7 +12,7 @@
   font-family: 'charter';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/rest/charter-400-italic.woff') format('woff');
+  src: url('/assets/css/rest/charter-400-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -21,7 +21,7 @@
   font-family: 'charter';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/latin/charter-400-normal.woff') format('woff');
+  src: url('/assets/css/latin/charter-400-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -30,7 +30,7 @@
   font-family: 'charter';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/rest/charter-400-normal.woff') format('woff');
+  src: url('/assets/css/rest/charter-400-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -39,7 +39,7 @@
   font-family: 'charter';
   font-weight: 700;
   font-style: italic;
-  src: url('/css/latin/charter-700-italic.woff') format('woff');
+  src: url('/assets/css/latin/charter-700-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -48,7 +48,7 @@
   font-family: 'charter';
   font-weight: 700;
   font-style: italic;
-  src: url('/css/rest/charter-700-italic.woff') format('woff');
+  src: url('/assets/css/rest/charter-700-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -57,7 +57,7 @@
   font-family: 'charter';
   font-weight: 700;
   font-style: normal;
-  src: url('/css/latin/charter-700-normal.woff') format('woff');
+  src: url('/assets/css/latin/charter-700-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -66,7 +66,7 @@
   font-family: 'charter';
   font-weight: 700;
   font-style: normal;
-  src: url('/css/rest/charter-700-normal.woff') format('woff');
+  src: url('/assets/css/rest/charter-700-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -75,7 +75,7 @@
   font-family: 'fell';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/latin/fell-400-italic.woff') format('woff');
+  src: url('/assets/css/latin/fell-400-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -84,7 +84,7 @@
   font-family: 'fell';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/rest/fell-400-italic.woff') format('woff');
+  src: url('/assets/css/rest/fell-400-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -93,7 +93,7 @@
   font-family: 'fell';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/latin/fell-400-normal.woff') format('woff');
+  src: url('/assets/css/latin/fell-400-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -102,7 +102,7 @@
   font-family: 'fell';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/rest/fell-400-normal.woff') format('woff');
+  src: url('/assets/css/rest/fell-400-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -111,7 +111,7 @@
   font-family: 'gt-super';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/latin/gt-super-400-normal.woff') format('woff');
+  src: url('/assets/css/latin/gt-super-400-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -120,7 +120,7 @@
   font-family: 'gt-super';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/rest/gt-super-400-normal.woff') format('woff');
+  src: url('/assets/css/rest/gt-super-400-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -129,7 +129,7 @@
   font-family: 'noe';
   font-weight: 500;
   font-style: normal;
-  src: url('/css/latin/noe-display-500-normal.woff') format('woff');
+  src: url('/assets/css/latin/noe-display-500-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -138,7 +138,7 @@
   font-family: 'noe';
   font-weight: 500;
   font-style: normal;
-  src: url('/css/rest/noe-display-500-normal.woff') format('woff');
+  src: url('/assets/css/rest/noe-display-500-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -147,7 +147,7 @@
   font-family: 'opendyslexic';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/latin/opendyslexic-400-italic.woff') format('woff');
+  src: url('/assets/css/latin/opendyslexic-400-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -156,7 +156,7 @@
   font-family: 'opendyslexic';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/rest/opendyslexic-400-italic.woff') format('woff');
+  src: url('/assets/css/rest/opendyslexic-400-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -165,7 +165,7 @@
   font-family: 'opendyslexic';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/latin/opendyslexic-400-normal.woff') format('woff');
+  src: url('/assets/css/latin/opendyslexic-400-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -174,7 +174,7 @@
   font-family: 'opendyslexic';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/rest/opendyslexic-400-normal.woff') format('woff');
+  src: url('/assets/css/rest/opendyslexic-400-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -183,7 +183,7 @@
   font-family: 'sohne';
   font-weight: 300;
   font-style: italic;
-  src: url('/css/latin/sohne-300-italic.woff') format('woff');
+  src: url('/assets/css/latin/sohne-300-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -192,7 +192,7 @@
   font-family: 'sohne';
   font-weight: 300;
   font-style: italic;
-  src: url('/css/rest/sohne-300-italic.woff') format('woff');
+  src: url('/assets/css/rest/sohne-300-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -201,7 +201,7 @@
   font-family: 'sohne';
   font-weight: 300;
   font-style: normal;
-  src: url('/css/latin/sohne-300-normal.woff') format('woff');
+  src: url('/assets/css/latin/sohne-300-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -210,7 +210,7 @@
   font-family: 'sohne';
   font-weight: 300;
   font-style: normal;
-  src: url('/css/rest/sohne-300-normal.woff') format('woff');
+  src: url('/assets/css/rest/sohne-300-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -219,7 +219,7 @@
   font-family: 'sohne';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/latin/sohne-400-italic.woff') format('woff');
+  src: url('/assets/css/latin/sohne-400-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -228,7 +228,7 @@
   font-family: 'sohne';
   font-weight: 400;
   font-style: italic;
-  src: url('/css/rest/sohne-400-italic.woff') format('woff');
+  src: url('/assets/css/rest/sohne-400-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -237,7 +237,7 @@
   font-family: 'sohne';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/latin/sohne-400-normal.woff') format('woff');
+  src: url('/assets/css/latin/sohne-400-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -246,7 +246,7 @@
   font-family: 'sohne';
   font-weight: 400;
   font-style: normal;
-  src: url('/css/rest/sohne-400-normal.woff') format('woff');
+  src: url('/assets/css/rest/sohne-400-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -255,7 +255,7 @@
   font-family: 'sohne';
   font-weight: 500;
   font-style: italic;
-  src: url('/css/latin/sohne-500-italic.woff') format('woff');
+  src: url('/assets/css/latin/sohne-500-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -264,7 +264,7 @@
   font-family: 'sohne';
   font-weight: 500;
   font-style: italic;
-  src: url('/css/rest/sohne-500-italic.woff') format('woff');
+  src: url('/assets/css/rest/sohne-500-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -273,7 +273,7 @@
   font-family: 'sohne';
   font-weight: 500;
   font-style: normal;
-  src: url('/css/latin/sohne-500-normal.woff') format('woff');
+  src: url('/assets/css/latin/sohne-500-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -282,7 +282,7 @@
   font-family: 'sohne';
   font-weight: 500;
   font-style: normal;
-  src: url('/css/rest/sohne-500-normal.woff') format('woff');
+  src: url('/assets/css/rest/sohne-500-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -291,7 +291,7 @@
   font-family: 'sohne';
   font-weight: 700;
   font-style: italic;
-  src: url('/css/latin/sohne-700-italic.woff') format('woff');
+  src: url('/assets/css/latin/sohne-700-italic.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -300,7 +300,7 @@
   font-family: 'sohne';
   font-weight: 700;
   font-style: italic;
-  src: url('/css/rest/sohne-700-italic.woff') format('woff');
+  src: url('/assets/css/rest/sohne-700-italic.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
 
@@ -309,7 +309,7 @@
   font-family: 'sohne';
   font-weight: 700;
   font-style: normal;
-  src: url('/css/latin/sohne-700-normal.woff') format('woff');
+  src: url('/assets/css/latin/sohne-700-normal.woff') format('woff');
   unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
 }
 
@@ -318,6 +318,6 @@
   font-family: 'sohne';
   font-weight: 700;
   font-style: normal;
-  src: url('/css/rest/sohne-700-normal.woff') format('woff');
+  src: url('/assets/css/rest/sohne-700-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
