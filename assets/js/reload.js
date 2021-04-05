@@ -3,5 +3,3 @@ const reloadtButton = document.querySelector("#reload");
 function reload() {
     reload = location.reload();
 }
-// Event listeners for reload
-reloadButton.addEventListener("click", reload, false);
