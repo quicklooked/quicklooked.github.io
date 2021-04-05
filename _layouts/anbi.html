@@ -90,7 +90,7 @@
                                         </div>
                                         <div class="jn jo g">
                                             <div class="bw b jp jq bz">
-                                                <div class="mb mc">Good morning
+                                                <div class="mb mc"><label id="lblGreetings"></label>
                                                 </div>
                                             </div>
                                         </div>
@@ -152,6 +152,15 @@
            <div class="gx kn ja z ko jb"></div>
         </div>
     </div>
+    <script>
+	var myDate = new Date();
+    var hrs = myDate.getHours();
+    var greet;
+    if(hrs < 12) greet = 'Good morning';
+    else if(hrs >= 12 && hrs <= 17) greet = 'Good afternoon';
+    else if(hrs >= 17 && hrs <= 24) greet = 'Good evening';
+    document.getElementById('lblGreetings').innerHTML = greet;</script> 
+    <script>window.main();</script>
 </body>
 
 </html>
