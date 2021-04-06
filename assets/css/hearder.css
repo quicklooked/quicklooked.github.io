@@ -295,14 +295,6 @@ a,button,input {
 }
 
 
-
-
-menu,ol,ul {
-        padding: 0;
-        list-style: none;
-        list-style-image: none
-}
-
 figcaption {
         -webkit-nbsp-mode: normal
 }
