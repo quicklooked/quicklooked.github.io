@@ -40,7 +40,7 @@ var idx = lunr(function () {
 function lunr_search(term) {
     $('#lunrsearchresults').show( 1000 );
     $( "body" ).addClass( "modal-open" );
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0 mltd"> </ul>    </div></div> </div></div>';
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-body"> <ul class="mb-0 mltd"> </ul>    </div></div> </div></div>';
     if(term) {
         //put results on the screen.
         var results = idx.search(term);
