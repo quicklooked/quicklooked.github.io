@@ -119,10 +119,6 @@
     font-display: swap;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box; }
 
 html {
   -webkit-text-size-adjust: 100%;
@@ -7451,11 +7447,6 @@ a.text-lightblue:hover, a.text-lightblue:focus {
 html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar; }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
 
 .container {
   width: 100%;
