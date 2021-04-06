@@ -6,7 +6,7 @@ function setMaxheight(){
     // winheight -= 20;
 
     affixEle.css({
-        'max-height' : winHeight*92.25/100 + "px"
+        'max-height' : winHeight*90/100 + "px"
     });
 }
 
