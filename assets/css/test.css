@@ -103,6 +103,11 @@
 	padding-bottom: 32px;
 }
 
+
+
+
+
+
 @media (min-width: 1080px) {
 .nb {
 	max-width: 100%;
@@ -113,6 +118,15 @@
 .mq {
 	margin-top: 32px;
 }
+.sb {
+	max-height: 56px;
+}
+.sa {
+	line-height: 28px;
+}
+.rz {
+	font-size: 22px;
+}	
 }
 
 @media (max-width: 727.98px) {
@@ -162,7 +176,63 @@
 .mo {
 	padding-left: 32px;
 }
+.ru {
+	letter-spacing: 0px;
 }
+.rt {
+	max-height: 56px;
+}
+.rs {
+	line-height: 28px;
+}
+.rr {
+	font-size: 22px;
+}
+}
+
+@media (orientation: landscape) and (max-width: 903.98px){
+.oj {
+	max-height: none;
+}
+}
+
+@media (min-width: 552px) and (max-width: 727.98px){
+.rq {
+	letter-spacing: 0px;
+}
+
+.rp {
+	max-height: 40px;
+}
+
+.ro {
+	line-height: 20px;
+}
+
+.rn {
+	font-size: 16px;
+}
+
+}
+
+@media (max-width: 551.98px){
+.rm {
+	letter-spacing: 0px;
+}
+.rl {
+	max-height: 40px;
+}
+.rk {
+	line-height: 20px;
+}
+.rj {
+	font-size: 16px;
+}
+}
+
+
+
+
 
 @media (min-width: 904px) and (max-width: 1079.98px){
 .mn {
@@ -182,6 +252,18 @@
 }
 .mp {
 	padding-left: 32px;
+}
+.rv {
+	font-size: 22px;
+}
+.rw {
+	line-height: 28px;
+}
+.rx {
+	max-height: 56px;
+}
+.ry {
+	letter-spacing: 0px;
 }
 }
 
