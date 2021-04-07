@@ -1,34 +1,3 @@
-.do {
-  flex-direction: column;
-  }
-
-.an {
-	display: flex;
-  }
-
-.kp {
-	padding-bottom: 40px;
-}
-
-.z {
-	display: block;
-}
-
-.ao {
-	justify-content: center;
-}
-
-.av {
-	min-width: 0;
-}
-
-.au {
-	max-width: 1192px;
-}
-
-.af {
-	width: 100%;
-}
 
 .ou {
 	height: auto;
