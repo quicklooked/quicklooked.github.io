@@ -175,7 +175,7 @@
 	max-height: 40px;
 }
 
-img.responsive { width: 200px; height: 134}
+img.responsive { width: 200px; height: 134px }
 
 }
 
@@ -278,7 +278,7 @@ img.responsive { width: 200px; height: 134}
 .ps {
 	-webkit-line-clamp: 1;
 }
-img.responsive { width: 150px; height: 100}
+img.responsive { width: 150px; height: 100px }
 }
 
 @media (max-width: 551.98px){
@@ -302,7 +302,7 @@ img.responsive { width: 150px; height: 100}
 .pq {
 	-webkit-line-clamp: 1;
 }
-img.responsive { width: 100px; height: 100}
+img.responsive { width: 100px; height: 100px }
 }
 
 
