@@ -285,16 +285,6 @@ td,th {
 }
 
 
-a {
-        color: inherit;
-        text-decoration: none
-}
-
-a,button,input {
-        -webkit-tap-highlight-color: transparent
-}
-
-
 figcaption {
         -webkit-nbsp-mode: normal
 }
