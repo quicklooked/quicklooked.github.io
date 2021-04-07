@@ -99,14 +99,16 @@
 	padding-bottom: 32px;
 }
 
-media:= "(min-width: 1080px)"
+@media (min-width: 1080px) {
 .nb {
 	max-width: 100%;
 }
-
-media:= "(min-width: 1080px)"
 .na {
 	margin: 0px;
+}
+.mq {
+	margin-top: 32px;
+}
 }
 
 .ob {
@@ -191,11 +193,6 @@ media:= "(min-width: 1080px)"
 
 .ok {
 	background: rgb(26, 137, 23);
-}
-
-media := "(min-width: 1080px)"
-.mq {
-	margin-top: 32px;
 }
 
 .or {
