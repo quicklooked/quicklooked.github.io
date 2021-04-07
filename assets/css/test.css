@@ -244,3 +244,11 @@ media := "(min-width: 1080px)"
 .qv {
 	padding-bottom: 8px;
 }
+
+.qx {
+	align-items: baseline;
+}
+
+.qw {
+	margin-top: 8px;
+}
