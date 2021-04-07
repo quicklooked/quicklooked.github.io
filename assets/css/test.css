@@ -160,6 +160,29 @@
 }
 }
 
+@media (min-width: 904px) and (max-width: 1079.98px){
+.mn {
+	border-right-style: solid;
+}
+.mm {
+	border-right-width: 1px;
+}
+.ml {
+	border-right-color: rgb(230, 230, 230);
+}
+.mk {
+	padding-right: 32px;
+}
+.mj {
+	flex: 1 1 0%;
+}
+.mp {
+	padding-left: 32px;
+}
+}
+
+
+
 
 
 
