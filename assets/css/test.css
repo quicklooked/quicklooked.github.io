@@ -2,6 +2,19 @@
 	top: -1px;
 }
 
+.sf {
+	fill: rgb(61, 61, 61);
+}
+
+.sg {
+	margin-right: -6px;
+}
+
+.sh {
+	margin-right: -4px;
+}
+
+
 .sj {
 	background-color: rgb(250, 250, 250);
 }
@@ -314,6 +327,10 @@ img.responsive { width: 150px; height: 100px }
 }
 .rj {
 	font-size: 16px;
+}
+
+.se {
+	margin-right: 4px;
 }
 
 .rb {
