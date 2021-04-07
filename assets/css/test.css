@@ -203,6 +203,23 @@ img.responsive { width: 200px; height: 134px }
 .mv {
 	width: 100%;
 }
+
+.ri {
+	align-items: flex-start;
+}
+
+.rh {
+	margin-right: 0px;
+}
+
+.rg {
+	padding-right: 0px;
+}
+
+.jc {
+	display: flex;
+}
+
 }
 
 
