@@ -175,6 +175,8 @@
 	max-height: 40px;
 }
 
+img.responsive { width: 200px; height: 134}
+
 }
 
 @media (max-width: 727.98px) {
@@ -276,7 +278,7 @@
 .ps {
 	-webkit-line-clamp: 1;
 }
-
+img.responsive { width: 150px; height: 100}
 }
 
 @media (max-width: 551.98px){
@@ -300,7 +302,7 @@
 .pq {
 	-webkit-line-clamp: 1;
 }
-
+img.responsive { width: 100px; height: 100}
 }
 
 
