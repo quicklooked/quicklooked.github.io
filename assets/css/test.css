@@ -240,3 +240,7 @@ media := "(min-width: 1080px)"
 .mb {
 	font-weight: bold;
 }
+
+.qv {
+	padding-bottom: 8px;
+}
