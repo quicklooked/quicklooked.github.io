@@ -123,6 +123,18 @@
 .pz {
 	padding-bottom: 32px;
 }
+.nu {
+	padding-bottom: 16px;
+}
+.mt {
+	border-top: 1px solid rgb(230, 230, 230);
+}
+.mu {
+	padding-top: 32px;
+}
+.mv {
+	width: 100%;
+}
 }
 
 
