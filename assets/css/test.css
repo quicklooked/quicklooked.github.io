@@ -139,6 +139,29 @@
 
 
 
+@media (min-width: 728px) and (max-width: 903.98px){
+.mi {
+	border-right-style: solid;
+}
+.mh {
+	border-right-width: 1px;
+}
+.mg {
+	border-right-color: rgb(230, 230, 230);
+}
+.mf {
+	padding-right: 32px;
+}
+.me {
+	flex: 1 1 0%;
+}
+.mo {
+	padding-left: 32px;
+}
+}
+
+
+
 
 .ob {
 	flex: 1 1 auto;
