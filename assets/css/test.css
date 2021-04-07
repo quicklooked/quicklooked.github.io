@@ -221,3 +221,7 @@ media := "(min-width: 1080px)"
 .qw {
 	margin-top: 8px;
 }
+
+.qt {
+	white-space: nowrap;
+}
