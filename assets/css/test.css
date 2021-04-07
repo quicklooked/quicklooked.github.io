@@ -126,6 +126,9 @@
 }
 .rz {
 	font-size: 22px;
+.rf {
+	margin-bottom: 48px;
+}
 }	
 }
 
@@ -188,6 +191,10 @@
 .rr {
 	font-size: 22px;
 }
+
+.rd {
+	margin-bottom: 48px;
+}
 }
 
 @media (orientation: landscape) and (max-width: 903.98px){
@@ -212,6 +219,9 @@
 .rn {
 	font-size: 16px;
 }
+.rc {
+	margin-bottom: 48px;
+}
 
 }
 
@@ -227,6 +237,10 @@
 }
 .rj {
 	font-size: 16px;
+}
+
+.rb {
+	margin-bottom: 32px;
 }
 }
 
@@ -264,6 +278,9 @@
 }
 .ry {
 	letter-spacing: 0px;
+}
+.re {
+	margin-bottom: 48px;
 }
 }
 
