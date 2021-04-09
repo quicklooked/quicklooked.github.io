@@ -97,14 +97,14 @@
                                         <div class="ju jv an f">
                                             <div class="cq" aria-hidden="false" aria-describedby="searchResults" aria-labelledby="searchResults">
                                                 <div class="an">
-                                                    <button class="az ba bb bc bd be bf bg bh bi bj bk bl bm bn">
+                                                    <button onclick="setSearch()" class="az ba bb bc bd be bf bg bh bi bj bk bl bm bn">
                                                         <span class="kf z">
                                                             <svg width="25" height="25" viewBox="0 0 25 25" class="js">
                                                                 <path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z"></path>
                                                             </svg>
                                                         </span>
                                                     </button>
-                                                    <input role="combobox" aria-controls="searchResults" aria-expanded="false" aria-hidden="true" tabindex="-1" class="jw jx jy ek by jz ka bz kb gz kc kd ke" placeholder="Search Quicklook" value="" />
+                                                    <input id="search" role="combobox" aria-controls="searchResults" aria-expanded="false" aria-hidden="true" tabindex="-1" class="jw jx jy ek by jz ka bz kb gz kc kd ke" style="font-family: 'sohne';" placeholder="Search Quicklook" value="" />
                                                 </div>
                                             </div>
                                         </div>
@@ -117,7 +117,7 @@
                                                 </span>
                                             </a>
                                         </div>
-                                        <a class="az ba bb bc bd be bf bg bh bi bj bk bl bm bn" rel="noopener" href="https://quicklooked.github.io/queue">
+                                        <a class="az ba bb bc bd be bf bg bh bi bj bk bl bm bn" rel="noopener" href="https://quicklooked.github.io/queue" style="display: none;">
                                             <span class="gy z g">
                                                 <svg width="25" height="25" viewBox="0 0 25 25" class="js">
                                                     <path d="M16 6a2 2 0 0 1 2 2v13.66h-.01a.5.5 0 0 1-.12.29.5.5 0 0 1-.7.03l-5.67-4.13-5.66 4.13a.5.5 0 0 1-.7-.03.48.48 0 0 1-.13-.29H5V8c0-1.1.9-2 2-2h9zM6 8v12.64l5.16-3.67a.49.49 0 0 1 .68 0L17 20.64V8a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"></path>
@@ -132,7 +132,7 @@
                                                 </svg>
                                             </span>
                                         </div>
-                                        <div class="gy z g">
+                                        <div class="gy z g" style="display: none;">
                                             <div><a href="https://quicklooked.github.io/plans" class="bw b bx by bz kk em en eo ep eq ch bi ci er es et eu cm cn co cp cq cr" rel="noopener">Upgrade</a></div>
                                         </div>
                                         <div class="an" aria-hidden="false" aria-describedby="metabarActionsMenu" aria-labelledby="metabarActionsMenu">
@@ -165,5 +165,11 @@
     </div>
     <script src="/assets/js/greet.js"></script>
     <script src="/assets/js/reload.js"></script>
+	<script src="/assets/js/setSearch.js"></script>
+	<script src="/assets/js/searchResults.js"></script>
+	<script src="/assets/js/setMaxheight.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
 </body>
 </html>
