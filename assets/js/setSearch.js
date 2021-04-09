@@ -12,8 +12,3 @@ function setSearch() {
 		document.getElementById("search").classList.add("jw", "jx", "jy", "ek", "by", "jz", "ka", "bz", "kb", "gz", "kc", "kd", "ke");
 	}
 }
-<script>
-window.onload = function() {
-	document.getElementById("search").focus();
-};
-</script>
