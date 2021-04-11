@@ -6,7 +6,7 @@
 	transition: transform 300ms ease 0s;
 }
 
-.mb {
+.mbb {
 	will-change: transform;
 }
 
