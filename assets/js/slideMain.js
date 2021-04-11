@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var status = "over552";
-    window.addEventListener("scroll", function() {
+    window.addEventListener("mousemove", function() {
         var x = window.innerWidth;
         if(x < 552) {
             if(status == "over552") {
