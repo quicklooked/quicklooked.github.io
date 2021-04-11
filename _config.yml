@@ -5,7 +5,7 @@ logo: ''
 favicon: ''
 baseurl: ''
 disqus: ''
-email: 'quicklook.vn@gmail.com'
+email: ''
 
 include: ["_pages"]
 permalink: /:title/
@@ -18,21 +18,13 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://quicklooked.github.io/@sal
-      avatar:         'assets/images/sal.jpg'
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          quicklook.vn@gmail.com
-      twitter:        https://twitter.com/Quicklook102
-
-    jane:
-      name:           Jane
-      site:           https://quicklooked.github.io/@jane
-      avatar:         'assets/images/jane.jpg'
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          quicklook.vn@gmail.com
-      twitter:        https://twitter.com/Quicklook102
+    quicklook:
+      name:           
+      site:           
+      avatar:         ''
+      bio:            ""
+      email:          
+      twitter:        
  
 # Defaults
 defaults:
@@ -42,8 +34,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: 'assets/images/sal.jpg'
+      author: quicklook
+      avatar: ''
       
   # all pages 
   - scope:
