@@ -1,4 +1,4 @@
-function setSearch() {
+function usersSearch() {
 	var attr = document.getElementById("search").attributes;
 	if(attr['aria-hidden'].value == "true") {
 		document.getElementById("search").tabIndex = 0;
