@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     var status = "over552";
-    window.addEventListener("onchange", function() {
+    window.addEventListener("slotchange", function() {
         var x = window.innerWidth;
         if(x < 552) {
             if(status == "over552") {
