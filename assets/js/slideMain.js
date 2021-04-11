@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     var status = "over552";
     window.addEventListener("scroll", function() {
-        var x = window.screen.width;
+        var x = window.innerWidth;
         if(x < 552) {
             if(status == "over552") {
                 document.getElementById("slideMain").classList.remove("z", "ix", "ai", "aj", "ak", "c", "iy", "iz");
