@@ -2,6 +2,10 @@
 	margin: 20px 0;
 }
 
+.ma {
+	transition: transform 300ms ease 0s;
+}
+
 .nc {
 	transition: opacity 200ms ease 0s;
 }
