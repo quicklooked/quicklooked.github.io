@@ -7,9 +7,11 @@ function navChange() {
 		document.getElementById("navchange").ariaLabel = "Collapse navbar";
 		document.getElementById("navchange1").classList.remove("ggx");
 		document.getElementById("navchange1").classList.add("cm", "mfx", "mgx");
-		document.getElementById("navchange2").getAttribute('d', 'M12.6.59L7 6.19 1.39.6l-.8.8L6.19 7 .6 12.61l.8.8L7 7.81l5.61 5.6.8-.8L7.81 7l5.6-5.61');
 		document.getElementById("navchange3").classList.remove("onx", "ai", "mnx");
 		document.getElementById("navchange3").classList.add("onx", "ai");
+		new_path = 'M12.6.59L7 6.19 1.39.6l-.8.8L6.19 7 .6 12.61l.8.8L7 7.81l5.61 5.6.8-.8L7.81 7l5.6-5.61';
+		svg_element = document.getElementById('navchange2');
+		svg_element.setAttribute('d', new_path);
 	} else {
 		document.getElementById("navchange").ariaLabel = "Expand navbar";
 		document.getElementById("navchange1").classList.remove("cm", "mfx", "mgx");
