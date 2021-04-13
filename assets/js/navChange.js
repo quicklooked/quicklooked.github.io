@@ -12,7 +12,7 @@ function navChange() {
 		svg_element.setAttribute('d', new_path);
 		document.getElementById("navchange3").classList.remove("onx", "ai", "mnx");
 		document.getElementById("navchange3").classList.add("onx", "ai");
-		document.getElementById("navchange").focus();
+		document.getElementById("navchange").focusin();
 	} else {
 		document.getElementById("navchange").ariaLabel = "Expand navbar";
 		document.getElementById("navchange1").classList.remove("cm", "mfx", "mgx");
