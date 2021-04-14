@@ -391,14 +391,13 @@
                       </div>
                     </div>
                   </div>
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<ul>
+{% for post in site.tags[page.tag] %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+    {{ post.description }}
+  </li>
 {% endfor %}
+</ul>
                   <div class="pf od s">
                     <ul class="bf bg">
                       <li class="dh pg it ph"><a href="/tag/climate-change" class="au b pi pj ax pk pl dx s pm">Climate Change</a></li>
