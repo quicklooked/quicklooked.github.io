@@ -16,7 +16,7 @@ function navChange() {
 		document.getElementById("navchange3").focus();
 	} else {
 		document.getElementById("navchange").ariaLabel = "Expand navbar";
-		document.getElementById("navchange").style.outline = "inherit";
+		document.getElementById("navchange").style.outline = "initial";
 		document.getElementById("navchange1").classList.remove("cm", "mfx", "mgx");
 		document.getElementById("navchange1").classList.add("ggx");
 		new_path = 'M0 .5h14M0 7h14M0 13.5h14';
