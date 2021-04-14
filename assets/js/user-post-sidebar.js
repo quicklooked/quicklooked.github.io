@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("slide2").classList.add("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
                 status = "over1239";
             }
-        } else if(x <= 1239 ++ clientHeight) {
+        } else if(x <= 1239 + clientHeight) {
             if(status == "over1239") {
                 document.getElementById("slide").classList.remove("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
                 document.getElementById("slide").classList.add("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
