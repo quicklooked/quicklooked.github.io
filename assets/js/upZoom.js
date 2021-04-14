@@ -1,5 +1,3 @@
-import mediumZoom from 'medium-zoom'
-
 const zoomDefault = mediumZoom('#zoom-default')
 const zoomMargin = mediumZoom('#zoom-margin', { margin: 48 })
 const zoomBackground = mediumZoom('#zoom-background', { background: '#212530' })
