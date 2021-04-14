@@ -1,418 +1,440 @@
-! function(e, t) {
-  "object" == typeof exports && "undefined" != typeof module ? module.exports = t() : "function" == typeof define && define.amd ? define(t) : e.MediumZoomElement = t()
-}(this, function() {
-  "use strict";
+parcelRequire = function(e, r, n, t) {
+  var i = "function" == typeof parcelRequire && parcelRequire,
+    o = "function" == typeof require && require;
 
-  function e() {
-    return Reflect.construct(HTMLElement, [], this.__proto__.constructor)
-  }
-  var t = Object.assign || function(e) {
-      for(var t, o = 1; o < arguments.length; o++)
-        for(var n in t = arguments[o]) Object.prototype.hasOwnProperty.call(t, n) && (e[n] = t[n]);
-      return e
-    },
-    o = function(e) {
-      if(Array.isArray(e)) {
-        for(var t = 0, o = Array(e.length); t < e.length; t++) o[t] = e[t];
-        return o
+  function u(n, t) {
+    if(!r[n]) {
+      if(!e[n]) {
+        var f = "function" == typeof parcelRequire && parcelRequire;
+        if(!t && f) return f(n, !0);
+        if(i) return i(n, !0);
+        if(o && "string" == typeof n) return o(n);
+        var c = new Error("Cannot find module '" + n + "'");
+        throw c.code = "MODULE_NOT_FOUND", c
       }
-      return Array.from(e)
-    },
-    n = function(e, t) {
-      return t = {
-        exports: {}
-      }, e(t, t.exports), t.exports
-    }(function(e) {
-      var n = ["IMG"],
-        r = [27, 81],
-        i = function(e) {
-          return n.includes(e.tagName)
-        },
-        a = function(e) {
-          return e.naturalWidth !== e.width
-        },
-        c = function(e) {
-          return NodeList.prototype.isPrototypeOf(e) || HTMLCollection.prototype.isPrototypeOf(e)
-        },
-        u = function(e) {
-          return e && 1 === e.nodeType
-        };
-      e.exports = function(e) {
-        var s = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : {},
-          d = s.margin,
-          l = void 0 === d ? 0 : d,
-          m = s.background,
-          f = void 0 === m ? "#fff" : m,
-          p = s.scrollOffset,
-          h = void 0 === p ? 48 : p,
-          v = s.metaClick,
-          g = function(e) {
-            var t = e.getBoundingClientRect(),
-              o = t.top,
-              n = t.left,
-              r = t.width,
-              i = t.height,
-              a = e.cloneNode(),
-              c = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0,
-              u = window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0;
-            return a.removeAttribute("id"), a.style.position = "absolute", a.style.top = o + c + "px", a.style.left = n + u + "px", a.style.width = r + "px", a.style.height = i + "px", a.style.transform = "", a
+      p.resolve = function(r) {
+        return e[n][1][r] || r
+      }, p.cache = {};
+      var l = r[n] = new u.Module(n);
+      e[n][0].call(l.exports, p, l, l.exports, this)
+    }
+    return r[n].exports;
+
+    function p(e) {
+      return u(p.resolve(e))
+    }
+  }
+  u.isParcelRequire = !0, u.Module = function(e) {
+    this.id = e, this.bundle = u, this.exports = {}
+  }, u.modules = e, u.cache = r, u.parent = i, u.register = function(r, n) {
+    e[r] = [function(e, r) {
+      r.exports = n
+    }, {}]
+  };
+  for(var f = 0; f < n.length; f++) u(n[f]);
+  if(n.length) {
+    var c = u(n[n.length - 1]);
+    "object" == typeof exports && "undefined" != typeof module ? module.exports = c : "function" == typeof define && define.amd ? define(function() {
+      return c
+    }) : t && (this[t] = c)
+  }
+  return u
+}({
+  UWhY: [function(require, module, exports) {
+    var n = [].slice.call(document.querySelectorAll("p.placeholder"));
+    n.forEach(function(n) {
+      n.innerHTML = n.textContent.split(" ").filter(function(n) {
+        return n.length > 4
+      }).map(function(n) {
+        return '<span class="placeholder__word">'.concat(n, "</span>")
+      }).join(" ")
+    })
+  }, {}]
+}, {}, ["UWhY"], null);
+parcelRequire = function(e, r, n, t) {
+  var i = "function" == typeof parcelRequire && parcelRequire,
+    o = "function" == typeof require && require;
+
+  function u(n, t) {
+    if(!r[n]) {
+      if(!e[n]) {
+        var f = "function" == typeof parcelRequire && parcelRequire;
+        if(!t && f) return f(n, !0);
+        if(i) return i(n, !0);
+        if(o && "string" == typeof n) return o(n);
+        var c = new Error("Cannot find module '" + n + "'");
+        throw c.code = "MODULE_NOT_FOUND", c
+      }
+      p.resolve = function(r) {
+        return e[n][1][r] || r
+      }, p.cache = {};
+      var l = r[n] = new u.Module(n);
+      e[n][0].call(l.exports, p, l, l.exports, this)
+    }
+    return r[n].exports;
+
+    function p(e) {
+      return u(p.resolve(e))
+    }
+  }
+  u.isParcelRequire = !0, u.Module = function(e) {
+    this.id = e, this.bundle = u, this.exports = {}
+  }, u.modules = e, u.cache = r, u.parent = i, u.register = function(r, n) {
+    e[r] = [function(e, r) {
+      r.exports = n
+    }, {}]
+  };
+  for(var f = 0; f < n.length; f++) u(n[f]);
+  if(n.length) {
+    var c = u(n[n.length - 1]);
+    "object" == typeof exports && "undefined" != typeof module ? module.exports = c : "function" == typeof define && define.amd ? define(function() {
+      return c
+    }) : t && (this[t] = c)
+  }
+  return u
+}({
+  TvQq: [function(require, module, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", {
+      value: !0
+    }), exports.default = void 0;
+    var e = Object.assign || function(e) {
+        for(var o, t = 1; t < arguments.length; t++)
+          for(var n in o = arguments[t]) Object.prototype.hasOwnProperty.call(o, n) && (e[n] = o[n]);
+        return e
+      },
+      o = function(e) {
+        return "IMG" === e.tagName
+      },
+      t = function(e) {
+        return NodeList.prototype.isPrototypeOf(e)
+      },
+      n = function(e) {
+        return e && 1 === e.nodeType
+      },
+      i = function(e) {
+        return ".svg" === (e.currentSrc || e.src).substr(-4).toLowerCase()
+      },
+      r = function(e) {
+        try {
+          return Array.isArray(e) ? e.filter(o) : t(e) ? [].slice.call(e).filter(o) : n(e) ? [e].filter(o) : "string" == typeof e ? [].slice.call(document.querySelectorAll(e)).filter(o) : []
+        } catch (e) {
+          throw new TypeError("The provided selector is invalid.\nExpects a CSS selector, a Node element, a NodeList or an array.\nSee: https://github.com/francoischalifour/medium-zoom")
+        }
+      },
+      d = function(e) {
+        var o = document.createElement("div");
+        return o.classList.add("medium-zoom-overlay"), o.style.background = e, o
+      },
+      m = function(e) {
+        var o = e.getBoundingClientRect(),
+          t = o.top,
+          n = o.left,
+          i = o.width,
+          r = o.height,
+          d = e.cloneNode(),
+          m = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0,
+          a = window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0;
+        return d.removeAttribute("id"), d.style.position = "absolute", d.style.top = t + m + "px", d.style.left = n + a + "px", d.style.width = i + "px", d.style.height = r + "px", d.style.transform = "", d
+      },
+      a = function(o, t) {
+        var n = e({
+          bubbles: !1,
+          cancelable: !1,
+          detail: void 0
+        }, t);
+        if("function" == typeof window.CustomEvent) return new CustomEvent(o, n);
+        var i = document.createEvent("CustomEvent");
+        return i.initCustomEvent(o, n.bubbles, n.cancelable, n.detail), i
+      },
+      c = window.Promise || function(e) {
+        function o() {}
+        e(o, o)
+      },
+      l = function o(t) {
+        var l = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : {},
+          u = function() {
+            for(var e = arguments.length, o = Array(e), t = 0; t < e; t++) o[t] = arguments[t];
+            var n = o.reduce(function(e, o) {
+              return [].concat(e, r(o))
+            }, []);
+            return n.filter(function(e) {
+              return -1 === g.indexOf(e)
+            }).forEach(function(e) {
+              g.push(e), e.classList.add("medium-zoom-image")
+            }), v.forEach(function(e) {
+              var o = e.type,
+                t = e.listener,
+                i = e.options;
+              n.forEach(function(e) {
+                e.addEventListener(o, t, i)
+              })
+            }), w
           },
-          y = function() {
-            if(T.template)
-              if(T.template.dispatchEvent(new Event("show")), j = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0, _ = !0, T.zoomed = g(T.template), document.body.appendChild(x), document.body.appendChild(T.zoomed), requestAnimationFrame(function() {
-                  document.body.classList.add("medium-zoom--open")
-                }), T.template.style.visibility = "hidden", T.zoomed.classList.add("medium-zoom-image--open"), T.zoomed.addEventListener("click", b), T.zoomed.addEventListener("transitionend", k), T.template.getAttribute("data-zoom-target")) {
-                T.zoomedHd = T.zoomed.cloneNode(), T.zoomedHd.src = T.zoomed.getAttribute("data-zoom-target"), T.zoomedHd.onerror = function() {
-                  clearInterval(e), console.error("Unable to reach the zoom image target " + T.zoomedHd.src), T.zoomedHd = null, O()
-                };
-                var e = setInterval(function() {
-                  T.zoomedHd.naturalWidth && (clearInterval(e), T.zoomedHd.classList.add("medium-zoom-image--open"), T.zoomedHd.addEventListener("click", b), document.body.appendChild(T.zoomedHd), O())
-                }, 10)
-              } else O()
-          },
-          b = function e() {
-            var t = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : 0,
-              o = function() {
-                _ || !T.template || (T.template.dispatchEvent(new Event("hide")), _ = !0, document.body.classList.remove("medium-zoom--open"), T.zoomed.style.transform = "", T.zoomedHd && (T.zoomedHd.style.transform = "", T.zoomedHd.removeEventListener("click", e)), T.zoomed.removeEventListener("click", e), T.zoomed.addEventListener("transitionend", E))
+          s = function() {
+            var o = (0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {}).target,
+              t = function() {
+                var o = Math.min,
+                  t = {
+                    width: document.documentElement.clientWidth,
+                    height: document.documentElement.clientHeight,
+                    left: 0,
+                    top: 0,
+                    right: 0,
+                    bottom: 0
+                  },
+                  r = void 0,
+                  d = void 0;
+                if(y.container)
+                  if(y.container instanceof Object) r = (t = e({}, t, y.container)).width - t.left - t.right - 2 * y.margin, d = t.height - t.top - t.bottom - 2 * y.margin;
+                  else {
+                    var m = (n(y.container) ? y.container : document.querySelector(y.container)).getBoundingClientRect(),
+                      a = m.width,
+                      c = m.height,
+                      l = m.left,
+                      u = m.top;
+                    t = e({}, t, {
+                      width: a,
+                      height: c,
+                      left: l,
+                      top: u
+                    })
+                  } r = r || t.width - 2 * y.margin, d = d || t.height - 2 * y.margin;
+                var s = b.zoomedHd || b.original,
+                  f = i(s) ? r : s.naturalWidth || r,
+                  p = i(s) ? d : s.naturalHeight || d,
+                  g = s.getBoundingClientRect(),
+                  v = g.top,
+                  h = g.left,
+                  z = g.width,
+                  E = g.height,
+                  w = o(f, r) / z,
+                  L = o(p, d) / E,
+                  H = o(w, L),
+                  C = "scale(" + H + ") translate3d(" + ((r - z) / 2 - h + y.margin + t.left) / H + "px, " + ((d - E) / 2 - v + y.margin + t.top) / H + "px, 0)";
+                b.zoomed.style.transform = C, b.zoomedHd && (b.zoomedHd.style.transform = C)
               };
-            0 < t ? setTimeout(o, t) : o()
-          },
-          z = function(e) {
-            T.template ? b() : (T.template = e ? e.target : H[0], y())
-          },
-          w = function(e) {
-            return (e.metaKey || e.ctrlKey) && C.metaClick ? window.open(e.target.getAttribute("data-original") || e.target.parentNode.href || e.target.src, "_blank") : (e.preventDefault(), void z(e))
-          },
-          k = function e() {
-            _ = !1, T.zoomed.removeEventListener("transitionend", e), T.template.dispatchEvent(new Event("shown"))
-          },
-          E = function e() {
-            T.template && (T.template.style.visibility = "", document.body.removeChild(T.zoomed), T.zoomedHd && document.body.removeChild(T.zoomedHd), document.body.removeChild(x), T.zoomed.classList.remove("medium-zoom-image--open"), _ = !1, T.zoomed.removeEventListener("transitionend", e), T.template.dispatchEvent(new Event("hidden")), T.template = null, T.zoomed = null, T.zoomedHd = null)
-          },
-          A = function() {
-            if(!_ && T.template) {
-              var e = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-              Math.abs(j - e) > C.scrollOffset && b(150)
-            }
-          },
-          L = function(e) {
-            r.includes(e.keyCode || e.which) && b()
-          },
-          O = function() {
-            var e = Math.min;
-            if(T.template) {
-              var t = window.innerWidth,
-                o = window.innerHeight,
-                n = t - 2 * C.margin,
-                r = o - 2 * C.margin,
-                i = T.zoomedHd || T.template,
-                a = i.naturalWidth,
-                c = void 0 === a ? n : a,
-                u = i.naturalHeight,
-                s = void 0 === u ? r : u,
-                d = i.getBoundingClientRect(),
-                l = d.top,
-                m = d.left,
-                f = d.width,
-                p = d.height,
-                h = e(e(c, n) / f, e(s, r) / p) || 1,
-                v = "scale(" + h + ") translate3d(" + ((n - f) / 2 - m + C.margin) / h + "px, " + ((r - p) / 2 - l + C.margin) / h + "px, 0)";
-              T.zoomed.style.transform = v, T.zoomedHd && (T.zoomedHd.style.transform = v)
-            }
-          },
-          C = {
-            margin: l,
-            background: f,
-            scrollOffset: h,
-            metaClick: void 0 === v || v
-          };
-        e instanceof Object && t(C, e);
-        var H = function(e) {
-            try {
-              return Array.isArray(e) ? e.filter(i) : c(e) ? [].concat(o(e)).filter(i) : u(e) ? [e].filter(i) : "string" == typeof e ? [].concat(o(document.querySelectorAll(e))).filter(i) : [].concat(o(document.querySelectorAll(n.map(function(e) {
-                return e.toLowerCase()
-              }).join(",")))).filter(a)
-            } catch (e) {
-              throw new TypeError("The provided selector is invalid.\nExpects a CSS selector, a Node element, a NodeList, an HTMLCollection or an array.\nSee: https://github.com/francoischalifour/medium-zoom")
-            }
-          }(e),
-          x = function(e) {
-            var t = document.createElement("div");
-            return t.classList.add("medium-zoom-overlay"), t.style.backgroundColor = e, t
-          }(C.background),
-          T = {
-            template: null,
-            zoomed: null,
-            zoomedHd: null
-          },
-          j = 0,
-          _ = !1;
-        return H.forEach(function(e) {
-          e.classList.add("medium-zoom-image"), e.addEventListener("click", w)
-        }), x.addEventListener("click", b), document.addEventListener("scroll", A), document.addEventListener("keyup", L), window.addEventListener("resize", b), {
-          show: z,
-          hide: b,
-          toggle: z,
-          update: function() {
-            var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {};
-            return e.background && (x.style.backgroundColor = e.background), t(C, e)
-          },
-          addEventListeners: function(e, t) {
-            H.forEach(function(o) {
-              o.addEventListener(e, t)
+            return new c(function(e) {
+              if(o && -1 === g.indexOf(o)) e(w);
+              else if(b.zoomed) e(w);
+              else {
+                if(o) b.original = o;
+                else {
+                  if(!(0 < g.length)) return void e(w);
+                  var i = g;
+                  b.original = i[0]
+                }
+                if(b.original.dispatchEvent(a("medium-zoom:open", {
+                    detail: {
+                      zoom: w
+                    }
+                  })), z = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0, h = !0, b.zoomed = m(b.original), document.body.appendChild(E), y.template) {
+                  var r = n(y.template) ? y.template : document.querySelector(y.template);
+                  b.template = document.createElement("div"), b.template.appendChild(r.content.cloneNode(!0)), document.body.appendChild(b.template)
+                }
+                if(document.body.appendChild(b.zoomed), window.requestAnimationFrame(function() {
+                    document.body.classList.add("medium-zoom--opened")
+                  }), b.original.classList.add("medium-zoom-image--hidden"), b.zoomed.classList.add("medium-zoom-image--opened"), b.zoomed.addEventListener("click", f), b.zoomed.addEventListener("transitionend", function o() {
+                    h = !1, b.zoomed.removeEventListener("transitionend", o), b.original.dispatchEvent(a("medium-zoom:opened", {
+                      detail: {
+                        zoom: w
+                      }
+                    })), e(w)
+                  }), b.original.getAttribute("data-zoom-src")) {
+                  b.zoomedHd = b.zoomed.cloneNode(), b.zoomedHd.removeAttribute("srcset"), b.zoomedHd.removeAttribute("sizes"), b.zoomedHd.src = b.zoomed.getAttribute("data-zoom-src"), b.zoomedHd.onerror = function() {
+                    clearInterval(d), console.warn("Unable to reach the zoom image target " + b.zoomedHd.src), b.zoomedHd = null, t()
+                  };
+                  var d = setInterval(function() {
+                    b.zoomedHd.complete && (clearInterval(d), b.zoomedHd.classList.add("medium-zoom-image--opened"), b.zoomedHd.addEventListener("click", f), document.body.appendChild(b.zoomedHd), t())
+                  }, 10)
+                } else if(b.original.hasAttribute("srcset")) {
+                  b.zoomedHd = b.zoomed.cloneNode(), b.zoomedHd.removeAttribute("sizes");
+                  var c = b.zoomedHd.addEventListener("load", function() {
+                    b.zoomedHd.removeEventListener("load", c), b.zoomedHd.classList.add("medium-zoom-image--opened"), b.zoomedHd.addEventListener("click", f), document.body.appendChild(b.zoomedHd), t()
+                  })
+                } else t()
+              }
             })
           },
-          detach: function() {
-            var e = function e() {
-              var t = new Event("detach");
-              H.forEach(function(e) {
-                e.classList.remove("medium-zoom-image"), e.removeEventListener("click", w), e.dispatchEvent(t)
-              }), H.splice(0, H.length), x.removeEventListener("click", b), document.removeEventListener("scroll", A), document.removeEventListener("keyup", L), window.removeEventListener("resize", b), T.zoomed && T.zoomed.removeEventListener("transitionend", e)
-            };
-            T.zoomed ? (b(), T.zoomed.addEventListener("transitionend", requestAnimationFrame(e))) : e()
+          f = function() {
+            return new c(function(e) {
+              !h && b.original ? (h = !0, document.body.classList.remove("medium-zoom--opened"), b.zoomed.style.transform = "", b.zoomedHd && (b.zoomedHd.style.transform = ""), b.template && (b.template.style.transition = "opacity 150ms", b.template.style.opacity = 0), b.original.dispatchEvent(a("medium-zoom:close", {
+                detail: {
+                  zoom: w
+                }
+              })), b.zoomed.addEventListener("transitionend", function o() {
+                b.original.classList.remove("medium-zoom-image--hidden"), document.body.removeChild(b.zoomed), b.zoomedHd && document.body.removeChild(b.zoomedHd), document.body.removeChild(E), b.zoomed.classList.remove("medium-zoom-image--opened"), b.template && document.body.removeChild(b.template), h = !1, b.zoomed.removeEventListener("transitionend", o), b.original.dispatchEvent(a("medium-zoom:closed", {
+                  detail: {
+                    zoom: w
+                  }
+                })), b.original = null, b.zoomed = null, b.zoomedHd = null, b.template = null, e(w)
+              })) : e(w)
+            })
           },
-          images: H,
-          options: C
-        }
-      }
-    });
-  ! function(e, t) {
-    if("undefined" == typeof document) return t;
-    e = e || "";
-    var o = document.head || document.getElementsByTagName("head")[0],
-      n = document.createElement("style");
-    n.type = "text/css", o.appendChild(n), n.styleSheet ? n.styleSheet.cssText = e : n.appendChild(document.createTextNode(e))
-  }(".medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--open .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s}.medium-zoom-image--open{position:relative;z-index:1;cursor:pointer;cursor:zoom-out;will-change:transform}", void 0);
-  var r = n,
-    i = (function() {
-      function e(e) {
-        this.value = e
-      }
-
-      function t(t) {
-        function o(r, i) {
-          try {
-            var a = t[r](i),
-              c = a.value;
-            c instanceof e ? Promise.resolve(c.value).then(function(e) {
-              o("next", e)
-            }, function(e) {
-              o("throw", e)
-            }) : n(a.done ? "return" : "normal", a.value)
-          } catch (e) {
-            n("throw", e)
+          p = function() {
+            var e = (0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {}).target;
+            return b.original ? f() : s({
+              target: e
+            })
+          },
+          g = [],
+          v = [],
+          h = !1,
+          z = 0,
+          y = l,
+          b = {
+            original: null,
+            zoomed: null,
+            zoomedHd: null,
+            template: null
+          };
+        "[object Object]" === Object.prototype.toString.call(t) ? y = t : (t || "string" == typeof t) && u(t), y = e({
+          margin: 0,
+          background: "#fff",
+          scrollOffset: 40,
+          container: null,
+          template: null
+        }, y);
+        var E = d(y.background);
+        document.addEventListener("click", function(e) {
+          var o = e.target;
+          return o === E ? void f() : void(-1 === g.indexOf(o) || p({
+            target: o
+          }))
+        }), document.addEventListener("keyup", function(e) {
+          27 === (e.keyCode || e.which) && f()
+        }), document.addEventListener("scroll", function() {
+          if(!h && b.original) {
+            var e = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+            Math.abs(z - e) > y.scrollOffset && setTimeout(f, 150)
           }
-        }
+        }), window.addEventListener("resize", f);
+        var w = {
+          open: s,
+          close: f,
+          toggle: p,
+          update: function() {
+            var o = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {},
+              t = o;
+            if(o.background && (E.style.background = o.background), o.container && o.container instanceof Object && (t.container = e({}, y.container, o.container)), o.template) {
+              var i = n(o.template) ? o.template : document.querySelector(o.template);
+              t.template = i
+            }
+            return y = e({}, y, t), g.forEach(function(e) {
+              e.dispatchEvent(a("medium-zoom:update", {
+                detail: {
+                  zoom: w
+                }
+              }))
+            }), w
+          },
+          clone: function() {
+            var t = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {};
+            return o(e({}, y, t))
+          },
+          attach: u,
+          detach: function() {
+            for(var e = arguments.length, o = Array(e), t = 0; t < e; t++) o[t] = arguments[t];
+            b.zoomed && f();
+            var n = 0 < o.length ? o.reduce(function(e, o) {
+              return [].concat(e, r(o))
+            }, []) : g;
+            return n.forEach(function(e) {
+              e.classList.remove("medium-zoom-image"), e.dispatchEvent(a("medium-zoom:detach", {
+                detail: {
+                  zoom: w
+                }
+              }))
+            }), g = g.filter(function(e) {
+              return -1 === n.indexOf(e)
+            }), w
+          },
+          on: function(e, o) {
+            var t = 2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : {};
+            return g.forEach(function(n) {
+              n.addEventListener("medium-zoom:" + e, o, t)
+            }), v.push({
+              type: "medium-zoom:" + e,
+              listener: o,
+              options: t
+            }), w
+          },
+          off: function(e, o) {
+            var t = 2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : {};
+            return g.forEach(function(n) {
+              n.removeEventListener("medium-zoom:" + e, o, t)
+            }), v = v.filter(function(t) {
+              return t.type !== "medium-zoom:" + e || t.listener.toString() !== o.toString()
+            }), w
+          },
+          getOptions: function() {
+            return y
+          },
+          getImages: function() {
+            return g
+          },
+          getZoomedImage: function() {
+            return b.original
+          }
+        };
+        return w
+      };
 
-        function n(e, t) {
-          switch(e) {
-            case "return":
-              r.resolve({
-                value: t,
-                done: !0
-              });
-              break;
-            case "throw":
-              r.reject(t);
-              break;
-            default:
-              r.resolve({
-                value: t,
-                done: !1
-              })
-          }(r = r.next) ? o(r.key, r.arg): i = null
-        }
-        var r, i;
-        this._invoke = function(e, t) {
-          return new Promise(function(n, a) {
-            var c = {
-              key: e,
-              arg: t,
-              resolve: n,
-              reject: a,
-              next: null
-            };
-            i ? i = i.next = c : (r = i = c, o(e, t))
-          })
-        }, "function" != typeof t.return && (this.return = void 0)
+    function u(e, o) {
+      void 0 === o && (o = {});
+      var t = o.insertAt;
+      if(e && "undefined" != typeof document) {
+        var n = document.head || document.getElementsByTagName("head")[0],
+          i = document.createElement("style");
+        i.type = "text/css", "top" === t && n.firstChild ? n.insertBefore(i, n.firstChild) : n.appendChild(i), i.styleSheet ? i.styleSheet.cssText = e : i.appendChild(document.createTextNode(e))
       }
-      "function" == typeof Symbol && Symbol.asyncIterator && (t.prototype[Symbol.asyncIterator] = function() {
-        return this
-      }), t.prototype.next = function(e) {
-        return this._invoke("next", e)
-      }, t.prototype.throw = function(e) {
-        return this._invoke("throw", e)
-      }, t.prototype.return = function(e) {
-        return this._invoke("return", e)
-      }
-    }(), function(e, t) {
-      if(!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
-    }),
-    a = function() {
-      function e(e, t) {
-        for(var o = 0; o < t.length; o++) {
-          var n = t[o];
-          n.enumerable = n.enumerable || !1, n.configurable = !0, "value" in n && (n.writable = !0), Object.defineProperty(e, n.key, n)
-        }
-      }
-      return function(t, o, n) {
-        return o && e(t.prototype, o), n && e(t, n), t
-      }
-    }(),
-    c = function(e, t, o) {
-      return t in e ? Object.defineProperty(e, t, {
-        value: o,
-        enumerable: !0,
-        configurable: !0,
-        writable: !0
-      }) : e[t] = o, e
-    },
-    u = function(e, t) {
-      if("function" != typeof t && null !== t) throw new TypeError("Super expression must either be null or a function, not " + typeof t);
-      e.prototype = Object.create(t && t.prototype, {
-        constructor: {
-          value: e,
-          enumerable: !1,
-          writable: !0,
-          configurable: !0
-        }
-      }), t && (Object.setPrototypeOf ? Object.setPrototypeOf(e, t) : e.__proto__ = t)
-    },
-    s = function(e, t) {
-      if(!e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-      return !t || "object" != typeof t && "function" != typeof t ? e : t
-    },
-    d = function(e) {
-      if(Array.isArray(e)) {
-        for(var t = 0, o = Array(e.length); t < e.length; t++) o[t] = e[t];
-        return o
-      }
-      return Array.from(e)
-    };
-  Object.setPrototypeOf(e.prototype, HTMLElement.prototype), Object.setPrototypeOf(e, HTMLElement);
-  var l = function(e) {
-      return e.replace(/-([a-z])/g, function(e) {
-        return e[1].toUpperCase()
-      })
-    },
-    m = document.createElement("template");
-  m.innerHTML = "\n<style>\n  :host {\n    display: block;\n  }\n  img {\n    max-width: 100%;\n  }\n  .medium-zoom-image {\n    cursor: zoom-in;\n  }\n</style>\n<img />\n";
-  var f = function(t) {
-    function o() {
-      i(this, o);
-      var e = s(this, (o.__proto__ || Object.getPrototypeOf(o)).call(this));
-      return e.attachShadow({
-        mode: "open"
-      }), e.shadowRoot.appendChild(m.content.cloneNode(!0)), e.image = e.shadowRoot.querySelector("img"), e.zoom = r(e.image), Object.keys(e.zoom).forEach(function(t) {
-        return e[t] = e.zoom[t]
-      }), e.setAttribute("role", "img"), e.setAttribute("aria-label", e.alt), e
     }
-    return u(o, e), a(o, null, [{
-      key: "getOptionName",
-      value: function(e) {
-        return "disable-metaclick" === e ? "metaClick" : l(e)
+    var s = ".medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}";
+    u(".medium-zoom-overlay{position:fixed;top:0;right:0;bottom:0;left:0;opacity:0;transition:opacity .3s;will-change:opacity}.medium-zoom--opened .medium-zoom-overlay{cursor:pointer;cursor:zoom-out;opacity:1}.medium-zoom-image{cursor:pointer;cursor:zoom-in;transition:transform .3s cubic-bezier(.2,0,.2,1)}.medium-zoom-image--hidden{visibility:hidden}.medium-zoom-image--opened{position:relative;cursor:pointer;cursor:zoom-out;will-change:transform}");
+    var f = l;
+    exports.default = f
+  }, {}],
+  H99C: [function(require, module, exports) {
+    "use strict";
+    var e = t(require("medium-zoom"));
+
+    function t(e) {
+      return e && e.__esModule ? e : {
+        default: e
       }
-    }, {
-      key: "observedOptions",
-      get: function() {
-        return ["margin", "background", "scroll-offset", "disable-metaclick", "zoom-target"]
-      }
-    }, {
-      key: "observedAttributes",
-      get: function() {
-        return [].concat(d(o.observedOptions), ["src", "alt", "width", "height", "style"])
-      }
-    }]), a(o, [{
-      key: "disconnectedCallback",
-      value: function() {
-        this.zoom.detach()
-      }
-    }, {
-      key: "adoptedCallback",
-      value: function() {
-        this.zoom.hide()
-      }
-    }, {
-      key: "attributeChangedCallback",
-      value: function(e, t, n) {
-        if(o.observedOptions.includes(e)) {
-          if("zoom-target" === e) return void this.image.setAttribute("data-zoom-target", n);
-          this.zoom.update(c({}, o.getOptionName(e), this[o.getOptionName(e)]))
-        } else this.image.setAttribute(e, n)
-      }
-    }, {
-      key: "src",
-      get: function() {
-        return this.getAttribute("src") || ""
-      },
-      set: function(e) {
-        this.setAttribute("src", e)
-      }
-    }, {
-      key: "alt",
-      get: function() {
-        return this.getAttribute("alt") || ""
-      },
-      set: function(e) {
-        this.setAttribute("alt", e)
-      }
-    }, {
-      key: "zoomTarget",
-      get: function() {
-        return this.getAttribute("zoom-target") || ""
-      },
-      set: function(e) {
-        e ? this.setAttribute("zoom-target", e) : this.removeAttribute("zoom-target")
-      }
-    }, {
-      key: "width",
-      get: function() {
-        return this.getAttribute("width") || ""
-      },
-      set: function(e) {
-        e ? this.setAttribute("width", e) : this.removeAttribute("width")
-      }
-    }, {
-      key: "height",
-      get: function() {
-        return this.getAttribute("height") || ""
-      },
-      set: function(e) {
-        e ? this.setAttribute("height", e) : this.removeAttribute("height")
-      }
-    }, {
-      key: "margin",
-      get: function() {
-        return Number(this.getAttribute("margin")) || ""
-      },
-      set: function(e) {
-        e ? this.setAttribute("margin", e) : this.removeAttribute("margin")
-      }
-    }, {
-      key: "background",
-      get: function() {
-        return this.getAttribute("background") || ""
-      },
-      set: function(e) {
-        e ? this.setAttribute("background", e) : this.removeAttribute("background")
-      }
-    }, {
-      key: "scrollOffset",
-      get: function() {
-        return this.hasAttribute("scroll-offset") ? Number(this.getAttribute("scroll-offset")) : ""
-      },
-      set: function(e) {
-        null !== e ? this.setAttribute("scroll-offset", Number(e)) : this.removeAttribute("scroll-offset")
-      }
-    }, {
-      key: "metaClick",
-      get: function() {
-        return !this.hasAttribute("disable-metaclick")
-      },
-      set: function(e) {
-        e ? this.setAttribute("disable-metaclick", e) : this.removeAttribute("disable-metaclick")
-      }
-    }]), o
-  }();
-  return window.customElements.define("medium-zoom", f), f
-});
+    }
+    var o = (0, e.default)("#zoom-default"),
+      a = (0, e.default)("#zoom-margin", {
+        margin: 48
+      }),
+      n = (0, e.default)("#zoom-background", {
+        background: "#212530"
+      }),
+      r = (0, e.default)("#zoom-scrollOffset", {
+        scrollOffset: 0,
+        background: "rgba(25, 18, 25, .9)"
+      }),
+      c = (0, e.default)("#zoom-trigger"),
+      u = document.querySelector("#button-trigger");
+    u.addEventListener("click", function() {
+      return c.open()
+    });
+    var i = (0, e.default)("#zoom-detach");
+    i.on("closed", function() {
+      return i.detach()
+    });
+    var l = [o, a, n, r, c, i],
+      d = document.querySelector("#history");
+    l.forEach(function(e) {
+      e.on("open", function(e) {
+        var t = (new Date).toLocaleTimeString();
+        d.innerHTML += '<li>Image "<em>'.concat(e.target.alt, '</em>" was zoomed at ').concat(t, "</li>")
+      }), e.on("detach", function(e) {
+        var t = (new Date).toLocaleTimeString();
+        d.innerHTML += '<li>Image <em>"'.concat(e.target.alt, '"</em> was detached at ').concat(t, "</li>")
+      })
+    })
+  }, {
+    "medium-zoom": "TvQq"
+  }]
+}, {}, ["H99C"], null);
