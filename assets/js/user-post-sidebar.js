@@ -14,17 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         status = "over1180";
         alert(divSlide.clientHeight);
       }
-    } else if(x <= 1180 + divSlide.clientHeight) {
-      if(status == "over1180") {
-        document.getElementById("slide").classList.remove("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
-        document.getElementById("slide").classList.add("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
-        document.getElementById("slide1").classList.remove("vas");
-        document.getElementById("slide1").classList.add("gg");
-        document.getElementById("slide2").classList.remove("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
-        document.getElementById("slide2").classList.add("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
-        status = "under1180";
-      }
-    } else if(x > 1180 + divSlide.clientHeight) {
+    } else if(x <= 1180 + divSlide.clientHeight && x > 1180 + divSlide.clientHeight) {
       if(status == "over1180") {
         document.getElementById("slide").classList.remove("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
         document.getElementById("slide").classList.add("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
