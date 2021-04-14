@@ -1,1 +1,775 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="STATIC">html{box-sizing:border-box}*, *:before, *:after{box-sizing:inherit}body{margin:0;padding:0;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;color:rgba(0,0,0,0.8);position:relative;min-height:100vh}h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form{margin:0}menu, ol, ul{padding:0;list-style:none;list-style-image:none}main{display:block}a{color:inherit;text-decoration:none}a, button, input{-webkit-tap-highlight-color:transparent}img, svg{vertical-align:middle}button{background:transparent;overflow:visible}button, input, optgroup, select, textarea{margin:0}:root{--reach-tabs:1;--reach-menu-button:1}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="KEYFRAME">@-webkit-keyframes k1{0%{opacity:0;transform:translateY(-60px)}100%{opacity:1;transform:translateY(0px)}}@-moz-keyframes k1{0%{opacity:0;transform:translateY(-60px)}100%{opacity:1;transform:translateY(0px)}}@keyframes k1{0%{opacity:0;transform:translateY(-60px)}100%{opacity:1;transform:translateY(0px)}}@-webkit-keyframes k2{0%{opacity:1;transform:translateY(0px)}100%{opacity:0;transform:translateY(-60px)}}@-moz-keyframes k2{0%{opacity:1;transform:translateY(0px)}100%{opacity:0;transform:translateY(-60px)}}@keyframes k2{0%{opacity:1;transform:translateY(0px)}100%{opacity:0;transform:translateY(-60px)}}@-webkit-keyframes k3{0%{transform:scale(1)}50%{transform:scale(1.1)}100%{transform:scale(1)}}@-moz-keyframes k3{0%{transform:scale(1)}50%{transform:scale(1.1)}100%{transform:scale(1)}}@keyframes k3{0%{transform:scale(1)}50%{transform:scale(1.1)}100%{transform:scale(1)}}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE">.a{font-family:medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif}.b{font-weight:400}.c{background-color:rgba(255, 255, 255, 1)}.l{height:100vh}.m{width:100vw}.n{display:flex}.o{align-items:center}.p{justify-content:center}.q{height:25px}.r{fill:rgba(41, 41, 41, 1)}.s{display:block}.t{margin-bottom:36px}.v{width:100%}.w{min-height:115px}.z{flex-direction:column}.ab{background-color:#4362c9ff}.ac{display:none}.af{border-bottom:none}.ag{position:relative}.ah{z-index:500}.an{max-width:1192px}.ao{min-width:0}.ap{height:62px}.aq{flex-direction:row}.ar{flex:1 0 auto}.as{margin-left:0px}.at{font-family:sohne, "Helvetica Neue", Helvetica, Arial, sans-serif}.au{font-size:14px}.av{line-height:20px}.aw{color:rgba(198, 213, 255, 1)}.ax{color:rgba(232, 241, 255, 1)}.ay{fill:rgba(232, 241, 255, 1)}.az{font-size:inherit}.ba{border:inherit}.bb{font-family:inherit}.bc{letter-spacing:inherit}.bd{font-weight:inherit}.be{padding:0}.bf{margin:0}.bj:disabled{cursor:default}.bk:disabled{color:rgba(163, 208, 162, 0.5)}.bl:disabled{fill:rgba(163, 208, 162, 0.5)}.bm{justify-content:space-between}.bs{align-items:flex-start}.bt{margin-bottom:0px}.bu{margin-top:-32px}.bv{flex-wrap:wrap}.by{margin-top:32px}.bz{margin-right:24px}.cb{height:35px}.cc{width:109px}.cd{font-size:16px}.ce{line-height:24px}.cf:before{margin-bottom:-10px}.cg:before{content:""}.ch:before{display:table}.ci:before{border-collapse:collapse}.cj:after{margin-top:-6px}.ck:after{content:""}.cl:after{display:table}.cm:after{border-collapse:collapse}.cn{margin-right:12px}.co{display:inline-flex}.cp{color:inherit}.cq{fill:inherit}.ct:disabled{color:rgba(198, 213, 255, 1)}.cu:disabled{fill:rgba(198, 213, 255, 1)}.cv{margin-left:12px}.cw{margin-left:24px}.cy{margin-bottom:-16px}.cz{margin-top:-14px}.da{display:inline-block}.db{color:rgba(67, 98, 201, 1)}.dc{padding:7px 16px 9px}.dd{fill:rgba(67, 98, 201, 1)}.de{background:rgba(232, 241, 255, 1)}.df{border-color:rgba(232, 241, 255, 1)}.di:disabled{cursor:inherit}.dj:disabled{opacity:0.3}.dk:disabled:hover{background:rgba(232, 241, 255, 1)}.dl:disabled:hover{border-color:rgba(232, 241, 255, 1)}.dm{border-radius:99em}.dn{border-width:1px}.do{border-style:solid}.dp{box-sizing:border-box}.dq{text-decoration:none}.dr{flex:0 0 auto}.ds{justify-self:flex-end}.dt{height:32px}.du{overflow:visible}.dv{border-radius:1000px}.dw{background-color:rgba(67, 98, 201, 0.8)}.dx{fill:rgba(198, 213, 255, 1)}.dy{fill:rgba(117, 117, 117, 1)}.dz{outline:none}.ea{padding:4px}.eb{margin-left:8px}.ec{margin-right:10px}.ed{border:none}.ee{font:inherit}.ef{opacity:0}.eg{background-color:transparent}.eh::placeholder{color:rgba(198, 213, 255, 1)}.ei{padding:0px}.ej{width:0px}.ek{transition:width 140ms ease-in, padding 140ms ease-in}.el{padding:4px 12px 6px}.em{background:0}.en{border-color:rgba(215, 227, 255, 1)}.eo:disabled:hover{color:rgba(232, 241, 255, 1)}.ep:disabled:hover{fill:rgba(232, 241, 255, 1)}.eq:disabled:hover{border-color:rgba(215, 227, 255, 1)}.er{fill:rgba(249, 255, 255, 1)}.es{padding-top:1px}.et{height:70px}.eu{color:rgba(117, 117, 117, 1)}.ev{margin-right:32px}.ew{color:rgba(255, 255, 255, 1)}.ex{fill:rgba(255, 255, 255, 1)}.ey{background:rgba(92, 129, 242, 1)}.ez{border-color:rgba(92, 129, 242, 1)}.fc:disabled:hover{background:rgba(92, 129, 242, 1)}.fd:disabled:hover{border-color:rgba(92, 129, 242, 1)}.fg:disabled{color:rgba(117, 117, 117, 1)}.fh:disabled{fill:rgba(117, 117, 117, 1)}.fk{border-top:none}.fl{left:0}.fm{position:fixed}.fn{right:0}.fo{top:0}.fp{visibility:hidden}.fr{height:60px}.fu{color:rgba(92, 129, 242, 1)}.fv{fill:rgba(92, 129, 242, 1)}.fy{padding-left:24px}.fz{padding-right:24px}.ga{margin-left:auto}.gb{margin-right:auto}.gc{max-width:728px}.gd{background:rgba(255, 255, 255, 1)}.ge{border:1px solid rgba(230, 230, 230, 1)}.gf{border-radius:4px}.gg{box-shadow:0 1px 4px rgba(230, 230, 230, 1)}.gh{max-height:100vh}.gi{overflow-y:auto}.gj{position:absolute}.gk{top:calc(100vh + 100px)}.gl{bottom:calc(100vh + 100px)}.gm{width:10px}.gn{pointer-events:none}.go{word-break:break-word}.gp{word-wrap:break-word}.gq:after{display:block}.gr:after{clear:both}.gs{max-width:680px}.gt{line-height:1.23}.gu{letter-spacing:0}.gv{font-style:normal}.gw{font-family:fell, Georgia, Cambria, "Times New Roman", Times, serif}.hr{margin-bottom:-0.27em}.hs{color:rgba(41, 41, 41, 1)}.ht{line-height:1.394}.ij{margin-bottom:-0.42em}.in{width:28px}.io{height:28px}.ip{fill:rgba(26, 137, 23, 1)}.iq{width:calc(100% + 24px)}.ir{height:calc(100% + 24px)}.is{top:50%}.it{left:50%}.iu{transform:translateX(-50%) translateY(-50%)}.iv{border-radius:50%}.iw{fill:rgba(61, 61, 61, 1)}.ix{margin-top:-2px}.iy{padding-left:4px}.iz{margin:0 4px}.ja{margin:0 7px}.jb{align-items:flex-end}.jk{padding-right:8px}.jl{margin-right:8px}.jm{margin-right:-4px}.jp{margin-top:5px}.jq{margin-right:7px}.jv{margin-top:35px}.jw{padding-bottom:10px}.jx{border-bottom:1px solid rgba(230, 230, 230, 1)}.jy{width:auto}.jz{height:100%}.ka{text-align:left}.kb{cursor:pointer}.kc{transition:300ms transform}.kd{transform:rotate(0)}.ke{fill:rgba(0, 0, 0, 0.54)}.kf{transition:300ms height}.kg{height:0px}.kh{overflow:hidden}.ki{transition:300ms opacity}.kj{flex-flow:wrap}.kk{font-size:13px}.kl{line-height:18px}.km{letter-spacing:0.077em}.kn{text-transform:uppercase}.ko{margin-top:16px}.kp{padding:8px 0}.kq{text-overflow:ellipsis}.kr{white-space:nowrap}.kt{max-width:2122px}.ku{margin-top:33px}.kv{clear:both}.kx{cursor:zoom-in}.ky{z-index:auto}.la{transition:opacity 100ms 400ms}.lb{will-change:transform}.lc{transform:translateZ(0)}.ld{margin:auto}.le{background-color:rgba(242, 242, 242, 1)}.lf{padding-bottom:66.54099905749294%}.lg{height:0}.lh{filter:blur(20px)}.li{transform:scale(1.1)}.lj{visibility:visible}.lk{margin-top:10px}.ll{text-align:center}.lo{line-height:1.58}.lp{letter-spacing:-0.004em}.lq{font-family:charter, Georgia, Cambria, "Times New Roman", Times, serif}.mj{margin-bottom:-0.46em}.mk{clear:left}.ml{float:left}.mm{font-size:66px}.mn{line-height:.83}.mt{line-height:1.12}.mu{letter-spacing:-0.022em}.mv{font-weight:500}.no{margin-bottom:-0.28em}.nu{text-decoration:underline}.nv{font-style:italic}.nw{background:none}.nx{will-change:opacity}.ny{width:188px}.nz{transform:translateX(406px)}.oa{top:calc(65px + 54px + 14px)}.od{will-change:opacity, transform}.oe{transform:translateY(159px)}.og{width:131px}.oh{padding-bottom:28px}.oi{padding-bottom:5px}.oj{padding-top:2px}.ok{padding-top:14px}.ol{padding-top:28px}.om{margin-bottom:19px}.on{margin-left:-3px}.ot{outline:0}.ou{border:0}.ov{user-select:none}.ow> svg{pointer-events:none}.oy{-webkit-user-select:none}.pi button{text-align:left}.pj{opacity:1}.pk{padding-right:9px}.pu{margin:50px 0}.pw{background:linear-gradient(rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0))}.px{overflow-y:scroll}.py{scrollbar-width:none}.pz{-ms-overflow-style:none}.qa::-webkit-scrollbar{display:none}.qb{height:150px}.qc{padding-bottom:35px}.qd{top:-35px}.qe{background:linear-gradient(rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 1))}.qf{font-size:12px}.qg{line-height:16px}.qh{letter-spacing:0.083em}.qi{margin-top:40px}.qj{border-top:3px solid rgba(92, 129, 242, 1)}.qk{padding:32px 32px 26px 32px}.ql{margin-top:8px}.qm{margin-bottom:25px}.qn{background-color:rgba(250, 250, 250, 1)}.qp{padding-bottom:0px}.qs{padding-top:4px}.qt{padding-top:8px}.re{margin:10px 20px 10px 0}.rg{padding:7px 20px 9px}.rh{margin:10px 0 10px 0}.ri{max-width:380px}.rj{padding-bottom:25px}.rk{margin-top:25px}.rl{max-width:155px}.rp{top:1px}.sd{margin-left:-1px}.se{margin-left:-4px}.sm{padding-bottom:40px}.sn{list-style-type:none}.so{margin-bottom:8px}.sp{line-height:22px}.sq{border-radius:3px}.sr{padding:5px 10px}.ss{background:rgba(242, 242, 242, 1)}.st{padding-bottom:4px}.su{padding-top:32px}.tf{display:-webkit-box}.tg{-webkit-line-clamp:1}.th{-webkit-box-orient:vertical}.tj{padding-top:5px}.tk{padding-right:168px}.tl{padding-top:25px}.tr{max-width:100%}.ts{margin-bottom:96px}.tt{padding:32px 0}.tu{background-color:rgba(0, 0, 0, 0.9)}.ty:disabled{color:rgba(255, 255, 255, 0.7)}.tz:disabled{fill:rgba(255, 255, 255, 0.7)}.ua{height:22px}.ub{width:200px}.ud{color:rgba(255, 255, 255, 0.98)}.ug{color:rgba(255, 255, 255, 0.7)}.uj{margin-right:16px}.bg:hover{cursor:pointer}.bh:hover{color:rgba(249, 255, 255, 1)}.bi:hover{fill:rgba(249, 255, 255, 1)}.cr:hover{color:rgba(241, 248, 255, 1)}.cs:hover{fill:rgba(241, 248, 255, 1)}.dg:hover{background:rgba(249, 255, 255, 1)}.dh:hover{border-color:rgba(249, 255, 255, 1)}.fa:hover{background:rgba(82, 111, 200, 1)}.fb:hover{border-color:rgba(82, 111, 200, 1)}.fe:hover{color:rgba(25, 25, 25, 1)}.ff:hover{fill:rgba(25, 25, 25, 1)}.fw:hover{color:rgba(82, 111, 200, 1)}.fx:hover{fill:rgba(82, 111, 200, 1)}.jn:hover{fill:rgba(8, 8, 8, 1)}.ks:hover{text-decoration:underline}.pa:hover{fill:rgba(117, 117, 117, 1)}.pv:hover{width:200px}.tw:hover{color:rgba(255, 255, 255, 0.99)}.tx:hover{fill:rgba(255, 255, 255, 0.99)}.jo:focus{fill:rgba(8, 8, 8, 1)}.kz:focus{transform:scale(1.01)}.oz:focus{fill:rgba(117, 117, 117, 1)}.ox:active{border-style:none}
+    </style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (min-width: 1080px)">.d{display:none}.am{margin:0 64px}.hn{font-size:46px}.ho{margin-top:0.6em}.hp{line-height:56px}.hq{letter-spacing:-0.011em}.ig{font-size:22px}.ih{margin-top:0.92em}.ii{line-height:28px}.ji{margin-left:30px}.mf{font-size:21px}.mg{margin-top:2em}.mh{line-height:32px}.mi{letter-spacing:-0.003em}.ms{padding-top:7px}.nk{font-size:30px}.nl{margin-top:1.95em}.nm{line-height:36px}.nn{letter-spacing:0}.nt{margin-top:0.86em}.os{margin-right:5px}.ph{margin-top:5px}.ps{padding-left:6px}.pt{display:block}.rc{font-size:16px}.rd{line-height:24px}.rr{display:inline-block}.rw{margin-left:7px}.rx{margin-top:8px}.sc{width:25px}.sk{padding-left:7px}.sl{top:3px}.td{font-size:20px}.te{max-height:24px}.tq{margin:0}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (max-width: 1079.98px)">.e{display:none}.jh{margin-left:30px}.lm{margin-left:auto}.ln{text-align:center}.or{margin-right:5px}.pg{margin-top:5px}.pr{padding-left:6px}.rq{display:inline-block}.ru{margin-left:7px}.rv{margin-top:8px}.sb{width:25px}.si{padding-left:7px}.sj{top:3px}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (max-width: 903.98px)">.f{display:none}.jg{margin-left:30px}.oq{margin-right:5px}.pf{margin-top:5px}.pp{padding-left:6px}.pq{top:3px}.ro{display:inline-block}.rs{margin-left:7px}.rt{margin-top:8px}.sa{width:15px}.sh{padding-left:3px}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (max-width: 727.98px)">.g{display:none}.u{margin-bottom:20px}.x{box-shadow:inset 0 -1px 0 rgba(230, 230, 230, 1)}.y{min-height:230px}.ae{display:block}.bn{min-height:98px}.bo{display:flex}.bp{align-items:flex-start}.bq{flex-direction:column}.br{justify-content:flex-end}.bw{margin-bottom:28px}.bx{margin-top:0px}.ca{margin-top:28px}.cx{margin-left:24px}.fi{border-top:1px solid rgba(230, 230, 230, 1)}.fj{border-bottom:1px solid rgba(230, 230, 230, 1)}.fs{align-items:center}.ft{flex:1 0 auto}.il{margin-top:32px}.im{flex-direction:column-reverse}.je{margin-bottom:30px}.jf{margin-left:0px}.op{margin-left:8px}.pd{margin-top:2px}.pe{margin-right:8px}.pn{padding-left:6px}.po{top:3px}.qo{padding:24px 24px 28px 24px}.rn{display:inline-block}.rz{width:15px}.sg{padding-left:3px}.tv{padding:32px 0}.uc{width:140px}.ue{margin-bottom:16px}.uf{margin-top:30px}.uh{width:100%}.ui{flex-direction:row}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (max-width: 551.98px)">.h{display:none}.ai{margin:0 24px}.gx{font-size:32px}.gy{margin-top:0.64em}.gz{line-height:40px}.ha{letter-spacing:-0.016em}.hu{font-size:18px}.hv{margin-top:0.79em}.hw{line-height:24px}.ik{margin-top:32px}.jc{margin-bottom:30px}.jd{margin-left:0px}.jr{display:block}.lr{margin-top:1.56em}.ls{line-height:28px}.lt{letter-spacing:-0.003em}.mo{padding-top:0}.mw{font-size:22px}.mx{margin-top:1.2em}.my{letter-spacing:0}.np{margin-top:0.67em}.oo{margin-left:8px}.pb{margin-top:2px}.pc{margin-right:8px}.pl{padding-left:6px}.pm{top:3px}.qq{font-size:20px}.qu{font-size:14px}.qv{line-height:20px}.rf{margin:10px 0 0 0}.rm{display:inline-block}.ry{width:15px}.sf{padding-left:3px}.sv{font-size:16px}.sw{max-height:20px}.tm{margin:0}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (min-width: 904px) and (max-width: 1079.98px)">.i{display:none}.al{margin:0 64px}.hj{font-size:46px}.hk{margin-top:0.6em}.hl{line-height:56px}.hm{letter-spacing:-0.011em}.id{font-size:22px}.ie{margin-top:0.92em}.if{line-height:28px}.ju{display:block}.mb{font-size:21px}.mc{margin-top:2em}.md{line-height:32px}.me{letter-spacing:-0.003em}.mr{padding-top:7px}.ng{font-size:30px}.nh{margin-top:1.95em}.ni{line-height:36px}.nj{letter-spacing:0}.ns{margin-top:0.86em}.ra{font-size:16px}.rb{line-height:24px}.tb{font-size:20px}.tc{max-height:24px}.tp{margin:0}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (min-width: 728px) and (max-width: 903.98px)">.j{display:none}.ak{margin:0 48px}.hf{font-size:46px}.hg{margin-top:0.6em}.hh{line-height:56px}.hi{letter-spacing:-0.011em}.ia{font-size:22px}.ib{margin-top:0.92em}.ic{line-height:28px}.jt{display:block}.lx{font-size:21px}.ly{margin-top:2em}.lz{line-height:32px}.ma{letter-spacing:-0.003em}.mq{padding-top:7px}.nc{font-size:30px}.nd{margin-top:1.95em}.ne{line-height:36px}.nf{letter-spacing:0}.nr{margin-top:0.86em}.qy{font-size:16px}.qz{line-height:24px}.sz{font-size:20px}.ta{max-height:24px}.to{margin:0}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (min-width: 552px) and (max-width: 727.98px)">.k{display:none}.aj{margin:0 24px}.hb{font-size:32px}.hc{margin-top:0.64em}.hd{line-height:40px}.he{letter-spacing:-0.016em}.hx{font-size:18px}.hy{margin-top:0.79em}.hz{line-height:24px}.js{display:block}.lu{margin-top:1.56em}.lv{line-height:28px}.lw{letter-spacing:-0.003em}.mp{padding-top:0}.mz{font-size:22px}.na{margin-top:1.2em}.nb{letter-spacing:0}.nq{margin-top:0.67em}.qr{font-size:20px}.qw{font-size:14px}.qx{line-height:20px}.sx{font-size:16px}.sy{max-height:20px}.tn{margin:0}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="print">.jj{display:none}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="(prefers-reduced-motion: no-preference)">.fq{animation:k2 .2s ease-in-out both}.kw{transition:transform 300ms cubic-bezier(0.2, 0, 0.2, 1)}.ob{transition:opacity 200ms}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (max-width: 1230px)">.oc{display:none}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="all and (max-width: 1198px)">.of{display:none}</style>
+    <style type="text/css" data-fela-rehydration="555" data-fela-type="RULE" media="(orientation: landscape) and (max-width: 903.98px)">.ti{max-height:none}</style>
+  </head>
+<body>
+  <div id="root">
+    <div class="a b c">
+      <div class="d e f g h i j k"></div>
+      <script>
+        document.domain = document.domain;
+      </script>
+      <div class="s">
+        <div class="t s u">
+          <div class="w s x y">
+            <div class="n z ab">
+              <div class="ac ae">
+                <div class="af s ag ah">
+                  <div class="n p">
+                    <div class="ai aj ak al am an ao v">
+                      <div class="ap n o">
+                        <div class="n o aq ar">
+                          <div class="as ac ae"><span class="at b au av aw"><a href="https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2F2358f8451ef9&amp;~feature=LiOpenInAppButton&amp;~channel=ShowPostUnderCollection&amp;~stage=mobileNavBar&amp;source=post_page-----2358f8451ef9--------------------------------" class="ax ay az ba bb bc bd be bf bg bh bi bj bk bl" rel="noopener nofollow">Open in app</a></span></div>
+                        </div>
+                        <a href="https://medium.com/?source=post_page-----2358f8451ef9--------------------------------" aria-label="Homepage" rel="noopener">
+                          <svg viewBox="0 0 1043.63 592.71" class="q ay">
+                            <g data-name="Layer 2">
+                              <g data-name="Layer 1">
+                                <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="n p">
+                <div class="ai aj ak al am an ao v">
+                  <div class="w n o aq bm bn bo bp bq br">
+                    <div class="v n bs bm">
+                      <div class="n v">
+                        <div class="bt bu v n o aq bv bw bx bo bp bq">
+                          <div class="by bz s ca">
+                            <a href="/?source=post_page-----2358f8451ef9--------------------------------" aria-label="Publication Homepage" rel="noopener">
+                              <div class="cb cc s"><img alt="Forge" class="" src="https://miro.medium.com/max/218/1*UZoo44C0QuXbxgHZS9wAZA.png" width="109" height="35" /></div>
+                            </a>
+                          </div>
+                          <div class="by s g">
+                            <span class="at b cd ce cf cg ch ci cj ck cl cm aw">
+                              <div class="n o">
+                                <div class="cn co z"><a class="cp cq az ba bb bc bd be bf bg cr cs bj ct cu" rel="noopener" href="/followers?source=post_page-----2358f8451ef9--------------------------------">120K Followers</a></div>
+                                <div class="cv n z"><a href="/about?source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg cr cs bj ct cu" rel="noopener">About</a></div>
+                                <div class="cw s cx">
+                                  <div class="cy cz s">
+                                    <div class="da" aria-hidden="false" aria-describedby="collectionFollowPopover" aria-labelledby="collectionFollowPopover">
+                                      <button class="at b au av db dc dd de df dg dh bg di dj dk dl dm dn do dp da dq" aria-controls="collectionFollowPopover" aria-expanded="false">
+                                        <div class="n aq">Follow</div>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="n o dr ds ah g">
+                        <div class="cn dt du n o">
+                          <div class="dv dw">
+                            <div class="n" aria-hidden="false" aria-describedby="publicationMenu" aria-labelledby="publicationMenu">
+                              <button aria-controls="publicationMenu" aria-expanded="false" aria-label="Publication Menu" class="cp dy az ba bb bc bd be bf dz bg">
+                                <div class="ea s">
+                                  <svg class="dx bi" width="25" height="25">
+                                    <path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path>
+                                  </svg>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="eb ec s">
+                            <div class="dv dw">
+                              <div class="da" aria-hidden="false" aria-describedby="searchResults" aria-labelledby="searchResults">
+                                <div class="n">
+                                  <button class="cp cq az ba bb bc bd be bf bg cr cs bj ct cu">
+                                    <span class="ea s">
+                                      <svg width="25" height="25" viewBox="0 0 25 25" class="dx">
+                                        <path d="M20.07 18.93l-4.16-4.15a6 6 0 1 0-.88.88l4.15 4.16a.62.62 0 1 0 .89-.89zM6.5 11a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0z"></path>
+                                      </svg>
+                                    </span>
+                                  </button>
+                                  <input role="combobox" aria-controls="searchResults" aria-expanded="false" aria-hidden="true" tabindex="-1" class="ed dz ee cd av ef eg ax eh ag ei ej ek" placeholder="Search" value="" />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="cn s g">
+                            <div><a href="https://medium.com/plans?source=upgrade_membership---nav_full----------------------------------" class="at b au av ax el ay em en bh bi dh bg di dj eo ep eq dm dn do dp da dq" rel="noopener">Upgrade</a></div>
+                          </div>
+                        </div>
+                        <a href="https://medium.com/?source=post_page-----2358f8451ef9--------------------------------" aria-label="Homepage" rel="noopener">
+                          <svg viewBox="0 0 1043.63 592.71" class="q er">
+                            <g data-name="Layer 2">
+                              <g data-name="Layer 1">
+                                <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+                              </g>
+                            </g>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="ac ae">
+              <div class="n p">
+                <div class="ai aj ak al am an ao v">
+                  <div>
+                    <div class="es et n o">
+                      <div class="s">
+                        <span class="at b cd ce cf cg ch ci cj ck cl cm eu">
+                          <div class="n o">
+                            <div class="ev s">
+                              <div class="cy cz s">
+                                <div class="da" aria-hidden="false" aria-describedby="collectionFollowPopover" aria-labelledby="collectionFollowPopover">
+                                  <button class="at b au av ew dc ex ey ez fa fb bg di dj fc fd dm dn do dp da dq" aria-controls="collectionFollowPopover" aria-expanded="false">
+                                    <div class="n aq">Follow</div>
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="cn co z"><a class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" rel="noopener" href="/followers?source=post_page-----2358f8451ef9--------------------------------">120K Followers</a></div>
+                            <div class="cv n z"><a href="/about?source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" rel="noopener">About</a></div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fi fj fk af c fl ef fm fn fo fp ah fq">
+            <div class="n p">
+              <div class="ai aj ak al am an ao v">
+                <div class="fr v ac fo ah bo fs">
+                  <div class="ac bo fs ft">
+                    <div class="as ac ae"><span class="at b au av eu"><a href="https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2F2358f8451ef9&amp;~feature=LiOpenInAppButton&amp;~channel=ShowPostUnderCollection&amp;~stage=mobileNavBar&amp;source=post_page-----2358f8451ef9--------------------------------" class="fu fv az ba bb bc bd be bf bg fw fx bj bk bl" rel="noopener nofollow">Open in app</a></span></div>
+                  </div>
+                  <a href="https://medium.com/?source=post_page-----2358f8451ef9--------------------------------" aria-label="Homepage" rel="noopener">
+                    <svg viewBox="0 0 1043.63 592.71" class="q r">
+                      <g data-name="Layer 2">
+                        <g data-name="Layer 1">
+                          <path d="M588.67 296.36c0 163.67-131.78 296.35-294.33 296.35S0 460 0 296.36 131.78 0 294.34 0s294.33 132.69 294.33 296.36M911.56 296.36c0 154.06-65.89 279-147.17 279s-147.17-124.94-147.17-279 65.88-279 147.16-279 147.17 124.9 147.17 279M1043.63 296.36c0 138-23.17 249.94-51.76 249.94s-51.75-111.91-51.75-249.94 23.17-249.94 51.75-249.94 51.76 111.9 51.76 249.94"></path>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <article class="meteredContent">
+          <section class="fy fz ga gb v gc dp s">
+            <div></div>
+          </section>
+          <span class="s"></span>
+          <div>
+            <div class="gj fl gk gl gm gn"></div>
+            <section class="go gp gq ck gr">
+              <div class="n p">
+                <div class="ai aj ak al am gs ao v">
+                  <div class="">
+                    <h1 id="58c2" class="gt gu gv gw b gx gy gz ha hb hc hd he hf hg hh hi hj hk hl hm hn ho hp hq hr hs">The 7 Emails You Should Send Every Week to Get Ahead in Your Career</h1>
+                  </div>
+                  <div class="">
+                    <h2 id="c86f" class="ht gu gv at b hu hv hw hx hy hz ia ib ic id ie if ig ih ii ij eu">There’s power in the inbox</h2>
+                    <div class="by">
+                      <div class="n bm ik il im">
+                        <div class="o n">
+                          <div>
+                            <a href="https://michael-thompson.medium.com/?source=post_page-----2358f8451ef9--------------------------------" rel="noopener">
+                              <div class="ag in io">
+                                <div class="ip n aq o p gj iq ir is it iu gn">
+                                  <svg width="36" height="36" viewBox="0 0 36 36">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18 1.87c-6.63 0-12.4 4.14-15.21 10.21L2 11.71C4.94 5.37 11 1 18 1s13.06 4.37 16 10.71l-.79.37C30.4 6.01 24.63 1.88 18 1.88zM2.79 23.92c2.81 6.07 8.58 10.2 15.21 10.2 6.63 0 12.4-4.13 15.21-10.2l.79.37C31.06 30.63 25 35 18 35S4.94 30.63 2 24.29l.79-.37z"></path>
+                                  </svg>
+                                </div>
+                                <img alt="Michael Thompson" class="s iv io in" src="https://miro.medium.com/fit/c/56/56/1*NZzjhJsbWDMhFcstUDH32w.png" width="28" height="28" />
+                              </div>
+                            </a>
+                          </div>
+                          <div class="cv v n bv">
+                            <div class="n">
+                              <div style="flex:1">
+                                <span class="at b au av hs">
+                                  <a href="https://michael-thompson.medium.com/?source=post_page-----2358f8451ef9--------------------------------" class="" rel="noopener">
+                                    <p class="at b au av fu">Michael Thompson</p>
+                                  </a>
+                                </span>
+                              </div>
+                            </div>
+                            <span class="at b au av eu">
+                              <a class="" rel="noopener" href="/the-7-emails-you-should-send-every-week-to-get-ahead-in-your-career-2358f8451ef9?source=post_page-----2358f8451ef9--------------------------------">
+                                <p class="at b au av eu">
+                                  <span class="iz"></span>Feb 22<span class="ja">·</span>4 min read <svg class="iw ix iy" width="15" height="15" viewBox="0 0 15 15">
+                                    <path d="M7.44 2.32c.03-.1.09-.1.12 0l1.2 3.53a.29.29 0 0 0 .26.2h3.88c.11 0 .13.04.04.1L9.8 8.33a.27.27 0 0 0-.1.29l1.2 3.53c.03.1-.01.13-.1.07l-3.14-2.18a.3.3 0 0 0-.32 0L4.2 12.22c-.1.06-.14.03-.1-.07l1.2-3.53a.27.27 0 0 0-.1-.3L2.06 6.16c-.1-.06-.07-.12.03-.12h3.89a.29.29 0 0 0 .26-.19l1.2-3.52z"></path>
+                                  </svg>
+                                </p>
+                              </a>
+                            </span>
+                          </div>
+                        </div>
+                        <div class="n jb jc jd je jf jg jh ji jj">
+                          <div class="n o">
+                            <div class="jk s">
+                              <div class="da" aria-hidden="false" aria-describedby="postFooterSocialMenu" aria-labelledby="postFooterSocialMenu">
+                                <div>
+                                  <div class="da" role="tooltip" aria-hidden="false">
+                                    <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-controls="postFooterSocialMenu" aria-expanded="false" aria-label="Share Post">
+                                      <svg width="25" height="25" class="r">
+                                        <g fill-rule="evenodd">
+                                          <path d="M15.6 5a.42.42 0 0 0 .17-.3.42.42 0 0 0-.12-.33l-2.8-2.79a.5.5 0 0 0-.7 0l-2.8 2.8a.4.4 0 0 0-.1.32c0 .12.07.23.16.3h.02a.45.45 0 0 0 .57-.04l2-2V10c0 .28.23.5.5.5s.5-.22.5-.5V2.93l2.02 2.02c.08.07.18.12.3.13.11.01.21-.02.3-.08v.01"></path>
+                                          <path d="M18 7h-1.5a.5.5 0 0 0 0 1h1.6c.5 0 .9.4.9.9v10.2c0 .5-.4.9-.9.9H6.9a.9.9 0 0 1-.9-.9V8.9c0-.5.4-.9.9-.9h1.6a.5.5 0 0 0 .35-.15A.5.5 0 0 0 9 7.5a.5.5 0 0 0-.15-.35A.5.5 0 0 0 8.5 7H7a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"></path>
+                                        </g>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="jl s">
+                              <div>
+                                <div class="iw">
+                                  <div>
+                                    <div class="da" role="tooltip" aria-hidden="false">
+                                      <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-label="Bookmark Post">
+                                        <svg width="25" height="25" viewBox="0 0 25 25">
+                                          <path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path>
+                                        </svg>
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="s ar">
+                              <div class="da" aria-hidden="false" aria-describedby="creatorActionOverflowMenu" aria-labelledby="creatorActionOverflowMenu">
+                                <div class="da" aria-hidden="false" aria-describedby="removeFromPublicationPopover" aria-labelledby="removeFromPublicationPopover">
+                                  <div class="jm s dr">
+                                    <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-controls="creatorActionOverflowMenu" aria-expanded="false" aria-label="More options">
+                                      <svg class="r jn jo" width="25" height="25">
+                                        <path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="jr js jt ju d jv">
+                      <div class="jw jx s">
+                        <button class="jy jz ed ka dz kb ei">
+                          <div class="n o aq bm">
+                            <p class="at b kk kl km eu kn">
+                            <div class="jq">Jump To Section</div>
+                            </p>
+                            <svg width="21" height="21" viewBox="0 0 21 21" class="kc kd ke">
+                              <path d="M4 7.33L10.03 14l.5.55.5-.55 5.96-6.6-.98-.9-5.98 6.6h1L4.98 6.45z" fill-rule="evenodd"></path>
+                            </svg>
+                          </div>
+                        </button>
+                        <div class="kf kg kh ef">
+                          <div class="ef ki n bm z kj">
+                            <div class="ko kh s">
+                              <ol class="jp">
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#034d" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="An email saying “thank you”">An email saying “thank you”</div>
+                                    </a>
+                                  </p>
+                                </li>
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#7133" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="An email to someone you admire">An email to someone you admire</div>
+                                    </a>
+                                  </p>
+                                </li>
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#b9d4" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="An email lifting someone up">An email lifting someone up</div>
+                                    </a>
+                                  </p>
+                                </li>
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#23af" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="An email to someone you just met">An email to someone you just met</div>
+                                    </a>
+                                  </p>
+                                </li>
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#11e2" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="An email to an old co-worker">An email to an old co-worker</div>
+                                    </a>
+                                  </p>
+                                </li>
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#a2e2" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="A Thursday afternoon email to your boss">A Thursday afternoon email to your boss</div>
+                                    </a>
+                                  </p>
+                                </li>
+                                <li class="kh">
+                                  <p class="at b au av hs">
+                                    <a href="#2932" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                      <div class="kp kh kq kr" title="A Friday afternoon email to yourself">A Friday afternoon email to yourself</div>
+                                    </a>
+                                  </p>
+                                </li>
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <figure class="ku kv ga gb paragraph-image">
+                    <div role="button" tabindex="0" class="kw kx ag ky v kz">
+                      <div class="ga gb kt">
+                        <div class="ld s ag le">
+                          <div class="lf lg s">
+                            <div class="ef la gj fo fl jz v kh lb lc"><img alt="" class="gj fo fl jz v lh li lj" src="https://miro.medium.com/max/60/1*QsIbwFDqZ9IjpgMa-kJKug.jpeg?q=20" width="2122" height="1412" role="presentation" /></div>
+                            <img alt="" class="ef la gj fo fl jz v c" width="2122" height="1412" role="presentation" />
+                            <noscript><img alt="" class="gj fo fl jz v" src="https://miro.medium.com/max/4244/1*QsIbwFDqZ9IjpgMa-kJKug.jpeg" width="2122" height="1412" srcSet="https://miro.medium.com/max/552/1*QsIbwFDqZ9IjpgMa-kJKug.jpeg 276w, https://miro.medium.com/max/1104/1*QsIbwFDqZ9IjpgMa-kJKug.jpeg 552w, https://miro.medium.com/max/1280/1*QsIbwFDqZ9IjpgMa-kJKug.jpeg 640w, https://miro.medium.com/max/1400/1*QsIbwFDqZ9IjpgMa-kJKug.jpeg 700w" sizes="700px" role="presentation" /></noscript>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <figcaption class="lk ll gc ga gb lm ln at b au av eu">Credit: Westend61/Getty Images</figcaption>
+                  </figure>
+                  <p id="e4ca" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs mk"><span class="s ml mm mn cn mo mp mq mr ms ag">M</span>ost people see email as a strictly transactional tool, using it only when they need something or owe someone something. That’s exactly why you should use it to stand out.</p>
+                  <p id="01b3" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs">Taking a moment to send these seven emails every week can help you str<span id="rmm">e</span>ngthen your connections, stay top of mind as opportunities come up, and learn about industry trends. (Slack messages and texts also work, but I’m into email because most people have their inboxes open all day anyway.) None of these messages should take more than five minutes to write, but each of them will go a long way in helping to advance your career.</p>
+                  <h1 id="034d" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs"><strong class="bd">An email saying “thank you”</strong></h1>
+                  <p id="e810" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">Imagine opening your inbox after lunch and seeing, sandwiched between a coupon from the local pizza place and a message from an acquaintance asking if you could tweet their new article/contest/course, an email with the simple subject line: “Thank you.” Now imagine how much those two words could improve your day.</p>
+                  <p id="1dc3" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs">People love to feel appreciated. Instead of worrying about all the things you need to do in the morning, take a moment to thank someone for what they do for you. “Thanks for all your support during that last big project” or “I’m so glad we get to work together. Thanks for being my sounding board” is all you need to say to make an impact.</p>
+                  <h1 id="7133" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs">An email to someone you admire</h1>
+                  <p id="85f3" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">The fastest way to get what you want is to get to know the people who <a class="cp nu" rel="noopener" href="/the-power-of-doing-the-right-things-consistently-1e7430bc0efb">already have it</a>. Send a message to someone a step or two further ahead in their career and let them know how their work has impacted you. I like to <a class="cp nu" rel="noopener" href="/how-to-get-on-the-radar-of-people-you-admire-5f6646a65c45">use the formula</a>: “Thanks to your work doing X, I’ve been able to accomplish Y.”</p>
+                  <p id="bacf" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs">I’ve been sending cold emails every week for the past three years, and many of those messages have led to great phone calls, which in turn have led to close relationships and interesting opportunities. Amazing things happen when people we admire turn into friends.</p>
+                  <h1 id="b9d4" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs">An email lifting someone up</h1>
+                  <p id="6e1e" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">Earlier in my career, <a href="https://www.youtube.com/results?search_query=conor+neill" class="cp nu" rel="noopener nofollow">Conor Neill</a>, a leadership expert and the person I admire most in the business world, would send me short messages telling me that he was following my work and that I was progressing. The fact that he’d take the time to do that meant the world to me.</p>
+                  <p id="70af" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs">There’s something magical about someone you don’t know very well showing interest in you. Often, it’s even more validating than when a friend encourages you, because they really don’t have to do it. One sentence can impact someone for a lifetime. Neill taught me to always <a href="https://michael-thompson.medium.com/to-add-meaning-to-your-career-be-a-name-dropper-1d60514b2c85" class="cp nu" rel="noopener">lift as you climb</a>.</p>
+                  <h1 id="23af" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs">An email to someone you just met</h1>
+                  <p id="54db" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">In his book <a href="https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X" class="cp nu" rel="noopener nofollow"><em class="nv">The Power of Habit</em></a>, Charles Duhigg writes that when it comes to learning about new opportunities, “weak ties” trump “strong ties.” This is because people who run in different circles than you are exposed to different ideas, whereas people we see on a regular basis tend to have similar conversations.</p>
+                  <p id="3cc5" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs">Reach out to someone you recently met during a training session or through a mutual friend. See if they’re up for a chat. We all need more eyes looking out for us.</p>
+                  <h1 id="11e2" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs">An email to an old co-worker</h1>
+                  <p id="1d91" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">Starting a weekly <a class="cp nu" rel="noopener" href="/feel-more-connected-by-writing-a-2-minute-boring-email-4bb3b07f205f">boring email chain</a> with a few of my buddies from high school has vastly improved my quarantine experience — I realized the easiest way to have friends right now is to keep up with my old ones. The same is true for maintaining a professional network.</p>
+                  <p id="c876" class="lo lp gv lq b hu lr ls lt hx lu lv lw lx ly lz ma mb mc md me mf mg mh mi mj go hs">It’s harder to network with new people, so why not use your energy to check in on the people you used to work with? It’s a good way to learn about what’s going on in your industry.</p>
+                  <h1 id="a2e2" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs"><strong class="bd">A Thursday afternoon email to your boss</strong></h1>
+                  <p id="e8c1" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">Save your boss from having to make rounds before the weekend. Tell them what you’ve got going on: “Here’s where we stand regarding W, X, Y so far this week. I’m focusing on Z tomorrow. But if there’s something that needs to be pushed, let me know.” It will help you understand your priorities and show that you’re organized.</p>
+                  <h1 id="2932" class="mt mu gv at mv mw mx ls my mz na lv nb nc nd ne nf ng nh ni nj nk nl nm nn no hs"><strong class="bd">A Friday afternoon email to yourself</strong></h1>
+                  <p id="9b63" class="lo lp gv lq b hu np ls lt hx nq lv lw lx nr lz ma mb ns md me mf nt mh mi mj go hs">When I talked to <a href="https://medium.com/u/1ceb119b8919?source=post_page-----2358f8451ef9--------------------------------" class="nw fu dq" target="_blank" rel="noopener">Melody Wilding, LMSW</a>, the author of <a href="https://www.amazon.com/Trust-Yourself-Overthinking-Channel-Emotions/dp/1797201964" class="cp nu" rel="noopener nofollow"><em class="nv">Trust Yourself</em></a>, she suggested I send myself a Friday afternoon message with a run-down of the week. Try it: Write down your wins, a few things you learned, and any idea that made your week a successful one. It’s a simple exercise, but it really helps you <a class="cp nu" rel="noopener" href="/you-still-need-an-after-work-routine-when-working-from-home-9850c1e3ccc7">transition out of work mode</a> and realize that what you’ve done is enough.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+        <div class="ef gn fm od v oe fo ob of" data-test-id="post-sidebar">
+          <div class="n p">
+            <div class="ai aj ak al am an ao v">
+              <div class="og n z">
+                <div class="gn">
+                  <div>
+                    <div class="oh jx s">
+                      <div class="oi s">
+                        <a href="https://michael-thompson.medium.com/?source=post_sidebar--------------------------post_sidebar-----------" class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" rel="noopener">
+                          <h2 class="at mv cd av gu hs go">Michael Thompson</h2>
+                        </a>
+                      </div>
+                      <div class="oj s">
+                        <p class="at b au av eu">Co-creator of 2 boys with my dream girl • Career coach • Business Insider, Fast Co., INC • Barcelona • Say hi on Linkedin here <a href="https://bit.ly/3vtJ1df" class="cp cq az ba bb bc bd be bf bg bj fg fh nu gp" rel="noopener nofollow">https://bit.ly/3vtJ1df</a></p>
+                      </div>
+                      <div class="ok s"><button class="at b au av ew dc ex ey ez fa fb bg di dj fc fd dm dn do dp da dq">Follow</button></div>
+                    </div>
+                    <div class="ol om on n">
+                      <div class="n o">
+                        <div class="s ag oo op oq or os">
+                          <div class="">
+                            <button class="be ot ou ov kb ow ox oy r oz pa">
+                              <svg width="29" height="29" aria-label="clap">
+                                <g fill-rule="evenodd">
+                                  <path d="M13.74 1l.76 2.97.76-2.97zM16.82 4.78l1.84-2.56-1.43-.47zM10.38 2.22l1.84 2.56-.41-3.03zM22.38 22.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M9.1 22.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L6.1 15.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L6.4 11.26l-1.18-1.18a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L11.96 14a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L8.43 9.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L20.63 15c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM13 6.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 23 23.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path>
+                                </g>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                        <div class="s pb pc pd pe pf pg ph">
+                          <div class="pi">
+                            <p class="at b au av eu">
+                              <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh"> 13K
+                                <!-- -->
+                              </button>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="om s">
+                      <button class="kb ou be">
+                        <div class="pk n o aq">
+                          <svg width="25" height="25" class="r pj kb pa" aria-label="responses">
+                            <path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path>
+                          </svg>
+                          <div class="s ag pl pm pn po pp pq pr ps">
+                            <p class="at b au av eu"> 76
+                              <!-- -->
+                            </p>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                    <div>
+                      <div class="iw">
+                        <div>
+                          <div class="da" role="tooltip" aria-hidden="false">
+                            <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-label="Bookmark Post">
+                              <svg width="25" height="25" viewBox="0 0 25 25">
+                                <path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="h k j i pt pu cd pv">
+                    <p class="at b qf qg qh eu kn">
+                    <div class="kr">Table of Contents</div>
+                    </p>
+                    <div class="s ag">
+                      <div class="pw v cb"></div>
+                      <div class="px py pz qa qb qc ag qd">
+                        <div class="ko kh s">
+                          <ol class="jp">
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#034d" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="An email saying “thank you”">An email saying “thank you”</div>
+                                </a>
+                              </p>
+                            </li>
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#7133" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="An email to someone you admire">An email to someone you admire</div>
+                                </a>
+                              </p>
+                            </li>
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#b9d4" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="An email lifting someone up">An email lifting someone up</div>
+                                </a>
+                              </p>
+                            </li>
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#23af" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="An email to someone you just met">An email to someone you just met</div>
+                                </a>
+                              </p>
+                            </li>
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#11e2" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="An email to an old co-worker">An email to an old co-worker</div>
+                                </a>
+                              </p>
+                            </li>
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#a2e2" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="A Thursday afternoon email to your boss">A Thursday afternoon email to your boss</div>
+                                </a>
+                              </p>
+                            </li>
+                            <li class="kh">
+                              <p class="at b au av hs">
+                                <a href="#2932" class="cp cq az ba bb bc bd be bf bg ks bj fg fh" rel="noopener nofollow">
+                                  <div class="kp kh kq kr og pv" title="A Friday afternoon email to yourself">A Friday afternoon email to yourself</div>
+                                </a>
+                              </p>
+                            </li>
+                          </ol>
+                        </div>
+                      </div>
+                      <div class="qe ag v cb qd"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ef gn nx fm ny it nz oa ob oc"></div>
+        <div>
+          <div class="qi kv n z p">
+            <div class="n p">
+              <div class="ai aj ak al am gs ao v">
+                <div class="n bv"></div>
+                <div class="n o bv"></div>
+                <div class="qj qk ql qm qn qo">
+                  <div class="qp s">
+                    <h2 class="at mv qq hw my qr hz nb ia ic nf id if nj ig ii nn hs">Sign up for The Forge Daily Tip</h2>
+                  </div>
+                  <div class="qs s">
+                    <h3 class="at b kk av hs">By Forge</h3>
+                  </div>
+                  <div class="jw qt s">
+                    <p class="at b qu qv qw qx qy qz ra rb rc rd hs"> A quick morning email to help you start each day on the right foot.
+                      <!-- --> <a href="https://medium.com/forge/newsletters/the-forge-daily-tip?source=newsletter_v3_promo--------------------------newsletter_v3_promo-----------" class="cp cq az ba bb bc bd be bf bg bj fg fh nu" rel="noopener">Take a look.</a>
+                    </p>
+                  </div>
+                  <div class="n bv">
+                    <div class="re s rf">
+                      <button class="at b cd ce ew rg ex ey ez fa fb bg di dj fc fd dm dn do dp da dq">
+                        <span class="jl" aria-hidden="true">
+                          <svg width="20" height="16" viewBox="0 0 20 16">
+                            <path d="M0 .35v15.3h20V.35H0zm6.95 9.38l3.05 2.5 3.05-2.5 4.88 4.73H2.07l4.88-4.73zM1.2 13.64V5.02l4.82 3.94-4.82 4.68zm12.78-4.68l4.82-3.94v8.62l-4.82-4.68zm4.82-7.42v1.94l-8.8 7.2-8.8-7.2V1.54h17.6z"></path>
+                          </svg>
+                        </span> Get this newsletter </button>
+                    </div>
+                    <div class="rh ri s">
+                      <p class="at b kk av hs"> Emails will be sent to
+                        <!-- -->quicklook.vn@gmail.com
+                        <!-- -->.
+                      <div class="s"><span><a href="https://medium.com/m/signin?operation=login&amp;redirect=https%3A%2F%2Fforge.medium.com%2Fthe-7-emails-you-should-send-every-week-to-get-ahead-in-your-career-2358f8451ef9&amp;source=newsletter_v3_promo--------------------------newsletter_v3_promo-----------" class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" rel="noopener"><button class="cp cq az ba bb bc bd be bf bg bj fg fh nu" target="_blank">Not you?</button></a></span></div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="rj qi s">
+                  <div class="rk n bm jj">
+                    <div class="n aq">
+                      <div class="rl s">
+                        <span class="s rm rn ro e d">
+                          <div class="n o">
+                            <div class="s ag oo op oq or os">
+                              <div class="">
+                                <div>
+                                  <div class="da" role="tooltip" aria-hidden="false">
+                                    <button class="be ot ou ov kb ow ox oy r oz pa">
+                                      <svg width="25" height="25" viewBox="0 0 25 25" aria-label="clap">
+                                        <g fill-rule="evenodd">
+                                          <path d="M11.74 0l.76 2.97.76-2.97zM14.81 3.78l1.84-2.56-1.42-.47zM8.38 1.22l1.84 2.56L9.8.75zM20.38 21.62a5.11 5.11 0 0 1-3.16 1.61l.49-.45c2.88-2.89 3.45-5.98 1.69-9.21l-1.1-1.94-.96-2.02c-.31-.67-.23-1.18.25-1.55a.84.84 0 0 1 .66-.16c.34.05.66.28.88.6l2.85 5.02c1.18 1.97 1.38 5.12-1.6 8.1M7.1 21.1l-5.02-5.02a1 1 0 0 1 .7-1.7 1 1 0 0 1 .72.3l2.6 2.6a.44.44 0 0 0 .63-.62L4.1 14.04l-1.75-1.75a1 1 0 1 1 1.41-1.41l4.15 4.15a.44.44 0 0 0 .63 0 .44.44 0 0 0 0-.62L4.4 10.26 3.22 9.08a1 1 0 0 1 0-1.4 1.02 1.02 0 0 1 1.41 0l1.18 1.16L9.96 13a.44.44 0 0 0 .62 0 .44.44 0 0 0 0-.63L6.43 8.22a.99.99 0 0 1-.3-.7.99.99 0 0 1 .3-.7 1 1 0 0 1 1.41 0l7 6.98a.44.44 0 0 0 .7-.5l-1.35-2.85c-.31-.68-.23-1.19.25-1.56a.85.85 0 0 1 .66-.16c.34.06.66.28.88.6L18.63 14c1.57 2.88 1.07 5.54-1.55 8.16a5.62 5.62 0 0 1-5.06 1.65 9.35 9.35 0 0 1-4.93-2.72zM11 5.98l2.56 2.56c-.5.6-.56 1.41-.15 2.28l.26.56-4.25-4.25a.98.98 0 0 1-.12-.45 1 1 0 0 1 .29-.7 1.02 1.02 0 0 1 1.41 0zm8.89 2.06c-.38-.56-.9-.92-1.49-1.01a1.74 1.74 0 0 0-1.34.33c-.38.29-.61.65-.71 1.06a2.1 2.1 0 0 0-1.1-.56 1.78 1.78 0 0 0-.99.13l-2.64-2.64a1.88 1.88 0 0 0-2.65 0 1.86 1.86 0 0 0-.48.85 1.89 1.89 0 0 0-2.67-.01 1.87 1.87 0 0 0-.5.9c-.76-.75-2-.75-2.7-.04a1.88 1.88 0 0 0 0 2.66c-.3.12-.61.29-.87.55a1.88 1.88 0 0 0 0 2.66l.62.62a1.88 1.88 0 0 0-.9 3.16l5.01 5.02c1.6 1.6 3.52 2.64 5.4 2.96a7.16 7.16 0 0 0 1.18.1c1.03 0 2-.25 2.9-.7A5.9 5.9 0 0 0 21 22.24c3.34-3.34 3.08-6.93 1.74-9.17l-2.87-5.04z"></path>
+                                        </g>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="s pb pc pd pe pf pg ph">
+                              <div class="ag rp pi">
+                                <p class="at b au av hs"><button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh">13K<span class="s h g f rq rr"> </span></button><span class="s h g f rq rr"></span></p>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                        <span class="s h g f rq rr">
+                          <div class="n bs">
+                            <div class="s ag oo op">
+                              <div class="">
+                                <div>
+                                  <div class="da" role="tooltip" aria-hidden="false">
+                                    <button class="be ot ou ov kb ow ox oy r oz pa">
+                                      <svg width="33" height="33" viewBox="0 0 33 33" aria-label="clap">
+                                        <path d="M28.86 17.34l-3.64-6.4c-.3-.43-.71-.73-1.16-.8a1.12 1.12 0 0 0-.9.21c-.62.5-.73 1.18-.32 2.06l1.22 2.6 1.4 2.45c2.23 4.09 1.51 8-2.15 11.66a9.6 9.6 0 0 1-.8.71 6.53 6.53 0 0 0 4.3-2.1c3.82-3.82 3.57-7.87 2.05-10.39zm-6.25 11.08c3.35-3.35 4-6.78 1.98-10.47L21.2 12c-.3-.43-.71-.72-1.16-.8a1.12 1.12 0 0 0-.9.22c-.62.49-.74 1.18-.32 2.06l1.72 3.63a.5.5 0 0 1-.81.57l-8.91-8.9a1.33 1.33 0 0 0-1.89 1.88l5.3 5.3a.5.5 0 0 1-.71.7l-5.3-5.3-1.49-1.49c-.5-.5-1.38-.5-1.88 0a1.34 1.34 0 0 0 0 1.89l1.49 1.5 5.3 5.28a.5.5 0 0 1-.36.86.5.5 0 0 1-.36-.15l-5.29-5.29a1.34 1.34 0 0 0-1.88 0 1.34 1.34 0 0 0 0 1.89l2.23 2.23L9.3 21.4a.5.5 0 0 1-.36.85.5.5 0 0 1-.35-.14l-3.32-3.33a1.33 1.33 0 0 0-1.89 0 1.32 1.32 0 0 0-.39.95c0 .35.14.69.4.94l6.39 6.4c3.53 3.53 8.86 5.3 12.82 1.35zM12.73 9.26l5.68 5.68-.49-1.04c-.52-1.1-.43-2.13.22-2.89l-3.3-3.3a1.34 1.34 0 0 0-1.88 0 1.33 1.33 0 0 0-.4.94c0 .22.07.42.17.61zm14.79 19.18a7.46 7.46 0 0 1-6.41 2.31 7.92 7.92 0 0 1-3.67.9c-3.05 0-6.12-1.63-8.36-3.88l-6.4-6.4A2.31 2.31 0 0 1 2 19.72a2.33 2.33 0 0 1 1.92-2.3l-.87-.87a2.34 2.34 0 0 1 0-3.3 2.33 2.33 0 0 1 1.24-.64l-.14-.14a2.34 2.34 0 0 1 0-3.3 2.39 2.39 0 0 1 3.3 0l.14.14a2.33 2.33 0 0 1 3.95-1.24l.09.09c.09-.42.29-.83.62-1.16a2.34 2.34 0 0 1 3.3 0l3.38 3.39a2.17 2.17 0 0 1 1.27-.17c.54.08 1.03.35 1.45.76.1-.55.41-1.03.9-1.42a2.12 2.12 0 0 1 1.67-.4 2.8 2.8 0 0 1 1.85 1.25l3.65 6.43c1.7 2.83 2.03 7.37-2.2 11.6zM13.22.48l-1.92.89 2.37 2.83-.45-3.72zm8.48.88L19.78.5l-.44 3.7 2.36-2.84zM16.5 3.3L15.48 0h2.04L16.5 3.3z" fill-rule="evenodd"></path>
+                                      </svg>
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="s pb pc pd pe rs rt ru rv rw rx">
+                              <div class="ag rp pi">
+                                <p class="at b au av hs"><button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh">13K<span class="s h g f rq rr"> </span></button><span class="s h g f rq rr"></span></p>
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                      <div class="s ry rz sa sb sc"></div>
+                      <button class="kb ou be">
+                        <div class="pk n o aq">
+                          <span class="sd s h g f rq rr">
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" class="r pj kb pa" aria-label="responses">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M24.28 25.5l.32-.29c2.11-1.94 3.4-4.61 3.4-7.56C28 11.83 22.92 7 16.5 7S5 11.83 5 17.65s5.08 10.66 11.5 10.66c1.22 0 2.4-.18 3.5-.5l.5-.15.41.33a8.86 8.86 0 0 0 4.68 2.1 7.34 7.34 0 0 1-1.3-4.15v-.43zm1 .45c0 1.5.46 2.62 1.69 4.44.22.32.01.75-.38.75a9.69 9.69 0 0 1-6.31-2.37c-1.2.35-2.46.54-3.78.54C9.6 29.3 4 24.09 4 17.65 4 11.22 9.6 6 16.5 6S29 11.22 29 17.65c0 3.25-1.42 6.18-3.72 8.3z"></path>
+                            </svg>
+                          </span>
+                          <span class="se s rm rn ro e d">
+                            <svg width="25" height="25" class="r pj kb pa" aria-label="responses">
+                              <path d="M19.07 21.12a6.33 6.33 0 0 1-3.53-1.1 7.8 7.8 0 0 1-.7-.52c-.77.21-1.57.32-2.38.32-4.67 0-8.46-3.5-8.46-7.8C4 7.7 7.79 4.2 12.46 4.2c4.66 0 8.46 3.5 8.46 7.8 0 2.06-.85 3.99-2.4 5.45a6.28 6.28 0 0 0 1.14 2.59c.15.21.17.48.06.7a.69.69 0 0 1-.62.38h-.03zm0-1v.5l.03-.5h-.03zm-3.92-1.64l.21.2a6.09 6.09 0 0 0 3.24 1.54 7.14 7.14 0 0 1-.83-1.84 5.15 5.15 0 0 1-.16-.75 2.4 2.4 0 0 1-.02-.29v-.23l.18-.15a6.6 6.6 0 0 0 2.3-4.96c0-3.82-3.4-6.93-7.6-6.93-4.19 0-7.6 3.11-7.6 6.93 0 3.83 3.41 6.94 7.6 6.94.83 0 1.64-.12 2.41-.35l.28-.08z" fill-rule="evenodd"></path>
+                            </svg>
+                          </span>
+                          <div class="s ag sf pm sg po sh pq si sj sk sl">
+                            <p class="at b au av eu"> 76
+                              <!-- -->
+                            </p>
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="n o">
+                      <div class="jk s">
+                        <div class="da" aria-hidden="false" aria-describedby="postFooterSocialMenu" aria-labelledby="postFooterSocialMenu">
+                          <div>
+                            <div class="da" role="tooltip" aria-hidden="false">
+                              <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-controls="postFooterSocialMenu" aria-expanded="false" aria-label="Share Post">
+                                <svg width="25" height="25" class="r">
+                                  <g fill-rule="evenodd">
+                                    <path d="M15.6 5a.42.42 0 0 0 .17-.3.42.42 0 0 0-.12-.33l-2.8-2.79a.5.5 0 0 0-.7 0l-2.8 2.8a.4.4 0 0 0-.1.32c0 .12.07.23.16.3h.02a.45.45 0 0 0 .57-.04l2-2V10c0 .28.23.5.5.5s.5-.22.5-.5V2.93l2.02 2.02c.08.07.18.12.3.13.11.01.21-.02.3-.08v.01"></path>
+                                    <path d="M18 7h-1.5a.5.5 0 0 0 0 1h1.6c.5 0 .9.4.9.9v10.2c0 .5-.4.9-.9.9H6.9a.9.9 0 0 1-.9-.9V8.9c0-.5.4-.9.9-.9h1.6a.5.5 0 0 0 .35-.15A.5.5 0 0 0 9 7.5a.5.5 0 0 0-.15-.35A.5.5 0 0 0 8.5 7H7a2 2 0 0 0-2 2v10c0 1.1.9 2 2 2h11a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"></path>
+                                  </g>
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="jk s dr">
+                        <div>
+                          <div class="iw">
+                            <div>
+                              <div class="da" role="tooltip" aria-hidden="false">
+                                <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-label="Bookmark Post">
+                                  <svg width="25" height="25" viewBox="0 0 25 25">
+                                    <path d="M19 6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14.66h.01c.01.1.05.2.12.28a.5.5 0 0 0 .7.03l5.67-4.12 5.66 4.13a.5.5 0 0 0 .71-.03.5.5 0 0 0 .12-.29H19V6zm-6.84 9.97L7 19.64V6a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v13.64l-5.16-3.67a.49.49 0 0 0-.68 0z" fill-rule="evenodd"></path>
+                                  </svg>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="da" aria-hidden="false" aria-describedby="creatorActionOverflowMenu" aria-labelledby="creatorActionOverflowMenu">
+                        <div class="da" aria-hidden="false" aria-describedby="removeFromPublicationPopover" aria-labelledby="removeFromPublicationPopover">
+                          <div class="jm s dr">
+                            <button class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" aria-controls="creatorActionOverflowMenu" aria-expanded="false" aria-label="More options">
+                              <svg class="r jn jo" width="25" height="25">
+                                <path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sm rk s">
+                  <ul class="be bf">
+                    <li class="da sn jl so"><a href="/tagged/email" class="at b kk sp eu sq sr dq s ss">Email</a></li>
+                    <li class="da sn jl so"><a href="/tagged/careers" class="at b kk sp eu sq sr dq s ss">Careers</a></li>
+                    <li class="da sn jl so"><a href="/tagged/career-advice" class="at b kk sp eu sq sr dq s ss">Career Advice</a></li>
+                    <li class="da sn jl so"><a href="/tagged/work" class="at b kk sp eu sq sr dq s ss">Work</a></li>
+                    <li class="da sn jl so"><a href="/tagged/communication" class="at b kk sp eu sq sr dq s ss">Communication</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="n p">
+                <div class="ai aj ak al am gs ao v"></div>
+              </div>
+              <div class="s jj">
+                <div class="st su s qn">
+                  <div class="n p">
+                    <div class="ai aj ak al am gs ao v">
+                      <div class="n o bm">
+                        <h2 class="at mv sv qv sw my sx qx sy nb sz qz ta nf tb rb tc nj td rd te nn kh kq tf tg th ti hs"><a href="https://forge.medium.com/?source=follow_footer-------------------------------------" class="cp cq az ba bb bc bd be bf bg fe ff bj fg fh" rel="noopener">More from Forge</a></h2>
+                        <div class="da" aria-hidden="false" aria-describedby="collectionFollowPopover" aria-labelledby="collectionFollowPopover">
+                          <button class="at b au av ew dc ex ey ez fa fb bg di dj fc fd dm dn do dp da dq" aria-controls="collectionFollowPopover" aria-expanded="false">
+                            <div class="n aq">Follow</div>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="tj tk s">
+                        <p class="at b au av eu">A publication from Medium on personal development.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tl s qn jj">
+                <div class="n p">
+                  <div class="tm tn to tp tq tr ao v">
+                    <div class="ts qi s">
+                      <div class="tr s ll">
+                        <a href="https://forge.medium.com/?source=follow_footer-------------------------------------" class="at b au av ew dc ex ey ez fa fb bg di dj fc fd dm dn do dp da dq" rel="noopener"> Read more from
+                          <!-- -->Forge
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="s gd jj">
+                <div class="n p">
+                  <div class="ai aj ak al am an ao v"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tt s tu tv">
+          <div class="n p">
+            <div class="ai aj ak al am an ao v">
+              <div class="n z">
+                <div class="n o bm">
+                  <a href="https://medium.com/?source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg tw tx bj ty tz" rel="noopener">
+                    <svg viewBox="0 0 3940 610" class="ex ua">
+                      <path d="M594.79 308.2c0 163.76-131.85 296.52-294.5 296.52S5.8 472 5.8 308.2 137.65 11.69 300.29 11.69s294.5 132.75 294.5 296.51M917.86 308.2c0 154.16-65.93 279.12-147.25 279.12s-147.25-125-147.25-279.12S689.29 29.08 770.61 29.08s147.25 125 147.25 279.12M1050 308.2c0 138.12-23.19 250.08-51.79 250.08s-51.79-112-51.79-250.08 23.19-250.08 51.8-250.08S1050 170.09 1050 308.2M1862.77 37.4l.82-.18v-6.35h-167.48l-155.51 365.5-155.51-365.5h-180.48v6.35l.81.18c30.57 6.9 46.09 17.19 46.09 54.3v434.45c0 37.11-15.58 47.4-46.15 54.3l-.81.18V587H1327v-6.35l-.81-.18c-30.57-6.9-46.09-17.19-46.09-54.3V116.9L1479.87 587h11.33l205.59-483.21V536.9c-2.62 29.31-18 38.36-45.68 44.61l-.82.19v6.3h213.3v-6.3l-.82-.19c-27.71-6.25-43.46-15.3-46.08-44.61l-.14-445.2h.14c0-37.11 15.52-47.4 46.08-54.3m97.43 287.8c3.49-78.06 31.52-134.4 78.56-135.37 14.51.24 26.68 5 36.14 14.16 20.1 19.51 29.55 60.28 28.09 121.21zm-2.11 22h250v-1.05c-.71-59.69-18-106.12-51.34-138-28.82-27.55-71.49-42.71-116.31-42.71h-1c-23.26 0-51.79 5.64-72.09 15.86-23.11 10.7-43.49 26.7-60.45 47.7-27.3 33.83-43.84 79.55-47.86 130.93-.13 1.54-.24 3.08-.35 4.62s-.18 2.92-.25 4.39a332.64 332.64 0 0 0-.36 21.69C1860.79 507 1923.65 600 2035.3 600c98 0 155.07-71.64 169.3-167.8l-7.19-2.53c-25 51.68-69.9 83-121 79.18-69.76-5.22-123.2-75.95-118.35-161.63m532.69 157.68c-8.2 19.45-25.31 30.15-48.24 30.15s-43.89-15.74-58.78-44.34c-16-30.7-24.42-74.1-24.42-125.51 0-107 33.28-176.21 84.79-176.21 21.57 0 38.55 10.7 46.65 29.37zm165.84 76.28c-30.57-7.23-46.09-18-46.09-57V5.28L2424.77 60v6.7l1.14-.09c25.62-2.07 43 1.47 53.09 10.79 7.9 7.3 11.75 18.5 11.75 34.26v71.14c-18.31-11.69-40.09-17.38-66.52-17.38-53.6 0-102.59 22.57-137.92 63.56-36.83 42.72-56.3 101.1-56.3 168.81C2230 518.72 2289.53 600 2378.13 600c51.83 0 93.53-28.4 112.62-76.3V588h166.65v-6.66zm159.29-505.33c0-37.76-28.47-66.24-66.24-66.24-37.59 0-67 29.1-67 66.24s29.44 66.24 67 66.24c37.77 0 66.24-28.48 66.24-66.24m43.84 505.33c-30.57-7.23-46.09-18-46.09-57h-.13V166.65l-166.66 47.85v6.5l1 .09c36.06 3.21 45.93 15.63 45.93 57.77V588h166.8v-6.66zm427.05 0c-30.57-7.23-46.09-18-46.09-57V166.65L3082 212.92v6.52l.94.1c29.48 3.1 38 16.23 38 58.56v226c-9.83 19.45-28.27 31-50.61 31.78-36.23 0-56.18-24.47-56.18-68.9V166.66l-166.66 47.85V221l1 .09c36.06 3.2 45.94 15.62 45.94 57.77v191.27a214.48 214.48 0 0 0 3.47 39.82l3 13.05c14.11 50.56 51.08 77 109 77 49.06 0 92.06-30.37 111-77.89v66h166.66v-6.66zM3934.2 588v-6.67l-.81-.19c-33.17-7.65-46.09-22.07-46.09-51.43v-243.2c0-75.83-42.59-121.09-113.93-121.09-52 0-95.85 30.05-112.73 76.86-13.41-49.6-52-76.86-109.06-76.86-50.12 0-89.4 26.45-106.25 71.13v-69.87l-166.66 45.89v6.54l1 .09c35.63 3.16 45.93 15.94 45.93 57V588h155.5v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66V255.72c7-16.35 21.11-35.72 49-35.72 34.64 0 52.2 24 52.2 71.28V588h155.54v-6.66l-.82-.2c-26.46-6.22-35-17.56-35-46.66v-248a160.45 160.45 0 0 0-2.2-27.68c7.42-17.77 22.34-38.8 51.37-38.8 35.13 0 52.2 23.31 52.2 71.28V588z"></path>
+                    </svg>
+                  </a>
+                  <div class="qt ub n bm uc bo">
+                    <p class="at b cd ce ud"><a href="https://medium.com/about?autoplay=1&amp;source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg ks bj ty tz" rel="noopener">About</a></p>
+                    <p class="at b cd ce ud"><a href="https://help.medium.com/hc/en-us?source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg ks bj ty tz" rel="noopener">Help</a></p>
+                    <p class="at b cd ce ud"><a href="https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg ks bj ty tz" rel="noopener">Legal</a></p>
+                  </div>
+                </div>
+                <div class="ac ue uf bo">
+                  <p class="at b cd ce ug">Get the Medium app</p>
+                </div>
+                <div class="ac ue uh bo ui">
+                  <div class="uj s"><a href="https://itunes.apple.com/app/medium-everyones-stories/id828256236?pt=698524&amp;mt=8&amp;ct=post_page&amp;source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg tw tx bj ty tz" rel="noopener nofollow"><img alt="A button that says &#x27;Download on the App Store&#x27;, and if clicked it will lead you to the iOS App store" class="" src="https://miro.medium.com/max/270/1*Crl55Tm6yDNMoucPo1tvDg.png" width="135" height="41" /></a></div>
+                  <div class="s"><a href="https://play.google.com/store/apps/details?id=com.medium.reader&amp;source=post_page-----2358f8451ef9--------------------------------" class="cp cq az ba bb bc bd be bf bg tw tx bj ty tz" rel="noopener nofollow"><img alt="A button that says &#x27;Get it on, Google Play&#x27;, and if clicked it will lead you to the Google Play store" class="" src="https://miro.medium.com/max/270/1*W_RAPQ62h0em559zluJLdQ.png" width="135" height="41" /></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</body>
+</html>
