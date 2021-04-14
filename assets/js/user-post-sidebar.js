@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("slide2").classList.remove("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
         document.getElementById("slide2").classList.add("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
         status = "over1180";
-        alert(divSlide.clientHeight);
       }
     } else {
       if(status == "over1180") {
