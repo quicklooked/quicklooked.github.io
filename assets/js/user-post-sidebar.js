@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         status = "over1180";
         alert(divSlide.clientHeight);
       }
-    } else if(x <= 1180 + divSlide.clientHeight && x > 1180 + divSlide.clientHeight) {
+    } else if(x <= 1180 && x > 1180 + divSlide.clientHeight) {
       if(status == "over1180") {
         document.getElementById("slide").classList.remove("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
         document.getElementById("slide").classList.add("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
