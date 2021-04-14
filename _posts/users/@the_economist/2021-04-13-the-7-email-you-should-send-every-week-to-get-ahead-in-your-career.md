@@ -1,11 +1,9 @@
 ---
 layout: usersArticle
-title:  "‘Biofeedback’ Could Ease Headaches, Anxiety — and Maybe a Lot Else"
-author: jane
+title:  "The 7 Emails You Should Send Every Week to Get Ahead in Your Career"
+author: @the_economist
 categories: [ Tutorial ]
-image: assets/images/11.jpg
-tags: [news]
+image: 
+tags: [Email Careers Advice Work Communication]
 ---
 
-
-Ask This Question for Feedback That’s Actually Meaningful
