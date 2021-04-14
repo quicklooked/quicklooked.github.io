@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: usersArticle
 title:  "‘Biofeedback’ Could Ease Headaches, Anxiety — and Maybe a Lot Else"
 author: jane
 categories: [ Tutorial ]
