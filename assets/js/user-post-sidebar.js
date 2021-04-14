@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var status = "under1220";
+    var status = "under1239";
     var clientHeight = document.getElementById("divSlide").clientHeight;
     window.addEventListener("scroll", function() {
         var x = pageYOffset;
