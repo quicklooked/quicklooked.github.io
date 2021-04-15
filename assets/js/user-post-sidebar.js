@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
   window.addEventListener("scroll", function() {
     var x = pageYOffset;
-    var y = 151 + divSlide1.clientHeight + divSlide2.clientHeight;
+    var y = 115 + divSlide1.clientHeight + divSlide2.clientHeight;
     if(x > y && x < y + divSlide.clientHeight) {
       if(status == "under1180") {
         document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
