@@ -511,7 +511,7 @@ document.domain = document.domain;
                 <div class="pf od s">
                   <ul class="bf bg">
                     {% for tag in page.tags %}
-                    <li class="dh pg it ph"><a href="/tag/{{ tag | downcase }}" class="au b pi pj ax pk pl dx s pm">{{ tag }}</a>{% if forloop.last == false %}{% endif %}</li>
+                    <li class="dh pg it ph"><a href="/tag/{{ tag | downcase | remove: "%20" | add: "-" }}" class="au b pi pj ax pk pl dx s pm">{{ tag }}</a>{% if forloop.last == false %}{% endif %}</li>
                     {% endfor %}
                   </ul>
                 </div>
