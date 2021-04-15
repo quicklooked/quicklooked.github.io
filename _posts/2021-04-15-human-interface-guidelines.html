@@ -13,7 +13,7 @@ color: "rgba(26, 137, 23, 1)"
 colorhover: "rgba(15, 115, 12, 1)"
 publishedTime: "Apr 15, 2021"
 ogdescription: "Get in-depth information and UI resources for designing great apps that integrate seamlessly with Quicklook platforms."
-tags: Climate Change, Capitalism, Business, Tesla
+tags: [jekyll, tags, user experience]
 imgpost: "https://images.unsplash.com/photo-1615982822797-cbab2bbe7972?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=3600&q=80"
 imgpostauthorlink: "https://unsplash.com/@bamagal"
 imgpostauthor: "My Life Through A Lens"
@@ -58,9 +58,12 @@ twitterAuthor: "@TheEconomist"
                     <p id="c9d7" class="ke kf gm kg b hj kh ki kj hm kk kl km kn ko kp kq kr ks kt ku kv kw kx ky kz cq eo" data-selectable-paragraph="">Our twelfth apostle of climate action is not himself deep-pocketed. But Pope Francis, the greenest pontiff to date, has ultimate control over the Vatican Bank’s $3bn-worth of assets — and a bully pulpit to exercise moral suasion over much more. In June he rounded up oil bosses from BP, ExxonMobil, Shell and Total, and strong-armed them to support “economically meaningful” carbon prices and disclose risks posed by climate change to their companies (see <a href="https://www.economist.com/node/21771917" class="cw kd" rel="noopener nofollow">article</a>).</p>
                     <p id="da53" class="ke kf gm kg b hj kh ki kj hm kk kl km kn ko kp kq kr ks kt ku kv kw kx ky kz cq eo" data-selectable-paragraph="">Our list is necessarily incomplete. Other fat cats back clean investments. So do firms, even historically carbon-cuddling ones like GM, whose carmaking prowess may do more to popularise EVs than Tesla, or McDermott, which builds oil rigs but whose subsidiary has put money in NET Power, a builder of power plants in which carbon dioxide released by burning natural gas in pure oxygen is heated and then used instead of steam to turn a turbine (with any excess captured).</p>
                     <p id="2060" class="ke kf gm kg b hj kh ki kj hm kk kl km kn ko kp kq kr ks kt ku kv kw kx ky kz cq eo" data-selectable-paragraph="">Many clean bets continue to rely on tax breaks, subsidies or the prospect of high carbon prices. Plenty will fail in the marketplace. But some may succeed. Without creative destruction powered by climate capitalists, including profit-seeking ones, safeguarding the planet would be considerably more daunting than it already is.</p>
-{% assign tags = page.tags | split:&nbsp; %}
-<ul>
-    {% for tag in page.tags %}
-    <li>{{ tag }}</li>
-    {% endfor %}
-</ul>
+{% if page.tags.size > 0 %}
+  <div class="post-tags">
+    <ul>
+      {% for tag in page.tags %}
+        <li><a href="/tags#{{ tag }}">{{ tag }}</a>{% if forloop.last == false %},{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
