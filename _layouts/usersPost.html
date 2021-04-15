@@ -507,14 +507,15 @@ document.domain = document.domain;
                     </div>
                   </div>
                 </div>
+                {% if page.tags.size > 0 %}
                 <div class="pf od s">
                   <ul class="bf bg">
-                    <li class="dh pg it ph"><a href="/tag/climate-change" class="au b pi pj ax pk pl dx s pm">Climate Change</a></li>
-                    <li class="dh pg it ph"><a href="/tag/capitalism" class="au b pi pj ax pk pl dx s pm">Capitalism</a></li>
-                    <li class="dh pg it ph"><a href="/tag/business" class="au b pi pj ax pk pl dx s pm">Business</a></li>
-                    <li class="dh pg it ph"><a href="/tag/tesla" class="au b pi pj ax pk pl dx s pm">Tesla</a></li>
+                    {% for tag in page.tags %}
+                    <li class="dh pg it ph"><a href="/tag/{{ tag }}"" class="au b pi pj ax pk pl dx s pm">{{ tag }}</a>{% if forloop.last == false %},{% endif %}</li>
+                    {% endfor %}
                   </ul>
                 </div>
+                {% endif %}
                 <div class="pn s"></div>
               </div>
             </div>
