@@ -38,7 +38,7 @@ defaults:
       avatar: ''
 
   - scope:
-      path: "_posts/users/@the_economist"
+      path: "quicklooked.github.io/_posts/users/@the_economist"
     values:
       layout: @the_economist_post
       author: @the_economist
