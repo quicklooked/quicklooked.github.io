@@ -36,13 +36,6 @@ defaults:
       layout: post
       author: quicklook
       avatar: ''
-
-  - scope:
-      path: "quicklooked.github.io/_posts/users/@the_economist"
-    values:
-      layout: @the_economist_post
-      author: @the_economist
-      avatar: ''
       
   # all pages 
   - scope:
