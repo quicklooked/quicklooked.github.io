@@ -33,7 +33,7 @@ defaults:
   - scope:
       path: "_posts"
     values:
-      layout: post
+      layout: 
       author: quicklook
       avatar: ''
       
