@@ -1,31 +1,7 @@
-{%- assign words_per_minute = site.words_per_minute | default:'250' -%}
+{% assign reading_time = content | strip_html | number_of_words | plus:91 | divided_by:180 %}
 
-{%- if post.content -%}
-  {%- assign post_content = post.content -%}
-{%- elsif page.content -%}
-  {%- assign post_content = page.content -%}
-{%- elsif content -%}
-  {%- assign post_content = content -%}
-{%- endif -%}
-
-{%- if post_content -%}
-  {%- assign words = post_content | strip_html | number_of_words -%}
-{%- endif -%}
-
-{%- if words %}
-  {%- if words <= 1 -%}
-    {%- assign total_words = '1' | append:' word' -%}
-  {%- else -%}
-    {%- assign total_words = words | append:' words' -%}
-  {%- endif -%}
-
-
-  {%- assign wpm = words_per_minute -%}
-  {%- assign wpm_i = wpm | divided_by:2 | plus:1 -%}
-  {%- assign read_time = words | plus: wpm_i | divided_by: wpm -%}
-  {%- if read_time <= 1 -%}
-    {%- assign reading_time = '1' | append:' min read' -%}
-  {%- else -%}
-    {%- assign reading_time = read_time | append:' min read' -%}
-  {%- endif -%}
-{%- endif -%}
+{% if reading_time <= 1 %}
+  {% assign reading_time = '1' | append:' min read' %}
+{% else %}
+  {% assign reading_time = reading_time | append:' min read' %}
+{% endif %}
