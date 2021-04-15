@@ -34,7 +34,7 @@ defaults:
       path: "_posts"
     values:
       layout: 
-      author: quicklook
+      author: 
       avatar: ''
       
   # all pages 
