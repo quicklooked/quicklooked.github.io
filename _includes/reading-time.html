@@ -1,4 +1,4 @@
-{% raw %}
+{% for post in site.posts %}
 <span class="reading-time" title="Estimated read time">
   {% assign words = content | number_of_words %}
   {% if words < 250 %}
@@ -7,4 +7,4 @@
     {{ words | divided_by:250 }} min read
   {% endif %}
 </span>
-{% endraw %}
+{% end for %}
