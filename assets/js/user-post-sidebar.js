@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
   var target = event.target || event.srcElement;
-  var id = target.id window.addEventListener("scroll", function() {
+  var id = target.id 
+  window.addEventListener("scroll", function() {
     if(id != "disableslibar") {
       var x = pageYOffset;
       var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
