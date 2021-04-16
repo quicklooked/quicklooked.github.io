@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
     var a = pageXOffset;
     var b = a - slideWidth.clientWidth;
-    if(x > y && x < divSlide.clientHeight && b <= a - slideWidth1.clientWidth) {
+    if(x > y && x < divSlide.clientHeight && b < a - slideWidth1.clientWidth) {
       if(status == "under1180") {
         document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
         document.getElementById("slide").classList.add("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
