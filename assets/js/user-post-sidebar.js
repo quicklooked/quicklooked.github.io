@@ -3,14 +3,13 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight = document.getElementById("divSlide").clientHeight;
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
-  var target = event.target || event.srcElement;
-  var id = target.id 
+  var elmnt = document.getElementById("disableslibar");
   window.addEventListener("scroll", function() {
-    if(id != "disableslibar") {
       var x = pageYOffset;
       var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
       if(x > y && x < divSlide.clientHeight) {
         if(status == "under1180") {
+          elmnt.scrollIntoView();
           document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
           document.getElementById("slide").classList.add("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
           document.getElementById("slide1").classList.remove("gg");
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", function() {
           document.getElementById("slide2").classList.remove("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
           document.getElementById("slide2").classList.add("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
           status = "over1180";
-          alert(id);
         }
       } else {
         if(status == "over1180") {
@@ -31,6 +29,5 @@ document.addEventListener("DOMContentLoaded", function() {
           status = "under1180";
         }
       }
-    }
   })
 })
