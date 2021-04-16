@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var list = document.getElementsByTagName("div")[i];
   var kmp = list.id;
   alert(kmp);
+    }
   var elmnt = document.getElementById("disableslibar");
   elmnt.scrollIntoView();
   window.addEventListener("scroll", function() {
@@ -34,6 +35,5 @@ document.addEventListener("DOMContentLoaded", function() {
           status = "under1180";
         }
       }
-    }
   })
 })
