@@ -3,10 +3,12 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight = document.getElementById("divSlide").clientHeight;
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
+  var slideWidth = document.getElementById("slideWidth").clientWidth;
+  var slideWidth1 = document.getElementById("slideWidth1").clientWidth;
   window.addEventListener("scroll", function() {
     var x = pageYOffset;
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
-    if(x > y && x < divSlide.clientHeight) {
+    if(x > y && x < divSlide.clientHeight && slideWidth < slideWidth1) {
       if(status == "under1180") {
         document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
         document.getElementById("slide").classList.add("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
