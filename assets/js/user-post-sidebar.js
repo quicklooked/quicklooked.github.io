@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight = document.getElementById("divSlide").clientHeight;
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
+  var target = event.target || event.srcElement;
+  var id = target.id
   window.addEventListener("scroll", function() {    
     var x = pageYOffset;
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
@@ -16,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("slide2").classList.remove("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
         document.getElementById("slide2").classList.add("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
         status = "over1180";
-            alert(a);
+            alert(id);
       }
     } else {
       if(status == "over1180") {
