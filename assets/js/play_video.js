@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => { 
-  const controls = ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume' , 'captions', 'fullscreen']
+  const controls = ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume' , 'fullscreen']
   const settings = ['speed']
   const i18n = { speed: 'Speed' }
   const keyboard = { global: true }
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const vimeo = { referrerPolicy: 'no-referrer' }
   const fullscreen = { enabled: true , fallback: true , iosNative: false, container: '#container' }
   const speed =  { selected: 1, options: [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2] }
-  const player = new Plyr('#player', { debug: true , title: 'Quicklook Play Video' , iconUrl: 'https://cdn.jsdelivr.net/gh/theprojectsomething/plyr@a55bf00/demo/dist/demo.svg' , controls , keyboard , tooltips , fullscreen });
+  const player = new Plyr('#player', { debug: true , title: 'Quicklook Play Video' , iconUrl: 'https://cdn.jsdelivr.net/gh/theprojectsomething/plyr@a55bf00/demo/dist/demo.svg' , controls , keyboard , fullscreen });
   window.player = player;
   player.volume = 1;
   function on(selector, type, callback) {
