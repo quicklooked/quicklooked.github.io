@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var element = document.getElementsByTagName("div")[0];
   var idsl = element.id;
   window.addEventListener("scroll", function() {
+    alert(idsl);
     var x = pageYOffset;
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
     if(x > y && x < divSlide.clientHeight && idsl.value != 'disableslibar') {
