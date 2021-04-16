@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
   var i = 0;
-  for (i = 0; i < 100; i++){
+  for (i = 0; i < 100; i++) {
   var list = document.getElementsByTagName("div")[i];
   var kmp = list.id;
   alert(kmp);
@@ -34,5 +34,6 @@ document.addEventListener("DOMContentLoaded", function() {
           status = "under1180";
         }
       }
+    }
   })
 })
