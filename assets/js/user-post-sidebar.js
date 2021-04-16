@@ -5,11 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
   var target = event.target || event.srcElement;
   var id = target.id window.addEventListener("scroll", function() {
-    var x = pageYOffset;
-    var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
-    var a = event.target.id;
     if(id != "disableslibar") {
-      var status = "under1180";
+      var x = pageYOffset;
+      var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
       if(x > y && x < divSlide.clientHeight) {
         if(status == "under1180") {
           document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
