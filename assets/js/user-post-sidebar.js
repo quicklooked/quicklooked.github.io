@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", function() {    
     var x = pageYOffset;
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
-    var a = pageXOffset;
+    var a = scrollWidth;
 
     if(x > y && x < divSlide.clientHeight || element <=680 ) {
       if(status == "under1180") {
