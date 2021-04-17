@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight = document.getElementById("divSlide").clientHeight;
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
-  var dislibar = document.getElementById("disableslibar").clientHeight;
+  var dislibar = document.getElementById("disableslibar").offsetTop;
   window.addEventListener("scroll", function() {
     var x = pageYOffset;
     alert(x,dislibar);
