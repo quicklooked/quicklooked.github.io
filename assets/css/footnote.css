@@ -1,0 +1,32 @@
+.srs-svg {
+  stroke: #555;
+}
+
+.spaced-rep {
+  display: none;
+}
+
+input.srs-toggle {
+  display: none;
+}
+
+label.srs-toggle {
+  display: inline;
+  cursor: pointer;
+}
+
+.srs-toggle:checked+.spaced-rep {
+  display: block !important;
+  left: 1rem;
+  clear: both;
+  margin: 1rem 2.5%;
+  vertical-align: baseline;
+  position: relative;
+  padding: 12px;
+  width: 240px;
+  background-color: #fff;
+  border: solid 1px #dfdfdf;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px #cfcfcf;
+  word-wrap: break-word;
+}
