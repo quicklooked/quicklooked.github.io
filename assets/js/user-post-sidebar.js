@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var x = pageYOffset;
     alert(x,dislibar);
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
-    if(x < disableslibar.clientHeight) {
+    if(x < dislibar) {
       if(x > y && x < divSlide.clientHeight) {
         var status = "under1180";
         if(status == "under1180") {
