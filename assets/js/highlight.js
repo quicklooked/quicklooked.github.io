@@ -1,7 +1,7 @@
 var a = document.getElementById("highlight").clientHeight;
 var b = document.getElementById("highlight").offsetTop;
 var x = window.clientWidth - 680;
-var c = b - (a / 2) - 5;
+var c = b - (a / 2) - 6;
 if(a > 0) {
   document.getElementById("highlight2").style.top = c + "px";
   document.getElementById("highlight1").style.width = x + "px";
