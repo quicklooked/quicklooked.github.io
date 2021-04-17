@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
   var dislibar = document.getElementById("disableslibar").offsetTop;
   window.addEventListener("scroll", function() {
     var x = pageYOffset;
-    alert(x,dislibar);
     var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
     if(x < dislibar) {
       if(x > y && x < divSlide.clientHeight) {
