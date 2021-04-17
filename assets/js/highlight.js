@@ -1,6 +1,6 @@
 var a = document.getElementById("highlight").clientHeight;
 var b = document.getElementById("highlight").offsetTop;
-var x = window.clientWidth - 680;
+var x = (window.innerWidth - 680) / 2;
 var c = b - (a / 2) - 6;
 if(a > 0) {
   document.getElementById("highlight2").style.top = c + "px";
