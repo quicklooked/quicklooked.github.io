@@ -418,6 +418,17 @@ twitterAuthor: "@TheEconomist"
 
 <script type="text/javascript">
   $(document).ready(function() {
-    Tipped.create('.simple-tooltip');
+   Tipped.create("#demo-options-callbacks", "This tooltip is a bit more advanced", {
+  skin: 'light',
+  position: 'topleft',
+  close: true,
+  hideOn: false,
+  onShow: function(content, element) {
+    $(element).addClass('highlight');
+  },
+  afterHide: function(content, element) {
+    $(element).removeClass('highlight');
+  }
+});
   });
 </script>
