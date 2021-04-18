@@ -6,7 +6,7 @@
   content: attr(data-tootik);
   box-sizing: border-box;
   font-style: normal;
-  text-align: center;
+  text-align: left;
   font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
   padding: 6px 6px 5px;
   font-size: 15px;
