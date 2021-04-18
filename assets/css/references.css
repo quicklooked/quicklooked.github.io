@@ -7,11 +7,12 @@
   box-sizing: border-box;
   font-style: normal;
   text-align: center;
-  font-family: Century Gothic, AppleGothic, CenturyGothic, sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 6px 6px 5px;
   font-size: 13px;
   line-height: 14px;
-  border-radius: 7px;
+  border-radius: 3px;
+  border: 1px solid #c8ccd1;
   color: #fff;
   -webkit-transition: opacity .3s cubic-bezier(.73, .01, 0, 1), -webkit-transform .3s cubic-bezier(.73, .01, 0, 1);
   transition: opacity .3s cubic-bezier(.73, .01, 0, 1), -webkit-transform .3s cubic-bezier(.73, .01, 0, 1);
