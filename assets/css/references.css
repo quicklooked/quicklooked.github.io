@@ -765,50 +765,70 @@ body .protip-container.protip-mixin--css-no-style .protip-arrow {
 }
 
 .protip-skin-default--scheme-pro.protip-container {
-  color: #000;
-  background: #da2e2b;
-  font-family: sans-serif;
+  color: rgba(117, 117, 117, 1);
+  background: rgb(255, 255, 255);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
   transition: opacity 0.2s ease-out
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="top-left"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="top"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="top-right"] .protip-arrow {
-  border-top-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-top-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="bottom-left"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="bottom"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="bottom-right"] .protip-arrow {
-  border-bottom-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-bottom-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="left-top"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="left"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="left-bottom"] .protip-arrow {
-  border-left-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-left-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="right-top"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="right"] .protip-arrow,
 .protip-skin-default--scheme-pro[data-pt-position="right-bottom"] .protip-arrow {
-  border-right-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-right-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="top-left-corner"] .protip-arrow {
-  border-right-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-right-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="top-right-corner"] .protip-arrow {
-  border-top-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-top-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="bottom-left-corner"] .protip-arrow {
-  border-bottom-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-bottom-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-pro[data-pt-position="bottom-right-corner"] .protip-arrow {
-  border-left-color: #da2e2b
+  box-shadow: rgb(230 230 230) 0px 1px 4px;
+  border: 1px solid rgba(230, 230, 230, 1);
+  border-left-color: rgb(255, 255, 255)
 }
 
 .protip-skin-default--scheme-blue.protip-container {
