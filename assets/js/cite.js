@@ -1,4 +1,4 @@
-$('#inline-popups').magnificPopup({
+$('#cite').magnificPopup({
   delegate: 'a',
   removalDelay: 200, //delay removal by X to allow out-animation
   callbacks: {
