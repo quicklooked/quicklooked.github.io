@@ -40,6 +40,7 @@
   line-height: 28px;
   color: #fff;
   box-sizing: border-box !important;
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 .tpd-has-inner-close .tpd-content-relative .tpd-content {
   padding-right: 0 !important;
