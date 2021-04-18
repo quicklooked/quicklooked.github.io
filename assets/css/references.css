@@ -30,12 +30,6 @@ span.reference {
   font-size: 80%
 }
 
-.refbegin a,
-.references a,
-.reference a {
-  color: black !important
-}
-
 .reference a {
   border-bottom: 0
 }
