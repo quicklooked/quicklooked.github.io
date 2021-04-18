@@ -413,29 +413,23 @@ twitterAuthor: "@TheEconomist"
               </div>
             </section>
 
-<span class="cite_ref" title="First tooltip">I have a tooltip</span>
-<span class="cite_ref" title="Second tooltip">I also have a tooltip</span>
+<div class="example">
+    <span id="demo-options-callbacks" class="highlight">Options $ Callbacks</span>
 
-<script type="text/javascript">
-$(document).ready(function() {
-    Tipped.create("#cite_ref", "This tooltip is a bit more advanced", {
-
-        skin: 'light',
-        position: 'topleft',
-        close: true,
-        hideOn: false,
-        onShow: function(content, element) {
-          $(element).addClass('highlight');
-        }
-
-        ,
-        afterHide: function(content, element) {
-          $(element).removeClass('highlight');
-        }
-      }
-
-    );
-  }
-
-);
-</script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        Tipped.create("#demo-options-callbacks", "This tooltip is a bit more advanced", {
+          skin: 'light',
+          position: 'topleft',
+          close: true,
+          hideOn: false,
+          onShow: function(content, element) {
+            $(element).addClass('highlight');
+          },
+          afterHide: function(content, element) {
+            $(element).removeClass('highlight');
+          }
+        });
+      });
+    </script>
+  </div>
