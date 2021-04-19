@@ -59,9 +59,9 @@ exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffe
 # Gitalk
 gitalk:
   enable: true
-  clientID: 039b42c247d149ac9a4a
-  clientSecret: 61f48787e656fb3a7bb0d0a20a25de134b705fb3
-  repo: Talk
+  clientID: 7d1d6e81e49f1c4dbfaf
+  clientSecret: 1894a92f91de7a8ce4d2cba4ae27ac2b1f1dad00
+  repo: Gitalk
   owner: quicklooked
   admin: quicklooked
   distractionFreeMode: false
