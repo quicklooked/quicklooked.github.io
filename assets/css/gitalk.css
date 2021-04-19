@@ -905,7 +905,7 @@
 
 .gt-container .gt-btn {
   display: inline-block;
-  line-height: 1;
+  line-height: 20px;
   text-decoration: none;
   cursor: pointer;
   color: #fff;
@@ -968,10 +968,9 @@
 }
 
 .gt-container .gt-btn-public:hover {
-  background: linear-gradient(#42a1ec, #0070c9);
-  background-color: #0070c9;
-  border-color: #0077cc;
-  border-width: 1px;
+  background: rgba(15, 115, 12, 1);
+  background-color: rgba(15, 115, 12, 1);
+  border-color: rgba(15, 115, 12, 1);
   border-style: solid;
 }
 
