@@ -1255,6 +1255,7 @@
 .gt-container .gt-comments {
   padding-top: 0px;
   padding-bottom: 28.080px;
+	display:none;
 }
 
 .gt-container .gt-comments-null {
