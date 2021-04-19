@@ -910,24 +910,24 @@
   cursor: pointer;
   color: #fff;
   font-size: 12px;
-  padding: 0.75em 1.25em;
+  padding: 4px 12px 6px;
   text-align: center;
   white-space: nowrap;
-  border-color: rgb(0, 119, 204);
-  background: linear-gradient(#42a1ec, #0070c9);
-  background-color: #0070c9;
+  border-color: rgb(26, 137, 23);
+  background: rgb(26, 137, 23);
+  background-color: rgb(26, 137, 23);
   border-width: 1px;
   outline: none;
   border-style: solid;
-  border-radius: 4px;
+  border-radius: 99em;
 }
 
 .gt-container .gt-btn-text {
   font-weight: 400;
-  font-family: 'Feed', "Segoe UI", sans-serif !important;
-  line-height: normal;
-  font-size: 12px;
-  color: inherit;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
 }
 
 .gt-container .gt-btn-loading {
