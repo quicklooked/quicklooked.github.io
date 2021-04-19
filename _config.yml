@@ -54,12 +54,3 @@ paginate: 10
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
-
-# gittalk comments
-gitalk:
-  enable: true
-  owner: quicklooked # github username
-  repo: comment # repo name to store comments
-  admin: quicklooked # owner of repo above
-  clientID: de4ef82c18197f8b1207  # application id and secret
-  clientSecret: fda73615bad526dad975c49c28010103b64a456e
