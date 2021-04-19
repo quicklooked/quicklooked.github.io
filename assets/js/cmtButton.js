@@ -1,8 +1,11 @@
 function cmtButton() {
-  var x = document.getElementById("cmtButton");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+	var x = document.getElementById("cmtButton");
+	if(attr['aria-label'].value == "close") {
+		x.style.display = "none";
+		document.getElementById("cmtButton").ariaLabel = "open";
+	}
+	else {
+		x.style.display = "block";
+		document.getElementById("cmtButton").ariaLabel = "close";
+	}
 }
