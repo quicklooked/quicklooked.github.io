@@ -2,8 +2,9 @@
 name: 'Quicklook'
 description: 'Quicklook’s corporate mission is “to organize the world’s product information and make it symmetric and useful.” Our business philosophy is “continuous improvement to survive and develop”. Our goal is “to global brand”'
 logo: ''
-favicon: ''
-baseurl: ''
+favicon: '/assets/images/fit/32/1_m-R_BkNf1Qjr1YbyOIJY2w.png'
+baseurl: '/'
+url: "https://quicklooked.github.io/"
 disqus: ''
 email: ''
 
@@ -18,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    quicklook:
+    quicklooked:
       name:           Quicklook
       site:           https://quicklooked.github.io/@quicklook
       avatar:         ''
