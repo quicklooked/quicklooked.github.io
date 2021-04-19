@@ -756,7 +756,7 @@
 .gt-container * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Feed', "Segoe UI", sans-serif !important;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: inherit;
   font-size: 16px;
   color: #292929;
@@ -1320,7 +1320,7 @@
   line-height: 20px;
   margin-right: 4px;
   background-image: none;
-  font-family: 'Feed', "Segoe UI", sans-serif !important;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .gt-container .gt-comment-username:hover {
@@ -1344,7 +1344,7 @@
   font-size: 16px;
   line-height: 20px;
   background-image: none;
-  font-family: 'Feed', "Segoe UI", sans-serif !important;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .gt-container .gt-comment-like,
