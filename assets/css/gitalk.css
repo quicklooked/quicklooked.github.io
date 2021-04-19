@@ -949,17 +949,17 @@
 }
 
 .gt-container .gt-btn-preview {
-  background-color: rgba(134, 132, 132, 1);
-  background: rgba(134, 132, 132, 1);
+  background-color: rgb(201, 74, 74);
+  background: rgb(201, 74, 74);
   border-style: solid;
-  border-color: rgba(134, 132, 132, 1);
+  border-color: rgb(201, 74, 74);
 }
 
 .gt-container .gt-btn-preview:hover {
-  background-color: rgba(115, 115, 113, 1);
-  background: rgba(115, 115, 113, 1);
+  background-color: rgba(171, 65, 65, 1);
+  background: rgba(171, 65, 65, 1);
   border-style: solid;
-  border-color: rgba(115, 115, 113, 1);
+  border-color: rgba(171, 65, 65, 1);
 }
 
 .gt-container .gt-btn-public:hover {
