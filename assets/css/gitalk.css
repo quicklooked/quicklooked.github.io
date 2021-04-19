@@ -1144,9 +1144,9 @@
   transition: min-height 400ms ease 0s;
   max-height: 15em;
   border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 0px solid rgba(0, 0, 0, 0.1);
   box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   word-wrap: break-word;
   resize: vertical;
@@ -1164,10 +1164,11 @@
 }
 
 .gt-container .gt-header-preview {
-  padding: 0.75em;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 14px;
+  border-radius: 4px;
+  border: 0px solid rgba(0, 0, 0, 0.1);
   background-color: #f6f6f6;
+  box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
 }
 
 .gt-container .gt-header-controls {
