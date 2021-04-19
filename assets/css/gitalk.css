@@ -948,17 +948,17 @@
 }
 
 .gt-container .gt-btn-preview {
-  background-color: #767676;
-  background: #767676;
+  background-color: rgba(134, 132, 132, 1);
+  background: rgba(134, 132, 132, 1);
   border-style: solid;
-  border-color: #767676;
+  border-color: rgba(134, 132, 132, 1);
 }
 
 .gt-container .gt-btn-preview:hover {
-  background-color: #000;
-  background: #000;
+  background-color: rgba(115, 115, 113, 1);
+  background: rgba(115, 115, 113, 1);
   border-style: solid;
-  border-color: #000;
+  border-color: rgba(115, 115, 113, 1);
 }
 
 .gt-container .gt-btn-public:hover {
