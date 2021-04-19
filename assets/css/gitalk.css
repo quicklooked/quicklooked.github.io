@@ -1315,8 +1315,8 @@
 
 .gt-container .gt-comment-username {
   font-weight: 400;
-  color: #292929;
-  font-size: 16px;
+  color: rgba(41, 41, 41, 1);
+  font-size: 14px;
   line-height: 20px;
   margin-right: 4px;
   background-image: none;
@@ -1340,8 +1340,8 @@
 .gt-container .gt-comment-date {
   margin-left: 0px;
   margin-bottom: 0px;
-  color: #757575;
-  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
   line-height: 20px;
   background-image: none;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
