@@ -1147,8 +1147,8 @@
   transition: all 0.25s ease;
   border-style: solid;
   outline: none;
-	white-space: pre-wrap;
-	overflow-wrap: break-word;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
 }
 
 .gt-container .gt-header-textarea:hover {
@@ -1158,12 +1158,12 @@
 .gt-container .gt-header-preview {
   padding: 14px;
   border-radius: 4px;
-	max-height: 210px;
-	overflow-y: auto;
+  max-height: 210px;
+  overflow-y: auto;
   border: 0px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
   box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
-	min-height: 100px;
+  min-height: 100px;
 }
 
 .gt-container .gt-header-controls {
@@ -1249,7 +1249,7 @@
 .gt-container .gt-comments {
   padding-top: 0px;
   padding-bottom: 28.080px;
-	display:none;
+  display: none;
 }
 
 .gt-container .gt-comments-null {
