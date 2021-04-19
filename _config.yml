@@ -61,5 +61,5 @@ gitalk:
   owner: quicklooked # github username
   repo: comment # repo name to store comments
   admin: quicklooked # owner of repo above
-  clientID: e51781fda744be99abb0  # application id and secret
-  clientSecret: fffe3b0f1493cc435b29429e8a46d54f2b62fbef
+  clientID: de4ef82c18197f8b1207  # application id and secret
+  clientSecret: fda73615bad526dad975c49c28010103b64a456e
