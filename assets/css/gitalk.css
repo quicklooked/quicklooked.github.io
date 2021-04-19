@@ -23,7 +23,7 @@
 }
 
 ::placeholder {
-  color: #999;
+  opacity: 0.333;
   font-size: 14px;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 24px;
@@ -1135,24 +1135,28 @@
 }
 
 .gt-container .gt-header-textarea {
-  padding: 0.45em;
+  padding: 14px;
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  min-height: 5.125em;
+  min-height: 100px;
+  transition: min-height 400ms ease 0s;
   max-height: 15em;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
   font-size: 16px;
   line-height: 24px;
   word-wrap: break-word;
   resize: vertical;
   background-color: #fff;
-  outline: none;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
   border-style: solid;
+  outline: none;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
 }
 
 .gt-container .gt-header-textarea:hover {
