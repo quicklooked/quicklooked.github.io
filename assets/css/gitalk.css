@@ -1134,7 +1134,7 @@
   width: 100%;
   min-height: 96px;
   transition: min-height 400ms ease 0s;
-  max-height: 120em;
+  max-height: 120px;
   border-radius: 4px;
   border: 0px solid rgba(0, 0, 0, 0.1);
   box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
