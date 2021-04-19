@@ -1,7 +1,7 @@
 function cmtButton() {
 	var x = document.getElementById("cmtButton");
 	var attr = document.getElementById("cmtButton1");
-	if(attr['aria-label'].value = "open") {
+	if(document.getElementById("cmtButton1").ariaLabel = "open") {
 		x.style.display = "block";
 		document.getElementById("cmtButton1").ariaLabel = "close";
 	}
