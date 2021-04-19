@@ -948,23 +948,17 @@
 }
 
 .gt-container .gt-btn-preview {
-  background-color: #fff;
-  color: #0070c9;
-  background: none;
-  border-width: 1px;
+  background-color: #767676;
+  background: #767676;
   border-style: solid;
-  border-color: #E3E3E3;
-  background: linear-gradient(#FFFFFF, #E3E3E3);
+  border-color: #767676;
 }
 
 .gt-container .gt-btn-preview:hover {
-  background-color: #fff;
-  color: #0070c9;
-  background: none;
-  border-width: 1px;
+  background-color: #000;
+  background: #000;
   border-style: solid;
-  border-color: #E3E3E3;
-  background: linear-gradient(#FFFFFF, #E3E3E3);
+  border-color: #000;
 }
 
 .gt-container .gt-btn-public:hover {
