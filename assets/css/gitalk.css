@@ -919,6 +919,7 @@
   outline: none;
   border-style: solid;
   border-radius: 99em;
+  border-width: 1px;
 }
 
 .gt-container .gt-btn-text {
