@@ -1158,6 +1158,8 @@
 .gt-container .gt-header-preview {
   padding: 14px;
   border-radius: 4px;
+	max-height: 210px;
+	overflow-y: auto;
   border: 0px solid rgba(0, 0, 0, 0.1);
   background-color: #fff;
   box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
