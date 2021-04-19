@@ -54,13 +54,3 @@ paginate: 10
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
-
-
-# Gitalk
-gitalk:
-  clientID: e51781fda744be99abb0
-  clientSecret: fffe3b0f1493cc435b29429e8a46d54f2b62fbef
-  repo: Comment
-  owner: quicklooked
-  admin: [quicklooked]
-  distractionFreeMode: false 
