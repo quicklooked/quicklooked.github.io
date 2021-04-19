@@ -1013,6 +1013,7 @@
   padding-top: 0px;
   position: inherit;
   z-index: 10;
+  display:none;
 }
 
 .gt-container .gt-meta:before,
@@ -1134,20 +1135,18 @@
 }
 
 .gt-container .gt-header-textarea {
-  padding: 14px;
+padding: 66px 14px 14px 14px;
   display: block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  min-height: 120px;
+  min-height: 198px;
   transition: min-height 400ms ease 0s;
-  max-height: 120px;
   border-radius: 4px;
   border: 0px solid rgba(0, 0, 0, 0.1);
   box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
   font-size: 14px;
   line-height: 24px;
-  word-wrap: break-word;
   resize: vertical;
   background-color: #fff;
   -webkit-transition: all 0.25s ease;
@@ -1155,7 +1154,6 @@
   border-style: solid;
   outline: none;
   white-space: pre-wrap;
-  overflow-wrap: break-word;
 }
 
 .gt-container .gt-header-textarea:hover {
