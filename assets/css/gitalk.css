@@ -871,7 +871,7 @@
 	display: inline-block;
 	width: 32px;
 	height: 32px;
-	margin: 14px 14px 6px 14px;
+	margin: 14px 0px 6px 14px;
 	z-index: 1;
 }
 
@@ -879,7 +879,7 @@
 	.gt-container .gt-avatar {
 		width: 32px;
 		height: 32px;
-		margin: 14px 14px 6px 14px;
+		margin: 14px 0px 6px 14px;
 		z-index: 1;
 	}
 }
@@ -895,7 +895,7 @@
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	margin: 14px 14px 6px 14px;
+	margin: 14px 0px 6px 14px;
 	z-index: 1;
 }
 
@@ -903,7 +903,7 @@
 	.gt-container .gt-avatar-github {
 		width: 32px;
 		height: 32px;
-		margin: 14px 14px 6px 14px;
+		margin: 14px 0px 6px 14px;
 		z-index: 1;
 	}
 }
