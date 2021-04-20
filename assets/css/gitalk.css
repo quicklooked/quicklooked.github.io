@@ -1145,7 +1145,7 @@
 }
 
 .gt-container .gt-header-textarea {
-    padding: 66px 14px 60px 14px;
+    padding: 66px 14px 66px 14px;
     display: block;
     width: 100%;
     min-height: 198px;
@@ -1167,7 +1167,7 @@
 }
 
 .gt-container .gt-header-preview {
-    padding: 66px 14px 60px 14px;
+    padding: 66px 14px 66px 14px;
     border-radius: 4px;
     min-height: 198px;
     width: 100%;
