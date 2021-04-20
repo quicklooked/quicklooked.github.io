@@ -1398,7 +1398,7 @@
 .gt-container .gt-comment-body {
 	color: #292929 !important;
 	line-height: 24px !important;
-	margin-top: 5px;
+	margin: 5px 0px 5px 0px;
 }
 
 .gt-container .gt-comment-body .email-hidden-toggle a {
