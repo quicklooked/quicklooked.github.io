@@ -1272,8 +1272,7 @@
 
 .gt-container .gt-comments-controls {
     text-align: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding: 24px 0px 24px 0px;
 }
 
 .gt-container .gt-comment {
