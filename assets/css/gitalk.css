@@ -1326,7 +1326,7 @@
 	color: rgba(41, 41, 41, 1);
 	font-size: 14px;
 	line-height: 20px !important;
-	margin-right: 4px;
+	margin-left: 44px;
 	background-image: none;
 	font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -1341,12 +1341,12 @@
 	font-size: 12px;
 	line-height: normal;
 	background-image: none;
-	font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+	font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 	display: none;
 }
 
 .gt-container .gt-comment-date {
-	margin-left: 0px;
+	margin-left: 44px;
 	margin-bottom: 0px;
 	color: rgba(117, 117, 117, 1);
 	font-size: 14px;
