@@ -1134,11 +1134,13 @@
     -ms-flex: 1;
     flex: 1;
     margin: 0px 0px 0px -46px;
+    width: 100%;
 }
 
 @media (max-width: 480px) {
     .gt-container .gt-header-comment {
         margin: 0px 0px 0px -46px;
+        width: 100%;
     }
 }
 
