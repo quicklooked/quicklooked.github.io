@@ -1179,7 +1179,7 @@
 
 .gt-container .gt-header-controls {
     position: relative;
-    margin: 24px 0 0;
+    margin: -46px 0 0 0;
 }
 
 .gt-container .gt-header-controls:before,
@@ -1220,7 +1220,7 @@
 @media (max-width: 480px) {
     .gt-container .gt-header-controls .gt-btn {
         float: right;
-        margin: 24px 0 0;
+        margin: -46px 0 0 0;
         margin-left: 8px;
     }
 
