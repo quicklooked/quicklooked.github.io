@@ -1280,12 +1280,11 @@
 
 .gt-container .gt-comment-content {
 	-webkit-box-flex: 1;
-	-ms-flex: 1;
+	max-width: 366px;
 	flex: 1;
 	overflow: auto;
-	-webkit-transition: all ease 0.25s;
 	transition: all ease 0.25s;
-	margin: 0px 0px 0px -32px;
+	margin: 0px 0px 0px -46px;
 }
 
 .gt-container .gt-comment-content:hover {
@@ -1295,7 +1294,7 @@
 
 @media (max-width: 480px) {
 	.gt-container .gt-comment-content {
-	margin: 0px 0px 0px -32px;
+	margin: 0px 0px 0px -46px;
 	}
 }
 
