@@ -1303,7 +1303,7 @@
 	font-size: 16px;
 	line-height: 20px;
 	position: relative;
-	height: 40px;
+	height: 41px;
 }
 
 .gt-container .gt-comment-block-1 {
@@ -1324,7 +1324,7 @@
 	font-weight: 400;
 	color: rgba(41, 41, 41, 1);
 	font-size: 14px;
-	line-height: 20px;
+	line-height: 20px !important;
 	margin-right: 4px;
 	background-image: none;
 	font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
