@@ -1220,7 +1220,6 @@
 @media (max-width: 480px) {
     .gt-container .gt-header-controls .gt-btn {
         float: right;
-        width: 36%;
         margin: 24px 0 0;
     }
 
