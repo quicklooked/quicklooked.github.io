@@ -1221,6 +1221,7 @@
     .gt-container .gt-header-controls .gt-btn {
         float: right;
         margin: 24px 0 0;
+        margin-left: 8px;
     }
 
     .gt-container .gt-btn-preview {
