@@ -1136,6 +1136,7 @@
 .gt-container .gt-header-textarea {
 	padding: 66px 14px 14px 14px;
 	display: block;
+	max-width: 366px;
 	width: 100%;
 	min-height: 198px;
 	transition: min-height 400ms ease 0s;
@@ -1159,6 +1160,8 @@
 	padding: 66px 14px 14px 14px;
 	border-radius: 4px;
 	min-height: 198px;
+	max-width: 366px;
+	width: 100%;
 	border: 0px solid rgba(0, 0, 0, 0.1);
 	background-color: #fff;
 	box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
