@@ -1136,8 +1136,6 @@
 .gt-container .gt-header-textarea {
 	padding: 66px 14px 14px 14px;
 	display: block;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
 	width: 100%;
 	min-height: 198px;
 	transition: min-height 400ms ease 0s;
@@ -1146,13 +1144,11 @@
 	box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
 	font-size: 14px;
 	line-height: 24px;
-	resize: vertical;
 	background-color: #fff;
-	-webkit-transition: all 0.25s ease;
-	transition: all 0.25s ease;
 	border-style: solid;
 	outline: none;
 	white-space: pre-wrap;
+	overflow-y: hidden !important;
 }
 
 .gt-container .gt-header-textarea:hover {
@@ -1166,6 +1162,7 @@
 	border: 0px solid rgba(0, 0, 0, 0.1);
 	background-color: #fff;
 	box-shadow: rgb(0 0 0 / 12%) 0px 2px 8px;
+	overflow-y: hidden !important;
 }
 
 .gt-container .gt-header-controls {
