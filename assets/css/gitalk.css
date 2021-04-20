@@ -1370,11 +1370,9 @@
 }
 
 .gt-container .gt-comment-like {
-	margin-right: 5px;
-	margin-top: 14px;
+	margin: 14px 5px 0px 0px;
 	height: 25px;
-	margin-bottom: 0px;
-	left: 44px;
+	left: 0;
 	background-image: none;
 }
 
