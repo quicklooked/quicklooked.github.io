@@ -1307,10 +1307,11 @@
 }
 
 .gt-container .gt-comment-block-1 {
-	float: right;
+	float: left;
 	height: 25px;
 	margin-top: 14px;
-	width: 50px;
+	width: 100%;
+	max-width: 366px;
 }
 
 .gt-container .gt-comment-block-2 {
