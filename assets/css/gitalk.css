@@ -232,7 +232,7 @@
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-	padding: 8px;
+	padding: 4px;
 	overflow: auto;
 	font-size: 85%;
 	line-height: 14px;
@@ -883,8 +883,8 @@
 }
 
 .gt-container .gt-avatar img {
-	width: 100%;
-	height: auto;
+	width: 32px;
+	height: 32px;
 	border-radius: 50%;
 	z-index: 1;
 }
