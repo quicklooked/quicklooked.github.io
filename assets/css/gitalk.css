@@ -232,7 +232,7 @@
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-    padding: 4px;
+    padding: 12px;
     overflow: auto;
     font-size: 85%;
     line-height: 14px;
@@ -662,7 +662,7 @@
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-    padding: 4px;
+    padding: 12px;
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
