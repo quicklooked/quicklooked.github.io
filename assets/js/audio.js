@@ -1,5 +1,5 @@
 $(document).ready(function() {});
-$(window).on("load", function() {});
+$(window).on('load', function() {});
 $(window).resize(function() {});
 
 function addAudioControls() {
@@ -22,21 +22,8 @@ function addAudioControls() {
       audio.play();
       $(this).parent().find(".GNPAplayerControls_Play").css("display", "none");
       $(this).parent().find(".GNPAplayerControls_Pause").css("display", "flex");
-      //console.log("Play1: "+$(this).parent().parent().parent().parent().find("audio").attr("id"));
-      appInsights.trackEvent("Podcast Play",
-        // String properties:
-        {
-          ID: TGNPageID,
-          URL: TGNPageURL,
-          AUDIO: audio.src,
-          USERID: currentUserUserName,
-          EMAIL: currentUserEmail,
-          CID: localStorage.getItem("currentUserCampaignQS")
-        },
-        // Numeric metrics:
-        {
-          UNIT: 1
-        });
+      console.log("Play1: " + $(this).parent().parent().parent().parent().find("audio").attr("id"));
+      appInsights.trackEvent("Podcast Play");
       e.stopImmediatePropagation();
     });
     $(this).find(".GNPAplayerControls_Pause").click(function(e) {
@@ -44,30 +31,17 @@ function addAudioControls() {
       $(this).parent().find(".GNPAplayerControls_Play").css("display", "flex");
       $(this).parent().find(".GNPAplayerControls_Pause").css("display", "none");
       //console.log("Pause1: "+$(this).parent().parent().parent().parent().find("audio").attr("id"));
-      appInsights.trackEvent("Podcast Pause",
-        // String properties:
-        {
-          ID: TGNPageID,
-          URL: TGNPageURL,
-          AUDIO: audio.src,
-          USERID: currentUserUserName,
-          EMAIL: currentUserEmail,
-          CID: localStorage.getItem("currentUserCampaignQS")
-        },
-        // Numeric metrics:
-        {
-          UNIT: 1
-        });
+      appInsights.trackEvent("Podcast Pause");
       e.stopImmediatePropagation();
     });
-    $(this).find(".GNPAplayerControls_ScrubBar").on("mousedown touchstart", function(e) {
+    $(this).find(".GNPAplayerControls_ScrubBar").on('mousedown touchstart', function(e) {
       //console.log("start");
       $("DebugText").html();
       isDragging = true;
       var clickBarPercent = (e.clientX - 10 - $(this).offset().left) / $(this).width();
       audio.currentTime = audio.duration * clickBarPercent;
     });
-    $(this).find(".GNPAplayerControlsLeft").on("mouseenter mousemove", function(e) {
+    $(this).find(".GNPAplayerControlsLeft").on('mouseenter mousemove', function(e) {
       if(isDragging) {
         //console.log("move");
         audio.pause();
@@ -76,8 +50,8 @@ function addAudioControls() {
         var clickBarPercent = (e.clientX - 10 - $(this).find(".GNPAplayerControls_ScrubBar").offset().left) / $(this).find(".GNPAplayerControls_ScrubBar").width();
         audio.currentTime = audio.duration * clickBarPercent;
       }
-    });
-    $(this).find(".GNPAplayerControlsLeft").on("mouseup mouseleave touchend", function(e) {
+    })
+    $(this).find(".GNPAplayerControlsLeft").on('mouseup mouseleave touchend', function(e) {
       if(isDragging) {
         var clickBarPercent = (e.clientX - 10 - $(this).find(".GNPAplayerControls_ScrubBar").offset().left) / $(this).find(".GNPAplayerControls_ScrubBar").width();
         if(clickBarPercent > 0) {
@@ -99,12 +73,11 @@ function addAudioControls() {
       $(this).parent().find(".GNPAplayerControls_VolumeOn").css("display", "flex");
       $(this).parent().find(".GNPAplayerControls_VolumeBarProg").css("width", "100%");
     });
-    $(this).find(".GNPAplayerControls_VolumeBar").on("mousedown touchstart", function(e) {
+    $(this).find(".GNPAplayerControls_VolumeBar").on('mousedown touchstart', function(e) {
       //console.log("Vstart");
       isVolDragging = true;
       var clickVolBar = (e.clientX - $(this).offset().left) / $(this).width();
-      var clickVolBarPercent = Math.ceil(
-        ((e.clientX - $(this).offset().left) / $(this).width()) * 100);
+      var clickVolBarPercent = Math.ceil((e.clientX - $(this).offset().left) / $(this).width() * 100);
       if(clickVolBar < 0) {
         clickVolBar = 0;
       }
@@ -123,12 +96,11 @@ function addAudioControls() {
         $(this).parent().find(".GNPAplayerControls_VolumeBarProg").css("width", "2%");
       }
     });
-    $(this).find(".GNPAplayerControls_Volume").on("mouseenter mousemove", function(e) {
+    $(this).find(".GNPAplayerControls_Volume").on('mouseenter mousemove', function(e) {
       if(isVolDragging) {
         //console.log("Vmove");
         var clickVolBar = (e.clientX - $(this).find(".GNPAplayerControls_VolumeBar").offset().left) / $(this).find(".GNPAplayerControls_VolumeBar").width();
-        var clickVolBarPercent = Math.ceil(
-          ((e.clientX - $(this).find(".GNPAplayerControls_VolumeBar").offset().left) / $(this).find(".GNPAplayerControls_VolumeBar").width()) * 100);
+        var clickVolBarPercent = Math.ceil((e.clientX - $(this).find(".GNPAplayerControls_VolumeBar").offset().left) / $(this).find(".GNPAplayerControls_VolumeBar").width() * 100);
         if(clickVolBar < 0) {
           clickVolBar = 0;
         }
@@ -147,12 +119,11 @@ function addAudioControls() {
           $(this).find(".GNPAplayerControls_VolumeBarProg").css("width", "2%");
         }
       }
-    });
-    $(this).find(".GNPAplayerControls_Volume").on("mouseup mouseleave touchend", function(e) {
+    })
+    $(this).find(".GNPAplayerControls_Volume").on('mouseup mouseleave touchend', function(e) {
       if(isVolDragging) {
         var clickVolBar = (e.clientX - $(this).find(".GNPAplayerControls_VolumeBar").offset().left) / $(this).find(".GNPAplayerControls_VolumeBar").width();
-        var clickVolBarPercent = Math.ceil(
-          ((e.clientX - $(this).find(".GNPAplayerControls_VolumeBar").offset().left) / $(this).find(".GNPAplayerControls_VolumeBar").width()) * 100);
+        var clickVolBarPercent = Math.ceil((e.clientX - $(this).find(".GNPAplayerControls_VolumeBar").offset().left) / $(this).find(".GNPAplayerControls_VolumeBar").width() * 100);
         if(clickVolBar < 0) {
           clickVolBar = 0;
         }
@@ -182,64 +153,25 @@ function addAudioControls() {
       var playerID = $(this).find("audio").attr("id");
       var audio = document.getElementById(playerID);
       progress_seconds = audio.currentTime;
-      progress_percent = Math.ceil((audio.currentTime / audio.duration) * 100);
+      progress_percent = Math.ceil(audio.currentTime / audio.duration * 100);
       var audioMinutes = progress_seconds / 60;
       var audioMinutesTotal = audio.duration / 60;
-      $("#" + playerID).parent().find(".GNPAplayerControls_TimeNow").html(audioMinutes.toFixed(2));
-      $("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").css("width", progress_percent + "%");
+      $("#" + playerID).parent().find('.GNPAplayerControls_TimeNow').html(audioMinutes.toFixed(2));
+      $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').css('width', progress_percent + "%");
       //10% tracking
-      if($("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").attr("data-playstatus") == "unplayed" && progress_percent > 10) {
-        $("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").attr("data-playstatus", "10");
-        appInsights.trackEvent("Podcast Play 10",
-          // String properties:
-          {
-            ID: TGNPageID,
-            URL: TGNPageURL,
-            AUDIO: audio.src,
-            USERID: currentUserUserName,
-            EMAIL: currentUserEmail,
-            CID: localStorage.getItem("currentUserCampaignQS")
-          },
-          // Numeric metrics:
-          {
-            UNIT: 1
-          });
+      if($("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus") == "unplayed" && progress_percent > 10) {
+        $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus", "10");
+        appInsights.trackEvent("Podcast Play 10");
       }
       //50% tracking
-      if($("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").attr("data-playstatus") == "10" && progress_percent > 50) {
-        $("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").attr("data-playstatus", "50");
-        appInsights.trackEvent("Podcast Play 50",
-          // String properties:
-          {
-            ID: TGNPageID,
-            URL: TGNPageURL,
-            AUDIO: audio.src,
-            USERID: currentUserUserName,
-            EMAIL: currentUserEmail,
-            CID: localStorage.getItem("currentUserCampaignQS")
-          },
-          // Numeric metrics:
-          {
-            UNIT: 1
-          });
+      if($("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus") == "10" && progress_percent > 50) {
+        $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus", "50");
+        appInsights.trackEvent("Podcast Play 50");
       }
       //90% tracking
-      if($("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").attr("data-playstatus") == "50" && progress_percent > 90) {
-        $("#" + playerID).parent().find(".GNPAplayerControls_ScrubBarProg").attr("data-playstatus", "90");
-        appInsights.trackEvent("Podcast Play 90",
-          // String properties:
-          {
-            ID: TGNPageID,
-            URL: TGNPageURL,
-            AUDIO: audio.src,
-            USERID: currentUserUserName,
-            EMAIL: currentUserEmail,
-            CID: localStorage.getItem("currentUserCampaignQS")
-          },
-          // Numeric metrics:
-          {
-            UNIT: 1
-          });
+      if($("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus") == "50" && progress_percent > 90) {
+        $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus", "90");
+        appInsights.trackEvent("Podcast Play 90");
       }
       if(audioMinutesTotal.toFixed(2) != "NaN") {
         $("#" + playerID).parent().find(".GNPAplayerControls_Time").html(audioMinutesTotal.toFixed(2));
@@ -257,5 +189,5 @@ function addAudioControls() {
         $(this).parent().find(".GNPAplayerControls_Pause").css("display", "none");
       }
     });
-  }
+  };
 }
