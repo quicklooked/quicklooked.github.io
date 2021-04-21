@@ -23,7 +23,6 @@ function addAudioControls() {
       $(this).parent().find(".GNPAplayerControls_Play").css("display", "none");
       $(this).parent().find(".GNPAplayerControls_Pause").css("display", "flex");
       console.log("Play1: " + $(this).parent().parent().parent().parent().find("audio").attr("id"));
-      appInsights.trackEvent("Podcast Play");
       e.stopImmediatePropagation();
     });
     $(this).find(".GNPAplayerControls_Pause").click(function(e) {
@@ -31,7 +30,6 @@ function addAudioControls() {
       $(this).parent().find(".GNPAplayerControls_Play").css("display", "flex");
       $(this).parent().find(".GNPAplayerControls_Pause").css("display", "none");
       //console.log("Pause1: "+$(this).parent().parent().parent().parent().find("audio").attr("id"));
-      appInsights.trackEvent("Podcast Pause");
       e.stopImmediatePropagation();
     });
     $(this).find(".GNPAplayerControls_ScrubBar").on('mousedown touchstart', function(e) {
@@ -161,17 +159,14 @@ function addAudioControls() {
       //10% tracking
       if($("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus") == "unplayed" && progress_percent > 10) {
         $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus", "10");
-        appInsights.trackEvent("Podcast Play 10");
       }
       //50% tracking
       if($("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus") == "10" && progress_percent > 50) {
         $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus", "50");
-        appInsights.trackEvent("Podcast Play 50");
       }
       //90% tracking
       if($("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus") == "50" && progress_percent > 90) {
         $("#" + playerID).parent().find('.GNPAplayerControls_ScrubBarProg').attr("data-playstatus", "90");
-        appInsights.trackEvent("Podcast Play 90");
       }
       if(audioMinutesTotal.toFixed(2) != "NaN") {
         $("#" + playerID).parent().find(".GNPAplayerControls_Time").html(audioMinutesTotal.toFixed(2));
