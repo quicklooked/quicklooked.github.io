@@ -656,15 +656,83 @@ function updateProgress() {
 
     }
 </script>
-
-
-
 <style>
+    .InlineAudioGating {
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, .9), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+        position: relative;
+        top: -120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+        margin-bottom: -120px;
+    }
+
+    .InlineAudioGatingInner {
+        border: 1px solid black;
+        padding: 30px 70px;
+        background: white;
+    }
+    .InlineAudioGatingTop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .InlineAudioGatingBottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .InlineAudioGatingButton:hover {
+        background-color: black;
+    }
+    .InlineAudioGatingButton {
+        display: inline-block;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 40px;
+        line-height: 40px;
+        cursor: pointer;
+        text-align: center;
+        font-family: 'Roboto Condensed', 'Asap Condensed', 'neue-haas-unica', sans-serif;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-bottom: 0px;
+        letter-spacing: .3px;
+        width: 125px;
+        background-color: #0049fb;
+        border: 1px solid #0049fb;
+        color: white;
+    }
+    .InlineAudioGatingLockup {
+        max-width: 350px;
+    }
+    .InlineAudioGatingT1 {
+        font-family: source-serif-pro, 'Source Serif Pro', 'Lyon Display Web','LyonDisplay-Medium', serif;
+        font-size: 37px;
+        line-height: 42px;
+        letter-spacing: -0.1px;
+        font-weight: 900;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .InlineAudioGatingT2 {
+        font-family: 'HelveticaNeueW01-45Ligh','neue-haas-unica', sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: .3px;
+        text-align: center;
+    }
+
     .PodcastEpisode_Player {
         user-select: none;
     }
 
-    .PodcastEpisode_Inline {
+    .IAE_PodcastEpisode_Inline {
         width: 100%;
         background: #F2F5F7;
         position: relative;
@@ -675,6 +743,7 @@ function updateProgress() {
         margin-right: auto !important;
         border-radius: 20px;
     }
+
     .PodcastEpisode_InlineInner {
         margin-left: 20px;
         margin-right: 20px;
@@ -682,6 +751,7 @@ function updateProgress() {
         align-items: center;
         justify-content: space-between;
     }
+
     .PodcastEpisode_InlineTop {
         display: flex;
         align-items: flex-start;
@@ -689,6 +759,7 @@ function updateProgress() {
         flex-direction: column;
         width: 72%;
     }
+
     .PodcastEpisode_InlineThumbnail {
         width: 24%;
         align-self: flex-start;
@@ -798,6 +869,7 @@ function updateProgress() {
         .PodcastEpisode_Desc a:hover {
             text-decoration: underline;
         }
+
     .PodcastEpisode_Transcript {
         color: #000 !important;
         text-decoration: none;
@@ -819,6 +891,7 @@ function updateProgress() {
         display: flex;
         flex-direction: column;
     }
+
     .PodcastEpisode_InlinePlayer {
         width: 95%;
     }
@@ -830,6 +903,7 @@ function updateProgress() {
         justify-content: space-between;
         width: 100%;
     }
+
     .GNPAplayerControlsLeft {
         display: flex;
         align-items: center;
@@ -847,6 +921,7 @@ function updateProgress() {
         justify-content: center;
         margin-right: 10px;
     }
+
     .GNPAplayerControls_ScrubBar {
         width: 56%;
         height: 3px;
@@ -863,6 +938,7 @@ function updateProgress() {
         width: 3%;
         background-color: #fe5900;
     }
+
         .GNPAplayerControls_ScrubBarProg:after {
             width: 10px;
             height: 10px;
@@ -902,6 +978,7 @@ function updateProgress() {
         width: 3%;
         background-color: #fe5900;
     }
+
         .GNPAplayerControls_VolumeBarProg:after {
             width: 10px;
             height: 10px;
@@ -989,9 +1066,11 @@ function updateProgress() {
     .GNPAplayerControls_VolumeBar:hover {
         opacity: .6;
     }
+
     @media all and (max-width: 1220px) {
         /*Narrower than max header*/
     }
+
     @media all and (max-width: 850px) {
         /*Narrower than body-max*/
     }
@@ -1019,11 +1098,28 @@ function updateProgress() {
 
     @media all and (max-width: 680px) {
         /*Mobile only*/
+        .InlineAudioGatingT1 {
+            font-size: 33px;
+            line-height: 34px;
+        }
+        .InlineAudioGatingButton {
+            width: 60px;
+            margin-left: 6px;
+            margin-right: 6px;
+        }
+
+        .InlineAudioGatingLockup {
+            max-width: 240px;
+        }
+        .InlineAudioGatingInner {
+            padding: 20px 30px;
+        }
+
         .PodcastEpisode_InlineThumbnail {
             height: unset;
             width: 120px;
             margin-bottom: 14px;
-            display:none;
+            display: none;
         }
 
         .PodcastEpisode_Image {
@@ -1043,9 +1139,11 @@ function updateProgress() {
             justify-content: flex-start;
             align-items: flex-start;
         }
+
         .PodcastEpisode_InlineTop {
             width: 100%;
         }
+
         .GNPAplayerControls_ScrubBar {
             width: 50%;
             min-width: 50%;
@@ -1109,11 +1207,10 @@ function updateProgress() {
         }
     }
 </style>
-
-<div class="PodcastEpisode_Inline">
+<div class="IAE_PodcastEpisode_Inline" style="pointer-events: all; user-select: auto;">
     <div class="PodcastEpisode_InlineInner">
         <div class="PodcastEpisode_InlineThumbnail">
-            <img class="PodcastEpisode_InlineThumbnailImg" src="https://media.gatesnotes.com/-/media/Images/Articles/Podcast/Can-people-really-change/podcast_change_2020_landing-thumbnail_320px_02.ashx">
+            <img class="PodcastEpisode_InlineThumbnailImg" src="https://media.gatesnotes.com/-/media/Images/Body-Parts/Podcast/podcast_2020_bonus-content_320px_02.ashx">
         </div>
         <div class="PodcastEpisode_InlineTop">
             <div class="PodcastEpisode_Copy">
@@ -1122,21 +1219,18 @@ function updateProgress() {
                         <img class="PodcastHero_PreIconImg" src="/-/media/Images/Body-Parts/Podcast/waveform_icon">
                     </div>
                     <div class="PodcastEpisode_TitleNumber">
-                        <span class="PodcastEpisode_Title">Bill Gates and Rashida Jones Ask Big Questions - Episode&nbsp;</span><span class="PodcastEpisode_Number">05</span>
+                        <span class="PodcastEpisode_Title">Behind The Scenes – Bonus Content 5</span>
                     </div>
                 </div>
-                <div class="PodcastEpisode_Headline">Can people really change?</div>
-                <a href="https://www.gatesnotes.com/-/media/Files/Podcast/Bill Gates and Rashida Jones Ask Big Questions episode 05 transcript.pdf" class="PodcastEpisode_Transcript" target="_blank">
-                    Episode transcript
-                </a>
-                <div class="PodcastEpisode_Date">December 14, 2020</div>
+                <div class="PodcastEpisode_Headline">Personal and global change</div>
+                <div class="PodcastEpisode_Date">December 21, 2020</div>
                 <div class="PodcastEpisode_Desc">
-                    <div class="PodcastEpisode_DescCopy">2020 has been a year of change. From the presidential election to the pandemic, it’s clear that the world will never be the same after this year—and neither will all of us who experienced it. In the season finale, Bill and Rashida explore how progress hinges on society’s ability to evolve, how our view of the world shifts as we get older, and whether it’s actually possible to change someone’s mind. Then they’re joined by two people who are using their positions as artists to change the world for the better: Bono and Kerry Washington.</div>
+                    <div class="PodcastEpisode_DescCopy">Behind The Scenes – Bonus Content 5</div>
                 </div>
             </div>
             <div class="PodcastEpisode_InlinePlayer">
                 <div class="PodcastEpisode_Player">
-                    <audio id="GNPAplayer" src="https://dts.podtrac.com/redirect.mp3/dovetail.prxu.org/352/47f538d8-6984-4feb-bc39-7eab9c230272/Gates_Episode_05_201212_neg18_for_podcast.mp3">
+                    <audio id="GNPAplayer-Personal-and-global-change" src="https://www.gatesnotes.com/-/media/Files/Podcast/BonoOnChangepersonallyandintheworld121820.mp3">
                         Your browser does not support the
                         <code>audio</code> element.
                     </audio>
@@ -1150,12 +1244,12 @@ function updateProgress() {
                                     <i class="icon-pause"></i>
                                 </div>
                             </div>
-                            <div class="GNPAplayerControls_TimeNow">0.01</div>
+                            <div class="GNPAplayerControls_TimeNow">0.00</div>
                             <div class="GNPAplayerControls_ScrubBar">
-                                <div class="GNPAplayerControls_ScrubBarProg" data-playstatus="unplayed" style="width: 1%;">
+                                <div class="GNPAplayerControls_ScrubBarProg" data-playstatus="unplayed" style="width: 0%;">
                                 </div>
                             </div>
-                            <div class="GNPAplayerControls_Time">51.13</div>
+                            <div class="GNPAplayerControls_Time">2.32</div>
                         </div>
                         <div class="GNPAplayerControls_Volume">
                             <div class="GNPAplayerControls_VolumeOn">
@@ -1184,18 +1278,9 @@ function updateProgress() {
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<script type="text/javascript">
-    $(document).ready(function () {
-    });
-    $(window).on('load', function () {
-        addAudioControls();
-    });
-    $(window).resize(function () {
-    });
-</script>
