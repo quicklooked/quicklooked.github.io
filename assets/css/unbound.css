@@ -321,3 +321,25 @@
   src: url('/assets/css/rest/sohne-700-normal.woff') format('woff');
   unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
 }
+
+/* circular */
+@font-face {
+    font-family: 'circular-black';
+    src: url('/assets/css/circular/circular-black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-book';
+    src: url('/assets/css/circular/circular-book.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular-bold';
+    src: url('/assets/css/circular/circular-bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
