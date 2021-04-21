@@ -1,8 +1,8 @@
-.PodcastEpisode_Player {
+PodcastEpisode_Player {
   user-select: none;
 }
 
-.PodcastEpisode_Inline {
+PodcastEpisode_Inline {
   width: 100%;
   background: #F2F5F7;
   position: relative;
@@ -14,7 +14,7 @@
   border-radius: 20px;
 }
 
-.PodcastEpisode_InlineInner {
+PodcastEpisode_InlineInner {
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -22,7 +22,7 @@
   justify-content: space-between;
 }
 
-.PodcastEpisode_InlineTop {
+PodcastEpisode_InlineTop {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -30,17 +30,17 @@
   width: 72%;
 }
 
-.PodcastEpisode_InlineThumbnail {
+PodcastEpisode_InlineThumbnail {
   width: 24%;
   align-self: flex-start;
   height: intrinsic;
 }
 
-.PodcastEpisode_InlineThumbnailImg {
+PodcastEpisode_InlineThumbnailImg {
   border-radius: 10px;
 }
 
-.PodcastEpisode_Icon {
+PodcastEpisode_Icon {
   width: 44px;
   margin-right: 10px;
 }
@@ -49,25 +49,25 @@
   display: none;
 }
 
-.PodcastEpisodeHolder {
+PodcastEpisodeHolder {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
   margin-bottom: 120px;
 }
 
-.PodcastEpisode {
+PodcastEpisode {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.PodcastEpisode_ImageHolder {
+PodcastEpisode_ImageHolder {
   width: 28%;
   display: flex;
 }
 
-.PodcastEpisode_Image {
+PodcastEpisode_Image {
   display: block;
   width: 100%;
   border-radius: 10px;
@@ -75,13 +75,13 @@
   height: intrinsic;
 }
 
-.PodcastEpisode_MobileImageHolder {
+PodcastEpisode_MobileImageHolder {
   display: none;
   width: 100%;
   border-radius: 10px;
 }
 
-.PodcastEpisode_Top {
+PodcastEpisode_Top {
   display: flex;
   align-items: center;
   font-family: 'HelveticaNeueW01-75Bold', 'HelveticaNeue Bold', 'Helvetica LT Std Bold', Helvetica, source-serif-pro, 'Source Serif Pro', 'LyonDisplay-Medium', serif;
@@ -92,7 +92,7 @@
   margin-bottom: 10px;
 }
 
-.PodcastEpisode_Date {
+PodcastEpisode_Date {
   display: flex;
   align-items: center;
   font-family: 'HelveticaNeueW01-45Ligh', 'neue-haas-unica', sans-serif;
@@ -103,7 +103,7 @@
   display: none;
 }
 
-.PodcastEpisode_Headline {
+PodcastEpisode_Headline {
   font-family: source-serif-pro, 'Source Serif Pro', 'Lyon Display Web', 'LyonDisplay-Medium', serif;
   font-size: 37px;
   line-height: 42px;
@@ -112,7 +112,7 @@
   margin-bottom: 10px;
 }
 
-.PodcastEpisode_Desc {
+PodcastEpisode_Desc {
   font-family: 'HelveticaNeueW01-45Ligh', 'neue-haas-unica', sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -121,25 +121,25 @@
   display: none;
 }
 
-.PodcastEpisode_DescCopy {
+PodcastEpisode_DescCopy {
   display: inline;
   display: none;
 }
 
-.PodcastEpisode_HREF {
+PodcastEpisode_HREF {
   display: inline;
 }
 
-.PodcastEpisode_Desc a {
+PodcastEpisode_Desc a {
   color: #c00;
   text-decoration: none;
 }
 
-.PodcastEpisode_Desc a:hover {
+PodcastEpisode_Desc a:hover {
   text-decoration: underline;
 }
 
-.PodcastEpisode_Transcript {
+PodcastEpisode_Transcript {
   color: #000 !important;
   text-decoration: none;
   margin-top: 6px;
@@ -151,21 +151,21 @@
   letter-spacing: .3px;
 }
 
-.PodcastEpisode_Transcript:hover {
+PodcastEpisode_Transcript:hover {
   text-decoration: underline;
 }
 
-.PodcastEpisode_Copy {
+PodcastEpisode_Copy {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.PodcastEpisode_InlinePlayer {
+PodcastEpisode_InlinePlayer {
   width: 95%;
 }
 
-.GNPAplayerControls {
+GNPAplayerControls {
   display: flex;
   margin-top: 10px;
   align-items: center;
@@ -173,25 +173,25 @@
   width: 100%;
 }
 
-.GNPAplayerControlsLeft {
+GNPAplayerControlsLeft {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   width: 74%;
 }
 
-.GNPAplayerControls_PlayPause {
+GNPAplayerControls_PlayPause {
   cursor: pointer;
   margin-right: 10px;
 }
 
-.GNPAplayerControls_TimeNow {
+GNPAplayerControls_TimeNow {
   display: flex;
   justify-content: center;
   margin-right: 10px;
 }
 
-.GNPAplayerControls_ScrubBar {
+GNPAplayerControls_ScrubBar {
   width: 56%;
   height: 3px;
   background: lightgray;
@@ -201,14 +201,14 @@
   min-width: 56%;
 }
 
-.GNPAplayerControls_ScrubBarProg {
+GNPAplayerControls_ScrubBarProg {
   position: absolute;
   height: 3px;
   width: 3%;
   background-color: #fe5900;
 }
 
-.GNPAplayerControls_ScrubBarProg:after {
+GNPAplayerControls_ScrubBarProg:after {
   width: 10px;
   height: 10px;
   background: #fe5900;
@@ -220,20 +220,20 @@
   cursor: pointer;
 }
 
-.GNPAplayerControls_Time {
+GNPAplayerControls_Time {
   display: flex;
   justify-content: center;
   margin-right: 10px;
 }
 
-.GNPAplayerControls_Volume {
+GNPAplayerControls_Volume {
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 22%;
 }
 
-.GNPAplayerControls_VolumeBar {
+GNPAplayerControls_VolumeBar {
   height: 3px;
   background: lightgray;
   width: 80px;
@@ -241,14 +241,14 @@
   cursor: pointer;
 }
 
-.GNPAplayerControls_VolumeBarProg {
+GNPAplayerControls_VolumeBarProg {
   position: absolute;
   height: 3px;
   width: 3%;
   background-color: #fe5900;
 }
 
-.GNPAplayerControls_VolumeBarProg:after {
+GNPAplayerControls_VolumeBarProg:after {
   width: 10px;
   height: 10px;
   background: #fe5900;
@@ -260,7 +260,7 @@
   cursor: pointer;
 }
 
-.GNPAplayerControls_VolumeOn {
+GNPAplayerControls_VolumeOn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -268,7 +268,7 @@
   cursor: pointer;
 }
 
-.GNPAplayerControls_VolumeOff {
+GNPAplayerControls_VolumeOff {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,7 +277,7 @@
   cursor: pointer;
 }
 
-.GNPAplayerControls_Play {
+GNPAplayerControls_Play {
   border: 3px solid black;
   border-radius: 1000px;
   width: 26px;
@@ -289,7 +289,7 @@
   font-size: 10px;
 }
 
-.GNPAplayerControls_Pause {
+GNPAplayerControls_Pause {
   border: 3px solid black;
   border-radius: 1000px;
   width: 30px;
@@ -302,37 +302,37 @@
   display: none;
 }
 
-.GNPAplayerControls_Time {
+GNPAplayerControls_Time {
   font-family: courier, ariel, 'Courier New', monospace;
   font-size: 12px;
 }
 
-.GNPAplayerControls_TimeNow {
+GNPAplayerControls_TimeNow {
   font-family: courier, ariel, 'Courier New', monospace;
   font-size: 12px;
 }
 
-.GNPAplayerControls_Play:hover {
+GNPAplayerControls_Play:hover {
   opacity: .6;
 }
 
-.GNPAplayerControls_Pause:hover {
+GNPAplayerControls_Pause:hover {
   opacity: .6;
 }
 
-.GNPAplayerControls_ScrubBar:hover {
+GNPAplayerControls_ScrubBar:hover {
   opacity: .6;
 }
 
-.GNPAplayerControls_VolumeOn:hover {
+GNPAplayerControls_VolumeOn:hover {
   opacity: .6;
 }
 
-.GNPAplayerControls_VolumeOff:hover {
+GNPAplayerControls_VolumeOff:hover {
   opacity: .6;
 }
 
-.GNPAplayerControls_VolumeBar:hover {
+GNPAplayerControls_VolumeBar:hover {
   opacity: .6;
 }
 
@@ -365,41 +365,41 @@
 @media all and (max-width: 680px) {
 
   /*Mobile only*/
-  .PodcastEpisode_InlineThumbnail {
+  PodcastEpisode_InlineThumbnail {
     height: unset;
     width: 120px;
     margin-bottom: 14px;
     display: none;
   }
 
-  .PodcastEpisode_Image {
+  PodcastEpisode_Image {
     height: unset;
   }
 
-  .GNPAplayerControls {
+  GNPAplayerControls {
     width: 80%;
   }
 
-  .GNPAplayerControlsLeft {
+  GNPAplayerControlsLeft {
     width: 100%;
   }
 
-  .PodcastEpisode_InlineInner {
+  PodcastEpisode_InlineInner {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
   }
 
-  .PodcastEpisode_InlineTop {
+  PodcastEpisode_InlineTop {
     width: 100%;
   }
 
-  .GNPAplayerControls_ScrubBar {
+  GNPAplayerControls_ScrubBar {
     width: 50%;
     min-width: 50%;
   }
 
-  .PodcastEpisode_MobileImageHolder {
+  PodcastEpisode_MobileImageHolder {
     display: flex;
     width: 100%;
     max-height: 280px;
@@ -407,30 +407,30 @@
     align-items: center;
   }
 
-  .PodcastEpisode_MobileImage {
+  PodcastEpisode_MobileImage {
     width: 100%;
     border-radius: 10px;
   }
 
-  .PodcastEpisode_ImageHolder {
+  PodcastEpisode_ImageHolder {
     display: none;
   }
 
-  .PodcastEpisode {
+  PodcastEpisode {
     margin-bottom: 60px;
   }
 
-  .PodcastEpisode_Copy {
+  PodcastEpisode_Copy {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
 
-  .GNPAplayerControls_VolumeBar {
+  GNPAplayerControls_VolumeBar {
     width: 50px;
   }
 
-  .GNPAplayerControls_Volume {
+  GNPAplayerControls_Volume {
     display: none !important;
   }
 }
@@ -438,7 +438,7 @@
 @media all and (max-width: 480px) {
 
   /*Mobile only*/
-  .GNPAplayerControls_VolumeBar {
+  GNPAplayerControls_VolumeBar {
     width: 30px;
   }
 }
@@ -446,15 +446,15 @@
 @supports (-webkit-touch-callout: none) {
 
   /* CSS specific to iOS devices */
-  .GNPAplayerControls_Volume {
+  GNPAplayerControls_Volume {
     display: none !important;
   }
 
-  .PodcastEpisode_InlineThumbnail {
+  PodcastEpisode_InlineThumbnail {
     height: unset;
   }
 
-  .PodcastEpisode_Image {
+  PodcastEpisode_Image {
     height: unset;
   }
 }
