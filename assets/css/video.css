@@ -702,8 +702,8 @@ a.plyr__control:before {
 }
 
 .plyr__tooltip {
-  background: hsla(0, 0%, 100%, .9);
-  background: var(--plyr-tooltip-background, hsla(0, 0%, 100%, .9));
+  background: rgba(29,29,31,0.56);
+  background: var(--plyr-tooltip-background, rgba(29,29,31,0.56));
   border-radius: 3px;
   border-radius: var(--plyr-tooltip-radius, 3px);
   bottom: 100%;
@@ -736,8 +736,8 @@ a.plyr__control:before {
   border-left: var(--plyr-tooltip-arrow-size, 4px) solid transparent;
   border-right: 4px solid transparent;
   border-right: var(--plyr-tooltip-arrow-size, 4px) solid transparent;
-  border-top: 4px solid hsla(0, 0%, 100%, .9);
-  border-top: var(--plyr-tooltip-arrow-size, 4px) solid var(--plyr-tooltip-background, hsla(0, 0%, 100%, .9));
+  border-top: 4px solid rgba(29,29,31,0.56);
+  border-top: var(--plyr-tooltip-arrow-size, 4px) solid var(--plyr-tooltip-background, rgba(29,29,31,0.56));
   bottom: -4px;
   bottom: calc(var(--plyr-tooltip-arrow-size, 4px)*-1);
   content: "";
