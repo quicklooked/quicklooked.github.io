@@ -105,8 +105,8 @@
   animation: plyr-fade-in .3s ease;
   bottom: 0;
   display: none;
-  font-size: 13px;
-  font-size: var(--plyr-font-size-small, 13px);
+  font-size: 12px;
+  font-size: var(--plyr-font-size-small, 12px);
   left: 0;
   padding: 10px;
   padding: var(--plyr-control-spacing, 10px);
