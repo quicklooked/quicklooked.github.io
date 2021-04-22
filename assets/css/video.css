@@ -32,6 +32,7 @@
   -webkit-font-smoothing: antialiased;
   align-items: center;
   direction: ltr;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   font-family: inherit;
