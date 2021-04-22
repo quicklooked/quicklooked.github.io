@@ -452,7 +452,7 @@ twitterAuthor: "@TheEconomist"
             </section>
 
 
-<div id="container">
+<div id="player">
 <video controls crossorigin playsinline data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" id="player">
 
 <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4" size="576" />
@@ -465,3 +465,6 @@ twitterAuthor: "@TheEconomist"
 <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
 </video>
 </div>
+<script>
+  const player = new Plyr('#player');
+</script>
