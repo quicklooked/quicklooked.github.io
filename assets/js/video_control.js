@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => { 
-  const controls = ["play-large", "play", "progress", "mute"]
+  const controls = ["play-large", "play", "mute"]
   const settings = ['speed']
   const i18n = { speed: 'Speed' }
   const keyboard = { global: true }
