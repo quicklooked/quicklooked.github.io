@@ -122,8 +122,8 @@
 
 @media(min-width:480px) {
   .plyr__captions {
-    font-size: 15px;
-    font-size: var(--plyr-font-size-base, 15px);
+    font-size: 12px;
+    font-size: var(--plyr-font-size-base, 12px);
     padding: 20px;
     padding: calc(var(--plyr-control-spacing, 10px)*2)
   }
