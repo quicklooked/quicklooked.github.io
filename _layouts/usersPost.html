@@ -788,15 +788,15 @@
 	<script defer src="/assets/js/upZoom.js"></script>
 	<script src="/assets/js/video.js"></script>
 	<script>
-	const player = new Plyr('#player');
-	</script>
-	<script>
 	  document.addEventListener('DOMContentLoaded', () => {
-	    const controls = ['play-large', 'play', 'progress', 'current-time', 'duration', 'volume', 'fullscreen'];
+	    const controls = [ 'play-large' , 'play' , 'progress' , 'current-time' , 'duration' , 'volume' , 'fullscreen' ];
 	    const player = Plyr.setup('.js-player', {
 	      controls
 	    });
 	  });
+	</script>
+	<script>
+	const player = new Plyr('#player');
 	</script>
 	<script type="text/javascript">
 	$(document).ready(function() {});
