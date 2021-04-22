@@ -34,11 +34,11 @@
   direction: ltr;
   display: flex;
   flex-direction: column;
-  font-family: inherit;
-  font-family: var(--plyr-font-family, inherit);
+  font-family: circular-book;
+  font-family: var(--plyr-font-family, circular-book);
   font-variant-numeric: tabular-nums;
-  font-weight: 400;
-  font-weight: var(--plyr-font-weight-regular, 400);
+  font-weight: 500;
+  font-weight: var(--plyr-font-weight-regular, 500);
   line-height: 1.7;
   line-height: var(--plyr-line-height, 1.7);
   max-width: 100%;
