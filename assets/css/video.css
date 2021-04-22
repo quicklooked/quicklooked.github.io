@@ -1021,8 +1021,8 @@ a.plyr__control:before {
 }
 
 .plyr--video .plyr__controls {
-  background: linear-gradient(transparent, rgba(0, 0, 0, .75));
-  background: var(--plyr-video-controls-background, linear-gradient(transparent, rgba(0, 0, 0, .75)));
+  background: linear-gradient(transparent, rgba(0, 0, 0, .3));
+  background: var(--plyr-video-controls-background, linear-gradient(transparent, rgba(0, 0, 0, .3)));
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
   bottom: 0;
