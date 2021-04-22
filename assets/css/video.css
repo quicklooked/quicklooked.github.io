@@ -537,7 +537,8 @@ a.plyr__control:before {
   -webkit-transition: all .2s ease;
   transition: all .2s ease;
   width: 13px;
-  width: var(--plyr-range-thumb-height, 13px)
+  width: var(--plyr-range-thumb-height, 13px);
+  dislay: none;
 }
 
 .plyr--full-ui input[type=range]::-moz-range-track {
