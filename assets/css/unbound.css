@@ -344,27 +344,27 @@
     font-style: normal;
 }
 
-/* 'Gordita' */
+/* 'gordita' */
 
 @font-face {
-    font-family: 'Gordita';
-    src: url('/assets/css/Gordita/Gordita-Bold.woff2') format('woff2');
+    font-family: 'gordita';
+    src: url('/assets/css/gordita/gordita-bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gordita';
-    src: url('/assets/css/Gordita/Gordita-Light.woff2') format('woff2');
+    font-family: 'gordita';
+    src: url('/assets/css/gordita/gordita-light.woff2') format('woff2');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gordita';
-    src: url('/assets/css/Gordita/Gordita-Medium.woff2') format('woff2');
+    font-family: 'gordita';
+    src: url('/assets/css/gordita/gordita-medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
