@@ -498,7 +498,6 @@ a.plyr__control:before {
   border-radius: 26px;
   border-radius: calc(var(--plyr-range-thumb-height, 13px)*2);
   color: #fff;
-  color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #fff)));
   display: block;
   height: 19px;
   height: calc(var(--plyr-range-thumb-active-shadow-width, 3px)*2 + var(--plyr-range-thumb-height, 13px));
