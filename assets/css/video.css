@@ -1038,7 +1038,7 @@ a.plyr__control:before {
   transition: opacity .4s ease-in-out, transform .4s ease-in-out;
   z-index: 3;
   border-radius: 10px;
-  margin: 18px auto 18px auto;
+  margin: 18px auto 30px auto;
 }
 
 @media(min-width:480px) {
