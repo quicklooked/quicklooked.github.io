@@ -291,8 +291,8 @@ a.plyr__control:before {
 
 .plyr__menu__container {
   animation: plyr-popup .2s ease;
-  background: hsla(0, 0%, 100%, .9);
-  background: var(--plyr-menu-background, hsla(0, 0%, 100%, .9));
+  background: #000;
+  background: var(--plyr-menu-background, #000);
   border-radius: 4px;
   bottom: 100%;
   box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
@@ -344,11 +344,11 @@ a.plyr__control:before {
 
 .plyr__menu__container .plyr__control {
   align-items: center;
-  color: #4a5464;
-  color: var(--plyr-menu-color, #4a5464);
+  color: #fff;
+  color: var(--plyr-menu-color, #fff);
   display: flex;
-  font-size: 13px;
-  font-size: var(--plyr-font-size-menu, var(--plyr-font-size-small, 13px));
+  font-size: 12px;
+  font-size: var(--plyr-font-size-menu, var(--plyr-font-size-small, 12px));
   padding: 4.66667px 10.5px;
   padding: calc(var(--plyr-control-spacing, 10px)*.7/1.5) calc(var(--plyr-control-spacing, 10px)*.7*1.5);
   -webkit-user-select: none;
@@ -373,7 +373,8 @@ a.plyr__control:before {
 
 .plyr__menu__container .plyr__control--forward {
   padding-right: 28px;
-  padding-right: calc(var(--plyr-control-spacing, 10px)*.7*4)
+  padding-right: calc(var(--plyr-control-spacing, 10px)*.7*4);
+	  display: none;
 }
 
 .plyr__menu__container .plyr__control--forward:after {
@@ -406,7 +407,8 @@ a.plyr__control:before {
   border-right-color: #728197;
   border-right-color: var(--plyr-menu-arrow-color, #728197);
   left: 6.5px;
-  left: calc(var(--plyr-control-spacing, 10px)*.7*1.5 - var(--plyr-menu-item-arrow-size, 4px))
+  left: calc(var(--plyr-control-spacing, 10px)*.7*1.5 - var(--plyr-menu-item-arrow-size, 4px));
+	  display: none;
 }
 
 .plyr__menu__container .plyr__control--back:before {
