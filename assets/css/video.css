@@ -34,8 +34,8 @@
   direction: ltr;
   display: flex;
   flex-direction: column;
-  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
-  font-family: var(--plyr-font-family, "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif);
+  font-family: 'gordita';
+  font-family: var(--plyr-font-family, 'gordita');
   font-variant-numeric: tabular-nums;
   font-weight: 400;
   font-weight: var(--plyr-font-weight-regular, 400);
