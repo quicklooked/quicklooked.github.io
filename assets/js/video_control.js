@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       720: 'HD',
       576: 'SD',
       480: 'SD',
-    },
+    }
   const keyboard = { global: true }
   const tooltips = { controls: false }
   const captions = { active: true }
