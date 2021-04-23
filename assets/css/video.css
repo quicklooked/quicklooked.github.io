@@ -909,10 +909,7 @@ a.plyr__control:before {
 .plyr__volume {
   align-items: center;
   display: flex;
-  max-width: 110px;
-  min-width: 80px;
   position: relative;
-  width: 20%
 }
 
 .plyr__volume input[type=range] {
