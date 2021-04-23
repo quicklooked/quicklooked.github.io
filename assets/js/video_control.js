@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const player = new Plyr('#player', { debug: true , title: '' , iconUrl: 'https://cdn.plyr.io/3.6.7/plyr.svg' , controls , settings , i18n,  speed , keyboard , tooltips , captions , vimeo , fullscreen });
   window.player = player;
   player.volume = 1;
+  player.currentTime = 10;
+  player.fullscreen.active;
   function on(selector, type, callback) {
     document.querySelector(selector).addEventListener(type, callback, false);
   }
