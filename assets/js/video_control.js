@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => { 
   const controls = ["play", "progress", "current-time", "mute", "volume", "captions", "settings", "pip", "airplay", "fullscreen" ]
   const settings = ['speed', 'quality', 'caption']
-  const i18n: {
+  const i18n = {
     restart: 'Restart',
     rewind: 'Rewind {seektime}s',
     play: 'Play',
