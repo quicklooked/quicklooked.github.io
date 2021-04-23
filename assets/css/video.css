@@ -1129,8 +1129,8 @@ a.plyr__control:before {
 }
 
 .plyr--video .plyr__progress__buffer {
-  color: hsla(0, 0%, 100%, .25);
-  color: var(--plyr-video-progress-buffered-background, hsla(0, 0%, 100%, .25))
+  color: #fff;
+  color: var(--plyr-video-progress-buffered-background, #fff)
 }
 
 .plyr:fullscreen {
