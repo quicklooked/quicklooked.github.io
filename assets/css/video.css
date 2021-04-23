@@ -822,8 +822,8 @@ a.plyr__control:before {
 }
 
 .plyr__progress .plyr__tooltip {
-  font-size: 13px;
-  font-size: var(--plyr-font-size-time, var(--plyr-font-size-small, 13px));
+  font-size: 12px;
+  font-size: var(--plyr-font-size-time, var(--plyr-font-size-small, 12px));
   left: 0
 }
 
