@@ -494,8 +494,8 @@ a.plyr__control:before {
   border: 0;
   border-radius: 26px;
   border-radius: calc(var(--plyr-range-thumb-height, 13px)*2);
-  color: #00b3ff;
-  color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #00b3ff)));
+  color: #fff;
+  color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #fff)));
   display: block;
   height: 19px;
   height: calc(var(--plyr-range-thumb-active-shadow-width, 3px)*2 + var(--plyr-range-thumb-height, 13px));
@@ -1129,8 +1129,8 @@ a.plyr__control:before {
 }
 
 .plyr--video .plyr__progress__buffer {
-  color: #fff;
-  color: var(--plyr-video-progress-buffered-background, #fff)
+  color: hsla(0,0%,100%,.25);
+  color: var(--plyr-video-progress-buffered-background, hsla(0,0%,100%,.25))
 }
 
 .plyr:fullscreen {
