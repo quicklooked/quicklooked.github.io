@@ -34,8 +34,8 @@
   direction: ltr;
   display: flex;
   flex-direction: column;
-  font-family: 'circular-book', sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: var(--plyr-font-family, 'circular-book', sohne, "Helvetica Neue", Helvetica, Arial, sans-serif);
+  font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: var(--plyr-font-family, "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif);
   font-variant-numeric: tabular-nums;
   font-weight: 400;
   font-weight: var(--plyr-font-weight-regular, 400);
