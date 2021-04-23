@@ -34,8 +34,8 @@
   direction: ltr;
   display: flex;
   flex-direction: column;
-  font-family: inherit;
-  font-family: var(--plyr-font-family, inherit);
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--plyr-font-family, sohne, "Helvetica Neue", Helvetica, Arial, sans-serif);
   font-variant-numeric: tabular-nums;
   font-weight: 400;
   font-weight: var(--plyr-font-weight-regular, 400);
