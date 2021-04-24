@@ -744,3 +744,19 @@
   padding: 0 15px;
   width: 100%
 }
+
+
+.mejs-loop-button>button,
+.mejs__loop-button>button {
+  background: url(https://raw.githubusercontent.com/mediaelement/mediaelement-plugins/master/dist/loop/loop.svg) no-repeat transparent
+}
+
+.mejs-loop-off>button,
+.mejs__loop-off>button {
+  background-position: -20px 1px
+}
+
+.mejs-loop-on>button,
+.mejs__loop-on>button {
+  background-position: 0 1px
+}
