@@ -164,7 +164,7 @@
 .mejs__overlay-loading-bg-img {
   -webkit-animation: a 1s linear infinite;
   animation: a 1s linear infinite;
-  background: transparent url(/assets/images/icons/spinner.gif) -160px -40px no-repeat;
+  background: transparent url(/assets/images/icons/spinner.gif) 20px 20px no-repeat;
   display: block;
   height: 80px;
   width: 80px;
