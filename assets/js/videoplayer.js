@@ -3739,7 +3739,7 @@
       this.mouseused_ = !0
     }, e
   }(Sn);
-  kn.prototype.controlText_ = "Play", We.registerComponent("BigPlayButton", kn);
+  kn.prototype.controlText_ = "", We.registerComponent("BigPlayButton", kn);
   var Cn = function(n) {
     function e(e, t) {
       var i;
