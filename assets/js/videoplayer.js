@@ -9,7 +9,7 @@ var progressFill = document.querySelector('.progress-filled');
 var textCurrent = document.querySelector('.time-current');
 var textTotal = document.querySelector('.time-total');
 var speedBtns = document.querySelectorAll('.speed-item');
-var fullscreenBtn = document.querySelector('.fullscreen');
+var fullscreenBtn = document.querySelector('.fullscreenvideo');
 let lastVolume = 1;
 let isMouseDown = false;
 
