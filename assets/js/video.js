@@ -5134,7 +5134,7 @@ if(mejs.i18n['zh-CN'] !== undefined) {
 }({
   1: [function(e, n, t) {
     "use strict";
-    mejs.i18n.en["mejs.fullscreen-off"] = "Turn off Fullscreen", mejs.i18n.en["mejs.fullscreen-on"] = "Go Fullscreen", mejs.i18n.en["mejs.download-video"] = "Download Video", Object.assign(mejs.MepDefaults, {
+    mejs.i18n.en["mejs.fullscreen-off"] = "Exit full screen", mejs.i18n.en["mejs.fullscreen-on"] = "Full screen", mejs.i18n.en["mejs.download-video"] = "Download", Object.assign(mejs.MepDefaults, {
       contextMenuItems: [{
         render: function(e) {
           return void 0 === e.enterFullScreen ? null : e.isFullScreen ? mejs.i18n.t("mejs.fullscreen-off") : mejs.i18n.t("mejs.fullscreen-on")
