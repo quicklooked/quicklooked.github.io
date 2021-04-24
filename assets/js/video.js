@@ -5103,3 +5103,245 @@ if(mejs.i18n['zh-CN'] !== undefined) {
     })
   }, {}]
 }, {}, [1]);
+
+
+
+
+
+
+
+! function u(r, c, s) {
+  function l(n, e) {
+    if(!c[n]) {
+      if(!r[n]) {
+        var t = "function" == typeof require && require;
+        if(!e && t) return t(n, !0);
+        if(a) return a(n, !0);
+        var o = new Error("Cannot find module '" + n + "'");
+        throw o.code = "MODULE_NOT_FOUND", o
+      }
+      var i = c[n] = {
+        exports: {}
+      };
+      r[n][0].call(i.exports, function(e) {
+        return l(r[n][1][e] || e)
+      }, i, i.exports, u, r, c, s)
+    }
+    return c[n].exports
+  }
+  for(var a = "function" == typeof require && require, e = 0; e < s.length; e++) l(s[e]);
+  return l
+}({
+  1: [function(e, n, t) {
+    "use strict";
+    mejs.i18n.en["mejs.fullscreen-off"] = "Turn off Fullscreen", mejs.i18n.en["mejs.fullscreen-on"] = "Go Fullscreen", mejs.i18n.en["mejs.download-video"] = "Download Video", Object.assign(mejs.MepDefaults, {
+      contextMenuItems: [{
+        render: function(e) {
+          return void 0 === e.enterFullScreen ? null : e.isFullScreen ? mejs.i18n.t("mejs.fullscreen-off") : mejs.i18n.t("mejs.fullscreen-on")
+        },
+        click: function(e) {
+          e.isFullScreen ? e.exitFullScreen() : e.enterFullScreen()
+        }
+      }, {
+        render: function(e) {
+          return e.media.muted ? mejs.i18n.t("mejs.unmute") : mejs.i18n.t("mejs.mute")
+        },
+        click: function(e) {
+          e.media.muted ? e.setMuted(!1) : e.setMuted(!0)
+        }
+      }, {
+        isSeparator: !0
+      }, {
+        render: function() {
+          return mejs.i18n.t("mejs.download-video")
+        },
+        click: function(e) {
+          window.location.href = e.media.currentSrc
+        }
+      }]
+    }), Object.assign(MediaElementPlayer.prototype, {
+      isContextMenuEnabled: !0,
+      contextMenuTimeout: null,
+      buildcontextmenu: function(n) {
+        n.isVideo && (document.querySelector("." + n.options.classPrefix + "contextmenu") || (n.contextMenu = document.createElement("div"), n.contextMenu.className = n.options.classPrefix + "contextmenu", n.contextMenu.style.display = "none", document.body.appendChild(n.contextMenu)), n.container.addEventListener("contextmenu", function(e) {
+          !n.isContextMenuEnabled || 3 !== e.keyCode && 3 !== e.which || (n.renderContextMenu(e), e.preventDefault(), e.stopPropagation())
+        }), n.container.addEventListener("click", function() {
+          n.contextMenu.style.display = "none"
+        }), n.contextMenu.addEventListener("mouseleave", function() {
+          n.startContextMenuTimer()
+        }))
+      },
+      cleancontextmenu: function(e) {
+        e.contextMenu.remove()
+      },
+      enableContextMenu: function() {
+        this.isContextMenuEnabled = !0
+      },
+      disableContextMenu: function() {
+        this.isContextMenuEnabled = !1
+      },
+      startContextMenuTimer: function() {
+        var e = this;
+        e.killContextMenuTimer(), e.contextMenuTimer = setTimeout(function() {
+          e.hideContextMenu(), e.killContextMenuTimer()
+        }, 750)
+      },
+      killContextMenuTimer: function() {
+        var e = this.contextMenuTimer;
+        null != e && (clearTimeout(e), e = null)
+      },
+      hideContextMenu: function() {
+        this.contextMenu.style.display = "none"
+      },
+      renderContextMenu: function(e) {
+        for(var u = this, n = "", t = u.options.contextMenuItems, o = 0, i = t.length; o < i; o++) {
+          var r = t[o];
+          if(r.isSeparator) n += '<div class="' + u.options.classPrefix + 'contextmenu-separator"></div>';
+          else {
+            var c = r.render(u);
+            null != c && (n += '<div class="' + u.options.classPrefix + 'contextmenu-item" data-itemindex="' + o + '" id="element-' + 1e6 * Math.random() + '">' + c + "</div>")
+          }
+        }
+        u.contextMenu.innerHTML = n;
+        var s = u.contextMenu.offsetWidth,
+          l = u.contextMenu.offsetHeight,
+          a = e.pageX,
+          d = e.pageY,
+          f = document.documentElement,
+          m = (window.pageXOffset || f.scrollLeft) - (f.clientLeft || 0),
+          x = (window.pageYOffset || f.scrollTop) - (f.clientTop || 0),
+          M = a + s > window.innerWidth + m ? a - s : a,
+          p = d + l > window.innerHeight + x ? d - l : d;
+        u.contextMenu.style.display = "", u.contextMenu.style.left = M + "px", u.contextMenu.style.top = p + "px";
+        for(var v = u.contextMenu.querySelectorAll("." + u.options.classPrefix + "contextmenu-item"), h = function(e, n) {
+            var t = v[e],
+              o = parseInt(t.getAttribute("data-itemindex"), 10),
+              i = u.options.contextMenuItems[o];
+            void 0 !== i.show && i.show(t, u), t.addEventListener("click", function() {
+              void 0 !== i.click && i.click(u), u.contextMenu.style.display = "none"
+            })
+          }, y = 0, j = v.length; y < j; y++) h(y);
+        setTimeout(function() {
+          u.killControlsTimer()
+        }, 100)
+      }
+    })
+  }, {}]
+}, {}, [1]);
+
+'use strict';
+if(mejs.i18n.ca !== undefined) {
+  mejs.i18n.ca['mejs.fullscreen-off'] = 'Desconnectar pantalla completaa';
+  mejs.i18n.ca['mejs.fullscreen-on'] = 'Anar a pantalla completa';
+  mejs.i18n.ca['mejs.download-video'] = 'Descarregar vídeo';
+}
+if(mejs.i18n.cs !== undefined) {
+  mejs.i18n.cs['mejs.fullscreen-off'] = 'Vypnout režim celá obrazovka';
+  mejs.i18n.cs['mejs.fullscreen-on'] = 'Na celou obrazovku';
+  mejs.i18n.cs['mejs.download-video'] = 'Stáhnout video';
+}
+if(mejs.i18n.de !== undefined) {
+  mejs.i18n.de['mejs.fullscreen-off'] = 'Vollbildmodus beenden';
+  mejs.i18n.de['mejs.fullscreen-on'] = 'Vollbild';
+  mejs.i18n.de['mejs.download-video'] = 'Video herunterladen';
+}
+if(mejs.i18n.es !== undefined) {
+  mejs.i18n.es['mejs.fullscreen-off'] = 'Desconectar pantalla completa';
+  mejs.i18n.es['mejs.fullscreen-on'] = 'Ir a pantalla completa';
+  mejs.i18n.es['mejs.download-video'] = 'Descargar vídeo';
+}
+if(mejs.i18n.fa !== undefined) {
+  mejs.i18n.fa['mejs.fullscreen-off'] = 'تمام صفحه را خاموش کنید';
+  mejs.i18n.fa['mejs.fullscreen-on'] = 'برو تمام صفحه';
+  mejs.i18n.fa['mejs.download-video'] = 'دانلود فیلم';
+}
+if(mejs.i18n.fr !== undefined) {
+  mejs.i18n.fr['mejs.fullscreen-off'] = 'Quitter le mode plein écran';
+  mejs.i18n.fr['mejs.fullscreen-on'] = 'Afficher en plein écran';
+  mejs.i18n.fr['mejs.download-video'] = 'Télécharger la vidéo';
+}
+if(mejs.i18n.hr !== undefined) {
+  mejs.i18n.hr['mejs.fullscreen-off'] = 'Isključi puni zaslon';
+  mejs.i18n.hr['mejs.fullscreen-on'] = 'Uključi puni zaslon';
+  mejs.i18n.hr['mejs.download-video'] = 'Preuzmi video';
+}
+if(mejs.i18n.hu !== undefined) {
+  mejs.i18n.hu['mejs.fullscreen-off'] = 'Teljes képernyő kikapcsolása';
+  mejs.i18n.hu['mejs.fullscreen-on'] = 'Átlépés teljes képernyős módra';
+  mejs.i18n.hu['mejs.download-video'] = 'Videó letöltése';
+}
+if(mejs.i18n.it !== undefined) {
+  mejs.i18n.it['mejs.fullscreen-off'] = 'Disattivare lo schermo intero';
+  mejs.i18n.it['mejs.fullscreen-on'] = 'Attivare lo schermo intero';
+  mejs.i18n.it['mejs.download-video'] = 'Scaricare il video';
+}
+if(mejs.i18n.ja !== undefined) {
+  mejs.i18n.ja['mejs.fullscreen-off'] = '全画面をオフにする';
+  mejs.i18n.ja['mejs.fullscreen-on'] = '全画面にする';
+  mejs.i18n.ja['mejs.download-video'] = '動画をダウンロードする';
+}
+if(mejs.i18n.ko !== undefined) {
+  mejs.i18n.ko['mejs.fullscreen-off'] = '전체화면 해제';
+  mejs.i18n.ko['mejs.fullscreen-on'] = '전체화면 가기';
+  mejs.i18n.ko['mejs.download-video'] = '비디오 다운로드';
+}
+if(mejs.i18n.ms !== undefined) {
+  mejs.i18n.ms['mejs.fullscreen-off'] = 'Keluar dari mod skrin penuh';
+  mejs.i18n.ms['mejs.fullscreen-on'] = 'Masuk ke mod skrin penuh';
+  mejs.i18n.ms['mejs.download-video'] = 'Muat turun video';
+}
+if(mejs.i18n.nl !== undefined) {
+  mejs.i18n.nl['mejs.fullscreen-off'] = 'Volledig scherm uitschakelen';
+  mejs.i18n.nl['mejs.fullscreen-on'] = 'Volledig scherm';
+  mejs.i18n.nl['mejs.download-video'] = 'Video downloaden';
+}
+if(mejs.i18n.pl !== undefined) {
+  mejs.i18n.pl['mejs.fullscreen-off'] = 'Wyłącz pełny ekran';
+  mejs.i18n.pl['mejs.fullscreen-on'] = 'Przejdź na pełny ekran';
+  mejs.i18n.pl['mejs.download-video'] = 'Pobierz wideo';
+}
+if(mejs.i18n.pt !== undefined) {
+  mejs.i18n.pt['mejs.fullscreen-off'] = 'Desligar ecrã completo';
+  mejs.i18n.pt['mejs.fullscreen-on'] = 'Ir para ecrã completo';
+  mejs.i18n.pt['mejs.download-video'] = 'Descarregar o vídeo';
+}
+if(mejs.i18n.ro !== undefined) {
+  mejs.i18n.ro['mejs.fullscreen-off'] = 'Opreşte ecranul complet';
+  mejs.i18n.ro['mejs.fullscreen-on'] = 'Treci la ecran complet';
+  mejs.i18n.ro['mejs.download-video'] = 'Descarcă fişierul video';
+}
+if(mejs.i18n.ru !== undefined) {
+  mejs.i18n.ru['mejs.fullscreen-off'] = 'Выключить полноэкранный режим';
+  mejs.i18n.ru['mejs.fullscreen-on'] = 'Перейти в полноэкранный режим';
+  mejs.i18n.ru['mejs.download-video'] = 'Скачать видео';
+}
+if(mejs.i18n.sk !== undefined) {
+  mejs.i18n.sk['mejs.fullscreen-off'] = 'Vypnúť celú obrazovku';
+  mejs.i18n.sk['mejs.fullscreen-on'] = 'Prejsť na celú obrazovku';
+  mejs.i18n.sk['mejs.download-video'] = 'Prevziať video';
+}
+if(mejs.i18n.sv !== undefined) {
+  mejs.i18n.sv['mejs.fullscreen-off'] = 'Stäng av Fullskärmläge';
+  mejs.i18n.sv['mejs.fullscreen-on'] = 'Visa i Fullskärmsläge';
+  mejs.i18n.sv['mejs.download-video'] = 'Ladda ner Video';
+}
+if(mejs.i18n.tr !== undefined) {
+  mejs.i18n.tr['mejs.fullscreen-off'] = 'Tam ekran modundan çık';
+  mejs.i18n.tr['mejs.fullscreen-on'] = 'Tam ekran moduna geç';
+  mejs.i18n.tr['mejs.download-video'] = 'Videoyu indir';
+}
+if(mejs.i18n.uk !== undefined) {
+  mejs.i18n.uk['mejs.fullscreen-off'] = 'Вимкнути повноекранний режим';
+  mejs.i18n.uk['mejs.fullscreen-on'] = 'Увійти в повноекранний режим';
+  mejs.i18n.uk['mejs.download-video'] = 'Скачати відео';
+}
+if(mejs.i18n.zh !== undefined) {
+  mejs.i18n.zh['mejs.fullscreen-off'] = '關閉全屏';
+  mejs.i18n.zh['mejs.fullscreen-on'] = '轉向全屏';
+  mejs.i18n.zh['mejs.download-video'] = '下載視頻';
+}
+if(mejs.i18n['zh-CN'] !== undefined) {
+  mejs.i18n['zh-CN']['mejs.fullscreen-off'] = '关闭全屏';
+  mejs.i18n['zh-CN']['mejs.fullscreen-on'] = '转向全屏';
+  mejs.i18n['zh-CN']['mejs.download-video'] = '下载视频';
+}
