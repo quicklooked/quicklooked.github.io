@@ -130,14 +130,6 @@ body.vjs-full-window {
   visibility: visible
 }
 
-@font-face {
-  font-family: VideoJS;
-  src: url(../f/1/vjs.eot);
-  src: url(../f/1/vjs.eot?#iefix) format('embedded-opentype'), url(../f/1/vjs.woff) format('woff'), url(../f/1/vjs.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal
-}
-
 .vjs-default-skin {
   color: #ccc
 }
@@ -167,7 +159,7 @@ body.vjs-full-window {
 
 .vjs-default-skin .vjs-slider-handle:before {
   content: "\e009";
-  font-family: VideoJS;
+  font-family: Arial, sans-serif;
   font-size: 1em;
   line-height: 1;
   text-align: center;
@@ -210,7 +202,7 @@ body.vjs-full-window {
 }
 
 .vjs-default-skin .vjs-control:before {
-  font-family: VideoJS;
+  font-family: Arial, sans-serif;
   font-size: 1.5em;
   line-height: 2;
   position: absolute;
@@ -459,7 +451,7 @@ body.vjs-full-window {
 
 .vjs-default-skin .vjs-big-play-button:before {
   content: "\e001";
-  font-family: VideoJS;
+  font-family: Arial, sans-serif;
   font-size: 3em;
   line-height: 2.66;
   text-shadow: .05em .05em .1em #000;
@@ -490,7 +482,7 @@ body.vjs-full-window {
 
 .vjs-default-skin .vjs-loading-spinner:before {
   content: "\e00a";
-  font-family: VideoJS;
+  font-family: Arial, sans-serif;
   position: absolute;
   width: 1em;
   height: 1em;
@@ -500,7 +492,7 @@ body.vjs-full-window {
 
 .vjs-default-skin .vjs-loading-spinner:after {
   content: "\e00a";
-  font-family: VideoJS;
+  font-family: Arial, sans-serif;
   position: absolute;
   width: 1em;
   height: 1em;
@@ -648,7 +640,7 @@ body.vjs-full-window {
 
 .vjs-default-skin .vjs-captions-button:before {
   content: "\e008";
-  font-family: VideoJS;
+  font-family: Arial, sans-serif;
   font-size: 1.5em;
   line-height: 2;
   position: absolute;
