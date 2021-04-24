@@ -14,7 +14,7 @@
 
 .mejs__container {
   background: #000;
-  font-family: 'circular-book', Helvetica, Arial, serif;
+  font-family: Helvetica, Arial, serif;
   position: relative;
   text-align: left;
   text-indent: 0;
@@ -896,11 +896,11 @@
 
 .mejs-contextmenu,
 .mejs__contextmenu {
-  background: #fff;
-  border: 1px solid #999;
-  border-radius: 4px;
+  background: rgba(0,0,0,0.87);
+  border: 0px solid rgba(0,0,0,0.87);
+  border-radius: 2px;
   left: 0;
-  padding: 10px;
+  padding: 0 20px;
   position: absolute;
   top: 0;
   width: 150px;
@@ -919,9 +919,10 @@
 .mejs__contextmenu-item {
   color: #333;
   cursor: pointer;
-  font-size: 12px;
-  padding: 4px 6px;
-  font-family: 'circular-book';
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 10px;
+  font-family: 'Helvetica, Arial, serif';
 }
 
 .mejs-contextmenu-item:hover,
