@@ -579,8 +579,8 @@ body.vjs-full-window {
 
 .video-js:hover .vjs-big-play-button,
 .video-js .vjs-big-play-button:focus {
-  background-color: #fff;
-  background-color: #fff;
+  background-color: transparent;
+  background-color: transparent;
   transition: all 0s;
 }
 
