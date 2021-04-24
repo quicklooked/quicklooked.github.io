@@ -235,7 +235,7 @@ button:focus {
   font-weight: bold;
 }
 
-.fullscreen {
+.fullscreenvideo {
   display: flex;
   justify-content: center;
 }
