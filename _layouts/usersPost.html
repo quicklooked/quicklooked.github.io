@@ -844,6 +844,9 @@
         }
       }
     }
+    $("video").mediaelementplayer({
+    features: ['markersrolls', 'pictureInPicture']
+    });
     document.addEventListener('DOMContentLoaded', function() {
       var mediaElements = document.querySelectorAll('video'),
         total = mediaElements.length;
