@@ -849,6 +849,12 @@
         total = mediaElements.length;
       for(var i = 0; i < total; i++) {
         new MediaElementPlayer(mediaElements[i], {
+          markers: [30, 90, 360],
+          markerColor: '#ca4e27',
+          markerWidth: 3,
+          markerCallback: function (media, time) {
+          alert('You reached ' + Math.round(time) + ' seconds');
+            },
           features: ['playpause', 'progress', 'duration', 'volume', 'playlist', 'fullscreen', 'airplay', 'markers'],
           pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/',
           shimScriptAccess: 'always',
