@@ -1393,6 +1393,7 @@ video::-webkit-media-text-track-display {
 .video-js .vjs-picture-in-picture-control {
   cursor: pointer;
   flex: none;
+  display: none;
 }
 
 .video-js .vjs-fullscreen-control {
