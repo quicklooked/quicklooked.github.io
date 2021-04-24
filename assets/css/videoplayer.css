@@ -2,8 +2,7 @@
 
 .vjs-modal-dialog .vjs-modal-dialog-content,
 .video-js .vjs-modal-dialog,
-.vjs-button>.vjs-icon-placeholder:before,
-.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.vjs-button>.vjs-icon-placeholder:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -11,8 +10,7 @@
   height: 100%;
 }
 
-.vjs-button>.vjs-icon-placeholder:before,
-.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.vjs-button>.vjs-icon-placeholder:before {
   text-align: center;
 }
 
@@ -24,16 +22,14 @@
 }
 
 .vjs-icon-play,
-.video-js .vjs-play-control .vjs-icon-placeholder,
-.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.video-js .vjs-play-control .vjs-icon-placeholder {
   font-family: VideoJS;
   font-weight: normal;
   font-style: normal;
 }
 
 .vjs-icon-play:before,
-.video-js .vjs-play-control .vjs-icon-placeholder:before,
-.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+.video-js .vjs-play-control .vjs-icon-placeholder:before {
   content: "\f101";
 }
 
