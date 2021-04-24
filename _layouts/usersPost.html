@@ -849,6 +849,7 @@
         total = mediaElements.length;
       for(var i = 0; i < total; i++) {
         new MediaElementPlayer(mediaElements[i], {
+          features: ['playpause', 'current', 'progress', 'duration', 'volume', 'fullscreen', 'airplay'],
           pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.16/build/',
           shimScriptAccess: 'always',
           success: function() {
