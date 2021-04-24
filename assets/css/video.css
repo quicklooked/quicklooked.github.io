@@ -14,7 +14,7 @@
 
 .mejs__container {
   background: #000;
-  font-family: Helvetica, Arial, serif;
+  font-family: 'circular-book', Helvetica, Arial, serif;
   position: relative;
   text-align: left;
   text-indent: 0;
@@ -920,7 +920,8 @@
   color: #333;
   cursor: pointer;
   font-size: 12px;
-  padding: 4px 6px
+  padding: 4px 6px;
+  font-family: 'circular-book';
 }
 
 .mejs-contextmenu-item:hover,
