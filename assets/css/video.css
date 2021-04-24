@@ -921,12 +921,13 @@
   cursor: pointer;
   font-size: 14px;
   font-weight: 400;
-  padding: 6px 10px;
-  font-family: 'Helvetica, Arial, serif';
+  padding: 10px 10px;
+  color: rgba(255,255,255,0.87);
+  font-family: Helvetica, Arial, serif;
 }
 
 .mejs-contextmenu-item:hover,
 .mejs__contextmenu-item:hover {
-  background: #2c7c91;
+  background: rgba(0,0,0,0.4);
   color: #fff
 }
