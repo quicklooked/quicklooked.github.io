@@ -857,3 +857,13 @@
 .mejs__speed-button:hover .mejs__speed-selector {
   visibility: visible
 }
+
+
+.mejs-skip-back-button>button,
+.mejs__skip-back-button>button {
+  background: url(https://raw.githubusercontent.com/mediaelement/mediaelement-plugins/master/dist/skip-back/skipback.svg) no-repeat 0 -1px;
+  color: #fff;
+  font-size: 8px;
+  line-height: normal;
+  position: relative
+}
