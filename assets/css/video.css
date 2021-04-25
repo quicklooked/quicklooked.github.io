@@ -13,8 +13,10 @@
 }
 
 .mejs__container {
-  background: #000;
+  background: rgba(0, 0, 0, 0.8);
   font-family: Helvetica, Arial, serif;
+  opacity: 0;
+	transition: all ease 500ms;
   position: relative;
   text-align: left;
   text-indent: 0;
