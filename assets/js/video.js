@@ -818,12 +818,12 @@
       Horizontal: "水平",
       Vertical: "垂直",
       Reconnect: "重新连接",
-      "Hide subtitle": "隐藏字幕",
-      "Show subtitle": "显示字幕",
+      "Subtitles/closed captions": "隐藏字幕",
+      "Subtitles/closed captions": "显示字幕",
       "Hide danmu": "隐藏弹幕",
       "Show danmu": "显示弹幕",
       "Setting": "显示设置",
-      "Hide setting": "隐藏设置",
+      "Setting": "隐藏设置",
       Screenshot: "截图",
       "Play speed": "播放速度",
       "Aspect ratio": "画面比例",
@@ -862,12 +862,12 @@
       Horizontal: "水平",
       Vertical: "垂直",
       Reconnect: "重新連接",
-      "Hide subtitle": "隱藏字幕",
-      "Show subtitle": "顯示字幕",
+      "Subtitles/closed captions": "隱藏字幕",
+      "Subtitles/closed captions": "顯示字幕",
       "Hide danmu": "隱藏彈幕",
       "Show danmu": "顯示彈幕",
-      "Show setting": "顯示设置",
-      "Hide setting": "隱藏设置",
+      "Setting": "顯示设置",
+      "Setting": "隱藏设置",
       Screenshot: "截圖",
       "Play speed": "播放速度",
       "Aspect ratio": "畫面比例",
@@ -2407,7 +2407,7 @@
         })), r.add(function(t) {
           return function(e) {
             return Vt(Vt({}, t), {}, {
-              tooltip: e.i18n.get("Hide subtitle"),
+              tooltip: e.i18n.get("Subtitles/closed captions"),
               mounted: function(t) {
                 var r = e.events.proxy,
                   n = e.icons,
@@ -2416,7 +2416,7 @@
                 x(t, n.subtitle), r(t, "click", (function() {
                   i.toggle = !0
                 })), e.on("subtitle", (function(e) {
-                  R(t, o.get(e ? "Hide subtitle" : "Show subtitle"))
+                  R(t, o.get(e ? "Subtitles/closed captions" : "Subtitles/closed captions"))
                 }))
               }
             })
@@ -2429,7 +2429,7 @@
         })), r.add(function(t) {
           return function(e) {
             return Yt(Yt({}, t), {}, {
-              tooltip: e.i18n.get("Show setting"),
+              tooltip: e.i18n.get("Setting"),
               mounted: function(t) {
                 var r = e.events.proxy,
                   n = e.icons,
@@ -2438,7 +2438,7 @@
                 x(t, n.setting), r(t, "click", (function() {
                   i.toggle = !0
                 })), e.on("setting", (function(e) {
-                  R(t, o.get(e ? "Hide setting" : "Show setting"))
+                  R(t, o.get(e ? "Setting" : "Setting"))
                 }))
               }
             })
