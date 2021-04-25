@@ -2451,7 +2451,7 @@
         })), r.add(function(t) {
           return function(e) {
             return Ct(Ct({}, t), {}, {
-              tooltip: e.i18n.get("PIP mode"),
+              tooltip: e.i18n.get("Miniplayer"),
               mounted: function(t) {
                 var r = e.events.proxy,
                   n = e.icons,
