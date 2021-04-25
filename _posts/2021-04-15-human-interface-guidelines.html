@@ -460,7 +460,7 @@ twitterAuthor: "@TheEconomist"
                           autoMini: true,
                           screenshot: true,
                           setting: true,
-                          loop: true,
+                          loop: false,
                           flip: true,
                           rotate: true,
                           playbackRate: true,
@@ -475,7 +475,7 @@ twitterAuthor: "@TheEconomist"
                           mutex: true,
                           light: true,
                           backdrop: true,
-                          theme: '#ffad00',
+                          theme: 'red',
                           lang: navigator.language.toLowerCase(),
                           moreVideoAttr: {
                             crossOrigin: 'anonymous',
@@ -483,14 +483,14 @@ twitterAuthor: "@TheEconomist"
                           contextmenu: [{
                             html: 'Custom menu',
                             click: function(contextmenu) {
-                              console.info('You clicked on the custom menu');
+                              console.info('Click on the custom menu');
                               contextmenu.show = false;
                             },
                           }, ],
                           layers: [{
                             html: `<img style="width: 100px" src="https://artplayer.org/assets/sample/layer.png">`,
                             click: function() {
-                              console.info('You clicked on the custom layer');
+                              console.info('Click on the custom layer');
                             },
                             style: {
                               position: 'absolute',
@@ -542,7 +542,7 @@ twitterAuthor: "@TheEconomist"
                             position: 'right',
                             html: 'Control',
                             click: function() {
-                              console.info('You clicked on the custom control');
+                              console.info('Click on the custom control');
                             },
                           }, ],
                           icons: {
