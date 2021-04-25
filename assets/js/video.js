@@ -2779,7 +2779,7 @@
           index: 30
         })), o.add(function(t) {
           return de(de({}, t), {}, {
-            html: '<a href="https://artplayer.org" target="_blank">ArtPlayer 3.5.27</a>'
+            html: '<a href="https://quicklooked.github.io/" target="_blank">QuicklookPlayer3.5.27</a>'
           })
         }({
           disable: !1,
@@ -4005,5 +4005,5 @@
         }
       }]), i
     }(p);
-  return console.log("%c ArtPlayer %c 3.5.27 %c https://artplayer.org", "color: #fff; background: #5f5f5f", "color: #fff; background: #4bc729", ""), nr
+  return console.log("%c ArtPlayer %c 3.5.27 %c https://quicklooked.github.io/", "color: #fff; background: #5f5f5f", "color: #fff; background: #4bc729", ""), nr
 }));
