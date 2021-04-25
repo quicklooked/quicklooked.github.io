@@ -1061,7 +1061,9 @@
 .mejs__playlist-selector-label {
   cursor: pointer;
   float: left;
-  font-size: 1.3em;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
   margin: 0
 }
 
@@ -1138,8 +1140,8 @@
 .mejs-playlist-item-content,
 .mejs__playlist-item-content {
   display: table-cell;
-  padding: 10px;
-  width: 70%
+  padding: 8px;
+  width: 55%
 }
 
 .mejs-container.mejs-audio .mejs-playlist-item-content,
@@ -1151,7 +1153,9 @@
 .mejs-playlist-item-description,
 .mejs__playlist-item-description {
   clear: left;
-  padding: 5px 0;
+  padding: 4px 0;
+  font-size: 13px;
+  line-hieght: 18px;
   text-align: left
 }
 
