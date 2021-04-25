@@ -1076,6 +1076,7 @@
   background-image: linear-gradient(180deg, #eb5802, #f3ad39);
   color: transparent;
   font-size: .65em;
+  display:none;
   vertical-align: middle
 }
 
