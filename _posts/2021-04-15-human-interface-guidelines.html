@@ -483,14 +483,14 @@ twitterAuthor: "@TheEconomist"
                           contextmenu: [{
                             html: 'Custom menu',
                             click: function(contextmenu) {
-                              console.info('Click on the custom menu');
-                              contextmenu.show = true;
+                              console.info('Customize');
+                              contextmenu.show = false;
                             },
                           }, ],
                           layers: [{
                             html: `<img style="width: 32px" src="{{page.favicon}}">`,
                             click: function() {
-                              console.info('Click on the custom layer');
+                              console.info('Customize');
                             },
                             style: {
                               position: 'absolute',
