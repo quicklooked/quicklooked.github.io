@@ -1088,7 +1088,7 @@
         return !1
       },
       set: function() {
-        n.show = r.get("PIP not supported")
+        n.show = r.get("Miniplayer not supported")
       }
     }), X(e, "pipToggle", {
       set: function(t) {
