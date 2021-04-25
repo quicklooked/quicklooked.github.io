@@ -1118,9 +1118,9 @@
 .mejs-playlist-item-thumbnail,
 .mejs__playlist-item-thumbnail {
   display: table-cell;
-  padding: 7px 5px;
+  padding: 8px 4px 8px 8px;
   vertical-align: top;
-  width: 30%
+  width: 45%
 }
 
 .mejs-container.mejs-audio .mejs-playlist-item-thumbnail,
