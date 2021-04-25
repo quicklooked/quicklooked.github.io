@@ -2460,7 +2460,7 @@
                 x(t, n.pip), r(t, "click", (function() {
                   i.pipToggle = !0
                 })), e.on("pip", (function(e) {
-                  R(t, o.get(e ? "Exit Miniplayer" : "Miniplayer"))
+                  R(t, o.get(e ? "Expand" : "Miniplayer"))
                 }))
               }
             })
