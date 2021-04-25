@@ -173,15 +173,15 @@
 
 @-webkit-keyframes a {
   to {
-    -webkit-transform: rotate(1turn);
-    transform: rotate(1turn)
+    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn)
   }
 }
 
 @keyframes a {
   to {
-    -webkit-transform: rotate(1turn);
-    transform: rotate(1turn)
+    -webkit-transform: rotate(0turn);
+    transform: rotate(0turn)
   }
 }
 
