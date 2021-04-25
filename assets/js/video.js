@@ -834,8 +834,8 @@
       "Switch subtitle": "切换字幕",
       Fullscreen: "全屏",
       "Exit fullscreen": "退出全屏",
-      "Web fullscreen": "网页全屏",
-      "Exit web fullscreen": "退出网页全屏",
+      "Theater mode": "网页全屏",
+      "Default view": "退出网页全屏",
       "Mini player": "迷你播放器",
       "Miniplayer": "画中画模式",
       "Expand": "退出画中画模式",
@@ -878,8 +878,8 @@
       "Switch subtitle": "切換字幕",
       Fullscreen: "全屏",
       "Exit fullscreen": "退出全屏",
-      "Web fullscreen": "網頁全屏",
-      "Exit web fullscreen": "退出網頁全屏",
+      "Theater mode": "網頁全屏",
+      "Default view": "退出網頁全屏",
       "Mini player": "迷你播放器",
       "Miniplayer": "畫中畫模式",
       "Expand": "退出畫中畫模式",
@@ -2473,7 +2473,7 @@
         })), r.add(function(t) {
           return function(e) {
             return zt(zt({}, t), {}, {
-              tooltip: e.i18n.get("Web fullscreen"),
+              tooltip: e.i18n.get("Theater mode"),
               mounted: function(t) {
                 var r = e.events.proxy,
                   n = e.icons,
@@ -2482,7 +2482,7 @@
                 x(t, n.fullscreenWeb), r(t, "click", (function() {
                   i.fullscreenWebToggle = !0
                 })), e.on("fullscreenWeb", (function(e) {
-                  R(t, o.get(e ? "Exit web fullscreen" : "Web fullscreen"))
+                  R(t, o.get(e ? "Default view" : "Theater mode"))
                 }))
               }
             })
