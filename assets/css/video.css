@@ -1026,7 +1026,7 @@
 
 .mejs-playlist-selector-list-item,
 .mejs__playlist-selector-list-item {
-  border-bottom: 1px solid #c8c8c8;
+  border-bottom: 0px solid #c8c8c8;
   border-collapse: collapse;
   cursor: pointer;
   display: table;
