@@ -27,7 +27,6 @@ function prepare() {
     document.getElementById("slide2").classList.remove("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
     document.getElementById("slide2").classList.add("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
   }
-  window.addEventListener("scroll", sync, false);
 }
 
 window.addEventListener("scroll", function(sync) {
