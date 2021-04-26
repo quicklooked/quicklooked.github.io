@@ -7,8 +7,7 @@ var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
 document.addEventListener("DOMContentLoaded", function() {
   sync();
 }, false);
-
-function sync() {
+window.addEventListener("scroll", function sync() {
   if(x > y && x < divSlide.clientHeight - 188) {
     if(status == "under1180") {
       document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
@@ -30,4 +29,4 @@ function sync() {
       status = "under1180";
     }
   }
-}
+})
