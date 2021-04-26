@@ -55,5 +55,4 @@ function sync() {
       status = "under1180";
     }
   }
-  window.addEventListener("scroll", prepare, false);
 }
