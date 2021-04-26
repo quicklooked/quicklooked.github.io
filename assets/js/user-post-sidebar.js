@@ -54,4 +54,4 @@ window.addEventListener("scroll", function(sync) {
       status = "under1180";
     }
   }
-}
+})
