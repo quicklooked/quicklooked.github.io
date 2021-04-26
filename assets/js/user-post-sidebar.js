@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var clientHeight1 = document.getElementById("divSlide1").clientHeight;
   var clientHeight2 = document.getElementById("divSlide2").clientHeight;
   window.addEventListener("scroll", function(prepare) {
+    var x = pageYOffset;
     var disbar = document.getElementById("disableslibar1").clientHeight;
     var disbar1 = document.getElementById("disableslibar1").scrollTop;
     if(x < disbar1 && x > disbar1 + disbar) {
