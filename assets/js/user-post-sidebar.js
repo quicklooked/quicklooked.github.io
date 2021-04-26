@@ -6,7 +6,6 @@ var disbar = document.getElementById("disableslibar1").clientHeight;
 var disbar1 = document.getElementById("disableslibar1").offsetTop;
 document.addEventListener("DOMContentLoaded", function() {
   prepare();
-  sync();
 }, false);
 
 
