@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function prepare() {
   if (x < disbar1 && x > disbar1 + disbar) {
-    if(status == "under1180")
+    if(status == "under1180") {
       document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
       document.getElementById("slide").classList.add("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
       document.getElementById("slide1").classList.remove("gg");
