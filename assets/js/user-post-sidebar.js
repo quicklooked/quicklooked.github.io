@@ -9,8 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
     var x = pageYOffset;
     var disbar1 = document.getElementById("disableslibar1").scrollTop;
     if(x > y && x < divSlide.clientHeight - 188) {
-      if(status == "underY") {
-        if(x < disbar1 && x > disbar1 + disbar) {
+      if(x < disbar1 && x > disbar1 + disbar) {
+        if(status == "underY") {
           document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
           document.getElementById("slide").classList.add("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
           document.getElementById("slide1").classList.remove("gg");
