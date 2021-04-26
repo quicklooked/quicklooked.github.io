@@ -24,14 +24,7 @@ function prepare() {
     status = "over1180";
     window.addEventListener("scroll", sync, false);
   } else {
-    document.getElementById("slide").classList.remove("nr", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
-    document.getElementById("slide").classList.add("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
-    document.getElementById("slide1").classList.remove("vas");
-    document.getElementById("slide1").classList.add("gg");
-    document.getElementById("slide2").classList.remove("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
-    document.getElementById("slide2").classList.add("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
-    status = "under1180";
-    window.addEventListener("scroll", sync, false);
+    window.addEventListener("scroll", sync, true);
   }
 }
 
@@ -57,7 +50,7 @@ function sync() {
       document.getElementById("slide2").classList.remove("nr", "va", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
       document.getElementById("slide2").classList.add("em", "gg", "me", "fj", "mf", "mg", "mh", "mi", "mj", "mk");
       status = "under1180";
-      window.addEventListener("scroll", prepare, false);
+      window.addEventListener("scroll", prepare, true);
     }
   }
 }
