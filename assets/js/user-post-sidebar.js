@@ -4,8 +4,6 @@ var clientHeight1 = document.getElementById("divSlide1").clientHeight;
 var clientHeight2 = document.getElementById("divSlide2").clientHeight;
 var disbar = document.getElementById("disableslibar1").clientHeight;
 var disbar1 = document.getElementById("disableslibar1").offsetTop;
-var x = pageYOffset;
-var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
 document.addEventListener("DOMContentLoaded", function() {
   prepare();
   sync();
@@ -32,8 +30,9 @@ function prepare() {
   window.addEventListener("scroll", sync, false);
 }
 
-
-function sync() {
+window.addEventListener("scroll", function(sync) {
+  var x = pageYOffset;
+  var y = 88 + divSlide1.clientHeight + divSlide2.clientHeight;
   if(x > y && x < divSlide.clientHeight - 188) {
     if(status == "under1180") {
       document.getElementById("slide").classList.remove("em", "gg", "fj", "ml", "w", "tr", "fl", "mj", "sv");
