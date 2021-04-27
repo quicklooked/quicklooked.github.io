@@ -560,21 +560,44 @@ twitterAuthor: "@TheEconomist"
 </script>
 </div>
                         
-<style id="custom_skin">
-  div.flowplayer .fp-color { background-color: #fff }
-  .flowplayer { max-width: 800px }
-  .use-controlbar-background .fp-controls { background-color: rgba(0,0,0,.6) }
 
-  /* Force controls to be visible initially. Do not use in production. */
-  .flowplayer .fp-controls { visibility: visible; opacity: 1; }
-  .flowplayer .fp-footer { display: none }
-  .flowplayer .fp-progress { width: 50% }
-</style>
-
-<div class="use-play-1 flowplayer" data-player-id="56058953-2cbd-4858-a915-1253bf7ef7b2">
-  <script src="//cdn.flowplayer.com/players/8dfd6c14-ba3a-445e-8ef5-191d9358ed0a/native/flowplayer.async.js">
-    { "src": "00dc2cd3-3813-4869-8ab8-00ece266b958",
-      "logo": "https://flowplayer.com/images/acme-logo.png" }
-  </script>
+                        
+<script src="https://cdn.flowplayer.com/releases/native/stable/flowplayer.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/hls.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/qsel.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/edge/plugins/ovp.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/thumbnails.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/share.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/subtitles.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/keyboard.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/airplay.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/stable/plugins/float-on-scroll.min.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/translations/flowplayer.lang.fi.js"></script>
+<script src="https://cdn.flowplayer.com/releases/native/translations/flowplayer.lang.all.js"></script>
+<div id="players">
+<script>
+  var player = flowplayer('#players', {
+    poster: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
+    src: 'https://l3video.lwcdn.com/hls/8fdb4e20-8ebb-4590-8844-dae39680d837/playlist_1080.m3u8',
+    title: 'The durian open movie project',
+    plugins: ['thumbnails'],
+    thumbnails: {src: 'https://stdlwcdn.lwcdn.com/i/8fdb4e20-8ebb-4590-8844-dae39680d837/160p.vtt'},
+    logo: 'https://flowplayer.com/images/acme-logo.png',
+    lang: 'en',
+    loop: false,
+    keyboard: true,
+    muted: true,
+    ratio: '16:9',
+    float_on_scroll: true,
+    hls : { native: true, startLevel: 1 },
+    hls: { native: !!flowplayer.support().safari },
+    qsel: { labels: ['2160p 4K', '1440p 2K', '1080p HD', '720p', 'Auto']},
+    share: {link: 'https://quicklooked.github.io/@the_economist/human-interface-guidelines',facebook: true,twitter: true, iframe: ''},
+    subtitles: {tracks: [
+{src: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt', label: 'English', id: 'English-en', default: true}, 
+{src: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt', label: 'Francais', id: 'Francais-fr', default : false} 
+]}
+  });
+</script>
 </div>
 
