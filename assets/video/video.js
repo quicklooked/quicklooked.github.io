@@ -1553,7 +1553,7 @@
         },
         a = n.analytics.tracker = ut.Tracker.of(n, {
           verb: ut.Tracker.verb.POST,
-          url: "https://ptm.flowplayer.com/:video_type/:sitegroup_id/:event_type",
+          url: "https://ptm.quicklooked.github.io/:video_type/:sitegroup_id/:event_type",
           events: bt,
           required_keys: pt,
           optional_keys: [].concat(vt).concat(mt),
@@ -2582,7 +2582,7 @@
       },
       r = new XMLHttpRequest,
       o = JSON.stringify(n),
-      i = "undefined" != typeof flowplayer && flowplayer.METERING_URL ? flowplayer.METERING_URL : "https://pmi.flowplayer.com/in";
+      i = "undefined" != typeof flowplayer && flowplayer.METERING_URL ? flowplayer.METERING_URL : "https://pmi.quicklooked.github.io/in";
     r.open("POST", i, !0), r.timeout = 2500, r.send(o), r.addEventListener("load", t.bind(null, r))
   }
 
@@ -2730,7 +2730,7 @@
     send(e) {
       if(!(this._pending.length < 20) || e) {
         var t = this._pending.slice(0);
-        this._pending.length = 0, Un("https://health.flowplayer.com/v1/health/events", t)
+        this._pending.length = 0, Un("https://health.quicklooked.github.io/v1/health/events", t)
       }
     }
   }
