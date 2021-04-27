@@ -550,14 +550,13 @@ twitterAuthor: "@TheEconomist"
 <script src="/assets/video/flowplayer.min.js"></script>
 <script src="/assets/video/hls.min.js"></script>
 <script src="/assets/video/plugins.min.js"></script>
-<div id="player">
+<div id="player"></div>
 <script>
   var player = flowplayer('#player', {
     poster: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-    src: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4',
+    src: 'https://l3video.lwcdn.com/hls/8fdb4e20-8ebb-4590-8844-dae39680d837/playlist_1080.m3u8',
     title: 'A Blue Moon Trailer',
-    thumbnails: {src: 'https://raw.githubusercontent.com/aquicklook/simply-jekyll/master/160p.vtt'},
+    thumbnails: {src: 'https://stdlwcdn.lwcdn.com/i/8fdb4e20-8ebb-4590-8844-dae39680d837/160p.vtt'},
     logo: '{{page.favicon}}'
   });
 </script>
-</div>
