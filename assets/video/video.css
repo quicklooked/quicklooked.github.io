@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "work sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://flowplayer.com/user/themes/n//fonts/work-sans-300.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "work sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://flowplayer.com/user/themes/n//fonts/work-sans-400.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "work sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://flowplayer.com/user/themes/n//fonts/work-sans-500.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "work sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://flowplayer.com/user/themes/n//fonts/work-sans-700.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "work sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://flowplayer.com/user/themes/n//fonts/work-sans-900.woff2) format("woff2");
+}
+
 .flowplayer * {
   color: white;
   background-color: transparent;
