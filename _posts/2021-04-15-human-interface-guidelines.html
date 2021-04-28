@@ -556,12 +556,11 @@ twitterAuthor: "@TheEconomist"
 var options = {
   src: "//edge.flowplayer.org/functional.m3u8",
   rewind: true,
-  start_time: 10,
-  subtitles: { tracks: subtitles },
+  start_time: 0,
   share: { link: true, facebook: true },
   logo: "https://flowplayer.com/user/pages/images/flowplayer-logo-lightgrey.png",
-  logo_href: "https://flowplayer.com",
-  title: "native / default"
+  logo_href: "{{page:linkmain}}",
+  title: "{{page:title}}"
 };
 window.player = flowplayer(".player", options);
 </script>
