@@ -545,13 +545,36 @@ twitterAuthor: "@TheEconomist"
             </section>
                         
      
-<div id="player">
+<div id="player"></div>
 <script>
-  var player = flowplayer('#player', {
-    poster: 'https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg',
-    src: 'https://l3video.lwcdn.com/hls/8fdb4e20-8ebb-4590-8844-dae39680d837/playlist_1080.m3u8',
-    title: 'The durian open movie project'
-  });
+var subtitles = [
+  {
+    src: "https://builds.flowplayer.com/samples/en.vtt",
+    lang: "en",
+    label: "English"
+  },
+  {
+    src: "https://builds.flowplayer.com/samples/pt.vtt",
+    lang: "pt",
+    label: "Portuguese",
+    is_default: true
+  }
+];
+
+var options = {
+  src: "//edge.flowplayer.org/functional.m3u8",
+  rewind: true,
+  start_time: 10,
+  subtitles: { tracks: subtitles },
+  share: { link: true, facebook: true },
+  logo:
+    "https://flowplayer.com/user/pages/images/flowplayer-logo-lightgrey.png",
+  logo_href: "https://flowplayer.com",
+  title: "native / default"
+};
+
+window.player = flowplayer(".player", options);
+
 </script>
-</div>
+
 
