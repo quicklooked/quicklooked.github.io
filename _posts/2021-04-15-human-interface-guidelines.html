@@ -545,8 +545,8 @@ twitterAuthor: "@TheEconomist"
             </section>
                         
 
-<div class="player">
-<script type="text/javascript" src="//cdn.flowplayer.com/releases/native/stable/default/flowplayer.min.js"></script>
+<div id="flowplayer">
+<script type="text/javascript" src="/assets/video/plugins/flowplayer.min.js"></script>
 <script type="text/javascript" src="/assets/video/plugins/keyboard.min.js"></script>
 <script type="text/javascript" src="/assets/video/plugins/share.min.js"></script>
 <script type="text/javascript" src="/assets/video/plugins/qsel.min.js"></script>
@@ -563,7 +563,7 @@ var options = {
   logo_href: "{{page.linkmain}}",
   title: "{{page.title}}"
 };
-window.player = flowplayer(".player", options);
+window.player = flowplayer("#flowplayer", options);
 </script>
 </div>
 
