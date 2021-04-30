@@ -289,6 +289,7 @@
     });
     $(vid).on("ended", function() {
       video_reset.css("display", "flex");
+      video_player_controls.css("opacity", "0");
     });
     video_reset_btn.click(function() {
       play();
