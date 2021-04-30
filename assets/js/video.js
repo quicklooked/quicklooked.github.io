@@ -292,3 +292,10 @@
   $.fn.twitterVideoPlayer = jQueryPlugin("twitterVideoPlayer", twitterVideoPlayer);
 })();
 $(".video").twitterVideoPlayer();
+
+var isPlaying = video.currentTime > 0 && !video.paused && !video.ended 
+    && video.readyState > video.HAVE_CURRENT_DATA;
+
+if (!isPlaying) {
+  video.play();
+}
