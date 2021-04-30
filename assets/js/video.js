@@ -79,12 +79,13 @@
     
     var playPromise = vid.play();
     if(playPromise !== undefined) {
+      var range == 0;
       playPromise.then(_ => {
         play();
-        vid.muted === false;
+        vid.volume = range;
       }).catch(error => {
         pause();
-        vid.muted === false;
+        vid.volume = range;
       });
     }
 
