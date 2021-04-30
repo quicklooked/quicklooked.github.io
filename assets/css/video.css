@@ -129,9 +129,17 @@ body {
   z-index: 1;
 }
 
-.video-player-controls::hover {
+.video-player-controls,
+.video-togglable {
   opacity: 1;
 }
+
+.video-togglable {
+  opacity: 0;
+  transform: opacity .4s;
+  will-change: opacity;
+}
+
 
 .video-player-controls {
   position: absolute;
@@ -144,9 +152,6 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-  opacity: 0;
-  transform: opacity .4s;
-  will-change: opacity;
 }
 
 .video-player-controls .row {
