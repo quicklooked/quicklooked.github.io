@@ -1,6 +1,3 @@
-var videoMute = document.querySelector(".video-player");
-videoMute.volume = 0.0;
-
 (function() {
   "use strict";
   var jQueryPlugin = (window.jQueryPlugin = function(ident, func) {
@@ -56,6 +53,8 @@ videoMute.volume = 0.0;
     const video_reset_btn = $root.find(".video-reset-btn");
     const video_contextMenu = $root.find(".video-contextMenu");
     var vid = $(video_element).get(0);
+    
+    vid.volume=0.0;
     
     function play() {
       vid.play();
