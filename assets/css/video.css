@@ -144,8 +144,7 @@ body {
   transition: all .1s ease-in-out;
 }
 
-.video-player-controls,
-.video-show {
+.video-player-controls:hover {
   opacity: 1;
   transform: opacity .1s;
   will-change: opacity;
