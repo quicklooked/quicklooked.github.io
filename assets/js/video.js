@@ -30,6 +30,7 @@
     const video_preview = $root.find(".video-preview");
     const video_top = $root.find(".video-top");
     const video_start_btn = $root.find(".video-start-btn");
+    const video_player_controls = $root.find(".video-player-controls");
     const video_control_btn = $root.find(".video-control-btn");
     const video_control_play = $root.find(".video-control-play");
     const video_control_pause = $root.find(".video-control-pause");
@@ -58,14 +59,14 @@
       vid.play();
       video_control_play.hide();
       video_control_pause.show();
-      video.classList.add("video-show");
+      video_player_controls.classList.toggle("video-show");
     }
 
     function pause() {
       vid.pause();
       video_control_pause.hide();
       video_control_play.show();
-      video.classList.remove("video-show");
+      video_player_controls.classList.remove("video-show");
     }
 
     function loading() {
