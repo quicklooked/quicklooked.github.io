@@ -129,9 +129,9 @@ body {
   z-index: 1;
 }
 
-.video-show .video-player-controls {
+.video .video-show .video-player-controls {
   opacity: 0;
-  transform: opacity .4s;
+  transform: opacity .1s;
   will-change: opacity;
   transition: all .1s ease-in-out;
 }
