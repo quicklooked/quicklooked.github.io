@@ -67,7 +67,7 @@
     }
 
     function loading() {
-      if(vid.readyState === 4) {
+      if(vid.readyState >= 2) {
         video_loading.hide();
       }
       else {
