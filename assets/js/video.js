@@ -59,14 +59,14 @@
       vid.play();
       video_control_play.hide();
       video_control_pause.show();
-      $(video_player_controls).addClass("video-show");
+      $(video).addClass("video-show");
     }
 
     function pause() {
       vid.pause();
       video_control_pause.hide();
       video_control_play.show();
-      $(video_player_controls).removeClass("video-show");
+      $(video).removeClass("video-show");
     }
 
     function loading() {
