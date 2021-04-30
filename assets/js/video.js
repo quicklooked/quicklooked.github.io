@@ -287,6 +287,13 @@
     }, function() {
       video_slider.show();
     });
+    
+    video_player_controls.hover(function() {
+      video_player_controls.css("opacity", "1");
+    }, function() {
+      video_player_controls.css("opacity", "0");
+    });
+    
     $(vid).on("ended", function() {
       video_reset.css("display", "flex");
       video_player_controls.css("opacity", "0");
