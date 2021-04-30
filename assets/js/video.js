@@ -291,9 +291,3 @@
   $.fn.twitterVideoPlayer = jQueryPlugin("twitterVideoPlayer", twitterVideoPlayer);
 })();
 $(".video").twitterVideoPlayer();
-
-
-window.onload = function () {
-  var mutedVideo = document.querySelector('video-player');
-  mutedVideo.muted = "muted";
-}
