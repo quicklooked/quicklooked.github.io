@@ -1,3 +1,6 @@
+var videoMute = document.querySelector(".video-player");
+videoMute.volume = 0;
+
 (function() {
   "use strict";
   var jQueryPlugin = (window.jQueryPlugin = function(ident, func) {
