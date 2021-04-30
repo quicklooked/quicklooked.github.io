@@ -76,6 +76,15 @@
         pause();
       }
     }
+    
+    var playPromise = vid.play();
+    if(playPromise !== undefined) {
+      playPromise.then(_ => {
+        play();
+      }).catch(error => {
+        pause();
+      });
+    }
 
     function voiceOn() {
       vid.muted = true;
