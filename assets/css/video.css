@@ -129,6 +129,10 @@ body {
   z-index: 1;
 }
 
+.video-player-controls::hover {
+  opacity: 1;
+}
+
 .video-player-controls {
   position: absolute;
   left: 0;
@@ -140,6 +144,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  opacity: 0;
+  transform: opacity .4s;
+  will-change: opacity;
 }
 
 .video-player-controls .row {
