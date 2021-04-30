@@ -1,5 +1,5 @@
 var videoMute = document.querySelector(".video-player");
-videoMute.volume = 0;
+videoMute.volume = 0.0;
 
 (function() {
   "use strict";
