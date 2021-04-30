@@ -204,7 +204,6 @@
       return false;
     });
     
-    let vid.muted === true;
     video_voice_btn.click(function() {
       if(vid.muted === false) {
         voiceOn();
