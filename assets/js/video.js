@@ -58,7 +58,7 @@
       vid.play();
       video_control_play.hide();
       video_control_pause.show();
-      video.classList.toggle("video-show");
+      video.classList.add("video-show");
     }
 
     function pause() {
