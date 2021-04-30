@@ -66,7 +66,7 @@
       vid.pause();
       video_control_pause.hide();
       video_control_play.show();
-      video_player_controls.classList.remove("video-show");
+      $(video_player_controls).removeClass("video-show");
     }
 
     function loading() {
