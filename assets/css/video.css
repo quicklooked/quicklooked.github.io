@@ -43,12 +43,16 @@ body {
   max-width: 680px;
 }
 
+@media (max-width: 768px) {
+  .video-voice-slider {
+    display: none;
+  }
+}
+
+
 @media (min-width: 768px) {
   .video {
     width: 100%;
-  }
-  .video-voice-slider {
-    display: none;
   }
 }
 
