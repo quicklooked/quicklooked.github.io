@@ -59,7 +59,7 @@
       vid.play();
       video_control_play.hide();
       video_control_pause.show();
-      video_player_controls.classList.toggle("video-show");
+      $(this.vid).addClass("video-show");
     }
 
     function pause() {
