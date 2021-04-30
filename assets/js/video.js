@@ -223,6 +223,7 @@
         voiceOn();
       }
       else {
+        vid.volume = 0.77;
         voiceOff();
       }
     });
