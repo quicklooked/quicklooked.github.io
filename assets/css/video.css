@@ -586,6 +586,7 @@ body {
   user-select: none;
   cursor: pointer;
   appearance: none;
+  font-family: 'sohne';
 }
 
 .video-reset-btn:hover {
