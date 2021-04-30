@@ -1,28 +1,12 @@
-*,
-::after,
-::before {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 html {
-  font-family: 'sohne';
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  background: #fff;
-  color: rgb(20, 23, 26);
 }
 
 body {
-  font-family: 'sohne';
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(20, 23, 26);
 }
 
 :root {
@@ -210,6 +194,7 @@ body {
   position: relative;
   width: fit-content;
   font-family: 'sohne';
+  font-size: 14px;
 }
 
 .video-counts {
@@ -220,6 +205,7 @@ body {
   width: fit-content;
   margin-right: 0.5rem;
   font-family: 'sohne';
+  font-size: 14px;
 }
 
 .video-counts .video-count-time {}
@@ -592,7 +578,7 @@ body {
   padding: 10px 20px;
   color: white;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   outline: none;
   user-select: none;
   cursor: pointer;
