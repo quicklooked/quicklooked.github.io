@@ -288,7 +288,7 @@
       video_slider.show();
     });
     
-    video.hover(function() {
+    video_player_controls.hover(function() {
       video_player_controls.css("opacity", "1");
     }, function() {
       video_player_controls.css("opacity", "0");
