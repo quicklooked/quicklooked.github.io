@@ -83,9 +83,11 @@
       playPromise.then(_ => {
         play();
         vid.volume = range;
+        voiceOn();
       }).catch(error => {
         pause();
         vid.volume = range;
+        voiceOn()
       });
     }
 
