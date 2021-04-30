@@ -225,10 +225,8 @@
         voiceOn();
       }
       else {
-        var range = (localStorage[this.id] = $(this).val());
-        video_voice_buffer.css("width", range * 100 + "%");
-        vid.volume = range;
-        video_voice_slider.attr("value", range);
+        video_voice_buffer.css("width", 1 * 100 + "%");
+        vid.volume = 1;
         voiceOff();
       }
     });
