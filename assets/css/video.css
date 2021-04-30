@@ -129,7 +129,7 @@ body {
   z-index: 1;
 }
 
-.video .video-player-controls:hover {
+.video::hover .video-player-controls {
   opacity: 1;
   transform: opacity .4s;
   will-change: opacity;
