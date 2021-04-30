@@ -81,8 +81,10 @@
     if(playPromise !== undefined) {
       playPromise.then(_ => {
         play();
+        vid.volume = 0;
       }).catch(error => {
         pause();
+        vid.volume = 0;
       });
     }
 
