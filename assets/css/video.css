@@ -3,12 +3,6 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 :root {
   --primary: rgb(46,125,246);
 }
