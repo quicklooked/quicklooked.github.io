@@ -129,14 +129,6 @@ body {
   z-index: 1;
 }
 
-.video .video-show .video-player-controls {
-  opacity: 0;
-  transform: opacity .1s;
-  will-change: opacity;
-  transition: all .1s ease-in-out;
-}
-
-
 .video-player-controls {
   position: absolute;
   left: 0;
@@ -149,6 +141,13 @@ body {
   padding-right: 10px;
   padding-bottom: 10px;
   opacity: 1;
+  transition: all .1s ease-in-out;
+}
+
+.video .video-show .video-player-controls {
+  opacity: 0;
+  transform: opacity .1s;
+  will-change: opacity;
   transition: all .1s ease-in-out;
 }
 
