@@ -53,6 +53,11 @@
     const video_reset_btn = $root.find(".video-reset-btn");
     const video_contextMenu = $root.find(".video-contextMenu");
     var vid = $(video_element).get(0);
+    
+    window.onload = function () {
+    var element = document.querySelector('video-player');
+    element.muted = "muted";
+    }
 
     function play() {
       vid.play();
