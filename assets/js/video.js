@@ -227,6 +227,7 @@
       }
       else {
         video_voice_buffer.css("width", 1 * 100 + "%");
+        video_voice_slider.attr("value", 1);
         vid.volume = 1;
         voiceOff();
       }
