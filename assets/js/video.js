@@ -301,6 +301,7 @@
     video_reset_btn.click(function() {
       play();
       video_reset.css("display", "none");
+      video_player_controls.css("opacity", "1");
     });
     $(video).on("contextmenu", function(event) {
       event.preventDefault();
