@@ -40,7 +40,6 @@ body {
   border-radius: 0px;
   margin: 0 auto;
   margin-top: 2rem;
-  max-width: 680px;
 }
 
 @media (max-width: 768px) {
