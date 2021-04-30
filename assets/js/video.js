@@ -81,10 +81,10 @@
     if(playPromise !== undefined) {
       playPromise.then(_ => {
         play();
-        voiceOff();
+        vid.muted === true;
       }).catch(error => {
         pause();
-        voiceOff();
+        vid.muted === true;
       });
     }
 
