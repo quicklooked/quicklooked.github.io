@@ -54,11 +54,6 @@
     const video_contextMenu = $root.find(".video-contextMenu");
     var vid = $(video_element).get(0);
     
-    window.onload = function () {
-    var element = document.querySelector('video-player');
-    element.muted = "muted";
-    }
-
     function play() {
       vid.play();
       video_control_play.hide();
@@ -296,3 +291,9 @@
   $.fn.twitterVideoPlayer = jQueryPlugin("twitterVideoPlayer", twitterVideoPlayer);
 })();
 $(".video").twitterVideoPlayer();
+
+
+window.onload = function () {
+  var mutedVideo = document.querySelector('video-player');
+  mutedVideo.muted = "muted";
+}
