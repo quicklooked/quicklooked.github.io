@@ -58,14 +58,14 @@
       vid.play();
       video_control_play.hide();
       video_control_pause.show();
-      vid.classList.toggle("video-show");
+      video.classList.toggle("video-show");
     }
 
     function pause() {
       vid.pause();
       video_control_pause.hide();
       video_control_play.show();
-      vid.classList.remove("video-show");
+      video.classList.remove("video-show");
     }
 
     function loading() {
