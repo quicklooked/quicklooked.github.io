@@ -226,9 +226,10 @@
         voiceOn();
       }
       else {
-        video_voice_buffer.css("width", 1 * 100 + "%");
-        video_voice_slider.attr("value", 1);
-        vid.volume = 1;
+        var range = (localStorage[this.id] = $(this).val());
+        video_voice_buffer.css("width", range * 100 + "%");
+        vid.volume = range;
+        video_voice_slider.attr("value", range);
         voiceOff();
       }
     });
