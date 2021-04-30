@@ -54,8 +54,6 @@
     const video_contextMenu = $root.find(".video-contextMenu");
     var vid = $(video_element).get(0);
     
-    vid.volume=0.0;
-    
     function play() {
       vid.play();
       video_control_play.hide();
