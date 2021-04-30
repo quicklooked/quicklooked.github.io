@@ -81,10 +81,10 @@
     if(playPromise !== undefined) {
       playPromise.then(_ => {
         play();
-        vid.muted === true;
+        vid.muted === false;
       }).catch(error => {
         pause();
-        vid.muted === true;
+        vid.muted === false;
       });
     }
 
