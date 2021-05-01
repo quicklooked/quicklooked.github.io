@@ -82,7 +82,7 @@
 
 .PodcastEpisode_Top {
   cursor: pointer;
-  display: flex;
+  display: none;
   align-items: center;
   font-family: 'sohne';
   will-change: transform;
@@ -126,7 +126,7 @@
 
 .PodcastEpisode_Copy {
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column
 }
 
