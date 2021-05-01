@@ -291,9 +291,9 @@
 @media all and (max-width:680px) {
   .PodcastEpisode_InlineThumbnail {
     height: unset;
-    width: 120px;
-    margin-bottom: 14px;
-    display: none
+    width: 40px;
+    margin-bottom: 0px;
+    display: flex
   }
 
   .PodcastEpisode_Image {
