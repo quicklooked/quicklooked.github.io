@@ -35,9 +35,39 @@
     <link data-rh="true" id="glyph_preload_link" rel="preload" as="style" type="text/css" href="/assets/css/unbound.css">
     <link data-rh="true" id="glyph_link" rel="stylesheet" type="text/css" href="/assets/css/unbound.css">
     <link data-rh="true" id="glyph_link" rel="stylesheet" type="text/css" href="/assets/css/references.css">
+    <link data-rh="true" id="tooltipster" rel="stylesheet" type="text/css" href="/assets/css/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="/assets/css/video.css">
     <script data-rh="true" id="glyph_link" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script rel="stylesheet" src="/assets/js/tooltipster.bundle.min.js"></script>
+    <script>
+    	$(document).ready(function() {
+    		$('.tooltip').tooltipster({
+    			contentCloning: true,
+    			contentAsHTML: true,
+    			animation: 'fade',
+    			interactive: true,
+    			delay: 10,
+    			maxWidth: 260,
+    			distance: 0,
+    			minWidth: 200,
+    			side: ['top', 'bottom', 'right'],
+    			updateAnimation: 'scale',
+    			trigger: 'click',
+    			triggerOpen: {
+    				click: true,
+    				mouseenter: true,
+    				touchstart: true
+    			},
+    			triggerClose: {
+    				scroll: true,
+    				tap: true,
+    				originClick: true,
+    				touchleave: true
+    			}
+    		});
+    	});
+    </script>
     <link rel="stylesheet" href="/assets/css/slideshow.css">
     <script src="/assets/js/slideshow.js"></script>
     <link data-rh="true" rel="author" href="{{page.linkmain}}">
