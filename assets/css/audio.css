@@ -33,6 +33,7 @@
   align-self: flex-start;
   height: intrinsic;
   margin-right: 20px;
+  margin-left: -60px;
 }
 
 .PodcastEpisode_InlineThumbnailImg {
