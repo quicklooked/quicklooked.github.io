@@ -4,10 +4,10 @@
 
 .PodcastEpisode_Inline {
   width: 100%;
-  background: #ca4e27;
+  background: #dd1f34;
   position: relative;
   left: 0;
-  padding: 20px;
+  padding: 6px;
   max-width: 680px;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -115,13 +115,13 @@
   padding: 0 16px;
   font-size: 13px;
   font-family: 'sohne';
-  font-weight: 700;
+  font-weight: 500;
   line-height: 24px;
-  border: 1px solid rgb(255, 255, 255, .3);
+  border: 0px solid rgb(255, 255, 255, .3);
   background-color: transparent;
   cursor: pointer;
   width: fit-content;
-  margin-top: 12px
+  margin-top: 0px
 }
 
 .PodcastEpisode_Copy {
