@@ -203,7 +203,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 22%
+  width: 32px
 }
 
 .GNPAplayerControls_VolumeBar {
@@ -240,7 +240,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer
 }
 
@@ -249,7 +249,7 @@
   align-items: center;
   justify-content: center;
   display: none;
-  margin-right: 10px;
+  margin-right: 20px;
   cursor: pointer
 }
 
