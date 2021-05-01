@@ -370,6 +370,9 @@
   .GNPAplayerControls_VolumeBar {
     width: 30px
   }
+  .GNPAplayerControls_Time {
+    display: none;
+  }
 }
 
 @supports (-webkit-touch-callout:none) {
