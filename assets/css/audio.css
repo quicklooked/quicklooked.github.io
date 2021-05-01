@@ -137,8 +137,9 @@
 
 .GNPAplayerControls {
   display: flex;
-  margin-top: 10px;
+  margin-top: 0px;
   align-items: center;
+  height: 40px;
   justify-content: space-between;
   width: 100%
 }
