@@ -209,9 +209,13 @@ html {
 
 .video-counts .video-count-time {}
 
-.video-counts .video-count-line {}
+.video-counts .video-count-line {
+display: none;
+}
 
-.video-counts .video-count-fulltime {}
+.video-counts .video-count-fulltime {
+display: none;
+}
 
 .video-voice {
   display: flex;
