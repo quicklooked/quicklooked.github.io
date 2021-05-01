@@ -373,7 +373,7 @@ display: none;
   opacity: 0;
 }
 
-.full-screen::hover {
+.full-screen:hover {
   opacity: 1;
 }
 
