@@ -211,6 +211,7 @@
   width: 80px;
   position: relative;
   cursor: pointer;
+  display: none;
   border-radius: 4px
 }
 
