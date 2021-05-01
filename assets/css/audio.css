@@ -115,7 +115,7 @@
   box-sizing: border-box;
   color: #fff;
   border-radius: 4px;
-  padding: 0 16px;
+  padding: 0 0px;
   font-size: 13px;
   font-family: 'sohne';
   font-weight: 500;
@@ -308,8 +308,10 @@
   }
 
   .GNPAplayerControlsLeft {
-    width: 100%
+    width: 80%
   }
+  
+  
 
   .PodcastEpisode_InlineInner {
     flex-direction: column;
