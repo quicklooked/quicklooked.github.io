@@ -387,8 +387,8 @@
   -ms-flex-pack: center;
   align-items: center;
   background-color: #fff;
-  border: none;
-  border-radius: var(--button-size);
+  border: 1px solid #fff;
+  border-radius: 3px;
   color: #000;
   display: -webkit-box;
   display: -ms-flexbox;
