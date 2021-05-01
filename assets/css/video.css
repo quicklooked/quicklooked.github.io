@@ -189,6 +189,7 @@ html {
   width: fit-content;
   font-family: 'sohne';
   font-size: 14px;
+  margin-left: 6px;
 }
 
 .video-counts {
@@ -214,7 +215,7 @@ html {
   justify-content: center;
   position: relative;
   width: fit-content;
-  margin-right: 0.5rem;
+  margin-right: 0rem;
 }
 
 .video-voice .video-voice-btn {
@@ -357,8 +358,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  position: absolute;
   width: fit-content;
+  z-index: 1;
+	right: 0;
 }
 
 .full-screen .full-screen-btn {
@@ -420,12 +423,14 @@ html {
 
 .video-slider {
   width: 100%;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+	z-index: 1;
 }
 
 .video-slider-container {
   width: 100%;
-  height: 25px;
+  height: 2px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -437,7 +442,7 @@ html {
 .video-slider-bg {
   width: 100%;
   background: #ffffff6b;
-  height: 5px;
+  height: 2px;
   border-radius: 9999px;
   position: relative;
   display: flex;
@@ -451,8 +456,8 @@ html {
 
 .video-slider-rail {
   width: 0%;
-  background: #ffffff;
-  height: 5px;
+  background: #fa233b;
+  height: 2px;
   border-radius: 9999px;
   position: relative;
 }
