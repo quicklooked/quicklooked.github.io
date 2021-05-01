@@ -25,6 +25,12 @@ html {
   .video-voice-slider {
     display: none;
   }
+  .video-counts .video-count-line {
+    display: none;
+  }
+  .video-counts .video-count-fulltime {
+    display: none;
+  }
 }
 
 
