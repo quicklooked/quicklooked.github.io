@@ -356,7 +356,7 @@
   }
 
   .GNPAplayerControls_Volume {
-    display: flex !important
+    display: none !important
   }
 }
 
