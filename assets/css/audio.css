@@ -258,12 +258,14 @@
 .GNPAplayerControls_Play {
   width: 32px;
   height: 32px;
+  fill: #fff;
   display: flex
 }
 
 .GNPAplayerControls_Pause {
   width: 32px;
   height: 32px;
+  fill: #fff;
   display: flex;
   display: none
 }
