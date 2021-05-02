@@ -9,7 +9,7 @@
 }
 
 .cues:hover {
-  color: rgb(255, 255, 255);
+  opacity: 1;
 }
 
 .cues.current {
