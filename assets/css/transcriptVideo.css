@@ -6,29 +6,17 @@
 }
 
 .cues:hover {
-  text-decoration: underline;
-  color: #2997ff;
-  border: 4px solid #06c;
+  color: rgb(26, 137, 23);
 }
 
 .cues.current {
 }
 
-#myVideo {
-  display: block;
-  float: left;
-  margin-right: 3%;
-  width: 100%;
-  background-color: black;
-  position: relative;
-}
-
 #transcript {
-  float: left;
-  max-height: 225px;
-  overflow: auto;
-  width: 100%;
-  margin: 0;
-  font-size: 14px;
-  list-style: none;
+	float: left;
+	max-height: 225px;
+	overflow: auto;
+	width: 100%;
+	padding: 32px 10px 0px 10px;
+	list-style: none;
 }
