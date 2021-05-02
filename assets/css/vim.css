@@ -1,7 +1,7 @@
 .vim-css ul.vjs-controls { 
   height: 50px; opacity: 0.9; color: #fff; 
-  padding-left: 85px; /* Width of play button + margin */
-  padding-right: 160px; /* Width of all the controls to the right of the progress control + margins */
+  padding-left: 85px;
+  padding-right: 160px;
 }
 .vim-css ul.vjs-controls > li { 
   height: 32px; width: 25px; margin: 8px 0 0 0; padding: 0; text-align: center; background: rgba(30,30,30,.9); 
