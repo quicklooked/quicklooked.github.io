@@ -58,14 +58,6 @@ video.video-js {
   z-index: 1002;
 }
 
-/* DEFAULT SKIN (override in another file)
-================================================================================
-Using all CSS to draw the controls. Images could be used if desired.
-Instead of editing this file, I recommend creating your own skin CSS file to be included after this file,
-so you can upgrade to newer versions easier. */
-/* Controls Layout
-   Using a Holy Grail type method to allow the progress bar holder to expand into all available space,
-   but using abosolute positioning for individual controls. http://www.alistapart.com/articles/holygrail */
 .video-js-box ul.vjs-controls {
   list-style: none;
   position: absolute;
