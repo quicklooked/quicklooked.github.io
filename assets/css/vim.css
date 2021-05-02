@@ -25,7 +25,7 @@
 /* Progress
 -------------------------------------------------------------------------------- */
 .vim-css ul.vjs-controls li.vjs-progress-control { border-radius: 2px 0 0 2px; -webkit-border-radius: 2px 0 0 2px; -moz-border-radius: 2px 0 0 2px; }
-.vim-css li.vjs-progress-control ul.vjs-progress-holder { height: 8px; padding: 0px; margin: 10px 5px 0 10px; border: 1px solid #666; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
+.vim-css li.vjs-progress-control ul.vjs-progress-holder { height: 8px; padding: 0px; margin: 12px 5px 12px 10px; border: 1px solid #666; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
 .vim-css li.vjs-progress-control li.vjs-play-progress { height: 5.5px; background: #00ADEF; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
 .vim-css li.vjs-progress-control li.vjs-load-progress { height: 5.5px; background: #898F8F; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
 
