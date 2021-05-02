@@ -18,7 +18,7 @@
 
 #transcript {
   float: left;
-  max-height: 560px;
+  max-height: 360px;
   overflow: auto;
   width: 100%;
   padding: 16px 10px 16px 10px;
