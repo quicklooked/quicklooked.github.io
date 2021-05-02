@@ -10,7 +10,9 @@
   color: rgb(26, 137, 23);
 }
 
-.cues.current {}
+.cues.current {
+  color: rgb(26, 137, 23);
+}
 
 #transcript {
   float: left;
