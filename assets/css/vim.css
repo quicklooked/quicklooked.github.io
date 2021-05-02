@@ -24,7 +24,7 @@
 
 /* Progress
 -------------------------------------------------------------------------------- */
-.vim-css ul.vjs-controls li.vjs-progress-control { border-radius: 5px 0 0 5px; -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px; }
+.vim-css ul.vjs-controls li.vjs-progress-control { border-radius: 2px 0 0 2px; -webkit-border-radius: 2px 0 0 2px; -moz-border-radius: 2px 0 0 2px; }
 .vim-css li.vjs-progress-control ul.vjs-progress-holder { height: 8px; padding: 1px; margin: 10px 5px 0 10px; border-color: #666666; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
 .vim-css li.vjs-progress-control li.vjs-play-progress { height: 8px; background: #00ADEF; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
 .vim-css li.vjs-progress-control li.vjs-load-progress { height: 8px; background: #898F8F; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
@@ -47,7 +47,7 @@
 /* Fullscreen
 -------------------------------------------------------------------------------- */
 .vim-css .vjs-fullscreen-control ul { margin: 10px 0 0 0; }
-.vim-css ul.vjs-controls .vjs-fullscreen-control { border-radius: 0 5px 5px 0; -webkit-border-radius: 0 5px 5px 0; -moz-border-radius: 0 5px 5px 0; }
+.vim-css ul.vjs-controls .vjs-fullscreen-control { border-radius: 0 2px 2px 0; -webkit-border-radius: 0 2px 2px 0; -moz-border-radius: 0 2px 2px 0; }
 /* Making default fullscreen icon smaller */
 .vim-css .vjs-fullscreen-control ul li:nth-child(1) { margin: 0 4px 4px 0; border: none; border-top: 4px solid #fff; border-right: 4px solid rgba(0,0,0,0); }
 .vim-css .vjs-fullscreen-control ul li:nth-child(2) { border: none; border-top: 4px solid #fff; border-left: 4px solid rgba(0,0,0,0); }
