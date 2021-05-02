@@ -16,6 +16,49 @@
   color: #2997ff;
 }
 
+@media (min-width: 768px) {
+  .transcript {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .transcript {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .transcript {
+    width: 50%;
+  }
+}
+
+.transcript:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#ffffff00, 85%, #000000c9);
+  opacity: 1;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.transcript {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  color: white;
+  border-radius: 0px;
+  max-width: 680px;
+}
+
 #transcript {
   float: left;
   max-height: 272px;
