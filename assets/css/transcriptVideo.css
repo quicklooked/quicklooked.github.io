@@ -1,11 +1,5 @@
-#all {
-  display: inline-block;
-  width: 100%;
-  background: black;
-}
-
 .cues {
-  color: #aaaaaa;
+  color: #000;
   font-size: 14px;
   font-height: 20px !important;
   font-family: "Helvetica", "Arial";
