@@ -35,7 +35,6 @@
     <link data-rh="true" id="glyph_preload_link" rel="preload" as="style" type="text/css" href="/assets/css/unbound.css">
     <link data-rh="true" id="glyph_link" rel="stylesheet" type="text/css" href="/assets/css/unbound.css">
     <link data-rh="true" id="tooltipster" rel="stylesheet" type="text/css" href="/assets/css/tooltipster.bundle.min.css">
-    <link rel="stylesheet" href="/assets/css/video.css">
     <link rel="stylesheet" href="/assets/css/transcriptVideo.css">
     <script data-rh="true" id="glyph_link" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -69,6 +68,13 @@
     </script>
     <link rel="stylesheet" href="/assets/css/slideshow.css">
     <link rel="stylesheet" href="/assets/css/audio.css">
+	<script src="/assets/js/video.js"></script>
+	<link rel="stylesheet" href="/assets/css/video.css">
+	<script type="text/javascript" charset="utf-8">
+    window.onload = function() {
+	    VideoJS.setup();
+    }
+	</script>
     <script src="/assets/js/slideshow.js"></script>
     <link data-rh="true" rel="author" href="{{page.linkmain}}">
     <link data-rh="true" rel="canonical" href="{{page.permalink}}">
@@ -814,7 +820,6 @@
   <script src="/assets/js/cmtButton.js"></script>
   <script src="/assets/js/upSearch.js"></script>
   <script src="/assets/js/cite.js"></script>
-  <script src="/assets/js/video.js"></script>
   <script src="/assets/js/transcriptVideo.js"></script>
   <script defer src="/assets/js/upZoom.js"></script>
   <script type="text/javascript">
