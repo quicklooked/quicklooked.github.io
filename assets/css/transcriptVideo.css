@@ -1,0 +1,43 @@
+#all {
+  display: inline-block;
+  width: 100%;
+  background: black;
+}
+
+.cues {
+  color: #aaaaaa;
+  font-size: 14px;
+  font-height: 20px !important;
+  font-family: "Helvetica", "Arial";
+}
+
+.cues:hover {
+  text-decoration: underline;
+  color: #2997ff;
+  border: 4px solid #06c;
+}
+
+.cues.current {
+}
+
+#myVideo {
+  display: block;
+  float: left;
+  margin-right: 3%;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+#transcript {
+  padding: 10px;
+  border: 1px solid;
+  float: left;
+  max-height: 225px;
+  overflow: auto;
+  width: 90%;
+  margin: 0;
+  font-size: 14px;
+  font-height: 20px;
+  list-style: none;
+}
