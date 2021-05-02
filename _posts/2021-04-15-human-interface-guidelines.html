@@ -531,9 +531,11 @@ twitterAuthor: "@TheEconomist"
                     </button>
                   </div>
                   <div class="video-player">
-                    <video tabindex="-1" data-video="" allowfullscreen="false" controlslist="nodownload">
+                    <video id="myVideo" tabindex="-1" data-video="" allowfullscreen="false" controlslist="nodownload">
                       <source src="https://raw.githubusercontent.com/Ahmetaksungur/twitter-video-player-clone/master/92908881_1592415477584282_4773659066559534074_n.mp4" type="video/mp4">
+                      <track label="English subtitles" kind="subtitles" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt">
                     </video>
+                    <div id="transcript"></div>
                   </div>
                   <div class="video-contextMenu">
                     <button class="video-contextMenu-btn">Copy video address</button>
@@ -545,10 +547,3 @@ twitterAuthor: "@TheEconomist"
                         
                         <link rel="stylesheet" href="/assets/css/transcriptVideo.css">
                         <script src="/assets/js/transcriptVideo.js"></script>
-            <section id="all">
-              <video id="myVideo" preload="metadata" controls crossOrigin="anonymous">
-                <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4">
-                <track label="English subtitles" kind="subtitles" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt">
-              </video>
-              <div id="transcript"></div>
-            </section>
