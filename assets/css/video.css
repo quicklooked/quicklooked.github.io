@@ -595,7 +595,7 @@ display: none;
   user-select: none;
   cursor: pointer;
   appearance: none;
-  font-family: 'sohne';
+  font-family: 'circular';
 }
 
 .video-reset-btn:hover {
