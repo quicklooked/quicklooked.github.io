@@ -3,6 +3,7 @@
   font-size: 14px;
   line-height: 20px;
   font-family: 'sohne';
+  cursor: pointer;
 }
 
 .cues:hover {
