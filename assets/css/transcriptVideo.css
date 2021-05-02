@@ -58,7 +58,7 @@
 
 #transcript {
   float: left;
-  max-height: 272px;
+  max-height: 102px;
   overflow: auto;
   width: 100%;
   list-style: decimal;
