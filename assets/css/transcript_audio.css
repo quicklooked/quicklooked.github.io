@@ -1,3 +1,24 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #eee;
+  padding: 20px 20px 20px 80px;
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.about {
+  margin: 40px 0;
+  font-style: italic;
+}
+
+audio {
+  width: 100%;
+  margin: 20px 0;
+}
+
 ul {
   position: relative;
   list-style: none;
@@ -44,11 +65,12 @@ ul {
       }
     }
 
-    &.speaker1 {
-      &:before {
-        content: "Justin";
-        position: absolute;
-      }
-    }
+    // &.speaker1{
+    // 	&:before{
+    // 		content: "Justin :";
+    // 		position: absolute;
+    // 		left: -60px;
+    // 	}
+    // }
   }
 }
