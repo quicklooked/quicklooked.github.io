@@ -6,7 +6,7 @@ var buttonEnglish;
 
 window.onload = function () {
   console.log("init");
-  video = document.querySelector("#myVideo");
+  video = document.querySelector("#quickPlayer");
   transcriptDiv = document.querySelector("#transcript");
   trackElems = document.querySelectorAll("track");
   for (var i = 0; i < trackElems.length; i++) {
