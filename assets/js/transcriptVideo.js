@@ -26,9 +26,10 @@ function loadTranscript(lang) {
     var trackAsHtmlElem = trackElems[i];
     if (track.language === lang && track.kind !== "chapters") {
       track.mode = "showing";
-
+      document.getElementById("transcript").style.padding = "16px 10px 16px 10px";
       if (trackAsHtmlElem.readyState === 2) {
         displayCues(track);
+
       } else {
         displayCuesAfterTrackLoaded(trackAsHtmlElem, track);
       }
