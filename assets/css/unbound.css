@@ -353,4 +353,10 @@
     font-display: swap;
 }
 
-
+@font-face {
+  font-display: swap;
+  font-family: circular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/css/circular/circular.woff2) format("woff2");
+}
