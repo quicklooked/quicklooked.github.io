@@ -192,7 +192,7 @@ html {
   justify-content: center;
   position: relative;
   width: fit-content;
-  font-family: 'sohne';
+  font-family: 'circular';
   font-size: 14px;
   cursor: pointer;
 }
@@ -204,7 +204,7 @@ html {
   position: relative;
   width: fit-content;
   margin-right: 0.5rem;
-  font-family: 'sohne';
+  font-family: 'circular';
   font-size: 14px;
 }
 
