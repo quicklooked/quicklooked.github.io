@@ -4,7 +4,7 @@
   padding-right: 160px; /* Width of all the controls to the right of the progress control + margins */
 }
 .vim-css ul.vjs-controls > li { 
-  height: 32px; width: 25px; margin: 8px 0 0 0; padding: 0; text-align: center; background: rgba(23, 35, 34, 0.746094); 
+  height: 32px; width: 25px; margin: 8px 0 0 0; padding: 0; text-align: center; background: rgba(30,30,30,.9); 
   border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; 
   box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
 }
