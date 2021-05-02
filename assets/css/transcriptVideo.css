@@ -9,14 +9,13 @@
   color: rgb(26, 137, 23);
 }
 
-.cues.current {
-}
+.cues.current {}
 
 #transcript {
-	float: left;
-	max-height: 225px;
-	overflow: auto;
-	width: 100%;
-	padding: 32px 10px 0px 10px;
-	list-style: none;
+  float: left;
+  max-height: 560px;
+  overflow: auto;
+  width: 100%;
+  padding: 16px 10px 16px 10px;
+  list-style: none;
 }
