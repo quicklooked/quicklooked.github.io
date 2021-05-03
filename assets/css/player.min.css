@@ -5683,7 +5683,7 @@ screen and (max-height:189px) {
   display: none
 }
 
-.player.fullscreen .vp-title {
+.player.fullscreenvideo .vp-title {
   margin-right: 4.1818181818em
 }
 
