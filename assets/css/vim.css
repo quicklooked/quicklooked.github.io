@@ -31,8 +31,8 @@
 
 /* Time Display
 -------------------------------------------------------------------------------- */
-.vim-css ul.vjs-controls li.vjs-time-control { font-size: 11px; }
-.vim-css ul.vjs-controls li.vjs-time-control span { line-height: 32px; /* Centering vertically */ }
+.vim-css ul.vjs-controls li.vjs-time-control { font-size: 11px; display: none;}
+.vim-css ul.vjs-controls li.vjs-time-control span { line-height: 32px; }
 
 /* Volume
 -------------------------------------------------------------------------------- */
