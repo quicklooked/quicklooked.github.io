@@ -1710,14 +1710,14 @@ body:not(.showfocus) .player input {
   display: block
 }
 
-.player .vp-controls .fullscreen {
+.player .vp-controls .fullscreenvideo {
   width: 1.2em;
   height: 100%;
   margin-left: 1em
 }
 
-.player .vp-controls .fullscreen .fullscreen-icon,
-.player .vp-controls .fullscreen .unfullscreen-icon {
+.player .vp-controls .fullscreenvideo .fullscreen-icon,
+.player .vp-controls .fullscreenvideo .unfullscreen-icon {
   height: 100%
 }
 
@@ -1760,7 +1760,7 @@ body:not(.showfocus) .player input {
   display: none
 }
 
-.player.no-fullscreen-support .fullscreen {
+.player.no-fullscreen-support .fullscreenvideo {
   display: none !important
 }
 
