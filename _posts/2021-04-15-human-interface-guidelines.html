@@ -474,9 +474,9 @@ twitterAuthor: "@TheEconomist"
     <div class="vp-video-wrapper">
       <div class="vp-video">
         <div class="vp-telecine">
-          <video id="quickplayer" preload="auto" tabindex="-1" src="https://d3nuqriibqh3vw.cloudfront.net/ng_spot_world_jump_ingles.mp4_1.mp4?cLpi9XoB.h97onPZffRrJEqgjDswejBI"></video>
+          <video id="quickplayer" preload="auto" tabindex="-1" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4"></video>
         </div>
-      </div> 
+      </div>
       <div class="vp-preview" style="background-image: url(https://i.vimeocdn.com/video/1118247297.webp?mw=1600&amp;mh=648);"></div>
       <div class="vp-shade vp-shade-invisible"></div>
       <div class="vp-nudge-shade vp-nudge-shade-left vp-nudge-shade-invisible"></div>
@@ -567,7 +567,7 @@ twitterAuthor: "@TheEconomist"
             <div class=""></div>
             <div class=""></div>
           </div>
-          <button type="button" class="vp-prefs js-prefs" aria-haspopup="true" aria-expanded="false">
+          <button type="button" class="vp-prefs" aria-haspopup="true" aria-expanded="false">
             <svg class="icon-gear" viewBox="0 0 16 16" preserveAspectRatio="xMidYMid" focusable="false" aria-labelledby="settings-icon-title" role="img">
               <title id="settings-icon-title">Settings</title>
               <defs>
@@ -594,7 +594,7 @@ twitterAuthor: "@TheEconomist"
           <div class="vp-menu vp-menu-invisible vp-menu-hidden vp-menu-scroll" role="menu" style="right: 4em; bottom: 3.2em; height: auto;">
             <div class="vp-panel vp-panel--quality vp-panel-pinTitle vp-panel-collapsible">
               <div class="vp-panel-title">
-                <button type="button" class="vp-panel-button js-panelTitleButton" tabindex="0">
+                <button type="button" class="vp-panel-button vp--quality" tabindex="0" aria-hidden="true">
                   <span class="vp-panel-button-text">Quality</span>
                   <span class="vp-panel-stat">
                     <span class="vp-panel-stat-text js-panelStatText">Auto</span>
@@ -608,9 +608,9 @@ twitterAuthor: "@TheEconomist"
                 <div class="vp-indicator"></div>
               </div>
             </div>
-            <div class="vp-panel vp-panel--speed vp-panel-pinTitle vp-panel-collapsible vp-panel-close">
+            <div class="vp-panel vp-panel--speed vp-panel-pinTitle vp-panel-collapsible">
               <div class="vp-panel-title">
-                <button type="button" class="vp-panel-button js-panelTitleButton" tabindex="0">
+                <button type="button" class="vp-panel-button vp--speed" tabindex="0" aria-hidden="true">
                   <span class="vp-panel-button-text">Speed</span>
                   <span class="vp-panel-stat">
                     <span class="vp-panel-stat-text js-panelStatText">Normal</span>
@@ -625,7 +625,7 @@ twitterAuthor: "@TheEconomist"
               </div>
             </div>
           </div>
-          <button type="button" class="fullscreenvideo">
+          <button type="button" class="fullscreen">
             <div class="fullscreen-icon">
               <svg viewBox="0 0 12 12" preserveAspectRatio="xMidYMid" focusable="false" aria-labelledby="fullscreen-icon-title" role="img">
                 <title id="fullscreen-icon-title">Enter full screen</title>
