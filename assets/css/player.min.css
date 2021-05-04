@@ -43,7 +43,10 @@
 }
 
 
-
+.vp-panel-button-text {
+  font-family: 'circular-bold';
+  font-weight: bold;
+}
 
 
 
