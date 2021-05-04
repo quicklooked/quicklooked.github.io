@@ -361,7 +361,7 @@ body:not(.showfocus) .player input {
   fill: none
 }
 
-.player .only-in-fullscreens {
+.player .only-in-fullscreen {
   display: none !important
 }
 
