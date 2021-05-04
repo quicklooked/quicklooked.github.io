@@ -19,6 +19,24 @@
   }
 }
 
+@media (max-width: 551.98px) {
+  .player .vp-controls .volume {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .player .vp-controls .volume {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .player .vp-controls .volume {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .videoquicklook {
     width: 100%;
