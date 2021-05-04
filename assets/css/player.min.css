@@ -13,6 +13,10 @@
   animation: 230ms ease-in 0s 1 normal none running bXJeNr;
 }
 
+.video-player-fullcreen {
+  width: 100%;
+}
+
 :-moz-full-screen #showControls {
   position: absolute;
   bottom: 0;
