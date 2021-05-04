@@ -13,22 +13,22 @@
   animation: 230ms ease-in 0s 1 normal none running bXJeNr;
 }
 
-:-moz-full-screen #controlsQ {
+:-moz-full-screen #showControls {
   position: absolute;
   bottom: 0;
 }
 
-:-webkit-full-screen #controlsQ {
+:-webkit-full-screen #showControls {
   position: absolute;
   bottom: 0;
 }
 
-:-ms-full-screen #controlsQ {
+:-ms-full-screen #showControls {
   position: absolute;
   bottom: 0;
 }
 
-:fullscreen #controlsQ {
+:fullscreen #showControls {
   position absolute;
 }
 
