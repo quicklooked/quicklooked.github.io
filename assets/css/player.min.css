@@ -17,45 +17,6 @@
   width: 100%;
 }
 
-:-moz-full-screen #showControls {
-  position: absolute;
-  bottom: 0;
-}
-
-:-webkit-full-screen #showControls {
-  position: absolute;
-  bottom: 0;
-}
-
-:-ms-full-screen #showControls {
-  position: absolute;
-  bottom: 0;
-}
-
-:fullscreen #showControls {
-  position absolute;
-}
-
-:-moz-full-screen video {
-  width: 100%;
-  height: 100%;
-}
-
-:-webkit-full-screen video {
-  width: 100%;
-  height: 100%;
-}
-
-:-ms-full-screen video {
-  width: 100%;
-  height: 100%;
-}
-
-:fullscreen video {
-  width: 100%;
-  height: 100%;
-}
-
 @media (max-width: 768px) {
   .player .vp-controls .volume {
     display: none;
