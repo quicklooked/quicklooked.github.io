@@ -7745,6 +7745,10 @@ screen and (max-height: 249px) {
 .player-quicklook .vp-email-capture-checkIconWrapper,
 .player-quicklook .vp-email-capture-progress-meter,
 .player-quicklook .chapter-marker,
+.player-quicklook .vp-chapters-active-indicator {
+  background-color: rgb(0, 173, 239);
+}
+
 .player-quicklook .play-bar .on .fill,
 .player-quicklook .play-bar a:hover .fill,
 .player-quicklook .play-bar button:not(.toggle):hover .fill,
@@ -7752,7 +7756,6 @@ screen and (max-height: 249px) {
 .player-quicklook .vp-sidedock .on .fill,
 .player-quicklook .controls-outro a:hover .fill,
 .player-quicklook .card-link .fill,
-.player-quicklook .vp-panel-collapsible .vp-panel-button:hover .fill,
-.player-quicklook .vp-chapters-active-indicator {
-  background-color: rgb(0, 173, 239);
+.player-quicklook .vp-panel-collapsible .vp-panel-button:hover .fill {
+  fill: rgb(0, 173, 239);
 }
