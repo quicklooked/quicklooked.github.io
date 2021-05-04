@@ -345,7 +345,7 @@ body:not(.showfocus) .player input {
   -webkit-font-smoothing: auto;
   color: #fff;
   line-height: normal;
-  font-family: "Helvetica Neue", Helvetica, Arial !important;
+  font-family: 'circular' !important;
   font-size: 10px;
   overflow: visible;
   border-collapse: separate;
@@ -399,7 +399,7 @@ body:not(.showfocus) .player input {
   border: 0;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-family: 'circular';
   line-height: normal;
   height: auto;
   vertical-align: baseline;
@@ -5699,7 +5699,7 @@ body:not(.showfocus) .player input {
   padding: 3px;
   width: 2em;
   height: 2em;
-  font-family: -apple-system, Helvetica, Arial, sans-serif;
+  font-family: 'circular';
   font-size: 1.25em;
   line-height: 1.5;
   text-align: center;
@@ -6336,7 +6336,7 @@ body:not(.showfocus) .player input {
   border-radius: 2px;
   padding: 2px 3px 1px;
   vertical-align: 1px;
-  font-family: Helvetica, Arial !important;
+  font-family: 'circular' !important;
   font-size: 0.7em;
   font-weight: 400;
 }
@@ -8153,8 +8153,7 @@ body:not(.showfocus) .player input {
 }
 
 .player .vp-live-viewer-count {
-  font: 1.3em HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 1.3em 'circular';
   font-weight: 540;
   letter-spacing: 1px;
   padding-right: 10px;
@@ -8201,8 +8200,7 @@ body:not(.showfocus) .player input {
 }
 
 .player .vp-live-status {
-  font: 1.3em HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: 1.3em 'circular';
   font-weight: 540;
   letter-spacing: 1px;
   line-height: 1.4;
