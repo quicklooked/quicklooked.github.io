@@ -13,12 +13,15 @@
   animation: 230ms ease-in 0s 1 normal none running bXJeNr;
 }
 
+@media (max-width: 768px) {
+  .player .vp-controls .volume {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .videoquicklook {
     width: 100%;
-  }
-  .player .vp-controls .volume {
-    display: none;
   }
 }
 
