@@ -166,18 +166,6 @@
   }
 }
 
-:-webkit-full-screen-ancestor>:not(:-webkit-full-screen-ancestor):not(:-webkit-full-screen) {
-  display: none !important
-}
-
-:-ms-fullscreen-ancestor>:not(:-ms-fullscreen-ancestor):not(:-ms-fullscreen) {
-  display: none !important
-}
-
-:fullscreen-ancestor>:not(:fullscreen-ancestor):not(:fullscreen) {
-  display: none !important
-}
-
 @media (min-width: 1200px)
 .player_container {
 	width: 50%;
