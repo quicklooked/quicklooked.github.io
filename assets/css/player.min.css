@@ -69,21 +69,6 @@
   height: 100%;
 }
 
-.fmkYGr {
-  height: 100%;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.cHdJLL {
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-}
-
 @charset "UTF-8";
 
 @-webkit-keyframes buffer {
