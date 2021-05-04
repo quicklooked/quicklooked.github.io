@@ -466,16 +466,18 @@ twitterAuthor: "@TheEconomist"
                         
                         
     <link rel="stylesheet" href="/assets/css/player.min.css">
+  <script src="/assets/js/player.min.js"></script>
                         
-<div id="quickplayer" class="player_container" style="width: 960px; height: 540px;">
+                        
+<div class="player_container" style="width: 960px; height: 540px;">
   <div class="player js-player player-quicklook js-player-fullscreen player-cardsCorner player-md">
     <div class="vp-video-wrapper">
       <div class="vp-video">
         <div class="vp-telecine">
-          <video preload="auto" tabindex="-1" src="https://d3nuqriibqh3vw.cloudfront.net/ng_spot_world_jump_ingles.mp4_1.mp4?cLpi9XoB.h97onPZffRrJEqgjDswejBI"></video>
+          <video id="quickplayer" preload="auto" tabindex="-1" src="https://d3nuqriibqh3vw.cloudfront.net/ng_spot_world_jump_ingles.mp4_1.mp4?cLpi9XoB.h97onPZffRrJEqgjDswejBI"></video>
         </div>
-      </div>
-      <div class="vp-preview vp-preview-invisible" style="background-image: url(https://i.vimeocdn.com/video/1118247297.webp?mw=1600&amp;mh=648);"></div>
+      </div> 
+      <div class="vp-preview" style="background-image: url(https://i.vimeocdn.com/video/1118247297.webp?mw=1600&amp;mh=648);"></div>
       <div class="vp-shade vp-shade-invisible"></div>
       <div class="vp-nudge-shade vp-nudge-shade-left vp-nudge-shade-invisible"></div>
       <div class="vp-nudge-shade vp-nudge-shade-right vp-nudge-shade-invisible"></div>
@@ -623,7 +625,7 @@ twitterAuthor: "@TheEconomist"
               </div>
             </div>
           </div>
-          <button type="button" class="fullscreenvideo">
+          <button type="button" class="fullscreen">
             <div class="fullscreen-icon">
               <svg viewBox="0 0 12 12" preserveAspectRatio="xMidYMid" focusable="false" aria-labelledby="fullscreen-icon-title" role="img">
                 <title id="fullscreen-icon-title">Enter full screen</title>
