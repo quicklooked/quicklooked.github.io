@@ -7559,6 +7559,10 @@ screen and (max-height:249px) {
   display: none
 }
 
+.icon-gear-cog:hover {
+  fill: rgb(0, 173, 239);
+}
+
 .player-quicklook .vp-sidedock button:hover,
 .player-quicklook .vp-sidedock button.selected,
 .player-quicklook.touch-support .vp-sidedock button:active,
