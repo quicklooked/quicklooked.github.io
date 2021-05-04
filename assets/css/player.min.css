@@ -17,6 +17,9 @@
   .videoquicklook {
     width: 100%;
   }
+  .player .vp-controls .volume {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
