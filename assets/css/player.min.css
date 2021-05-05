@@ -7749,15 +7749,3 @@ screen and (max-height: 249px) {
   width: 100%;
   height: 100%;
 }
-
-@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-.player {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-}
