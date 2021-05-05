@@ -7744,3 +7744,8 @@ screen and (max-height: 249px) {
   width: 100%;
   height: 100%;
 }
+
+:-webkit-full-screen video {
+  width: 100%;
+  height: 100%;
+}
