@@ -7785,7 +7785,6 @@ screen and (max-height: 249px) {
   max-width: calc(100% - 12.5em);
   min-height: 30px;
   padding: 0.8em;
-  padding-left: 0px;
   border-radius: 2px;
   background: rgba(30, 30, 30, 0.9);
 }
@@ -7805,6 +7804,5 @@ screen and (max-height: 249px) {
   right: 1em;
   margin: 0;
   padding: 0;
-  padding-left: 30px;
   min-height: 22px;
 }
