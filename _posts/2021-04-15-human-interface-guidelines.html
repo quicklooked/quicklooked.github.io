@@ -457,7 +457,7 @@ twitterAuthor: "@TheEconomist"
                 <div class="vp-container">
                   <div class="vp-mediaelement">
                     <div class="vp-embed">
-                      <div class="player player-quicklook js-player js-player-fullscreen player-cardsCorner player-lg mobile">
+                      <div class="player player-quicklook js-player js-player-fullscreen player-cardsCorner player-lg mobile in-minibar">
                         <div class="vp-video-wrapper">
                           <div class="vp-video">
                             <div class="vp-telecine vp-telecine-cover">
@@ -500,8 +500,8 @@ twitterAuthor: "@TheEconomist"
                                   </defs>
                                   <g clip-path="url(#rounded-border)">
                                     <rect class="buffer hidden" height="3" width="110%" x="0" y="37" fill="url(#tiny-buffer)"></rect>
-                                    <rect class="loaded" height="3" width="100%" x="0" y="37" fill="#666"></rect>
-                                    <rect class="played fill" height="3" width="100%" x="0" y="37"></rect>
+                                    <rect id="progressLoadedMinibar" class="loaded" height="3" width="0%" x="0" y="37" fill="#666"></rect>
+                                    <rect id="progressPlayedMinibar" class="played fill" height="3" x="0" y="37"></rect>
                                   </g>
                                 </svg>
                               </div>
