@@ -210,6 +210,7 @@ body:not(.showfocus) .player input {
   top: 0;
   width: 40%;
   height: 100%;
+  z-index: 100;
 }
 
 .vp-right-zone {
@@ -220,6 +221,7 @@ body:not(.showfocus) .player input {
   top: 0;
   width: 40%;
   height: 100%;
+  z-index: 100;
 }
 
 .vp-placeholder {
