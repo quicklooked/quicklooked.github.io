@@ -202,6 +202,26 @@ body:not(.showfocus) .player input {
   justify-content: center;
 }
 
+.vp-left-zone {
+  display: inline-block;
+  left: 0;
+	background: transparent;
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 100%;
+}
+
+.vp-right-zone {
+  display: inline-block;
+  right: 0;
+	background: transparent;
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 100%;
+}
+
 .vp-placeholder {
   opacity: 1;
   -webkit-transition: opacity 125ms ease-out 0.1s;
