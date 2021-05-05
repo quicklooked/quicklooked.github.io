@@ -202,7 +202,7 @@ body:not(.showfocus) .player input {
   justify-content: center;
 }
 
-.vp-left-zone {
+.player .vp-left-zone {
   left: 0;
   background: transparent;
   width: 40%;
@@ -216,7 +216,7 @@ body:not(.showfocus) .player input {
   transform: translateY(-50%);
 }
 
-.vp-right-zone {
+.player .vp-right-zone {
   right: 0;
   background: transparent;
   width: 40%;
