@@ -7789,3 +7789,22 @@ screen and (max-height: 249px) {
   border-radius: 2px;
   background: rgba(30, 30, 30, 0.9);
 }
+
+.player .vp-times-button>span {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+
+.player.player-mini .vp-times-button,
+.player.player-tiny .vp-times-button {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  min-height: 22px;
+}
