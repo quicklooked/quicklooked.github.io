@@ -1,102 +1,3 @@
-.videoquicklook {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  transition: all 0.3s ease;
-  color: white;
-  border-radius: 0px;
-  margin: 0 auto;
-  margin-top: 2.625rem;
-  max-width: 680px;
-  animation: 230ms ease-in 0s 1 normal none running bXJeNr;
-}
-
-.video-player-fullcreen {
-  width: 100%;
-}
-
-@media (max-width: 768px) {
-  .player .vp-controls .volume {
-    display: none;
-  }
-}
-
-@media (max-width: 551.98px) {
-  .player .vp-controls .volume {
-    display: none;
-  }
-}
-
-@media (max-width: 480px) {
-  .player .vp-controls .volume {
-    display: none;
-  }
-}
-
-@media (max-width: 320px) {
-  .player .vp-controls .volume {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .videoquicklook {
-    width: 100%;
-  }
-}
-
-@media (min-width: 992px) {
-  .videoquicklook {
-    width: 100%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .videoquicklook {
-    width: 50%;
-  }
-}
-
-.videoquicklook:after {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  background: linear-gradient(#ffffff00, 85%, #000000c9);
-  opacity: 1;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-}
-
-.vp-panel-button-text {
-  font-family: 'circular-bold';
-  font-weight: bold;
-}
-
-.vp-telecine video {
-  width: 100%;
-  height: auto;
-}
-
-.kDlLS {
-  padding-top: 56.25%;
-  position: relative;
-  height: 0px;
-  overflow: hidden;
-  width: 100%;
-}
-
-.ggtdsf {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-}
-
 @charset "UTF-8";
 
 @-webkit-keyframes buffer {
@@ -7771,4 +7672,75 @@ screen and (max-height: 249px) {
 .player-quicklook .card-link .fill,
 .player-quicklook .vp-panel-collapsible .vp-panel-button:hover .fill {
   fill: rgb(0, 173, 239);
+}
+
+.vp-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  color: white;
+  border-radius: 0px;
+  margin: 0 auto;
+  margin-top: 2.625rem;
+  max-width: 680px;
+  animation: 230ms ease-in 0s 1 normal none running bXJeNr;
+}
+
+@media (min-width: 768px) {
+  .vp-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .vp-container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .vp-container {
+    width: 50%;
+  }
+}
+
+.vp-container:after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#ffffff00, 85%, #000000c9);
+  opacity: 1;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.vp-panel-button-text {
+  font-family: 'circular-bold';
+  font-weight: bold;
+}
+
+.vp-telecine video {
+  width: 100%;
+  height: auto;
+}
+
+.vp-mediaelement {
+  padding-top: 56.25%;
+  position: relative;
+  height: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.vp-embed {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
 }
