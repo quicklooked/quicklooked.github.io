@@ -7814,3 +7814,27 @@ screen and (max-height: 249px) {
 video::-webkit-media-text-track-container {
   display: none;
 }
+
+@media screen and (max-width: 680px) {
+  .player .vp-captions {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .player .vp-captions {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1224px) {
+  .player .vp-captions {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (min-width: 1824px) {
+  .player .vp-captions {
+    font-size: 28px;
+  }
+}
