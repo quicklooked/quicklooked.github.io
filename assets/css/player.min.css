@@ -7815,7 +7815,7 @@ video::-webkit-media-text-track-container {
 }
 
 video::-internal-picture-in-picture-interstitial-message {
-  display: none;
+  display: none !important;
 }
 
 @media screen and (max-width: 680px) {
