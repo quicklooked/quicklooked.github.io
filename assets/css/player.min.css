@@ -7793,3 +7793,7 @@ screen and (max-height: 249px) {
 #transcript {
   list-style: none;
 }
+
+video::-webkit-media-text-track-container {
+  display: none;
+}
