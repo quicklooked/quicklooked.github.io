@@ -7807,7 +7807,7 @@ screen and (max-height: 249px) {
   display: block;
 }
 
-transcript {
+.transcript {
   list-style: none;
 }
 
