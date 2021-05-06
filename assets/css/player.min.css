@@ -7781,10 +7781,7 @@ screen and (max-height: 249px) {
   background: transparent;
 }
 
-.cues {
-  display: none;
-}
-
+.cues,
 .cues:hover {
   display: none;
 }
