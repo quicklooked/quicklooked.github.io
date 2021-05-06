@@ -7675,6 +7675,23 @@ screen and (max-height: 249px) {
   fill: rgb(0, 173, 239);
 }
 
+.player-quicklook a,
+.player-quicklook .button-link,
+.player-quicklook .vp-overlay-wrapper .footnote.share a:hover,
+.player-quicklook .vp-title h1,
+.player-quicklook .vp-title span.user,
+.player-quicklook .menu li:hover,
+.player-quicklook .menu li.active,
+.player-quicklook .vp-outro-link:hover,
+.player-quicklook .vp-outro-videosTitle a:hover,
+.player-quicklook li.vp-panel-item:hover,
+.player-quicklook li.vp-panel-item-on,
+.player-quicklook .vp-share-footnote a:hover,
+.player-quicklook .card-link span,
+.player-quicklook .vp-panel-collapsible .vp-panel-button:hover {
+  color: rgb(0, 173, 239);
+}
+
 .vp-container {
   position: relative;
   width: 100%;
