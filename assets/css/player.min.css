@@ -1322,6 +1322,7 @@ body:not(.showfocus) .player input {
   margin-left: 2.3em;
   cursor: -webkit-grab;
   cursor: grab;
+  word-break: normal;
 }
 
 .player .vp-controls .ghost-timecode {
