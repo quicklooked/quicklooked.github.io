@@ -796,7 +796,7 @@ body:not(.showfocus) .player input {
   border-radius: 5px;
   padding: 0.4em 0.5em 0.5em;
   margin: 10px 0 0;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
   line-height: 1.2;
   text-rendering: optimizeLegibility;
@@ -7804,7 +7804,7 @@ screen and (max-height: 249px) {
 }
 
 .cues.current {
-  display: block;
+  display: inline-block;
 }
 
 .transcript {
