@@ -7750,3 +7750,31 @@ screen and (max-height: 249px) {
   width: 100%;
   height: 100%;
 }
+
+.player .vp-right-zone {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.player .vp-left-zone {
+  width: 40%;
+  height: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.vp-right-zone,
+.vp-left-zone {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background: transparent;
+}
