@@ -224,7 +224,7 @@ body:not(.showfocus) .player input {
   -webkit-font-smoothing: auto;
   color: #fff;
   line-height: normal;
-  font-family: 'circular' !important;
+  font-family: "Helvetica Neue", Helvetica, Arial !important;
   font-size: 10px;
   overflow: visible;
   border-collapse: separate;
@@ -2367,8 +2367,7 @@ body:not(.showfocus) .player input {
   padding: 0 0.5em;
   margin: 0 0.5em;
   font-size: 1.2em;
-  font-weight: bold;
-  font-family: 'circular-bold';
+  font-weight: 700;
   line-height: 1.5em;
   cursor: pointer;
   white-space: nowrap;
