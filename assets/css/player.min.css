@@ -7814,6 +7814,10 @@ video::-webkit-media-text-track-container {
   display: none;
 }
 
+video::-internal-picture-in-picture-interstitial-message {
+  display: none;
+}
+
 @media screen and (max-width: 680px) {
   .player .vp-captions {
     font-size: 14px;
