@@ -731,6 +731,10 @@
   transition-duration: .3s
 }
 
+.fotorama__wrap--css3 .fotorama__arr:not(:focus) {
+  background: transparent;
+}
+
 .fotorama__nav:after,
 .fotorama__nav:before,
 .fotorama__stage:after,
