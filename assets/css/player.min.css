@@ -7739,8 +7739,8 @@ screen and (max-height: 249px) {
 }
 
 .vp-panel-button-text {
-  font-family: 'circular-bold';
-  font-weight: bold;
+  font-family: 'circular';
+  font-weight: 700;
 }
 
 .vp-telecine video {
