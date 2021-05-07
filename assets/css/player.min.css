@@ -792,9 +792,9 @@ body:not(.showfocus) .player input {
 
 .player .vp-captions>span {
   display: inline-block;
-  background: rgba(30,30,30,.9);
+  background: transparent;
   border-radius: 5px;
-  padding: 0.4em 0.5em 0.5em;
+  padding: 0;
   margin: 10px 0 0;
   font-weight: 700;
   font-family: 'circular';
@@ -7805,6 +7805,9 @@ screen and (max-height: 249px) {
 
 .cues.current {
   display: inline-block;
+  background: rgba(30,30,30,.9);
+  padding: 0.4em 0.5em 0.5em;
+  border-radius: 5px;
 }
 
 video::-webkit-media-text-track-container {
