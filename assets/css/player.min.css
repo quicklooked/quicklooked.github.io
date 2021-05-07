@@ -224,7 +224,7 @@ body:not(.showfocus) .player input {
   -webkit-font-smoothing: auto;
   color: #fff;
   line-height: normal;
-  font-family: "Helvetica Neue", Helvetica, Arial !important;
+  font-family: 'circular' !important;
   font-size: 10px;
   overflow: visible;
   border-collapse: separate;
@@ -792,7 +792,7 @@ body:not(.showfocus) .player input {
 
 .player .vp-captions>span {
   display: inline-block;
-  background: transparent;
+  background: rgba(30,30,30,.9);
   border-radius: 5px;
   padding: 0.4em 0.5em 0.5em;
   margin: 10px 0 0;
