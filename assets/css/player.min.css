@@ -797,6 +797,7 @@ body:not(.showfocus) .player input {
   padding: 0.4em 0.5em 0.5em;
   margin: 10px 0 0;
   font-weight: 700;
+  font-family: 'circular';
   color: #f5f5f7;
   line-height: 1.2;
   text-rendering: optimizeLegibility;
