@@ -323,24 +323,32 @@
 }
 
 /* circular */
+
 @font-face {
-    font-family: 'circular-black';
-    src: url('/assets/css/circular/circular-black.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
+  font-family: circular;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/css/circular/circular.woff2) format("woff2");
 }
 
 @font-face {
-    font-family: 'circular-book';
+    font-family: 'circular';
     src: url('/assets/css/circular/circular-book.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular-bold';
+    font-family: 'circular';
     src: url('/assets/css/circular/circular-bold.woff2') format('woff2');
-    font-weight: bold;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'circular';
+    src: url('/assets/css/circular/circular-black.woff2') format('woff2');
+    font-weight: 900;
     font-style: normal;
 }
 
@@ -351,12 +359,4 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: circular;
-  font-style: normal;
-  font-weight: 400;
-  src: url(/assets/css/circular/circular.woff2) format("woff2");
 }
