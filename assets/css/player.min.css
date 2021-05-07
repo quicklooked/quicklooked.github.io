@@ -7777,7 +7777,7 @@ screen and (max-height: 249px) {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
-  z-index: 14;
+  z-index: 9;
 }
 
 .player .vp-left-zone {
@@ -7788,7 +7788,7 @@ screen and (max-height: 249px) {
   top: 50%;
   left: 0;
   transform: translateY(-50%);
-  z-index: 14;
+  z-index: 9;
 }
 
 .vp-right-zone,
