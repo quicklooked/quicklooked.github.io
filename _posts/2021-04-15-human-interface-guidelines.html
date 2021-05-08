@@ -449,6 +449,12 @@ twitterAuthor: "@TheEconomist"
                               state: '<img style="width: 32px; display:none" src="/assets/images/fit/60/1_sHhtYhaCe2Uc3IU0IgKwIQ.png">',
                             },
                           });
+                          art.on('ready', function () {
+                            art.loading.show = true;
+                            setTimeout(function () {
+                              art.loading.show = false;
+                            }, 5000);
+                          });
                         </script>
                       </div>
                     </div>
