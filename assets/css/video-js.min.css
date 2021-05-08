@@ -741,17 +741,17 @@ body.vjs-full-window {
 }
 
 .vjs-layout-small .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
-  max-height: 10em
+  height: auto
 }
 
 .vjs-layout-medium .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
-  max-height: 14em
+  height: auto
 }
 
 .vjs-layout-huge .vjs-menu-button-popup .vjs-menu .vjs-menu-content,
 .vjs-layout-large .vjs-menu-button-popup .vjs-menu .vjs-menu-content,
 .vjs-layout-x-large .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
-  max-height: 25em
+  height: auto
 }
 
 .vjs-menu-button-popup .vjs-menu.vjs-lock-showing,
