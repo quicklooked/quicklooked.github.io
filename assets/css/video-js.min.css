@@ -1847,3 +1847,147 @@ video::-webkit-media-text-track-display {
     width: 50%
   }
 }
+
+/*thumbnail*/
+
+.vjs-thumbnail-holder {
+  position: relative;
+  overflow: hidden;
+  left: -1000px;
+  bottom: 2.5em;
+  top: -139px !important;
+  border-radius: 5px
+}
+
+.vjs-thumbnail,
+.vjs-thumbnail-text {
+  position: absolute;
+  -mz-transition: opacity .2s ease
+}
+
+.vjs-thumbnail-text-div {
+  display: table
+}
+
+.vjs-thumbnail-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  z-index: 3;
+  background-color: #00080;
+  bottom: 0;
+  text-align: center;
+  transition: opacity .2s ease;
+  -webkit-transition: opacity .2s ease;
+  -moz-transition: opacity .2s ease
+}
+
+.vjs-thumbnail {
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+  transition: opacity .2s ease;
+  -webkit-transition: opacity .2s ease;
+  -moz-transition: opacity .2s ease
+}
+
+.vjs-progress-control.fake-active .vjs-thumbnail,
+.vjs-progress-control:active .vjs-thumbnail,
+.vjs-progress-control:hover .vjs-thumbnail {
+  opacity: 1
+}
+
+.vjs-progress-control:active .vjs-thumbnail-text:active,
+.vjs-progress-control:hover .vjs-thumbnail-text:hover {
+  opacity: 0
+}
+
+.video-js .vjs-mouse-display:after {
+  top: auto;
+  bottom: 3.5em;
+  visibility: hidden
+}
+
+.video-js .vjs-progress-control .vjs-progress-holder .vjs-mouse-display .vjs-time-tooltip {
+  display: none
+}
+
+/*! @name videojs-seek-buttons @version 1.6.0 @license Apache-2.0 */
+@import url(https://fonts.googleapis.com/css?family=Material+Icons);
+
+.video-js .vjs-seek-button {
+  font-family: 'Material Icons';
+  cursor: pointer
+}
+
+.video-js .vjs-seek-button.skip-back::before {
+  content: '\e042'
+}
+
+.video-js .vjs-seek-button.skip-back.skip-10::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-back.skip-10 .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back.skip-10 .vjs-icon-placeholder::before {
+  content: '\e059'
+}
+
+.video-js .vjs-seek-button.skip-back.skip-5::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-back.skip-5 .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back.skip-5 .vjs-icon-placeholder::before {
+  content: '\e05b'
+}
+
+.video-js .vjs-seek-button.skip-back.skip-30::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-back.skip-30 .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back.skip-30 .vjs-icon-placeholder::before {
+  content: '\e05a'
+}
+
+.video-js .vjs-seek-button.skip-forward::before {
+  content: '\e5d5'
+}
+
+.video-js .vjs-seek-button.skip-forward.skip-10::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward.skip-10 .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward.skip-10 .vjs-icon-placeholder::before {
+  content: '\e056'
+}
+
+.video-js .vjs-seek-button.skip-forward.skip-5::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward.skip-5 .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward.skip-5 .vjs-icon-placeholder::before {
+  content: '\e058'
+}
+
+.video-js .vjs-seek-button.skip-forward.skip-30::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward.skip-30 .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward.skip-30 .vjs-icon-placeholder::before {
+  content: '\e057'
+}
+
+.video-js.vjs-v6 .vjs-seek-button.skip-back.skip-10::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-back.skip-30::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-back.skip-5::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-back::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward.skip-10::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward.skip-30::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward.skip-5::before,
+.video-js.vjs-v6 .vjs-seek-button.skip-forward::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back.skip-10::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back.skip-30::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back.skip-5::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward.skip-10::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward.skip-30::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward.skip-5::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward::before {
+  content: none
+}
+
+.video-js.vjs-v6 .vjs-seek-button.skip-back .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-back .vjs-icon-placeholder::before {
+  content: '\e042'
+}
+
+.video-js.vjs-v6 .vjs-seek-button.skip-forward .vjs-icon-placeholder::before,
+.video-js.vjs-v7 .vjs-seek-button.skip-forward .vjs-icon-placeholder::before {
+  content: '\e5d5'
+}
