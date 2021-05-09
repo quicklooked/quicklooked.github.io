@@ -555,7 +555,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   transform: translateY(-50%);
   margin: 0 auto;
   opacity: 0;
-  animation: none !important;
+  -webkit-animation: 1s spin linear infinite;
+	animation: 1s spin linear infinite;
   transition: opacity .3s ease-in-out
 }
 
