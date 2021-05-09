@@ -669,12 +669,12 @@ html {
 }
 
 .video-js .vjs-control-bar .vjs-brand-container {
-  margin-left: auto;
+  margin-left: 0;
 }
 
 @media all and (max-width:500px) {
   .video-js .vjs-control-bar .vjs-brand-container {
-    margin-right: 15px
+    margin-right: 0px
   }
 }
 
@@ -853,7 +853,7 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
 
 button.vjs-fullscreen-control.vjs-control.vjs-button {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 .vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
