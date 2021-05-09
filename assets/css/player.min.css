@@ -371,12 +371,12 @@ fieldset.vjs-edge-style.vjs-track-setting {
 
 .vjs-slider-vertical .vjs-volume-level:before {
   top: -.5em;
-  left: -.28em;
+  left: -.3em;
   color: #e50914;
 }
 .video-js .vjs-volume-level:before {
   position: absolute;
-  font-size: 1.4em;	
+  font-size: 1.8em;	
 }
 
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-colors fieldset.vjs-track-setting,
