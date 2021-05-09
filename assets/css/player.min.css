@@ -471,9 +471,9 @@ html {
 .video-js .vjs-loading-spinner {
   background-image: url(//i.doodcdn.com/theme_2/img/loader.svg);
   border: 0;
-  width: 80px;
-  height: 80px;
-  background-size: 80px;
+  width: 60px;
+  height: 60px;
+  background-size: 60px;
   z-index: 15;
   display: none;
   left: 0;
