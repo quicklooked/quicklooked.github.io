@@ -543,7 +543,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-loading-spinner {
-  background-image: url(//i.doodcdn.com/theme_2/img/loader.svg);
+  background-image: url(https://assets.nflxext.com/en_us/pages/wiplayer/site-spinner.png);
   border: 0;
   width: 80px;
   height: 80px;
