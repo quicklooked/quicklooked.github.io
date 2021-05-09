@@ -350,23 +350,23 @@ fieldset.vjs-edge-style.vjs-track-setting {
 }
 
 .vjs-volume-control.vjs-control.vjs-volume-vertical {
-	background-color: #333;
-	border-radius: 4px;
-	z-index: 10;
-	height: 12em !important;
-	width: 2em !important;
-	margin: 0em 0em 1.25em -1.25em;
+  background-color: #333;
+  border-radius: 4px;
+  z-index: 12;
+  height: 12em !important;
+  width: 2em !important;
+  margin: 0em 0em 1.25em -1.25em;
 }
 
 .vjs-volume-bar.vjs-slider-bar.vjs-slider.vjs-slider-vertical {
-	width: 0.6em;
-	height: 10em;
-	margin: 1em auto;
+  width: 0.6em;
+  height: 10em;
+  margin: 1em auto;
 }
 
 .vjs-slider-vertical .vjs-volume-level {
-	width: 0.6em;
-	background-color: #e50914;
+  width: 0.6em;
+  background-color: #e50914;
 }
 
 .vjs-slider-vertical .vjs-volume-level:before {
