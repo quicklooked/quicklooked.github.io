@@ -1814,7 +1814,6 @@ video::-webkit-media-text-track-display {
   transition: all .3s ease;
   border-radius: 0;
   margin: 0 auto;
-  margin-top: 2.625rem;
   max-width: 680px
 }
 
