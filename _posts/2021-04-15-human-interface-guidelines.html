@@ -358,8 +358,11 @@ twitterAuthor: "@TheEconomist"
                     </video>
                   </div>
                   <script>
-                    var dsplayer = videojs('video_player', {
-                      "preload": "none",
+                    var quickplayer = videojs('video_player', {
+                      "preload": "auto",
+                      userActions: {
+                        hotkeys: true
+                        },
                       controlBar: {
                         volumePanel: {
                           inline: true
