@@ -699,7 +699,7 @@ html {
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
-  display:
+  display: none
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-thumbnail-holder {
