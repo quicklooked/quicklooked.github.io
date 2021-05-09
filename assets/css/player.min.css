@@ -809,7 +809,7 @@ html {
 
 .video-js .vjs-control-bar .vjs-volume-panel .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal {
   width: 10em;
-  height: 3.5em
+  height: 2.5em
 }
 
 @media all and (max-width:768px) {
