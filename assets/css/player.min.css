@@ -857,15 +857,21 @@ html {
 .video-js .vjs-control-bar .vjs-button.vjs-play-control.vjs-paused .vjs-icon-placeholder:before,
 .video-js .vjs-control-bar button.vjs-control.vjs-play-control.vjs-paused .vjs-icon-placeholder:before {
   content: "";
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1IDI0Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYuMzEzIDIyLjA1Yy0xLjIyLjcyMi0yLjc1LS4xNDgtMi44MTEtMS41ODYtLjIzOC01LjY1LS4yMS0xMS4yMTYuMDItMTYuOTI4LjA1Ny0xLjQwOCAxLjUzLTIuMjgyIDIuNzUxLTEuNjIgNS40ODEgMi45NyAxMC44MjIgNi4xNjIgMTMuODI1IDcuOTkyIDEuMTc0LjcxNSAxLjIyMyAyLjQyNi4wOTEgMy4yMS0yLjg5IDIuMDAyLTguMDk1IDUuNTA3LTEzLjg3NiA4LjkzMnoiLz4KPC9zdmc+Cg==);
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cpolygon points='8 22 8 6 22.0043763 14'%3E%3C/polygon%3E%3C/svg%3E");
+  width: 2em;
+  height: 2em;
+  background-size: auto;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-play-control.vjs-playing .vjs-icon-placeholder:before,
 .video-js .vjs-control-bar button.vjs-control.vjs-play-control.vjs-playing .vjs-icon-placeholder:before {
   content: "";
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1IDI0Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYuODY3IDEuMDEzYzEuMTc3IDAgMi4xMy45MzIgMi4xMyAyLjA4MnYxNy44MWMwIDEuMTUtLjk1MyAyLjA4Mi0yLjEzIDIuMDgySDUuMzZjLTEuMTc3IDAtMi4xMzEtLjkzMi0yLjEzMS0yLjA4MlYzLjA5NWMwLTEuMTUuOTU0LTIuMDgyIDIuMTMtMi4wODJoMS41MDd6bTEyLjc3MiAwYzEuMTc3IDAgMi4xMzEuOTMyIDIuMTMxIDIuMDgydjE3LjgxYzAgMS4xNS0uOTU0IDIuMDgyLTIuMTMgMi4wODJoLTEuNTA3Yy0xLjE3NyAwLTIuMTMxLS45MzItMi4xMzEtMi4wODJWMy4wOTVjMC0xLjE1Ljk1NC0yLjA4MiAyLjEzMS0yLjA4MmgxLjUwNnoiLz4KPC9zdmc+Cg==);
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 2em;
+  background-size: auto;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Crect x='9' y='6' width='4' height='16'%3E%3C/rect%3E%3Crect x='15' y='6' width='4' height='16'%3E%3C/rect%3E%3C/svg%3E");
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-seek-button,
