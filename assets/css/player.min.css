@@ -345,6 +345,10 @@ fieldset.vjs-edge-style.vjs-track-setting {
   display: none;
 }
 
+.video-js .vjs-load-progress div {
+  background: #5b5b5b;
+}
+
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-colors fieldset.vjs-track-setting,
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-font fieldset.vjs-track-setting {
   text-align: left;
@@ -727,9 +731,18 @@ fieldset.vjs-edge-style.vjs-track-setting {
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder {
-  background: rgba(255, 255, 255, .5);
-  border-radius: 2px;
+  background: rgba(255, 255, 255, .2);
+  border-radius: 0px;
   height: 4px;
+  -webkit-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  -moz-transition: height .2s ease;
+  transition: height .2s ease;
+  will-change: height;
+}
+
+.video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder:hover {
+  height: 8px;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-load-progress {
