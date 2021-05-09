@@ -1007,13 +1007,19 @@ html {
 .video-js .vjs-control-bar .vjs-button.vjs-fullscreen-control .vjs-icon-placeholder:before,
 .video-js .vjs-control-bar button.vjs-control.vjs-fullscreen-control .vjs-icon-placeholder:before {
   content: "";
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTQuOTgxIDIwLjY1NGg1LjM4MWMuNTk1IDAgMS4wNzcuNDgyIDEuMDc3IDEuMDc3di4xNThjMCAuNTk1LS40ODIgMS4wNzctMS4wNzcgMS4wNzdIMi40NTVhMS4wOCAxLjA4IDAgMCAxLS43MTYtLjA2NiAxLjA4IDEuMDggMCAwIDEtLjYzOS0uNjM5IDEuMDggMS4wOCAwIDAgMS0uMDY2LS43MTZ2LTcuOTA3YzAtLjU5NS40ODItMS4wNzcgMS4wNzctMS4wNzdoLjE1OGMuNTk1IDAgMS4wNzcuNDgyIDEuMDc3IDEuMDc3djUuMzhsNS40NC01LjQzOWMuNDItLjQyIDEuMTAzLS40MiAxLjUyMyAwbC4xMTIuMTEyYy40Mi40Mi40MiAxLjEwMiAwIDEuNTIzbC01LjQ0IDUuNDR6TTE5LjAyIDMuMzQ2aC01LjM4MUExLjA3NyAxLjA3NyAwIDAgMSAxMi41NiAyLjI3di0uMTU4YzAtLjU5NS40ODItMS4wNzcgMS4wNzctMS4wNzdoNy45MDdjLjIzOC0uMDYuNDkxLS4wMzguNzE2LjA2Ni4yOTUuMTEuNTMuMzQ0LjYzOS42MzkuMTA0LjIyNS4xMjYuNDc4LjA2Ni43MTZ2Ny45MDdjMCAuNTk1LS40ODIgMS4wNzctMS4wNzcgMS4wNzdoLS4xNThhMS4wNzcgMS4wNzcgMCAwIDEtMS4wNzctMS4wNzd2LTUuMzhsLTUuNDQgNS40MzljLS40Mi40Mi0xLjEwMy40Mi0xLjUyMyAwbC0uMTEyLS4xMTJhMS4wNzcgMS4wNzcgMCAwIDEgMC0xLjUyM2w1LjQ0LTUuNDR6Ii8+Cjwvc3ZnPgo=);
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cg transform='translate(2, 6)'%3E%3Cpolygon points='8 0 6 0 5.04614258 0 0 0 0 5 2 5 2 2 8 2'%3E%3C/polygon%3E%3Cpolygon transform='translate(4, 13.5) scale(1, -1) translate(-4, -13.5) ' points='8 11 6 11 5.04614258 11 0 11 0 16 2 16 2 13 8 13'%3E%3C/polygon%3E%3Cpolygon transform='translate(20, 2.5) scale(-1, 1) translate(-20, -2.5) ' points='24 0 22 0 21.0461426 0 16 0 16 5 18 5 18 2 24 2'%3E%3C/polygon%3E%3Cpolygon transform='translate(20, 13.5) scale(-1, -1) translate(-20, -13.5) ' points='24 11 22 11 21.0461426 11 16 11 16 16 18 16 18 13 24 13'%3E%3C/polygon%3E%3C/g%3E%3C/svg%3E");
+  width: 2em;
+  height: 2em;
+  background-size: auto;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-fullscreen-control[title=Non-Fullscreen] .vjs-icon-placeholder:before,
 .video-js .vjs-control-bar button.vjs-control.vjs-fullscreen-control[title=Non-Fullscreen] .vjs-icon-placeholder:before {
   content: "";
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTYuODQ3IDE1LjU0NmgtNS4yN0ExLjA3NyAxLjA3NyAwIDAgMSAuNSAxNC40N3YtLjExOWMwLS41OTUuNDgyLTEuMDc3IDEuMDc3LTEuMDc3SDkuMzZhMS4wOCAxLjA4IDAgMCAxIC42NzEuMDdjLjI4OC4xMDkuNTE2LjMzNy42MjUuNjI1LjA5NS4yMTEuMTE4LjQ0Ny4wNy42N3Y3Ljc4NGMwIC41OTUtLjQ4MiAxLjA3Ny0xLjA3NyAxLjA3N0g5LjUzYTEuMDc3IDEuMDc3IDAgMCAxLTEuMDc2LTEuMDc3di01LjI3TDMuMTIgMjIuNDg2Yy0uNDIuNDIxLTEuMTAyLjQyMS0xLjUyMyAwbC0uMDgzLS4wODNhMS4wNzcgMS4wNzcgMCAwIDEgMC0xLjUyM2w1LjMzMy01LjMzNHptMTAuMzA2LTcuMDkyaDUuMjdjLjU5NSAwIDEuMDc3LjQ4MiAxLjA3NyAxLjA3NnYuMTE5YzAgLjU5NS0uNDgyIDEuMDc3LTEuMDc3IDEuMDc3SDE0LjY0YTEuMDggMS4wOCAwIDAgMS0uNjcxLS4wNyAxLjA4IDEuMDggMCAwIDEtLjYyNS0uNjI1IDEuMDggMS4wOCAwIDAgMS0uMDctLjY3VjEuNTc2YzAtLjU5NS40ODItMS4wNzcgMS4wNzctMS4wNzdoLjExOWMuNTk0IDAgMS4wNzYuNDgyIDEuMDc2IDEuMDc3djUuMjdsNS4zMzQtNS4zMzNjLjQyLS40MjEgMS4xMDItLjQyMSAxLjUyMyAwbC4wODMuMDgzYy40MjEuNDIxLjQyMSAxLjEwMyAwIDEuNTIzbC01LjMzMyA1LjMzNHoiLz4KPC9zdmc+Cg==);
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cg transform='translate(3, 6)'%3E%3Cpolygon transform='translate(19.000000, 3.000000) scale(-1, 1) translate(-19.000000, -3.000000) ' points='22 0 20 0 20 4 16 4 16 6 22 6'%3E%3C/polygon%3E%3Cpolygon transform='translate(19.000000, 13.000000) scale(-1, -1) translate(-19.000000, -13.000000) ' points='22 10 20 10 20 14 16 14 16 16 22 16'%3E%3C/polygon%3E%3Cpolygon points='6 0 4 0 4 4 0 4 0 6 6 6'%3E%3C/polygon%3E%3Cpolygon transform='translate(3.000000, 13.000000) scale(1, -1) translate(-3.000000, -13.000000) ' points='6 10 4 10 4 14 0 14 0 16 6 16'%3E%3C/polygon%3E%3C/g%3E%3C/svg%3E");
+  width: 2em;
+  height: 2em;
+  background-size: auto;
 }
