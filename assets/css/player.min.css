@@ -401,6 +401,7 @@ fieldset.vjs-edge-style.vjs-track-setting {
   right: 0;
   height: 100%;
   z-index: 7;
+  text-shadow: 0 0 3px #000;
 }
 
 .video-js .vjs-text-track-display>div>div>div {
@@ -474,9 +475,9 @@ fieldset.vjs-edge-style.vjs-track-setting {
 .video-js .vjs-loading-spinner {
   background-image: url(//i.doodcdn.com/theme_2/img/loader.svg);
   border: 0;
-  width: 60px;
-  height: 60px;
-  background-size: 60px;
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
   z-index: 15;
   display: none;
   left: 0;
@@ -490,9 +491,9 @@ fieldset.vjs-edge-style.vjs-track-setting {
 
 @media all and (max-width:500px) {
   .video-js .vjs-loading-spinner {
-    width: 40px;
-    height: 40px;
-    background-size: 40px
+    width: 60px;
+    height: 60px;
+    background-size: 60px
   }
 }
 
