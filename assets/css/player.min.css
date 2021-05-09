@@ -868,7 +868,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 @media all and (max-width:500px) {
