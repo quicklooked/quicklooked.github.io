@@ -362,8 +362,7 @@ html {
   color: #fff;
   outline: 0;
   appearance: none;
-  border-radius: 50px;
-  border: 1px solid rgba(255, 255, 255, .7)
+  border-radius: 4px;
 }
 
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-colors fieldset.vjs-track-setting select option,
