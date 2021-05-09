@@ -670,12 +670,10 @@ html {
 
 .video-js .vjs-control-bar .vjs-brand-container {
   margin-left: auto;
-  padding: 20px
 }
 
 @media all and (max-width:500px) {
   .video-js .vjs-control-bar .vjs-brand-container {
-    padding: 22px 0;
     margin-right: 15px
   }
 }
@@ -840,7 +838,29 @@ html {
 .video-js .vjs-control-bar .vjs-button,
 .video-js .vjs-control-bar button.vjs-control {
   outline: 0 !important;
-  width: 6em
+  width: 0em
+}
+
+button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button.vjs-fullscreen-control.vjs-control.vjs-button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
+button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
+button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
+button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
+    margin-right: 20px;
 }
 
 @media all and (max-width:500px) {
@@ -849,7 +869,7 @@ html {
   .video-js .vjs-control-bar .vjs-button.vjs-play-control,
   .video-js .vjs-control-bar button.vjs-control,
   .video-js .vjs-control-bar button.vjs-control.vjs-play-control {
-    width: 3em
+    width: 0em
   }
 }
 
