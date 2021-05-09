@@ -360,36 +360,36 @@ twitterAuthor: "@TheEconomist"
                         <track kind="chapters" src="https://raw.githubusercontent.com/videojs/video.js/main/docs/examples/elephantsdream/chapters.en.vtt" srclang="en" label="English">
                       </video>
                     </div>
-                    <script>
-                      var quickplayer = videojs('video_player', {
-                        "preload": "none",
-                        userActions: {
-                          hotkeys: true
-                        },
-                        controlBar: {
-                          volumePanel: {
-                            inline: true
-                          },
-                          pictureInPictureToggle: false,
-                        },
-                        responsive: true,
-                        plugins: {
-                          brand: {
-                            image: "",
-                            title: "Quicklook",
-                            destination: "/",
-                            destinationTarget: "_blank"
-                          },
-                          thumbnails: {
-                            width: 120,
-                            height: 90,
-                            vtt: '',
-                            basePath: ""
-                          },
-                        }
-                      })
-                    </script>
                   </div>
                 </div>
               </div>
+              <script>
+                var quickplayer = videojs('video_player', {
+                  "preload": "none",
+                  userActions: {
+                    hotkeys: true
+                  },
+                  controlBar: {
+                    volumePanel: {
+                      inline: true
+                    },
+                    pictureInPictureToggle: false,
+                  },
+                  responsive: true,
+                  plugins: {
+                    brand: {
+                      image: "",
+                      title: "Quicklook",
+                      destination: "/",
+                      destinationTarget: "_blank"
+                    },
+                    thumbnails: {
+                      width: 120,
+                      height: 90,
+                      vtt: '',
+                      basePath: ""
+                    },
+                  }
+                })
+              </script>
             </section>
