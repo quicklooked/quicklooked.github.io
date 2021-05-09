@@ -632,7 +632,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   width: 100px;
   height: 100px;
   background-size: 100px;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhZCIgZGF0YS1pY29uPSJwbGF5LWNpcmNsZSIgY2xhc3M9InN2Zy1pbmxpbmUtLWZhIGZhLXBsYXktY2lyY2xlIGZhLXctMTYiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PGcgY2xhc3M9ImZhLWdyb3VwIj48cGF0aCBjbGFzcz0iZmEtc2Vjb25kYXJ5IiBmaWxsPSIjMDAwMDAwIiBkPSJNMjU2IDhDMTE5IDggOCAxMTkgOCAyNTZzMTExIDI0OCAyNDggMjQ4IDI0OC0xMTEgMjQ4LTI0OFMzOTMgOCAyNTYgOHptMTE1LjcgMjcybC0xNzYgMTAxYy0xNS44IDguOC0zNS43LTIuNS0zNS43LTIxVjE1MmMwLTE4LjQgMTkuOC0yOS44IDM1LjctMjFsMTc2IDEwN2MxNi40IDkuMiAxNi40IDMyLjkgMCA0MnoiIG9wYWNpdHk9IjAuNCI+PC9wYXRoPjxwYXRoIGNsYXNzPSJmYS1wcmltYXJ5IiBmaWxsPSIjZmZmZmZmIiBkPSJNMzcxLjcgMjgwbC0xNzYgMTAxYy0xNS44IDguOC0zNS43LTIuNS0zNS43LTIxVjE1MmMwLTE4LjQgMTkuOC0yOS44IDM1LjctMjFsMTc2IDEwN2MxNi40IDkuMiAxNi40IDMyLjkgMCA0MnoiPjwvcGF0aD48L2c+PC9zdmc+);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cpolygon points='8 22 8 6 22.0043763 14'%3E%3C/polygon%3E%3C/svg%3E");
+  background-color: rgba(0,0,0,.6);
+  border-radius: 50px;
   background-repeat: no-repeat;
 }
 
@@ -653,7 +655,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
-  background-image: url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZm9jdXNhYmxlPSJmYWxzZSIgZGF0YS1wcmVmaXg9ImZhZCIgZGF0YS1pY29uPSJwYXVzZS1jaXJjbGUiIGNsYXNzPSJzdmctaW5saW5lLS1mYSBmYS1wYXVzZS1jaXJjbGUgZmEtdy0xNiIgcm9sZT0iaW1nIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48ZyBjbGFzcz0iZmEtZ3JvdXAiPjxwYXRoIGNsYXNzPSJmYS1zZWNvbmRhcnkiIGZpbGw9IiMwMDAwMDAiIGQ9Ik0yNTYgOEMxMTkgOCA4IDExOSA4IDI1NnMxMTEgMjQ4IDI0OCAyNDggMjQ4LTExMSAyNDgtMjQ4UzM5MyA4IDI1NiA4em0tMTYgMzI4YTE2IDE2IDAgMCAxLTE2IDE2aC00OGExNiAxNiAwIDAgMS0xNi0xNlYxNzZhMTYgMTYgMCAwIDEgMTYtMTZoNDhhMTYgMTYgMCAwIDEgMTYgMTZ6bTExMiAwYTE2IDE2IDAgMCAxLTE2IDE2aC00OGExNiAxNiAwIDAgMS0xNi0xNlYxNzZhMTYgMTYgMCAwIDEgMTYtMTZoNDhhMTYgMTYgMCAwIDEgMTYgMTZ6IiBvcGFjaXR5PSIwLjQiPjwvcGF0aD48cGF0aCBjbGFzcz0iZmEtcHJpbWFyeSIgZmlsbD0iI2ZmZmZmZiIgZD0iTTIyNCAxNjBoLTQ4YTE2IDE2IDAgMCAwLTE2IDE2djE2MGExNiAxNiAwIDAgMCAxNiAxNmg0OGExNiAxNiAwIDAgMCAxNi0xNlYxNzZhMTYgMTYgMCAwIDAtMTYtMTZ6bTExMiAwaC00OGExNiAxNiAwIDAgMC0xNiAxNnYxNjBhMTYgMTYgMCAwIDAgMTYgMTZoNDhhMTYgMTYgMCAwIDAgMTYtMTZWMTc2YTE2IDE2IDAgMCAwLTE2LTE2eiI+PC9wYXRoPjwvZz48L3N2Zz4=);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Crect x='9' y='6' width='4' height='16'%3E%3C/rect%3E%3Crect x='15' y='6' width='4' height='16'%3E%3C/rect%3E%3C/svg%3E");
+  background-color: rgba(0,0,0,.6);
+  border-radius: 50px;
   background-repeat: no-repeat;
   width: 100px;
   height: 100px;
