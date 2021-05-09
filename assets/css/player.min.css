@@ -799,9 +799,9 @@ fieldset.vjs-edge-style.vjs-track-setting {
   display: block;
   border-radius: 50%;
   z-index: 11;
-  background: #fff;
-  width: 10px;
-  height: 10px
+  background: #e50914;
+  width: 14px;
+  height: 14px
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
