@@ -395,7 +395,6 @@ html {
   right: 0;
   height: 100%;
   z-index: 7;
-  text-shadow: 0 0 3px #000;
 }
 
 .video-js .vjs-text-track-display>div>div>div {
