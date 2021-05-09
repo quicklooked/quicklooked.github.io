@@ -349,6 +349,10 @@ fieldset.vjs-edge-style.vjs-track-setting {
   background: #5b5b5b;
 }
 
+li.vjs-menu-item.vjs-texttrack-settings {
+  display: none !important;
+}
+
 .vjs-volume-control.vjs-control.vjs-volume-vertical {
   background-color: #333;
   border-radius: 4px;
