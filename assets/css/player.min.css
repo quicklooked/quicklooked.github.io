@@ -697,11 +697,11 @@ html {
   left: 10px;
   right: 90px;
   width: auto;
-  height: 10px
+  height: 11px
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
-  display: none
+  display:
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-thumbnail-holder {
@@ -726,7 +726,8 @@ html {
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder {
   background: rgba(255, 255, 255, .5);
-  border-radius: 2px
+  border-radius: 2px;
+  height: 4px;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-load-progress {
