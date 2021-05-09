@@ -422,22 +422,23 @@ html {
 .video-js .vjs-button .vjs-icon-placeholder,
 .video-js button.vjs-control .vjs-icon-placeholder {
   position: relative;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
   display: block;
   margin: 0 auto;
   text-shadow: none !important;
   box-shadow: none !important;
   transition: all .3s ease;
-  opacity: .8
+  opacity: .8;
+  padding: 18px;
 }
 
 @media all and (max-width:500px) {
 
   .video-js .vjs-button .vjs-icon-placeholder,
   .video-js button.vjs-control .vjs-icon-placeholder {
-    width: 20px;
-    height: 20px
+    width: 26px;
+    height: 26px
   }
 }
 
@@ -807,7 +808,6 @@ html {
 
 .video-js .vjs-control-bar .vjs-volume-panel .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal {
   width: 10em;
-  height: 2.5em
 }
 
 @media all and (max-width:768px) {
@@ -838,11 +838,12 @@ html {
 .video-js .vjs-control-bar .vjs-button,
 .video-js .vjs-control-bar button.vjs-control {
   outline: 0 !important;
-  width: 0em
+  width: 36px
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
     margin-left: 20px;
+    width: 36px;
     margin-right: 20px;
 }
 
@@ -853,29 +854,33 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
 
 button.vjs-fullscreen-control.vjs-control.vjs-button {
     margin-left: 20px;
-    margin-right: 60px;
+    margin-right: 20px;
+    width: 36px;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button, 
 .video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
     margin-left: 20px;
-    margin-right: 80px;
+    margin-right: 60px;
+    width: 36px;
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
     margin-right: 20px;
+    width: 36px;
+    margin-left: 20px;
 }
 
 .vjs-volume-control.vjs-control.vjs-volume-horizontal {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
-    margin-right: 10px;
-    margin-left: 40px;
+    margin-right: 20px;
+    width: 36px;
 }
 
 @media all and (max-width:500px) {
@@ -884,7 +889,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
   .video-js .vjs-control-bar .vjs-button.vjs-play-control,
   .video-js .vjs-control-bar button.vjs-control,
   .video-js .vjs-control-bar button.vjs-control.vjs-play-control {
-    width: 0em
+  width: 36px;
   }
 }
 
