@@ -626,12 +626,12 @@ html {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 2.5em;
+  bottom: 4em;
   padding: 15px 20px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   background: #111111;
-  left: -12%;
+  left: -8%;
   transform: translateX(-50%);
 }
 
