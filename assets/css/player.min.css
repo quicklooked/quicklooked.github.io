@@ -975,7 +975,7 @@ html {
 
   .video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button,
   .video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
-    display: none
+    display: inline-block;
   }
 }
 
