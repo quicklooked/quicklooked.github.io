@@ -347,17 +347,16 @@ twitterAuthor: "@TheEconomist"
                 </div>
               </div>
             </section>
-<script src="https://cdn.jsdelivr.net/npm/videojs-mobile-ui@0.5.2/dist/videojs-mobile-ui.min.js"></script>
             <div id="os_player" class="video lc ld le lf lg iw">
               <div>
-                <video id="video_player" class="video-js vjs-big-play-centered vjs-16-9 vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active" preload="none" width="100%" height="100%" controls poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
+                <video id="player05102021" class="video-js vjs-big-play-centered vjs-16-9 vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active" preload="none" width="100%" height="100%" controls poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg">
                   <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-1080p.mp4" type="video/mp4">
                   <track kind="captions" srclang="en" label="English" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt">
                   <track kind="captions" srclang="fr" label="Français" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
                 </video>
               </div>
               <script>
-                var quickplayer = videojs('video_player', {
+                var quickplayer = videojs('player05102021', {
                   "preload": "none",
                   userActions: {
                     hotkeys: true
@@ -384,6 +383,5 @@ twitterAuthor: "@TheEconomist"
                   }
                 });
                 quickplayer.landscapeFullscreen();
-                quickplayer.mobileUi();
               </script>
               </div>
