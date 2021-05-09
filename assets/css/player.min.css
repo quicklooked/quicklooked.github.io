@@ -601,7 +601,7 @@ html {
 .video-js .vjs-control-bar {
   background: 0 0;
   z-index: 10;
-  height: 8em;
+  height: 7em;
   padding-top: 10px
 }
 
