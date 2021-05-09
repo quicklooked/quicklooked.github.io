@@ -856,6 +856,14 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
     margin-right: 20px;
 }
 
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+    margin-left: 20px;
+}
+
+.vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
+    margin-right: 20px;
+}
+
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
