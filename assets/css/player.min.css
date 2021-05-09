@@ -626,7 +626,7 @@ html {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 4em;
+  bottom: 3em;
   padding: 15px 20px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
