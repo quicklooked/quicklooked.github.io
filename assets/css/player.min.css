@@ -669,7 +669,7 @@ html {
 }
 
 .video-js .vjs-control-bar .vjs-brand-container {
-  margin-left: 0;
+  margin-left: auto;
 }
 
 @media all and (max-width:500px) {
