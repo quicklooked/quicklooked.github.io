@@ -856,8 +856,10 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
     margin-right: 60px;
 }
 
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+.video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button, 
+.video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
     margin-left: 20px;
+    margin-right: 80px;
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
