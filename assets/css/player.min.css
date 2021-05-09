@@ -341,7 +341,6 @@ html {
 }
 
 fieldset.vjs-window-color.vjs-track-setting,
-fieldset.vjs-font-family.vjs-track-setting,
 fieldset.vjs-edge-style.vjs-track-setting {
   display: none;
 }
