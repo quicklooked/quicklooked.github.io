@@ -613,12 +613,10 @@ html {
 }
 
 .video-js .vjs-control-bar button {
-  padding: 20px
 }
 
 @media all and (max-width:500px) {
   .video-js .vjs-control-bar button {
-    padding: 5px
   }
 }
 
@@ -968,7 +966,6 @@ html {
 
 .video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button,
 .video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
-  height: 4em
 }
 
 @media all and (max-width:500px) {
