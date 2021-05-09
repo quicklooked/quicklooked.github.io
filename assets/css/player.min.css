@@ -656,8 +656,8 @@ html {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
   background: 0;
-  color: var(--color-primary);
-  font-weight: 600
+  color: #fff;
+  font-weight: 700
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
