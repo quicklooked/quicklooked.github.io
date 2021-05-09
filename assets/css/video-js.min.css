@@ -732,7 +732,7 @@ body.vjs-full-window {
   position: absolute;
   width: 100%;
   bottom: 1.5em;
-  max-height: 15em
+  max-height: 100em
 }
 
 .vjs-layout-tiny .vjs-menu-button-popup .vjs-menu .vjs-menu-content,
