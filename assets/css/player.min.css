@@ -621,7 +621,7 @@ html {
 }
 
 .video-js .vjs-control-bar .vjs-menu {
-  min-width: 200px;
+  min-width: 180px;
   z-index: 11
 }
 
@@ -630,8 +630,8 @@ html {
   padding: 15px 20px;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
-  background: #111111;
-  left: -8%;
+  background: #333333;
+  left: 6%;
   transform: translateX(-50%);
 }
 
