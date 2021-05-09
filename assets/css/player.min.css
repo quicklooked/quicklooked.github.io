@@ -349,6 +349,35 @@ fieldset.vjs-edge-style.vjs-track-setting {
   background: #5b5b5b;
 }
 
+.vjs-volume-control.vjs-control.vjs-volume-vertical {
+	background-color: #333;
+	border-radius: 4px;
+	z-index: 10;
+	height: 12em !important;
+	width: 2em !important;
+	margin: 0em 0em 1.25em -1.25em;
+}
+
+.vjs-volume-bar.vjs-slider-bar.vjs-slider.vjs-slider-vertical {
+	width: 0.6em;
+	height: 10em;
+	margin: 1em auto;
+}
+
+.vjs-slider-vertical .vjs-volume-level {
+	width: 0.6em;
+	background-color: #e50914;
+}
+
+.vjs-slider-vertical .vjs-volume-level:before {
+  top: -.5em;
+  left: -.25em;
+}
+.video-js .vjs-volume-level:before {
+  position: absolute;
+  font-size: 1.2em;
+}
+
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-colors fieldset.vjs-track-setting,
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-font fieldset.vjs-track-setting {
   text-align: left;
