@@ -801,7 +801,7 @@ fieldset.vjs-edge-style.vjs-track-setting {
 }
 
 .video-js .vjs-control-bar .vjs-volume-control .vjs-volume-bar {
-  background: rgba(255, 255, 255, .5)
+  background: #5b5b5b;
 }
 
 .video-js .vjs-control-bar .vjs-volume-panel {
