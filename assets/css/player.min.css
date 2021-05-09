@@ -1102,7 +1102,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 .video-js .vjs-control-bar button.vjs-control.vjs-mute-control.vjs-vol-0 .vjs-icon-placeholder:before {
   content: "";
   background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cpolygon points='13 22 7 18 3 18 3 10 7 10 13 6'%3E%3C/polygon%3E%3Cg transform='translate(19.500000, 14.000000) rotate(-315.000000) translate(-19.500000, -14.000000) translate(15.000000, 9.000000)' stroke-linecap='square' stroke-width='2'%3E%3Cpath d='M0,5 L9,5'%3E%3C/path%3E%3Cpath d='M4.5,0.5 L4.5,9.5'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cpolygon points='13,22 7,18 3,18 3,10 7,10 13,6 '/%3E%3Cpath d='M25,17.6L21.4,14l3.6-3.6l-1.2-1.2l-3.6,3.6l-3.6-3.6l-1.2,1.2l3.6,3.6l-3.6,3.6l1.2,1.2l3.6-3.6l3.6,3.6L25,17.6z'/%3E%3C/svg%3E%0A");
   width: 36px;
   height: 36px;
   background-size: auto;
