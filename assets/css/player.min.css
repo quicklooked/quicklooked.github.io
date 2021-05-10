@@ -728,20 +728,19 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .vjs-menu li {
-	list-style: none;
-	padding-right: 16px;
+  list-style: none;
+  padding-right: 16px;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-	font-family: Helvetica, Arial;
-	text-align: left;
-	margin: 5px 0 0 0;
-	font-size: 14px;
-	text-transform: capitalize;
-	font-weight: 400;
-	color: rgba(255, 255, 255, .7);
-	outline: 0 !important;
-	background: 0 0 !important;
+  font-family: Helvetica, Arial;
+  text-align: left;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: rgba(255, 255, 255, .7);
+  outline: 0 !important;
+  background: 0 0 !important;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
