@@ -23,7 +23,7 @@
 ::placeholder {
     opacity: 0.333;
     font-size: 14px;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 24px;
 }
 
@@ -234,10 +234,17 @@
 .markdown-body pre {
     padding: 12px;
     overflow: auto;
-    font-size: 85%;
-    line-height: 14px;
-    background-color: rgba(27, 31, 35, 0.05) !important;
-    border-radius: 0 !important;
+    font-size: 85% !important;
+    line-height: 1.45;
+    background: #0000 !important;
+    border: 1px solid #dadce0;
+    color: #202124;
+    font-family: SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace !important;
+    hyphens: none;
+    tab-size: 2;
+    border-radius: 4px !important;
+    text-align: left;
+    word-spacing: normal;
 }
 
 .markdown-body a:hover {
@@ -754,7 +761,7 @@
 .gt-container * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 24px;
     font-size: 14px;
     color: #292929;
@@ -938,7 +945,7 @@
 
 .gt-container .gt-btn-text {
     font-weight: 400;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
     color: rgb(255, 255, 255);
@@ -1325,7 +1332,7 @@
     line-height: 20px !important;
     margin-left: 44px;
     background-image: none;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .gt-container .gt-comment-username:hover {
@@ -1338,7 +1345,7 @@
     font-size: 12px;
     line-height: normal;
     background-image: none;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     display: none;
 }
 
@@ -1349,7 +1356,7 @@
     font-size: 14px;
     line-height: 20px;
     background-image: none;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .gt-container .gt-comment-like,
