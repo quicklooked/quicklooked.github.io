@@ -719,26 +719,29 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
   bottom: 4em;
-  padding: 15px 20px;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  background: #333333;
+  padding: 15px 8px 16px 15px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background: rgba(29,29,31);
   left: 1%;
   transform: translateX(-50%);
 }
 
+.vjs-menu li {
+	list-style: none;
+	padding-right: 16px;
+}
+
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: 'circular';
-  text-align: left;
-  display: block;
-  margin: 5px 0;
-  font-size: 1rem;
-  text-transform: capitalize;
-  font-weight: 500;
-  letter-spacing: .5px;
-  color: rgba(255, 255, 255, .7);
-  outline: 0 !important;
-  background: 0 0 !important
+	font-family: Helvetica, Arial;
+	text-align: left;
+	margin: 5px 0 0 0;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: rgba(255, 255, 255, .7);
+	outline: 0 !important;
+	background: 0 0 !important;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
