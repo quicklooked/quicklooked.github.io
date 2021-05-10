@@ -895,9 +895,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
-  width: 80px;
+  width: 60px;
   text-align: right;
-  padding-left: 20px;
 }
 
 .video-js .vjs-control-bar .vjs-volume-control .vjs-volume-bar {
