@@ -4,7 +4,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/latin/charter-400-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -13,7 +13,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/rest/charter-400-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -22,7 +22,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/latin/charter-400-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -31,7 +31,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/rest/charter-400-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -40,7 +40,7 @@
   font-weight: 700;
   font-style: italic;
   src: url('/assets/css/latin/charter-700-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -49,7 +49,7 @@
   font-weight: 700;
   font-style: italic;
   src: url('/assets/css/rest/charter-700-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -58,7 +58,7 @@
   font-weight: 700;
   font-style: normal;
   src: url('/assets/css/latin/charter-700-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -67,7 +67,7 @@
   font-weight: 700;
   font-style: normal;
   src: url('/assets/css/rest/charter-700-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -76,7 +76,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/latin/fell-400-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -85,7 +85,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/rest/fell-400-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -94,7 +94,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/latin/fell-400-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -103,7 +103,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/rest/fell-400-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -112,7 +112,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/latin/gt-super-400-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -121,7 +121,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/rest/gt-super-400-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -130,7 +130,7 @@
   font-weight: 500;
   font-style: normal;
   src: url('/assets/css/latin/noe-display-500-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -139,7 +139,7 @@
   font-weight: 500;
   font-style: normal;
   src: url('/assets/css/rest/noe-display-500-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -148,7 +148,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/latin/opendyslexic-400-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -157,7 +157,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/rest/opendyslexic-400-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -166,7 +166,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/latin/opendyslexic-400-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -175,7 +175,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/rest/opendyslexic-400-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -184,7 +184,7 @@
   font-weight: 300;
   font-style: italic;
   src: url('/assets/css/latin/sohne-300-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -193,7 +193,7 @@
   font-weight: 300;
   font-style: italic;
   src: url('/assets/css/rest/sohne-300-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -202,7 +202,7 @@
   font-weight: 300;
   font-style: normal;
   src: url('/assets/css/latin/sohne-300-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -211,7 +211,7 @@
   font-weight: 300;
   font-style: normal;
   src: url('/assets/css/rest/sohne-300-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -220,7 +220,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/latin/sohne-400-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -229,7 +229,7 @@
   font-weight: 400;
   font-style: italic;
   src: url('/assets/css/rest/sohne-400-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -238,7 +238,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/latin/sohne-400-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -247,7 +247,7 @@
   font-weight: 400;
   font-style: normal;
   src: url('/assets/css/rest/sohne-400-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -256,7 +256,7 @@
   font-weight: 500;
   font-style: italic;
   src: url('/assets/css/latin/sohne-500-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -265,7 +265,7 @@
   font-weight: 500;
   font-style: italic;
   src: url('/assets/css/rest/sohne-500-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -274,7 +274,7 @@
   font-weight: 500;
   font-style: normal;
   src: url('/assets/css/latin/sohne-500-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -283,7 +283,7 @@
   font-weight: 500;
   font-style: normal;
   src: url('/assets/css/rest/sohne-500-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -292,7 +292,7 @@
   font-weight: 700;
   font-style: italic;
   src: url('/assets/css/latin/sohne-700-italic.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -301,7 +301,7 @@
   font-weight: 700;
   font-style: italic;
   src: url('/assets/css/rest/sohne-700-italic.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* latin */
@@ -310,7 +310,7 @@
   font-weight: 700;
   font-style: normal;
   src: url('/assets/css/latin/sohne-700-normal.woff') format('woff');
-  unicode-range: U+0-7F,U+A0,U+200A,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026;
+  unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
 }
 
 /* rest */
@@ -319,11 +319,10 @@
   font-weight: 700;
   font-style: normal;
   src: url('/assets/css/rest/sohne-700-normal.woff') format('woff');
-  unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
+  unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
 }
 
 /* circular */
-
 @font-face {
   font-family: circular;
   font-style: normal;
@@ -332,89 +331,96 @@
 }
 
 @font-face {
-    font-family: 'circular';
-    src: url('/assets/css/circular/circular-book.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'circular';
+  src: url('/assets/css/circular/circular-book.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular';
-    src: url('/assets/css/circular/circular-bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'circular';
+  src: url('/assets/css/circular/circular-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'circular';
-    src: url('/assets/css/circular/circular-black.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
+  font-family: 'circular';
+  src: url('/assets/css/circular/circular-black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
 }
 
 /* icons */
 @font-face {
-    font-family: 'icons';
-    src: url('/assets/css/icons/icons.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'icons';
+  src: url('/assets/css/icons/icons.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* sgtb */
-
 @font-face {
-	font-family: 'sgtb display';
-	src: url('/assets/css/sgtb/sgtb-display_regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb display';
+  src: url('/assets/css/sgtb/sgtb-display_regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'sgtb display';
-	src: url('/assets/css/sgtb/sgtb-display_semibold.woff2') format('woff2');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb display';
+  src: url('/assets/css/sgtb/sgtb-display_semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'sgtb text';
-	src: url('/assets/css/sgtb/sgtb-text_light.woff2') format('woff2');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb text';
+  src: url('/assets/css/sgtb/sgtb-text_regular-italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'sgtb text';
-	src: url('/assets/css/sgtb/sgtb-text_regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb text';
+  src: url('/assets/css/sgtb/sgtb-text_light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'sgtb text';
-	src: url('/assets/css/sgtb/sgtb-text_semibold.woff2') format('woff2');
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb text';
+  src: url('/assets/css/sgtb/sgtb-text_regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'sgtb icons';
-	src: url('/assets/css/sgtb/sgtb-icons_light.woff2') format('woff2');
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb text';
+  src: url('/assets/css/sgtb/sgtb-text_semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-	font-family: 'sgtb icons';
-	src: url('/assets/css/sgtb/sgtb-icons_regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+  font-family: 'sgtb icons';
+  src: url('/assets/css/sgtb/sgtb-icons_light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'sgtb icons';
+  src: url('/assets/css/sgtb/sgtb-icons_regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
