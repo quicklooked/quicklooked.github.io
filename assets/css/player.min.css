@@ -1192,6 +1192,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 
 .vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
   width: 24px;
+  display: none;
 }
 button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   width: 24px;
