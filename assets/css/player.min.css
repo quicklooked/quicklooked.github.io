@@ -307,7 +307,7 @@
 
 #os_player {
   position: relative;
-  z-index: 10001;
+  z-index: 102;
   height: 100%;
 }
 
