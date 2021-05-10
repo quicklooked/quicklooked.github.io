@@ -311,6 +311,17 @@
   height: 100%;
 }
 
+.vjs-menu-button-popup .vjs-menu {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 140px;
+  left: -1em;
+  height: 0;
+  margin-bottom: 1.5em;
+  border-top-color: rgba(43, 51, 63, .7);
+}
+
 .video-js .vjs-control:focus:before,
 .video-js .vjs-control:hover:before,
 .video-js .vjs-control:focus {
@@ -713,7 +724,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu {
-  min-width: 180px;
+  min-width: 140px;
   z-index: 11
 }
 
