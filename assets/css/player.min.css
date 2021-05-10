@@ -741,6 +741,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .vjs-menu li {
   list-style: none;
   padding-right: 16px;
+  margin: 0;
+  padding: 5px 0 0 0;
+  line-height: 16px;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
