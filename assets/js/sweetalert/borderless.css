@@ -384,12 +384,11 @@
   box-sizing: border-box;
   flex-direction: column;
   justify-content: center;
-  width: 32em;
   max-width: 100%;
-  padding: 1.25em;
+  padding: 0px !important;
   border: none;
+  background: #000 !important;
   border-radius: 0px !important;
-  background: transparent;
 }
 
 .swal2-popup:focus {
