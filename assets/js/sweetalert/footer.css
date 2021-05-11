@@ -690,7 +690,7 @@ video.video {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .view-play .main .bg-dark .video-wrapper {
-    padding-top: 1em
+    padding-top: 0em
   }
 }
 
@@ -1090,7 +1090,7 @@ video.video {
 
   .view-play .main .bg-dark .grid .column {
     margin-bottom: -1em;
-    padding: 0 1em
+    padding: 0
   }
 }
 
@@ -13681,7 +13681,7 @@ h2+.typography-body,
 }
 
 .padding-top-small {
-  padding-top: 1.5em !important
+  padding-top: 0em !important
 }
 
 .padding-bottom-small {
