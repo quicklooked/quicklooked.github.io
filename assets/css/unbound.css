@@ -425,6 +425,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'sgtb icon';
+  src: url('/assets/css/sgtb/sgtb-icons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* quicksan */
 @font-face {
     font-family: 'quicksan';
