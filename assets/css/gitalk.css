@@ -879,14 +879,14 @@
     display: inline-block;
     width: 32px;
     height: 32px;
-    z-index: 1;
+    z-index: 10;
 }
 
 @media (max-width: 480px) {
     .gt-container .gt-avatar {
         width: 32px;
         height: 32px;
-        z-index: 1;
+        z-index: 10;
     }
 }
 
@@ -894,21 +894,21 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 10;
 }
 
 .gt-container .gt-avatar-github {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 10;
 }
 
 @media (max-width: 480px) {
     .gt-container .gt-avatar-github {
         width: 32px;
         height: 32px;
-        z-index: 1;
+        z-index: 10;
     }
 }
 
@@ -923,6 +923,10 @@
 
 .gt-header-avatar {
     margin: 14px 0px 6px 14px;
+}
+
+.gt-header-controls {
+    z-index: 10;
 }
 
 .gt-container .gt-btn {
