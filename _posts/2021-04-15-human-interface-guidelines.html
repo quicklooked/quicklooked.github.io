@@ -394,6 +394,16 @@ twitterAuthor: "@TheEconomist"
               </div>
               <script>
                 var quickplayer = videojs('player051020210557', {
+  fullscreen: {
+    enterOnRotate: true,
+    exitOnRotate: true,
+    lockOnRotate: true
+  },
+  touchControls: {
+    seekSeconds: 10,
+    tapTimeout: 300,
+    disableOnEnd: false
+  },
                   "preload": "none",
                   userActions: {
                     hotkeys: true
