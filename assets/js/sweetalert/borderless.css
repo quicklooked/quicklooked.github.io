@@ -389,6 +389,8 @@
   border: none;
   background: #000 !important;
   border-radius: 0px !important;
+  font-family: "sgtb text", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+	font-size: inherit;
 }
 
 .swal2-popup:focus {
