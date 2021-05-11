@@ -210,7 +210,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: .625em;
+  padding: 0;
   overflow-x: hidden;
   transition: background-color .1s;
   -webkit-overflow-scrolling: touch
@@ -548,7 +548,7 @@
   z-index: 1;
   justify-content: center;
   margin: 0;
-  padding: 0 1.6em;
+  padding: 0;
   color: #545454;
   font-size: 1.125em;
   font-weight: 400;
