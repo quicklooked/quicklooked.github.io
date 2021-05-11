@@ -2614,7 +2614,7 @@ body {
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "sgtb text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   background-color: #fff;
   color: #1d1d1f;
   font-style: normal
@@ -10291,7 +10291,7 @@ h1 {
   line-height: 1.08349;
   font-weight: 600;
   letter-spacing: -.003em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-headline:lang(ar),
