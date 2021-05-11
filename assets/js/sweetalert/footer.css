@@ -2412,10 +2412,7 @@ button:disabled {
 }
 
 body {
-  font-weight: 400;
   letter-spacing: -.022em;
-  font-family: "sgtb text", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-style: normal
 }
 
 h1,
@@ -2536,11 +2533,6 @@ a:visited,
 .link:link,
 .link:visited {
   text-decoration: none
-}
-
-a:hover,
-.link:hover {
-  text-decoration: underline
 }
 
 a:active,
