@@ -10354,7 +10354,7 @@ h1:lang(zh-TW) {
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: 0em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-headline:lang(ar),
@@ -10410,7 +10410,7 @@ h1:lang(zh-TW) {
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .004em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-headline:lang(ar),
@@ -10539,7 +10539,7 @@ h2:lang(zh-TW),
     line-height: 1.125;
     font-weight: 600;
     letter-spacing: .004em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-headline-reduced:lang(ar),
@@ -10613,7 +10613,7 @@ h2:lang(zh-TW),
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-headline-reduced:lang(ko),
@@ -10680,7 +10680,7 @@ h2:lang(zh-TW),
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-eyebrow-super:lang(ar) {
@@ -10725,7 +10725,7 @@ h2:lang(zh-TW),
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-eyebrow-super:lang(ko) {
@@ -10769,7 +10769,7 @@ h2:lang(zh-TW),
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-eyebrow-super:lang(ar) {
@@ -10815,7 +10815,7 @@ h2:lang(zh-TW),
   line-height: 1.14286;
   font-weight: 600;
   letter-spacing: .007em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-eyebrow-elevated:lang(ko),
@@ -10868,7 +10868,7 @@ h2:lang(zh-TW),
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-eyebrow-elevated:lang(ar),
@@ -10924,7 +10924,7 @@ h2:lang(zh-TW),
     line-height: 1.19048;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-eyebrow-elevated:lang(ja),
@@ -10977,7 +10977,7 @@ h2:lang(zh-TW),
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-eyebrow:lang(ar),
@@ -11032,7 +11032,7 @@ h2:lang(zh-TW),
     line-height: 1.19048;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-eyebrow:lang(ja),
@@ -11084,7 +11084,7 @@ h2:lang(zh-TW),
   line-height: 1.19048;
   font-weight: 600;
   letter-spacing: .011em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-eyebrow-reduced:lang(ja) {
@@ -11128,7 +11128,7 @@ h2:lang(zh-TW),
     line-height: 1.21053;
     font-weight: 600;
     letter-spacing: .012em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-eyebrow-reduced:lang(ar) {
@@ -11173,7 +11173,7 @@ h2:lang(zh-TW),
   line-height: 1.33341;
   font-weight: 400;
   letter-spacing: .009em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-intro-elevated:lang(ar) {
@@ -11218,7 +11218,7 @@ h2:lang(zh-TW),
     line-height: 1.381;
     font-weight: 400;
     letter-spacing: .011em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-intro-elevated:lang(ar) {
@@ -11264,7 +11264,7 @@ h2:lang(zh-TW),
   line-height: 1.381;
   font-weight: 400;
   letter-spacing: .011em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-intro:lang(ar),
@@ -11319,7 +11319,7 @@ h2:lang(zh-TW),
     line-height: 1.4211;
     font-weight: 400;
     letter-spacing: .012em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-intro:lang(ar),
@@ -11372,7 +11372,7 @@ h2:lang(zh-TW),
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-quote:lang(ar) {
@@ -11417,7 +11417,7 @@ h2:lang(zh-TW),
     line-height: 1.25;
     font-weight: 400;
     letter-spacing: .004em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-quote:lang(ar) {
@@ -11463,7 +11463,7 @@ h2:lang(zh-TW),
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: .007em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-quote:lang(ko) {
@@ -11506,7 +11506,7 @@ h2:lang(zh-TW),
   line-height: 1.25;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-quote-reduced:lang(ar) {
@@ -11551,7 +11551,7 @@ h2:lang(zh-TW),
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: .007em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-quote-reduced:lang(ko) {
@@ -11595,7 +11595,7 @@ h2:lang(zh-TW),
     line-height: 1.33341;
     font-weight: 400;
     letter-spacing: .009em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-quote-reduced:lang(ar) {
@@ -11642,7 +11642,7 @@ h3,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-callout:lang(ar),
@@ -11706,7 +11706,7 @@ h3:lang(zh-TW),
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-callout:lang(ko),
@@ -11965,7 +11965,7 @@ h4 {
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-label:lang(ar),
@@ -12020,7 +12020,7 @@ h4:lang(zh-TW) {
     line-height: 1.19048;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
 
   .typography-label:lang(ja),
@@ -12073,7 +12073,7 @@ h5 {
   line-height: 1.21053;
   font-weight: 600;
   letter-spacing: .012em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 }
 
 .typography-tout:lang(ar),
