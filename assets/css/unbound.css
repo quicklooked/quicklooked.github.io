@@ -424,3 +424,20 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* quicksan */
+@font-face {
+    font-family: 'quicksan';
+    src: url('/assets/css/quicksan/QuickSans_W_Md.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'quicksan';
+    src: url('/assets/css/quicksan/QuickSans_W_Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
