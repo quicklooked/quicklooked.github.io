@@ -1222,3 +1222,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   background-size: 100% 100%;
   position: relative;
   }
+
+button.vjs-picture-in-picture-control.vjs-control.vjs-button {
+  display: none;
+}
