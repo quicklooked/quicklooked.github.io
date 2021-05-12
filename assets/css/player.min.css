@@ -975,7 +975,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 .video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button,
 .video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
   margin-left: 20px;
-  margin-right: 40px;
+  margin-right: 20px;
   width: 36px;
 }
 
@@ -1132,9 +1132,6 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
   height: 36px;
   background-size: auto;
 }
-
-.video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button,
-.video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {}
 
 @media all and (max-width:500px) {
 
