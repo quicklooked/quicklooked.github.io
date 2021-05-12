@@ -330,7 +330,7 @@
 
 .video-js {
   position: relative;
-  font-family: 'circular';
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .video-js .video-info {
@@ -367,7 +367,7 @@
   display: block;
   font-size: 1.4285714285714286rem;
   font-weight: 700;
-  font-family: 'circular';
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .video-js .video-info .length,
@@ -747,7 +747,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: Helvetica, Arial;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 14px;
   text-transform: capitalize;
@@ -823,7 +823,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   width: 100% !important;
   left: 0 !important;
   color: #fff;
-  font-family: 'circular';
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 1;
@@ -885,7 +885,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   display: flex !important;
   align-items: center;
   color: #fff;
-  font-family: 'sgtb text';
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   position: absolute;
