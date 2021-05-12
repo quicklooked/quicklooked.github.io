@@ -66,8 +66,8 @@ video {
   margin-bottom: 1em
 }
 
-p+*, ul+*, ol+* .sentence {
-	margin-top: .8em;
+p+*, ul+*, ol+* {
+  margin-top: .8em !important;
 }
 
 video img {
@@ -105,10 +105,7 @@ video img {
   margin-top: 0.4em
 }
 
-.theme-dark .footer-breadory .breadcrumbs-home {
-  background-position: 0 2px;
-  background-image: url("/assets/elements/icons/brandmark/apple-developer-brandmark-i.svg")
-}
+
 
 .theme-dark #globalfooter-wrapper .footer-breadory a {
   background-color: #222;
@@ -119,11 +116,7 @@ video img {
   color: #ccc
 }
 
-.theme-dark .footer-breadory .breadcrumbs .breadcrumbs-list>li:before {
-  left: 3px;
-  top: 3px;
-  background-image: url("/assets/elements/icons/breadcrumbs/separator-i.svg")
-}
+
 
 .theme-dark .footer-breadory .breadcrumbs .breadcrumbs-list>li:first-child:before {
   left: -7px
@@ -336,22 +329,6 @@ video img {
   max-width: 425px
 }
 
-.view-landing main .image-nextrouter {
-  background-image: url("/app-store/index/images/three-minute-games-tile.jpg");
-  background-repeat: no-repeat;
-  background-size: auto 348px;
-  background-position: center center;
-  height: 348px
-}
-
-.view-landing .section-whats-new {
-  padding-top: 130px;
-  background-image: url("/videos/images/f17.jpg");
-  background-size: cover;
-  margin-bottom: 15px;
-  height: 450px
-}
-
 .view-landing .section-whats-new.theme-dark a,
 .view-landing .section-whats-new.theme-dark .typography-intro {
   color: white
@@ -399,17 +376,7 @@ video img {
   }
 }
 
-.view-landing figure[data-figure-id="image-developer-insights"] {
-  position: absolute;
-  top: 0px;
-  left: 54%;
-  width: 686px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-image: url("/videos/images/insights/developer-insights.jpg");
-  background-size: 686px 400px;
-  background-position: left center
-}
+
 
 @media only screen and (max-width: 1068px) {
   .view-landing .section-collections.grid {
@@ -434,14 +401,7 @@ video img {
   background-color: #121212
 }
 
-.hero-wwdc20 {
-  background-image: url("/videos/images/home/wwdc20.png");
-  background-repeat: no-repeat;
-  background-size: 980px 466px;
-  background-position: center center;
-  width: 100%;
-  height: 466px
-}
+
 
 @media only screen and (max-width: 1068px) {
   .hero-wwdc20 {
@@ -457,30 +417,7 @@ video img {
   }
 }
 
-.hero-library {
-  background-image: url("/videos/images/home/library_large.jpg");
-  background-repeat: no-repeat;
-  background-size: 980px 468px;
-  background-position: center center;
-  width: 100%;
-  height: 468px
-}
 
-@media only screen and (max-width: 1068px) {
-  .hero-library {
-    background-image: url("/videos/images/home/library_medium.jpg");
-    background-size: 690px 329px;
-    height: 329px
-  }
-}
-
-@media only screen and (max-width: 735px) {
-  .hero-library {
-    background-image: url("/videos/images/home/library_small.jpg");
-    background-size: 500px 230px;
-    height: 239px
-  }
-}
 
 .home-page-topics img {
   width: 100%
@@ -2323,6 +2260,12 @@ html {
   -webkit-text-size-adjust: 100%
 }
 
+section.view-play.theme-dark {
+  letter-spacing: -.022em;
+  font-size: 17px;
+  line-height: 1.47059;
+}
+
 ul,
 ol,
 li,
@@ -2420,11 +2363,6 @@ a:focus {
   outline: none
 }
 
-body {
-  letter-spacing: -.022em;
-  font-size: 17px;
-  line-height: 1.47059;
-}
 
 h1,
 h2,
