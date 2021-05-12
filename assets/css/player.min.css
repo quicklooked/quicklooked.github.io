@@ -1246,3 +1246,22 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 .video-js .vjs-progress-control .vjs-mouse-display {
   background-color: transparent !important;
 }
+
+.video-start-btn {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 5px solid white;
+	background: rgb(255 255 255);
+	border-radius: 9999px;
+	display: flex;
+	align-items: center;
+	outline: none;
+	user-select: none;
+	cursor: pointer;
+	width: fit-content;
+	height: fit-content;
+	transition: all 0.3s ease;
+	position: absolute;
+	appearance: none;
+}
