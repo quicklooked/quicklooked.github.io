@@ -542,7 +542,7 @@
   position: fixed;
   z-index: 2;
   top: 0;
-  right: 0;
+  left: 0;
   align-items: center;
   justify-content: center;
   width: 1.2em;
@@ -563,12 +563,12 @@
 .swal2-close:hover {
   transform: none;
   background: transparent;
-  color: #f27474;
+  color: #e50914;
 }
 
 .swal2-close:focus {
-  outline: none;
-  box-shadow: inset 0 0 0 3px rgba(100, 150, 200, 0.5);
+  outline: 4px solid rgba(0, 125, 250, 0.6);
+  outline-offset: 1px
 }
 
 .swal2-close::-moz-focus-inner {
