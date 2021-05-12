@@ -5928,11 +5928,16 @@ ol+.list-title,
 }
 
 .thumbnail-scrim {
+  background: rgba(0,0,0,0.15);
   box-sizing: border-box;
   height: 100%;
   width: 100%;
   position: absolute;
   transition: 500ms background-color cubic-bezier(0.4, 0, 0.6, 1)
+}
+
+.thumbnail-scrim:hover {
+  background:rgba(0,0,0,0.35);
 }
 
 a:hover .thumbnail .thumbnail-copy,
