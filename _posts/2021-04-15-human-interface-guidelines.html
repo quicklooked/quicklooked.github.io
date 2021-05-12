@@ -405,6 +405,7 @@ twitterAuthor: "@TheEconomist"
                     var videoPlayer  = videojs(id);
                     videojs(id).ready(function () {
                       var videoPlayer = this;
+                      videoPlayer.responsive(true);
                       videoPlayer.landscapeFullscreen();
                       videoPlayer.seekButtons({forward: 10,back: 10});
                       videoPlayer.brand({});
