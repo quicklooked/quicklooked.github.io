@@ -1262,11 +1262,11 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   transition: all 0.3s ease;
   position: absolute;
   appearance: none;
-  background-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2256%22%20height%3D%2256%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22m0%200h56v56h-56z%22%20fill%3D%22none%22%2F%3E%3Cpath%20d%3D%22m14%2042.16188v-28.26778c0-2.88275%201.73588-4.3941%203.88446-4.3941a4.9721%204.9721%200%200%201%202.97495.83964l23.00036%2013.57413c2.03839%201.20348%203.14023%202.18305%203.14023%204.08623s-1.10184%202.88275-3.14023%204.08623l-23.00036%2013.57413a4.9721%204.9721%200%200%201%20-2.97495.83964c-2.14858%200-3.88446-1.45537-3.88446-4.33812z%22%20fill%3D%22%23ffffffcc%22%2F%3E%3C%2Fsvg%3E);
-  width: 75px;
-  height: 75px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffffcc' viewBox='0 0 28 28'%3E%3Cpolygon points='8 22 8 6 22.0043763 14'%3E%3C/polygon%3E%3C/svg%3E");
+  width: 80px;
+  height: 80px;
   background-repeat: no-repeat;
-  background-size: 75px;
+  background-size: 80px;
 }
 
 .video-play-button {
