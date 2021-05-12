@@ -2430,7 +2430,6 @@ h6 {
   color: #1d1d1f
 }
 
-
 h1+*,
 h2+*,
 h3+*,
@@ -4678,7 +4677,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.003em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge .badge-unit,
@@ -4689,7 +4688,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4710,7 +4709,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge.badge-stacked .badge-content {
@@ -4722,7 +4722,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-stacked .badge-content {
@@ -4753,7 +4754,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.015em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-super .badge-caption {
@@ -4772,7 +4773,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.005em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4793,7 +4794,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.005em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-super.badge-stacked .badge-content {
@@ -4805,7 +4807,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.009em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-elevated .badge-caption {
@@ -4824,7 +4826,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-elevated .badge-unit-plus {
@@ -4844,7 +4847,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-elevated.badge-stacked .badge-content {
@@ -4856,7 +4860,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-reduced .badge-caption {
@@ -4875,7 +4879,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .007em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-reduced .badge-unit-plus {
@@ -4895,7 +4900,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .007em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-reduced.badge-stacked .badge-content {
@@ -4911,7 +4917,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .007em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-tiny .badge-unit,
@@ -4922,7 +4928,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-tiny .badge-unit-plus {
@@ -4942,7 +4949,8 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-weight: 600
 }
 
 .badge-tiny.badge-stacked .badge-content {
@@ -5003,8 +5011,7 @@ input[type='submit'],
   line-height: 1.17648;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  min-width: 28px;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif min-width: 28px;
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 8px;
@@ -5201,8 +5208,7 @@ input.disabled[type='submit'],
   line-height: 1.17648;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  min-width: 28px;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif min-width: 28px;
   padding-left: 31px;
   padding-right: 31px;
   padding-top: 18px;
@@ -5219,8 +5225,7 @@ input.disabled[type='submit'],
   line-height: 1.17648;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  min-width: 26px;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif min-width: 26px;
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 12px;
@@ -5238,8 +5243,7 @@ input.disabled[type='submit'],
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  min-width: 23px;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif min-width: 23px;
   padding-left: 11px;
   padding-right: 11px;
   padding-top: 4px;
@@ -5260,8 +5264,7 @@ input.disabled[type='submit'],
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  box-sizing: border-box;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif box-sizing: border-box;
   border: 1px solid;
   padding: 2.23529em 8.33333% 2.11765em;
   border-radius: 18px;
@@ -5300,7 +5303,7 @@ input.disabled[type='submit'],
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;
-  font-family: “sgtb display”, ‘sgtb icon’,  “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .callout-icon {
@@ -5316,7 +5319,8 @@ input.disabled[type='submit'],
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif margin-top: 0
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  margin-top: 0
 }
 
 @media only screen and (max-width: 1068px) {
@@ -5325,7 +5329,7 @@ input.disabled[type='submit'],
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: “sgtb display”, ‘sgtb icon’,  “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5335,7 +5339,7 @@ input.disabled[type='submit'],
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: “sgtb display”, ‘sgtb icon’,  “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5493,7 +5497,8 @@ ol+.list-title,
   line-height: 1.19048;
   font-weight: 600;
   letter-spacing: .011em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif display: block;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  display: block;
   margin-bottom: .8em
 }
 
@@ -5503,7 +5508,7 @@ ol+.list-title,
     line-height: 1.21053;
     font-weight: 600;
     letter-spacing: .012em;
-    font-family: “sgtb display”, ‘sgtb icon’,  “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5533,7 +5538,7 @@ ol+.list-title,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   margin-bottom: 11px
 }
 
@@ -5543,7 +5548,7 @@ ol+.list-title,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5553,7 +5558,7 @@ ol+.list-title,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5604,8 +5609,7 @@ ol+.list-title,
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  color: #6e6e73
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif color: #6e6e73
 }
 
 .pin::before,
@@ -5771,7 +5775,7 @@ ol+.list-title,
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -5780,7 +5784,7 @@ ol+.list-title,
     line-height: 1.25;
     font-weight: 400;
     letter-spacing: .004em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5790,7 +5794,7 @@ ol+.list-title,
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: .007em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5839,8 +5843,7 @@ ol+.list-title,
   line-height: 1.23536;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  font-weight: 600;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 600;
   display: block
 }
 
@@ -5853,8 +5856,7 @@ ol+.list-title,
   line-height: 1.23536;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  font-weight: 400;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif font-weight: 400;
   display: block
 }
 
@@ -5867,7 +5869,7 @@ ol+.list-title,
   line-height: 1.25;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -5876,7 +5878,7 @@ ol+.list-title,
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: .007em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5886,7 +5888,7 @@ ol+.list-title,
     line-height: 1.33341;
     font-weight: 400;
     letter-spacing: .009em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5911,8 +5913,7 @@ ol+.list-title,
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  color: #86868b
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif color: #86868b
 }
 
 .sosumi * {
@@ -6031,7 +6032,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6040,7 +6041,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6050,7 +6051,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6155,7 +6156,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6164,7 +6165,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6174,7 +6175,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6191,7 +6192,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6200,7 +6201,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.19048;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6217,7 +6218,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.21053;
   font-weight: 600;
   letter-spacing: .012em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .thumbnail-tiny.thumbnail-rounded {
@@ -6229,7 +6230,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.04167;
   font-weight: 600;
   letter-spacing: -.015em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6238,7 +6239,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.05;
     font-weight: 600;
     letter-spacing: -.015em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6248,7 +6249,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6257,7 +6258,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.05;
   font-weight: 600;
   letter-spacing: -.015em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6266,7 +6267,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.0625;
     font-weight: 600;
     letter-spacing: -.009em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6276,7 +6277,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6286,7 +6287,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.0625;
   font-weight: 600;
   letter-spacing: -.009em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6297,7 +6298,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6309,7 +6310,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: 0em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6319,7 +6320,7 @@ h1 {
   line-height: 1.08349;
   font-weight: 600;
   letter-spacing: -.003em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6603,7 +6604,7 @@ h3,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6612,7 +6613,7 @@ h3,
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: “sgtb display”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+  font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6621,7 +6622,7 @@ h3,
     line-height: 1.28583;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: “sgtb display”, ‘sgtb icon’,  “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6631,7 +6632,7 @@ h3,
     line-height: 1.33341;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: “sgtb display”, ‘sgtb icon’,  “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
+    font-family: “sgtb display”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6786,8 +6787,7 @@ h2+.typography-body,
   line-height: 1.17648;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  border-radius: 18px;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif border-radius: 18px;
   padding-left: 18px;
   padding-right: 18px;
   padding-top: 7px;
@@ -6810,8 +6810,7 @@ h2+.typography-body,
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  border-radius: 12px;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif border-radius: 12px;
   padding-left: 11px;
   padding-right: 11px;
   padding-top: 3px;
@@ -6840,8 +6839,7 @@ h2+.typography-body,
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
-  border-radius: 0;
+  font-family: “sgtb text”, ‘sgtb icon’, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif border-radius: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
