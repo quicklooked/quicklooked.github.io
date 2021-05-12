@@ -66,7 +66,7 @@ video {
   margin-bottom: 1em
 }
 
-p+*, ul+*, ol+* {
+p+*, ul+*, ol+* .sentence {
 	margin-top: .8em;
 }
 
