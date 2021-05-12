@@ -609,8 +609,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   border: 0 !important;
   background: 0 !important;
   transition: all .3s ease;
-  width: 100px;
-  height: 100px
+  width: 80px;
+  height: 80px;
 }
 
 .video-js .vjs-big-play-button:hover {
@@ -619,15 +619,15 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button {
-    width: 100px;
-    height: 100px
+    width: 80px;
+    height: 80px
   }
 }
 
 .video-js .vjs-big-play-button .vjs-icon-placeholder {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   display: block
 }
 
@@ -644,16 +644,16 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder {
-    width: 100px;
-    height: 100px
+    width: 80px;
+    height: 80px
   }
 }
 
 .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
   content: "";
-  width: 100px;
-  height: 100px;
-  background-size: 100px;
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cpolygon points='8 22 8 6 22.0043763 14'%3E%3C/polygon%3E%3C/svg%3E");
   background-color: rgba(0,0,0,0);
   border-radius: 50px;
@@ -662,9 +662,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 100px;
-    height: 100px;
-    background-size: 100px
+    width: 80px;
+    height: 80px;
+    background-size: 80px
   }
 }
 
@@ -681,9 +681,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   background-color: rgba(0,0,0,0);
   border-radius: 50px;
   background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-  background-size: 100px;
+  width: 80px;
+  height: 80px;
+  background-size: 80px;
 }
 
 .video-js.vjs-has-started.vjs-playing .vjs-big-play-button {
