@@ -431,7 +431,7 @@
   line-height: 1;
   font-weight: 400;
   font-style: normal;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-break: initial
 }
 
@@ -548,7 +548,7 @@ body.vjs-full-window {
   color: #fff;
   background-color: #000;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   width: 300px;
   height: 150px;
@@ -667,7 +667,7 @@ body.vjs-full-window {
   display: block;
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   overflow: auto
 }
 
@@ -975,7 +975,7 @@ body.vjs-full-window {
   border-radius: .3em;
   color: #000;
   float: right;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   padding: 6px 8px 8px 8px;
   pointer-events: none;
@@ -1432,7 +1432,7 @@ video::-webkit-media-text-track-display {
 .vjs-error .vjs-error-display:before {
   color: #fff;
   content: "X";
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 4em;
   left: 0;
   line-height: 1;
@@ -1869,7 +1869,7 @@ video::-webkit-media-text-track-display {
 }
 
 .vjs-thumbnail-text {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   z-index: 3;
   background-color: #00080;
