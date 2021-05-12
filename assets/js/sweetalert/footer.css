@@ -66,6 +66,10 @@ video {
   margin-bottom: 1em
 }
 
+p+*, ul+*, ol+* {
+	margin-top: .8em;
+}
+
 video img {
   width: 100% !important;
   height: auto !important
