@@ -4157,7 +4157,7 @@ abbr {
 
 .icon-downloadcircle::before,
 .icon-downloadcircle::after {
-  content: "ïŒ«"
+  content: "\f32b"
 }
 
 .icon-arrowupcircle::before,
