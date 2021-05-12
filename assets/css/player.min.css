@@ -1162,18 +1162,36 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
   }
 }
 
+button.vjs-picture-in-picture-control.vjs-control.vjs-button {
+  width: 28px;
+  margin: 4px 0px -4px 20px;
+}
+
+.video-js .vjs-control-bar .vjs-button.vjs-picture-in-picture-control .vjs-icon-placeholder, 
+.video-js .vjs-control-bar button.vjs-control.vjs-picture-in-picture-control .vjs-icon-placeholder {
+  width: 28px !important;
+  height: 28px !important;
+  padding: 0;
+}
+
 .video-js .vjs-control-bar .vjs-button.vjs-picture-in-picture-control .vjs-icon-placeholder:before,
 .video-js .vjs-control-bar button.vjs-control.vjs-picture-in-picture-control .vjs-icon-placeholder:before {
   content: "";
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Crect fill='%23D8D8D8' opacity='0' x='0' y='0' width='36' height='36'%3E%3C/rect%3E%3Cpath d='M21.0003,18 L21.0003,6 L3.0003,6 L3.0003,18 L21.0003,18 Z M21.9453,20 L2.0543,20 C1.46343187,20 1.0003,19.5190554 1.0003,18.944 L1.0003,5.056 C1.0003,4.48094463 1.46343187,4 2.0543,4 L21.9453,4 C22.5305389,4 23.0003,4.47563312 23.0003,5.056 L23.0003,18.944 C23.0003,19.5243669 22.5305389,20 21.9453,20 Z M10,16 L19,16 L19,11 L10,11 L10,16 Z' fill='%23FFFFFF' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
   background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 12' fill='%23fff'%3E%3Cpolygon class='fill' points='6 8 1 8 1 1 14 1 14 6 15 6 15 0 0 0 0 9 6 9 6 8'%3E%3C/polygon%3E%3Crect class='fill' x='7' y='7' width='9' height='5'%3E%3C/rect%3E%3Cpolyline transform='translate(4, 4) rotate(180) translate(-4, -4)' points='5.33 2 5.33 3 3.67 3 5.67 5 5 5.67 3 3.67 3 5.33 2 5.33 2 2'%3E%3C/polyline%3E%3C/svg%3E");
+  background-size: 28px;
+  width: 28px;
+  height: 28px;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-picture-in-picture-control[title=Exit Picture-in-Picture] .vjs-icon-placeholder:before, 
 .video-js .vjs-control-bar button.vjs-control.vjs-picture-in-picture-control[title=Exit Picture-in-Picture] .vjs-icon-placeholder:before {
   content: "";
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Crect fill='%23D8D8D8' opacity='0' x='0' y='0' width='36' height='36'%3E%3C/rect%3E%3Cpath d='M21.0003,18 L21.0003,6 L3.0003,6 L3.0003,18 L21.0003,18 Z M21.9453,20 L2.0543,20 C1.46343187,20 1.0003,19.5190554 1.0003,18.944 L1.0003,5.056 C1.0003,4.48094463 1.46343187,4 2.0543,4 L21.9453,4 C22.5305389,4 23.0003,4.47563312 23.0003,5.056 L23.0003,18.944 C23.0003,19.5243669 22.5305389,20 21.9453,20 Z M10,16 L19,16 L19,11 L10,11 L10,16 Z' fill='%23FFFFFF' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='pip-icon' viewBox='0 0 16 12'%3E%3Cpolygon class='fill' points='6 8 1 8 1 1 14 1 14 6 15 6 15 0 0 0 0 9 6 9 6 8'%3E%3C/polygon%3E%3Crect class='fill' x='7' y='7' width='9' height='5'%3E%3C/rect%3E%3Cpolyline class='fill return' points='5.33 2 5.33 3 3.67 3 5.67 5 5 5.67 3 3.67 3 5.33 2 5.33 2 2'%3E%3C/polyline%3E%3C/svg%3E");
   background-repeat: no-repeat;
+  background-size: 28px;
+  width: 28px;
+  height: 28px;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-fullscreen-control .vjs-icon-placeholder:before,
