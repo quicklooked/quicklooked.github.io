@@ -4063,7 +4063,7 @@ abbr {
 
 .icon-chevronleft::before,
 .icon-chevronleft::after {
-  content: "&#62208;"
+  content: "\F300"
 }
 
 .icon-chevronleftcircle::before,
