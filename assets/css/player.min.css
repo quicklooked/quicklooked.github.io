@@ -1159,6 +1159,13 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
   }
 }
 
+@media all and (max-width:500px) {
+  .video-js .vjs-control-bar .vjs-button.vjs-seek-button,
+  .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
+    display: none
+  }
+}
+
 button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   width: 28px;
   margin: 4px 0px -4px 20px;
