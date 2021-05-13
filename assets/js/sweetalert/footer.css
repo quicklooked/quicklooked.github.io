@@ -4,6 +4,13 @@
   display: inline-block
 }
 
+.view-play.theme-dark {
+  letter-spacing: -.022em;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+
 .view-collection .collection-overview .focus-group-links li:not(:first-child):before,
 .view-collection .featured-content .video-tags li:not(:first-child):before,
 .view-collection .all-content .video-tags li:not(:first-child):before {
@@ -4056,7 +4063,7 @@ abbr {
 
 .icon-chevronleft::before,
 .icon-chevronleft::after {
-  content: "\uF300"
+  content: "0x80"
 }
 
 .icon-chevronleftcircle::before,
@@ -10405,7 +10412,7 @@ video.video {
     margin-top: 0;
     width: 100%
   }
-  }
+}
 
 .localnav-menu-tray {
   float: left;
@@ -11021,8 +11028,9 @@ video.video {
     font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
-.localnav.localnav-stacked .localnav-title {
-  height: 66px
+  .localnav.localnav-stacked .localnav-title {
+    height: 66px
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -11142,6 +11150,7 @@ video.video {
   color: #000;
   opacity: .56
 }
+
 .localnav.localnav-stacked .localnav-title-subhead,
 .localnav.localnav-stacked .localnav-title-comingsoon {
   opacity: 0.64
@@ -11252,11 +11261,4 @@ video.video {
   .localnav-title a.small-hide {
     display: none
   }
-}
-
-.view-play.theme-dark {
-  letter-spacing: -.022em;
-  font-size: 17px;
-  line-height: 1.47059;
-  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
