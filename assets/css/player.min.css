@@ -518,11 +518,19 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 @media all and (max-width:500px) {
-
   .video-js .vjs-button .vjs-icon-placeholder,
   .video-js button.vjs-control .vjs-icon-placeholder {
     width: 26px;
     height: 26px
+  }
+}
+
+@media all and (max-width:500px) {
+  .video-js .vjs-loading-spinner {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    margin: -20px 0 0 -20px;
   }
 }
 
