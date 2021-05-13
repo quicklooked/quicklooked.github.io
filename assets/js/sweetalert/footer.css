@@ -4063,7 +4063,7 @@ abbr {
 
 .icon-chevronleft::before,
 .icon-chevronleft::after {
-  content: "0x80"
+  content: "&#62208;"
 }
 
 .icon-chevronleftcircle::before,
