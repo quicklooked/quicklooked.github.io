@@ -466,9 +466,6 @@ twitterAuthor: "@TheEconomist"
                             </video>
                             <script>
                             var quickplayer = $("#player051320210352").get(0);
-                            var transcript = quickplayer.transcript();
-                            var transcriptContainer = document.querySelector('#transcript');
-                            transcriptContainer.appendChild(transcript.el());
                             if(typeof(quickplayer) != "undefined") {
                               var videoPlayer = videojs('player051320210352');
                               videoPlayer.dispose();
@@ -487,6 +484,9 @@ twitterAuthor: "@TheEconomist"
                                   back: 10
                                 });
                                 videoPlayer.brand({});
+                                var transcript = videoPlayer.transcript();
+                                var transcriptContainer = document.querySelector('#transcript');
+                                transcriptContainer.appendChild(transcript.el());
                               });
                             });
                             </script>
