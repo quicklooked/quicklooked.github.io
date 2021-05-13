@@ -4056,7 +4056,7 @@ abbr {
 
 .icon-chevronleft::before,
 .icon-chevronleft::after {
-  content: "ïŒ€"
+  content: "&#xf300;"
 }
 
 .icon-chevronleftcircle::before,
