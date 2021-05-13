@@ -4606,7 +4606,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.003em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge .badge-unit,
@@ -4617,7 +4617,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4638,7 +4638,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4651,7 +4651,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4683,7 +4683,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.015em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-super .badge-caption {
@@ -4691,7 +4691,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1.23536;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-super .badge-unit,
@@ -4702,7 +4702,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.005em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4723,7 +4723,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.005em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4736,7 +4736,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.009em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-elevated .badge-caption {
@@ -4744,7 +4744,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1.28577;
   font-weight: 400;
   letter-spacing: -.016em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-elevated .badge-unit,
@@ -4755,7 +4755,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4776,7 +4776,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4789,7 +4789,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-reduced .badge-caption {
@@ -4797,7 +4797,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1.28577;
   font-weight: 400;
   letter-spacing: -.016em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-reduced .badge-unit,
@@ -4808,7 +4808,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .007em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4829,7 +4829,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .007em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4846,7 +4846,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .007em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .badge-tiny .badge-unit,
@@ -4857,7 +4857,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -4878,7 +4878,7 @@ a.icon-wrapper:hover .icon-copy {
   line-height: 1;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   font-weight: 600
 }
 
@@ -5232,7 +5232,7 @@ input.disabled[type='submit'],
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .callout-icon {
@@ -5248,7 +5248,7 @@ input.disabled[type='submit'],
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   margin-top: 0
 }
 
@@ -5258,7 +5258,7 @@ input.disabled[type='submit'],
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5268,7 +5268,7 @@ input.disabled[type='submit'],
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5426,7 +5426,7 @@ ol+.list-title,
   line-height: 1.19048;
   font-weight: 600;
   letter-spacing: .011em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   display: block;
   margin-bottom: .8em
 }
@@ -5437,7 +5437,7 @@ ol+.list-title,
     line-height: 1.21053;
     font-weight: 600;
     letter-spacing: .012em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5467,7 +5467,7 @@ ol+.list-title,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   margin-bottom: 11px
 }
 
@@ -5477,7 +5477,7 @@ ol+.list-title,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5487,7 +5487,7 @@ ol+.list-title,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5704,7 +5704,7 @@ ol+.list-title,
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -5713,7 +5713,7 @@ ol+.list-title,
     line-height: 1.25;
     font-weight: 400;
     letter-spacing: .004em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5723,7 +5723,7 @@ ol+.list-title,
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5798,7 +5798,7 @@ ol+.list-title,
   line-height: 1.25;
   font-weight: 400;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -5807,7 +5807,7 @@ ol+.list-title,
     line-height: 1.28583;
     font-weight: 400;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5817,7 +5817,7 @@ ol+.list-title,
     line-height: 1.33341;
     font-weight: 400;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5966,7 +5966,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -5975,7 +5975,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -5985,7 +5985,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6090,7 +6090,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6099,7 +6099,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6109,7 +6109,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6126,7 +6126,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.16667;
   font-weight: 600;
   letter-spacing: .009em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6135,7 +6135,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.19048;
     font-weight: 600;
     letter-spacing: .011em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6152,7 +6152,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.21053;
   font-weight: 600;
   letter-spacing: .012em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .thumbnail-tiny.thumbnail-rounded {
@@ -6164,7 +6164,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.04167;
   font-weight: 600;
   letter-spacing: -.015em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6173,7 +6173,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.05;
     font-weight: 600;
     letter-spacing: -.015em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6183,7 +6183,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6192,7 +6192,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.05;
   font-weight: 600;
   letter-spacing: -.015em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6201,7 +6201,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.0625;
     font-weight: 600;
     letter-spacing: -.009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6211,7 +6211,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6221,7 +6221,7 @@ a:hover .thumbnail .thumbnail-copy,
   line-height: 1.0625;
   font-weight: 600;
   letter-spacing: -.009em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6232,7 +6232,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.08349;
     font-weight: 600;
     letter-spacing: -.003em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6244,7 +6244,7 @@ a:hover .thumbnail .thumbnail-copy,
     line-height: 1.1;
     font-weight: 600;
     letter-spacing: 0em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6254,7 +6254,7 @@ h1 {
   line-height: 1.08349;
   font-weight: 600;
   letter-spacing: -.003em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6538,7 +6538,7 @@ h3,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6547,7 +6547,7 @@ h3,
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6556,7 +6556,7 @@ h3,
     line-height: 1.28583;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6566,7 +6566,7 @@ h3,
     line-height: 1.33341;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: 'sgtb display', ‘sgtb icon’, 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -6622,7 +6622,7 @@ h5 {
   line-height: 1.42859;
   font-weight: 400;
   letter-spacing: -.016em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .typography-body-reduced-tight {
@@ -6630,7 +6630,7 @@ h5 {
   line-height: 1.28577;
   font-weight: 400;
   letter-spacing: -.016em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .typography-caption,
@@ -6642,7 +6642,7 @@ h6 {
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .typography-sosumi {
@@ -6650,7 +6650,7 @@ h6 {
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .typography-headline-body {
@@ -6658,7 +6658,7 @@ h6 {
   line-height: 1.47059;
   font-weight: 600;
   letter-spacing: -.022em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 .typography-headline-body-reduced {
@@ -6666,7 +6666,7 @@ h6 {
   line-height: 1.42859;
   font-weight: 600;
   letter-spacing: -.016em;
-  font-family: “sgtb text”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
 
 [class*="typography-eyebrow"] {
@@ -10379,96 +10379,18 @@ video.video {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: ‘sgtb text’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   float: right;
   margin-top: -3px
 }
 
-.localnav-menu:lang(ar) {
-  letter-spacing: 0em;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(ja) {
-  letter-spacing: 0em;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(ko) {
-  letter-spacing: 0em;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(zh) {
-  letter-spacing: 0em
-}
-
-.localnav-menu:lang(th) {
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-menu:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
 @media only screen and (max-width: 767px) {
   .localnav-menu {
     font-size: 14px;
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(ar) {
-    letter-spacing: 0em;
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(ja) {
-    letter-spacing: 0em;
-    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(ko) {
-    letter-spacing: 0em;
-    font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh) {
-    letter-spacing: 0em
-  }
-
-  .localnav-menu:lang(th) {
-    font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -10478,51 +10400,12 @@ video.video {
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: ‘sgtb text’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
+    font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
     padding-top: 0;
     margin-top: 0;
     width: 100%
   }
-
-  .localnav-menu:lang(ar) {
-    letter-spacing: 0em;
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
   }
-
-  .localnav-menu:lang(ja) {
-    letter-spacing: 0em;
-    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(ko) {
-    letter-spacing: 0em;
-    font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh) {
-    letter-spacing: 0em
-  }
-
-  .localnav-menu:lang(th) {
-    font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-menu:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-}
 
 .localnav-menu-tray {
   float: left;
@@ -11108,7 +10991,7 @@ video.video {
   line-height: 1.14286;
   font-weight: 600;
   letter-spacing: .011em;
-  font-family: ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
+  font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   ;
   cursor: default;
   display: block;
@@ -11119,77 +11002,13 @@ video.video {
   white-space: nowrap
 }
 
-.localnav-title:lang(ar) {
-  font-family: "SF Pro AR", "SF Pro Gulf", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
-}
-
-.localnav-title:lang(ja) {
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title:lang(ko) {
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title:lang(th) {
-  font-family: "SF Pro TH", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
-}
-
-.localnav-title:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
 @media only screen and (max-width: 767px) {
   .localnav-title {
     font-size: 19px;
     line-height: 1.26316;
     font-weight: 600;
     letter-spacing: .012em;
-    font-family: ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
-  }
-
-  .localnav-title:lang(ar) {
-    font-family: "SF Pro AR", "SF Pro Gulf", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
-  }
-
-  .localnav-title:lang(ja) {
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title:lang(ko) {
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title:lang(th) {
-    font-family: "SF Pro TH", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
-  }
-
-  .localnav-title:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: “sgtb display”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
 }
 
@@ -11199,58 +11018,11 @@ video.video {
     line-height: 1.41184;
     font-weight: 600;
     letter-spacing: -.022em;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   }
-
-  .localnav-title-compact:lang(ar) {
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(ja) {
-    font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(ko) {
-    font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(th) {
-    font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-
-  .localnav-title-compact:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-  }
-}
-
-.localnav-title:lang(ja) {
-  margin: 15px 0 -15px
-}
-
-@media only screen and (max-width: 767px) {
-  .localnav-title:lang(ja) {
-    margin: 12px 0 -12px
-  }
-}
 
 .localnav.localnav-stacked .localnav-title {
   height: 66px
-}
-
-.localnav.localnav-stacked .localnav-title:lang(ar) {
-  margin: 9px 0 -9px
 }
 
 @media only screen and (max-width: 767px) {
@@ -11364,66 +11136,12 @@ video.video {
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: ‘sgtb text’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
   position: relative;
   top: -1px;
   color: #000;
   opacity: .56
 }
-
-.localnav-title-subhead:lang(ar),
-.localnav-title-comingsoon:lang(ar) {
-  line-height: 1.66667;
-  letter-spacing: 0em;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(ja),
-.localnav-title-comingsoon:lang(ja) {
-  line-height: 1.41667;
-  letter-spacing: 0em;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(ko),
-.localnav-title-comingsoon:lang(ko) {
-  line-height: 1.41667;
-  letter-spacing: 0em;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", "MalgunGothic", "HY Dotum", "Lexi Gulim", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(zh),
-.localnav-title-comingsoon:lang(zh) {
-  letter-spacing: 0em
-}
-
-.localnav-title-subhead:lang(th),
-.localnav-title-comingsoon:lang(th) {
-  line-height: 1.33337;
-  letter-spacing: 0em;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(zh-CN),
-.localnav-title-comingsoon:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(zh-HK),
-.localnav-title-comingsoon:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(zh-MO),
-.localnav-title-comingsoon:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
-.localnav-title-subhead:lang(zh-TW),
-.localnav-title-comingsoon:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-}
-
 .localnav.localnav-stacked .localnav-title-subhead,
 .localnav.localnav-stacked .localnav-title-comingsoon {
   opacity: 0.64
@@ -11540,5 +11258,5 @@ video.video {
   letter-spacing: -.022em;
   font-size: 17px;
   line-height: 1.47059;
-  font-family: 'sgtb text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+  font-family: “sgtb text”, “sgtb icon”, “Helvetica Neue”, “Helvetica”, “Arial”, sans-serif;
 }
