@@ -7225,6 +7225,12 @@ h2+.typography-body,
   padding-top: 1.5em !important
 }
 
+@media all and (max-width:500px) {
+  .padding-top-small {
+  padding-top: 0em !important
+  }
+}
+
 .padding-bottom-small {
   padding-bottom: 1.5em !important
 }
