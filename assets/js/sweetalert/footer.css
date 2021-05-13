@@ -10379,7 +10379,7 @@ video.video {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: ‘sgtb text’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
   float: right;
   margin-top: -3px
 }
@@ -10478,7 +10478,7 @@ video.video {
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: ‘sgtb text’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
     padding-top: 0;
     margin-top: 0;
     width: 100%
@@ -11108,7 +11108,8 @@ video.video {
   line-height: 1.14286;
   font-weight: 600;
   letter-spacing: .011em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
+  ;
   cursor: default;
   display: block;
   float: left;
@@ -11119,7 +11120,7 @@ video.video {
 }
 
 .localnav-title:lang(ar) {
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "SF Pro AR", "SF Pro Gulf", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
 }
 
 .localnav-title:lang(ja) {
@@ -11131,7 +11132,7 @@ video.video {
 }
 
 .localnav-title:lang(th) {
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: "SF Pro TH", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
 }
 
 .localnav-title:lang(zh-CN) {
@@ -11156,11 +11157,11 @@ video.video {
     line-height: 1.26316;
     font-weight: 600;
     letter-spacing: .012em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
   }
 
   .localnav-title:lang(ar) {
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "SF Pro AR", "SF Pro Gulf", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
   }
 
   .localnav-title:lang(ja) {
@@ -11172,7 +11173,7 @@ video.video {
   }
 
   .localnav-title:lang(th) {
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: "SF Pro TH", ‘sgtb display’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
   }
 
   .localnav-title:lang(zh-CN) {
@@ -11363,7 +11364,7 @@ video.video {
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: ‘sgtb text’, ‘sgtb icon’, ‘Helvetica Neue’, ‘Helvetica’, ‘Arial’, sans-serif;
   position: relative;
   top: -1px;
   color: #000;
@@ -11533,4 +11534,11 @@ video.video {
   .localnav-title a.small-hide {
     display: none
   }
+}
+
+.view-play.theme-dark {
+  letter-spacing: -.022em;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-family: 'sgtb text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
 }
