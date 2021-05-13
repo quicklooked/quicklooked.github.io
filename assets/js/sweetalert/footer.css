@@ -845,7 +845,7 @@ video.video {
 .view-play .main .supplements .transcript {
   padding-top: 2em;
   padding-bottom: 2em;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding-right: 1.5em;
   max-height: 550px
 }
