@@ -11330,3 +11330,7 @@ select.transcript-selector {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
+
+.main .theme-dark {
+  min-height: calc(100vh - 52px);
+}
