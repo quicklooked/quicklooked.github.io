@@ -406,32 +406,14 @@ twitterAuthor: "@TheEconomist"
                               <track label="Japanese" kind="subtitles" srclang="ja" src="https://walsh9.github.io/videojs-transcript/captions/captions.ja.vtt">
                             </video>
                             <script>
-                            var quickplayer = $("#player051320210352").get(0);
-                            if(typeof(quickplayer) != "undefined") {
-                              var videoPlayer = videojs('player051320210352');
-                              videoPlayer.dispose();
-                            }
-                            var id = "player051320210352";
-                            $("#video-container051320210352").html("<video id='" + id + "' class='video video-js vjs-big-play-centered vjs-16-9 vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active large-centered' controls preload='none' width='100%' height='100%' hotkeys='true' poster='https://media.wired.com/photos/5ef50802ab5844e130e245d8/16:9/w_2400,h_1350,c_limit/Gear-GL-Podcast-Apple.WWDC20.Craig_Federighi.03.jpg' ><source id='video-source' src='https://www.openbeelden.nl/files/92/104105.ed_hd.webm' type='video/webm'><track label='English' kind='subtitles' srclang='en' src='https://mainline.i3s.unice.fr/mooc/elephants-dream-subtitles-en.vtt'><track label='Japanese' kind='subtitles' srclang='ja' src='https://walsh9.github.io/videojs-transcript/captions/captions.ja.vtt'></video>");
-                            videojs(id, {}, function() {
-                              var videoPlayer = videojs(id);
-                              videojs(id).ready(function() {
-                                var videoPlayer = this;
-                                videoPlayer.responsive(true);
-                                videoPlayer.landscapeFullscreen();
-                                videoPlayer.hotkeys(true);
-                                videoPlayer.seekButtons({
-                                  forward: 10,
-                                  back: 10
-                                });
-                                videoPlayer.brand({});
-                                var options = {};
-                                var transcript = videoPlayer.transcript(options);
-                                var transcriptContainer = document.querySelector('#transcript');
-                                transcriptContainer.appendChild(transcript.el());
-                              });
-                            });
-                            function openPlayer051320210352() {
+                              var quickplayer = videojs('player051320210352');
+                              quickplayer.responsive(true);
+                              quickplayer.landscapeFullscreen();
+                              quickplayer.hotkeys(true);
+                              quickplayer.seekButtons({forward: 10, back: 10});
+                              quickplayer.brand({});
+
+                                        function openPlayer051320210352() {
                               var x = document.getElementById("openPlayer051320210352");
                               var attr = document.getElementById("openPlayer051320210352_id");
                               if(document.getElementById("openPlayer051320210352_id").ariaLabel == "open") {
@@ -577,55 +559,37 @@ twitterAuthor: "@TheEconomist"
                               <source id='video-source' src="https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8" type="video/m3u8">
                             </video>
                             <script>
-                            var player051420211521 = $("#player051420211521").get(0);
-                            if(typeof(player051420211521) != "undefined") {
-                              var videoPlayer051420211521 = videojs('player051420211521');
-                              videoPlayer051420211521.dispose();
-                            }
-                            var id = "player051420211521";
-                            $("#video-container051420211521").html("<video id='" + id + "' class='video video-js vjs-big-play-centered vjs-16-9 vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active large-centered' controls preload='none' width='100%' height='100%' hotkeys='true' poster='https://i.ytimg.com/vi/UAZbxPRZJj8/maxresdefault.jpg' ><source id='video-source' src='https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8' type='video/m3u8'></video>");
-                            videojs(id, {}, function() {
-                              var videoPlayer051420211521 = videojs(id);
-                              videojs(id).ready(function() {
-                                var videoPlayer051420211521 = this;
-                                videoPlayer051420211521.responsive(true);
-                                videoPlayer051420211521.landscapeFullscreen();
-                                videoPlayer051420211521.hotkeys(true);
-                                videoPlayer051420211521.seekButtons({
-                                  forward: 10,
-                                  back: 10
-                                });
-                                videoPlayer051420211521.brand({});
-                              });
-                            });
-                            function openPlayer051420211521() {
-                              var x = document.getElementById("openPlayer051420211521");
-                              var attr = document.getElementById("openPlayer051420211521_id");
-                              if(document.getElementById("openPlayer051420211521_id").ariaLabel == "open") {
-                                x.style.display = "block";
-                                document.getElementById("openPlayer051420211521_id").ariaLabel = "close";
-                              }
-                              else {
-                                x.style.display = "none";
-                                document.getElementById("openPlayer051420211521_id").ariaLabel = "open";
-                              }
-                            };
-                            function opentabPlayer051420211521() {
-                              if(document.getElementById("taboverviewPlayer051420211521").ariaLabel == "open") {
-                                document.getElementById("taboverviewPlayer051420211521").ariaLabel = "close";
-                                document.getElementById("taboverviewPlayer051420211521").classList.remove("active");
-                                document.getElementById("tabtranscriptPlayer051420211521").classList.add("active");
-                                document.getElementById("openoverviewPlayer051420211521").classList.remove("active");
-                                document.getElementById("opentranscriptPlayer051420211521").classList.add("active");
-                              }
-                              else {
-                                document.getElementById("taboverviewPlayer051420211521").ariaLabel = "open";
-                                document.getElementById("taboverviewPlayer051420211521").classList.add("active");
-                                document.getElementById("tabtranscriptPlayer051420211521").classList.remove("active");
-                                document.getElementById("openoverviewPlayer051420211521").classList.add("active");
-                                document.getElementById("opentranscriptPlayer051420211521").classList.remove("active");
-                              }
-                            };
+                              var quickplayer = videojs('player051420211521');
+                              quickplayer.responsive(true);
+                              quickplayer.landscapeFullscreen();
+                              quickplayer.hotkeys(true);
+                              quickplayer.seekButtons({forward: 10, back: 10});
+                              quickplayer.brand({});
+                              function openPlayer051420211521() {
+                                var x = document.getElementById("openPlayer051420211521");
+                                if(document.getElementById("openPlayer051420211521_id").ariaLabel == "open") {
+                                  x.style.display = "block";
+                                  document.getElementById("openPlayer051420211521_id").ariaLabel = "close";
+                                } else {
+                                  x.style.display = "none";
+                                  document.getElementById("openPlayer051420211521_id").ariaLabel = "open";
+                                }
+                              };
+                              function opentabPlayer051420211521() {
+                                if(document.getElementById("taboverviewPlayer051420211521").ariaLabel == "open") {
+                                  document.getElementById("taboverviewPlayer051420211521").ariaLabel = "close";
+                                  document.getElementById("taboverviewPlayer051420211521").classList.remove("active");
+                                  document.getElementById("tabtranscriptPlayer051420211521").classList.add("active");
+                                  document.getElementById("openoverviewPlayer051420211521").classList.remove("active");
+                                  document.getElementById("opentranscriptPlayer051420211521").classList.add("active");
+                                } else {
+                                  document.getElementById("taboverviewPlayer051420211521").ariaLabel = "open";
+                                  document.getElementById("taboverviewPlayer051420211521").classList.add("active");
+                                  document.getElementById("tabtranscriptPlayer051420211521").classList.remove("active");
+                                  document.getElementById("openoverviewPlayer051420211521").classList.add("active");
+                                  document.getElementById("opentranscriptPlayer051420211521").classList.remove("active");
+                                }
+                              };
                             </script>
                           </section>
                         </section>
