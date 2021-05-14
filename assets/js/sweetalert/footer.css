@@ -11317,3 +11317,19 @@ select.transcript-selector {
   line-height: 1.47059;
   font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
+
+.view-play .main .tab-menu li.tab a span:hover {
+  outline: 4px solid rgba(0, 125, 250, 0.6);
+  outline-offset: 1px;
+}
+
+.theme-dark .localnav .localnav-menu-link:hover,
+.localnav.theme-dark .localnav-menu-link:hover {
+  outline: 4px solid rgba(0, 125, 250, 0.6);
+  outline-offset: 1px;
+}
+
+.localnav-title a:hover {
+  outline: 4px solid rgba(0, 125, 250, 0.6);
+  outline-offset: 1px;
+}
