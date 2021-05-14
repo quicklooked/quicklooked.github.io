@@ -11279,6 +11279,7 @@ select.transcript-selector {
 
 .transcript-line {
   cursor: pointer;
+  width: fit-content;
 }
 
 .transcript-line.is-active {
@@ -11335,4 +11336,8 @@ select.transcript-selector {
 a.transcript-text.sentence:active {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
+}
+
+a.transcript-text.sentence {
+  width: fit-content;
 }
