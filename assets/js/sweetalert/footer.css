@@ -2257,6 +2257,7 @@ section.view-play.theme-dark {
   letter-spacing: -.022em;
   font-size: 17px;
   line-height: 1.47059;
+  min-height: 100vh;
 }
 
 ul,
@@ -11316,6 +11317,7 @@ select.transcript-selector {
   font-size: 17px;
   line-height: 1.47059;
   font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  min-height: 100vh;
 }
 
 .view-play .main .tab-menu li.tab a span:active {
