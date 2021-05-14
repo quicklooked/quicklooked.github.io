@@ -51,14 +51,6 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
-# traefik.yml
-http:
-  middlewares:
-    floc:
-      headers:
-        customResponseHeaders:
-          Permissions-Policy: "interest-cohort=()"
-
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
 
