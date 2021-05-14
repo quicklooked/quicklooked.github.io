@@ -11306,8 +11306,7 @@ select.transcript-selector {
 }
 
 .transcript-text {
-  display: block;
-  margin-left: 0px;
+  display: inline-block;
 }
 
 .view-play.theme-dark {
