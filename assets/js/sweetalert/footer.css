@@ -11268,3 +11268,46 @@ video.video {
     display: none
   }
 }
+
+header.transcript-header {
+	display: none;
+}
+
+select.transcript-selector {
+	padding: 0;
+}
+
+.transcript-line {
+	position: relative;
+	margin-top: .8em;
+	cursor: pointer;
+	width: fit-content;
+}
+
+.transcript-line.is-active {
+	color: #2997ff;
+}
+
+.transcript-line:hover {
+	color: #2997ff;
+	background: 0;
+}
+
+transcript-line:focus {
+  outline: 4px solid rgba(0, 125, 250, 0.6);
+  outline-offset: 1px
+}
+
+.transcript-body {
+	color: #aaa;
+}
+
+#transcript {
+	margin: auto;
+}
+
+.transcript-timestamp {
+	position: absolute;
+	display: inline-block;
+	width: 50px;
+}
