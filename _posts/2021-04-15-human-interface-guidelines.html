@@ -503,8 +503,6 @@ twitterAuthor: "@TheEconomist"
                               }
                             };
                             function opentabPlayer051320210352() {
-                              var x = document.getElementById("taboverviewPlayer051320210352");
-                              var y = document.getElementById("tabtranscriptPlayer051320210352");
                               if(document.getElementById("taboverviewPlayer051320210352").ariaLabel == "open") {
                                 document.getElementById("taboverviewPlayer051320210352").ariaLabel = "close";
                                 document.getElementById("taboverviewPlayer051320210352").classList.remove("active");
@@ -529,8 +527,8 @@ twitterAuthor: "@TheEconomist"
                       <section class="tab-menu row divider-bottom">
                         <section class="column large-10 small-12 padding-top-small padding-bottom-small large-centered">
                           <ul class="tabs">
-                            <li id="taboverviewPlayer051320210352" aria-label="open" class="tab active" data-supplement-id="details"><p onclick="opentabPlayer051320210352()"><span class="smaller">Overview</span></p></li>
-                            <li id="tabtranscriptPlayer051320210352" class="tab" data-supplement-id="transcript"><p onclick="opentabPlayer051320210352()"><span class="smaller">Transcript</span></p></li>
+                            <li id="taboverviewPlayer051320210352" onclick="opentabPlayer051320210352()" class="tab active" data-supplement-id="details" aria-label="open"><a><span class="smaller">Overview</span></a></li>
+                            <li id="tabtranscriptPlayer051320210352" onclick="opentabPlayer051320210352()" class="tab" data-supplement-id="transcript"><a><span class="smaller">Transcript</span></a></li>
                           </ul>
                         </section>
                       </section>
