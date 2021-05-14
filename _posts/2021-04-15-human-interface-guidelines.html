@@ -406,7 +406,16 @@ twitterAuthor: "@TheEconomist"
                               <track label="Japanese" kind="subtitles" srclang="ja" src="https://walsh9.github.io/videojs-transcript/captions/captions.ja.vtt">
                             </video>
                             <script>
-                              var player051320210352 = videojs('player-051320210352').ready(function() {
+                              var player051320210352 = videojs('player-051320210352');
+                              player051320210352.responsive(true);
+                              player051320210352.landscapeFullscreen();
+                              player051320210352.hotkeys(true);
+                              player051320210352.seekButtons({
+                                forward: 10,
+                                back: 10
+                              });
+                              player051320210352.brand({});
+                              player051320210352.ready(function() {
                                 var options = {
                                   showTitle: false,
                                   showTrackSelector: false
@@ -414,14 +423,6 @@ twitterAuthor: "@TheEconomist"
                                 var transcript = this.transcript(options);
                                 var transcriptContainer = document.querySelector('#transcriptShow-051320210352');
                                 transcriptContainer.appendChild(transcript.el());
-                                player051320210352.responsive(true);
-                                player051320210352.landscapeFullscreen();
-                                player051320210352.hotkeys(true);
-                                player051320210352.seekButtons({
-                                  forward: 10,
-                                  back: 10
-                                });
-                                player051320210352.brand({});
                               });
 
                               function openVideo_051320210352() {
