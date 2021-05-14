@@ -11278,9 +11278,7 @@ select.transcript-selector {
 }
 
 .transcript-line {
-  position: relative;
   cursor: pointer;
-  width: auto;
 }
 
 .transcript-line.is-active {
