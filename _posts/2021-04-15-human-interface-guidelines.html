@@ -577,25 +577,25 @@ twitterAuthor: "@TheEconomist"
                               <source id='video-source' src="https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8" type="video/m3u8">
                             </video>
                             <script>
-                            var quickplayer = $("#player051420211521").get(0);
-                            if(typeof(quickplayer) != "undefined") {
-                              var videoPlayer = videojs('player051420211521');
-                              videoPlayer.dispose();
+                            var player051420211521 = $("#player051420211521").get(0);
+                            if(typeof(player051420211521) != "undefined") {
+                              var videoPlayer051420211521 = videojs('player051420211521');
+                              videoPlayer051420211521.dispose();
                             }
                             var id = "player051420211521";
                             $("#video-container051420211521").html("<video id='" + id + "' class='video video-js vjs-big-play-centered vjs-16-9 vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active large-centered' controls preload='none' width='100%' height='100%' hotkeys='true' poster='https://i.ytimg.com/vi/UAZbxPRZJj8/maxresdefault.jpg' ><source id='video-source' src='https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8' type='video/m3u8'></video>");
                             videojs(id, {}, function() {
-                              var videoPlayer = videojs(id);
+                              var videoPlayer051420211521 = videojs(id);
                               videojs(id).ready(function() {
-                                var videoPlayer = this;
-                                videoPlayer.responsive(true);
-                                videoPlayer.landscapeFullscreen();
-                                videoPlayer.hotkeys(true);
-                                videoPlayer.seekButtons({
+                                var videoPlayer051420211521 = this;
+                                videoPlayer051420211521.responsive(true);
+                                videoPlayer051420211521.landscapeFullscreen();
+                                videoPlayer051420211521.hotkeys(true);
+                                videoPlayer051420211521.seekButtons({
                                   forward: 10,
                                   back: 10
                                 });
-                                videoPlayer.brand({});
+                                videoPlayer051420211521.brand({});
                               });
                             });
                             function openPlayer051420211521() {
