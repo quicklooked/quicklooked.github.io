@@ -2527,11 +2527,11 @@ sub {
   vertical-align: baseline
 }
 
-sup:hover {
+sup {
   top: -.5em;  
 }
 
-sup {
+sup:hover {
   cursor: pointer;
 }
 sub {
