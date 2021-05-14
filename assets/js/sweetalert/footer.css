@@ -11302,13 +11302,13 @@ select.transcript-selector {
 
 .transcript-timestamp {
   position: absolute;
-  display: inline-block;
+  display: none;
   width: 50px;
 }
 
 .transcript-text {
   display: block;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 .view-play.theme-dark {
