@@ -414,16 +414,15 @@ twitterAuthor: "@TheEconomist"
                                 var transcript = this.transcript(options);
                                 var transcriptContainer = document.querySelector('#transcriptShow-051320210352');
                                 transcriptContainer.appendChild(transcript.el());
+                                player051320210352.responsive(true);
+                                player051320210352.landscapeFullscreen();
+                                player051320210352.hotkeys(true);
+                                player051320210352.seekButtons({
+                                  forward: 10,
+                                  back: 10
+                                });
+                                player051320210352.brand({});
                               });
-                              var player051420211521 = videojs('player-051420211521');
-                              player051320210352.responsive(true);
-                              player051320210352.landscapeFullscreen();
-                              player051320210352.hotkeys(true);
-                              player051320210352.seekButtons({
-                                forward: 10,
-                                back: 10
-                              });
-                              player051320210352.brand({});
 
                               function openVideo_051320210352() {
                                 if(document.getElementById("openId-051320210352").ariaLabel == "open") {
