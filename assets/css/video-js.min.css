@@ -1431,7 +1431,7 @@ video::-webkit-media-text-track-display {
 
 .vjs-error .vjs-error-display:before {
   color: #fff;
-  content: "X";
+  content: "";
   font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 4em;
   left: 0;
