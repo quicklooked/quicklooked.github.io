@@ -11279,7 +11279,6 @@ select.transcript-selector {
 
 .transcript-line {
   position: relative;
-  margin-top: .8em;
   cursor: pointer;
   width: auto;
 }
