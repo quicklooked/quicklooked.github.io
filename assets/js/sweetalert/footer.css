@@ -11318,13 +11318,13 @@ select.transcript-selector {
   font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
-.view-play .main .tab-menu li.tab a span:active {
+.view-play .main .tab-menu li.tab a span:focus:active {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
 
-.theme-dark .localnav .localnav-menu-link:active,
-.localnav.theme-dark .localnav-menu-link:active {
+.theme-dark .localnav .localnav-menu-link:focus:active,
+.localnav.theme-dark .localnav-menu-link:focus:active {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
