@@ -11333,3 +11333,8 @@ select.transcript-selector {
 .main .theme-dark {
   min-height: calc(100vh - 52px);
 }
+
+a.transcript-text.sentence:active {
+  outline: 4px solid rgba(0, 125, 250, 0.6);
+  outline-offset: 1px;
+}
