@@ -580,7 +580,8 @@ video.video {
 }
 
 .view-play .main .tab-menu li.tab a {
-  color: #aaa
+  color: #aaa;
+  cursor: pointer;
 }
 
 .view-play .main .tab-menu li.tab:hover {
