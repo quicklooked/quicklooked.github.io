@@ -10415,6 +10415,7 @@ video.video {
 
 .localnav-menu-tray {
   float: left;
+  margin-top: 0em !important;
   padding-top: 18px
 }
 
