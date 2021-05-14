@@ -930,12 +930,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-volume-panel .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal {
   width: 10em;
+  display: none;
 }
 
 @media all and (max-width:768px) {
   .video-js .vjs-control-bar .vjs-volume-panel .vjs-mute-control~.vjs-volume-control.vjs-volume-horizontal {
     width: 4em;
-    display: none
+    display: none;
   }
 }
 
