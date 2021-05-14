@@ -11328,8 +11328,3 @@ select.transcript-selector {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
-
-.localnav-title a:hover {
-  outline: 4px solid rgba(0, 125, 250, 0.6);
-  outline-offset: 1px;
-}
