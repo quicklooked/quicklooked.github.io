@@ -11286,11 +11286,6 @@ select.transcript-selector {
   background: 0;
 }
 
-.transcript-line:focus {
-  outline: 4px solid rgba(0, 125, 250, 0.6);
-  outline-offset: 1px
-}
-
 .transcript-body {
   color: #aaa;
 }
