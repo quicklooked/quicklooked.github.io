@@ -4,13 +4,6 @@
   display: inline-block
 }
 
-.view-play.theme-dark {
-  letter-spacing: -.022em;
-  font-size: 17px;
-  line-height: 1.47059;
-  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
-}
-
 .view-collection .collection-overview .focus-group-links li:not(:first-child):before,
 .view-collection .featured-content .video-tags li:not(:first-child):before,
 .view-collection .all-content .video-tags li:not(:first-child):before {
@@ -7227,7 +7220,7 @@ h2+.typography-body,
 
 @media all and (max-width:500px) {
   .padding-top-small {
-  padding-top: 0em !important
+    padding-top: 0em !important
   }
 }
 
@@ -11270,27 +11263,27 @@ video.video {
 }
 
 header.transcript-header {
-	display: none;
+  display: none;
 }
 
 select.transcript-selector {
-	padding: 0;
+  padding: 0;
 }
 
 .transcript-line {
-	position: relative;
-	margin-top: .8em;
-	cursor: pointer;
-	width: fit-content;
+  position: relative;
+  margin-top: .8em;
+  cursor: pointer;
+  width: fit-content;
 }
 
 .transcript-line.is-active {
-	color: #2997ff;
+  color: #2997ff;
 }
 
 .transcript-line:hover {
-	color: #2997ff;
-	background: 0;
+  color: #2997ff;
+  background: 0;
 }
 
 transcript-line:focus {
@@ -11299,15 +11292,27 @@ transcript-line:focus {
 }
 
 .transcript-body {
-	color: #aaa;
+  color: #aaa;
 }
 
 #transcript {
-	margin: auto;
+  margin: auto;
 }
 
 .transcript-timestamp {
-	position: absolute;
-	display: inline-block;
-	width: 50px;
+  position: absolute;
+  display: inline-block;
+  width: 50px;
+}
+
+.transcript-text {
+  display: block;
+  margin-left: 50px;
+}
+
+.view-play.theme-dark {
+  letter-spacing: -.022em;
+  font-size: 17px;
+  line-height: 1.47059;
+  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
