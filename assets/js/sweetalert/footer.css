@@ -11323,8 +11323,8 @@ select.transcript-selector {
   outline-offset: 1px;
 }
 
-.theme-dark .localnav .localnav-menu-link:hover,
-.localnav.theme-dark .localnav-menu-link:hover {
+.theme-dark .localnav .localnav-menu-link:active,
+.localnav.theme-dark .localnav-menu-link:active {
   outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
