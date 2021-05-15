@@ -2254,9 +2254,6 @@ html {
 }
 
 section.view-play.theme-dark {
-  letter-spacing: -.022em;
-  font-size: 17px;
-  line-height: 1.47059;
   min-height: 100vh;
 }
 
@@ -6257,9 +6254,9 @@ a:hover .thumbnail .thumbnail-copy,
 h1 {
   font-size: 48px;
   line-height: 1.08349;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -.003em;
-  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6817,8 +6814,8 @@ h2+.typography-body,
 }
 
 .theme-dark {
-  background-color: #000;
-  color: #f5f5f7
+  background-color: #121212;
+  color: #b3b3b3
 }
 
 .theme-dark h1,
@@ -6832,7 +6829,7 @@ h2+.typography-body,
 
 .theme-dark a,
 .theme-dark .link {
-  color: #2997ff
+  color: #1db954
 }
 
 .theme-dark .footnote a {
@@ -11311,9 +11308,10 @@ select.transcript-selector {
 
 .view-play.theme-dark {
   letter-spacing: -.022em;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.47059;
-  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  color: #b3b3b3;
+  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
   min-height: 100vh;
 }
 
