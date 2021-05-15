@@ -1269,13 +1269,11 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   left: 0%;
   transform: translate(-0%, -0%);
   border-radius: 9999px;
-  display: flex;
+  display: block;
   align-items: center;
   outline: none;
   user-select: none;
   cursor: pointer;
-  width: fit-content;
-  height: fit-content;
   transition: all 0.3s ease;
   position: absolute;
   appearance: none;
