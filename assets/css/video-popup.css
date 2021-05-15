@@ -11332,3 +11332,7 @@ a.transcript-text.sentence:active {
 a.transcript-text.sentence {
   width: fit-content;
 }
+
+a.transcript-text.sentence:hover {
+  text-decoration: underline;
+}
