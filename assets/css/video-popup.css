@@ -6576,9 +6576,9 @@ h3,
 h4 {
   font-size: 24px;
   line-height: 1.16667;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: .009em;
-  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6587,9 +6587,9 @@ h4 {
   h4 {
     font-size: 21px;
     line-height: 1.19048;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: .011em;
-    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6597,9 +6597,9 @@ h4 {
 h5 {
   font-size: 19px;
   line-height: 1.21053;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: .012em;
-  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .typography-body {
@@ -10387,7 +10387,7 @@ video.video {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   float: right;
   margin-top: -3px
 }
@@ -10398,7 +10398,7 @@ video.video {
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -10408,7 +10408,7 @@ video.video {
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
     padding-top: 0;
     margin-top: 0;
     width: 100%
@@ -10999,10 +10999,9 @@ video.video {
 .localnav-title {
   font-size: 21px;
   line-height: 1.14286;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: .011em;
-  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
-  ;
+  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   cursor: default;
   display: block;
   float: left;
@@ -11016,9 +11015,9 @@ video.video {
   .localnav-title {
     font-size: 19px;
     line-height: 1.26316;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: .012em;
-    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -11026,9 +11025,9 @@ video.video {
   .localnav-title-compact {
     font-size: 17px;
     line-height: 1.41184;
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: -.022em;
-    font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
   .localnav.localnav-stacked .localnav-title {
