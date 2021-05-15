@@ -1284,6 +1284,46 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   padding: 20px;
 }
 
+.card__content {
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px 20px 20px 90px;
+  position: absolute;
+  left: 0;
+  font-family: 'sohne';
+}
+
+.card__title-wrapper {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: white;
+}
+
+.card__title {
+  text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: white;
+  display: inline;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
 .video-play-button {
   position: absolute;
   z-index: 10;
@@ -1362,3 +1402,4 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
     opacity: 0;
   }
 }
+
