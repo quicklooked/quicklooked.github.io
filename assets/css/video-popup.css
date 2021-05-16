@@ -11893,7 +11893,7 @@ p.vdx+p:before {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
-  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .vdak {
