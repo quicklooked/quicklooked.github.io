@@ -2526,12 +2526,13 @@ sub {
 }
 
 sup {
-  top: -.5em;  
+  top: -.5em;
 }
 
 sup:hover {
   cursor: pointer;
 }
+
 sub {
   bottom: -0.25em
 }
@@ -11336,11 +11337,6 @@ a.transcript-text.sentence {
 a.transcript-text.sentence:hover {
   text-decoration: underline;
 }
-
-
-
-
-
 
 .cMigZB {
   fill: currentcolor;
