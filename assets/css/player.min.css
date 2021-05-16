@@ -738,12 +738,17 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
   bottom: 4em;
-  padding: 15px 8px 16px 15px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  background: rgba(29,29,31);
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
   left: 1%;
   transform: translateX(-50%);
+  -webkit-app-region: no-drag;
+  background-color: #282828;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 16px 24px rgb(0 0 0 / 30%), 0 6px 8px rgb(0 0 0 / 20%);
+  box-shadow: 0 16px 24px rgb(0 0 0 / 30%), 0 6px 8px rgb(0 0 0 / 20%);
+  max-height: calc(250px - 24px);
+  overflow-y: auto;
 }
 
 .vjs-menu li {
@@ -755,7 +760,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: circular, 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 14px;
   text-transform: capitalize;
