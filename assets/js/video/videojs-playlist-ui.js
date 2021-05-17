@@ -187,15 +187,8 @@
         vdaabtn.setAttribute('tabindex', '0');
         vdaabtn.setAttribute('title', 'Share');
         vdaabtn.style = '--size:24px;';
-        vdaabtnsvg.setAttribute('role', 'img');
-        vdaabtnsvg.setAttribute('focusable', 'false');
-        vdaabtnsvg.setAttribute('height', '24');
-        vdaabtnsvg.setAttribute('width', '24');
-        vdaabtnsvg.setAttribute('viewBox', '0 0 24 24');
-        vdaabtnsvg.className = 'Svg-sc-1usfroi-0 hShlue';
-        vdaabtnsvg.innerHTML = "<polyline points='8 7 12 3 16 7' fill='none'></polyline><line x1='12' y1='16' x2='12' y2='3' fill='none'></line><polyline points='16 10.5 19.5 10.5 19.5 21.5 4.5 21.5 4.5 10.5 8 10.5' fill='none'></polyline>";
+        vdaabtn.innerHTML = "<svg role=\"img\" focusable=\"false\" height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" class=\"Svg-sc-1usfroi-0 hShlue\"><polyline points=\"8 7 12 3 16 7\" fill=\"none\"></polyline><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"3\" fill=\"none\"></line><polyline points=\"16 10.5 19.5 10.5 19.5 21.5 4.5 21.5 4.5 10.5 8 10.5\" fill=\"none\"></polyline></svg>";
         vdaa.className = 'vdaa';
-        vdaabtn.appendChild(vdaabtnsvg);
         vdaa.appendChild(vdaabtn);
         li.appendChild(vdaa);
         li.appendChild(durationstime);
