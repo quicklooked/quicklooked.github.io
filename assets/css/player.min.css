@@ -1754,6 +1754,12 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   word-break: break-word
 }
 
+@media only screen and (max-width: 735px) {
+  .vdt {
+    display: none
+  }
+}
+
 ._26ec9b0c13497f779e4616724f5de18b-scss .vdt {
   margin: 16px 0
 }
