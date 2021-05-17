@@ -1419,12 +1419,12 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 .vda {
   display: grid;
   grid-template: "metadata"/auto;
-  padding: 0 16px
+  padding: 0
 }
 
 @media(min-width:1024px) {
   .vda {
-    padding: 0 32px
+    padding: 0
   }
 }
 
