@@ -6516,7 +6516,7 @@ h3,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6528,7 +6528,7 @@ h3,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: "sgtb display", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6541,7 +6541,7 @@ h3,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6550,7 +6550,7 @@ h3,
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6559,7 +6559,7 @@ h3,
     line-height: 1.28583;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6569,7 +6569,7 @@ h3,
     line-height: 1.33341;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
