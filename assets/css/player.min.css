@@ -1416,6 +1416,10 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   stroke-width: 1pt;
 }
 
+.Svg-sc-1usfroi-0.hShlue {
+  stroke: currentColor;
+}
+
 .vda {
   display: grid;
   grid-template: "metadata"/auto;
