@@ -216,7 +216,7 @@
       paltbnt.setAttribute('aria-label', 'Play');
       paltbnt.setAttribute('data-testid', 'play-button');
       paltbnt.style = "--size:32px;";
-      var paltbntsvg = document.createElement('svg');
+      var paltbntsvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
       paltbntsvg.setAttribute('height', '16');
       paltbntsvg.setAttribute('role', 'img');
       paltbntsvg.setAttribute('width', '16');
