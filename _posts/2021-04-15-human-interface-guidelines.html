@@ -647,17 +647,17 @@ twitterAuthor: "@TheEconomist"
                       back: 10
                     });
                     player051420211521.brand({});
-                    player051420211521.playlist(getAwesomePlaylist());
-                    player051420211521.playlistUi();
                     player051420211521.ready(function() {
                       var options = {
                         showTitle: false,
                         showTrackSelector: false
                       };
-                      var transcript = this.transcript(options);
-                      var transcriptContainer = document.querySelector('#transcriptShow-051420211521');
-                      transcriptContainer.appendChild(transcript.el());
+                      var transcript051420211521 = this.transcript(options);
+                      var transcriptContainer051420211521 = document.querySelector('#transcriptShow-051420211521');
+                      transcriptContainer051420211521.appendChild(transcript.el());
                     });
+                    player051420211521.playlist(getAwesomePlaylist());
+                    player051420211521.playlistUi();
                   }(window, window.videojs));
 
                   function openVideo_051420211521() {
