@@ -175,14 +175,7 @@
         vdybnt.setAttribute('aria-label', 'More');
         vdybnt.className = 'vdz';
         vdybnt.setAttribute('title', 'More');
-        var vdybntsvg = document.createElement('svg');
-        vdybntsvg.setAttribute('role', 'img');
-        vdybntsvg.setAttribute('height', '24');
-        vdybntsvg.setAttribute('width', '24');
-        vdybntsvg.setAttribute('viewBox', '0 0 24 24');
-        vdybntsvg.className = 'Svg-ulyrgf-0 cMigZB';
-        vdybntsvg.innerHTML = "<path fill='none' d='M0 0h24v24H0z'></path><path d=\"M4.5 11c-.8 0-1.5.7-1.5 1.5S3.7 14 4.5 14 6 13.3 6 12.5 5.3 11 4.5 11zm15 0c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5-.7-1.5-1.5-1.5zM12 11c-.8 0-1.5.7-1.5 1.5S11.2 14 12 14s1.5-.7 1.5-1.5S12.8 11 12 11z\"</path>";
-        vdybnt.appendChild(vdybntsvg);
+        vdybnt.innerHTML = "<svg role=\"img\" height=\"24\" width=\"24\" viewBox=\"0 0 24 24\" class=\"Svg-ulyrgf-0 cMigZB\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path d=\"M4.5 11c-.8 0-1.5.7-1.5 1.5S3.7 14 4.5 14 6 13.3 6 12.5 5.3 11 4.5 11zm15 0c-.8 0-1.5.7-1.5 1.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5-.7-1.5-1.5-1.5zM12 11c-.8 0-1.5.7-1.5 1.5S11.2 14 12 14s1.5-.7 1.5-1.5S12.8 11 12 11z\"></path></svg>";
         vdy.appendChild(vdybnt);
         li.appendChild(vdy);
         var vdaa = document.createElement('div');
