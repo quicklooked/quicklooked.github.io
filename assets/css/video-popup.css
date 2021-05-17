@@ -598,6 +598,7 @@ video.video {
 
 .view-play .main .tab-menu li.tab.active a span {
   font-weight: 700 !important;
+  letter-spacing: -.04em;
   font-size: 16px;
   line-height: 1.52947
 }
@@ -755,16 +756,17 @@ video.video {
 
 .view-play .main .supplements .details h1 {
   margin-bottom: 0.35em;
-  font-size: 1.8em;
+  font-size: 28px;
   line-height: 1.1;
-  letter-spacing: -0.008em
+  letter-spacing: -.04em
 }
 
 .view-play .main .supplements .details h2 {
   margin-bottom: 0.35em;
-  font-size: 1.4em;
+  font-size: 24px;
   line-height: 1.1;
-  padding-bottom: 10px
+  padding-bottom: 10px;
+  letter-spacing: -.04em
 }
 
 .view-play .main .supplements .details h4 {
@@ -11051,7 +11053,7 @@ video.video {
 .localnav-title a {
   display: flex;
   flex-direction: column-reverse;
-  letter-spacing: inherit;
+  letter-spacing: -.04em;
   line-height: inherit;
   margin: 0;
   text-decoration: none;
