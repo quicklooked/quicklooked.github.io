@@ -5,6 +5,7 @@ function getAwesomePlaylist() {
       src: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/hls/manifest-hd-wifi.m3u8',
       type: 'video/m3u8'
     }],
+    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt", "srclang":"en" } ],
     name: 'How Roblox Plans to Expand Beyond Gaming',
     duration: '240',
     date: 'May 14',
@@ -22,6 +23,7 @@ function getAwesomePlaylist() {
       src: BASE_URL + 'big-buck-bunny/trailer.mov',
       type: 'video/mov'
     }],
+    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt", "srclang":"en" } ],
     name: 'How Roblox Plans to Expand Beyond Gaming',
     duration: '32',
     date: 'May 14',
@@ -39,6 +41,7 @@ function getAwesomePlaylist() {
       src: BASE_URL + 'elephants-dream/teaser.mp4',
       type: 'video/mp4'
     }],
+    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt", "srclang":"en" } ],
     name: 'How Roblox Plans to Expand Beyond Gaming',
     duration: '75',
     date: 'May 14',
