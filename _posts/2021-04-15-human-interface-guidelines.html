@@ -620,11 +620,7 @@ twitterAuthor: "@TheEconomist"
                                     <div class="vdc">
                                       <h2 class="vdd vde" as="h2">All Episodes</h2>
                                     </div>
-                                    <div>
-                                      <div>
-                                        <div class="vjs-playlist"></div>
-                                      </div>
-                                    </div>
+                                    <div class="vjs-playlist"></div>
                                   </div>
                                 </div>
                               </section>
@@ -636,31 +632,34 @@ twitterAuthor: "@TheEconomist"
                             </li>
                           </ul>
                         </section>
-                                                              <script>
-                              (function(window, videojs) {
-                              var player051420211521 = videojs('player-051420211521');
-                              player051420211521.responsive(true);
-                              player051420211521.landscapeFullscreen();
-                              player051420211521.hotkeys(true);
-                              player051420211521.seekButtons({forward: 10, back: 10});
-                              player051420211521.brand({});
-                              player051420211521.playlist(getAwesomePlaylist());
-                              player051420211521.playlistUi();
-                              }(window, window.videojs));
-
-                              function openVideo_051420211521() {
-                                if(document.getElementById("openId-051420211521").ariaLabel == "open") {
-                                  document.getElementById("open-051420211521").style.display = "block";
-                                  document.getElementById("openId-051420211521").ariaLabel = "close";
-                                } else {
-                                  document.getElementById("open-051420211521").style.display = "none";
-                                  document.getElementById("openId-051420211521").ariaLabel = "open";
-                                }
-                              };
-                            </script>
                       </section>
                     </section>
                   </div>
+                  <script>
+                  (function(window, videojs) {
+                    var player051420211521 = videojs('player-051420211521');
+                    player051420211521.responsive(true);
+                    player051420211521.landscapeFullscreen();
+                    player051420211521.hotkeys(true);
+                    player051420211521.seekButtons({
+                      forward: 10,
+                      back: 10
+                    });
+                    player051420211521.brand({});
+                    player051420211521.playlist(getAwesomePlaylist());
+                    player051420211521.playlistUi();
+                  }(window, window.videojs));
+
+                  function openVideo_051420211521() {
+                    if(document.getElementById("openId-051420211521").ariaLabel == "open") {
+                      document.getElementById("open-051420211521").style.display = "block";
+                      document.getElementById("openId-051420211521").ariaLabel = "close";
+                    } else {
+                      document.getElementById("open-051420211521").style.display = "none";
+                      document.getElementById("openId-051420211521").ariaLabel = "open";
+                    }
+                  };
+                  </script>
                 </section>
               </section>
             </section>
