@@ -6,10 +6,10 @@ function getAwesomePlaylist() {
       type: 'video/m3u8'
     }],
     textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt", "srclang":"en" } ],
-    name: 'How Roblox Plans to Expand Beyond Gaming',
+    name: 'Quit Chrome. Safari and Edge Are Just Better Browsers for You and Your Computer.',
     duration: '240',
     date: 'May 14',
-    description: "This week The Wall Street Journal is sitting down with industry movers and shakers for our Future of Everything Festival. Today we hear from Roblox founder and CEO David Baszucki on the videogame platform's dramatic rise over the past year, how he sees it continuing to grow, and how his company could be affected by the ongoing court battle between Epic Games and Apple. Amanda Lewellyn hosts. Christopher Zinsli is our supervising producer. Kateri Jochum is the executive producer of WSJ Podcasts. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+    description: "Is your web browsing slow and battery draining? WSJ\'s Joanna Stern explains how to stop Google’s popular browser from hogging all your computer\'s RAM and resources. (Guest starring Safari, Firefox and Edge.) Photo illustration: Zoe Soriano for The Wall Street Journal",
     poster: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5_960x540.jpg',
     thumbnail: [{
       srcset: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5_960x540.jpg',
