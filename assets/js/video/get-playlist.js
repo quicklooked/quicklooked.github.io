@@ -46,13 +46,13 @@ function getAwesomePlaylist() {
     duration: '352',
     date: 'May 14',
     description: "A cyberattack on the U.S.’s largest fuel pipeline on May 7 forced a shutdown that triggered a spike in gas prices and shortages in parts of the Southeast. WSJ explains just how vulnerable the nation’s critical energy infrastructure is to attack. Photo illustration: Liz Ornitz/WSJ",
-    poster: 'https://i.scdn.co/image/c274a8abb1d57d18f0c4f1d45d73aadd4c9f18dd',
+    poster: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
     thumbnail: [{
-      srcset: 'https://i.scdn.co/image/c274a8abb1d57d18f0c4f1d45d73aadd4c9f18dd',
+      srcset: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
       type: 'image/png',
       media: '(width: 112px; height: 112px;)'
     }, {
-      src: 'https://i.scdn.co/image/c274a8abb1d57d18f0c4f1d45d73aadd4c9f18dd'
+      src: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg'
     }],
   }];
 }
