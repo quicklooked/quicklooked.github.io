@@ -230,7 +230,7 @@
         descriptionEl.className = 'vdt vdu';
         descriptionEl.appendChild(document.createTextNode(descriptionText));
         descriptionEld.appendChild(descriptionEl);
-        titleContainerEl.appendChild(descriptionEld);
+        li.appendChild(descriptionEld);
       }
       vdfitem.appendChild(li);
       return vdfitem;
