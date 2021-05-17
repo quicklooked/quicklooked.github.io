@@ -597,13 +597,13 @@ video.video {
 }
 
 .view-play .main .tab-menu li.tab.active a span {
-  font-weight: 600 !important;
-  font-size: 17px;
+  font-weight: 700 !important;
+  font-size: 16px;
   line-height: 1.52947
 }
 
 .view-play .main .tab-menu li.tab a span {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.52947
 }
 
