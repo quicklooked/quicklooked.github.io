@@ -609,10 +609,7 @@ twitterAuthor: "@TheEconomist"
                   (function(window, videojs) {
                       var player051420211521 = videojs('player-051420211521');
                       player051420211521.responsive(true);
-                      require(['video.js', 'videojs-landscape-fullscreen'], function(videojs) {
-                        var player051420211521 = videojs('player-051420211521');
-                        player051420211521.landscapeFullscreen();
-                      });
+                      player051420211521.landscapeFullscreen();
                       player051420211521.hotkeys(true);
                       player051420211521.seekButtons({
                         forward: 10,
