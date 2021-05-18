@@ -414,7 +414,6 @@ twitterAuthor: "@TheEconomist"
                           <section class="column large-10 small-12 padding-top-small padding-bottom-small large-centered">
                             <video id="player-051320210352" class="video-js vjs-big-play-centered vjs-16-9 vjs-controls-enabled vjs-workinghover vjs-v7 vjs-user-active preview-player-dimensions vjs-mux" preload="none" width="100%" height="100%" controls poster="https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5_960x540.jpg">
                               <source id='video-source' src="https://r2---sn-ogul7nll.c.drive.google.com/videoplayback?expire=1621348774&ei=ZpmjYMbRIsLeuwXMg6o4&ip=1.52.38.1&cp=QVRHU0RfV1dVRVhPOmVJUGdoMnNFNk94cEhtODVFbEg4UmsycHdjZVZQRGt1NGFONUhmWVduN1E&id=1d9d793cd1cd2dc2&itag=22&source=webdrive&requiressl=yes&mh=Tq&mm=32&mn=sn-ogul7nll&ms=su&mv=m&mvi=2&pl=24&ttl=transient&susc=dr&driveid=1s_ryybkCs6Z2pPKHnZ9kI5iXmsq9Ji9l&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=10894.756&lmt=1614401309620034&mt=1621334184&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgYEygro9zslSXbUPOIjg69-VoyFX1xYHY2gyKjTEloVwCIQC6OclBo_gGTLHAVV32ce7XOaoakfE2InfWDvR-LdtRug==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAMo6GU04vAsYu49C46kzuTldz9qHRP3_Uqd99kdblHQWAiAsUIBhOejCs0ZAFGlH-SDBzIivez_woPciIuZeb98LQA==&cpn=9TZC7bg8vpAikPGT&c=WEB_EMBEDDED_PLAYER&cver=1.20210516.0.0" type="video/mp4">
-                              <track kind="subtitles" label="English" src="https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt" srclang="en">
                             </video>
                             <script>
                               var player051320210352 = videojs('player-051320210352');
@@ -426,15 +425,6 @@ twitterAuthor: "@TheEconomist"
                                 back: 10
                               });
                               player051320210352.brand({});
-                              player051320210352.ready(function() {
-                                var options = {
-                                  showTitle: false,
-                                  showTrackSelector: false
-                                };
-                                var transcript = this.transcript(options);
-                                var transcriptContainer = document.querySelector('#transcriptShow-051320210352');
-                                transcriptContainer.appendChild(transcript.el());
-                              });
 
                               function openVideo_051320210352() {
                                 if(document.getElementById("openId-051320210352").ariaLabel == "open") {
@@ -465,10 +455,12 @@ twitterAuthor: "@TheEconomist"
                             <li class="supplement details active" data-supplement-id="details" id="details-051320210352">
                               <h1>Four Ways to Stop Chrome From Slowing Down Your Computer</h1>
                               <p>Is your web browsing slow and battery draining? WSJ's Joanna Stern explains how to stop Google’s popular browser from hogging all your computer's RAM and resources. (Guest starring Safari, Firefox and Edge.)<br>Photo illustration: Zoe Soriano for The Wall Street Journal</p>
+                              <div class="divider-top margin-top-small padding-bottom-small"></div>
                               <h2>Resources</h2>
                               <ul class="links small">
                                 <li class="developerForum"><a href="" target="_blank">Search the sites for tag browsers</a></li>
                                 <li class="document"><a href="" target="_blank">iOS Human Interface Guidelines</a></li>
+                                <li class="video"><a href="">Create quick interactions with Shortcuts on watchOS</a></li>
                                 <li class="download">
                                   <ul class="options">
                                     <li><a href="https://devstreaming-cdn.apple.com/videos/wwdc/2020/10086/3/F5DA137E-B1E5-4180-96CC-2D6680E5996E/wwdc2020_10086_hd.mp4?dl=1">HD Video</a></li>
@@ -476,23 +468,10 @@ twitterAuthor: "@TheEconomist"
                                   </ul>
                                 </li>
                               </ul>
-                              <div class="divider-top margin-top-small padding-bottom-small"></div>
-                              <h2>Related Videos</h2>
-                              <h4>WWDC 2020</h4>
-                              <ul class="links small">
-                                <li class="video"><a href="">Add configuration and intelligence to your widgets</a></li>
-                                <li class="video"><a href="">Broaden your reach with Siri Event Suggestions</a></li>
-                                <li class="video"><a href="">Create quick interactions with Shortcuts on watchOS</a></li>
-                              </ul>
-                              <h4>Tech Talks</h4>
-                              <ul class="links small">
-                                <li class="video"><a href="">Designing for Subscription Success</a></li>
-                              </ul>
                             </li>
                             <li class="supplement transcript" data-supplement-id="transcript" id="transcript-051320210352">
                               <section>
                                 <div class="margin-bottom-small download-transcript"><span id="get-transcript" class="icon icon-before icon-downloadcircle">Download</span></div>
-                                <div id="transcriptShow-051320210352"></div>
                               </section>
                             </li>
                           </ul>
