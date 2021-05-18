@@ -15,7 +15,7 @@
 }
 
 .bg-dark {
-  background: #121212
+  background: #000
 }
 
 .bg-dark .divider-top,
@@ -6817,7 +6817,7 @@ h2+.typography-body,
 }
 
 .theme-dark {
-  background-color: #121212;
+  background-color: #000;
   color: #b3b3b3
 }
 
@@ -8279,7 +8279,7 @@ pre code {
 }
 
 .bg-dark {
-  background-color: #121212;
+  background-color: #000;
   color: #fff
 }
 
