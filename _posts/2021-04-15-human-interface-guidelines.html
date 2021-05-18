@@ -640,11 +640,12 @@ twitterAuthor: "@TheEconomist"
                       player051420211521.playlist(getAwesomePlaylist());
                       player051420211521.playlistUi();
                       player051420211521.on('playlistitem', function() {
+                        var player051420211521 = videojs('player-051420211521');
                         var options = {
                           showTitle: false,
                           showTrackSelector: false
                         };
-                        var transcript = this.transcript(options);
+                        var transcript = player051420211521.transcript(options);
                         var transcriptContainer = document.querySelector('#transcriptShow-051420211521');
                         transcriptContainer.appendChild(transcript.el());
                       });
