@@ -647,7 +647,12 @@ twitterAuthor: "@TheEconomist"
                       back: 10
                     });
                     player051420211521.brand({});
-                    var transcript = player051420211521.transcript();
+                    player051420211521.ready(function() {
+                    var options = {
+                    showTitle: false,
+                    showTrackSelector: false
+                    };
+                    var transcript = this.transcript(options);
                     var transcriptContainer = document.querySelector('#transcriptShow-051420211521');
                     transcriptContainer.appendChild(transcript.el());
                     player051420211521.playlist(getAwesomePlaylist());
