@@ -1304,8 +1304,8 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   margin: 0 auto;
   padding: 20px 20px 20px 90px;
   position: absolute;
-  font-family: 'sohne';
-	height: 90px;
+  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  height: 90px;
 }
 
 .card__title-wrapper {
@@ -1324,7 +1324,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   color: white;
   display: inline;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 25px;
   text-align: left;
 }
