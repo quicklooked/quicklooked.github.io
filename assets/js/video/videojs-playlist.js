@@ -100,7 +100,6 @@
     var tracks = player.remoteTextTracks();
     var i = tracks && tracks.length || 0; // This uses a `while` loop rather than `forEach` because the
     // `TextTrackList` object is a live DOM list (not an array).
-
     while (i--) {
       player.removeRemoteTextTrack(tracks[i]);
     }
@@ -129,6 +128,7 @@
 
     player.poster(item.poster || '');
     player.src(item.sources);
+    player.addRemoteTextTrack(item.track);
     clearTracks(player);
     player.ready(function () {
       (item.textTracks || []).forEach(player.addRemoteTextTrack.bind(player));
