@@ -615,12 +615,11 @@ twitterAuthor: "@TheEconomist"
                         forward: 10,
                         back: 10
                       });
-                      var overrideNative = false;
                       player051420211521.html5({
-                        hls: {overrideNative: overrideNative},
-                        nativeVideoTracks: !overrideNative,
-                        nativeAudioTracks: !overrideNative,
-                        nativeTextTracks: !overrideNative
+                        hls: {overrideNative: false},
+                        nativeVideoTracks: true,
+                        nativeAudioTracks: true,
+                        nativeTextTracks: true
                       });
                       player051420211521.brand({});
                       player051420211521.playlist(getAwesomePlaylist());
