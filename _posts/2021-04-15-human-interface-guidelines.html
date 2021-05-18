@@ -607,6 +607,17 @@ twitterAuthor: "@TheEconomist"
                   </div>
                   <script>
                   (function(window, videojs) {
+                      var overrideNative = false;
+                      var player051420211521 = videojs('player-051420211521', {
+                        html5: {
+                          hls: {
+                            overrideNative: overrideNative
+                          },
+                          nativeVideoTracks: !overrideNative,
+                          nativeAudioTracks: !overrideNative,
+                          nativeTextTracks: !overrideNative
+                        }
+                      });
                       var player051420211521 = videojs('player-051420211521');
                       player051420211521.responsive(true);
                       player051420211521.landscapeFullscreen();
