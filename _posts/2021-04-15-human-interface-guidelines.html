@@ -618,7 +618,7 @@ twitterAuthor: "@TheEconomist"
                             <li class="supplement transcript" data-supplement-id="transcript" id="transcript-051420211521">
                               <section>
                                 <div class="margin-bottom-small download-transcript"><span id="get-transcript" class="icon icon-before icon-downloadcircle">Download</span></div>
-                                <div id="transcriptShow-051420211521"></div>
+                                <div id="capshow_051420211521"></div>
                               </section>
                             </li>
                           </ul>
@@ -641,14 +641,14 @@ twitterAuthor: "@TheEconomist"
                       player051420211521.playlistUi();
                       player051420211521.on('playlistitem', function() {
                         var player051420211521 = videojs('player-051420211521');
-                        var transcriptContainer = document.querySelector("#transcriptShow-051420211521");
-                        transcriptShow-051420211521.innerHTML = "";
+                        var transcriptContainer = document.querySelector("#capshow_051420211521");
+                        capshow_051420211521.innerHTML = "";
                         var options = {
                           showTitle: false,
                           showTrackSelector: false
                         };
                         var transcript = player051420211521.transcript(options);
-                        transcript.id = "transcriptShow-051420211521";
+                        transcript.id = "capshow_051420211521";
                         transcriptContainer.appendChild(transcript.el());
                       });
                       }(window, window.videojs));
