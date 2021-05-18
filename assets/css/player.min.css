@@ -898,7 +898,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   display: flex !important;
   align-items: center;
   color: #fff;
-  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: circular, 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   position: absolute;
