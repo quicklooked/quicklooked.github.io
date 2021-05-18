@@ -128,7 +128,6 @@
 
     player.poster(item.poster || '');
     player.src(item.sources);
-    player.addRemoteTextTrack(item.track);
     clearTracks(player);
     player.ready(function () {
       (item.textTracks || []).forEach(player.addRemoteTextTrack.bind(player));
