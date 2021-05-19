@@ -2,21 +2,21 @@ function getAwesomePlaylist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/hls/manifest-hd-wifi.m3u8',
+      src: 'https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8',
       type: 'application/x-mpegURL'
     }],
     textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt", "srclang":"en" } ],
-    name: 'Quit Chrome. Safari and Edge Are Just Better Browsers for You and Your Computer.',
-    duration: '240',
+    name: 'The Costs and Benefits of a $15 Federal Minimum Wage',
+    duration: '503',
     date: 'May 14',
-    description: "Is your web browsing slow and battery draining? WSJ\'s Joanna Stern explains how to stop Google’s popular browser from hogging all your computer\'s RAM and resources. (Guest starring Safari, Firefox and Edge.) Photo illustration: Zoe Soriano for The Wall Street Journal",
-    poster: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5_960x540.jpg',
+    description: "Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be. Photo: Bill Clark/Congressional Quarterly/Zuma Press",
+    poster: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
     thumbnail: [{
-      srcset: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5_960x540.jpg',
-      type: 'image/png',
+      srcset: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
+      type: 'image/jpg',
       media: '(width: 112px; height: 112px;)'
     }, {
-      src: 'https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5_960x540.jpg'
+      src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
     }],
   }, {
     sources: [{
