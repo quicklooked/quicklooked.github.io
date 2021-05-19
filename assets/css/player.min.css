@@ -795,9 +795,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
-  background: 0;
   color: #fff;
-  font-weight: 600
+  font-weight: 600;
+  display: list-item;
+  list-style: inside;
+  list-style-image: url(data:image/svg+xml;charset=UTF-8,%3Csvg%20id%3D%22Checkmark%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%228%22%20height%3D%2216%22%20viewBox%3D%220%200%208%2016%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3Anone%3B%7D.cls-2%7Bfill%3A%23fff%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctitle%3Echeckmark%3C%2Ftitle%3E%3Crect%20id%3D%22Bounding-Box%22%20class%3D%22cls-1%22%20width%3D%228%22%20height%3D%2216%22%2F%3E%3Cg%20id%3D%22Icon%22%3E%3Cpath%20class%3D%22cls-2%22%20d%3D%22M2.76%2C11.69.86%2C9.33A.72.72%2C0%2C0%2C1%2C.7%2C8.9a.53.53%2C0%2C0%2C1%2C.53-.55.6.6%2C0%2C0%2C1%2C.51.28l1.58%2C2L6.41%2C5.74a.57.57%2C0%2C0%2C1%2C.48-.32.54.54%2C0%2C0%2C1%2C.56.51.83.83%2C0%2C0%2C1-.17.44L3.91%2C11.68a.67.67%2C0%2C0%2C1-.56.32A.74.74%2C0%2C0%2C1%2C2.76%2C11.69Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
