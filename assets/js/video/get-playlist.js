@@ -20,21 +20,21 @@ function getAwesomePlaylist() {
     }],
   }, {
     sources: [{
-      src: 'https://m.wsj.net/video/20210504/040421yellenecon/hls/manifest-hd-wifi.m3u8',
+      src: 'https://m.wsj.net/video/20210104/010521nio2/hls/manifest-hd-wifi.m3u8',
       type: 'application/x-mpegURL'
     }],
-    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20210504/040421yellenecon/040421yellenecon.en_US.vtt", "srclang":"en" } ],
-    name: 'Treasury Secretary Yellen Doesn\'t Anticipate Inflation to Be a Problem',
-    duration: '87',
+    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt", "srclang":"en" } ],
+    name: 'Tesla vs. NIO: Battle for the World’s Largest EV Market',
+    duration: '388',
     date: 'May 17',
-    description: "At The Wall Street Journal\'s CEO Council Summit, Janet Yellen expressed her confidence that the U.S. economy and employment will return to normal by next year.",
-    poster: 'https://m.wsj.net/video/20210504/040421yellenecon/040421yellenecon_960x540.jpg',
+    description: "Gone are the long waits at charging stations: Chinese electric-vehicle startup NIO is pioneering battery-swap systems, challenging Tesla and other rival car makers. Here’s how NIO and Tesla are racing for the world’s largest EV market in China. Photo illustration: Sharon Shi",
+    poster: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg',
     thumbnail: [{
-      srcset: 'https://m.wsj.net/video/20210504/040421yellenecon/040421yellenecon_960x540.jpg',
-      type: 'image/png',
+      srcset: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg',
+      type: 'image/jpg',
       media: '(width: 112px; height: 112px;)'
     }, {
-      src: 'https://m.wsj.net/video/20210504/040421yellenecon/040421yellenecon_960x540.jpg'
+      src: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg'
     }],
   }, {
     sources: [{
