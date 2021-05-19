@@ -5,7 +5,7 @@ function getAwesomePlaylist() {
       src: 'https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8',
       type: 'application/x-mpegURL'
     }],
-    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20200710/20200710chromeyfc5/20200710chromeyfc5.en_US.vtt", "srclang":"en" } ],
+    textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt", "srclang":"en" } ],
     name: 'The Costs and Benefits of a $15 Federal Minimum Wage',
     duration: '503',
     date: 'May 14',
