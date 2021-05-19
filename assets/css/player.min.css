@@ -797,7 +797,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
   background: 0;
   color: #fff;
-  font-weight: 700
+  font-weight: 600
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
