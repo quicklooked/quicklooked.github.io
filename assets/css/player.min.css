@@ -1999,3 +1999,7 @@ p.vdx+p:before {
   height: 100%;
   width: 100%;
 }
+
+.vjs-menu-item-text > span[innertext='captions off'] {
+	content: 'off';
+}
