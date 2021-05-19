@@ -482,11 +482,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
   right: 0;
   height: 100%;
   z-index: 7;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .video-js .vjs-text-track-display>div>div>div {
-  background: transparent !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  font-weight: 600;
+  padding: 2px;
+  font-family: sgtb text, Helvetica, Arial, sans-serif !important;
 }
 
 .vjs-scrubbing.video-js .vjs-text-track-display,
