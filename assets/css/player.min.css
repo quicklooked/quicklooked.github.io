@@ -2001,5 +2001,9 @@ p.vdx+p:before {
 }
 
 .vjs-menu-item-text > span[innertext='captions off'] {
-	content: 'off';
+  display: none;
+}
+
+.vjs-menu-item-text > span[innertext='captions off']:after {
+  content: 'off';
 }
