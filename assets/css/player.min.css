@@ -738,31 +738,48 @@ li.vjs-menu-item.vjs-texttrack-settings {
   z-index: 11
 }
 
+.vjs-menu-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.vjs-menu-content::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.vjs-menu-content::-webkit-scrollbar-track {
+  background-color: #515154;
+  border-radius: 16px;
+}
+
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
   bottom: 4em;
-  padding: 10px 16px 10px 16px;
-  border-radius: 4px;
-  left: 1%;
+  left: -4%;
   transform: translateX(-50%);
   -webkit-app-region: no-drag;
-  background-color: #282828;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 16px 24px rgb(0 0 0 / 30%), 0 6px 8px rgb(0 0 0 / 20%);
-  box-shadow: 0 16px 24px rgb(0 0 0 / 30%), 0 6px 8px rgb(0 0 0 / 20%);
-  max-height: calc(250px - 24px);
+  max-height: calc(250px - 21px);
   overflow-y: auto;
+  font-family: sgtb text, Helvetica, Arial, sans-serif;
+  background-color: rgba(29, 29, 31, 0.56);
+  border-radius: 8px;
+  position: absolute;
+  padding: 15px 0px 16px 15px;
+  max-width: 100%;
+  pointer-events: all;
+  -webkit-transition: opacity 0.5s ease, visibility 0s ease 0.5s;
+  overflow-x: hidden;
 }
 
 .vjs-menu li {
   list-style: none;
   padding-right: 16px;
   margin: 0;
-  padding: 5px 0 0 0;
-  line-height: 16px;
+  padding: 0;
+  line-height: 21px;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: circular, 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sgtb text, Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 14px;
   text-transform: capitalize;
