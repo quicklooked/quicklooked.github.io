@@ -26,7 +26,7 @@ function getAwesomePlaylist() {
     textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20210504/040421yellenecon/040421yellenecon.en_US.vtt", "srclang":"en" } ],
     name: 'Treasury Secretary Yellen Doesn\'t Anticipate Inflation to Be a Problem',
     duration: '87',
-    date: 'May 14',
+    date: 'May 17',
     description: "At The Wall Street Journal\'s CEO Council Summit, Janet Yellen expressed her confidence that the U.S. economy and employment will return to normal by next year.",
     poster: 'https://m.wsj.net/video/20210504/040421yellenecon/040421yellenecon_960x540.jpg',
     thumbnail: [{
@@ -44,7 +44,7 @@ function getAwesomePlaylist() {
     textTracks:[ { "kind":"subtitles", "label":"English", "src":"https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt", "srclang":"en" } ],
     name: 'How Vulnerable Is U.S. Energy Infrastructure to Future Cyberattacks?',
     duration: '352',
-    date: 'May 14',
+    date: 'May 19',
     description: "A cyberattack on the U.S.’s largest fuel pipeline on May 7 forced a shutdown that triggered a spike in gas prices and shortages in parts of the Southeast. WSJ explains just how vulnerable the nation’s critical energy infrastructure is to attack. Photo illustration: Liz Ornitz/WSJ",
     poster: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
     thumbnail: [{
