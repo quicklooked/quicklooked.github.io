@@ -2007,3 +2007,7 @@ p.vdx+p:before {
 .vjs-menu-item-text > span[innertext='captions off']:after {
   content: 'off';
 }
+
+span.vjs-menu-item-text:hover {
+  text-decoration: underline;
+}
