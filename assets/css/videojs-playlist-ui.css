@@ -21789,3 +21789,8 @@ a.transcript-text.sentence:hover {
 p+*, ul+*, ol+* {
   margin-top: 0.6em;
 }
+
+a.transcript-text.sentence:focus {
+  outline: 4px solid rgba(41, 41, 41, 0.6);
+  outline-offset: 1px;
+}
