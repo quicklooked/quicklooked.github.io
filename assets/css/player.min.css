@@ -366,7 +366,7 @@
   margin: 0 0 10px;
   display: block;
   font-size: 1.4285714285714286rem;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -1324,7 +1324,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   margin: 0 auto;
   padding: 20px 20px 20px 90px;
   position: absolute;
-  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-family: sohne, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
   height: 90px;
 }
 
@@ -1344,7 +1344,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   color: white;
   display: inline;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 25px;
   text-align: left;
 }
@@ -1487,8 +1487,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 
 .vde {
   font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -.04em;
+  font-weight: 600;
   line-height: 28px;
   text-transform: none
 }
@@ -1762,7 +1761,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 
 .vdr {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
   letter-spacing: normal;
   line-height: 24px;
   text-transform: none
@@ -1791,7 +1790,6 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 .vdu {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: normal;
   line-height: 16px;
   text-transform: none
 }
@@ -1870,7 +1868,7 @@ p.vdx+p:before {
   display: -ms-flexbox;
   display: flex;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   height: var(--size);
   justify-content: center;
   letter-spacing: 1.76px;
@@ -1979,7 +1977,6 @@ p.vdx+p:before {
 .vdai {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: normal;
   line-height: 16px;
   text-transform: none
 }
@@ -1989,7 +1986,7 @@ p.vdx+p:before {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
-  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .vdak {
