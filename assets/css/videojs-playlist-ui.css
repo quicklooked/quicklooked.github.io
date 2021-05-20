@@ -2475,7 +2475,7 @@ svg {
   }
 }
 
-.row {
+.rowv {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin: 0 -8px -8px 0
@@ -2489,7 +2489,7 @@ svg {
   border-width: 0 8px 8px 0
 }
 
-.row {
+.rowv {
   margin: 0 -12px -12px 0
 }
 
@@ -2498,7 +2498,7 @@ svg {
 }
 
 @media (min-width:480px) {
-  .row {
+  .rowv {
     margin: 0 -16px -16px 0
   }
 
@@ -2508,7 +2508,7 @@ svg {
 }
 
 @media (min-width:768px) {
-  .row {
+  .rowv {
     margin: 0 -16px -16px 0
   }
 
@@ -2518,7 +2518,7 @@ svg {
 }
 
 @media (min-width:1024px) {
-  .row {
+  .rowv {
     margin: 0 -16px -16px 0
   }
 
@@ -2528,7 +2528,7 @@ svg {
 }
 
 @media (min-width:1280px) {
-  .row {
+  .rowv {
     margin: 0 -16px -16px 0
   }
 
@@ -2538,7 +2538,7 @@ svg {
 }
 
 @media (min-width:1366px) {
-  .row {
+  .rowv {
     margin: 0 -16px -16px 0
   }
 
@@ -2548,7 +2548,7 @@ svg {
 }
 
 @media (min-width:1680px) {
-  .row {
+  .rowv {
     margin: 0 -16px -16px 0
   }
 
@@ -6266,7 +6266,7 @@ svg {
 }
 
 .VideoInfo__videoInfo___1hXuw,
-.VideoInfo__videoInfo___1hXuw .row {
+.VideoInfo__videoInfo___1hXuw .rowv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6275,7 +6275,7 @@ svg {
   -webkit-box-direction: normal
 }
 
-.VideoInfo__videoInfo___1hXuw .row {
+.VideoInfo__videoInfo___1hXuw .rowv {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   -ms-flex-flow: column nowrap;
@@ -6285,7 +6285,7 @@ svg {
   scrollbar-width: none
 }
 
-.VideoInfo__videoInfo___1hXuw .row::-webkit-scrollbar {
+.VideoInfo__videoInfo___1hXuw .rowv::-webkit-scrollbar {
   display: none
 }
 
