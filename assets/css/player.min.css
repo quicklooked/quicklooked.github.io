@@ -1787,9 +1787,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 }
 
 .vdu {
-  font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
   text-transform: none
 }
 
@@ -1973,10 +1971,18 @@ p.vdx+p:before {
 }
 
 .vdai {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  text-transform: none
+  text-transform: none;
+  position: relative;
+  bottom: 0;
+  right: 38px;
+  display: block;
+  padding: 5px 6px;
+  background: #000;
+  background-color: rgba(0,0,0,0.7);
+  color: #ffffff;
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 1;
 }
 
 .vdaj {
