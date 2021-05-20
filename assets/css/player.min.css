@@ -1767,7 +1767,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 }
 
 .vdt {
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   display: -webkit-box;
   margin: 12px 0;
