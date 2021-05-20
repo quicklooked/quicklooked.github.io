@@ -21787,7 +21787,7 @@ a.transcript-text.sentence:hover {
 }
 
 p+*, ul+*, ol+* {
-  margin-top: 0.6em;
+  margin-top: 0.6em !important;
 }
 
 a.transcript-text.sentence:focus {
