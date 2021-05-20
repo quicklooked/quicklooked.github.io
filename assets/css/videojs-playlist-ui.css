@@ -2397,15 +2397,6 @@ body {
   box-sizing: inherit
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 500
-}
-
 a {
   text-decoration: none
 }
@@ -2799,7 +2790,7 @@ svg {
     order: 6
   }
 
-  .small-6 {
+  .small-66 {
     grid-column: span 6
   }
 }
@@ -2979,7 +2970,7 @@ svg {
     order: 4
   }
 
-  .medium-4 {
+  .medium-44 {
     grid-column: span 4
   }
 }
