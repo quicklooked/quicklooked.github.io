@@ -166,7 +166,7 @@
         duration.appendChild(document.createTextNode(time));
         durations.appendChild(dates);
         durations.appendChild(duration);
-        durationstime.appendChild(durations);
+        picture.appendChild(durations);
         var vdy = document.createElement('div');
         var vdybnt = document.createElement('button');
         vdy.className = 'vdy';
