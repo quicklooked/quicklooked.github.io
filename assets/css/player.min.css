@@ -1929,7 +1929,8 @@ p.vdx+p:before {
 
 .vdae.vdaf {
   background-color: #fff;
-  color: #121212
+  color: #121212;
+  display: none;
 }
 
 .vdae._2334924a07cf1f0cbf99147a66ecad10-scss {
