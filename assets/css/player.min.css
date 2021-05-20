@@ -872,7 +872,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder:hover {
-  height: 8px;
+  height: 4px;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-load-progress {
