@@ -6942,8 +6942,8 @@ svg {
   line-height: 2.2;
   letter-spacing: .9px;
   text-align: center;
-  text-transform: uppercase;
-  font-stretch: normal
+  font-stretch: normal;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .GenericCard__logo___2YleC {
