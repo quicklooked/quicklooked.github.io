@@ -21770,3 +21770,22 @@ input[type=checkbox] {
   display: inline-block;
   margin: 0 0 30px
 }
+
+.transcript-body {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  color: #757575;
+}
+
+a.transcript-text.sentence {
+  cursor: pointer;
+  width: fit-content;
+}
+
+a.transcript-text.sentence:hover {
+  color: #292929;
+}
+
+p+*, ul+*, ol+* {
+  margin-top: 0.6em;
+}
