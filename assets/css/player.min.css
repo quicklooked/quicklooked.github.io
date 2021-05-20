@@ -1974,6 +1974,7 @@ p.vdx+p:before {
 .vdai {
   text-transform: none;
   position: relative;
+  border-radius: 4px;
   bottom: 6px;
   right: 80px;
   display: block;
