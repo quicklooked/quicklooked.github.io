@@ -598,12 +598,12 @@ video.video {
 
 .view-play .main .tab-menu li.tab.active a span {
   font-weight: 600 !important;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.52947
 }
 
 .view-play .main .tab-menu li.tab a span {
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.52947
 }
 
@@ -755,7 +755,7 @@ video.video {
 
 .view-play .main .supplements .details h1 {
   margin-bottom: 0.35em;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.1;
   letter-spacing: -.003em
 }
@@ -11311,6 +11311,7 @@ select.transcript-selector {
   font-size: 16px;
   line-height: 1.47059;
   color: #b3b3b3;
+  font-wright: 100;
   font-family: Retina, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
   min-height: 100vh;
 }
