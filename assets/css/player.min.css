@@ -1651,10 +1651,18 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 }
 
 .vdi .vdj .vdl {
-  height: 114px;
+  height: 141px;
   margin: 0 24px 0 0;
-  width: 114px
+  width: 250px
 }
+
+@media only screen and (max-width: 735px) {
+  .vdi .vdj .vdl {
+    width: 160px;
+    height: 90px;
+  }
+}
+
 
 [dir=rtl] .vdi .vdj .vdl {
   margin: 0 0 0 24px
@@ -1675,7 +1683,7 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
 
 ._26ec9b0c13497f779e4616724f5de18b-scss .vdq,
 .vdi .vdq {
-  line-height: 24px
+  line-height: 25px
 }
 
 ._26ec9b0c13497f779e4616724f5de18b-scss .vdy,
@@ -1975,7 +1983,7 @@ p.vdx+p:before {
   text-transform: none;
   position: relative;
   border-radius: 4px;
-  bottom: 6px;
+  bottom: 8px;
   right: 80px;
   display: block;
   padding: 5px 6px;
