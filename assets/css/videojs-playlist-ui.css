@@ -3177,7 +3177,7 @@ svg {
     order: 3
   }
 
-  .large-3 {
+  .large-33 {
     grid-column: span 3
   }
 }
@@ -3375,7 +3375,7 @@ svg {
     order: 2
   }
 
-  .xlarge-2 {
+  .xlarge-22 {
     grid-column: span 2
   }
 }
