@@ -598,13 +598,12 @@ video.video {
 
 .view-play .main .tab-menu li.tab.active a span {
   font-weight: 600 !important;
-  letter-spacing: -.04em;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.52947
 }
 
 .view-play .main .tab-menu li.tab a span {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.52947
 }
 
