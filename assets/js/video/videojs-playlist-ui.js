@@ -152,11 +152,6 @@
         var durations = document.createElement('div');
         var duration = document.createElement('p');
         var time = videojs.formatTime(item.duration);
-        var datesss = item.date;
-        var dates = document.createElement('p');
-        dates.className = 'vdx vdai';
-        dates.setAttribute('as', 'p');
-        dates.appendChild(document.createTextNode(datesss));
         durationstime.className = 'vdv';
         durations.className = 'vdw';
         duration.className = 'vdx vdai';
@@ -164,7 +159,6 @@
         duration.style = "margin-top: 0px !important;";
         duration.setAttribute('datetime', 'PT0H0M' + item.duration + 'S');
         duration.appendChild(document.createTextNode(time));
-        durations.appendChild(dates);
         durations.appendChild(duration);
         durationstime.appendChild(durations);
         var vdy = document.createElement('div');
