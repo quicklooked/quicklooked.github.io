@@ -54,16 +54,6 @@
     }
     var pictures = document.createElement('div');
     var picture = document.createElement('div');
-    
-    var duration = document.createElement('p');
-    var time = videojs.formatTime(item.duration);
-    duration.className = 'vdx vdai';
-    duration.setAttribute('as', 'p');
-    duration.style = "margin-top: 0px !important;";
-    duration.setAttribute('datetime', 'PT0H0M' + item.duration + 'S');
-    duration.appendChild(document.createTextNode(time));
-
-    
     pictures.className = 'vdj';
     picture.className = 'vdk vdl';
     picture.style.width = '250px';
@@ -79,7 +69,6 @@
       img.className = 'vdm vdak vdn';
       picture.appendChild(img);
       pictures.appendChild(picture);
-      pictures.appendChild(duration);
     } else {
       for(var i = 0; i < thumbnail.length - 1; i++) {
         var _variant = thumbnail[i];
@@ -102,7 +91,6 @@
       }
       picture.appendChild(_img);
       pictures.appendChild(picture);
-      pictures.appendChild(duration);
     }
     return pictures;
   };
