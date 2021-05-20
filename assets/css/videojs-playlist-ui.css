@@ -5911,6 +5911,10 @@ ul.tabs {
   display: flex;
 }
 
+li.tab.active a button {
+  font-weight: 700;
+}
+
 .ChannelLine__channelLine___2rGdC>* {
   margin-top: 8px;
   margin-bottom: 0
