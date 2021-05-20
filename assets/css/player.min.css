@@ -1809,7 +1809,6 @@ button.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   align-items: center;
-  color: hsla(0, 0%, 100%, .6);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
