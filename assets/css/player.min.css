@@ -862,7 +862,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder {
   background: rgba(255, 255, 255, .2);
-  border-radius: 0px;
+  border-radius: 2px;
   height: 4px;
   -webkit-transition: height .2s ease;
   -o-transition: height .2s ease;
