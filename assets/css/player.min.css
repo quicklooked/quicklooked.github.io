@@ -778,7 +778,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: sgtb text, Helvetica, Arial, sans-serif;
+  font-family: sohne, sgtb text, Helvetica, Arial, sans-serif;
   text-align: left;
   font-size: 14px;
   text-transform: capitalize;
@@ -915,7 +915,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   display: flex !important;
   align-items: center;
   color: #fff;
-  font-family: 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sohne, 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   position: absolute;
@@ -2011,16 +2011,4 @@ p.vdx+p:before {
   box-shadow: 0 4px 60px rgba(0, 0, 0, .5);
   height: 100%;
   width: 100%;
-}
-
-.vjs-menu-item-text > span[innertext='captions off'] {
-  display: none;
-}
-
-.vjs-menu-item-text > span[innertext='captions off']:after {
-  content: 'off';
-}
-
-span.vjs-menu-item-text:hover {
-  text-decoration: underline;
 }
