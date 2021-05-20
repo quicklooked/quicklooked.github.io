@@ -758,7 +758,7 @@ video.video {
   margin-bottom: 0.35em;
   font-size: 28px;
   line-height: 1.1;
-  letter-spacing: -.04em
+  letter-spacing: -.003em
 }
 
 .view-play .main .supplements .details h2 {
@@ -2342,12 +2342,12 @@ button:disabled {
 }
 
 a:focus {
-  outline: 4px solid rgba(29, 185, 84, 0.6);
+  outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px
 }
 
 .view-play .main .bg-dark video:focus {
-  outline: 4px solid rgba(29, 185, 84, 0.6);
+  outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px
 }
 
@@ -6259,7 +6259,7 @@ h1 {
   line-height: 1.08349;
   font-weight: 700;
   letter-spacing: -.003em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6270,7 +6270,7 @@ h1 {
     line-height: 1.1;
     font-weight: 700;
     letter-spacing: 0em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6282,7 +6282,7 @@ h1 {
     line-height: 1.125;
     font-weight: 700;
     letter-spacing: .004em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6294,7 +6294,7 @@ h2,
   line-height: 1.1;
   font-weight: 700;
   letter-spacing: 0em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6307,7 +6307,7 @@ h2,
     line-height: 1.125;
     font-weight: 700;
     letter-spacing: .004em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6321,7 +6321,7 @@ h2,
     line-height: 1.14286;
     font-weight: 700;
     letter-spacing: .007em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6330,7 +6330,7 @@ h2,
   line-height: 1.125;
   font-weight: 700;
   letter-spacing: .004em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 }
 
@@ -6340,7 +6340,7 @@ h2,
     line-height: 1.16667;
     font-weight: 700;
     letter-spacing: .009em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6518,7 +6518,7 @@ h3,
   line-height: 1.125;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6530,7 +6530,7 @@ h3,
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6543,7 +6543,7 @@ h3,
     line-height: 1.16667;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6552,7 +6552,7 @@ h3,
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: .004em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6561,7 +6561,7 @@ h3,
     line-height: 1.28583;
     font-weight: 600;
     letter-spacing: .007em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6571,7 +6571,7 @@ h3,
     line-height: 1.33341;
     font-weight: 600;
     letter-spacing: .009em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6581,7 +6581,7 @@ h4 {
   line-height: 1.16667;
   font-weight: 700;
   letter-spacing: .009em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6592,7 +6592,7 @@ h4 {
     line-height: 1.19048;
     font-weight: 700;
     letter-spacing: .011em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6602,7 +6602,7 @@ h5 {
   line-height: 1.21053;
   font-weight: 700;
   letter-spacing: .012em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .typography-body {
@@ -6832,7 +6832,7 @@ h2+.typography-body,
 
 .theme-dark a,
 .theme-dark .link {
-  color: #1db954
+  color: #2997ff
 }
 
 .theme-dark .footnote a {
@@ -10390,7 +10390,7 @@ video.video {
   line-height: 1;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   float: right;
   margin-top: -3px
 }
@@ -10401,7 +10401,7 @@ video.video {
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -10411,7 +10411,7 @@ video.video {
     line-height: 1;
     font-weight: 400;
     letter-spacing: -.02em;
-    font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
     padding-top: 0;
     margin-top: 0;
     width: 100%
@@ -11004,7 +11004,7 @@ video.video {
   line-height: 1.14286;
   font-weight: 700;
   letter-spacing: .011em;
-  font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   cursor: default;
   display: block;
   float: left;
@@ -11020,7 +11020,7 @@ video.video {
     line-height: 1.26316;
     font-weight: 700;
     letter-spacing: .012em;
-    font-family: circular, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -11030,7 +11030,7 @@ video.video {
     line-height: 1.41184;
     font-weight: 700;
     letter-spacing: -.022em;
-    font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 
   .localnav.localnav-stacked .localnav-title {
@@ -11053,7 +11053,7 @@ video.video {
 .localnav-title a {
   display: flex;
   flex-direction: column-reverse;
-  letter-spacing: -.04em;
+  letter-spacing: .011em;
   line-height: inherit;
   margin: 0;
   text-decoration: none;
@@ -11313,13 +11313,13 @@ select.transcript-selector {
   font-size: 16px;
   line-height: 1.47059;
   color: #b3b3b3;
-  font-family: circular, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
   min-height: 100vh;
 }
 
 .theme-dark .localnav .localnav-menu-link:active,
 .localnav.theme-dark .localnav-menu-link:active {
-  outline: 4px solid rgba(29, 185, 84, 0.6);
+  outline: 4px solid rgba(0, 125, 250, 0.6);
   outline-offset: 1px;
 }
 
