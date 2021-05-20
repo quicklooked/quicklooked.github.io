@@ -1564,8 +1564,8 @@ header.ResponsiveHeader__container___3dy6u {
 }
 
 .Button__button___1_jXM:active:not(.Button__disabled___2LGv2) {
-  border-color: #dadada;
-  background-color: #dadada
+  border-color: transparent;
+  background-color: transparent;
 }
 
 .Button__button___1_jXM.Button__noIcon___3Cnw- {
