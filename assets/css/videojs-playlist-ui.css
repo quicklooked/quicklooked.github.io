@@ -5769,17 +5769,17 @@ svg {
 }
 
 .TextButton__button___27kgW {
-  color: #7e7e7e;
-  font-family: Retina, Arial, Helvetica, sans-serif;
+  color: #757575;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 1.5;
   display: block;
   padding: 0;
   border: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .TextButton__button___27kgW,
@@ -6459,11 +6459,11 @@ svg {
 
 .VideoInfoDescription__descriptionReadMoreLink___18aWT,
 .VideoInfoDescription__descriptionText___3wvx1 {
-  color: #7e7e7e;
-  font-family: Retina, Arial, Helvetica, sans-serif;
+  color: #757575;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-weight: 100;
-  line-height: 1.42
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .VideoInfoDescription__videoInfoDescription___1avHH {
@@ -6483,8 +6483,6 @@ svg {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  font-size: 16px;
-  line-height: 1.625
 }
 
 .VideoInfoDescription__descriptionText___3wvx1.VideoInfoDescription__placeholder___12Tez {
