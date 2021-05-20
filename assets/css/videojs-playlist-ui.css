@@ -5886,7 +5886,7 @@ svg {
 
 @media (min-width:480px) {
   .ChannelLine__channelLine___2rGdC {
-    margin-top: -14px
+    margin-top: 0
   }
 }
 
@@ -5903,6 +5903,14 @@ svg {
   }
 }
 
+li.tab {
+  display: flex;
+}
+
+ul.tabs {
+  display: flex;
+}
+
 .ChannelLine__channelLine___2rGdC>* {
   margin-top: 8px;
   margin-bottom: 0
@@ -5910,7 +5918,7 @@ svg {
 
 @media (min-width:480px) {
   .ChannelLine__channelLine___2rGdC {
-    margin-bottom: -8px
+    margin-bottom: 0px
   }
 
   .ChannelLine__channelLine___2rGdC>* {
@@ -5920,7 +5928,7 @@ svg {
 
 @media (min-width:1024px) {
   .ChannelLine__channelLine___2rGdC {
-    margin-bottom: -14px
+    margin-bottom: 0px
   }
 
   .ChannelLine__channelLine___2rGdC>* {
