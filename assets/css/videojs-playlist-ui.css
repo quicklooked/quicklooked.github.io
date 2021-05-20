@@ -21860,6 +21860,10 @@ ul.links.small>li {
   color: #757575;
 }
 
+ul.links.small {
+  padding-top: 2em;
+}
+
 ul.links.small>li.document,
 ul.links.small>li.file,
 ul.links.small>li.pdf,
