@@ -6255,9 +6255,9 @@ a:hover .thumbnail .thumbnail-copy,
 h1 {
   font-size: 48px;
   line-height: 1.08349;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: -.003em;
-  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Retina, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -6266,9 +6266,9 @@ h1 {
   h1 {
     font-size: 40px;
     line-height: 1.1;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 0em;
-    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Retina, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6278,9 +6278,9 @@ h1 {
   h1 {
     font-size: 32px;
     line-height: 1.125;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: .004em;
-    font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Retina, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
   }
 }
 
@@ -6290,9 +6290,9 @@ h2,
 .typography-section-headline {
   font-size: 40px;
   line-height: 1.1;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 0em;
-  font-family: sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Retina, sgtb display, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -7682,7 +7682,7 @@ ul.links>li.video-play {
 
 ul.links.small>li {
   font-size: 1em;
-  font-weight: 400;
+  font-weight: 100;
   margin-bottom: 0.263em;
   padding-left: 28px;
   background-size: 19px 19px;
@@ -11307,11 +11307,11 @@ select.transcript-selector {
 }
 
 .view-play.theme-dark {
-  letter-spacing: -.022em;
-  font-size: 17px;
+  letter-spacing: 0em;
+  font-size: 16px;
   line-height: 1.47059;
   color: #b3b3b3;
-  font-family: sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+  font-family: Retina, sgtb text, sgtb icon, Helvetica Neue, Helvetica, Arial, sans-serif !important;
   min-height: 100vh;
 }
 
