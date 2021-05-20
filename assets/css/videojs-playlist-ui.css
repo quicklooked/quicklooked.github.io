@@ -5916,6 +5916,10 @@ li.tab.active a button {
   color: #292929;
 }
 
+.supplements .supplement:not(.active) {
+  display: none
+}
+
 .ChannelLine__channelLine___2rGdC>* {
   margin-top: 8px;
   margin-bottom: 8px
