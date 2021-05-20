@@ -1974,8 +1974,8 @@ p.vdx+p:before {
 .vdai {
   text-transform: none;
   position: relative;
-  bottom: 0;
-  right: 38px;
+  bottom: 6px;
+  right: 80px;
   display: block;
   padding: 5px 6px;
   background: #000;
@@ -1984,6 +1984,12 @@ p.vdx+p:before {
   font-size: 0.7em;
   font-weight: 700;
   line-height: 1;
+}
+
+@media only screen and (max-width: 735px) {
+  .vdai {
+    bottom: -10px;
+  }
 }
 
 .vdaj {
