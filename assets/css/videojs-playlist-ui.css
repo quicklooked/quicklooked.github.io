@@ -1549,12 +1549,16 @@ header.ResponsiveHeader__container___3dy6u {
   align-items: center;
   border: 0px solid;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   -webkit-transition: .2s;
   transition: .2s;
   cursor: pointer;
   outline: none;
+}
+
+.Button__button___1_jXM.Button__small___TGwIO.Button__secondary___23Z--.active {
+  font-weight: 500;
 }
 
 .Button__button___1_jXM svg {
