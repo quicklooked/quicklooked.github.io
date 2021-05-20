@@ -48,7 +48,6 @@ _:-ms-lang(x) {
   .Button__button___3e-04 {
     border: 2px solid #e6e6e6;
     border-radius: 3px;
-    background-color: #fff
   }
 }
 
@@ -1202,8 +1201,7 @@ header.ResponsiveHeader__container___3dy6u {
   padding: 8px 12px;
   border: none;
   border-radius: 1000px;
-  color: #000;
-  background: #fff;
+  color: #fff;
   font-weight: 500;
   line-height: 1;
 }
