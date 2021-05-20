@@ -56,8 +56,6 @@
     var picture = document.createElement('div');
     pictures.className = 'vdj';
     picture.className = 'vdk vdl';
-    picture.style.width = '250px';
-    picture.style.height = '141px';
     if(typeof thumbnail === 'string') {
       var img = document.createElement('img');
       img.ariaHidden = true;
