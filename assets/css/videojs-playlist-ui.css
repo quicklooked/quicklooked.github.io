@@ -2397,6 +2397,15 @@ body {
   box-sizing: inherit
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500
+}
+
 a {
   text-decoration: none
 }
@@ -2466,7 +2475,7 @@ svg {
   }
 }
 
-.rowv {
+.row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   margin: 0 -8px -8px 0
@@ -2480,7 +2489,7 @@ svg {
   border-width: 0 8px 8px 0
 }
 
-.rowv {
+.row {
   margin: 0 -12px -12px 0
 }
 
@@ -2489,7 +2498,7 @@ svg {
 }
 
 @media (min-width:480px) {
-  .rowv {
+  .row {
     margin: 0 -16px -16px 0
   }
 
@@ -2499,7 +2508,7 @@ svg {
 }
 
 @media (min-width:768px) {
-  .rowv {
+  .row {
     margin: 0 -16px -16px 0
   }
 
@@ -2509,7 +2518,7 @@ svg {
 }
 
 @media (min-width:1024px) {
-  .rowv {
+  .row {
     margin: 0 -16px -16px 0
   }
 
@@ -2519,7 +2528,7 @@ svg {
 }
 
 @media (min-width:1280px) {
-  .rowv {
+  .row {
     margin: 0 -16px -16px 0
   }
 
@@ -2529,7 +2538,7 @@ svg {
 }
 
 @media (min-width:1366px) {
-  .rowv {
+  .row {
     margin: 0 -16px -16px 0
   }
 
@@ -2539,7 +2548,7 @@ svg {
 }
 
 @media (min-width:1680px) {
-  .rowv {
+  .row {
     margin: 0 -16px -16px 0
   }
 
@@ -2790,7 +2799,7 @@ svg {
     order: 6
   }
 
-  .small-66 {
+  .small-6 {
     grid-column: span 6
   }
 }
@@ -2970,7 +2979,7 @@ svg {
     order: 4
   }
 
-  .medium-44 {
+  .medium-4 {
     grid-column: span 4
   }
 }
@@ -3168,8 +3177,8 @@ svg {
     order: 3
   }
 
-  .large-33 {
-    grid-column: span 4
+  .large-3 {
+    grid-column: span 3
   }
 }
 
@@ -3366,8 +3375,8 @@ svg {
     order: 2
   }
 
-  .xlarge-22 {
-    grid-column: span 4
+  .xlarge-2 {
+    grid-column: span 2
   }
 }
 
@@ -6257,7 +6266,7 @@ svg {
 }
 
 .VideoInfo__videoInfo___1hXuw,
-.VideoInfo__videoInfo___1hXuw .rowv {
+.VideoInfo__videoInfo___1hXuw .row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6266,7 +6275,7 @@ svg {
   -webkit-box-direction: normal
 }
 
-.VideoInfo__videoInfo___1hXuw .rowv {
+.VideoInfo__videoInfo___1hXuw .row {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   -ms-flex-flow: column nowrap;
@@ -6276,7 +6285,7 @@ svg {
   scrollbar-width: none
 }
 
-.VideoInfo__videoInfo___1hXuw .rowv::-webkit-scrollbar {
+.VideoInfo__videoInfo___1hXuw .row::-webkit-scrollbar {
   display: none
 }
 
