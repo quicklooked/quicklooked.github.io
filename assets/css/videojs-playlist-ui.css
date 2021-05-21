@@ -5614,7 +5614,8 @@ svg {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
-  flex-direction: row
+  flex-direction: row;
+  cursor: pointer;
 }
 
 @media (max-width:350px) {
