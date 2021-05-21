@@ -21850,13 +21850,13 @@ ul.links.small>li {
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0.65em;
-  padding-left: 28px;
-  background-size: 19px 19px;
+  padding-left: 32px;
+  background-size: 16px 16px;
   background-position: 0 2px;
   line-height: 20px;
   min-height: 0;
   padding-top: 0;
-  font-family: 'sohne';
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;;
   color: #757575;
 }
 
