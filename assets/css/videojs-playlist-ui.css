@@ -21950,3 +21950,45 @@ ul.links.small>li.developerForum {
   background-repeat: no-repeat;
   background-image: url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Ctitle%3Ebubble%3C%2Ftitle%3E%0A%20%20%20%20%3Cg%20id%3D%22bubble%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M19.0127042%2C0.735027223%20C22.1723183%2C0.735027223%2023.90726%2C2.4384398%2023.9963847%2C5.47333964%20L24%2C5.72232305%20L24%2C14.0635209%20C24%2C17.1701213%2022.348206%2C18.9552865%2019.2657627%2C19.0470912%20L19.0127042%2C19.0508167%20L12.0217786%2C19.0508167%20L8.26497278%2C22.3938294%20C7.60072595%2C22.9818512%207.23049002%2C23.2649728%206.6969147%2C23.2649728%20C5.9823049%2C23.2649728%205.56438578%2C22.7864394%205.51493733%2C22.0357402%20L5.50998185%2C21.8820327%20L5.50998185%2C19.0508167%20L4.98729583%2C19.0508167%20C1.82768173%2C19.0508167%200.0927399691%2C17.3577278%200.00361534344%2C14.3133193%20L0%2C14.0635209%20L0%2C5.72232305%20C0%2C2.60511988%201.65179402%2C0.829999346%204.73423726%2C0.738730678%20L4.98729583%2C0.735027223%20L19.0127042%2C0.735027223%20Z%20M19.0127042%2C2.48820327%20L4.98729583%2C2.48820327%20C2.86350835%2C2.48820327%201.82590512%2C3.52363123%201.75687159%2C5.50627626%20L1.75317604%2C5.72232305%20L1.75317604%2C14.0526316%20C1.75317604%2C16.1028225%202.71754523%2C17.2190979%204.76389813%2C17.2936446%20L4.98729583%2C17.2976407%20L6.32667877%2C17.2976407%20C6.87269899%2C17.2976407%207.1088744%2C17.4948146%207.13982793%2C17.9937855%20L7.14337568%2C18.1143376%20L7.14337568%2C21.2722323%20L10.6279492%2C17.8094374%20C11.0041247%2C17.4233625%2011.2903061%2C17.3162694%2011.7973823%2C17.2999887%20L11.9564428%2C17.2976407%20L19.0127042%2C17.2976407%20C21.1259778%2C17.2976407%2022.1733698%2C16.2520614%2022.2430909%2C14.2687163%20L22.246824%2C14.0526316%20L22.246824%2C5.72232305%20C22.246824%2C3.67213217%2021.2723035%2C2.56600797%2019.2350517%2C2.49216135%20L19.0127042%2C2.48820327%20Z%22%20id%3D%22Shape%22%20fill%3D%22%23EFEFEF%22%20fill-rule%3D%22nonzero%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E") !important;
 }
+
+
+.PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__horizontalCards___1wcU-.VideoCard__playingTag___39XFp.PlayingIndicatorTag__mutedBackground___1ZYg5 {
+  display: none;
+}
+
+.vjs-up-next .PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__horizontalCards___1wcU-.VideoCard__playingTag___39XFp.PlayingIndicatorTag__mutedBackground___1ZYg5 {
+  display: flex;
+}
+
+.PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__horizontalCards___1wcU-.VideoCard__playingTag___39XFp.PlayingIndicatorTag__highlightedBackground___3UDd7 {
+  display: none;
+}
+
+.vjs-playlist-now-playing .PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__horizontalCards___1wcU-.VideoCard__playingTag___39XFp.PlayingIndicatorTag__highlightedBackground___3UDd7 {
+  display: flex;
+}
+
+.vjs-selected .PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__horizontalCards___1wcU-.VideoCard__playingTag___39XFp.PlayingIndicatorTag__highlightedBackground___3UDd7 {
+  display: flex;
+}
+
+.vjs-playlist-now-playing .PlayingIndicatorTag__videoDuration___3E0Bu {
+  color: #232323;
+  background: none;
+}
+
+.vjs-selected .PlayingIndicatorTag__videoDuration___3E0Bu {
+  color: #232323;
+  background: none;
+}
+
+.vjs-up-next .PlayingIndicatorTag__videoDuration___3E0Bu {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  padding: 2px 5px;
+  color: #fff;
+  background: rgba(35, 35, 35, .95);
+  text-align: center;
+  z-index: 3;
+}
