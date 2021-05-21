@@ -259,11 +259,20 @@
         _proto2.createPlaylist_ = function createPlaylist_() {
           var playlist = this.player_.playlist() || [];
           var list = this.el_.querySelector('.row');
-          var overlay = this.el_.querySelector('.vjs-playlist-ad-overlay');
+          var overlay = this.el_.querySelector('.row');
+          var overlays = this.el_.querySelector('.row');
           if(!list) {
             list = document.createElement('div');
             list.className = 'row';
             this.el_.appendChild(list);
+            if(!overlay) {
+              overlay = document.createElement('div');
+              overlay.className = 'col xsmall-6 medium-4 large-3 xlarge-2 DiscoveryVideoSection__videoSectionTitleDisplayGenericCard___XdNKN';
+              overlay.innerHTML = '<a href="/@the_economist" class="Card__card___2FbPd DiscoveryVideoSection__genericCard___1cam_ GenericCard__genericCard___2YvD4" style="background-color: #0d0d0d;color: white;"><div class="GenericCard__logo___2YleC" style="background-image: url(https://www.economist.com/engassets/ico/favicon.f1ea908894.ico);"></div><div class="GenericCard__tagline___Du7dd">Top Stories in</div><div class="GenericCard__title___3AHSD" title="The Economist">The Economist</div></a>'
+              list.appendChild(overlay);
+            } else {
+              list.appendChild(overlay);
+            }
           }
           this.empty_();
           for(var i = 0; i < playlist.length; i++) {
@@ -272,13 +281,6 @@
             }, this.options_);
             this.items.push(item);
             list.appendChild(item.el_);
-          }
-          if(!overlay) {
-            overlay = document.createElement('div');
-            overlay.className = 'vjs-playlist-ad-overlay';
-            list.appendChild(overlay);
-          } else {
-            list.appendChild(overlay);
           }
           var selectedIndex = this.player_.playlist.currentItem();
           if(this.items.length && selectedIndex >= 0) {
