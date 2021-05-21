@@ -2304,7 +2304,8 @@ header.ResponsiveHeader__container___3dy6u {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-size: 16px
+  font-size: 16px;
+  letter-spacing: -.022em;
 }
 
 @media (min-width:480px) {
