@@ -16,7 +16,7 @@ function getAwesomePlaylist() {
     thumbnail: [{
       srcset: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
       type: 'image/jpg',
-      media: '(width: 112px; height: 112px;)'
+      media: '(width: 100%; height: 100%;)'
     }, {
       src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
     }],
@@ -36,7 +36,7 @@ function getAwesomePlaylist() {
     thumbnail: [{
       srcset: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg',
       type: 'image/jpg',
-      media: '(width: 112px; height: 112px;)'
+      media: '(width: 100%; height: 100%;)'
     }, {
       src: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg'
     }],
@@ -56,7 +56,7 @@ function getAwesomePlaylist() {
     thumbnail: [{
       srcset: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
       type: 'image/png',
-      media: '(width: 112px; height: 112px;)'
+      media: '(width: 100%; height: 100%;)'
     }, {
       src: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg'
     }],
