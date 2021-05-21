@@ -13,13 +13,7 @@ function getAwesomePlaylist() {
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
     description: "Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be. Photo: Bill Clark/Congressional Quarterly/Zuma Press",
     poster: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
-    thumbnail: [{
-      srcset: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
-      type: 'image/jpg',
-      media: '(width: 100%; height: 100%;)'
-    }, {
-      src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
-    }],
+    thumbnail: [{ src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg' }],
   }, {
     sources: [{
       src: 'https://m.wsj.net/video/20210104/010521nio2/hls/manifest-hd-wifi.m3u8',
@@ -33,13 +27,7 @@ function getAwesomePlaylist() {
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
     description: "Gone are the long waits at charging stations: Chinese electric-vehicle startup NIO is pioneering battery-swap systems, challenging Tesla and other rival car makers. Here’s how NIO and Tesla are racing for the world’s largest EV market in China. Photo illustration: Sharon Shi",
     poster: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg',
-    thumbnail: [{
-      srcset: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg',
-      type: 'image/jpg',
-      media: '(width: 100%; height: 100%;)'
-    }, {
-      src: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg'
-    }],
+    thumbnail: [{ src: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg' }],
   }, {
     sources: [{
       src: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/hls/manifest-hd-wifi.m3u8',
@@ -53,12 +41,6 @@ function getAwesomePlaylist() {
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
     description: "A cyberattack on the U.S.’s largest fuel pipeline on May 7 forced a shutdown that triggered a spike in gas prices and shortages in parts of the Southeast. WSJ explains just how vulnerable the nation’s critical energy infrastructure is to attack. Photo illustration: Liz Ornitz/WSJ",
     poster: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
-    thumbnail: [{
-      srcset: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
-      type: 'image/png',
-      media: '(width: 100%; height: 100%;)'
-    }, {
-      src: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg'
-    }],
+    thumbnail: [{ src: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg' }],
   }];
 }
