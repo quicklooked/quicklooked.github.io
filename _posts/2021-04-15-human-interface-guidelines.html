@@ -418,7 +418,7 @@ twitterAuthor: "@TheEconomist"
                                           <div class="row">
                                             <div class="col">
                                               <div class="VideoInfo__titleAndExpandButton___2jTDa">
-                                                <h1 class="VideoInfoTitle__videoTitle___UDnVC VideoInfoTitle__expanded___15jlp" title="">The Costs and Benefits of a $15 Federal Minimum Wage</h1>
+                                                <h1 id="mdaTitle-051820211001" class="VideoInfoTitle__videoTitle___UDnVC VideoInfoTitle__expanded___15jlp" title=""></h1>
                                                 <button onclick="expand_051820211001()" class="ExpandButton__expandButtonWrapper___3zKYe">
                                                   <span class="DSIcon__dsIcon___2_fah ExpandButton__expandIcon___1DVZU">
                                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
@@ -458,11 +458,6 @@ twitterAuthor: "@TheEconomist"
                                               <div class="VideoInfoDescription__videoInfoDescription___1avHH">
                                                 <div class="supplements">
                                                   <div class="supplement details active" id="details-051820211001">
-                                                    <div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.<br><br>Photo: Bill Clark/Congressional Quarterly/Zuma Press</div>
-                                                    <ul class="links small">
-                                                      <li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why the U.S. needs a $15 minimum wage</a></li>
-                                                      <li class="document" data-hires-status="pending"><a href="" target="_blank">Minimum Wage Tracker</a></li>
-                                                    </ul>
                                                   </div>
                                                   <div class="supplement transcript" id="transcript-051820211001">
                                                     <div id="capshow_051820211001"></div>
@@ -546,6 +541,14 @@ twitterAuthor: "@TheEconomist"
                     var transcript = this.transcript(options);
                     transcript.id = "capshow_051820211001";
                     capson_051820211001.appendChild(transcript.el());
+                  });
+                  player.on('playlistitem', function(event, video) {
+                    var player = videojs('video');
+                    var mdaTitle_051820211001 = document.querySelector("#mdaTitle-051820211001");
+                    var mdaDescription_051820211001 = document.querySelector("#details-051820211001");
+                    mdaTitle_051820211001.innerHTML = video.name;
+                    mdaTitle_051820211001.setAttribute('title', video.name);
+                    mdaDescription_051820211001.innerHTML = video.description;
                   });
                 }(window, window.videojs));
 
