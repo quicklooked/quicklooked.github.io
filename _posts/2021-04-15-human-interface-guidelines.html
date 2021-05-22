@@ -415,13 +415,13 @@ twitterAuthor: "@TheEconomist"
                                   </div>
                                   <div class="col large-5 WatchingSafeZone__videoInfoActionsSection___2rrHC">
                                     <div class="WatchingSafeZone__videoInfoCell___1ykND">
-                                      <div class="WatchingSafeZone__videoInfo___FI1s_ VideoInfo__wrapper___1tmEA" aria-label="open">
+                                      <div id="videoInfo-051820211001" class="WatchingSafeZone__videoInfo___FI1s_ VideoInfo__wrapper___1tmEA" aria-label="open">
                                         <div class="VideoInfo__videoInfo___1hXuw">
                                           <div class="row">
                                             <div class="col">
                                               <div class="VideoInfo__titleAndExpandButton___2jTDa">
                                                 <h1 class="VideoInfoTitle__videoTitle___UDnVC VideoInfoTitle__expanded___15jlp" title="">The Costs and Benefits of a $15 Federal Minimum Wage</h1>
-                                                <button onclick="ExpandButton()" class="ExpandButton__expandButtonWrapper___3zKYe">
+                                                <button onclick="expand_051820211001()" class="ExpandButton__expandButtonWrapper___3zKYe">
                                                   <span class="DSIcon__dsIcon___2_fah ExpandButton__expandIcon___1DVZU">
                                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
                                                       <g>
@@ -433,7 +433,7 @@ twitterAuthor: "@TheEconomist"
                                               </div>
                                             </div>
                                             <div class="col">
-                                              <div class="ChannelLine__channelLine___2rGdC">
+                                              <div id="channelLine-051820211001" class="ChannelLine__channelLine___2rGdC">
                                                 <ul class="tabs">
                                                   <li class="tab active">
                                                     <a href="#details-051820211001" data-toggle="tab">
@@ -561,15 +561,15 @@ twitterAuthor: "@TheEconomist"
                   }
                 };
 
-                function ExpandButton() {
-                  if (document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").ariaLabel == "open"){
-                    document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").classList.add("VideoInfo__deployed___2nJbs");
-                    document.getElementsByClassName("ChannelLine__channelLine___2rGdC").classList.add("ChannelLine__expanded___3cora");
-                    document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").ariaLabel = "close";
+                function expand_051820211001() {
+                  if (document.getElementById("videoInfo-051820211001").ariaLabel == "open"){
+                    document.getElementById("videoInfo-051820211001").classList.add("VideoInfo__deployed___2nJbs");
+                    document.getElementById("channelLine-051820211001").classList.add("ChannelLine__expanded___3cora");
+                    document.getElementById("videoInfo-051820211001").ariaLabel = "close";
                   } else {
-                    document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").classList.remove("VideoInfo__deployed___2nJbs");
-                    document.getElementsByClassName("ChannelLine__channelLine___2rGdC").classList.remove("ChannelLine__expanded___3cora");
-                    document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").ariaLabel = "open";
+                    document.getElementById("videoInfo-051820211001").classList.remove("VideoInfo__deployed___2nJbs");
+                    document.getElementById("channelLine-051820211001").classList.remove("ChannelLine__expanded___3cora");
+                    document.getElementById("videoInfo-051820211001").ariaLabel = "open";
                   }
                 };
                 </script>
