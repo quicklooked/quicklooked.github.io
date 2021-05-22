@@ -560,6 +560,16 @@ twitterAuthor: "@TheEconomist"
                     document.getElementById("openId-051820211001").ariaLabel = "open";
                   }
                 };
+                            
+                const ExpandButton__expandButtonWrapper___3zKYe = document.querySelectorAll(".ExpandButton__expandButtonWrapper___3zKYe");
+                const WatchingSafeZone__videoInfo___FI1s_ = document.querySelectorAll(".WatchingSafeZone__videoInfo___FI1s_");
+                const ChannelLine__channelLine___2rGdC = document.querySelectorAll(".ChannelLine__channelLine___2rGdC");
+                ExpandButton__expandButtonWrapper___3zKYe.forEach((expandButton) => {
+                  expandButton.addEventListener("click", () => {
+                    WatchingSafeZone__videoInfo___FI1s_.classList.toggle("VideoInfo__deployed___2nJbs");
+                    ChannelLine__channelLine___2rGdC.classList.toggle("ChannelLine__expanded___3cora");
+                  });
+                });
                 </script>
               </section>
             </section>
