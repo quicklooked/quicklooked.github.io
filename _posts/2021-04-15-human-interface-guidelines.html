@@ -433,7 +433,7 @@ twitterAuthor: "@TheEconomist"
                                               </div>
                                             </div>
                                             <div class="col">
-                                              <div class="ChannelLine__channelLine___2rGdC ChannelLine__expanded___3cora">
+                                              <div class="ChannelLine__channelLine___2rGdC">
                                                 <ul class="tabs">
                                                   <li class="tab active">
                                                     <a href="#details-051820211001" data-toggle="tab">
@@ -562,10 +562,10 @@ twitterAuthor: "@TheEconomist"
                 };
                             
                 const ExpandButton__expandButtonWrapper___3zKYe = document.querySelectorAll(".ExpandButton__expandButtonWrapper___3zKYe");
-                const WatchingSafeZone__videoInfo___FI1s_ = document.querySelectorAll(".WatchingSafeZone__videoInfo___FI1s_");
-                const ChannelLine__channelLine___2rGdC = document.querySelectorAll(".ChannelLine__channelLine___2rGdC");
                 ExpandButton__expandButtonWrapper___3zKYe.forEach((expandButton) => {
                   expandButton.addEventListener("click", () => {
+                    const WatchingSafeZone__videoInfo___FI1s_ = document.querySelectorAll(".WatchingSafeZone__videoInfo___FI1s_");
+                    const ChannelLine__channelLine___2rGdC = document.querySelectorAll(".ChannelLine__channelLine___2rGdC");
                     WatchingSafeZone__videoInfo___FI1s_.classList.toggle("VideoInfo__deployed___2nJbs");
                     ChannelLine__channelLine___2rGdC.classList.toggle("ChannelLine__expanded___3cora");
                   });
