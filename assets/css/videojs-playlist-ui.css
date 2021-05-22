@@ -5381,7 +5381,8 @@ svg {
 
 .PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__highlightedBackground___3UDd7 {
   height: 35px;
-  background-color: #56c7ff
+  background-color: #0071e3;
+  color: #fff;
 }
 
 .PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__mutedBackground___1ZYg5 {
@@ -21974,12 +21975,10 @@ ul.links.small>li.developerForum {
 }
 
 .vjs-playlist-now-playing .PlayingIndicatorTag__videoDuration___3E0Bu {
-  color: #232323;
   background: none;
 }
 
 .vjs-selected .PlayingIndicatorTag__videoDuration___3E0Bu {
-  color: #232323;
   background: none;
 }
 
