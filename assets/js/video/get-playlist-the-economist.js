@@ -1,4 +1,4 @@
-function getAwesomePlaylist() {
+function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
