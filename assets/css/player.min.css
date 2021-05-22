@@ -532,7 +532,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
     width: 40px;
     height: 40px;
     background-size: 40px;
-    margin: -20px 0 0 -20px;
   }
 }
 
@@ -575,7 +574,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin: -40px 0 0 -40px;
+    margin: 0 !important;
     opacity: 0;
     -webkit-animation: 1s spin linear infinite;
     animation: 1s spin linear infinite;
