@@ -415,7 +415,7 @@ twitterAuthor: "@TheEconomist"
                                   </div>
                                   <div class="col large-5 WatchingSafeZone__videoInfoActionsSection___2rrHC">
                                     <div class="WatchingSafeZone__videoInfoCell___1ykND">
-                                      <div class="WatchingSafeZone__videoInfo___FI1s_ VideoInfo__wrapper___1tmEA">
+                                      <div class="WatchingSafeZone__videoInfo___FI1s_ VideoInfo__wrapper___1tmEA" aria-label="open">
                                         <div class="VideoInfo__videoInfo___1hXuw">
                                           <div class="row">
                                             <div class="col">
@@ -562,12 +562,14 @@ twitterAuthor: "@TheEconomist"
                 };
 
                 function ExpandButton() {
-                  if (document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").classList.contains("VideoInfo__deployed___2nJbs")){
+                  if (document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").ariaLabel == "open"){
                     document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").classList.add("VideoInfo__deployed___2nJbs");
                     document.getElementsByClassName("ChannelLine__channelLine___2rGdC").classList.add("ChannelLine__expanded___3cora");
+                    document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").ariaLabel = "close";
                   } else {
                     document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").classList.remove("VideoInfo__deployed___2nJbs");
-                   document.getElementsByClassName("ChannelLine__channelLine___2rGdC").classList.remove("ChannelLine__expanded___3cora");
+                    document.getElementsByClassName("ChannelLine__channelLine___2rGdC").classList.remove("ChannelLine__expanded___3cora");
+                    document.getElementsByClassName("WatchingSafeZone__videoInfo___FI1s_").ariaLabel = "open";
                   }
                 };
                 </script>
