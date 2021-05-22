@@ -900,7 +900,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   display: block;
   border-radius: 50%;
   z-index: 11;
-  background: #e50914;
+  background: #fff;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
