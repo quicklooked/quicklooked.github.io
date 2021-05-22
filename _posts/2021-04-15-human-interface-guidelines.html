@@ -421,7 +421,7 @@ twitterAuthor: "@TheEconomist"
                                             <div class="col">
                                               <div class="VideoInfo__titleAndExpandButton___2jTDa">
                                                 <h1 class="VideoInfoTitle__videoTitle___UDnVC VideoInfoTitle__expanded___15jlp" title="">The Costs and Benefits of a $15 Federal Minimum Wage</h1>
-                                                <button class="ExpandButton__expandButtonWrapper___3zKYe">
+                                                <button onclick="ExpandButton()" class="ExpandButton__expandButtonWrapper___3zKYe">
                                                   <span class="DSIcon__dsIcon___2_fah ExpandButton__expandIcon___1DVZU">
                                                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
                                                       <g>
@@ -561,7 +561,7 @@ twitterAuthor: "@TheEconomist"
                   }
                 };
 
-                function ExpandButton__expandButtonWrapper() {
+                function ExpandButton() {
                   var WatchingSafeZone__videoInfo___FI1s_ = document.getElementsByClassName(".WatchingSafeZone__videoInfo___FI1s_");
                   var ChannelLine__channelLine___2rGdC = document.getElementsByClassName(".ChannelLine__channelLine___2rGdC");
                   if (WatchingSafeZone__videoInfo___FI1s_.classList.contains("VideoInfo__deployed___2nJbs")){
@@ -572,8 +572,6 @@ twitterAuthor: "@TheEconomist"
                     ChannelLine__channelLine___2rGdC.classList.remove("ChannelLine__expanded___3cora");
                   }
                 };
-                var ExpandButton__expandButtonWrapper___3zKYe = document.getElementsByClassName(".ExpandButton__expandButtonWrapper___3zKYe");
-                ExpandButton__expandButtonWrapper___3zKYe.addEventListener('click', ExpandButton__expandButtonWrapper, false);
                 </script>
               </section>
             </section>
