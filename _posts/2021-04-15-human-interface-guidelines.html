@@ -562,14 +562,12 @@ twitterAuthor: "@TheEconomist"
                 };
 
                 function ExpandButton() {
-                  var WatchingSafeZone__videoInfo___FI1s_ = document.getElementsByClassName(".WatchingSafeZone__videoInfo___FI1s_");
-                  var ChannelLine__channelLine___2rGdC = document.getElementsByClassName(".ChannelLine__channelLine___2rGdC");
-                  if (WatchingSafeZone__videoInfo___FI1s_.classList.contains("VideoInfo__deployed___2nJbs")){
-                    WatchingSafeZone__videoInfo___FI1s_.classList.add("VideoInfo__deployed___2nJbs");
-                    ChannelLine__channelLine___2rGdC.classList.add("ChannelLine__expanded___3cora");
+                  if (document.getElementsByClassName(".WatchingSafeZone__videoInfo___FI1s_").classList.contains("VideoInfo__deployed___2nJbs")){
+                    document.getElementsByClassName(".WatchingSafeZone__videoInfo___FI1s_").classList.add("VideoInfo__deployed___2nJbs");
+                    document.getElementsByClassName(".ChannelLine__channelLine___2rGdC").classList.add("ChannelLine__expanded___3cora");
                   } else {
-                    WatchingSafeZone__videoInfo___FI1s_.classList.remove("VideoInfo__deployed___2nJbs");
-                    ChannelLine__channelLine___2rGdC.classList.remove("ChannelLine__expanded___3cora");
+                    document.getElementsByClassName(".WatchingSafeZone__videoInfo___FI1s_").classList.remove("VideoInfo__deployed___2nJbs");
+                   document.getElementsByClassName(".ChannelLine__channelLine___2rGdC").classList.remove("ChannelLine__expanded___3cora");
                   }
                 };
                 </script>
