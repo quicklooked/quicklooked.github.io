@@ -580,14 +580,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   transition: opacity .3s ease-in-out;
 }
 
-@media all and (max-width:500px) {
-  .video-js .vjs-loading-spinner {
-    width: 80px;
-    height: 80px;
-    background-size: 80px
-  }
-}
-
 .video-js .vjs-loading-spinner:before {
   content: none !important;
   position: fixed;
