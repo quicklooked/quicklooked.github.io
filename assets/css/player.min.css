@@ -901,8 +901,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   border-radius: 50%;
   z-index: 11;
   background: #e50914;
-  width: 12px;
-  height: 12px
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
