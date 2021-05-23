@@ -905,16 +905,17 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time {
-  display: none; /* display: flex !important; */
+  display: flex !important;
   align-items: center;
   color: #fff;
-  font-family: sohne, 'sgtb text', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 14px;
+  letter-spacing: -.022em;
   position: absolute;
   top: -12px;
   right: 0;
-  height: 15px
+  height: 16px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
