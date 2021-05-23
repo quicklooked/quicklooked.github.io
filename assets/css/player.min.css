@@ -820,11 +820,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-progress-control {
   position: absolute;
-  top: -5px;
+  top: -9px;
   left: 50px;
   right: 50px;
   width: auto;
-  height: 4px
+  height: 12px
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
