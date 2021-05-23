@@ -1019,6 +1019,13 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
     left: 12px;
     transform: translate(-0%, -0%);
   }
+
+  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
+  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
+  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
+  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
+    display: none
+  }
 }
 
 button.vjs-fullscreen-control.vjs-control.vjs-button {
