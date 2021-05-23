@@ -998,11 +998,31 @@ body.vjs-full-window {
 
 .video-js .vjs-current-time,
 .vjs-no-flex .vjs-current-time {
-  display: none; }
+  display: flex !important;
+  align-items: center;
+  color: #fff;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  position: absolute;
+  top: -12px;
+  left: 0;
+  height: 15px;
+}
 
 .video-js .vjs-duration,
 .vjs-no-flex .vjs-duration {
-  display: none; }
+  display: flex !important;
+  align-items: center;
+  color: #fff;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  position: absolute;
+  top: -12px;
+  right: 0;
+  height: 15px;
+}
 
 .vjs-time-divider {
   display: none;
