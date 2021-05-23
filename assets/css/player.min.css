@@ -750,8 +750,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   max-height: calc(250px - 21px);
   overflow-y: auto;
   font-family: sgtb text, Helvetica, Arial, sans-serif;
-  background-color: rgba(29, 29, 31, 0.56);
-  border-radius: 8px;
+  background-color: hsla(0,0%,7%,.85);
+  border-radius: 4px;
   position: absolute;
   padding: 15px 8px 16px 15px;
   max-width: 100%;
