@@ -515,7 +515,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   text-shadow: none !important;
   box-shadow: none !important;
   transition: all .3s ease;
-  opacity: .8;
+  opacity: 1;
   padding: 18px;
 }
 
