@@ -289,7 +289,7 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Introducing the new MacBook Air, 13‑inch MacBook Pro, and Mac mini, all with the Apple M1 chip.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Apple M1 chip</a></li></ul>',
+    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Introducing the new MacBook Air, 13‑inch MacBook Pro, and Mac mini, all with the Apple M1 chip. The M1 chip comes to MacBook Pro. Bringing far more power. Incredible graphics. An advanced Neural Engine for enhanced machine learning. Superfast unified memory. And up to 20 hours of battery life — the longest-ever battery life in a Mac.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Apple M1 chip</a></li></ul>',
     poster: 'https://www.apple.com/v/apple-events/home/p/images/november-2020/poster__j7ri1qcd8iqi_xlarge.jpg',
     thumbnail: [{
       src: 'https://www.apple.com/v/apple-events/home/p/images/november-2020/poster__j7ri1qcd8iqi_xlarge.jpg'
