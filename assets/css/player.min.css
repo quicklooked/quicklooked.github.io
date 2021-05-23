@@ -984,9 +984,9 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
   width: 36px;
   height: 60px;
   position: absolute;
-  top: 57%;
+  bottom: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -0%);
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
@@ -994,9 +994,9 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
   width: 36px;
   height: 60px;
   position: absolute;
-  top: 57%;
+  bottom: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -0%);
 }
 
 button.vjs-fullscreen-control.vjs-control.vjs-button {
@@ -1084,19 +1084,19 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 
 button.vjs-seek-button.skip-back.skip-10.vjs-control.vjs-button {
   position: absolute;
-  top: 57%;
+  bottom: 0%;
   height: 60px;
   right: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -0%);
   margin: 0px 40px 0px 0px;
 }
 
 button.vjs-seek-button.skip-forward.skip-10.vjs-control.vjs-button {
   position: absolute;
-  top: 57%;
+  bottom: 0%;
   height: 60px;
   right: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -0%);
   margin: 0px -80px 0px 0px;
 }
 
