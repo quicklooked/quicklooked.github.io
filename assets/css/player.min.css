@@ -1093,6 +1093,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
   width: 26px;
   margin: 4px 20px -4px 0px;
+  cursor: pointer;
 }
 
 @media all and (max-width:500px) {
