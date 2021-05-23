@@ -1082,15 +1082,6 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
   padding: 0;
 }
 
-button.vjs-seek-button.skip-forward.skip-10.vjs-control.vjs-button {
-  position: absolute;
-  top: 57%;
-  height: 60px;
-  right: 40%;
-  transform: translate(-50%, -50%);
-  margin: 0px 0px 0px 40px;
-}
-
 button.vjs-seek-button.skip-back.skip-10.vjs-control.vjs-button {
   position: absolute;
   top: 57%;
@@ -1098,6 +1089,15 @@ button.vjs-seek-button.skip-back.skip-10.vjs-control.vjs-button {
   right: 50%;
   transform: translate(-50%, -50%);
   margin: 0px 40px 0px 0px;
+}
+
+button.vjs-seek-button.skip-forward.skip-10.vjs-control.vjs-button {
+  position: absolute;
+  top: 57%;
+  height: 60px;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px -80px 0px 0px;
 }
 
 @media all and (max-width:500px) {
