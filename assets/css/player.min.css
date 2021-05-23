@@ -1007,6 +1007,7 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
     position: absolute;
     bottom: 0%;
     left: 12px;
+    transform: translate(-0%, -0%);
   }
 
   button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
@@ -1016,6 +1017,7 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
     position: absolute;
     bottom: 0%;
     left: 12px;
+    transform: translate(-0%, -0%);
   }
 }
 
