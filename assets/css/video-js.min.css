@@ -1013,7 +1013,7 @@ body.vjs-full-window {
 
 .video-js .vjs-duration,
 .vjs-no-flex .vjs-duration {
-  display: flex !important;
+  display: none !important;
   align-items: center;
   color: #fff;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
