@@ -21999,6 +21999,7 @@ ul.links.small>li.developerForum {
   display: block;
   vertical-align: middle;
   height: 20px;
+  background-size: 24px;
   width: 90px;
   background-position: 0px center;
 }
