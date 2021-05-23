@@ -999,6 +999,26 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
   transform: translate(-50%, -0%);
 }
 
+@media all and (max-width:500px) {
+  button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
+    margin: 0 !important;
+    width: 36px;
+    height: 60px;
+    position: absolute;
+    bottom: 0%;
+    left: 12px;
+  }
+
+  button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
+    margin: 0 !important;
+    width: 36px;
+    height: 60px;
+    position: absolute;
+    bottom: 0%;
+    left: 12px;
+  }
+}
+
 button.vjs-fullscreen-control.vjs-control.vjs-button {
   margin-left: 20px;
   margin-right: 12px;
