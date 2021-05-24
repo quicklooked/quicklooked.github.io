@@ -953,9 +953,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   font-size: 12px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -11px;
+  top: -10px;
   right: 0;
-  height: 16px;
+  height: 14px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
