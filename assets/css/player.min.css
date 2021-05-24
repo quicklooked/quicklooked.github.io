@@ -748,7 +748,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   left: -5px;
   transform: translateX(-50%);
   -webkit-app-region: no-drag;
-  max-height: calc(220px - 21px);
+  max-height: calc(207px - 21px);
   overflow-y: auto;
   font-family: sohne, sgtb text, Helvetica, Arial, sans-serif;
   background-color: rgba(29, 29, 31, 0.56);
@@ -761,7 +761,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  overflow: hidden;
   pointer-events: all;
   -webkit-transition: opacity 0.5s ease, visibility 0s ease 0.5s;
   overflow-x: hidden;
