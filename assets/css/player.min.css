@@ -944,7 +944,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
-  width: 60px;
+  width: auto;
   text-align: right;
 }
 
