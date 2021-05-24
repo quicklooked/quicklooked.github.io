@@ -787,7 +787,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   text-align: left;
   height: 1.6em;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 400;
   color: rgba(255, 255, 255, .7);
   outline: 0 !important;
   background: 0 0 !important;
@@ -808,7 +808,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   padding: 0 0.5em 0 0em;
   font-size: 1em;
   line-height: 1.6;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
