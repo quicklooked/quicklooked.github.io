@@ -2,8 +2,8 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://v9-vn.tiktokcdn.com/51a6613d35226f43eb5f5e066f4c1cb5/60abc46a/video/tos/useast2a/tos-useast2a-pve-0068/f4178863b6f0470e9163bd4df114d577/',
-      type: 'video/mp4'
+      src: 'https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8',
+      type: 'application/x-mpegURL'
     }],
     textTracks: [{
       "kind": "subtitles",
