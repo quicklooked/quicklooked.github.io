@@ -2,7 +2,7 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8',
+      src: 'https://v16-web.tiktok.com/video/tos/useast2a/tos-useast2a-ve-0068c001/6539b920496b4dbf8fc6cfb1032dd28c/?a=1988&br=2844&bt=1422&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&expire=1621868999&l=2021052409092801011522806310005B2B&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&policy=2&qs=0&rc=am53ZjQ0dnlvNTMzNzczM0ApOjtpZ2VkOGU5NztpNmVlaWdybmsxXjY1LS5gLS1kMTZzcy8uLl5hLjFjNTZhX2BhNGM6Yw%3D%3D&signature=d71ee1c82e659f9d0344045f70ef2c9d&tk=tt_webid_v2&vl=&vr=',
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
