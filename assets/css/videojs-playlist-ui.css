@@ -2305,7 +2305,7 @@ header.ResponsiveHeader__container___3dy6u {
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-size: 16px;
-  letter-spacing: -.022em;
+  letter-spacing: -.011em;
   background: #0d0d0d;
 }
 
@@ -5360,7 +5360,7 @@ svg {
 
 .PlayingIndicatorTag__playingIndicatorTag___193h3 {
   color: #7e7e7e;
-  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -5436,15 +5436,15 @@ svg {
 
 .VideoCard__videoTitle___Yclps {
   color: #232323;
-  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.29
 }
 
 .VideoCard__videoChannelName___3ktxc {
   color: #7e7e7e;
-  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -7017,7 +7017,7 @@ li.tab.active a button {
 
 .VideoListSectionTitle__sectionTitleTitle___1f_0x {
   color: #f5f5f7;
-  font-family: Retina, Arial, Helvetica, sans-serif;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2
