@@ -1371,6 +1371,13 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   padding: 0;
 }
 
+.vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+  position: absolute;
+  top: -114%;
+  height: 36px;
+  right: 12px;
+}
+
 .video-js .vjs-control-bar .vjs-button.vjs-audio-button .vjs-icon-placeholder,
 .video-js .vjs-control-bar button.vjs-control.vjs-audio-button .vjs-icon-placeholder:before {
   display: block;
