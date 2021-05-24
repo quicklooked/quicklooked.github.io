@@ -744,26 +744,34 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 30px;
-  left: -5px;
-  transform: translateX(-50%);
+  bottom: 32px;
+  left: 4px;
+  font-size: 1.2em;
+  line-height: 16px;
+  color: #fff;
   -webkit-app-region: no-drag;
   max-height: calc(207px - 21px);
   overflow-y: auto;
-  font-family: sohne, sgtb text, Helvetica, Arial, sans-serif;
-  background-color: rgba(29, 29, 31, 0.56);
-  border-radius: 8px;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgba(30, 30, 30, 0.9);
   position: absolute;
-  padding: 15px 8px 16px 15px;
+  padding: 5px 12px 5px 12px;
   max-width: 220px;
   width: fit-content;
-  min-width: 156px;
+  min-width: 125px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   pointer-events: all;
   -webkit-transition: opacity 0.5s ease, visibility 0s ease 0.5s;
+  border-radius: 3px;
+  -webkit-transition: opacity 150ms ease-out, -webkit-transform 150ms ease-out;
+  transition: opacity 150ms ease-out, -webkit-transform 150ms ease-out;
+  transition: opacity 150ms ease-out, transform 150ms ease-out;
+  transition: opacity 150ms ease-out, transform 150ms ease-out, -webkit-transform 150ms ease-out;
   overflow-x: hidden;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .vjs-menu li {
@@ -775,15 +783,18 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: sohne, sgtb text, Helvetica, Arial, sans-serif;
+  font-family: sohne, Helvetica, Arial, sans-serif;
   text-align: left;
-  font-size: 14px;
-  height: 21px;
+  height: 1.6em;
   text-transform: capitalize;
   font-weight: 400;
   color: rgba(255, 255, 255, .7);
   outline: 0 !important;
   background: 0 0 !important;
+  margin: 0 0.5em 0 0em;
+  padding: 0 0.5em 0 0em;
+  font-size: 1em;
+  line-height: 1.6;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
@@ -793,7 +804,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
   color: #fff;
-  font-weight: 400;
+  margin: 0 0.5em 0 0em;
+  padding: 0 0.5em 0 0em;
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: 700;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
