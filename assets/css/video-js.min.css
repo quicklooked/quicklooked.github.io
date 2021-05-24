@@ -1001,7 +1001,7 @@ body.vjs-full-window {
   display: flex !important;
   align-items: center;
   color: #fff;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Retina, sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: -.022em;
