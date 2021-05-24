@@ -21792,8 +21792,8 @@ a.transcript-text.sentence:hover {
   color: #2997ff;
 }
 
-p+*, ul+*, ol+* {
-  margin-top: 0.6em !important;
+p.transcript-line {
+  margin-bottom: 0.6em !important;
 }
 
 a.transcript-text.sentence:focus {
