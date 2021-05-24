@@ -950,12 +950,12 @@ li.vjs-menu-item.vjs-texttrack-settings {
   color: #fff;
   font-family: Retina, sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -10px;
+  top: -12px;
   right: 0;
-  height: 14px;
+  height: 16px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
