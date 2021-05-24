@@ -485,10 +485,10 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-text-track-display>div>div>div {
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
   font-weight: 400;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 2px;
+  border-radius: 0px;
   font-family: 'sohne', Aria, sans-serif !important;
 }
 
