@@ -783,11 +783,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: sohne, Helvetica, Arial, sans-serif;
+  font-family: Retina, sohne, Helvetica, Arial, sans-serif;
   text-align: left;
   height: 1.6em;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 500;
   color: rgba(255, 255, 255, .7);
   outline: 0 !important;
   background: 0 0 !important;
@@ -808,7 +808,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   padding: 0 0.5em 0 0em;
   font-size: 1em;
   line-height: 1.6;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
@@ -850,9 +850,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  line-height: 14px;
+  font-family: Retina, sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 10px;
   font-weight: 400;
   padding: 0.2em 0.4em;
   border-radius: 0px;
