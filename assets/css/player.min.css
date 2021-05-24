@@ -1027,6 +1027,14 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
   button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
     display: none
   }
+
+  .vjs-current-time.vjs-time-control.vjs-control {
+    display: none !important;
+  }
+
+  .video-js .vjs-control-bar .vjs-progress-control {
+    left: 12px;
+  }
 }
 
 button.vjs-fullscreen-control.vjs-control.vjs-button {
