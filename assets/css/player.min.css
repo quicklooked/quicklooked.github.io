@@ -489,7 +489,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   font-weight: 400;
   padding: 2px;
   border-radius: 0px;
-  font-family: Retina, sohne, Aria, sans-serif !important;
+  font-family: sohne, Aria, sans-serif !important;
 }
 
 .vjs-scrubbing.video-js .vjs-text-track-display,
