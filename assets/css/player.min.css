@@ -839,8 +839,26 @@ li.vjs-menu-item.vjs-texttrack-settings {
   font-size: 12px;
   line-height: 14px;
   font-weight: 400;
-  padding: 4px 4px 4px 4px;
+  padding: 0.2em 0.4em;
   border-radius: 0px;
+  -webkit-box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
+  box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip::before {
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+  border-top: 0.3em solid #fff;
+  bottom: -0.3em;
+  content: "";
+  left: 50%;
+  margin-left: -0.3em;
+  position: absolute;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-thumbnail-holder {
