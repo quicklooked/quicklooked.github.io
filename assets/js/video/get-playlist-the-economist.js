@@ -12,7 +12,7 @@ function getPlaylistTheEconomist() {
       "srclang": "en"
     }],
     textTracks: [{
-      "kind": "descriptions",
+      "kind": "alternative",
       "label": "English Audio",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
