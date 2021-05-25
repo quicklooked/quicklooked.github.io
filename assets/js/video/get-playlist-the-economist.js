@@ -7,7 +7,7 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "descriptions",
-      "label": "English",
+      "label": "English Audio",
       "src": "https://www.ca11y.com/videojs-speak-descriptions-track/descriptions.en.vtt",
       "srclang": "en",
       "default": true
