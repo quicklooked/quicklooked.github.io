@@ -442,10 +442,10 @@
     3: [function(require, module, exports) {
       'use strict';
       require('./components/settings-menu-button.js');
-      require('./components/settings-menu-item.js');
+      require('./assets/js/video/settings-menu-item.js');
     }, {
       "./components/settings-menu-button.js": 1,
-      "./components/settings-menu-item.js": 2
+      "./assets/js/video/settings-menu-item.js": 2
     }]
   }, {}, [3])(3)
 });
