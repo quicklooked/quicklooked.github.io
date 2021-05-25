@@ -13,13 +13,13 @@
     playingExtended: 'playingExtended',
     pausedExtended: 'pausedExtended'
   };
-  var audioDuckingFactor = 0.25;
+  var audioDuckingFactor = 1;
   var SpeakDescriptionsTrackTTS = function() {
     function SpeakDescriptionsTrackTTS(player) {
       this.player_ = player;
       this.extendedPlayerState_ = extendedPlayerState.initialized;
       this.isDucked = false;
-      this.originalSpeechRate = 1.1;
+      this.originalSpeechRate = 1;
       this.speechRate = this.originalSpeechRate;
       if(window.speechSynthesis) {
         window.addEventListener('unload', function() {
