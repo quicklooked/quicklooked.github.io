@@ -17,10 +17,10 @@ class SettingsMenuButton extends MenuButton {
     let entries = this.options_.entries;
     if (entries) {
       const openSubMenu = function () {
-        if (videojs.hasClass(this.el_, "open")) {
-          videojs.removeClass(this.el_, "open");
+        if (videojs.dom.hasClass(this.el_, "open")) {
+          videojs.dom.removeClass(this.el_, "open");
         } else {
-          videojs.addClass(this.el_, "open");
+          videojs.dom.addClass(this.el_, "open");
         }
       };
       for (let entry of entries) {
