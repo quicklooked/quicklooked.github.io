@@ -1,4 +1,3 @@
-import videojs from "video.js";
 import SettingsMenuItem from "./assets/js/video/settings-menu-item.js";
 const MenuButton = videojs.getComponent("MenuButton");
 const Menu = videojs.getComponent("Menu");
