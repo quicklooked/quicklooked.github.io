@@ -885,10 +885,12 @@ li.vjs-menu-item::before {
   font-weight: 400;
   padding: 0.2em 0.4em;
   border-radius: 0px;
+  /*
   -webkit-box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
   box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
-  background: #fff;
-  color: #000;
+  */
+  background: rgba(30,30,30,.9);
+  color: #fff;
   display: inline-block;
   cursor: -webkit-grab;
   cursor: grab;
@@ -897,7 +899,7 @@ li.vjs-menu-item::before {
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip::before {
   border-left: 0.3em solid transparent;
   border-right: 0.3em solid transparent;
-  border-top: 0.3em solid #fff;
+  border-top: 0.3em solid rgba(30,30,30,.9);
   bottom: -0.3em;
   content: "";
   left: 50%;
