@@ -8,7 +8,7 @@ function getPlaylistTheEconomist() {
     textTracks: [{
       "kind": "descriptions",
       "label": "English Audio",
-      "src": "https://www.ca11y.com/videojs-speak-descriptions-track/descriptions.en.vtt",
+      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
       "default": true
     }],
