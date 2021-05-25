@@ -1117,7 +1117,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 .video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button,
 .video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
   width: 36px;
 }
 
@@ -1392,7 +1392,7 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   position: absolute;
   bottom: 0;
   height: 60px;
-  right: 124px;
+  right: 164px;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-audio-button .vjs-icon-placeholder,
