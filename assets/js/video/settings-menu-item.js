@@ -1,3 +1,4 @@
+import videojs from 'video.js';
 const MenuItem = videojs.getComponent("MenuItem");
 const playbackRateMenuButton = videojs.getComponent("PlaybackRateMenuButton");
 const component = videojs.getComponent("Component");
