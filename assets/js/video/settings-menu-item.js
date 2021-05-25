@@ -45,12 +45,12 @@ class SettingsMenuItem extends MenuItem {
     return el;
   }
   handleClick() {
-    videojs.removeClass(this.el_, "open");
+    videojs.dom.removeClass(this.el_, "open");
     super.handleClick();
-    if (videojs.hasClass(this.settingsSubMenuEl_, "vjs-hidden")) {
-      videojs.removeClass(this.settingsSubMenuEl_, "vjs-hidden");
+    if (videojs.dom.hasClass(this.settingsSubMenuEl_, "vjs-hidden")) {
+      videojs.dom.removeClass(this.settingsSubMenuEl_, "vjs-hidden");
     } else {
-      videojs.addClass(this.settingsSubMenuEl_, "vjs-hidden");
+      videojs.dom.addClass(this.settingsSubMenuEl_, "vjs-hidden");
     }
   }
   update() {
@@ -73,9 +73,9 @@ class SettingsMenuItem extends MenuItem {
     }
   }
   hideSubMenu() {
-    if (videojs.hasClass(this.el_, "open")) {
-      videojs.addClass(this.settingsSubMenuEl_, "vjs-hidden");
-      videojs.removeClass(this.el_, "open");
+    if (videojs.dom.hasClass(this.el_, "open")) {
+      videojs.dom.addClass(this.settingsSubMenuEl_, "vjs-hidden");
+      videojs.dom.removeClass(this.el_, "open");
     }
   }
 }
