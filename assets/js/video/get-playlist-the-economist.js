@@ -5,11 +5,12 @@ function getPlaylistTheEconomist() {
       src: 'https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8',
       type: 'application/x-mpegURL'
     }],
-    audioTracks: [{
+    textTracks: [{
       "kind": "descriptions",
       "label": "English",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+      "default": true
     }],
     textTracks: [{
       "kind": "subtitles",
