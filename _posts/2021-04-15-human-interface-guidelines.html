@@ -519,10 +519,23 @@ twitterAuthor: "@TheEconomist"
                         debug: true,
                         overrideNative: false
                       }
+                    },
+                    ControlBar: {
+                      children: {
+                        'playToggle': {},
+                        'volumePanel': {},
+                        'currentTimeDisplay': {},
+                        'timeDivider': {},
+                        'durationDisplay': {},
+                        'liveDisplay': {},
+                        'customControlSpacer': {},
+                        'progressControl': {},
+                        'settingsMenuButton': {
+                          entries: ['audioTrackButton', 'descriptionsButton', 'subsCapsButton']
+                        },
+                        'fullscreenToggle': {}
+                      }
                     }
-                  });
-                  player051820211001.settingsMenuButton({
-                    entries: ['audioTrackButton', 'descriptionsButton', 'subsCapsButton']
                   });
                   player051820211001.responsive(true);
                   player051820211001.landscapeFullscreen();
