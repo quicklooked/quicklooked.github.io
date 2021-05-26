@@ -6208,7 +6208,7 @@ li.tab.active a button {
 }
 
 .ExpandButton__expandButtonWrapper___3zKYe.ExpandButton__deployed___2vyOg {
-  background: #232323;
+  background: transparent;
   fill: #fff
 }
 
@@ -6219,11 +6219,11 @@ li.tab.active a button {
 }
 
 .desktop .ExpandButton__expandButtonWrapper___3zKYe:hover {
-  background: #dadada
+  background: transparent
 }
 
 .desktop .ExpandButton__expandButtonWrapper___3zKYe.ExpandButton__deployed___2vyOg:hover {
-  background: #393939
+  background: transparent
 }
 
 .VideoInfo__wrapper___1tmEA {
