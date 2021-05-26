@@ -2134,18 +2134,18 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: none
 }
 
-.vjs-subs-caps-button:hover+.vjs-progress-control {
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover+.vjs-progress-control {
   display: block
 }
 
-.vjs-subs-caps-button:hover~.vjs-progress-control {
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover~.vjs-progress-control {
   display: none
 }
 
-.vjs-subs-caps-button:hover+.vjs-remaining-time {
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover+.vjs-remaining-time {
   display: block
 }
 
-.vjs-subs-caps-button:hover~.vjs-remaining-time {
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover~.vjs-remaining-time {
   display: none
 }
