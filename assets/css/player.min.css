@@ -2121,31 +2121,30 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 .vjs-volume-panel:hover+.vjs-progress-control {
   display: block
 }
-
-.vjs-volume-panel:hover+.vjs-remaining-time-display {
-  display: block
-}
-
 .vjs-volume-panel:hover~.vjs-progress-control {
   display: none
 }
 
-.vjs-volume-panel:hover~.vjs-remaining-time-display {
-  display: none
-}
-
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover+.vjs-progress-control {
+vjs-control.vjs-volume-panel:hover+.vjs-remaining-time {
   display: block
 }
 
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover~.vjs-progress-control {
+vjs-control.vjs-volume-panel:hover~.vjs-remaining-time {
   display: none
 }
 
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover+.vjs-remaining-time-display {
+.vjs-menu-button.vjs-menu-button-popup.vjs-subs-caps-button:hover+.vjs-progress-control {
   display: block
 }
 
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover~.vjs-remaining-time-display {
+.vjs-menu-button.vjs-menu-button-popup.vjs-subs-caps-button:hover~.vjs-progress-control {
+  display: none
+}
+
+.vjs-menu-button.vjs-menu-button-popup.vjs-subs-caps-button:hover+.vjs-remaining-time {
+  display: block
+}
+
+.vjs-menu-button.vjs-menu-button-popup.vjs-subs-caps-button:hover~.vjs-remaining-time {
   display: none
 }
