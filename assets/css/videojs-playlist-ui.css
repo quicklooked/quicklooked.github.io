@@ -1604,8 +1604,7 @@ header.ResponsiveHeader__container___3dy6u {
 }
 
 .Button__secondary___23Z-- {
-  color: #fff;
-  opacity: 0.2;
+  color: #aaa;
 }
 
 
@@ -6377,7 +6376,8 @@ li.tab.active a button {
 .VideoInfo__reportButton___35Z_7 {
   -ms-flex-item-align: center;
   align-self: center;
-  color: #aaaaaa
+  color: #fff;
+  opacity: 0.2;
 }
 
 .VideoInfo__reportButton___35Z_7.VideoInfo__reportButtonPlaceholder___3qRtE {
