@@ -1052,12 +1052,12 @@ li.vjs-menu-item::before {
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
-  margin: 0 0 0 12px !important;
+  margin: 0 40px 0 12px !important;
   width: 36px;
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
-  margin: 0 0 0 12px !important;
+  margin: 0 40px 0 12px !important;
   width: 36px;
 }
 
@@ -1154,11 +1154,11 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 }
 
 button.vjs-seek-button.skip-back.skip-10.vjs-control.vjs-button {
-  margin: 0 0 0 40px;
+  margin: 0 40px 0 0;
 }
 
 button.vjs-seek-button.skip-forward.skip-10.vjs-control.vjs-button {
-  margin: 0 0 0 40px;
+  margin: 0 40px 0 0;
 }
 
 @media all and (max-width:500px) {
