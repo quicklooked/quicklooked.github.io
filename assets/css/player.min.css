@@ -1142,16 +1142,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 .video-js .vjs-control-bar .vjs-button.vjs-seek-button,
 .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
   width: 26px;
-  margin: 4px 20px -4px 0px;
   cursor: pointer;
-}
-
-@media all and (max-width:500px) {
-  .video-js .vjs-control-bar .vjs-button.vjs-seek-button,
-  .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
-  width: 26px;
-  margin: 4px 20px -4px 0px;
-  }
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-seek-button .vjs-icon-placeholder,
@@ -1163,25 +1154,14 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 }
 
 button.vjs-seek-button.skip-back.skip-10.vjs-control.vjs-button {
-  position: absolute;
-  bottom: 0%;
-  height: 60px;
-  right: 50%;
-  transform: translate(-50%, -0%);
-  margin: 0px 40px 0px 0px;
+  margin: 0 0 0 40px;
 }
 
 button.vjs-seek-button.skip-forward.skip-10.vjs-control.vjs-button {
-  position: absolute;
-  bottom: 0%;
-  height: 60px;
-  right: 50%;
-  transform: translate(-50%, -0%);
-  margin: 0px -85px 0px 0px;
+  margin: 0 0 0 40px;
 }
 
 @media all and (max-width:500px) {
-
   .video-js .vjs-control-bar .vjs-button.vjs-seek-button .vjs-icon-placeholder,
   .video-js .vjs-control-bar button.vjs-control.vjs-seek-button .vjs-icon-placeholder {
   width: 26px !important;
