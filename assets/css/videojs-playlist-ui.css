@@ -5433,7 +5433,7 @@ svg {
   bottom: 8px;
   padding: 2px 5px;
   color: #fff;
-  background: #232323;
+  background: rgba(0, 0, 0, 0.7);
   text-align: center;
   z-index: 3
 }
