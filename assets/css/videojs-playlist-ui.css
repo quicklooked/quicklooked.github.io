@@ -21797,12 +21797,12 @@ p.transcript-line {
 }
 
 a.transcript-text.sentence:focus {
-  outline: 4px solid rgba(0, 173, 239, 0.6);
+  outline: 4px solid rgba(0, 173, 239, 1);
   outline-offset: 1px
 }
 
 ul.links.small li a:focus {
-  outline: 4px solid rgba(0, 173, 239, 0.6);
+  outline: 4px solid rgba(0, 173, 239, 1);
   outline-offset: 1px
 }
 
