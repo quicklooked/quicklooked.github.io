@@ -1052,46 +1052,16 @@ li.vjs-menu-item::before {
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
-  margin: 0 !important;
+  margin: 0 0 0 12px !important;
   width: 36px;
-  height: 60px;
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, -0%);
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
-  margin: 0 !important;
+  margin: 0 0 0 12px !important;
   width: 36px;
-  height: 60px;
-  position: absolute;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, -0%);
 }
 
 @media all and (max-width:500px) {
-  button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
-    margin: 0 !important;
-    width: 36px;
-    height: 60px;
-    position: absolute;
-    bottom: 0%;
-    left: 12px;
-    transform: translate(-0%, -0%);
-  }
-
-  button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
-    margin: 0 !important;
-    width: 36px;
-    height: 60px;
-    position: absolute;
-    bottom: 0%;
-    left: 12px;
-    transform: translate(-0%, -0%);
-  }
-
   button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
   button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
   button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
