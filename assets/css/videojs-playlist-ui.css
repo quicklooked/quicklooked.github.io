@@ -1604,7 +1604,8 @@ header.ResponsiveHeader__container___3dy6u {
 }
 
 .Button__secondary___23Z-- {
-  color: #aaaaaa;
+  color: #fff;
+  opacity: 0.2;
 }
 
 
@@ -5916,7 +5917,6 @@ ul.tabs {
 
 li.tab.active a button {
   font-weight: 700;
-  color: #333;
 }
 
 .supplements .supplement:not(.active) {
@@ -6582,7 +6582,7 @@ li.tab.active a button {
 
 .VideoInfoTitle__hiddenText___1Si0J,
 .VideoInfoTitle__videoTitle___UDnVC {
-  color: #292929;
+  color: #fff;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 700;
@@ -21867,7 +21867,7 @@ ul.links.small>li {
   min-height: 0;
   padding-top: 0;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #0070c9;
+  color: rgb(101, 121, 135);
 }
 
 ul.links.small {
