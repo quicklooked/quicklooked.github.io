@@ -508,7 +508,9 @@ twitterAuthor: "@TheEconomist"
                 <script>
                 (function(window, videojs) {
                   var player051820211001 = window.player051820211001 = videojs('player-051820211001', {
-                    liveui: true,
+                    controlBar: {
+                      volumePanel: { inline: false }
+                    },
                     html5: {
                       nativeAudioTracks: false,
                       nativeVideoTracks: false,
