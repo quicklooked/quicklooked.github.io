@@ -1211,13 +1211,11 @@ header.ResponsiveHeader__container___3dy6u {
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.SigninSignupSplit__authenticationButton___1ENJ4 span,
-.TCF2Banner__title___3q3rd:hover {
+.SigninSignupSplit__authenticationButton___1ENJ4 span:hover {
   color: rgb(0, 173, 239);
 }
 
-.SigninSignupSplit__authenticationButton___1ENJ4 span,
-.TCF2Banner__title___3q3rd:focus {
+.SigninSignupSplit__authenticationButton___1ENJ4 span:focus {
   outline: 4px solid rgba(0, 173, 239, 1);
   outline-offset: 1px
 }
