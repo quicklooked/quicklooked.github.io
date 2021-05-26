@@ -1079,16 +1079,18 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
 }
 
 button.vjs-fullscreen-control.vjs-control.vjs-button {
-  margin-left: 20px;
-  margin-right: 12px;
+  margin: 0 12px 0 0px;
   width: 36px;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-subs-caps-button,
 .video-js .vjs-control-bar button.vjs-control.vjs-subs-caps-button {
-  margin-left: 20px;
-  margin-right: 40px;
   width: 36px;
+}
+
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+  width: 36px;
+  margin: 0 40px 0 0;
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
