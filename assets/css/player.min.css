@@ -2117,3 +2117,19 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 .vjs-seek-button.skip-10.vjs-control.vjs-button {
   display: none;
 }
+
+.vjs-volume-panel:hover+.vjs-progress-control {
+  display: block
+}
+
+.vjs-volume-panel:hover+.vjs-remaining-time {
+  display: block
+}
+
+.vjs-volume-panel:hover~.vjs-progress-control {
+  display: none
+}
+
+.vjs-volume-panel:hover~.vjs-remaining-time {
+  display: none
+}
