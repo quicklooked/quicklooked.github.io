@@ -2122,7 +2122,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: block
 }
 
-.vjs-volume-panel:hover+.vjs-remaining-time {
+.vjs-volume-panel:hover+.vjs-remaining-time-display {
   display: block
 }
 
@@ -2130,7 +2130,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: none
 }
 
-.vjs-volume-panel:hover~.vjs-remaining-time {
+.vjs-volume-panel:hover~.vjs-remaining-time-display {
   display: none
 }
 
@@ -2142,10 +2142,10 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: none
 }
 
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover+.vjs-remaining-time {
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover+.vjs-remaining-time-display {
   display: block
 }
 
-.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover~.vjs-remaining-time {
+.vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup:hover~.vjs-remaining-time-display {
   display: none
 }
