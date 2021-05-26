@@ -757,7 +757,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   background-color: rgba(30, 30, 30, 0.9);
   position: absolute;
   padding: 5px 12px 5px 12px;
-  max-width: 220px;
   width: fit-content;
   min-width: 125px;
   width: -webkit-max-content;
