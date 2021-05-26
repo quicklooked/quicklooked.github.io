@@ -6,8 +6,8 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "descriptions",
-      "label": "English Audio",
+      "kind": "subtitles",
+      "label": "English",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
       "default": true
@@ -273,27 +273,6 @@ function getPlaylistTheEconomist() {
     poster: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg'
-    }],
-  }, {
-    sources: [{
-      src: 'https://p-events-delivery.akamaized.net/2010ayctcrodak763xivpxn4htcuhco9/m3u8/vod_index-2MxnV7vcNFJoAHxqBcV9CU3w3JsXVVgh.m3u8',
-      type: 'application/x-mpegURL'
-    }],
-    textTracks: [{
-      "kind": "subtitles",
-      "label": "English",
-      "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
-      "srclang": "en"
-    }],
-    name: 'Apple Event | November 10, 2020',
-    duration: '2940',
-    date: 'May 22',
-    authors: 'The Economist',
-    authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Introducing the new MacBook Air, 13‑inch MacBook Pro, and Mac mini, all with the Apple M1 chip. The M1 chip comes to MacBook Pro. Bringing far more power. Incredible graphics. An advanced Neural Engine for enhanced machine learning. Superfast unified memory. And up to 20 hours of battery life — the longest-ever battery life in a Mac.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Apple M1 chip</a></li></ul>',
-    poster: 'https://www.apple.com/v/apple-events/home/p/images/november-2020/poster__j7ri1qcd8iqi_xlarge.jpg',
-    thumbnail: [{
-      src: 'https://www.apple.com/v/apple-events/home/p/images/november-2020/poster__j7ri1qcd8iqi_xlarge.jpg'
     }],
   }];
 }
