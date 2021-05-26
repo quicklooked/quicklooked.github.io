@@ -561,7 +561,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-button .vjs-icon-placeholder:hover,
 .video-js button.vjs-control .vjs-icon-placeholder:hover {
   opacity: 1;
-  transform: scale(1.1)
+  transform: scale(1.2)
 }
 
 .video-js .vjs-loading-spinner {
