@@ -880,8 +880,8 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  line-height: 10px;
+  font-size: 12px;
+  line-height: 12px;
   font-weight: 400;
   padding: 0.2em 0.4em;
   border-radius: 0px;
