@@ -966,7 +966,7 @@ li.vjs-menu-item::before {
   display: block;
   border-radius: 50%;
   z-index: 11;
-  background: #fff;
+  background: var(--color-primary);
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
