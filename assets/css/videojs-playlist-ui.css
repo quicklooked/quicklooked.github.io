@@ -1215,7 +1215,7 @@ header.ResponsiveHeader__container___3dy6u {
   color: rgb(0, 173, 239);
 }
 
-.SigninSignupSplit__authenticationButton___1ENJ4 span:focus {
+.SigninSignupSplit__authenticationButton___1ENJ4 span:active {
   outline: 4px solid rgba(0, 173, 239, 1);
   outline-offset: 1px
 }
