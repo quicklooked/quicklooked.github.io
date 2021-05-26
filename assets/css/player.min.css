@@ -1092,7 +1092,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
-  margin-right: 20px;
+  margin: 0 0 0 20px;
   width: 36px;
 }
 
@@ -1104,9 +1104,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
 button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
-  margin-right: 20px;
   width: 36px;
-  margin-left: 12px;
 }
 
 @media all and (max-width:500px) {
