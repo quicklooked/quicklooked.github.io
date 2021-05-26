@@ -837,7 +837,7 @@ body.vjs-full-window {
   height: 8em;
   width: 3em;
   left: -3000em;
-  transition: visibility 1s, opacity 1s, height 1s 1s, width 1s 1s, left 1s 1s, top 1s 1s; }
+  transition: visibility 0s, opacity 0s, height 0s 0s, width 0s 0s, left 0s 0s, top 0s 0s; }
 
 .video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-horizontal {
   transition: visibility 1s, opacity 1s, height 1s 1s, width 1s, left 1s 1s, top 1s 1s; }
