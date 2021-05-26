@@ -6185,18 +6185,20 @@ li.tab.active a button {
   height: 32px;
   border: 0;
   border-radius: 50%;
-  background: #e8e8e8;
-  fill: #232323;
+  background: transparent;
+  fill: #fff;
+  opacity: .2;
   cursor: pointer
 }
 
 .ExpandButton__expandButtonWrapper___3zKYe:hover {
-  background: #dadada
+  opacity: 1;
 }
 
 .ExpandButton__expandButtonWrapper___3zKYe:active {
-  background: #232323;
-  fill: #fff
+  background: transparent;
+  opacity: 1;
+  fill: rgb(101, 121, 135);
 }
 
 @media (min-width:1024px) {
