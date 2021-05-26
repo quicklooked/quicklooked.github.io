@@ -744,8 +744,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 32px;
-  right: 26%;
+  bottom: 40px;
+  right: 40%;
   font-size: 1.2em;
   line-height: 16px;
   color: #fff;
