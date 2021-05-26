@@ -1094,7 +1094,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
-  margin: 0 0 0 40px;
+  margin: 0 40px 0 0;
   width: 36px;
 }
 
