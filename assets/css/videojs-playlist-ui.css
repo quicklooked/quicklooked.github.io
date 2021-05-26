@@ -6328,9 +6328,14 @@ li.tab.active a button {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  cursor: pointer;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center
+}
+
+.VideoInfo__titleAndExpandButton___2jTDa:hover {
+  color: rgb(0, 173, 239);
 }
 
 .VideoInfo__expandIcon___B25nF {
