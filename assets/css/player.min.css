@@ -1339,10 +1339,7 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
 }
 
 .vjs-audio-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
-  position: absolute;
-  bottom: 0;
-  height: 60px;
-  right: 164px;
+  margin: 0 40px 0 0;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-audio-button .vjs-icon-placeholder,
@@ -2113,7 +2110,6 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   background-position: center;
 }
 
-button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
-  margin-left: 20px;
-  margin-right: 20px;
+.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+  margin: 0 40px 0 0;
 }
