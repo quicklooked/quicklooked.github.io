@@ -981,12 +981,12 @@ li.vjs-menu-item::before {
   color: #fff;
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -12px;
+  top: -9px;
   right: 0;
-  height: 16px;
+  height: 12px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
