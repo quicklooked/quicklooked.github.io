@@ -300,9 +300,30 @@
   }
 }
 
+@keyframes revolve {
+  0% {
+    left: 0;
+  }
+  25% {
+    transform: scale(calc(1 + var(--circle-scale-percent)));
+  }
+  50% {
+    left: var(--circle-diameter);
+  }
+  75% {
+    transform: scale(calc(1 - var(--circle-scale-percent)));
+  }
+  100% {
+    left: 0;
+  }
+}
+
 
 :root {
-  --color-primary: #e50914
+  --color-primary: #e50914;
+  --animation-duration: 0.8s;
+  --circle-diameter: 50px;
+  --circle-scale-percent: 0.2;
 }
 
 #os_player {
