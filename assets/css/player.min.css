@@ -881,7 +881,7 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-progress-control {
   position: absolute;
-  top: -9px;
+  top: 0px;
   left: 12px;
   right: 50px;
   width: auto;
@@ -994,7 +994,7 @@ li.vjs-menu-item::before {
   font-size: 12px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -9px;
+  top: 0px;
   right: 0;
   height: 12px;
 }
