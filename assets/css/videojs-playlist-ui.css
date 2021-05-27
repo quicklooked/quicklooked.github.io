@@ -22175,7 +22175,6 @@ ul.links.small>li.developerForum {
 
 .body-copy-wide .video-description .image-caption {
   width: 680px;
-  margin-right: 0
 }
 
 @media only screen and (max-width: 1068px) {
@@ -22187,13 +22186,11 @@ ul.links.small>li.developerForum {
 @media only screen and (max-width: 734px) {
   .body-copy-wide .video-description .image-caption {
     width: auto;
-    margin-right: 28px
   }
 }
 
 .body-copy-wide .video-description .image-caption:last-child {
   width: auto;
-  margin-right: 0
 }
 
 .body-copy-wide .image-description {
@@ -22203,7 +22200,6 @@ ul.links.small>li.developerForum {
 
 .body-copy-wide .image-description .image-caption {
   width: 680px;
-  margin-right: 0
 }
 
 @media only screen and (max-width: 1068px) {
@@ -22215,17 +22211,11 @@ ul.links.small>li.developerForum {
 @media only screen and (max-width: 734px) {
   .body-copy-wide .image-description .image-caption {
     width: auto;
-    margin-right: 28px
   }
 }
 
 .body-copy-wide .image-description .image-caption:last-child {
   width: auto;
-  margin-right: 0
-}
-
-.image-description .image-caption {
-  margin-right: 28px
 }
 
 .body-copy-wide .image-description {
@@ -22360,10 +22350,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: inherit
 }
 
-.video-description .image-caption {
-  margin-right: 28px
-}
-
 .icon-thumbnailplay::before {
   content: "\F359"
 }
@@ -22394,7 +22380,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 
 .body-copy-wide .video-description .image-caption {
   width: 680px;
-  margin-right: 0
 }
 
 @media only screen and (max-width: 1068px) {
@@ -22406,17 +22391,11 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 @media only screen and (max-width: 734px) {
   .body-copy-wide .video-description .image-caption {
     width: auto;
-    margin-right: 28px
   }
 }
 
 .body-copy-wide .video-description .image-caption:last-child {
   width: auto;
-  margin-right: 0
-}
-
-.video-description .image-caption {
-  margin-right: 28px
 }
 
 .icon:hover::after {
