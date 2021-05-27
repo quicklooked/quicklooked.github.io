@@ -22086,7 +22086,7 @@ ul.links.small>li.developerForum {
   .component {
     margin-left: auto;
     margin-right: auto;
-    width: 980px
+    width: 680px
   }
 }
 
@@ -22094,7 +22094,7 @@ ul.links.small>li.developerForum {
   .component {
     margin-left: auto;
     margin-right: auto;
-    width: 692px
+    width: 680px
   }
 }
 
@@ -22102,7 +22102,7 @@ ul.links.small>li.developerForum {
   .component {
     margin-left: auto;
     margin-right: auto;
-    width: 87.5%
+    width: 100%
   }
 }
 
@@ -22127,7 +22127,7 @@ ul.links.small>li.developerForum {
 
 @media only screen and (max-width: 734px) {
   .component {
-    max-width: 414px;
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
     margin-right: auto
@@ -22148,7 +22148,7 @@ ul.links.small>li.developerForum {
 
 @media only screen and (max-width: 734px) {
   .component-content {
-    width: 87.5%
+    width: 100%
   }
 }
 
