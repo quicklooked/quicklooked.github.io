@@ -529,6 +529,12 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 @media all and (max-width:500px) {
+  .video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical{
+    visibility: hidden;
+  }
+}
+
+@media all and (max-width:500px) {
   .video-js .vjs-loading-spinner {
     width: 40px !important;
     height: 40px !important;
