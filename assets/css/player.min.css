@@ -389,8 +389,11 @@ fieldset.vjs-edge-style.vjs-track-setting {
   display: none;
 }
 
-.video-js .vjs-load-progress div {
+.video-js .vjs-progress-holder .vjs-play-progress,
+.video-js .vjs-progress-holder .vjs-load-progress,
+.video-js .vjs-progress-holder .vjs-load-progress div {
   background: #5b5b5b;
+  border-radius: 0px !important;
 }
 
 li.vjs-menu-item.vjs-texttrack-settings {
