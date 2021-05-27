@@ -1154,7 +1154,7 @@ video::-webkit-media-text-track-display {
 }
 
 .vjs-loading-spinner:before {
-  background: rgb(77, 232, 244);
+  background: rgb(77, 232, 244) !important;
 }
 
 .vjs-loading-spinner:after {
