@@ -22321,7 +22321,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 }
 
 .video-container .autoplay-controls .icon::after {
-  alt: ' '
+  alt: 'Play'
 }
 
 .video-container .autoplay-controls-focus-button {
@@ -22335,18 +22335,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 
 .video-container video {
   width: 100%
-}
-
-.visuallyhidden {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
-  clip-path: inset(0px 0px 99.9% 99.9%);
-  overflow: hidden;
-  height: 1px;
-  width: 1px;
-  padding: 0;
-  border: 0
 }
 
 .video-description .icon {
@@ -22376,8 +22364,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   margin-right: 28px
 }
 
-.icon-thumbnailplay::before,
-.icon-thumbnailplay::after {
+.icon-thumbnailplay::before {
   content: "\F359"
 }
 
