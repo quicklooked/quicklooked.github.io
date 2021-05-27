@@ -586,14 +586,14 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .vjs-loading-spinner:after {
   content: " ";
   display: table-cell;
-  width: var(--circle-diameter);
-  height: var(--circle-diameter);
+  width: var(--circle-diameter) !important;
+  height: var(--circle-diameter) !important;
   border-radius: 50%;
-  position: absolute;
-  animation-duration: var(--animation-duration);
+  position: absolute !important;
+  animation-duration: var(--animation-duration) !important;
   animation-name: revolve !important;
   animation-iteration-count: infinite !important;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out !important;
   mix-blend-mode: darken;
 }
 
@@ -602,8 +602,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .vjs-loading-spinner:after {
-  background: rgb(253, 62, 62);
-  animation-delay: calc(var(--animation-duration) / -2);
+  background: rgb(253, 62, 62) !important;
+  animation-delay: calc(var(--animation-duration) / -2) !important;
 }
 
 .video-js .vjs-big-play-button {
