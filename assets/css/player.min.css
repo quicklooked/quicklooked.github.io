@@ -531,7 +531,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   }
 }
 
-@media all and (max-width:500px) {
+@media all and (max-width:768px) {
   .video-js .vjs-volume-panel .vjs-volume-control.vjs-volume-vertical{
     visibility: hidden;
   }
