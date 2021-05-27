@@ -1425,15 +1425,6 @@ video::-webkit-media-text-track-display {
   width: 100%;
 }
 
-.vjs-loading-spinner {
-  margin: -10px 0 0 -20px;
-  display: none;
-  text-align: left;
-  visibility: hidden;
-  position: relative;
-  left: calc(var(--circle-diameter) * -1);
-}
-
 .vjs-seeking .vjs-loading-spinner,
 .vjs-waiting .vjs-loading-spinner {
   display: block;
