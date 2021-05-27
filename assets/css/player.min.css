@@ -591,8 +591,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   border-radius: 50%;
   position: absolute;
   animation-duration: var(--animation-duration);
-  animation-name: revolve;
-  animation-iteration-count: infinite;
+  animation-name: revolve !important;
+  animation-iteration-count: infinite !important;
   animation-timing-function: ease-in-out;
   mix-blend-mode: darken;
 }
