@@ -22024,3 +22024,414 @@ ul.links.small>li.developerForum {
   width: 90px;
   background-position: 0px center;
 }
+
+
+@media only screen and (max-width: 734px) {
+  .video {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .video .component-content {
+    width: 100%
+  }
+}
+
+.video .video-description {
+  width: 653px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+@media only screen and (max-width: 1068px) {
+  .video .video-description {
+    width: 576px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .video .video-description {
+    width: 87.5%
+  }
+}
+
+.video .video-description .icon {
+  color: #06c;
+  right: 0;
+  margin-top: -4px
+}
+
+.video .video-description .icon[aria-hidden=true] {
+  visibility: hidden
+}
+
+.component {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px
+}
+
+.component::before,
+.component::after {
+  content: ' ';
+  display: table
+}
+
+.component::after {
+  clear: both
+}
+
+@media only screen and (min-width: 1441px) {
+  .component {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .component {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .component {
+    margin-left: auto;
+    margin-right: auto;
+    width: 87.5%
+  }
+}
+
+.component {
+  margin-top: 44px;
+  margin-bottom: 44px
+}
+
+@media only screen and (max-width: 1068px) {
+  .component {
+    margin-top: 36px;
+    margin-bottom: 36px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .component {
+    margin-top: 32px;
+    margin-bottom: 32px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .component {
+    max-width: 414px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+}
+
+.component-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 653px
+}
+
+@media only screen and (max-width: 1068px) {
+  .component-content {
+    width: 576px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .component-content {
+    width: 87.5%
+  }
+}
+
+.video-hero .component-content {
+  width: 980px
+}
+
+@media only screen and (max-width: 1068px) {
+  .video-hero .component-content {
+    width: 692px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .video-hero .component-content {
+    width: 100%
+  }
+}
+
+.body-copy-wide .video-description {
+  margin-left: 0;
+  margin-right: 0
+}
+
+.body-copy-wide .video-description .image-caption {
+  width: 571px;
+  margin-right: 0
+}
+
+@media only screen and (max-width: 1068px) {
+  .body-copy-wide .video-description .image-caption {
+    width: 519px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .body-copy-wide .video-description .image-caption {
+    width: auto;
+    margin-right: 28px
+  }
+}
+
+.body-copy-wide .video-description .image-caption:last-child {
+  width: auto;
+  margin-right: 0
+}
+
+.body-copy-wide .image-description {
+  margin-left: 0;
+  margin-right: 0
+}
+
+.body-copy-wide .image-description .image-caption {
+  width: 571px;
+  margin-right: 0
+}
+
+@media only screen and (max-width: 1068px) {
+  .body-copy-wide .image-description .image-caption {
+    width: 519px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .body-copy-wide .image-description .image-caption {
+    width: auto;
+    margin-right: 28px
+  }
+}
+
+.body-copy-wide .image-description .image-caption:last-child {
+  width: auto;
+  margin-right: 0
+}
+
+.image-description .image-caption {
+  margin-right: 28px
+}
+
+.body-copy-wide .image-description {
+  margin-right: 0;
+  margin-left: 0
+}
+
+@media only screen and (max-width: 734px) {
+  .image.body-copy-wide.image-inline .component-content {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .video-container {
+    margin: 0 -1px
+  }
+}
+
+.video-container .autoplay-controls-container {
+  font-size: 0;
+  line-height: 0;
+  position: relative
+}
+
+.video-container .autoplay-controls-container.playing .autoplay-controls-pause {
+  visibility: visible
+}
+
+.video-container .autoplay-controls-container.paused .autoplay-controls-play,
+.video-container .autoplay-controls-container.userpaused .autoplay-controls-play {
+  visibility: visible
+}
+
+.video-container .autoplay-controls-container.ended .autoplay-controls-replay {
+  visibility: visible
+}
+
+.video-container .autoplay-controls {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 400;
+  letter-spacing: .012em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  bottom: 20px;
+  height: 40px;
+  left: 20px;
+  width: 40px;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  visibility: hidden
+}
+
+@media only screen and (max-width: 1068px) {
+  .video-container .autoplay-controls {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  }
+}
+
+.video-container .autoplay-controls,
+.video-container .autoplay-controls .icon,
+.video-container .autoplay-controls .icon::after {
+  color: #6e6e73
+}
+
+.video-container .autoplay-controls:hover,
+.video-container .autoplay-controls:focus {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  background: #fff
+}
+
+.video-container .autoplay-controls:hover,
+.video-container .autoplay-controls:hover .icon,
+.video-container .autoplay-controls:hover .icon::after,
+.video-container .autoplay-controls:focus,
+.video-container .autoplay-controls:focus .icon,
+.video-container .autoplay-controls:focus .icon::after {
+  color: #1d1d1f;
+  text-decoration: none
+}
+
+.video-container .autoplay-controls .icon::after {
+  alt: ' '
+}
+
+.video-container .autoplay-controls-focus-button {
+  display: inline-block;
+  position: absolute;
+  bottom: 20px;
+  height: 40px;
+  left: 20px;
+  width: 40px
+}
+
+.video-container video {
+  width: 100%
+}
+
+.visuallyhidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+  clip-path: inset(0px 0px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0
+}
+
+.video-description .icon {
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 400;
+  letter-spacing: .012em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+  .video-description .icon {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  }
+}
+
+.video-description .icon::before,
+.video-description .icon::after {
+  line-height: inherit
+}
+
+.video-description .image-caption {
+  margin-right: 28px
+}
+
+.icon-thumbnailplay::before,
+.icon-thumbnailplay::after {
+  content: ""
+}
+
+.video-description {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #6e6e73;
+  margin: 16px 16px 0;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+
+@media only screen and (max-width: 1068px) {
+  .video-description {
+    margin-top: 12px
+  }
+}
+
+.video-description:empty {
+  margin-bottom: 0
+}
+
+.body-copy-wide .video-description .image-caption {
+  width: 571px;
+  margin-right: 0
+}
+
+@media only screen and (max-width: 1068px) {
+  .body-copy-wide .video-description .image-caption {
+    width: 519px
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .body-copy-wide .video-description .image-caption {
+    width: auto;
+    margin-right: 28px
+  }
+}
+
+.body-copy-wide .video-description .image-caption:last-child {
+  width: auto;
+  margin-right: 0
+}
+
+.video-description .image-caption {
+  margin-right: 28px
+}
+
+.icon:hover::after {
+  color: #06c
+}
