@@ -603,6 +603,21 @@ li.vjs-menu-item.vjs-texttrack-settings {
   margin: -10px 0 0 -20px;
 }
 
+.vjs-loading-spinner:before,
+.vjs-loading-spinner:after {
+  content: " ";
+  display: table-cell;
+  width: var(--circle-diameter);
+  height: var(--circle-diameter);
+  border-radius: 50%;
+  position: absolute;
+  animation-duration: var(--animation-duration);
+  animation-name: revolve;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  mix-blend-mode: darken;
+}
+
 .vjs-loading-spinner:before {
   background: rgb(77, 232, 244) !important;
 }
