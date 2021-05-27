@@ -2274,6 +2274,11 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   position: absolute;
 }
 
+.icon.fa.fa-4x.fa-history {
+	width: 40px;
+	height: 40px;
+}
+
 .fa-pause:before {
   content: "\f04c"
 }
@@ -2375,23 +2380,14 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   z-index: 2;
   transition-duration: 1s;
   cursor: pointer;
-  text-shadow: 0 0 5px #000
 }
 
 .vjs-overlay .previous-button .icon:hover {
   transform: translateX(-25px)
 }
 
-.vjs-overlay .seek-left .icon:hover {
-  transform: rotate(-50deg)
-}
-
 .vjs-overlay .play-button .icon:hover {
   transform: scale(1.2)
-}
-
-.vjs-overlay .seek-right .icon:hover {
-  transform: rotate(50deg) scaleX(-1)
 }
 
 .vjs-overlay .next-button .icon:hover {
