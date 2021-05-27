@@ -568,17 +568,20 @@ li.vjs-menu-item.vjs-texttrack-settings {
   transform: scale(1.2)
 }
 
-.video-js .vjs-loading-spinner {
-  border: 0;
-  position: absolute;
-  z-index: 15;
+.vjs-loading-spinner {
+  margin: -10px 0 0 -20px;
   display: none;
-  top: 50%;
-  left: 50%;
+  text-align: left;
+  visibility: hidden;
+  position: relative;
   opacity: 1;
   width: 40px;
   height: 20px;
-  margin: -10px 0 0 -20px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 15;
+  left: calc(var(--circle-diameter) * -1);
 }
 
 .vjs-loading-spinner:before,
