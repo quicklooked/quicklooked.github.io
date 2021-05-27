@@ -573,7 +573,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   display: none;
   text-align: left;
   visibility: hidden;
-  position: relative;
   opacity: 1;
   width: 40px;
   height: 20px;
@@ -581,7 +580,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   left: 50%;
   position: absolute;
   z-index: 15;
-  left: calc(var(--circle-diameter) * -1);
 }
 
 .vjs-loading-spinner:before,
