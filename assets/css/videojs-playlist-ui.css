@@ -22284,6 +22284,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   display: flex;
   position: absolute;
   justify-content: center;
+  border: 0px;
   visibility: hidden
 }
 
