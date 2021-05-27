@@ -611,20 +611,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
   transition: opacity .3s ease-in-out;
 }
 
-.video-js .vjs-loading-spinner:before {
-  content: none !important;
-  position: fixed;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, .2);
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  border-radius: 0;
-  border: 0
+.vjs-loading-spinner:before {
+  background: rgb(77, 232, 244) !important;
+}
+
+.vjs-loading-spinner:after {
+  background: rgb(253, 62, 62);
+  animation-delay: calc(var(--animation-duration) / -2);
 }
 
 .video-js .vjs-big-play-button {
