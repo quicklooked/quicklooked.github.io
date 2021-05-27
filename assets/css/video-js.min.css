@@ -1153,15 +1153,6 @@ video::-webkit-media-text-track-display {
   mix-blend-mode: darken;
 }
 
-.vjs-loading-spinner:before {
-  background: rgb(77, 232, 244) !important;
-}
-
-.vjs-loading-spinner:after {
-  background: rgb(253, 62, 62);
-  animation-delay: calc(var(--animation-duration) / -2);
-}
-
 .vjs-seeking .vjs-loading-spinner:before,
 .vjs-seeking .vjs-loading-spinner:after,
 .vjs-waiting .vjs-loading-spinner:before,
