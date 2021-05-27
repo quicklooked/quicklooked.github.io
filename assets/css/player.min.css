@@ -598,8 +598,6 @@ li.vjs-menu-item.vjs-texttrack-settings {
   top: 50%;
   left: 50%;
   opacity: 1;
-  transition: opacity .3s ease-in-out;
-  background-position: center;
   width: 40px;
   height: 20px;
   margin: -10px 0 0 -20px;
