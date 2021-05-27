@@ -22249,7 +22249,8 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 
 .video-container .autoplay-controls-container.paused .autoplay-controls-play,
 .video-container .autoplay-controls-container.userpaused .autoplay-controls-play {
-  visibility: visible
+  visibility: visible;
+  cursor: pointer;
 }
 
 .video-container .autoplay-controls-container.ended .autoplay-controls-replay {
