@@ -2271,6 +2271,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 .button-wrapper {
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
 .fa-forward:before {
   content: "\f04e"
