@@ -22137,12 +22137,12 @@ ul.links.small>li.developerForum {
 .component-content {
   margin-left: auto;
   margin-right: auto;
-  width: 653px
+  width: 680px
 }
 
 @media only screen and (max-width: 1068px) {
   .component-content {
-    width: 576px
+    width: 680px
   }
 }
 
@@ -22153,12 +22153,12 @@ ul.links.small>li.developerForum {
 }
 
 .video-hero .component-content {
-  width: 980px
+  width: 680px
 }
 
 @media only screen and (max-width: 1068px) {
   .video-hero .component-content {
-    width: 692px
+    width: 680px
   }
 }
 
@@ -22174,13 +22174,13 @@ ul.links.small>li.developerForum {
 }
 
 .body-copy-wide .video-description .image-caption {
-  width: 571px;
+  width: 680px;
   margin-right: 0
 }
 
 @media only screen and (max-width: 1068px) {
   .body-copy-wide .video-description .image-caption {
-    width: 519px
+    width: 680px
   }
 }
 
@@ -22202,13 +22202,13 @@ ul.links.small>li.developerForum {
 }
 
 .body-copy-wide .image-description .image-caption {
-  width: 571px;
+  width: 680px;
   margin-right: 0
 }
 
 @media only screen and (max-width: 1068px) {
   .body-copy-wide .image-description .image-caption {
-    width: 519px
+    width: 680px
   }
 }
 
@@ -22406,13 +22406,13 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 }
 
 .body-copy-wide .video-description .image-caption {
-  width: 571px;
+  width: 680px;
   margin-right: 0
 }
 
 @media only screen and (max-width: 1068px) {
   .body-copy-wide .video-description .image-caption {
-    width: 519px
+    width: 680px
   }
 }
 
