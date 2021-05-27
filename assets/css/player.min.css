@@ -2189,6 +2189,8 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 
 
 
+
+
 .overlay-container-fluid {
   width: 100%;
   padding-right: .75rem;
@@ -2247,11 +2249,6 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 
 .fa-4x {
   font-size: 4em
-}
-
-.fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  transform: scale(-1, 1)
 }
 
 :root .fa-flip-horizontal {
