@@ -1427,7 +1427,7 @@ video::-webkit-media-text-track-display {
 
 .vjs-seeking .vjs-loading-spinner,
 .vjs-waiting .vjs-loading-spinner {
-  display: block;
+  display: table-cell;
   -webkit-animation: vjs-spinner-show 0s linear 0.3s forwards;
   animation: vjs-spinner-show 0s linear 0.3s forwards;
 }
