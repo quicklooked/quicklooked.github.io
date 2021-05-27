@@ -1132,16 +1132,6 @@ video::-webkit-media-text-track-display {
   left: calc(var(--circle-diameter) * -1);
 }
 
-.vjs-loading-spinner:before {
-  background: rgb(77, 232, 244);
-}
-
-
-.vjs-loading-spinner:after {
-  background: rgb(253, 62, 62);
-  animation-delay: calc(var(--animation-duration) / -2);
-}
-
 .vjs-seeking .vjs-loading-spinner,
 .vjs-waiting .vjs-loading-spinner {
   display: block;
@@ -1161,6 +1151,15 @@ video::-webkit-media-text-track-display {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   mix-blend-mode: darken;
+}
+
+.vjs-loading-spinner:before {
+  background: rgb(77, 232, 244);
+}
+
+.vjs-loading-spinner:after {
+  background: rgb(253, 62, 62);
+  animation-delay: calc(var(--animation-duration) / -2);
 }
 
 .vjs-seeking .vjs-loading-spinner:before,
