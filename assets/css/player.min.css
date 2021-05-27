@@ -893,7 +893,7 @@ li.vjs-menu-item::before {
     top: -12px;
   }
   .video-js .vjs-control-bar .vjs-remaining-time {
-    top: -12px;
+    top: -12px !important
   }
 }
 
