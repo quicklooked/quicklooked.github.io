@@ -1,3 +1,10 @@
+:root {
+  --color-primary: #e50914;
+  --animation-duration: 0.8s;
+  --circle-diameter: 20px;
+  --circle-scale-percent: 0.2;
+}
+
 @-webkit-keyframes fadeinout2 {
   0% {
     visibility: visible;
@@ -320,13 +327,6 @@
   100% {
     left: 0;
   }
-}
-
-:root {
-  --color-primary: #e50914;
-  --animation-duration: 0.8s;
-  --circle-diameter: 20px;
-  --circle-scale-percent: 0.2;
 }
 
 #os_player {
