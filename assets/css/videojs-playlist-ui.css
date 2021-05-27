@@ -22271,7 +22271,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: 1.4211;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: sgtb icons, "Helvetica", "Arial", sans-serif
   bottom: 20px;
   height: 40px;
   left: 20px;
@@ -22293,7 +22293,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: sgtb icons, "Helvetica", "Arial", sans-serif
   }
 }
 
@@ -22354,7 +22354,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: 1.4211;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: sgtb icons, "Helvetica", "Arial", sans-serif
 }
 
 @media only screen and (max-width: 1068px) {
@@ -22363,7 +22363,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    font-family: sgtb icons, "Helvetica", "Arial", sans-serif
   }
 }
 
@@ -22378,7 +22378,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 
 .icon-thumbnailplay::before,
 .icon-thumbnailplay::after {
-  content: ""
+  content: "\F359"
 }
 
 .video-description {
