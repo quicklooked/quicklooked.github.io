@@ -322,7 +322,7 @@
 :root {
   --color-primary: #e50914;
   --animation-duration: 0.8s;
-  --circle-diameter: 50px;
+  --circle-diameter: 20px;
   --circle-scale-percent: 0.2;
 }
 
