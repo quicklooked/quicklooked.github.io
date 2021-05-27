@@ -22039,20 +22039,20 @@ ul.links.small>li.developerForum {
 }
 
 .video .video-description {
-  width: 653px;
+  width: 680px;
   margin-left: auto;
   margin-right: auto
 }
 
 @media only screen and (max-width: 1068px) {
   .video .video-description {
-    width: 576px
+    width: 680px
   }
 }
 
 @media only screen and (max-width: 734px) {
   .video .video-description {
-    width: 87.5%
+    width: 100%
   }
 }
 
@@ -22069,7 +22069,7 @@ ul.links.small>li.developerForum {
 .component {
   margin-left: auto;
   margin-right: auto;
-  width: 980px
+  width: 680px
 }
 
 .component::before,
@@ -22271,7 +22271,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: 1.4211;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: sgtb icons, "Helvetica", "Arial", sans-serif
+  font-family: sgtb icons, "Helvetica", "Arial", sans-serif;
   bottom: 20px;
   height: 40px;
   left: 20px;
@@ -22390,9 +22390,9 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   margin: 16px 16px 0;
   font-size: 12px;
   line-height: 1.33337;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: -.01em;
-  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
