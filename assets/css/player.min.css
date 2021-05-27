@@ -307,28 +307,6 @@
   }
 }
 
-@keyframes revolve {
-  0% {
-    left: 0;
-  }
-
-  25% {
-    transform: scale(calc(1 + var(--circle-scale-percent)));
-  }
-
-  50% {
-    left: var(--circle-diameter);
-  }
-
-  75% {
-    transform: scale(calc(1 - var(--circle-scale-percent)));
-  }
-
-  100% {
-    left: 0;
-  }
-}
-
 #os_player {
   position: relative;
   z-index: 50;
@@ -2182,4 +2160,27 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 
 .vjs-subs-caps-button:hover~.vjs-remaining-time {
   display: none !important;
+}
+
+
+@keyframes revolve {
+  0% {
+    left: 0;
+  }
+
+  25% {
+    transform: scale(calc(1 + var(--circle-scale-percent)));
+  }
+
+  50% {
+    left: var(--circle-diameter);
+  }
+
+  75% {
+    transform: scale(calc(1 - var(--circle-scale-percent)));
+  }
+
+  100% {
+    left: 0;
+  }
 }
