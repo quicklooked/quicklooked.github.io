@@ -2401,3 +2401,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   z-index: 2;
   cursor: pointer;
 }
+
+.vjs-volume-panel.vjs-control.vjs-volume-panel-vertical {
+  margin: 0 36px 0 0;
+}
