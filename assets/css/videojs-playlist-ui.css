@@ -22350,7 +22350,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 }
 
 .icon-thumbnailplay::before {
-  content: "\E646"
+  content: "\E688"
 }
 
 .video-description {
