@@ -764,7 +764,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   max-height: calc(170px - 20px);
   overflow-y: auto;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: rgba(30, 30, 30, 0.9);
+  background-color: #333;
   position: absolute;
   padding: 5px 12px 5px 12px;
   width: fit-content;
@@ -774,7 +774,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   width: max-content;
   pointer-events: all;
   -webkit-transition: opacity 0.5s ease, visibility 0s ease 0.5s;
-  border-radius: 3px;
+  border-radius: 4px;
   -webkit-transition: opacity 150ms ease-out, -webkit-transform 150ms ease-out;
   transition: opacity 150ms ease-out, -webkit-transform 150ms ease-out;
   transition: opacity 150ms ease-out, transform 150ms ease-out;
