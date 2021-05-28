@@ -757,8 +757,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   bottom: 40px;
   right: 40%;
   transform: translateX(-40px);
-  font-size: 1.2em;
-  line-height: 16px;
+  font-size: 1.4em;
+  line-height: 24px;
   color: #fff;
   -webkit-app-region: no-drag;
   max-height: calc(170px - 20px);
@@ -793,7 +793,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
   font-family: sohne, Helvetica, Arial, sans-serif;
   text-align: left;
-  height: 20px;
+  height: 24px;
   text-transform: capitalize;
   font-weight: 400;
   color: #fff;
@@ -808,31 +808,37 @@ li.vjs-menu-item.vjs-texttrack-settings {
 li.vjs-menu-item.vjs-subtitles-menu-item::before {
   content: "";
   display: inline-block;
-  vertical-align: 2%;
+  vertical-align: 0%;
   margin-right: .5em;
-  width: 0.7em;
-  height: 0.7em;
-  border-radius: 50%;
-  border: 1px solid #666;
+  width: 12px;
+  height: 12px;
+  border-radius: 0;
+  border: 0px solid #666;
 }
 
 li.vjs-menu-item.vjs-subtitles-menu-item.vjs-selected::before {
-  background-color: rgb(0, 173, 239);
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23fff' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 24' style='enable-background:new 0 0 24 24;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M8.5,19L21.9,1.1L24,2.7L8.8,22.9L0,14.1l1.8-1.8L8.5,19z'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
 }
 
 li.vjs-menu-item.vjs-selected::before {
-  background-color: rgb(0, 173, 239);
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23fff' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 24' style='enable-background:new 0 0 24 24;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M8.5,19L21.9,1.1L24,2.7L8.8,22.9L0,14.1l1.8-1.8L8.5,19z'/%3E%3C/g%3E%3C/svg%3E");
+  background-position: center;
+  background-size: 12px;
+  background-repeat: no-repeat;
 }
 
 li.vjs-menu-item::before {
   content: "";
   display: inline-block;
-  vertical-align: 2%;
+  vertical-align: 0%;
   margin-right: .5em;
-  width: 0.7em;
-  height: 0.7em;
-  border-radius: 50%;
-  border: 1px solid #666;
+  width: 12px;
+  height: 12px;
+  border-radius: 0;
+  border: 0px solid #666;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
@@ -844,9 +850,9 @@ li.vjs-menu-item::before {
   color: #fff;
   margin: 0 0.5em 0 0em;
   padding: 0 0.5em 0 0em;
-  font-size: 1em;
-  line-height: 1.6;
-  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
