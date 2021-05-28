@@ -22259,10 +22259,9 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 
 .video-container .autoplay-controls {
   font-size: 19px;
-  line-height: 1.4211;
   font-weight: 400;
   letter-spacing: .012em;
-  font-family: sgtb icons, "Helvetica", "Arial", sans-serif;
+  font-family: nf-icon, "Helvetica", "Arial", sans-serif;
   bottom: 20px;
   height: 40px;
   left: 20px;
@@ -22282,7 +22281,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 @media only screen and (max-width: 1068px) {
   .video-container .autoplay-controls {
     font-size: 17px;
-    line-height: 1.47059;
     font-weight: 400;
     letter-spacing: -.022em;
   }
@@ -22352,7 +22350,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 }
 
 .icon-thumbnailplay::before {
-  content: "\F359"
+  content: "\E646"
 }
 
 .video-description {
