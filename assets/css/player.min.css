@@ -852,7 +852,7 @@ li.vjs-menu-item::before {
   padding: 0 0.5em 0 0em;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
