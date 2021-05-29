@@ -32,15 +32,6 @@ var inherits = function (subClass, superClass) {
 };
 
 
-
-
-
-
-
-
-
-
-
 var possibleConstructorReturn = function (self, call) {
   if (!self) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
@@ -49,32 +40,12 @@ var possibleConstructorReturn = function (self, call) {
   return call && (typeof call === "object" || typeof call === "function") ? call : self;
 };
 
-/**
- * @file touchOverlay.js
- * Touch UI component
- */
-
 var Component = videojs.getComponent('Component');
 var dom = videojs.dom || videojs;
-
-/**
- * The `TouchOverlay` is an overlay to capture tap events.
- *
- * @extends Component
- */
 
 var TouchOverlay = function (_Component) {
   inherits(TouchOverlay, _Component);
 
-  /**
-  * Creates an instance of the this class.
-  *
-  * @param  {Player} player
-  *         The `Player` that this class should be attached to.
-  *
-  * @param  {Object} [options]
-  *         The key/value store of player options.
-  */
   function TouchOverlay(player, options) {
     classCallCheck(this, TouchOverlay);
 
@@ -83,15 +54,10 @@ var TouchOverlay = function (_Component) {
     _this.seekSeconds = options.seekSeconds;
     _this.tapTimeout = options.tapTimeout;
 
-    // Add play toggle overlay
-    _this.addChild('playToggle', {});
-
-    // Clear overlay when playback starts or with control fade
     player.on(['playing', 'userinactive'], function (e) {
       _this.removeClass('show-play-toggle');
     });
 
-    // A 0 inactivity timeout won't work here
     if (_this.player_.options_.inactivityTimeout === 0) {
       _this.player_.options_.inactivityTimeout = 5000;
     }
@@ -99,13 +65,6 @@ var TouchOverlay = function (_Component) {
     _this.enable();
     return _this;
   }
-
-  /**
-   * Builds the DOM element.
-   *
-   * @return {Element}
-   *         The DOM element.
-   */
 
 
   TouchOverlay.prototype.createEl = function createEl() {
@@ -118,19 +77,10 @@ var TouchOverlay = function (_Component) {
     return el;
   };
 
-  /**
-  * Debounces to either handle a delayed single tap, or a double tap
-   *
-   * @param {Event} event
-   *        The touch event
-   *
-   */
-
 
   TouchOverlay.prototype.handleTap = function handleTap(event) {
     var _this2 = this;
 
-    // Don't handle taps on the play button
     if (event.target !== this.el_) {
       return;
     }
@@ -152,27 +102,12 @@ var TouchOverlay = function (_Component) {
     }
   };
 
-  /**
-   * Toggles display of play toggle
-   *
-   * @param {Event} event
-   *        The touch event
-   *
-   */
 
 
   TouchOverlay.prototype.handleSingleTap = function handleSingleTap(event) {
     this.removeClass('skip');
     this.toggleClass('show-play-toggle');
   };
-
-  /**
-   * Seeks by configured number of seconds if left or right part of video double tapped
-   *
-   * @param {Event} event
-   *        The touch event
-   *
-   */
 
 
   TouchOverlay.prototype.handleDoubleTap = function handleDoubleTap(event) {
@@ -181,7 +116,6 @@ var TouchOverlay = function (_Component) {
     var rect = this.el_.getBoundingClientRect();
     var x = event.changedTouches[0].clientX - rect.left;
 
-    // Check if double tap is in left or right area
     if (x < rect.width * 0.4) {
       this.player_.currentTime(Math.max(0, this.player_.currentTime() - this.seekSeconds));
       this.addClass('reverse');
@@ -192,29 +126,19 @@ var TouchOverlay = function (_Component) {
       return;
     }
 
-    // Remove play toggle if showing
     this.removeClass('show-play-toggle');
 
-    // Remove and readd class to trigger animation
     this.removeClass('skip');
     window.requestAnimationFrame(function () {
       _this3.addClass('skip');
     });
   };
 
-  /**
-   * Enables touch handler
-   */
-
 
   TouchOverlay.prototype.enable = function enable() {
     this.firstTapCaptured = false;
     this.on('touchend', this.handleTap);
   };
-
-  /**
-   * Disables touch handler
-   */
 
 
   TouchOverlay.prototype.disable = function disable() {
