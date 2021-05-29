@@ -6,7 +6,7 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
+      "kind": "captions",
       "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
