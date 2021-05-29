@@ -809,13 +809,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 li.vjs-menu-item.vjs-selected::before {
   content: "\F048";
+  margin-right: .5em;
 }
 
 li.vjs-menu-item::before {
   content: "";
   display: inline-block;
   vertical-align: baseline;
-  margin-right: .5em;
   font-family: nf-icon;
 }
 
