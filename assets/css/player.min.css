@@ -769,7 +769,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   line-height: 20px;
   color: #fff;
   -webkit-app-region: no-drag;
-  max-height: calc(248px - 20px);
+  max-height: calc(240px - 28px);
   overflow-y: auto;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #333;
@@ -796,13 +796,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
   padding-right: 16px;
   margin: 0;
   padding: 0;
-  line-height: 20px;
+  line-height: 28px;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
   font-family: Helvetica, Arial, sans-serif;
   text-align: left;
-  height: 20px;
+  height: 28px;
   text-transform: capitalize;
   font-weight: 400;
   color: #fff;
@@ -811,7 +811,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   margin: 0 0.5em 0 0em;
   padding: 0 0.5em 0 0em;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 28px;
 }
 
 li.vjs-menu-item.vjs-selected::before {
