@@ -7,12 +7,12 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "captions",
-      "label": "English (United States) CC",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
     }],
@@ -32,13 +32,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "en",
     }],
@@ -58,13 +58,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt",
       "srclang": "en",
     }],
@@ -84,13 +84,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim.en_US.vtt",
       "srclang": "en",
     }],
@@ -110,13 +110,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210426/04262021mbep97/04262021mbep97.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210426/04262021mbep97/04262021mbep97.en_US.vtt",
       "srclang": "en",
     }],
@@ -136,13 +136,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210407/04072021swoil/04072021swoil.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210407/04072021swoil/04072021swoil.en_US.vtt",
       "srclang": "en",
     }],
@@ -162,13 +162,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210322/03222021mb92rev/03222021mb92rev.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210322/03222021mb92rev/03222021mb92rev.en_US.vtt",
       "srclang": "en",
     }],
@@ -188,13 +188,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin.en_US.vtt",
       "srclang": "en",
     }],
@@ -214,13 +214,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
       "srclang": "en",
     }],
@@ -240,13 +240,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210212/02122021swhospitality/02122021swhospitality.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210212/02122021swhospitality/02122021swhospitality.en_US.vtt",
       "srclang": "en",
     }],
@@ -266,13 +266,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210211/02112021exvday/02112021exvday.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210211/02112021exvday/02112021exvday.en_US.vtt",
       "srclang": "en",
     }],
@@ -292,13 +292,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210209/02092021swspace/02092021swspace.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210209/02092021swspace/02092021swspace.en_US.vtt",
       "srclang": "en",
     }],
@@ -318,13 +318,13 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
+      "kind": "captions",
+      "label": "English Audio Descriptions",
       "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "subtitles",
-      "label": "English Descriptions",
+      "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
       "srclang": "en",
     }],
