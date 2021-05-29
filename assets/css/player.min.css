@@ -809,7 +809,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 li.vjs-menu-item.vjs-selected::before {
   content: "\F048";
-  margin-right: .5em;
+  margin-right: .9em;
   font-size: 10px;
 }
 
