@@ -810,6 +810,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 li.vjs-menu-item.vjs-selected::before {
   content: "\F048";
   margin-right: .5em;
+  font-size: 10px;
 }
 
 li.vjs-menu-item::before {
@@ -827,7 +828,6 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
   color: #fff;
-  font-weight: 700;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
