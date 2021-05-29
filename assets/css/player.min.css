@@ -731,6 +731,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
     padding: 0 0px;
     height: 6.4em
   }
+  .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
+    bottom: 32px !important;
+  }
 }
 
 .video-js .vjs-control-bar button {}
@@ -759,7 +762,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 28px;
+  bottom: 24px;
   right: 40%;
   transform: translateX(-40px);
   font-size: 12px;
