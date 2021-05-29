@@ -717,23 +717,12 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-control-bar {
   background: 0 0;
   z-index: 10;
-  height: 7.2em;
-  padding-top: 12px
+  height: 6.4em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
 }
 
 @media all and (max-width:500px) {
-  .video-js .vjs-control-bar {
-    padding: 0 0px;
-    height: 6em
-  }
-}
-
-.video-js .vjs-control-bar button {}
-
-@media all and (max-width:500px) {
-  .video-js .vjs-control-bar button {}
-}
-
 .video-js .vjs-control-bar .vjs-menu {
   min-width: 140px;
   z-index: 11
