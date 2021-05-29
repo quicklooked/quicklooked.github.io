@@ -2353,6 +2353,12 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   margin: 0 !important
 }
 
+@media only screen and (max-width: 768px) {
+  .video-js .vjs-overlay {
+    z-index: 5;
+  }
+}
+
 .video-js .vjs-overlay {
   position: absolute;
   padding: 0 !important;
@@ -2360,7 +2366,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 5;
+  z-index: 1;
   width: 100%
 }
 
