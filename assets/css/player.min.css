@@ -2331,7 +2331,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   margin: 0 !important
 }
 
-@media only screen and (max-width: 768px) {
+@media only all and (max-width: 768px) {
   .video-js .vjs-overlay {
     z-index: 5 !important;
   }
@@ -2402,7 +2402,8 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 .video-js.vjs-has-started .vjs-touch-overlay {
   position: absolute;
   pointer-events: auto;
-  top: 0
+  top: 0;
+  z-index: 5;
 }
 
 .video-js .vjs-touch-overlay {
