@@ -1454,6 +1454,12 @@
   background-color: #0000;
 }
 
+.markdown-body .highlight pre span {
+  margin-bottom: 0;
+  word-break: normal;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace !important;
+}
+
 @-webkit-keyframes gt-kf-rotate {
   0% {
     -webkit-transform: rotate(0);
