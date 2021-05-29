@@ -7,16 +7,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
-      "default": true
     }, {
-      "kind": "descriptions",
-      "label": "English CC",
+      "kind": "subtitles",
+      "label": "English Descriptions",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
-      "default": true
     }],
     name: 'The Costs and Benefits of a $15 Federal Minimum Wage',
     duration: '503',
@@ -35,9 +33,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'Tesla vs. NIO: Battle for the World’s Largest EV Market',
     duration: '388',
@@ -56,9 +59,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'How Vulnerable Is U.S. Energy Infrastructure to Future Cyberattacks?',
     duration: '352',
@@ -77,9 +85,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim.en_US.vtt",
+      "srclang": "en",
     }],
     name: '50 Years\' Worth of Indexing',
     duration: '175',
@@ -98,9 +111,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210426/04262021mbep97/04262021mbep97.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210426/04262021mbep97/04262021mbep97.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'Low Rates, Rising Yields & Your Money',
     duration: '563',
@@ -119,9 +137,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210407/04072021swoil/04072021swoil.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210407/04072021swoil/04072021swoil.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'What\'s next for oil prices? Here\'s what to know',
     duration: '245',
@@ -140,9 +163,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210322/03222021mb92rev/03222021mb92rev.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210322/03222021mb92rev/03222021mb92rev.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'Wall Street\'s Next Frontier',
     duration: '576',
@@ -161,9 +189,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'The Future of Bitcoin',
     duration: '152',
@@ -182,9 +215,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'Desktops are making a comeback during the pandemic',
     duration: '218',
@@ -203,9 +241,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210212/02122021swhospitality/02122021swhospitality.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210212/02122021swhospitality/02122021swhospitality.en_US.vtt",
+      "srclang": "en",
     }],
     name: '3 major changes in the hotel industry due to COVID-19',
     duration: '235',
@@ -224,9 +267,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210211/02112021exvday/02112021exvday.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210211/02112021exvday/02112021exvday.en_US.vtt",
+      "srclang": "en",
     }],
     name: '3 money mistakes couples make and how to avoid them',
     duration: '171',
@@ -245,9 +293,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210209/02092021swspace/02092021swspace.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210209/02092021swspace/02092021swspace.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'How to invest in the space economy in 2021',
     duration: '208',
@@ -266,9 +319,14 @@ function getPlaylistTheEconomist() {
     }],
     textTracks: [{
       "kind": "subtitles",
-      "label": "English (United States)",
+      "label": "English [Original])",
       "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
-      "srclang": "en"
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English Descriptions",
+      "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'What is short selling and should you do it?',
     duration: '159',
