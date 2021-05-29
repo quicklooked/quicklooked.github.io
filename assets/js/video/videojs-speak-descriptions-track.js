@@ -75,7 +75,7 @@
       while(i--) {
         var track = tracks[i];
         if(track.mode === 'showing') {
-          if(track.kind === 'descriptions') {
+          if(track.kind === 'captions') {
             descriptionsTrack = track;
           }
         }
