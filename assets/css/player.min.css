@@ -755,11 +755,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 32px;
+  bottom: 20px;
   right: 40%;
   transform: translateX(-40px);
-  font-size: 1.4em;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 20px;
   color: #fff;
   -webkit-app-region: no-drag;
   max-height: calc(170px - 20px);
@@ -767,9 +767,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   font-family: Helvetica, Arial, sans-serif;
   background-color: #333;
   position: absolute;
-  padding: 5px 12px 5px 12px;
   width: fit-content;
-  min-width: 125px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -781,6 +779,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   transition: opacity 150ms ease-out, transform 150ms ease-out;
   transition: opacity 150ms ease-out, transform 150ms ease-out, -webkit-transform 150ms ease-out;
   overflow-x: hidden;
+  box-shadow: none;
+  padding: 8px 12px;
+  white-space: nowrap;
 }
 
 .vjs-menu li {
@@ -788,13 +789,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
   padding-right: 16px;
   margin: 0;
   padding: 0;
-  line-height: 21px;
+  line-height: 20px;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: sohne, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   text-align: left;
-  height: 24px;
+  height: 20px;
   text-transform: capitalize;
   font-weight: 400;
   color: #fff;
@@ -802,8 +803,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   background: 0 0 !important;
   margin: 0 0.5em 0 0em;
   padding: 0 0.5em 0 0em;
-  font-size: 1em;
-  line-height: 1.6;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 li.vjs-menu-item.vjs-subtitles-menu-item::before {
@@ -825,6 +826,7 @@ li.vjs-menu-item.vjs-subtitles-menu-item.vjs-selected::before {
 }
 
 li.vjs-menu-item.vjs-selected::before {
+  content: "\F048";
   background-image: url("data:image/svg+xml,%3Csvg fill='%23fff' version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 24 24' style='enable-background:new 0 0 24 24;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M8.5,19L21.9,1.1L24,2.7L8.8,22.9L0,14.1l1.8-1.8L8.5,19z'/%3E%3C/g%3E%3C/svg%3E");
   background-position: center;
   background-size: 12px;
@@ -838,8 +840,7 @@ li.vjs-menu-item::before {
   margin-right: .5em;
   width: 12px;
   height: 12px;
-  border-radius: 0;
-  border: 0px solid #666;
+  font-family: nf-icon;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
@@ -849,11 +850,6 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
   color: #fff;
-  margin: 0 0.5em 0 0em;
-  padding: 0 0.5em 0 0em;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
