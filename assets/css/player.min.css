@@ -816,6 +816,7 @@ li.vjs-menu-item::before {
   content: "";
   display: inline-block;
   vertical-align: baseline;
+  margin-right: 20px;
   font-family: nf-icon;
 }
 
