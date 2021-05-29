@@ -411,6 +411,10 @@ li.vjs-menu-item.vjs-texttrack-settings {
   margin: 0em 0em 1.25em -1.25em;
 }
 
+.video-js .vjs-volume-panel.vjs-volume-panel-vertical {
+  width: 36px;
+}
+
 .vjs-volume-bar.vjs-slider-bar.vjs-slider.vjs-slider-vertical {
   width: 0.6em;
   height: 10em;
