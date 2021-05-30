@@ -2431,6 +2431,10 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   .vjs-control.vjs-button.vjs-icon-next-item {
     display: none !important;
   }
+  .video-js .vjs-control-bar .vjs-button.vjs-seek-button, 
+  .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
+    display: none !important;
+  }
   .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
     display: none !important;
   }
