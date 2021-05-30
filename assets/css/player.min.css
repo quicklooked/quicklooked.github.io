@@ -646,9 +646,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   }
 
   .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 40px;
-    height: 40px;
-    background-size: 40px;
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 40px !important;
   }
 }
 
