@@ -2425,12 +2425,12 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   content: "";
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-icon-next-item {
-    display: none;
+    display: none !important;
   }
   .vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
-    margin: 0 36px 0 auto;
+    margin: 0 36px 0 auto !important;
   }
 }
 
