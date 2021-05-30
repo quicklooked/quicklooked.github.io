@@ -2459,6 +2459,10 @@ i.icon.fa.fa-4x.fa-pause {
   visibility: hidden !important
 }
 
+.button-wrapper:hover {
+  transform: scale3d(1.2, 1.2, 1.2);
+}
+
 .d-none {
   display: none !important
 }
