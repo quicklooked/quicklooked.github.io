@@ -641,8 +641,14 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button {
-    width: 80px;
-    height: 80px
+    width: 40px;
+    height: 40px
+  }
+
+  .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
   }
 }
 
@@ -667,8 +673,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder {
-    width: 80px;
-    height: 80px
+    width: 40px;
+    height: 40px
   }
 }
 
@@ -685,9 +691,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 80px;
-    height: 80px;
-    background-size: 80px
+    width: 40px;
+    height: 40px;
+    background-size: 40px
   }
 }
 
