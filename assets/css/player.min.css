@@ -766,14 +766,14 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 24px;
+  bottom: 28px;
   right: 40%;
   transform: translateX(-40px);
   font-size: 12px;
   line-height: 20px;
   color: #fff;
   -webkit-app-region: no-drag;
-  max-height: calc(240px - 28px);
+  max-height: calc(269px - 36px);
   overflow-y: auto;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #333;
@@ -793,6 +793,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   box-shadow: none;
   padding: 8px 12px;
   white-space: nowrap;
+  display: grid;
 }
 
 .vjs-menu li {
@@ -804,32 +805,38 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
-  font-family: sohne, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   text-align: left;
-  height: 28px;
+  height: 36px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #fff;
+  color: #ccc;
   outline: 0 !important;
   background: 0 0 !important;
   margin: 0 0.5em 0 0em;
   padding: 0 0.5em 0 0em;
   font-size: 12px;
-  line-height: 28px;
+  line-height: 36px;
+  display: inline-flex;
 }
 
 li.vjs-menu-item.vjs-selected::before {
   content: "\F048";
-  margin-right: 1.4em;
-  font-size: 8px;
+  font-size: 0;
+  background-color: rgb(0, 173, 239);
 }
 
 li.vjs-menu-item::before {
   content: "";
-  display: inline-block;
+  display: inline-flex;
   vertical-align: 4%;
   margin-right: 20px;
   font-family: nf-icon;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 12px 12px 12px 0px;
+  border: 1px solid;
+  border-radius: 50%;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
