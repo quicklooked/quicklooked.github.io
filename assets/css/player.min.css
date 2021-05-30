@@ -888,11 +888,11 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-progress-control {
   position: absolute;
-  top: -1.6em;
+  top: -1.8em;
   left: 1.2em;
   right: 5em;
   width: auto;
-  height: 1.6em;
+  height: 1.8em;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
@@ -985,15 +985,15 @@ li.vjs-menu-item::before {
   z-index: 11;
   background: var(--color-primary);
   width: 1.5em;
-	height: 1.5em;
-	font-size: 12px;
+  height: 1.5em;
+  font-size: 12px;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:before {
   width: 1.5em;
-	height: 1.5em;
-	font-size: 12px;
+  height: 1.5em;
+  font-size: 12px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time {
@@ -1005,9 +1005,9 @@ li.vjs-menu-item::before {
   font-size: 12px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -16px;
+  top: -18px;
   right: 0;
-  height: 16px;
+  height: 18px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
