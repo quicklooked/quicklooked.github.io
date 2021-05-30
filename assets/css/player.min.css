@@ -969,8 +969,8 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:before {
-  width: 1.2em;
-  height: 1.2em
+  width: 1.1em;
+  height: 1.1em
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time {
