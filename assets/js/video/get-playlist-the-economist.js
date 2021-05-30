@@ -17,7 +17,7 @@ function getPlaylistTheEconomist() {
       "srclang": "en",
     }, {
       "kind": "chapters",
-      "label": "English (United States) CC",
+      "label": "The Costs and Benefits of a $15 Federal Minimum Wage",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
     }],
@@ -46,6 +46,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "Tesla vs. NIO: Battle for the World’s Largest EV Market",
+      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'Tesla vs. NIO: Battle for the World’s Largest EV Market',
     duration: '388',
@@ -70,6 +75,11 @@ function getPlaylistTheEconomist() {
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "How Vulnerable Is U.S. Energy Infrastructure to Future Cyberattacks?",
       "src": "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621.en_US.vtt",
       "srclang": "en",
     }],
@@ -98,6 +108,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "50 Years\' Worth of Indexing",
+      "src": "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim.en_US.vtt",
+      "srclang": "en",
     }],
     name: '50 Years\' Worth of Indexing',
     duration: '175',
@@ -122,6 +137,11 @@ function getPlaylistTheEconomist() {
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210426/04262021mbep97/04262021mbep97.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "Low Rates, Rising Yields & Your Money",
       "src": "https://m.wsj.net/video/20210426/04262021mbep97/04262021mbep97.en_US.vtt",
       "srclang": "en",
     }],
@@ -150,6 +170,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210407/04072021swoil/04072021swoil.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "What\'s next for oil prices? Here\'s what to know",
+      "src": "https://m.wsj.net/video/20210407/04072021swoil/04072021swoil.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'What\'s next for oil prices? Here\'s what to know',
     duration: '245',
@@ -174,6 +199,11 @@ function getPlaylistTheEconomist() {
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210322/03222021mb92rev/03222021mb92rev.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "Wall Street\'s Next Frontier",
       "src": "https://m.wsj.net/video/20210322/03222021mb92rev/03222021mb92rev.en_US.vtt",
       "srclang": "en",
     }],
@@ -202,6 +232,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "The Future of Bitcoin",
+      "src": "https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'The Future of Bitcoin',
     duration: '152',
@@ -226,6 +261,11 @@ function getPlaylistTheEconomist() {
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "Desktops are making a comeback during the pandemic",
       "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
       "srclang": "en",
     }],
@@ -254,6 +294,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210212/02122021swhospitality/02122021swhospitality.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "3 major changes in the hotel industry due to COVID-19",
+      "src": "https://m.wsj.net/video/20210212/02122021swhospitality/02122021swhospitality.en_US.vtt",
+      "srclang": "en",
     }],
     name: '3 major changes in the hotel industry due to COVID-19',
     duration: '235',
@@ -278,6 +323,11 @@ function getPlaylistTheEconomist() {
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210211/02112021exvday/02112021exvday.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "3 money mistakes couples make and how to avoid them",
       "src": "https://m.wsj.net/video/20210211/02112021exvday/02112021exvday.en_US.vtt",
       "srclang": "en",
     }],
@@ -306,6 +356,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210209/02092021swspace/02092021swspace.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "How to invest in the space economy in 2021",
+      "src": "https://m.wsj.net/video/20210209/02092021swspace/02092021swspace.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'How to invest in the space economy in 2021',
     duration: '208',
@@ -330,6 +385,11 @@ function getPlaylistTheEconomist() {
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "What is short selling and should you do it?",
       "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
       "srclang": "en",
     }],
