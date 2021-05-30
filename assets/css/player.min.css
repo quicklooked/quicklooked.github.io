@@ -2608,6 +2608,12 @@ i.icon.fa.fa-4x.fa-pause {
   }
 }
 
+@media (max-width: 768px) {
+  .button-wrapper:hover {
+    transform: scale(1) !important;
+  }
+}
+
 .video-js.vjs-user-active.vjs-playing .vjs-text-track-display {
   top: -72px;
 }
