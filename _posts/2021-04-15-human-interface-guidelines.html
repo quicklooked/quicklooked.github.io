@@ -545,6 +545,19 @@ twitterAuthor: "@TheEconomist"
                       mdaTitle_051820211001.setAttribute('title', video.name);
                       mdaDescription_051820211001.innerHTML = video.description;
                     });
+                    var buttonComponent = videojs.getComponent('Button');
+                    var nextButton = videojs.extend(buttonComponent, {
+                      constructor: function() {
+                        buttonComponent.apply(this, arguments);
+                        this.addClass('vjs-icon-next-item');
+                        this.controlText('Next');
+                      },
+                      handleClick: function(e) {
+                        player051820211001.playlist.next();
+                      }
+                    });
+                    videojs.registerComponent('nextButton', nextButton);
+                    player051820211001.getChild('controlBar').addChild('nextButton', {}, 9);
                   }(window, window.videojs));
 
                   function openVideo_051820211001() {
