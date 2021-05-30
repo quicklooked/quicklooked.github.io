@@ -2463,10 +2463,6 @@ i.icon.fa.fa-4x.fa-pause {
   transform: scale3d(1.2, 1.2, 1.2);
 }
 
-.button-wrapper:focus {
-  transform: scale3d(1, 1, 1);
-}
-
 .button-wrapper:active {
   transform: scale3d(1, 1, 1);
 }
