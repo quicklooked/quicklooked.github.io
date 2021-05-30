@@ -2417,3 +2417,29 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 .vjs-icon-next-item:before {
   content: "";
 }
+
+.vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
+  margin: 0 36px 0 0;
+}
+
+.vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-button .vjs-icon-placeholder {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin: 0 auto;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  transition: all .3s ease;
+  opacity: 1;
+  padding: 18px;
+}
+
+.vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-button .vjs-icon-placeholder:before {
+  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute;' viewBox='0 0 28 28' fill='%23fff'%3E%3Cpath d='M27,7.25 L27,14 L24.7142857,14 L24.7142857,7.25 L11,7.25 L11,5 L27,5 L27,7.25 Z M23,11.2222222 L23,19 L20.7333333,19 L20.7333333,11.2222222 L6,11.2222222 L6,9 L23,9 L23,11.2222222 Z M1,13 L19,13 L19,24 L1,24 L1,13 Z'%3E%3C/path%3E%3C/svg%3E");
+  width: 36px;
+  height: 36px;
+  background-size: 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
