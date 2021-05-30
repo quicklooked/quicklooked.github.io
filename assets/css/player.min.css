@@ -2157,6 +2157,14 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: none !important;
 }
 
+.vjs-volume-panel:hover+.vjs-current-time {
+  display: block !important;
+}
+
+.vjs-volume-panel:hover~.vjs-current-time {
+  display: none !important;
+}
+
 .vjs-volume-panel:hover+.vjs-remaining-time {
   display: flex !important;
 }
