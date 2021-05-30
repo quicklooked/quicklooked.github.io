@@ -1093,7 +1093,7 @@ button.vjs-fullscreen-control.vjs-control.vjs-button {
 
 .vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
   width: 36px;
-  margin: 0 36px 0 auto;
+  margin: 0 36px 0 0;
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-horizontal {
