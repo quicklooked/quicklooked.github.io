@@ -2564,19 +2564,24 @@ i.icon.fa.fa-4x.fa-pause {
   }
 
   .play-button .button-wrapper {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
 
   i.icon.fa.fa-4x.fa-play {
-    width: 60px;
-    height: 60px;
-    background-size: 60px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
   }
 
   i.icon.fa.fa-4x.fa-pause {
-    width: 60px;
-    height: 60px;
-    background-size: 60px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+  }
+
+  .vjs-overlay .overlay-button {
+    width: 40px;
+    height: 40px;
   }
 }
