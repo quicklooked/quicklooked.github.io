@@ -2540,4 +2540,43 @@ i.icon.fa.fa-4x.fa-pause {
   .vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
     margin: 0 36px 0 auto !important;
   }
+
+  .seek-left .button-wrapper {
+    width: 26px;
+    height: 26px;
+  }
+
+  .seek-left .button-wrapper .icon.fa.fa-4x.fa-history {
+    background-size: 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .seek-right .button-wrapper {
+    width: 26px;
+    height: 26px;
+  }
+
+  .seek-right .button-wrapper .icon.fa.fa-4x.fa-history {
+    background-size: 26px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .play-button .button-wrapper {
+    width: 60px;
+    height: 60px;
+  }
+
+  i.icon.fa.fa-4x.fa-play {
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+  }
+
+  i.icon.fa.fa-4x.fa-pause {
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+  }
 }
