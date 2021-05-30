@@ -2427,8 +2427,11 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   content: "";
 }
 
-@media (max-width: 680px) {
+@media (max-width: 600px) {
   .vjs-control.vjs-button.vjs-icon-next-item {
+    display: none !important;
+  }
+  .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
     display: none !important;
   }
   .vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
