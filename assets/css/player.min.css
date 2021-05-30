@@ -2559,10 +2559,6 @@ i.icon.fa.fa-4x.fa-pause {
     width: 26px;
     height: 26px;
   }
-  
-  .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button ul.vjs-menu-content {
-    display: none;
-  }
 
   .seek-left .button-wrapper .icon.fa.fa-4x.fa-history {
     background-size: 26px;
@@ -2618,4 +2614,13 @@ i.icon.fa.fa-4x.fa-pause {
 
 .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button {
   display: block !important;
+}
+
+  
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button ul.vjs-menu-content {
+  display: none;
+}
+
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button ul.vjs-menu-content {
+  display: none;
 }
