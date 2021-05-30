@@ -755,7 +755,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu {
-  min-width: 140px;
+  min-width: 0 !important;
   z-index: 11
 }
 
@@ -775,10 +775,10 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
   bottom: 28px;
-  right: 40%;
-  transform: translateX(-40px);
+  left: 100%;
+  transform: translateX(-50%);
   font-size: 12px;
-  line-height: 20px;
+  line-height: 36px;
   color: #fff;
   -webkit-app-region: no-drag;
   max-height: calc(269px - 36px);
