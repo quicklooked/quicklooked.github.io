@@ -1099,24 +1099,6 @@ button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
   display: none !important;
 }
 
-@media all and (max-width:500px) {
-
-  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-3,
-  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-2,
-  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-1,
-  button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
-    display: none
-  }
-
-  .vjs-current-time.vjs-time-control.vjs-control {
-    display: none !important;
-  }
-
-  .video-js .vjs-control-bar .vjs-progress-control {
-    left: 12px;
-  }
-}
-
 button.vjs-fullscreen-control.vjs-control.vjs-button {
   margin: 0 auto 0 0;
   width: 36px;
