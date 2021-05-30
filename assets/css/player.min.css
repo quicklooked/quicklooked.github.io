@@ -984,12 +984,16 @@ li.vjs-menu-item::before {
   border-radius: 50%;
   z-index: 11;
   background: var(--color-primary);
+  width: 1.5em;
+	height: 1.5em;
+	font-size: 12px;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:before {
-  width: 1em;
-  height: 1em
+  width: 1.5em;
+	height: 1.5em;
+	font-size: 12px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time {
