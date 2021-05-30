@@ -2379,6 +2379,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 .vjs-overlay .control-overlay-buttons {
   display: grid;
   grid-auto-flow: column;
+  max-width: 1024px;
   height: 100% !important;
   width: 100% !important;
   margin-bottom: auto !important;
