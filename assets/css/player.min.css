@@ -2460,7 +2460,7 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .button-wrapper:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .button-wrapper:active {
