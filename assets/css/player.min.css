@@ -2463,10 +2463,6 @@ i.icon.fa.fa-4x.fa-pause {
   transform: scale(1.1);
 }
 
-.button-wrapper:active {
-  transform: scale(1) !important;
-}
-
 .d-none {
   display: none !important
 }
@@ -2605,6 +2601,10 @@ i.icon.fa.fa-4x.fa-pause {
   .vjs-overlay .overlay-button {
     width: 40px;
     height: 40px;
+  }
+  
+  .button-wrapper:hover {
+    transform: scale(1) !important;
   }
 }
 
