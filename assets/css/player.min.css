@@ -888,11 +888,11 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-progress-control {
   position: absolute;
-  top: -2.4em;
-  left: 1.2em;
+  top: -2.1em;
+  left: 5em;
   right: 5em;
   width: auto;
-  height: 2.4em;
+  height: 2.1em;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
@@ -1005,9 +1005,9 @@ li.vjs-menu-item::before {
   font-size: 12px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -24px;
+  top: -21px;
   right: 0;
-  height: 24px;
+  height: 21px;
 }
 
 .video-js .vjs-current-time,
@@ -1020,9 +1020,9 @@ li.vjs-menu-item::before {
   font-size: 12px;
   letter-spacing: -.022em;
   position: absolute;
-  top: -24px;
+  top: -21px;
   left: 0;
-  height: 24px;
+  height: 21px;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
