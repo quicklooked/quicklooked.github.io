@@ -2216,15 +2216,15 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
-  margin-right: -.75rem;
-  margin-left: -.75rem
+  margin-right: 0;
+  margin-left: 0
 }
 
 .overlay-row>* {
   box-sizing: border-box;
   flex-shrink: 0;
-  padding-right: auto;
-  padding-left: auto;
+  padding-right: 0;
+  padding-left: 0;
   margin-top: 0;
 }
 
