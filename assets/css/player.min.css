@@ -730,6 +730,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   height: 6.4em;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
+  max-width: 1024px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 @media all and (max-width:500px) {
