@@ -2382,3 +2382,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   z-index: 2;
   cursor: pointer;
 }
+
+.vjs-volume-tooltip {
+  display: none;
+}
