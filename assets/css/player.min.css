@@ -1071,11 +1071,13 @@ li.vjs-menu-item::before {
 button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
   margin: 0 36px 0 12px !important;
   width: 36px;
+  display: none !important;
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
   margin: 0 36px 0 12px !important;
   width: 36px;
+  display: none !important;
 }
 
 @media all and (max-width:500px) {
