@@ -2512,7 +2512,7 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
-  margin: 0 36px 0 0;
+  margin: 0 36px 0 auto;
 }
 
 .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-button .vjs-icon-placeholder {
