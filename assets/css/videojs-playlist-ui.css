@@ -31,7 +31,7 @@ _:-ms-lang(x) {
   min-height: 30px;
   padding: 0 10px;
   color: #7f7f7f;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer
@@ -400,7 +400,7 @@ footer.Footer__footer___2nCUd {
 
 .ModalCountry__title___2NOU4 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -866,7 +866,7 @@ footer.Footer__footer___2nCUd {
 
 .SearchBar__searchInput___1k14_ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -1007,7 +1007,7 @@ footer.Footer__footer___2nCUd {
 
 .SearchInput__search___BQkKh input[type=text] {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -1188,7 +1188,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .SigninSignupSplit__authenticationButton___1ENJ4 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -1424,7 +1424,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2Banner__title___3q3rd.TCF2Banner__updatedBanner___3RxHu {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2;
@@ -1436,7 +1436,7 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:768px) {
   .TCF2Banner__title___3q3rd.TCF2Banner__updatedBanner___3RxHu {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 900;
     line-height: 1.14;
@@ -1448,7 +1448,7 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:1280px) {
   .TCF2Banner__title___3q3rd.TCF2Banner__updatedBanner___3RxHu {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 1.11;
@@ -1557,7 +1557,7 @@ header.ResponsiveHeader__container___3dy6u {
   -ms-flex-align: center;
   align-items: center;
   border: 0px solid;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-align: center;
   -webkit-transition: .2s;
@@ -1628,7 +1628,7 @@ header.ResponsiveHeader__container___3dy6u {
 .Button__large___uZ3kp,
 .Button__medium___9hsOo {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   color: #232323;
@@ -1661,7 +1661,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2BannerButtons__button___zUO8r {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -1728,7 +1728,7 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:768px) {
   .TCF2BannerButtons__button___zUO8r.TCF2BannerButtons__updatedBanner___jboty {
     color: #7e7e7e;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42;
     color: #232323;
@@ -1745,7 +1745,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2ContinueWithoutAcceptingButton__button___2ugfc {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -1763,7 +1763,7 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:768px) {
   .TCF2ContinueWithoutAcceptingButton__button___2ugfc {
     color: #7e7e7e;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42;
     width: unset;
@@ -1775,7 +1775,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2BannerLegalText__legalText___Gs9Ut {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   padding-right: 9px;
@@ -1812,7 +1812,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2ExpansionButton__button___9br0- {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -1856,7 +1856,7 @@ header.ResponsiveHeader__container___3dy6u {
 
 .WebToNativeBanner__title___CfJwn {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -1865,7 +1865,7 @@ header.ResponsiveHeader__container___3dy6u {
 .WebToNativeBanner__openInAppButton___1i1NU,
 .WebToNativeBanner__text___1GW7N {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -3999,7 +3999,7 @@ svg {
 
 .ErrorStep__header___3tKGc {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4008,7 +4008,7 @@ svg {
 
 .ErrorStep__description___2O9fz {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4046,7 +4046,7 @@ svg {
 
 .LoggedInUserStep__header___1eYO2 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4055,7 +4055,7 @@ svg {
 
 .LoggedInUserStep__legalText___1Sf83 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4132,7 +4132,7 @@ svg {
 
 .RadioButton__inputButtonLabel___3oA7Q {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29;
@@ -4173,14 +4173,14 @@ svg {
 
 .RadioButton__optionDescription___3aSGl {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   margin-left: 26px
 }
 
 .TextArea__textArea___3L6_0 {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4235,7 +4235,7 @@ svg {
 
 .TextArea__title___1-Unj,
 .TimeInput__timeInput___yKkCp {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-weight: 100
 }
@@ -4283,7 +4283,7 @@ svg {
 
 .TimeInput__errorMessage___-Apvk {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -4331,7 +4331,7 @@ svg {
 
 .MainFormStep__mainStepTitle___2y0Qf {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -4340,7 +4340,7 @@ svg {
 @media (min-width:768px) {
   .MainFormStep__mainStepTitle___2y0Qf {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -4377,7 +4377,7 @@ svg {
 .MainFormStep__partSelectionTitle___1s3Ke,
 .MainFormStep__reasonsTitle___HdGoX {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4451,7 +4451,7 @@ svg {
 
 .MainFormStep__messageArea___2Bd3O {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4485,7 +4485,7 @@ svg {
 
 .Input__input___1EydI {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4529,7 +4529,7 @@ svg {
 
 .Input__errorMessage___-aWGn {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -4557,7 +4557,7 @@ svg {
 
 .NonLoggedInUserStep__header___25dNX {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4566,7 +4566,7 @@ svg {
 
 .NonLoggedInUserStep__subheader___12QlZ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4580,7 +4580,7 @@ svg {
 
 .NonLoggedInUserStep__legalText___3q9pV {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   margin-top: 20px
@@ -4645,7 +4645,7 @@ svg {
 
 .SuccessfulStep__header___3Kvij {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4654,7 +4654,7 @@ svg {
 
 .SuccessfulStep__description___2NLO_ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -5369,7 +5369,7 @@ svg {
 
 .PlayingIndicatorTag__playingIndicatorTag___193h3 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -5445,7 +5445,7 @@ svg {
 
 .VideoCard__videoTitle___Yclps {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.29
@@ -5453,7 +5453,7 @@ svg {
 
 .VideoCard__videoChannelName___3ktxc {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -5759,7 +5759,7 @@ svg {
 
 .TextButton__button___27kgW {
   color: #757575;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
@@ -5778,7 +5778,7 @@ svg {
 
 .RankViewsAndPubDate__videoStats___3VH4W {
   color: #757575;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   -webkit-box-flex: 0;
@@ -5806,7 +5806,7 @@ svg {
 }
 
 .TopicListItem__pill___3R3RW div {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -5851,7 +5851,7 @@ svg {
 
 .VideoInfoTopicList__videoTopicsTitle___15kEV {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -5873,7 +5873,7 @@ svg {
 .ChannelLine__channelLine___2rGdC,
 .ChannelLine__channelName___1tEki {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -6468,7 +6468,7 @@ li.tab.active a button {
 .VideoInfoDescription__descriptionReadMoreLink___18aWT,
 .VideoInfoDescription__descriptionText___3wvx1 {
   color: rgb(101, 121, 135);
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -6600,7 +6600,7 @@ li.tab.active a button {
 .VideoInfoTitle__hiddenText___1Si0J,
 .VideoInfoTitle__videoTitle___UDnVC {
   color: #fff;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.17
@@ -6842,7 +6842,7 @@ li.tab.active a button {
 }
 
 .PlaylistStats__text___35MeC {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   color: #7e7e7e
@@ -6850,7 +6850,7 @@ li.tab.active a button {
 
 .PlaylistInfo__text___2uVgP {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -7034,7 +7034,7 @@ li.tab.active a button {
 
 .VideoListSectionTitle__sectionTitleTitle___1f_0x {
   color: #fff;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2
@@ -7042,7 +7042,7 @@ li.tab.active a button {
 
 .VideoListSectionTitle__sectionTitleTagline___M2_PZ {
   color: #aaaaaa;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -7082,7 +7082,7 @@ li.tab.active a button {
 }
 
 .VideoListSectionTitle__channelInfo___k_IIh {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   height: 18px;
@@ -7099,7 +7099,7 @@ li.tab.active a button {
 
 .DiscoveryChannelSection__sectionTitle___1Vf1n {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -7157,7 +7157,7 @@ li.tab.active a button {
 
 .DiscoveryQueueDisplay__queueTitle___QPPn_ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -7266,7 +7266,7 @@ li.tab.active a button {
 
 .AdDiscovery__label___5rdpN {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -7510,7 +7510,7 @@ li.tab.active a button {
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .24), 0 0 1px 0 rgba(0, 0, 0, .12);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .24), 0 0 1px 0 rgba(0, 0, 0, .12);
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer
@@ -7551,7 +7551,7 @@ li.tab.active a button {
 
 .FacebookButton__facebookButton___2wmvz .FacebookButton__buttonText___1iUPQ {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -7729,7 +7729,7 @@ li.tab.active a button {
   border-radius: 2px;
   color: #fff;
   background: linear-gradient(262deg, #00d2f3, #0af);
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px
 }
 
@@ -8011,7 +8011,7 @@ li.tab.active a button {
 
 .InfoTooltip__container___3Kfw0 .InfoTooltip__tooltipText___1IwZO {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   position: absolute;
@@ -8183,7 +8183,7 @@ li.tab.active a button {
 
 .PrimaryContent__h3___RcWau {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2;
@@ -8197,7 +8197,7 @@ li.tab.active a button {
     margin-top: 20px;
     margin-bottom: 24px;
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 900;
     line-height: 1.14
@@ -8298,7 +8298,7 @@ li.tab.active a button {
 
 .ChannelSearchCard__channelTitle___6BhmK {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -8401,7 +8401,7 @@ li.tab.active a button {
 }
 
 .ChannelSearchCard__channelInfo___3132p {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   display: -webkit-box;
@@ -8435,7 +8435,7 @@ li.tab.active a button {
 @media (min-width:768px) {
   .ChannelSearchCard__channelTitle___6BhmK {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -8487,7 +8487,7 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .ChannelSearchCard__description___3MsIe {
     color: #0d0d0d;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 1;
@@ -8502,7 +8502,7 @@ li.tab.active a button {
 }
 
 .ChannelSearchCard__stats___3sHqL {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -8593,7 +8593,7 @@ li.tab.active a button {
   flex-direction: column;
   margin-top: 20px;
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   text-align: center
@@ -8614,7 +8614,7 @@ li.tab.active a button {
 }
 
 .NoSearchResults__title___2DSxO {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -8646,7 +8646,7 @@ li.tab.active a button {
 
 .ChannelInfo__videoChannelName___24tUT {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -8695,7 +8695,7 @@ li.tab.active a button {
 .VideoCard__videoCard___3RIZ9.VideoCard__smallCards___3iQZ- .VideoCard__videoTitle___3sTKj,
 .VideoCard__videoTitle___3sTKj {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -8703,7 +8703,7 @@ li.tab.active a button {
 
 .VideoCard__infoBlock___24SSB .VideoCard__timestamp___3fWMe {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -8711,7 +8711,7 @@ li.tab.active a button {
 
 .VideoCard__videoInfoTitle___1mu_q {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33
@@ -8916,7 +8916,7 @@ li.tab.active a button {
 @media (min-width:768px) {
   .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2
@@ -8926,7 +8926,7 @@ li.tab.active a button {
 @media (min-width:1366px) {
   .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -8971,7 +8971,7 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .VideoCard__videoCard___3RIZ9.VideoCard__smallCards___3iQZ- .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 800;
     line-height: 1.29
@@ -8981,7 +8981,7 @@ li.tab.active a button {
 @media (min-width:1280px) {
   .VideoCard__videoCard___3RIZ9.VideoCard__smallCards___3iQZ- .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -9014,7 +9014,7 @@ li.tab.active a button {
 
 .PlaylistCard__playlistTitle___2CHS5 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -9022,7 +9022,7 @@ li.tab.active a button {
 
 .PlaylistCard__channelName___2qVFm {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -9095,7 +9095,7 @@ li.tab.active a button {
 @media (min-width:768px) {
   .PlaylistCard__playlistTitle___2CHS5 {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -9105,7 +9105,7 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .PlaylistCard__playlistTitle___2CHS5 {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2
@@ -9115,7 +9115,7 @@ li.tab.active a button {
 @media (min-width:1280px) {
   .PlaylistCard__playlistTitle___2CHS5 {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -9187,7 +9187,7 @@ li.tab.active a button {
 }
 
 .PlaylistCard__stats___16gCY {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -9241,7 +9241,7 @@ li.tab.active a button {
 
 .VideoDurationTag__videoDuration___3XMUb {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -9273,7 +9273,7 @@ li.tab.active a button {
 
 .SecondaryContent__h3___3NUU1 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -9281,7 +9281,7 @@ li.tab.active a button {
 
 .SecondaryContent__h3___3NUU1 .SecondaryContent__tagline___2-pAq {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -9363,7 +9363,7 @@ li.tab.active a button {
 .Section__h1___1gFrb,
 .Section__hiddenText___3-OyO {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 900
 }
 
@@ -9453,7 +9453,7 @@ li.tab.active a button {
 @media (min-width:768px) {
   .Section__h1___1gFrb {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 1.11
@@ -9505,7 +9505,7 @@ li.tab.active a button {
 
 .VideoSearchCard__videoTitle___TNod1 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -9513,7 +9513,7 @@ li.tab.active a button {
 
 .VideoSearchCard__infoBlock___2UbwX .VideoSearchCard__timestamp___3pzFK {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -9727,7 +9727,7 @@ li.tab.active a button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   white-space: nowrap
 }
@@ -9771,7 +9771,7 @@ li.tab.active a button {
 
 .VideoSearchCard__videoChannelName___1ckhF {
   height: unset;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400
 }
@@ -9898,7 +9898,7 @@ li.tab.active a button {
 
 .ConfirmationModal__modal___3qQxw h1 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -9906,7 +9906,7 @@ li.tab.active a button {
 
 .ConfirmationModal__modal___3qQxw p {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -9944,7 +9944,7 @@ li.tab.active a button {
 
 .USPrivacy__container___2OUeY h1 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -9952,7 +9952,7 @@ li.tab.active a button {
 
 .USPrivacy__container___2OUeY h3 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -9960,7 +9960,7 @@ li.tab.active a button {
 
 .USPrivacy__container___2OUeY p {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -10025,7 +10025,7 @@ li.tab.active a button {
 
 .CollectionCard__header___3zoKb {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33
@@ -10186,7 +10186,7 @@ li.tab.active a button {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -10195,7 +10195,7 @@ li.tab.active a button {
 @media (min-width:350px) {
   .CollectionCard__title___11ukb {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -10205,7 +10205,7 @@ li.tab.active a button {
 @media (min-width:480px) {
   .CollectionCard__title___11ukb {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -10280,7 +10280,7 @@ li.tab.active a button {
 
 .ConfirmationButtonsWrapper__confirmationBoxButtons___2achI button {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -10327,7 +10327,7 @@ li.tab.active a button {
 }
 
 .CreateCollectionPopup__title___MrZYE {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -10376,7 +10376,7 @@ li.tab.active a button {
 .Button__blueGradientButton___10Yta,
 .Button__button___2D5Vd {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33
@@ -10444,7 +10444,7 @@ li.tab.active a button {
 }
 
 .RemoveAllConfirmationPopup__confirmationBoxHeader___3ChMb p {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -10495,7 +10495,7 @@ li.tab.active a button {
 
 .DeletionMenu__dropdown___2j7H- button {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -10561,7 +10561,7 @@ li.tab.active a button {
 
 .LibraryHeader__headerContainer___17ohf {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14
@@ -10569,7 +10569,7 @@ li.tab.active a button {
 
 .LibraryHeader__deletionDoneButton___30hZE {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -10667,7 +10667,7 @@ li.tab.active a button {
 
 .DSSecondaryButton__dsButton___1Gp0k {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -10734,7 +10734,7 @@ li.tab.active a button {
 @media (min-width:1280px) {
   .DSSecondaryButton__dsButton___1Gp0k.DSSecondaryButton__responsive___2YUMq {
     padding: 8px 24px;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42
   }
@@ -11060,7 +11060,7 @@ li.tab.active a button {
 
 .ListEmpty__title___kbmuZ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -11074,7 +11074,7 @@ li.tab.active a button {
 .ListEmpty__description___3X0l4,
 .ListEmpty__exploreButton___2GYK9 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: 800
 }
 
@@ -11134,7 +11134,7 @@ li.tab.active a button {
 
 .LibraryHomeCard__linkTitle___3y9xn {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -11142,7 +11142,7 @@ li.tab.active a button {
 
 .LibraryHomeCard__linkStats___7vrSy {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -11298,7 +11298,7 @@ li.tab.active a button {
 
 .LibraryHomePage__linkTitle___xiGxP {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -11306,7 +11306,7 @@ li.tab.active a button {
 
 .LibraryHomePage__linkStats___dB8CL {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -11552,7 +11552,7 @@ li.tab.active a button {
 
 .ChannelCard__channelCardTitle___1wur4 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -11758,7 +11758,7 @@ li.tab.active a button {
 .SubscriptionsPage__channelSubscriptionsSectionTitle___My55m,
 .SubscriptionsPage__topicSubscriptionsSectionTitle___lHQEJ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -11815,7 +11815,7 @@ li.tab.active a button {
 
 .TopicCard__topicCardTitle___3hebp {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -11938,7 +11938,7 @@ li.tab.active a button {
 }
 
 .EmptyPlaylist__title___iguAU {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -11946,7 +11946,7 @@ li.tab.active a button {
 
 .EmptyPlaylist__informationTitle___1czqz {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -11999,7 +11999,7 @@ li.tab.active a button {
 
 .EmptyPlaylist__text___2UmJo {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   overflow: hidden;
@@ -12012,7 +12012,7 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .EmptyPlaylist__text___2UmJo {
     color: #7e7e7e;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42;
     color: #232323
@@ -12055,7 +12055,7 @@ li.tab.active a button {
 
 .EmptyPlaylist__description___3N4D4 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -12132,7 +12132,7 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .EmptyPlaylist__title___iguAU {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 900;
     line-height: 1.14;
@@ -12155,7 +12155,7 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .EmptyPlaylist__informationTitle___1czqz {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -12250,14 +12250,14 @@ li.tab.active a button {
 .TCF2Purpose__details___3-kx1 .TCF2Purpose__liCheckbox___1zaH2,
 .TCF2Purpose__name___1-X7e {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
 
 .TCF2Purpose__details___3-kx1 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -12473,7 +12473,7 @@ li.tab.active a button {
 
 .TCF2PurposeSection__section___11hvg h4 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29;
@@ -12503,7 +12503,7 @@ li.tab.active a button {
   border: none;
   color: #a7a7a7;
   background: inherit;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 32px;
   cursor: pointer
@@ -12521,7 +12521,7 @@ li.tab.active a button {
 
 .TCF2ConsentPage__subcontainer___38hYK h2 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -12529,7 +12529,7 @@ li.tab.active a button {
 
 .TCF2ConsentPage__subcontainer___38hYK h3 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -12537,7 +12537,7 @@ li.tab.active a button {
 
 .TCF2ConsentPage__button___1epOp {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -12653,14 +12653,14 @@ li.tab.active a button {
 .TCF2Vendor__details___11toz .TCF2Vendor__liCheckbox___1B3HX,
 .TCF2Vendor__name___3AlLF {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
 
 .TCF2Vendor__details___11toz {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -12836,7 +12836,7 @@ li.tab.active a button {
 
 .TCF2VendorSection__section___1zppk h4 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -13250,7 +13250,7 @@ li.tab.active a button {
 
 .GoogleButton__googleButton___1CmPG .GoogleButton__buttonText___2HsT5 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -13375,7 +13375,7 @@ li.tab.active a button {
   border-radius: 3px;
   color: #fff;
   background-image: linear-gradient(262deg, #00d2f3, #0af);
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
@@ -13404,7 +13404,7 @@ li.tab.active a button {
 }
 
 .ContactAccountManagerStep__title___V_ANK {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -13415,7 +13415,7 @@ li.tab.active a button {
 
 .ContactAccountManagerStep__explanationText___1Mu4P {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   width: 226px;
@@ -13453,7 +13453,7 @@ li.tab.active a button {
 }
 
 .RemoveSocialMediaAccountStep__title___32VNJ {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -13464,7 +13464,7 @@ li.tab.active a button {
 
 .RemoveSocialMediaAccountStep__explanationText___29xXM {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   width: 239px;
@@ -13502,7 +13502,7 @@ li.tab.active a button {
 }
 
 .SomethingWentWrongStep__title___24UIf {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -13513,7 +13513,7 @@ li.tab.active a button {
 
 .SomethingWentWrongStep__explanationText___1xAMd {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13535,7 +13535,7 @@ li.tab.active a button {
 }
 
 .SomethingWentWrongStep__contactSupportInfo___1ZTTw {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13564,7 +13564,7 @@ li.tab.active a button {
 }
 
 .TryAgainStep__title___30ehl {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -13575,7 +13575,7 @@ li.tab.active a button {
 
 .TryAgainStep__explanationText___3xKC4 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13597,7 +13597,7 @@ li.tab.active a button {
 }
 
 .TryAgainStep__contactSupportInfo___3Uv3w {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13631,7 +13631,7 @@ li.tab.active a button {
 
 .InputError__container___KI76i .InputError__errorMessage___OGPM9 {
   color: #ea3030;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   margin: 0
@@ -13667,7 +13667,7 @@ li.tab.active a button {
 
 .BirthdayInput__input___3FFSF {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13689,7 +13689,7 @@ li.tab.active a button {
 
 .BirthdayInput__input___3FFSF::-webkit-input-placeholder {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13747,7 +13747,7 @@ li.tab.active a button {
 
 .BirthdayInput__inputDate___1g0DF {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13776,7 +13776,7 @@ li.tab.active a button {
 
 .BirthdayInput__tooltipText___7vhd0 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -13796,7 +13796,7 @@ li.tab.active a button {
 
 .EmailInput__input___2Pq6c {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13818,7 +13818,7 @@ li.tab.active a button {
 
 .EmailInput__input___2Pq6c::-webkit-input-placeholder {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13891,7 +13891,7 @@ li.tab.active a button {
 
 .PasswordInput__input___2KTm0 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13913,7 +13913,7 @@ li.tab.active a button {
 
 .PasswordInput__input___2KTm0::-webkit-input-placeholder {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14048,7 +14048,7 @@ li.tab.active a button {
 }
 
 .UpdateYourEmailStep__title___2yVqI {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -14113,7 +14113,7 @@ li.tab.active a button {
 
 .UpdateYourEmailStep__error___1NOV2 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   margin-top: 10px;
@@ -14122,7 +14122,7 @@ li.tab.active a button {
 }
 
 .UpdateYourEmailStep__contactSupportInfo___3pljo {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14183,7 +14183,7 @@ li.tab.active a button {
 
 .GenderSelect__input___2ZnxG {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14204,7 +14204,7 @@ li.tab.active a button {
 
 .GenderSelect__input___2ZnxG::-webkit-input-placeholder {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14427,7 +14427,7 @@ input[type=checkbox] {
 
 .ShortSignupFlow__socialButtons___1wG8P {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14482,7 +14482,7 @@ input[type=checkbox] {
 
 .InformationItem__container___ZCbWB,
 .InformationItem__textContainer___3-ZD4 {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14546,7 +14546,7 @@ input[type=checkbox] {
 
 .CodeInput__input___1wZEF {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14568,7 +14568,7 @@ input[type=checkbox] {
 
 .CodeInput__input___1wZEF::-webkit-input-placeholder {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14635,7 +14635,7 @@ input[type=checkbox] {
 .CodeResendLink__resend___3ayij,
 .CodeResendLink__resendError___jjLBe {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14716,7 +14716,7 @@ input[type=checkbox] {
 
 .ValidationBox__directions___1PyNQ,
 .ValidationBox__directions___1PyNQ.ValidationBox__message___29eBO {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14729,7 +14729,7 @@ input[type=checkbox] {
 }
 
 .ValidationBox__validationFooter___2YXvb {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14746,7 +14746,7 @@ input[type=checkbox] {
 
 .ValidationBox__legalText___3L_y9 {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -14824,7 +14824,7 @@ input[type=checkbox] {
 
 .ValidationSuccess__validationSuccessText___3jkHL {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14978,7 +14978,7 @@ input[type=checkbox] {
 
 .EmailSignin__forgotpassLink___1JDWZ {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15054,7 +15054,7 @@ input[type=checkbox] {
 }
 
 .ShortSigninFlow__socialText___Cz906 {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15068,7 +15068,7 @@ input[type=checkbox] {
 }
 
 .ShortSigninFlow__text___R6E4V {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15278,7 +15278,7 @@ input[type=checkbox] {
 
 .RecoverPasswordPage__instructionsMessage___3waOh {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15312,7 +15312,7 @@ input[type=checkbox] {
 
 .RecoverPasswordPage__successFooter___1UZUo,
 .RecoverPasswordPage__successHeader___1gRLc {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15367,7 +15367,7 @@ input[type=checkbox] {
 }
 
 .VerifyYourEmailStep__title___3yuHA {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -15376,7 +15376,7 @@ input[type=checkbox] {
 }
 
 .VerifyYourEmailStep__enterCodeMessage___2B27f {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15396,7 +15396,7 @@ input[type=checkbox] {
 
 .VerifyYourEmailStep__emailResendError___24x_4,
 .VerifyYourEmailStep__emailResendSuccess___3ETpI {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   text-align: center
@@ -15409,7 +15409,7 @@ input[type=checkbox] {
 
 .VerifyYourEmailStep__haventReceivedCode___k7wcd {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   color: #232323;
@@ -15418,7 +15418,7 @@ input[type=checkbox] {
 
 .VerifyYourEmailStep__resendEmailButton___3Cqkj {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   display: inline-block;
@@ -15455,7 +15455,7 @@ input[type=checkbox] {
 }
 
 .VerifyYourEmailStep__contactSupportInfo___2OSfO {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15506,7 +15506,7 @@ input[type=checkbox] {
 
 .SuccessNotification__message___1a_Ei {
   color: #7e7e7e;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   color: #fff;
@@ -15515,7 +15515,7 @@ input[type=checkbox] {
 
 .SuccessNotification__button___1ffGy {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29;
@@ -15622,7 +15622,7 @@ input[type=checkbox] {
 
 .EditAccount__popinButton___162sK {
   color: #0d0d0d;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1;
@@ -16153,7 +16153,7 @@ input[type=checkbox] {
 
 .SearchFilters__titleContainer___7uaGB {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2;
@@ -16166,7 +16166,7 @@ input[type=checkbox] {
 @media (min-width:768px) {
   .SearchFilters__titleContainer___7uaGB {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -16176,7 +16176,7 @@ input[type=checkbox] {
 @media (min-width:1280px) {
   .SearchFilters__titleContainer___7uaGB {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2
@@ -16189,7 +16189,7 @@ input[type=checkbox] {
 
 .SearchFilters__subtitle___qPicH {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -16208,7 +16208,7 @@ input[type=checkbox] {
 
 .SearchFilters__button___2I6uQ {
   color: #56c7ff;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -16300,7 +16300,7 @@ input[type=checkbox] {
 @media (min-width:1280px) {
   .Search__text___3VAJk {
     color: #232323;
-    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2;
@@ -17487,7 +17487,7 @@ input[type=checkbox] {
   padding: 15px;
   border: none;
   background: none;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500
 }
@@ -19234,7 +19234,7 @@ input[type=checkbox] {
 
 .SubHeader__title___2oRPK h3 {
   color: #232323;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14
@@ -21794,7 +21794,7 @@ input[type=checkbox] {
 }
 
 .transcript-body {
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 20px;
   color: rgb(101, 121, 135);
   font-size: 14px;
@@ -21883,7 +21883,7 @@ ul.links.small>li {
   line-height: 20px;
   min-height: 0;
   padding-top: 0;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: rgb(0, 173, 239);
 }
 
@@ -22364,7 +22364,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
