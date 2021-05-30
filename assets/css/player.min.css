@@ -500,10 +500,12 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-text-track-display>div>div>div {
   background-color: rgba(0, 0, 0, 0.5) !important;
-  font-weight: 400;
+  font-weight: 700;
+  letter-spacing: -.022em;
   padding: 5px;
   border-radius: 5px;
-  font-family: sohne, Aria, sans-serif !important;
+  display: inline-block !important;
+  font-family: Helvetica, Aria, sans-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
