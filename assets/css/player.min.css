@@ -504,6 +504,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
   padding: 5px;
   border-radius: 5px;
   font-family: sohne, Aria, sans-serif !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 .vjs-scrubbing.video-js .vjs-text-track-display,
