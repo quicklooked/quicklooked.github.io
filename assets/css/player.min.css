@@ -756,7 +756,10 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-control-bar .vjs-menu {
   min-width: 0 !important;
-  z-index: 11
+  z-index: 11;
+  width: 18px;
+  left: auto;
+  right: auto;
 }
 
 .vjs-menu-content::-webkit-scrollbar {
