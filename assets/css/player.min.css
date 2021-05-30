@@ -2605,3 +2605,7 @@ i.icon.fa.fa-4x.fa-pause {
 .video-js.vjs-user-active.vjs-paused .vjs-text-track-display {
   top: -72px;
 }
+
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button {
+  display: block !important;
+}
