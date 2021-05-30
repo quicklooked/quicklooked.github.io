@@ -740,7 +740,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 @media all and (max-width:500px) {
   .video-js .vjs-control-bar {
     padding: 0 0px;
-    height: 6.4em
+    height: 5.4em
   }
 
   .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
