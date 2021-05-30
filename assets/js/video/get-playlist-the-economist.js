@@ -15,6 +15,11 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
+      "srclang": "en",
     }],
     name: 'The Costs and Benefits of a $15 Federal Minimum Wage',
     duration: '503',
