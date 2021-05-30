@@ -1010,6 +1010,21 @@ li.vjs-menu-item::before {
   height: 24px;
 }
 
+.video-js .vjs-current-time,
+.vjs-no-flex .vjs-current-time {
+  display: flex !important;
+  align-items: center;
+  color: #fff;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -.022em;
+  position: absolute;
+  top: -24px;
+  left: 0;
+  height: 24px;
+}
+
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
   width: auto;
   text-align: right;
