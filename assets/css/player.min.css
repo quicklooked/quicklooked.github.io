@@ -2516,11 +2516,8 @@ i.icon.fa.fa-4x.fa-pause {
   .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
     display: none !important;
   }
-  .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-button {
-    display: none !important;
-  }
   .vjs-subs-caps-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
-    margin: 0 36px 0 auto !important;
+    margin: 0 36px 0 0 !important;
   }
 }
 
