@@ -2427,7 +2427,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   content: "";
 }
 
-@media (max-width: 500px) {
+@media (max-width: 680px) {
   .vjs-control.vjs-button.vjs-icon-next-item {
     display: none !important;
   }
