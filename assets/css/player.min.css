@@ -427,14 +427,18 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .vjs-slider-vertical .vjs-volume-level:before {
-  top: -.5em;
-  left: -.3em;
-  color: #e50914;
+  top: -8px;
+  left: -5px;
+  color: transparent;
 }
 
 .video-js .vjs-volume-level:before {
   position: absolute;
-  font-size: 1.8em;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  background: var(--color-primary);
+  border-radius: 50%;
 }
 
 .video-js .vjs-modal-dialog .vjs-modal-dialog-content .vjs-track-settings-colors fieldset.vjs-track-setting,
