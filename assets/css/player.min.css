@@ -782,7 +782,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  min-width: 240px;
+  min-width: 216px;
   pointer-events: all;
   -webkit-transition: opacity 0.5s ease, visibility 0s ease 0.5s;
   border-radius: 4px;
