@@ -2425,37 +2425,37 @@ svg {
 
 .page-max-width {
   width: 100%;
-  max-width: 1680px;
-  padding: 0 16px
+  max-width: 1600px;
+  padding: 25px 5vw
 }
 
 @media (min-width:480px) {
   .page-max-width {
-    padding: 0 24px
+    padding: 25px 5vw
   }
 }
 
 @media (min-width:768px) {
   .page-max-width {
-    padding: 0 40px
+    padding: 25px 5vw
   }
 }
 
 @media (min-width:1024px) {
   .page-max-width {
-    padding: 0 40px
+    padding: 25px 5vw
   }
 }
 
 @media (min-width:1280px) {
   .page-max-width {
-    padding: 0 40px
+    padding: 25px 5vw
   }
 }
 
 @media (min-width:1366px) {
   .page-max-width {
-    padding: 0 40px
+    padding: 25px 5vw
   }
 }
 
