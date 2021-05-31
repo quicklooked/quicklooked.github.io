@@ -5358,7 +5358,7 @@ svg {
 }
 
 .Card__card___2FbPd:not(.Card__noshadow___1M4s1) {
-  background-color: #fff;
+  background-color: transparent;
   -webkit-box-shadow: 0 3px 4px 0 rgba(35, 35, 35, .1), 0 0 1px 0 rgba(10, 31, 68, .08);
   box-shadow: 0 3px 4px 0 rgba(35, 35, 35, .1), 0 0 1px 0 rgba(10, 31, 68, .08);
   -webkit-transition: opacity .2s ease-out, -webkit-box-shadow .3s ease-out, -webkit-transform .3s ease-out;
