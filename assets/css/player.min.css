@@ -2482,7 +2482,7 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .vjs-control.vjs-button.vjs-icon-next-item {
-  margin: 0 36px 0 0;
+  margin: 0 36px 0 auto;
   width: 36px !important;
 }
 
@@ -2523,7 +2523,7 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button {
-  margin: 0 36px 0 auto;
+  margin: 0 36px 0 0;
 }
 
 .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-button .vjs-icon-placeholder {
@@ -2625,13 +2625,4 @@ i.icon.fa.fa-4x.fa-pause {
 
 .video-js.vjs-user-active.vjs-paused .vjs-text-track-display {
   top: -72px;
-}
-
-  
-.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button ul.vjs-menu-content {
-  display: none;
-}
-
-.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button ul.vjs-menu-content {
-  display: none;
 }
