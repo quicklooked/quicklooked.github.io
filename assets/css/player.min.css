@@ -641,14 +641,14 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button {
-    width: 40px;
-    height: 40px
+    width: 60px;
+    height: 60px
   }
 
   .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 40px !important;
-    height: 40px !important;
-    background-size: 40px !important;
+    width: 60px !important;
+    height: 60px !important;
+    background-size: 60px !important;
   }
 }
 
@@ -673,8 +673,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder {
-    width: 40px;
-    height: 40px
+    width: 60px;
+    height: 60px
   }
 }
 
@@ -691,9 +691,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 40px;
-    height: 40px;
-    background-size: 40px
+    width: 60px;
+    height: 60px;
+    background-size: 60px
   }
 }
 
@@ -2582,25 +2582,25 @@ i.icon.fa.fa-4x.fa-pause {
   }
 
   .play-button .button-wrapper {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
   }
 
   i.icon.fa.fa-4x.fa-play {
-    width: 40px;
-    height: 40px;
-    background-size: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
   }
 
   i.icon.fa.fa-4x.fa-pause {
-    width: 40px;
-    height: 40px;
-    background-size: 40px;
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
   }
 
   .vjs-overlay .overlay-button {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
   }
   
   .button-wrapper:hover {
