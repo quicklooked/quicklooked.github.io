@@ -178,15 +178,15 @@
           titleEl.appendChild(document.createTextNode(titleText));
           titleEl.setAttribute('title', titleText);
           titleContainerEl.appendChild(titleEl);
-          titleContainerEl.appendChild(authorsinfor);
-          if(showDescription) {
+          if(item.description) {
             var descriptionEl = document.createElement('div');
             var descriptionText = item.description || '';
-            descriptionEl.className = 'vjs-playlist-description';
+            descriptionEl.className = 'epsiode-synopsis';
             descriptionEl.appendChild(document.createTextNode(descriptionText));
             descriptionEl.setAttribute('title', descriptionText);
             titleContainerEl.appendChild(descriptionEl);
-          }
+          };
+          titleContainerEl.appendChild(authorsinfor);
           return li;
         };
         return PlaylistMenuItem;
