@@ -2560,25 +2560,25 @@ i.icon.fa.fa-4x.fa-pause {
   }
 
   .seek-left .button-wrapper {
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
   }
 
   .seek-left .button-wrapper .icon.fa.fa-4x.fa-history {
-    background-size: 26px;
-    width: 26px;
-    height: 26px;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
   }
 
   .seek-right .button-wrapper {
-    width: 26px;
-    height: 26px;
+    width: 32px;
+    height: 32px;
   }
 
   .seek-right .button-wrapper .icon.fa.fa-4x.fa-history {
-    background-size: 26px;
-    width: 26px;
-    height: 26px;
+    background-size: 32px;
+    width: 32px;
+    height: 32px;
   }
 
   .play-button .button-wrapper {
