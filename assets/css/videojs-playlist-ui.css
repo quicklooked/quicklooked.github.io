@@ -5444,11 +5444,11 @@ svg {
 }
 
 .VideoCard__videoTitle___Yclps {
-  color: #232323;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 1.29
+  line-height: 1.29;
 }
 
 .VideoCard__videoChannelName___3ktxc {
@@ -5609,7 +5609,7 @@ svg {
   line-clamp: 3;
   display: -webkit-box;
   overflow: hidden;
-  -webkit-box-orient: vertical
+  -webkit-box-orient: vertical;
 }
 
 .VideoCard__dark___1VZh9 .VideoCard__videoTitle___Yclps {
