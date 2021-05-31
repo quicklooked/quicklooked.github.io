@@ -899,7 +899,7 @@ li.vjs-menu-item::before {
 .video-js .vjs-control-bar .vjs-progress-control {
   position: absolute;
   top: -1.8em;
-  left: 5em;
+  left: 1.2em;
   right: 5em;
   width: auto;
   height: 1.8em;
@@ -1022,7 +1022,7 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-current-time,
 .vjs-no-flex .vjs-current-time {
-  display: flex !important;
+  display: none !important;
   align-items: center;
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
