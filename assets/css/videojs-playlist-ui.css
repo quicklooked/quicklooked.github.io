@@ -2426,36 +2426,36 @@ svg {
 .page-max-width {
   width: 100%;
   max-width: 1600px;
-  padding: 25px 5vw
+  padding: 0 5vw;
 }
 
 @media (min-width:480px) {
   .page-max-width {
-    padding: 25px 5vw
+    padding: 0 5vw;
   }
 }
 
 @media (min-width:768px) {
   .page-max-width {
-    padding: 25px 5vw
+    padding: 0 5vw;
   }
 }
 
 @media (min-width:1024px) {
   .page-max-width {
-    padding: 25px 5vw
+    padding: 0 5vw;
   }
 }
 
 @media (min-width:1280px) {
   .page-max-width {
-    padding: 25px 5vw
+    padding: 0 5vw;
   }
 }
 
 @media (min-width:1366px) {
   .page-max-width {
-    padding: 25px 5vw
+    padding: 0 5vw;
   }
 }
 
