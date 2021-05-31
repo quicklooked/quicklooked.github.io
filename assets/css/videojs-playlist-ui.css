@@ -2462,7 +2462,7 @@ svg {
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  margin: 0 -8px -8px 0
+  margin: 0 -6px -6px 0
 }
 
 .col {
@@ -2470,7 +2470,7 @@ svg {
   grid-column: span 12;
   background-clip: padding-box !important;
   border: 0 solid transparent;
-  border-width: 0 8px 8px 0
+  border-width: 0 6px 6px 0
 }
 
 .row {
@@ -2483,61 +2483,61 @@ svg {
 
 @media (min-width:480px) {
   .row {
-    margin: 0 -16px -16px 0
+    margin: 0 -12px -12px 0
   }
 
   .col {
-    border-width: 0 16px 16px 0
+    border-width: 0 12px 12px 0
   }
 }
 
 @media (min-width:768px) {
   .row {
-    margin: 0 -16px -16px 0
+    margin: 0 -12px -12px 0
   }
 
   .col {
-    border-width: 0 16px 16px 0
+    border-width: 0 12px 12px 0
   }
 }
 
 @media (min-width:1024px) {
   .row {
-    margin: 0 -16px -16px 0
+    margin: 0 -12px -12px 0
   }
 
   .col {
-    border-width: 0 16px 16px 0
+    border-width: 0 12px 12px 0
   }
 }
 
 @media (min-width:1280px) {
   .row {
-    margin: 0 -16px -16px 0
+    margin: 0 -12px -12px 0
   }
 
   .col {
-    border-width: 0 16px 16px 0
+    border-width: 0 12px 12px 0
   }
 }
 
 @media (min-width:1366px) {
   .row {
-    margin: 0 -16px -16px 0
+    margin: 0 -12px -12px 0
   }
 
   .col {
-    border-width: 0 16px 16px 0
+    border-width: 0 12px 12px 0
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .row {
-    margin: 0 -16px -16px 0
+    margin: 0 -12px -12px 0
   }
 
   .col {
-    border-width: 0 16px 16px 0
+    border-width: 0 12px 12px 0
   }
 }
 
@@ -3760,7 +3760,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3778,7 +3778,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3814,7 +3814,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3850,7 +3850,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3868,7 +3868,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3886,7 +3886,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3904,7 +3904,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3922,7 +3922,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3940,7 +3940,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
@@ -3958,7 +3958,7 @@ svg {
   }
 }
 
-@media (min-width:1680px) {
+@media (min-width:1600px) {
   .order-xxxlarge-last {
     -webkit-box-ordinal-group: 15;
     -ms-flex-order: 14;
