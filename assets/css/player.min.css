@@ -1352,6 +1352,7 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   width: 36px;
   height: 36px;
   background-size: auto;
+  background-position: 2px center;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-fullscreen-control[title='Exit Fullscreen'] .vjs-icon-placeholder:before,
@@ -1362,6 +1363,7 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   width: 36px;
   height: 36px;
   background-size: auto;
+  background-position: 4px center;
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-audio-button .vjs-icon-placeholder,
