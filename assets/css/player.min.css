@@ -2628,9 +2628,9 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-subs-caps-button {
-  margin: 0 36px 0 auto;
+  margin: 0 36px 0 auto !important;
 }
 
 .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subs-caps-button {
-  margin: 0 36px 0 auto;
+  margin: 0 36px 0 auto !important;
 }
