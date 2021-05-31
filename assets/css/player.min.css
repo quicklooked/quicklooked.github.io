@@ -2615,11 +2615,11 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .video-js.vjs-user-active.vjs-playing .vjs-text-track-display {
-  top: -60px;
+  top: -72px;
 }
 
 .video-js.vjs-user-active.vjs-paused .vjs-text-track-display {
-  top: -60px;
+  top: -72px;
 }
 
 .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button {
