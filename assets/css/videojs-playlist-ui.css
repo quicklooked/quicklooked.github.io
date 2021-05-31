@@ -7406,7 +7406,8 @@ li.tab.active a button {
 
 @media (min-width:1024px) {
   .DiscoveryVideoSection__videoSectionTitleDisplayGenericCard___XdNKN {
-    display: block
+    /* display: block */
+    display: none;
   }
 }
 
