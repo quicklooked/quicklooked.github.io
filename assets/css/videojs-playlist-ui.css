@@ -5570,7 +5570,8 @@ svg {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-top: 8px
+  margin-top: 6px;
+  display: none;
 }
 
 .VideoCard__videoChannelName___3ktxc {
