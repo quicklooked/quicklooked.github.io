@@ -2627,14 +2627,6 @@ i.icon.fa.fa-4x.fa-pause {
   top: -72px;
 }
 
-.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button {
-  display: block !important;
-}
-
-.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chapters-button {
-  display: block !important;
-}
-
   
 .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-chapters-button.vjs-menu-button.vjs-menu-button-popup.vjs-control.vjs-button ul.vjs-menu-content {
   display: none;
