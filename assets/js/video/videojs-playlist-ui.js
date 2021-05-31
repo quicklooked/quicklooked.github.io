@@ -118,7 +118,7 @@
               li.dataset[key] = value;
             });
           }
-          li.className = 'col medium-4 large-3 xlarge-2 xsmall-12 small-6';
+          li.className = 'col medium-4 large-3 xsmall-12 small-6';
           li.setAttribute('tabIndex', 0);
           this.thumbnail = createThumbnail(item.thumbnail);
           var pic_covera = document.createElement('a');
