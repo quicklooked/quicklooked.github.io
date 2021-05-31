@@ -5554,7 +5554,7 @@ svg {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 4px 12px 12px
+  padding: 4px 0 12px
 }
 
 @media (min-width:480px) {
