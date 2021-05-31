@@ -26,7 +26,8 @@ function getPlaylistTheEconomist() {
     date: 'May 14',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: 'Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.<br><br>Photo: Bill Clark/Congressional Quarterly/Zuma Press',
+    description: 'Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be. Photo: Bill Clark/Congressional Quarterly/Zuma Press',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why the U.S. needs a $15 minimum wage</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Minimum Wage Tracker</a></li>',
     poster: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
@@ -57,7 +58,8 @@ function getPlaylistTheEconomist() {
     date: 'May 17',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Gone are the long waits at charging stations: Chinese electric-vehicle startup NIO is pioneering battery-swap systems, challenging Tesla and other rival car makers. Here’s how NIO and Tesla are racing for the world’s largest EV market in China.<br><br>Photo illustration: Sharon Shi</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Which is the largest electric market in the world?</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">NIO - Company Profile</a></li></ul>',
+    description: 'Gone are the long waits at charging stations: Chinese electric-vehicle startup NIO is pioneering battery-swap systems, challenging Tesla and other rival car makers. Here’s how NIO and Tesla are racing for the world’s largest EV market in China. Photo illustration: Sharon Shi',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Which is the largest electric market in the world?</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">NIO - Company Profile</a></li>',
     poster: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg'
