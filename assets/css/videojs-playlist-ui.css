@@ -22400,3 +22400,11 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 .icon:hover::after {
   color: #06c
 }
+
+.epsiode-synopsis {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #a3a3a3;
+  font-family: Helvetica, Arial, sans-serif;
+}
