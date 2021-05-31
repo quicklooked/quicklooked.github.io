@@ -90,7 +90,8 @@ function getPlaylistTheEconomist() {
     date: 'May 18',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">A cyberattack on the U.S.’s largest fuel pipeline on May 7 forced a shutdown that triggered a spike in gas prices and shortages in parts of the Southeast. WSJ explains just how vulnerable the nation’s critical energy infrastructure is to attack.<br><br>Photo illustration: Liz Ornitz/WSJ</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">A cyber-attack exposes risks to America’s energy infrastructure</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Cyberattack on pipeline spotlights holes in U.S. energy security</a></li></ul>',
+    description: 'A cyberattack on the U.S.’s largest fuel pipeline on May 7 forced a shutdown that triggered a spike in gas prices and shortages in parts of the Southeast. WSJ explains just how vulnerable the nation’s critical energy infrastructure is to attack. Photo illustration: Liz Ornitz/WSJ',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">A cyber-attack exposes risks to America’s energy infrastructure</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Cyberattack on pipeline spotlights holes in U.S. energy security</a></li>',
     poster: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg'
@@ -121,7 +122,8 @@ function getPlaylistTheEconomist() {
     date: 'May 19',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Salim Ramji, global head of iShares and index investments for BlackRock, discusses innovations in indexing and how investors can balance active and passive management.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Indexing Data to a Common Starting Point</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Indexing: The Manual of Good Practice</a></li></ul>',
+    description: 'Salim Ramji, global head of iShares and index investments for BlackRock, discusses innovations in indexing and how investors can balance active and passive management.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Indexing Data to a Common Starting Point</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Indexing: The Manual of Good Practice</a></li>',
     poster: 'https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim_960x540.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim_960x540.jpg'
@@ -152,7 +154,8 @@ function getPlaylistTheEconomist() {
     date: 'May 20',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Ahead of this week\'s Fed meeting, Dana Peterson, chief economist with The Conference Board, unpacks the central bank\'s role amid the ongoing economic recovery. Plus, Lee Ferridge of State Street Global Markets discusses his firm\'s bull case for gold and big tech.</div>' + '<ul class="links small"><li class="video"><a href="">Interest rate risk — When Interest rates Go up, Prices of Fixed-rate Bonds Fall</a></li></ul>',
+    description: 'Ahead of this week\'s Fed meeting, Dana Peterson, chief economist with The Conference Board, unpacks the central bank\'s role amid the ongoing economic recovery. Plus, Lee Ferridge of State Street Global Markets discusses his firm\'s bull case for gold and big tech.',
+    moredescription: '<li class="video"><a href="">Interest rate risk — When Interest rates Go up, Prices of Fixed-rate Bonds Fall</a></li>',
     poster: 'https://m.wsj.net/video/20210426/04262021mb97/04262021mb97_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210426/04262021mb97/04262021mb97_1280x720.jpg'
@@ -183,7 +186,8 @@ function getPlaylistTheEconomist() {
     date: 'May 21',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">It\'s been nearly a year since the unprecedented collapse in oil prices and investors are wondering what\'s next. Here are the main price drivers to watch out for.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Crude Oil Price Prediction - The Balance</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Will Oil Prices Go Negative Again? Here Are 3 Things To Watch For</a></li></ul>',
+    description: 'It\'s been nearly a year since the unprecedented collapse in oil prices and investors are wondering what\'s next. Here are the main price drivers to watch out for.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Crude Oil Price Prediction - The Balance</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Will Oil Prices Go Negative Again? Here Are 3 Things To Watch For</a></li>',
     poster: 'https://m.wsj.net/video/20210407/04062021swoil/04062021swoil_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210407/04062021swoil/04062021swoil_1280x720.jpg'
@@ -214,7 +218,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">As investors pursue new opportunities in space, Dylan Taylor, CEO of Voyager Space Holdings, weighs in. Plus, Katie Nixon, CIO of Northern Trust Wealth Management, unpacks her bull case for U.S. stocks.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Wall Street\'s Next Frontier – Covid-19 Pandemic Survival Guide</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Crispr\'s Next Frontier: Treating Common Conditions</a></li></ul>',
+    description: 'As investors pursue new opportunities in space, Dylan Taylor, CEO of Voyager Space Holdings, weighs in. Plus, Katie Nixon, CIO of Northern Trust Wealth Management, unpacks her bull case for U.S. stocks.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Wall Street\'s Next Frontier – Covid-19 Pandemic Survival Guide</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Crispr\'s Next Frontier: Treating Common Conditions</a></li>',
     poster: 'https://m.wsj.net/video/20210322/03222021mb92/03222021mb92_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210322/03222021mb92/03222021mb92_1280x720.jpg'
@@ -245,7 +250,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Institutional investors are playing a major role in Bitcoin\'s recent uptick. Here\'s why, and what it means for the future.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">What Does the Future Hold for Cryptocurrency?</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Lessons from Bitcoin price fall and future of the cryptocurrency</a></li></ul>',
+    description: 'Institutional investors are playing a major role in Bitcoin\'s recent uptick. Here\'s why, and what it means for the future.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">What Does the Future Hold for Cryptocurrency?</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Lessons from Bitcoin price fall and future of the cryptocurrency</a></li>',
     poster: 'https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin_960x540.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210312/03122021barronsbitcoin/03122021barronsbitcoin_960x540.jpg'
@@ -276,7 +282,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">The remote-work boom has amplified growth in the PC market. Here are 3 ways the pandemic is changing the future of PC design.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">The COVID-driven comeback of the desktop computer</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">The computer comeback PCs surge due to COVID-19 - Deloitte</a></li><li class="video"><a href="">The Virtual Desktop Makes a Comeback</a></li></ul>',
+    description: 'The remote-work boom has amplified growth in the PC market. Here are 3 ways the pandemic is changing the future of PC design.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">The COVID-driven comeback of the desktop computer</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">The computer comeback PCs surge due to COVID-19 - Deloitte</a></li><li class="video"><a href="">The Virtual Desktop Makes a Comeback</a></li>',
     poster: 'https://m.wsj.net/video/20210224/02242021swpc/02242021swpc_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210224/02242021swpc/02242021swpc_1280x720.jpg'
@@ -307,7 +314,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Hotel owners lost nearly $46 billion in revenue last year. Here\'s how the industry is shifting its business model and pivoting towards tech to recover.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">COVID-19 Impact on the Global Hotel Industry</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">5 Important Ways the COVID-19 Pandemic has Changed the Travel and Hotel Industries</a></li></ul>',
+    description: 'Hotel owners lost nearly $46 billion in revenue last year. Here\'s how the industry is shifting its business model and pivoting towards tech to recover.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">COVID-19 Impact on the Global Hotel Industry</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">5 Important Ways the COVID-19 Pandemic has Changed the Travel and Hotel Industries</a></li>',
     poster: 'https://m.wsj.net/video/20210212/02122021swhospitality1/02122021swhospitality1_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210212/02122021swhospitality1/02122021swhospitality1_1280x720.jpg'
@@ -338,7 +346,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Talking to your partner about your finances may not be romantic, but it is crucial to a healthy relationship. Here\'s how to spot and navigate common pitfalls.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Couples and Money: 5 Common Money Mistakes Couples Make & How to Fix Them Without Fighting | Managing Marriage Problems</a></li></ul>',
+    description: 'Talking to your partner about your finances may not be romantic, but it is crucial to a healthy relationship. Here\'s how to spot and navigate common pitfalls.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Couples and Money: 5 Common Money Mistakes Couples Make & How to Fix Them Without Fighting | Managing Marriage Problems</a></li>',
     poster: 'https://m.wsj.net/video/20210211/02112021exvday/02112021exvday_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210211/02112021exvday/02112021exvday_1280x720.jpg'
@@ -369,7 +378,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Scientific and technological advancements have made the space industry more accessible to everyday investors. Here\'s what to know.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">2021: A New Space Economy</a></li></ul>',
+    description: 'Scientific and technological advancements have made the space industry more accessible to everyday investors. Here\'s what to know.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">2021: A New Space Economy</a></li>',
     poster: 'https://m.wsj.net/video/20210209/02092021swspace/02092021swspace_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210209/02092021swspace/02092021swspace_1280x720.jpg'
@@ -400,7 +410,8 @@ function getPlaylistTheEconomist() {
     date: 'May 22',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">The GameStop saga brought short selling into the spotlight for many new investors. Here\'s what it is and why some investors use it.</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why short selling is legal in the US - CNBC</a></li></ul>',
+    description: 'The GameStop saga brought short selling into the spotlight for many new investors. Here\'s what it is and why some investors use it.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why short selling is legal in the US - CNBC</a></li>',
     poster: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg'
