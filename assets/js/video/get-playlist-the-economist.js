@@ -26,7 +26,7 @@ function getPlaylistTheEconomist() {
     date: 'May 14',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: '<div class="VideoInfoDescription__descriptionText___3wvx1 VideoInfoDescription__expanded___zFljP">Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.<br><br>Photo: Bill Clark/Congressional Quarterly/Zuma Press</div>' + '<ul class="links small"><li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why the U.S. needs a $15 minimum wage</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Minimum Wage Tracker</a></li></ul>',
+    description: 'Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.<br><br>Photo: Bill Clark/Congressional Quarterly/Zuma Press',
     poster: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
