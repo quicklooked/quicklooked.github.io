@@ -855,7 +855,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 li.vjs-menu-item.vjs-selected::before {
   content: "\F048";
   font-size: 0;
-  background-color: rgb(0, 173, 239);
+  background-color: rgb(140, 140, 140);
+  border-color: rgb(140, 140, 140);
 }
 
 li.vjs-menu-item::before {
@@ -867,7 +868,7 @@ li.vjs-menu-item::before {
   width: 12px !important;
   height: 12px !important;
   margin: 8px 12px 8px 0px;
-  border: 1px solid;
+  border: 1px solid #666;
   border-radius: 50%;
 }
 
