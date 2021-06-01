@@ -842,7 +842,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   height: 28px;
   text-transform: capitalize;
   font-weight: 400;
-  color: #ccc;
+  color: #fff;
   outline: 0 !important;
   background: 0 0 !important;
   margin: 0 0.5em 0 0em;
@@ -874,11 +874,11 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item:hover {
   background: 0;
-  color: #fff
+  color: #ccc
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item.vjs-selected {
-  color: #fff;
+  color: #ccc;
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item .vjs-menu-item-text .vjs-icon-placeholder {
