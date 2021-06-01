@@ -2624,11 +2624,11 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .video-js.vjs-user-active.vjs-playing .vjs-text-track-display {
-  top: -72px;
+  top: -64px;
 }
 
 .video-js.vjs-user-active.vjs-paused .vjs-text-track-display {
-  top: -72px;
+  top: -64px;
 }
 
 .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-icon-next-item {
@@ -2645,20 +2645,6 @@ i.icon.fa.fa-4x.fa-pause {
 
 .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subs-caps-button {
   margin: 0 28px 0 auto !important;
-}
-
-.vp-spin {
-  width: 18%;
-  max-width: 140px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: opacity .1s, -webkit-transform .25s cubic-bezier(.17, .88, .32, 1.28);
-  transition: opacity .1s, -webkit-transform .25s cubic-bezier(.17, .88, .32, 1.28);
-  transition: opacity .1s, transform .25s cubic-bezier(.17, .88, .32, 1.28);
-  transition: opacity .1s, transform .25s cubic-bezier(.17, .88, .32, 1.28), -webkit-transform .25s cubic-bezier(.17, .88, .32, 1.28);
 }
 
 .vp-spin-trace {
