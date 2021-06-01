@@ -594,6 +594,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   z-index: 15;
 }
 
+/*
 .vjs-loading-spinner:before,
 .vjs-loading-spinner:after {
   content: " ";
@@ -617,7 +618,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   background: rgb(253, 62, 62) !important;
   animation-delay: calc(var(--animation-duration) / -2) !important;
 }
-
+*/
 .video-js .vjs-big-play-button {
   position: absolute;
   z-index: 10;
