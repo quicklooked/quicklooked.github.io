@@ -636,19 +636,20 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-big-play-button:hover {
-  transform: translateY(-50%) scale(1.1)
+  transform: translateY(-50%) scale(1.1);
+  background-color: rgb(0, 173, 239);
 }
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button {
-    width: 60px;
-    height: 60px
+    width: 40px;
+    height: 40px
   }
 
   .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 60px !important;
-    height: 60px !important;
-    background-size: 60px !important;
+    width: 40px !important;
+    height: 40px !important;
+    background-size: 20px !important;
   }
 }
 
@@ -673,8 +674,8 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder {
-    width: 60px;
-    height: 60px
+    width: 40px;
+    height: 40px
   }
 }
 
@@ -682,18 +683,19 @@ li.vjs-menu-item.vjs-texttrack-settings {
   content: "";
   width: 80px;
   height: 80px;
-  background-size: 80px;
+  background-size: 40px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Cpolygon points='8 22 8 6 22.0043763 14'%3E%3C/polygon%3E%3C/svg%3E");
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(30, 30, 30, 0.9);
   border-radius: 50px;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 @media all and (max-width:500px) {
   .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
-    width: 60px;
-    height: 60px;
-    background-size: 60px
+    width: 40px;
+    height: 40px;
+    background-size: 20px
   }
 }
 
@@ -707,12 +709,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 28 28'%3E%3Crect x='9' y='6' width='4' height='16'%3E%3C/rect%3E%3Crect x='15' y='6' width='4' height='16'%3E%3C/rect%3E%3C/svg%3E");
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(30, 30, 30, 0.9);
   border-radius: 50px;
   background-repeat: no-repeat;
   width: 80px;
   height: 80px;
-  background-size: 80px;
+  background-position: center;
+  background-size: 40px;
 }
 
 .video-js.vjs-has-started.vjs-playing .vjs-big-play-button {
