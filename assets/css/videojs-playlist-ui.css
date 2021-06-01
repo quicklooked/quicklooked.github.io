@@ -22417,3 +22417,21 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   overflow: hidden;
   -webkit-box-orient: vertical;
 }
+
+@media (min-width: 1024px) {
+  .VideoCard__videoInfo___3ftYk {
+    padding: 4px 0 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .VideoCard__videoInfo___3ftYk {
+    padding: 4px 0 12px;
+  }
+}
+
+@media (min-width: 480px) {
+  .VideoCard__videoInfo___3ftYk {
+    padding: 4px 0 12px;
+  }
+}
