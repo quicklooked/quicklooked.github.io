@@ -749,7 +749,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   }
 
   .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-    bottom: 32px !important;
+    bottom: 14px !important;
   }
 }
 
@@ -762,7 +762,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-control-bar .vjs-menu {
   min-width: 0 !important;
   z-index: 11;
-  width: 18px;
+  width: 0;
   left: auto;
   right: auto;
 }
@@ -782,14 +782,14 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 28px;
-  left: 36px;
+  bottom: 18px;
+  left: 28px;
   transform: translateX(-100%);
   font-size: 12px;
-  line-height: 36px;
+  line-height: 28px;
   color: #fff;
   -webkit-app-region: no-drag;
-  max-height: calc(269px - 36px);
+  max-height: calc(260px - 28px);
   overflow-y: auto;
   font-family: Helvetica, Arial, sans-serif;
   background-color: #333;
@@ -824,7 +824,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content .vjs-menu-item {
   font-family: Helvetica, Arial, sans-serif;
   text-align: left;
-  height: 36px;
+  height: 28px;
   text-transform: capitalize;
   font-weight: 400;
   color: #ccc;
@@ -833,7 +833,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   margin: 0 0.5em 0 0em;
   padding: 0 0.5em 0 0em;
   font-size: 12px;
-  line-height: 36px;
+  line-height: 28px;
   display: inline-flex;
 }
 
@@ -851,7 +851,7 @@ li.vjs-menu-item::before {
   font-family: nf-icon;
   width: 12px !important;
   height: 12px !important;
-  margin: 12px 12px 12px 0px;
+  margin: 8px 12px 8px 0px;
   border: 1px solid;
   border-radius: 50%;
 }
@@ -2550,9 +2550,9 @@ i.icon.fa.fa-4x.fa-pause {
   text-align: left;
   text-transform: none !important;
   font-size: 14px !important;
-  line-height: 33px !important;
+  line-height: 24px !important;
   padding: 0;
-  margin: 0 0 3px 0 !important;
+  margin: 0 0 4px 0 !important;
   font-weight: bold !important;
   cursor: default;
 }
