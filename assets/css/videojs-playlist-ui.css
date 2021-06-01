@@ -22027,7 +22027,7 @@ ul.links.small>li.developerForum {
   bottom: 8px;
   padding: 2px 5px;
   color: #fff;
-  background: rgba(35, 35, 35, .95);
+  background: transparent;
   text-align: center;
   z-index: 3;
 }
