@@ -735,7 +735,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js .vjs-control-bar {
   background: 0 0;
   z-index: 10;
-  height: 6em;
+  height: 5em;
   padding-top: 1em;
   padding-bottom: 1em;
   max-width: 1024px;
