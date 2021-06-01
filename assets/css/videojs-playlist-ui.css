@@ -5694,9 +5694,9 @@ svg {
 
 @media (min-width:414px) {
   .VideoCard__horizontalDisplayOnXSmall___1UhhD.VideoCard__videoCard___1_mDZ .VideoCard__videoTitle___Yclps {
-    height: 3.87em;
-    -webkit-line-clamp: 3;
-    line-clamp: 3
+    height: 54px;
+    -webkit-line-clamp: 2;
+    line-clamp: 2
   }
 }
 
