@@ -153,7 +153,7 @@
           if(item.epsiodes) {
             var epsiodes = document.createElement('div');
             var epsiodesText = item.epsiodes || '';
-            epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5P';
+            epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5Ps';
             epsiodes.appendChild(document.createTextNode(epsiodesText));
             nowPlayingEl.appendChild(epsiodes);
           };
@@ -187,7 +187,7 @@
           if(item.epsiodes) {
             var epsiodes = document.createElement('div');
             var epsiodesText = item.epsiodes || '';
-            epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5P';
+            epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5Ps';
             epsiodes.appendChild(document.createTextNode(epsiodesText));
             upNextEl.appendChild(epsiodes);
           };
