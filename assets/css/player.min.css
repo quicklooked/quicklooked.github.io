@@ -1346,7 +1346,7 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
 .video-js .vjs-control-bar button.vjs-control.vjs-picture-in-picture-control[title='Exit Picture-in-Picture'] .vjs-icon-placeholder:before {
   content: "";
   background-repeat: no-repeat;
-  background-size: 24px;
+  background-size: 18px;
   background-position: center;
   width: 24px;
   height: 24px;
