@@ -5446,9 +5446,9 @@ svg {
 .VideoCard__videoTitle___Yclps {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.29;
 }
 
 .VideoCard__videoChannelName___3ktxc {
@@ -22468,5 +22468,26 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
 @media (min-width: 480px) {
   .epsiode-synopsis {
     display: -webkit-box;
+  }
+}
+
+@media (min-width: 1024px) {
+  .VideoCard__videoTitle___Yclps {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 768px) {
+  .VideoCard__videoTitle___Yclps {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media (min-width: 480px) {
+  .VideoCard__videoTitle___Yclps {
+    font-size: 16px;
+    line-height: 27px;
   }
 }
