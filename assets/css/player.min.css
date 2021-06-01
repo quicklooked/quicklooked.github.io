@@ -993,8 +993,8 @@ li.vjs-menu-item::before {
   border-radius: 50%;
   z-index: 11;
   background: var(--color-primary);
-  width: 16px;
-  height: 16px;
+  width: 0px;
+  height: 0px;
   font-size: 12px;
 }
 
