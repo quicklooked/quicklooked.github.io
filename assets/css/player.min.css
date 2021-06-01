@@ -2640,3 +2640,89 @@ i.icon.fa.fa-4x.fa-pause {
 .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-subs-caps-button {
   margin: 0 28px 0 auto !important;
 }
+
+.vp-spin {
+  width: 18%;
+  max-width: 140px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: opacity .1s, -webkit-transform .25s cubic-bezier(.17, .88, .32, 1.28);
+  transition: opacity .1s, -webkit-transform .25s cubic-bezier(.17, .88, .32, 1.28);
+  transition: opacity .1s, transform .25s cubic-bezier(.17, .88, .32, 1.28);
+  transition: opacity .1s, transform .25s cubic-bezier(.17, .88, .32, 1.28), -webkit-transform .25s cubic-bezier(.17, .88, .32, 1.28);
+}
+
+.vp-spin-trace {
+  fill: none;
+  stroke-width: 3%;
+  stroke: rgba(30, 30, 30, .9);
+  stroke-opacity: .6;
+}
+
+.vp-spin-circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  fill: none;
+  stroke-width: 3%;
+  stroke: #fcfcfc;
+  stroke-opacity: 1;
+  stroke-linecap: round;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  -webkit-animation: rotate 2s linear .25s infinite, dash 1.5s ease-in-out .25s infinite;
+  animation: rotate 2s linear .25s infinite, dash 1.5s ease-in-out .25s infinite;
+}
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0
+  }
+
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px
+  }
+
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0
+  }
+
+  50% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -35px
+  }
+
+  100% {
+    stroke-dasharray: 89, 200;
+    stroke-dashoffset: -124px
+  }
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
