@@ -150,6 +150,13 @@
           var nowPlayingEl = document.createElement('div');
           var nowPlayingText = this.localize('Playing now');
           nowPlayingEl.className = 'PlayingIndicatorTag__playingIndicatorTag___193h3 PlayingIndicatorTag__horizontalCards___1wcU- VideoCard__playingTag___39XFp PlayingIndicatorTag__highlightedBackground___3UDd7';
+          if(item.epsiodes) {
+            var epsiodes = document.createElement('div');
+            var epsiodesText = item.epsiodes || '';
+            epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5P';
+            epsiodes.appendChild(document.createTextNode(epsiodesText));
+            nowPlayingEl.appendChild(epsiodes);
+          };
           nowPlayingEl.appendChild(document.createTextNode(nowPlayingText));
           nowPlayingEl.setAttribute('title', nowPlayingText);
           durations.appendChild(nowPlayingEl);
@@ -177,6 +184,13 @@
           var upNextEl = document.createElement('div');
           var upNextText = this.localize('Playing next');
           upNextEl.className = 'PlayingIndicatorTag__playingIndicatorTag___193h3 PlayingIndicatorTag__horizontalCards___1wcU- VideoCard__playingTag___39XFp PlayingIndicatorTag__mutedBackground___1ZYg5';
+          if(item.epsiodes) {
+            var epsiodes = document.createElement('div');
+            var epsiodesText = item.epsiodes || '';
+            epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5P';
+            epsiodes.appendChild(document.createTextNode(epsiodesText));
+            upNextEl.appendChild(epsiodes);
+          };
           upNextEl.appendChild(document.createTextNode(upNextText));
           upNextEl.setAttribute('title', upNextText);
           durations.appendChild(upNextEl);
