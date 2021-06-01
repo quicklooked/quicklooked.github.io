@@ -6717,18 +6717,18 @@ li.tab.active a button {
 }
 
 .WatchingSafeZone__player___2wY-h {
-  margin: 0 -16px
+  margin: 0 -5vw;
 }
 
 @media (min-width:480px) {
   .WatchingSafeZone__player___2wY-h {
-    margin: 0 -24px
+    margin: 0 -5vw;
   }
 }
 
 @media (min-width:768px) {
   .WatchingSafeZone__player___2wY-h {
-    margin: 0 -40px
+    margin: 0 -5vw;
   }
 }
 
