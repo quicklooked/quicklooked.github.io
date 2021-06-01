@@ -5427,6 +5427,23 @@ svg {
   text-align: center
 }
 
+.PlayingIndicatorTag__displayedRank___3so5Ps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 35px;
+  min-width: 24px;
+  padding: 0 8px;
+  margin-left: -8px;
+  text-align: center;
+}
+
 .PlayingIndicatorTag__videoDuration___3E0Bu {
   position: absolute;
   right: 8px;
@@ -22490,4 +22507,12 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
     font-size: 16px;
     line-height: 27px;
   }
+}
+
+.vjs-selected .PlayingIndicatorTag__displayedRank___3so5P {
+  display: none;
+}
+
+.vjs-up-next .PlayingIndicatorTag__displayedRank___3so5P {
+  display: none;
 }
