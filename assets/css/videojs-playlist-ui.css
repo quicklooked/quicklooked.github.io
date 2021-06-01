@@ -5448,7 +5448,7 @@ svg {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.29;
+  line-height: 27px;
 }
 
 .VideoCard__videoChannelName___3ktxc {
@@ -5604,9 +5604,9 @@ svg {
 }
 
 .VideoCard__videoTitle___Yclps {
-  height: 3.87em;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
+  height: 54px;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -5687,7 +5687,7 @@ svg {
 }
 
 .VideoCard__horizontalDisplayOnXSmall___1UhhD.VideoCard__videoCard___1_mDZ .VideoCard__videoTitle___Yclps {
-  height: 2.58em;
+  height: 54px;
   -webkit-line-clamp: 2;
   line-clamp: 2
 }
