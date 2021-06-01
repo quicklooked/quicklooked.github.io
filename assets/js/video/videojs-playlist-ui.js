@@ -136,6 +136,14 @@
             duration.setAttribute('datetime', 'PT0H0M' + item.duration + 'S');
             duration.appendChild(document.createTextNode(time));
             durations.className = 'PlayingIndicatorTag__playingIndicatorTag___193h3 PlayingIndicatorTag__horizontalCards___1wcU- VideoCard__playingTag___39XFp';
+            if(item.epsiodes) {
+              var epsiodes = document.createElement('div');
+              var epsiodesText = item.epsiodes || '';
+              epsiodes.className = 'PlayingIndicatorTag__displayedRank___3so5P';
+              epsiodes.appendChild(document.createTextNode(epsiodesText));
+              epsiodes.setAttribute('style', 'color: #fff, background-color: #0071e3');
+              durations.appendChild(epsiodes);
+            };
             durations.appendChild(duration);
             this.thumbnail.appendChild(durations);
           }
