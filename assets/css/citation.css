@@ -211,6 +211,7 @@ dialog {
   -webkit-transition: background-color 100ms;
   transition: background-color 100ms;
   color: transparent;
+  cursor: pointer;
 }
 
 .mw-ui-icon-flush-right {
