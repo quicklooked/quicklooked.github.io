@@ -1407,6 +1407,39 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute;' viewBox='0 0 18 18'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate(-3.000000, -3.000000)'%3E%3Crect stroke='%23979797' stroke-width='1' fill='%23D8D8D8' fill-rule='evenodd' opacity='0' x='0.5' y='0.5' width='23' height='23'%3E%3C/rect%3E%3Cmask fill='white'%3E%3Cpath d='M12,10.5857864 L19.2928932,3.29289322 L20.7071068,4.70710678 L13.4142136,12 L20.7071068,19.2928932 L19.2928932,20.7071068 L12,13.4142136 L4.70710678,20.7071068 L3.29289322,19.2928932 L10.5857864,12 L3.29289322,4.70710678 L4.70710678,3.29289322 L12,10.5857864 Z'%3E%3C/path%3E%3C/mask%3E%3Cpath fill='%23FFFFFF' fill-rule='evenodd' d='M12,10.5857864 L19.2928932,3.29289322 L20.7071068,4.70710678 L13.4142136,12 L20.7071068,19.2928932 L19.2928932,20.7071068 L12,13.4142136 L4.70710678,20.7071068 L3.29289322,19.2928932 L10.5857864,12 L3.29289322,4.70710678 L4.70710678,3.29289322 L12,10.5857864 Z'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
+.video-js .vjs-control-bar .vjs-pip-control.vjs-control.vjs-button {
+  margin: 0 28px 0 0;
+  width: 24px;
+}
+
+.video-js .vjs-control-bar .vjs-pip-control.vjs-control.vjs-button .vjs-icon-placeholder {
+  width: 24px !important;
+  height: 24px !important;
+  padding: 0;
+}
+
+.video-js .vjs-control-bar .vjs-pip-control.vjs-control.vjs-button .vjs-icon-placeholder:before,
+.video-js .vjs-control-bar button.vjs-control.vjs-pip-control.vjs-control.vjs-button .vjs-icon-placeholder:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute;' viewBox='0 0 24 24'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Crect fill='%23D8D8D8' opacity='0' x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3Cpath d='M21.0003,18 L21.0003,6 L3.0003,6 L3.0003,18 L21.0003,18 Z M21.9453,20 L2.0543,20 C1.46343187,20 1.0003,19.5190554 1.0003,18.944 L1.0003,5.056 C1.0003,4.48094463 1.46343187,4 2.0543,4 L21.9453,4 C22.5305389,4 23.0003,4.47563312 23.0003,5.056 L23.0003,18.944 C23.0003,19.5243669 22.5305389,20 21.9453,20 Z M10,16 L19,16 L19,11 L10,11 L10,16 Z' fill='%23FFFFFF' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.video-js .vjs-control-bar .vjs-pip-control.vjs-control.vjs-button[title='Exit Picture-in-Picture'] .vjs-icon-placeholder:before,
+.video-js .vjs-control-bar button.vjs-control.vjs-pip-control.vjs-control.vjs-button[title='Exit Picture-in-Picture'] .vjs-icon-placeholder:before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute;' viewBox='0 0 18 18'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg transform='translate(-3.000000, -3.000000)'%3E%3Crect stroke='%23979797' stroke-width='1' fill='%23D8D8D8' fill-rule='evenodd' opacity='0' x='0.5' y='0.5' width='23' height='23'%3E%3C/rect%3E%3Cmask fill='white'%3E%3Cpath d='M12,10.5857864 L19.2928932,3.29289322 L20.7071068,4.70710678 L13.4142136,12 L20.7071068,19.2928932 L19.2928932,20.7071068 L12,13.4142136 L4.70710678,20.7071068 L3.29289322,19.2928932 L10.5857864,12 L3.29289322,4.70710678 L4.70710678,3.29289322 L12,10.5857864 Z'%3E%3C/path%3E%3C/mask%3E%3Cpath fill='%23FFFFFF' fill-rule='evenodd' d='M12,10.5857864 L19.2928932,3.29289322 L20.7071068,4.70710678 L13.4142136,12 L20.7071068,19.2928932 L19.2928932,20.7071068 L12,13.4142136 L4.70710678,20.7071068 L3.29289322,19.2928932 L10.5857864,12 L3.29289322,4.70710678 L4.70710678,3.29289322 L12,10.5857864 Z'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
 .video-js .vjs-control-bar .vjs-button.vjs-fullscreen-control .vjs-icon-placeholder:before,
 .video-js .vjs-control-bar button.vjs-control.vjs-fullscreen-control .vjs-icon-placeholder:before {
   content: "";
