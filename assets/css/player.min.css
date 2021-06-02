@@ -1223,6 +1223,14 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
   width: 28px;
   cursor: pointer;
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .video-js .vjs-control-bar .vjs-button.vjs-seek-button,
+  .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
+    display: inline-block !important;
+  }
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-seek-button .vjs-icon-placeholder,
