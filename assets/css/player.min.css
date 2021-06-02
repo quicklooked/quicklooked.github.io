@@ -2765,9 +2765,42 @@ i.icon.fa.fa-4x.fa-pause {
 
 .video-js .vjs-live-control {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex: auto;
   font-size: 12px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 28px;
+}
+
+.video-js .vjs-live-display:before {
+  content: '';
+  height: 8px;
+  width: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.vjs-playing .vjs-live-display:before {
+  background-color: #e50914;
+}
+
+.video-js .vjs-live-display .vjs-control-text:after {
+  content: "";
+  display: block;
+  background-color: #fff;
+  top: 100%;
+  position: absolute;
+  left: 50%;
+  height: 14px;
+  width: 14px;
+  border-radius: 1px;
+  -webkit-transform-origin: 75% 50%;
+  transform-origin: 75% 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: -1;
 }
