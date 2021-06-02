@@ -484,12 +484,13 @@ li.vjs-menu-item.vjs-texttrack-settings {
 
 .video-js .vjs-tech {
   z-index: 5;
+  border-radius: 0 !important;
 }
 
 .video-js.vjs-fluid,
 .video-js.vjs-16-9,
 .video-js.vjs-4-3 {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 @media (min-width: 1024px) {
@@ -497,11 +498,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    border-radius: 0.625rem;
+    border-radius: 10px !important;
   }
 
   .video-js .vjs-tech {
-    border-radius: 0.625rem;
+    border-radius: 10px !important;
   }
 }
 
@@ -510,11 +511,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    border-radius: 0;
+    border-radius: 0 !important;
   }
 
   .video-js .vjs-tech {
-    border-radius: 0;
+    border-radius: 0 !important;
   }
 }
 
