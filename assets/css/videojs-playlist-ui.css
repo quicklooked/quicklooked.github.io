@@ -7247,7 +7247,7 @@ li.tab.active a button {
 }
 
 .DiscoveryQueueDisplay__sectionContainer___H8cEv {
-  padding-top: 10px
+  padding-top: 12px
 }
 
 .DiscoveryQueueDisplay__sectionContainer___H8cEv.DiscoveryQueueDisplay__stickyBanner___39E7A {
@@ -7256,7 +7256,7 @@ li.tab.active a button {
 
 @media (min-width:480px) {
   .DiscoveryQueueDisplay__sectionContainer___H8cEv {
-    padding-top: 16px
+    padding-top: 12px
   }
 }
 
@@ -7484,7 +7484,7 @@ li.tab.active a button {
 
 @media (min-width:1024px) {
   .WatchingDiscovery__watchingSafeZone___1ll-U {
-    padding-top: 16px
+    padding-top: 12px
   }
 }
 
