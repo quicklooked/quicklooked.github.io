@@ -514,15 +514,7 @@ twitterAuthor: "@TheEconomist"
                         }
                       },
                     });
-                    if(!player051820211001.mediainfo) {
-                      player051820211001.mediainfo = {};
-                    }
-                    if(!player051820211001.mediainfo.projection) {
-                      player051820211001.mediainfo.projection = '360';
-                    }
-                    player051820211001.vr({
-                      projection: 'AUTO'
-                    });
+                    player051820211001.vr();
                     player051820211001.responsive(true);
                     player051820211001.chromecast({ metatitle: 'video.name', metasubtitle: 'video.description', button:'controlbar', tracksScale: 1.0 });
                     player051820211001.touchOverlay();
