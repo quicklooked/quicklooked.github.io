@@ -2815,6 +2815,7 @@ i.icon.fa.fa-4x.fa-pause {
   font-weight: 400;
   line-height: 28px;
   padding: 0 28px 0 0;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .video-js .vjs-live-display:before {
