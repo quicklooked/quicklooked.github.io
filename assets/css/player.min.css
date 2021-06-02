@@ -487,9 +487,19 @@ li.vjs-menu-item.vjs-texttrack-settings {
   border-radius: 0;
 }
 
+.video-js.vjs-fullscreen.vjs-tech {
+  border-radius: 0 !important;
+}
+
 .video-js.vjs-fluid,
 .video-js.vjs-16-9,
 .video-js.vjs-4-3 {
+  border-radius: 0;
+}
+
+.video-js.vjs-fullscreen.vjs-fluid,
+.video-js.vjs-fullscreen.vjs-16-9,
+.video-js.vjs-fullscreen.vjs-4-3 {
   border-radius: 0;
 }
 
@@ -498,11 +508,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    border-radius: 0.625rem;
+    border-radius: 0.625rem !important;
   }
 
   .video-js .vjs-tech {
-    border-radius: 0.625rem;
+    border-radius: 0.625rem !important;
   }
 }
 
@@ -511,11 +521,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    border-radius: 0.625rem;
+    border-radius: 0;
   }
 
   .video-js .vjs-tech {
-    border-radius: 0.625rem;
+    border-radius: 0;
   }
 }
 
