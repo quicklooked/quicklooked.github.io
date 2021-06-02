@@ -22,15 +22,17 @@ dialog {
   position: fixed;
   left: 0;
   bottom: 0;
-  max-width: 680px;
-  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   right: 0;
+  max-width: 680px;
+  width: 100%;
   z-index: 667;
   overflow: auto;
   border: 0;
   background-color: #000000;
-  color: #c8ccd1;
-  max-height: 50%;
+  color: #a3a3a3;
+  max-height: 50vh;
   overflow-y: auto;
   box-shadow: 0 -1px 8px 0 rgb(0 0 0 / 35%);
   word-wrap: break-word;
@@ -131,7 +133,7 @@ dialog {
 }
 
 .mw-parser-output a {
-  color: #69f;
+  color: rgb(0, 173, 239);
 }
 
 .mw-ui-icon-small {
