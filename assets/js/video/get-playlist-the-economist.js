@@ -432,7 +432,7 @@ function getPlaylistTheEconomist() {
   }, {
     sources: [{
       src: 'https://videojs-vr.netlify.app/samples/lcs15_rect.webm',
-      type: 'video/webm'
+      type: 'video/mp4'
     }],
     textTracks: [{
       "kind": "captions",
