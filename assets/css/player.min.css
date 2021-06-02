@@ -2770,6 +2770,7 @@ i.icon.fa.fa-4x.fa-pause {
   font-size: 12px;
   font-weight: 400;
   line-height: 28px;
+  padding: 0 28px 0 0;
 }
 
 .video-js .vjs-live-display:before {
