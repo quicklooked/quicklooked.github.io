@@ -500,7 +500,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 .video-js.vjs-fullscreen.vjs-fluid,
 .video-js.vjs-fullscreen.vjs-16-9,
 .video-js.vjs-fullscreen.vjs-4-3 {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 @media (min-width: 1024px) {
