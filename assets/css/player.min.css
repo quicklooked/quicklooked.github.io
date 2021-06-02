@@ -1429,8 +1429,8 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
   background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute;' viewBox='0 0 24 24'%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Crect fill='%23D8D8D8' opacity='0' x='0' y='0' width='24' height='24'%3E%3C/rect%3E%3Cpath d='M21.0003,18 L21.0003,6 L3.0003,6 L3.0003,18 L21.0003,18 Z M21.9453,20 L2.0543,20 C1.46343187,20 1.0003,19.5190554 1.0003,18.944 L1.0003,5.056 C1.0003,4.48094463 1.46343187,4 2.0543,4 L21.9453,4 C22.5305389,4 23.0003,4.47563312 23.0003,5.056 L23.0003,18.944 C23.0003,19.5243669 22.5305389,20 21.9453,20 Z M10,16 L19,16 L19,11 L10,11 L10,16 Z' fill='%23FFFFFF' fill-rule='nonzero'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
-.video-js .vjs-control-bar .vjs-button.vjs-pip-control[title='Exit Picture-in-Picture'] .vjs-icon-placeholder:before,
-.video-js .vjs-control-bar button.vjs-control.vjs-pip-control[title='Exit Picture-in-Picture'] .vjs-icon-placeholder:before {
+.video-js .vjs-control-bar .vjs-button.vjs-pip-control[title='Exit Picture-In-Picture'] .vjs-icon-placeholder:before,
+.video-js .vjs-control-bar button.vjs-control.vjs-pip-control[title='Exit Picture-In-Picture'] .vjs-icon-placeholder:before {
   content: "";
   background-repeat: no-repeat;
   background-size: 24px;
