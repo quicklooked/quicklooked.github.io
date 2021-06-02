@@ -429,5 +429,38 @@ function getPlaylistTheEconomist() {
     thumbnail: [{
       src: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg'
     }],
+  }, {
+    sources: [{
+      src: 'https://videojs-vr.netlify.app/samples/lcs15_eac.webm',
+      type: 'video/webm'
+    }],
+    textTracks: [{
+      "kind": "captions",
+      "label": "English Audio Descriptions",
+      "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "subtitles",
+      "label": "English (United States) CC",
+      "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
+      "srclang": "en",
+    }, {
+      "kind": "chapters",
+      "label": "What is short selling and should you do it?",
+      "src": "https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell.en_US.vtt",
+      "srclang": "en",
+    }],
+    name: 'What is short selling and should you do it?',
+    epsiodes: '14',
+    duration: '70',
+    date: 'Jun 3',
+    authors: 'The Economist',
+    authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
+    description: 'The GameStop saga brought short selling into the spotlight for many new investors. Here\'s what it is and why some investors use it.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why short selling is legal in the US - CNBC</a></li>',
+    poster: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg',
+    thumbnail: [{
+      src: 'https://m.wsj.net/video/20210208/02082021exshortsell/02082021exshortsell_1280x720.jpg'
+    }],
   }];
 }
