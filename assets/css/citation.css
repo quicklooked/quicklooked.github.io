@@ -257,7 +257,7 @@ sup.tooltip.nd.tooltipstered {
   display: inline;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1280px) {
   sup.tooltip.nd.tooltipstered {
     display: inline !important;
   }
