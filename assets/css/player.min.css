@@ -1231,6 +1231,9 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
   .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
     display: inline-block !important;
   }
+  .video-js .vjs-overlay {
+    z-index: 0 !important;
+  }
 }
 
 .video-js .vjs-control-bar .vjs-button.vjs-seek-button .vjs-icon-placeholder,
