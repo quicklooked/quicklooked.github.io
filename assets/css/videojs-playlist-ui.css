@@ -22630,3 +22630,10 @@ button,
 .Hawkins-Icon-Small {
   height: 16px;
 }
+
+.MuiButtonBase-root-313.MuiButton-root-286.jss277.jss273.MuiButton-text-288.jss277.jss273 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
