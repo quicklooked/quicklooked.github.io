@@ -22642,6 +22642,9 @@ button,
   background-image: -moz- oldlinear-gradient(top, #e50914, #db0510);
   background-image: -o-linear-gradient(top, #e50914, #db0510);
   background-image: linear-gradient(to bottom, #e50914, #db0510);
+}
+
+.MuiButtonBase-root-313.MuiButton-root-286.jss277.jss273.MuiButton-text-288.jss277.jss273:hover {
   -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
   box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
