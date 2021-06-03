@@ -7412,7 +7412,8 @@ li.tab.active a button {
 
 @media (min-width:1024px) {
   .DiscoveryVideoSection__videoSectionTitleDisplayRawTitle___rBHam {
-    display: none
+    display: block;
+    /* display: none */
   }
 }
 
