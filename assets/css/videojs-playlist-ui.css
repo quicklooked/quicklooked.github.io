@@ -22647,7 +22647,7 @@ button,
 }
 
 .autoplay-controls-container:hover~.MuiButtonBase-root-313 {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   background-color: #e50914 !important;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e50914), to(#db0510)) !important;
   background-image: -webkit-linear-gradient(top, #e50914, #db0510) !important;
@@ -22657,7 +22657,7 @@ button,
 }
 
 .autoplay-controls-container:hover .MuiButtonBase-root-313 {
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   background-color: #e50914 !important;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e50914), to(#db0510)) !important;
   background-image: -webkit-linear-gradient(top, #e50914, #db0510) !important;
