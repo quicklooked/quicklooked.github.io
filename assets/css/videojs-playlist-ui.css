@@ -22673,3 +22673,15 @@ button,
   background-image: -o-linear-gradient(top, #e50914, #db0510) !important;
   background-image: linear-gradient(to bottom, #e50914, #db0510) !important;
 }
+
+@media (min-width: 1024px) {
+  .VideoInfo__titleAndExpandButton___2jTDa {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .VideoInfo__titleAndExpandButton___2jTDa {
+    padding-top: 12px;
+  }
+}
