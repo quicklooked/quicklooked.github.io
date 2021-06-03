@@ -22636,13 +22636,16 @@ button,
   left: 16px;
   transform: translate(0%, 0%);
   position: absolute;
-  background-color: blue;
 }
 
 .MuiButtonColor:hover {
   -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
   box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+}
+
+.video-container:hover+.MuiButtonColor {
+  background-color: blue;
 }
 
 .video-container:hover~.MuiButtonColor {
