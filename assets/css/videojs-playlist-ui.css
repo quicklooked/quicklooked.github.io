@@ -22677,7 +22677,7 @@ button,
 
 @media (min-width: 1024px) {
   .VideoInfo__titleAndExpandButton___2jTDa {
-    padding-top: 0;
+    padding-top: 0 !important;
   }
 }
 
