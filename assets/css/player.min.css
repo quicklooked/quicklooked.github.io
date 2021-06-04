@@ -2247,7 +2247,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
 }
 
 .vjs-volume-panel.vjs-control.vjs-volume-panel-vertical {
-  margin: 0 28px 0 0;
+  margin: 0 28px 0 auto;
 }
 
 .vjs-seek-button.skip-10.vjs-control.vjs-button {
