@@ -1511,6 +1511,7 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
 
 .video-js .vjs-progress-control .vjs-mouse-display {
   background-color: rgba(255,255,255,.5) !important;
+  width: 2px !important;
 }
 
 .video-start-btn {
