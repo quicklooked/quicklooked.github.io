@@ -752,7 +752,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js.vjs-has-started.vjs-paused .vjs-big-play-button {
-  animation: fadeinout 1s linear forwards
+  animation: fadeinout .25s linear forwards
 }
 
 .video-js.vjs-has-started.vjs-paused .vjs-big-play-button .vjs-icon-placeholder:before {
@@ -767,7 +767,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js.vjs-has-started.vjs-playing .vjs-big-play-button {
-  animation: fadeinout2 1s linear forwards
+  animation: fadeinout2 .25s linear forwards
 }
 
 .video-js.vjs-seeking .vjs-big-play-button,
