@@ -1050,16 +1050,16 @@ li.vjs-menu-item::before {
   border-radius: 50%;
   z-index: 11;
   background: var(--color-primary);
-  width: 0px;
-  height: 0px;
-  font-size: 12px;
+  width: 0;
+  height: 0;
+  font-size: 0;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:after,
 .video-js .vjs-control-bar .vjs-progress-control:hover .vjs-play-progress:before {
-  width: 16px;
-  height: 16px;
-  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  font-size: 0;
 }
 
 .video-js .vjs-control-bar .vjs-remaining-time {
