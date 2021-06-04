@@ -2892,3 +2892,23 @@ i.icon.fa.fa-4x.fa-pause {
 .video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-chromecast-button {
   display: none;
 }
+
+.vjs-chapters-button li.vjs-menu-item::before {
+  content: "";
+  display: inline-flex;
+  vertical-align: 0 !important;
+  margin-right: 0 !important;
+  font-family: nf-icon;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  border: 0 solid #666;
+  border-radius: 50%;
+}
+
+.vjs-chapters-button li.vjs-menu-item.vjs-selected::before {
+  content: "\F048";
+  font-size: 0 !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
