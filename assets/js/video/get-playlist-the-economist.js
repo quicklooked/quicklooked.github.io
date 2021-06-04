@@ -15,8 +15,8 @@ function getPlaylistTheEconomist() {
     textTracks: [{
       "kind": "captions",
       "label": "English Audio Descriptions",
-      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
-      "srclang": "en",
+      "src": "https://pubads.g.doubleclick.net/ondemand/hls/content/2503702/vid/consus-pm4598/SIN/streams/13cb6b85-d0db-4fdd-aeb6-77121740645a/vtt/vi.vtt",
+      "srclang": "vn",
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
