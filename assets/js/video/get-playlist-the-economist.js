@@ -6,7 +6,7 @@ function getPlaylistTheEconomist() {
       type: 'application/x-mpegURL'
     }],
     audioTracks: [{
-      "kind": "descriptions",
+      "kind": "",
       "label": "Vietnamese Audio Descriptions",
       "src": "https://r8---sn-42u-nbosy.googlevideo.com/videoplayback?expire=1622861686&ei=FpO6YJGNCdC5qAHM_5RY&ip=1.52.213.138&id=o-AD-yNS7QbFHF47YYZ2CZ1yAXTrIL1jlYiiMl0A6x-1Dr&itag=251&source=youtube&requiressl=yes&mh=6E&mm=31%2C26&mn=sn-42u-nbosy%2Csn-npoeeney&ms=au%2Conr&mv=m&mvi=8&pl=24&initcwndbps=1411250&vprv=1&mime=audio%2Fwebm&ns=SCtVrGUxqgt7oQ6XMx7fuvkF&gir=yes&clen=5480951&dur=312.741&lmt=1616950187237311&mt=1622839741&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5531432&n=Zb11wwmngQi53A&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAL_PPl1D6r0c7-3pFCFhIwLXTy9K-4vS9NhMlMxEfodZAiEAkVkHeO2mgp4iOwfAJwFXs6PVA1vR4i0mRS-ejB5OLXs%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAOVhhrMs3bI1oQy3CDmvH-_1li__jpDb0tbN23Fo3Qc0AiBDSZ3N7bh1ZYv24KxBd-dS7wZtI0P0p7Rs8rpNbkmh9w%3D%3D&alr=yes&cpn=_EmNNkxhOWdEx8jH&cver=2.20210603.07.00&rn=59&rbuf=0",
       "srclang": "vn",
