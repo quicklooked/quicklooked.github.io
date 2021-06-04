@@ -1510,8 +1510,15 @@ button.vjs-picture-in-picture-control.vjs-control.vjs-button {
 }
 
 .video-js .vjs-progress-control .vjs-mouse-display {
-  background-color: rgba(255,255,255,.5) !important;
-  width: 2px !important;
+  background-color: transparent !important;
+  width: 0 !important;
+  border-left: solid 1px rgba(255, 255, 255, .5);
+  border-right: solid 1px rgba(255, 255, 255, .5);
+  margin-left: -1px;
+  position: absolute;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .video-start-btn {
