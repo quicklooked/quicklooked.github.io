@@ -1149,12 +1149,12 @@ li.vjs-menu-item::before {
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-paused {
-  margin: 0 28px 0 12px !important;
+  margin: 0 28px 0 12px;
   width: 28px;
 }
 
 button.vjs-play-control.vjs-control.vjs-button.vjs-playing {
-  margin: 0 28px 0 12px !important;
+  margin: 0 28px 0 12px;
   width: 28px;
 }
 
