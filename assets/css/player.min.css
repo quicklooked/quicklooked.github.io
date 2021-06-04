@@ -961,7 +961,8 @@ li.vjs-menu-item::before {
   font-size: 12px;
   line-height: 12px;
   font-weight: 400;
-  padding: 0.2em 0.4em;
+  top: -3.2em;
+  padding: 6px 8px 8px 8px;
   border-radius: 2px;
   /*
   -webkit-box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
