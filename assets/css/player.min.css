@@ -789,7 +789,9 @@ li.vjs-menu-item.vjs-texttrack-settings {
   height: 5em;
   padding-top: 1em;
   padding-bottom: 1em;
+  /*
   max-width: 1024px;
+  */
   margin-left: auto !important;
   margin-right: auto !important;
 }
