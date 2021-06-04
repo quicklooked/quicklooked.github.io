@@ -2580,7 +2580,7 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .vjs-control.vjs-button.vjs-icon-next-item {
-  margin: 0 28px 0 auto;
+  margin: 0 28px 0 0;
   width: 28px !important;
 }
 
