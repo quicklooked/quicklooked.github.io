@@ -2735,6 +2735,14 @@ i.icon.fa.fa-4x.fa-pause {
   margin: 0 28px 0 0 !important;
 }
 
+.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-play-control {
+  margin: 0 auto 0 12px !important;
+}
+
+.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-play-control {
+  margin: 0 auto 0 12px !important;
+}
+
 .vp-spin-trace {
   fill: none;
   stroke-width: 3%;
