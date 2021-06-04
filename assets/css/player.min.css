@@ -966,6 +966,7 @@ li.vjs-menu-item::before {
   top: -3.2em;
   padding: .5em;
   border-radius: .3em;
+  transform: translate(0%, 0%);
   /*
   -webkit-box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
   box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
@@ -1044,7 +1045,10 @@ li.vjs-menu-item::before {
 .video-js .vjs-control-bar .vjs-progress-control .vjs-play-progress:before {
   content: '';
   top: 50%;
+  transform: translate(50%, -50%);
+  /*
   transform: translateY(-50%);
+  */
   position: absolute;
   display: block;
   border-radius: 50%;
