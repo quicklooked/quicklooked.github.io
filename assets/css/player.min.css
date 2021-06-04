@@ -968,7 +968,7 @@ li.vjs-menu-item::before {
   -webkit-box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
   box-shadow: 0.1em 0.1em 0 rgb(0 0 0 / 0%);
   */
-  background: rgba(30, 30, 30, .9);
+  background: #333;
   color: #fff;
   display: inline-block;
   cursor: -webkit-grab;
