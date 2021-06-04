@@ -2,7 +2,7 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://github.com/aquicklook/CODE/blob/2cb3ee61e46cb87718af2e82f6b938fda34ad510/manifest-hd-wifi.m3u8',
+      src: '/assets/manifest-hd-wifi.m3u8',
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
