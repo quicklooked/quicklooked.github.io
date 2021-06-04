@@ -974,6 +974,7 @@ li.vjs-menu-item::before {
   cursor: grab;
 }
 
+/*
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip::before {
   border-left: 0.3em solid transparent;
   border-right: 0.3em solid transparent;
@@ -984,6 +985,7 @@ li.vjs-menu-item::before {
   margin-left: -0.3em;
   position: absolute;
 }
+*/
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-thumbnail-holder {
   border: 0 !important;
