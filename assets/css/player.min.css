@@ -802,7 +802,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
   }
 
   .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-    bottom: 14px !important;
+    bottom: 16px !important;
   }
 }
 
@@ -835,7 +835,7 @@ li.vjs-menu-item.vjs-texttrack-settings {
 }
 
 .video-js .vjs-control-bar .vjs-menu .vjs-menu-content {
-  bottom: 28px;
+  bottom: 20px;
   left: 28px;
   transform: translateX(-100%);
   font-size: 12px;
