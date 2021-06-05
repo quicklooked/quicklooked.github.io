@@ -545,9 +545,6 @@ twitterAuthor: "@TheEconomist"
                       var player051820211001 = videojs('player-051820211001');
                       if(!this.activeCues) {
                         var capson_051820211001 = document.querySelector("#capshow_051820211001");
-                        capshow_051820211001.innerHTML = "No transcript this video";
-                      } else {
-                        var capson_051820211001 = document.querySelector("#capshow_051820211001");
                         capshow_051820211001.innerHTML = "";
                         var options = {
                           showTitle: false,
@@ -556,6 +553,9 @@ twitterAuthor: "@TheEconomist"
                         var transcript = this.transcript(options);
                         transcript.id = "capshow_051820211001";
                         capson_051820211001.appendChild(transcript.el());
+                      } else {
+                        var capson_051820211001 = document.querySelector("#capshow_051820211001");
+                        capshow_051820211001.innerHTML = "No transcript this video";
                       };
                     });
                     player051820211001.on('playlistitem', function(event, video) {
