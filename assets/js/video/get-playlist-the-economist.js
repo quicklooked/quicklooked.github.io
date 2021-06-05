@@ -2,7 +2,7 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://dl161.iijjvi.biz/?file=M3R4SUNiN3JsOHJ6WWQ3aTdPRFA4NW1rRVJIOGhMWUh5NUJpbHpsb0p1NXY5Y2gyaGNyclp1b2JhLzVmN0wvcFBadDNwbnVCSS82c2V6Njg4N3QxQnl2UXZNSXkvQnljdHE5d1Y0SjZFek9wM3NTQjB4TWh3Z244Ty8yY1VKcDBLQzhzcmd0ZzIyT3duN1QybUJ2LytHbXM3QWFyS1FGYjl4a3BlTlNJME5Sai9FU0FXOExkbHJWVTZBUzlwOElaOUx1Ri95blpocEZ0L1lRbGNHTS9WNlZrbkxtbW1xanRpd3cycHI4MStXU0ZoYW1MTUtGa1RQM09hWGw5TG5aUDcrYmpXU1FPempFV3BTbnMwTFlxKzNRY2M2VXd1a1M1NmFhc05CbkxPNURRVnNPSksveTQ2TWIyNzdJczlGTEFyOXpBazVSL2tnbXlkOFR3U05ZM29Gb2lucmVNNU1JSnlVK0cxQVlmajk4S3pGN3ljSE1wVDZoRE5uWXdMTVVhT0RvTnNzanMxcjREOVpCTllFdmM1NmtvY3ZRQ29wak55TGtTeGlLOS9ja0ZFZ2oxNmlpRlRKbjlSa2hBNDJZTENpaWJHMTBRbVE5dmMwdnpoNE4rd0dmMFg5OS9kMmNiMTJydUZVQ1JHdXA4WmZNPQ%3D%3D',
+      src: '',
       type: 'video/mp4'
     }],
     audioTracks: [{
