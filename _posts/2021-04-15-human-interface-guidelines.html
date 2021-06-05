@@ -553,6 +553,15 @@ twitterAuthor: "@TheEconomist"
                       transcript.id = "capshow_051820211001";
                       capson_051820211001.appendChild(transcript.el());
                     });
+                    player051820211001.on('playlistitem', function() {
+                      var trackAudio051820211001 = new videojs.AudioTrack({
+                        id: 'video1',
+                        kind: 'translation',
+                        label: 'Vietnamese',
+                        language: 'vn'
+                      });
+                      player051820211001.audioTracks().addTrack(trackAudio051820211001);
+                    });
                     player051820211001.on('playlistitem', function(event, video) {
                       var player051820211001 = videojs('player-051820211001');
                       var mdaTitle_051820211001 = document.querySelector("#mdaTitle-051820211001");
