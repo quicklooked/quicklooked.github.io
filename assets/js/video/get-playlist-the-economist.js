@@ -2,15 +2,10 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/audio/ad_en_128/ad_en_128.m3u8',
+      src: 'https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8',
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
-      "kind": "captions",
-      "label": "English Audio Descriptions",
-      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
-      "srclang": "vn",
-    }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
