@@ -8,17 +8,17 @@ function getPlaylistTheEconomist() {
     textTracks: [{
       "kind": "captions",
       "label": "English Audio Descriptions",
-      "src": "https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/cc/en/en.m3u8",
+      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "vn",
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
-      "src": "https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/cc/en/en.m3u8",
+      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "en",
     }, {
       "kind": "chapters",
       "label": "Apple Events - April 2021 - Apple (US)",
-      "src": "https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/cc/en/en.m3u8",
+      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "en",
     }],
     name: 'Apple Events - April 2021 - Apple (US)',
