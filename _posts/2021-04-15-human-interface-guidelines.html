@@ -543,7 +543,7 @@ twitterAuthor: "@TheEconomist"
                     });
                     player051820211001.on('playlistitem', function() {
                       var player051820211001 = videojs('player-051820211001');
-                      if(this.activeCues !== null) {
+                      if(this.activeCues !== undefined) {
                         var capson_051820211001 = document.querySelector("#capshow_051820211001");
                         capshow_051820211001.innerHTML = "No transcript this video";
                       } else {
