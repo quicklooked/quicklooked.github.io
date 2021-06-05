@@ -10,11 +10,6 @@ function getPlaylistTheEconomist() {
       "label": "English (United States) CC",
       "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
       "srclang": "en",
-    }, {
-      "kind": "chapters",
-      "label": "Apple Events - April 2021 - Apple (US)",
-      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
-      "srclang": "en",
     }],
     name: 'Apple Events - April 2021 - Apple (US)',
     epsiodes: '1',
