@@ -551,6 +551,8 @@ twitterAuthor: "@TheEconomist"
                       var transcript = this.transcript(options);
                       transcript.id = "capshow_051820211001";
                       capson_051820211001.appendChild(transcript.el());
+                      var audioTracks = player051820211001.audioTracks();
+                      audioTracks.enabled = true;
                     });
                     player051820211001.on('playlistitem', function(event, video) {
                       var player051820211001 = videojs('player-051820211001');
