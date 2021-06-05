@@ -3,7 +3,7 @@ function getPlaylistTheEconomist() {
   return [{
     sources: [{
       src: 'https://r8---sn-42u-nbosy.googlevideo.com/videoplayback?expire=1622873637&ei=xcG6YMyuJLWB1d8PmcaHCA&ip=1.52.213.138&id=o-ADygTDK0-4DNNz_HsLTQxLw83a4kLso40AdwUVq--RG7&itag=397&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C271%2C278%2C313%2C394%2C395%2C396%2C397%2C398%2C399%2C400%2C401&source=youtube&requiressl=yes&mh=6E&mm=31%2C26&mn=sn-42u-nbosy%2Csn-npoe7n7r&ms=au%2Conr&mv=m&mvi=8&pl=24&initcwndbps=1891250&vprv=1&mime=video%2Fmp4&ns=F1ka6lz5vU2HTtfHOkURraoF&gir=yes&clen=10076920&dur=312.720&lmt=1620335794971924&mt=1622851726&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=WEB&txp=5532434&n=wOKqZdJfgehWQA&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgYgwhM_7Qhoyn02nihoD4i_Pwx38HQjVbTq8P7ej_4L4CIQDbqngX2-ojENyaJwtIgHQnS59_O04c35iZjvqvJpZLxw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAL3CAyrZsl2c964k4cV2BUi1Ii1lf2wrwhn4tuL7L9hFAiEA1PGtRVPoxV8DB9QG8uWVIBFlL31JYa7kWNzV1xf227I%3D&alr=yes&cpn=OpWB7hm2VS_CutfG&cver=2.20210603.07.00&rn=21&rbuf=0&altitags=396%2C395',
-      type: 'application/x-mpegURL'
+      type: 'video/mp4'
     }],
     textTracks: [{
       "kind": "captions",
