@@ -2,36 +2,36 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://raw.githubusercontent.com/quicklooked/quicklooked.github.io/master/assets/manifest-hd-wifi.m3u8',
+      src: 'https://raw.githubusercontent.com/aquicklook/CODE/main/manifest-hd-wifi.m3u8?token=AQHQSRR5EGU2DM4J2CKFHO3AXK7CY',
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
       "kind": "captions",
       "label": "English Audio Descriptions",
-      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
+      "src": "https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/cc/en/en.m3u8",
       "srclang": "vn",
     }, {
       "kind": "subtitles",
       "label": "English (United States) CC",
-      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
+      "src": "https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/cc/en/en.m3u8",
       "srclang": "en",
     }, {
       "kind": "chapters",
-      "label": "The Costs and Benefits of a $15 Federal Minimum Wage",
-      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
+      "label": "Apple Events - April 2021 - Apple (US)",
+      "src": "https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/vod5/master/cc/en/en.m3u8",
       "srclang": "en",
     }],
-    name: 'The Costs and Benefits of a $15 Federal Minimum Wage',
+    name: 'Apple Events - April 2021 - Apple (US)',
     epsiodes: '1',
-    duration: '503',
+    duration: '6532',
     date: 'May 14',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: 'Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be. Photo: Bill Clark/Congressional Quarterly/Zuma Press',
-    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">Why the U.S. needs a $15 minimum wage</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Minimum Wage Tracker</a></li>',
-    poster: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
+    description: 'Announcing our biggest updates ever to iOS, iPadOS, watchOS — and the entirely reimagined macOS Big Sur.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">iPhone Support</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Designed for everyone</a></li>',
+    poster: 'https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/psp-hero-banner-new-iphone.image.large_2x.jpg',
     thumbnail: [{
-      src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
+      src: 'https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/psp-hero-banner-new-iphone.image.large_2x.jpg'
     }],
   }, {
     sources: [{
