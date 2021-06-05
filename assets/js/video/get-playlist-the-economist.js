@@ -5,12 +5,6 @@ function getPlaylistTheEconomist() {
       src: 'https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8',
       type: 'application/x-mpegURL'
     }],
-    textTracks: [{
-      "kind": "subtitles",
-      "label": "English (United States) CC",
-      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
-      "srclang": "en",
-    }],
     name: 'Apple Events - April 2021 - Apple (US)',
     epsiodes: '1',
     duration: '6532',
