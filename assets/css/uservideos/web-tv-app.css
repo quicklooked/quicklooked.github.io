@@ -3666,7 +3666,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 .shelf-grid__header {
-  padding: 20px 5vw
+  padding: 12px 5vw
 }
 
 [data-grid='A'] .shelf-grid__list {
