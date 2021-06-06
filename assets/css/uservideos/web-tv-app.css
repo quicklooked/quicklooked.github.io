@@ -5335,8 +5335,8 @@ html[dir=rtl] .line-clamp--with-more {
 }
 
 .lockup-button--context-menu::after {
-  -webkit-mask-image: url("https://tv.apple.com/assets/badges/small-more-44912049bdcd4db3777e6e61a1ded794.svg");
-  mask-image: url("https://tv.apple.com/assets/badges/small-more-44912049bdcd4db3777e6e61a1ded794.svg")
+  -webkit-mask-image: url(/assets/css/uservideos/svg/small-more.svg);
+  mask-image: url(/assets/css/uservideos/svg/small-more.svg)
 }
 
 .lockup-button--download::after {
