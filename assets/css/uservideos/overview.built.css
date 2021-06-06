@@ -4360,7 +4360,7 @@ html.touch .paddlenav .paddlenav-arrow.disabled {
 
 .paddlenav .paddlenav-arrow-next::before,
 .paddlenav .paddlenav-arrow-next::after {
-  content: "ï›"
+  content: "\F35b"
 }
 
 .paddlenav .paddlenav-arrow-next::after {
