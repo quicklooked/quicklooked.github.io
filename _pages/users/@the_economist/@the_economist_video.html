@@ -187,11 +187,11 @@ colorhover: "#e50914"
           <div class="shelf-grid-nav">
             <ul>
               <li>
-                <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
+                <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next swiper-button-next" aria-label="Next Page" type="button">
                 </button>
               </li>
               <li>
-                <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" disabled="" aria-label="Previous Page" type="button">
+                <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous swiper-button-prev" disabled="" aria-label="Previous Page" type="button">
                 </button>
               </li>
             </ul>
@@ -218,8 +218,8 @@ colorhover: "#e50914"
         loop: true,
         loopFillGroupWithBlank: true,
         navigation: {
-          nextEl: ".shelf-grid-nav__arrow--next",
-          prevEl: ".shelf-grid-nav__arrow--previous",
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
         },
       });
     </script>
