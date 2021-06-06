@@ -17,6 +17,7 @@
   list-style: none;
   padding: 0;
 		height: 320px;
+	background: #000;
   z-index: 1;
 }
 
