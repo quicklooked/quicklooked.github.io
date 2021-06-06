@@ -11085,12 +11085,12 @@ html[dir=rtl] .context-menu__title {
 }
 
 .shelf-grid .shelf-grid-nav__arrow::after {
-  background-image: url(shelf/paddle-dark-3bc9eef848158860d017803b15a9911c.svg)
+  background-image: url(/assets/css/uservideos/svg/paddle-default.svg)
 }
 
 @media only screen and (prefers-color-scheme:light) {
   .shelf-grid .shelf-grid-nav__arrow::after {
-    background-image: url(shelf/paddle-default-c0094af78257a1c2dc20e415af455823.svg)
+    background-image: url(/assets/css/uservideos/svg/paddle-default.svg)
   }
 }
 
