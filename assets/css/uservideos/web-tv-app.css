@@ -6563,7 +6563,7 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
 }
 
 .epic-inline-shelf__container .shelf-grid .shelf-grid-nav__arrow::after {
-  background-image: url(shelf/paddle-dark-3bc9eef848158860d017803b15a9911c.svg)
+  background-image: url(/assets/css/uservideos/svg/paddle-default.svg)
 }
 
 .epic-inline-shelf__container .shelf-grid .shelf-grid-nav__arrow {
@@ -6865,7 +6865,7 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
 }
 
 .epic-showcase-shelf__container .shelf-grid .shelf-grid-nav__arrow::after {
-  background-image: url(shelf/paddle-dark-3bc9eef848158860d017803b15a9911c.svg)
+  background-image: url(/assets/css/uservideos/svg/paddle-default.svg)
 }
 
 .epic-showcase-shelf__container .shelf-grid .shelf-grid-nav__arrow {
