@@ -3595,7 +3595,7 @@ html[dir=rtl] .shelf-grid__list-item {
   height: 29px;
   opacity: .85;
   background-repeat: no-repeat;
-  background-image: url(../assets/shelf/paddle-default-c0094af78257a1c2dc20e415af455823.svg);
+  background-image: url(/assets/css/uservideos/svg/paddle-default-left.svg);
   z-index: 1
 }
 
