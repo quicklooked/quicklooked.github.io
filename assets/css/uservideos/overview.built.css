@@ -7747,7 +7747,7 @@ html.touch .paddlenav .paddlenav-arrow.disabled {
 
 .paddlenav .paddlenav-arrow-previous::before,
 .paddlenav .paddlenav-arrow-previous::after {
-  content: "ïš"
+  content: "\F300"
 }
 
 .paddlenav .paddlenav-arrow-previous::after {
