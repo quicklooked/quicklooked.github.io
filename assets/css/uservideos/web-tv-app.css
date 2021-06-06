@@ -3582,6 +3582,7 @@ html[dir=rtl] .shelf-grid__list-item {
   transition: 250ms background-color linear, 250ms color linear, 250ms opacity linear;
   border: none;
   cursor: pointer;
+  background-image: linear-gradient(to right,#000 30%,rgba(24,24,24,0) 100%);
   z-index: 1
 }
 
