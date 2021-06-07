@@ -8403,10 +8403,10 @@ only screen and (min-resolution:1.5dppx),
 .play-button--large {
   height: 2.5vw;
   width: 2.5vw;
-  min-height: 30px;
-  min-width: 30px;
-  max-height: 50px;
-  max-width: 50px
+  min-height: 16px;
+  min-width: 16px;
+  max-height: 24px;
+  max-width: 24px
 }
 
 .play-button::after {
