@@ -9754,7 +9754,7 @@ only screen and (min-resolution:1.5dppx),
   content: '';
   height: 100%;
   left: 0;
-  background-image: url(button_glyphs/product_header_play_white-612fc8180e85a6b07b344ad45e282c4f.png);
+  background-image: url(/assets/css/uservideos/svg/product_header_play_white.png);
   background-position: 50% 50%;
   background-size: 80% 80%;
   background-repeat: no-repeat;
