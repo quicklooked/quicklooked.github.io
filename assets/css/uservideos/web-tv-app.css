@@ -4512,7 +4512,7 @@ html[dir=rtl] .line-clamp--with-more {
 
 .lockup-overlay {
   background-color: rgba(51, 51, 51, .3);
-  border-radius: 0;
+  border-radius: 8px;
   /*
   border-radius: 12px;
   */
@@ -5095,7 +5095,7 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
 
 .canvas-lockup__artwork,
 .watch-live-lockup__artwork {
-  border-radius: 0;
+  border-radius: 8px;
   /*
   border-radius: 12px
   */
@@ -10223,7 +10223,7 @@ html[dir=rtl] .context-menu__title {
 
 .canvas-lockup__artwork .media-artwork-v2__image,
 .watch-live-lockup__artwork .media-artwork-v2__image {
-  border-radius: 0;
+  border-radius: 8px;
   /*
   border-radius: 12px
   */
