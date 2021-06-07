@@ -6381,8 +6381,8 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   bottom: 0;
   height: 100%;
   width: 100%;
-  -webkit-mask-image: url(gradient/radialGradient-faf2e52e51fa29d87e0affb6fb58bcb4.png);
-  mask-image: url(gradient/radialGradient-faf2e52e51fa29d87e0affb6fb58bcb4.png);
+  -webkit-mask-image: url(/assets/css/uservideos/svg/radialGradient.png);
+  mask-image: url(/assets/css/uservideos/svg/radialGradient.png);
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
   -webkit-mask-repeat: no-repeat;
