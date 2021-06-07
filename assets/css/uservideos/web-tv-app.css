@@ -11108,3 +11108,9 @@ html[dir=rtl] .locale-switcher-footer .locale-switcher-footer__country-name {
   transition: transform 0.4s;
   transition: transform 0.4s, -webkit-transform 0.4s;
 }
+
+@media only screen and (max-width: 739px) {
+  .custom-button.small-solid {
+    display: none !important;
+  }
+}
