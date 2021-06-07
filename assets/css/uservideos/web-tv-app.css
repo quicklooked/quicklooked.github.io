@@ -5443,6 +5443,8 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   margin-top: -4px;
   position: absolute;
   max-width: 100%;
+  text-decoration: none;
+	cursor: pointer;
   z-index: 2
 }
 
