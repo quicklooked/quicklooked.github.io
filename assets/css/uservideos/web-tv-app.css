@@ -598,7 +598,6 @@ body {
   line-height: 1.23077
 }
 
-
 body,
 button,
 input,
@@ -612,24 +611,20 @@ textarea {
   line-height: 1.23077
 }
 
-
 .typography-title-1 {
   font-size: 22px;
   line-height: 1.18182
 }
-
 
 .typography-title-2 {
   font-size: 17px;
   line-height: 1.29412
 }
 
-
 .typography-title-3 {
   font-size: 15px;
   line-height: 1.33338
 }
-
 
 .typography-headline {
   font-size: 18px;
@@ -640,7 +635,6 @@ textarea {
   font-size: 13px;
   line-height: 1.23077
 }
-
 
 .typography-callout {
   font-size: 12px;
@@ -660,13 +654,9 @@ textarea {
   line-height: 1.27273
 }
 
-
-
 .typography-footnote {
   line-height: 1.18182
 }
-
-
 
 .typography-caption-1 {
   font-size: 10px;
@@ -675,15 +665,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-caption-2 {
   font-size: 10px;
   line-height: 1.3;
   font-weight: 500;
   letter-spacing: 0
 }
-
 
 .typography-large-title-emphasized {
   font-size: 26px;
@@ -692,15 +679,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-1-emphasized {
   font-size: 22px;
   line-height: 1.18182;
   font-weight: 700;
   letter-spacing: 0
 }
-
-
 
 .typography-title-2-emphasized {
   font-size: 17px;
@@ -709,15 +693,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-title-3-emphasized {
   font-size: 15px;
   line-height: 1.33338;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-headline-emphasized {
   font-size: 18px;
@@ -733,14 +714,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-callout-emphasized {
   font-size: 12px;
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-subhead-emphasized {
   font-size: 11px;
@@ -756,16 +735,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-caption-1-emphasized {
   font-size: 10px;
   line-height: 1.3;
   font-weight: 500;
   letter-spacing: 0
 }
-
-
 
 .typography-caption-2-emphasized {
   font-size: 10px;
@@ -774,14 +749,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-large-title-tall {
   font-size: 26px;
   line-height: 1.30775;
   font-weight: 400;
   letter-spacing: 0
 }
-
 
 .typography-title-1-tall {
   font-size: 22px;
@@ -790,14 +763,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-2-tall {
   font-size: 17px;
   line-height: 1.41184;
   font-weight: 400;
   letter-spacing: 0
 }
-
 
 .typography-title-3-tall {
   font-size: 15px;
@@ -806,14 +777,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-headline-tall {
   font-size: 13px;
   line-height: 1.38462;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-body-tall,
 .typography-callout-tall,
@@ -829,32 +798,25 @@ textarea {
   line-height: 1.38462
 }
 
-
 .typography-callout-tall {
   font-size: 12px;
   line-height: 1.41667
 }
-
-
 
 .typography-subhead-tall {
   font-size: 11px;
   line-height: 1.45455
 }
 
-
 .typography-footnote-tall {
   font-size: 10px;
   line-height: 1.5
 }
 
-
-
 .typography-caption-1-tall {
   font-size: 10px;
   line-height: 1.5
 }
-
 
 .typography-caption-2-tall {
   font-size: 10px;
@@ -863,14 +825,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-large-title-short {
   font-size: 26px;
   line-height: 1.15385;
   font-weight: 400;
   letter-spacing: 0
 }
-
 
 .typography-title-1-short {
   font-size: 22px;
@@ -879,14 +839,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-2-short {
   font-size: 17px;
   line-height: 1.17648;
   font-weight: 400;
   letter-spacing: 0
 }
-
 
 .typography-title-3-short {
   font-size: 15px;
@@ -895,14 +853,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-headline-short {
   font-size: 13px;
   line-height: 1.07696;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-body-short,
 .typography-callout-short,
@@ -918,30 +874,25 @@ textarea {
   line-height: 1.07696
 }
 
-
 .typography-callout-short {
   font-size: 12px;
   line-height: 1.08337
 }
-
 
 .typography-subhead-short {
   font-size: 11px;
   line-height: 1.09091
 }
 
-
 .typography-footnote-short {
   font-size: 10px;
   line-height: 1.1
 }
 
-
 .typography-caption-1-short {
   font-size: 10px;
   line-height: 1.1
 }
-
 
 .typography-caption-2-short {
   font-size: 10px;
@@ -950,14 +901,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-large-title-emphasized-tall {
   font-size: 26px;
   line-height: 1.30775;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-title-1-emphasized-tall {
   font-size: 22px;
@@ -966,14 +915,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-2-emphasized-tall {
   font-size: 17px;
   line-height: 1.41184;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-title-3-emphasized-tall {
   font-size: 15px;
@@ -982,14 +929,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-headline-emphasized-tall {
   font-size: 13px;
   line-height: 1.38462;
   font-weight: 800;
   letter-spacing: 0
 }
-
 
 .typography-body-emphasized-tall {
   font-size: 13px;
@@ -998,15 +943,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-callout-emphasized-tall {
   font-size: 12px;
   line-height: 1.41667;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-subhead-emphasized-tall {
   font-size: 11px;
@@ -1015,14 +957,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-footnote-emphasized-tall {
   font-size: 10px;
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-caption-1-emphasized-tall {
   font-size: 10px;
@@ -1038,15 +978,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-large-title-emphasized-short {
   font-size: 26px;
   line-height: 1.15385;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-title-1-emphasized-short {
   font-size: 22px;
@@ -1055,15 +992,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-2-emphasized-short {
   font-size: 17px;
   line-height: 1.17648;
   font-weight: 700;
   letter-spacing: 0
 }
-
-
 
 .typography-title-3-emphasized-short {
   font-size: 15px;
@@ -1072,15 +1006,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-headline-emphasized-short {
   font-size: 13px;
   line-height: 1.07696;
   font-weight: 800;
   letter-spacing: 0
 }
-
-
 }
 
 .typography-body-emphasized-short {
@@ -1090,14 +1021,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-callout-emphasized-short {
   font-size: 12px;
   line-height: 1.08337;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-subhead-emphasized-short {
   font-size: 11px;
@@ -1106,15 +1035,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-footnote-emphasized-short {
   font-size: 10px;
   line-height: 1.1;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-caption-1-emphasized-short {
   font-size: 10px;
@@ -1123,15 +1049,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-caption-2-emphasized-short {
   font-size: 10px;
   line-height: 1.1;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-header {
   font-size: 34px;
@@ -1163,45 +1086,35 @@ textarea {
   line-height: 1.23077
 }
 
-
-
 .typography-title-1-medium {
   font-size: 22px;
   line-height: 1.18182
 }
-
 
 .typography-title-2-medium {
   font-size: 17px;
   line-height: 1.29412
 }
 
-
 .typography-title-3-medium {
   font-size: 15px;
   line-height: 1.33338
 }
-
-
 
 .typography-headline-medium {
   font-size: 13px;
   line-height: 1.23077
 }
 
-
 .typography-body-medium {
   font-size: 13px;
   line-height: 1.23077
 }
 
-
 .typography-callout-medium {
   font-size: 12px;
   line-height: 1.25
 }
-
-
 
 .typography-subhead-medium {
   font-size: 11px;
@@ -1218,22 +1131,17 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-footnote-medium {
   line-height: 1.3
 }
-
-
 
 .typography-caption-1-medium {
   line-height: 1.3
 }
 
-
 .typography-caption-2-medium {
   line-height: 1.3
 }
-
 
 .typography-large-title-semibold {
   font-size: 26px;
@@ -1249,15 +1157,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-2-semibold {
   font-size: 17px;
   line-height: 1.29412;
   font-weight: 600;
   letter-spacing: 0
 }
-
-
 
 .typography-title-3-semibold {
   font-size: 15px;
@@ -1266,15 +1171,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-headline-semibold {
   font-size: 13px;
   line-height: 1.23077;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-body-semibold {
   font-size: 13px;
@@ -1283,15 +1185,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-callout-semibold {
   font-size: 12px;
   line-height: 1.25;
   font-weight: 600;
   letter-spacing: 0
 }
-
-
 
 .typography-subhead-semibold {
   font-size: 11px;
@@ -1308,24 +1207,17 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-footnote-semibold {
   line-height: 1.3
 }
-
-
 
 .typography-caption-1-semibold {
   line-height: 1.3
 }
 
-
-
 .typography-caption-2-semibold {
   line-height: 1.3
 }
-
 
 .typography-large-title-bold {
   font-size: 26px;
@@ -1341,15 +1233,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-title-2-bold {
   font-size: 17px;
   line-height: 1.29412;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-title-3-bold {
   font-size: 15px;
@@ -1358,14 +1247,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-headline-bold {
   font-size: 13px;
   line-height: 1.23077;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-body-bold {
   font-size: 13px;
@@ -1374,16 +1261,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-callout-bold {
   font-size: 12px;
   line-height: 1.25;
   font-weight: 700;
   letter-spacing: 0
 }
-
-
 
 .typography-subhead-bold {
   font-size: 11px;
@@ -1392,15 +1275,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-footnote-bold {
   font-size: 10px;
   line-height: 1.3;
   font-weight: 700;
   letter-spacing: 0
 }
-
 
 .typography-caption-1-bold {
   font-size: 10px;
@@ -1409,15 +1289,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-caption-2-bold {
   font-size: 10px;
   line-height: 1.3;
   font-weight: 700;
   letter-spacing: 0
 }
-
-
 
 .typography-large-title-medium-tall {
   font-size: 26px;
@@ -1426,16 +1303,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-title-1-medium-tall {
   font-size: 22px;
   line-height: 1.27273;
   font-weight: 500;
   letter-spacing: 0
 }
-
-
 
 .typography-title-2-medium-tall {
   font-size: 17px;
@@ -1444,15 +1317,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-title-3-medium-tall {
   font-size: 15px;
   line-height: 1.46667;
   font-weight: 500;
   letter-spacing: 0
 }
-
-
 
 .typography-headline-medium-tall {
   font-size: 13px;
@@ -1461,16 +1331,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-body-medium-tall {
   font-size: 13px;
   line-height: 1.38462;
   font-weight: 500;
   letter-spacing: 0
 }
-
-
 
 .typography-callout-medium-tall {
   font-size: 12px;
@@ -1479,16 +1345,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-subhead-medium-tall {
   font-size: 11px;
   line-height: 1.45455;
   font-weight: 500;
   letter-spacing: 0
 }
-
-
 
 .typography-footnote-medium-tall {
   font-size: 10px;
@@ -1497,16 +1359,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-caption-1-medium-tall {
   font-size: 10px;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0
 }
-
-
 
 .typography-caption-2-medium-tall {
   font-size: 10px;
@@ -1515,16 +1373,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-large-title-semibold-tall {
   font-size: 26px;
   line-height: 1.30775;
   font-weight: 600;
   letter-spacing: 0
 }
-
-
 
 .typography-title-1-semibold-tall {
   font-size: 22px;
@@ -1533,15 +1387,12 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-title-2-semibold-tall {
   font-size: 17px;
   line-height: 1.41184;
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 .typography-title-3-semibold-tall {
   font-size: 15px;
@@ -1550,15 +1401,12 @@ textarea {
   letter-spacing: 0
 }
 
-
 .typography-headline-semibold-tall {
   font-size: 13px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: 0
 }
-
-
 
 .typography-body-semibold-tall {
   font-size: 13px;
@@ -1567,17 +1415,11 @@ textarea {
   letter-spacing: 0
 }
 
-
-
 .typography-callout-semibold-tall {
   font-size: 12px;
   line-height: 1.41667;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-callout-semibold-tall:lang(th) {
-  line-height: 1.98337
 }
 
 .typography-subhead-semibold-tall {
@@ -1587,19 +1429,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-subhead-semibold-tall:lang(th) {
-  line-height: 2.0364
-}
-
 .typography-footnote-semibold-tall {
   font-size: 10px;
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-footnote-semibold-tall:lang(th) {
-  line-height: 2.1
 }
 
 .typography-caption-1-semibold-tall {
@@ -1609,19 +1443,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-caption-1-semibold-tall:lang(th) {
-  line-height: 2.1
-}
-
 .typography-caption-2-semibold-tall {
   font-size: 10px;
   line-height: 1.5;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-caption-2-semibold-tall:lang(th) {
-  line-height: 2.1
 }
 
 .typography-large-title-bold-tall {
@@ -1631,27 +1457,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-large-title-bold-tall:lang(th) {
-  line-height: 1.83077
-}
-
-.typography-large-title-bold-tall:lang(zh) {
-  font-weight: 600
-}
-
 .typography-title-1-bold-tall {
   font-size: 22px;
   line-height: 1.27273;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-title-1-bold-tall:lang(th) {
-  line-height: 1.78182
-}
-
-.typography-title-1-bold-tall:lang(zh) {
-  font-weight: 600
 }
 
 .typography-title-2-bold-tall {
@@ -1661,27 +1471,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-title-2-bold-tall:lang(th) {
-  line-height: 1.97648
-}
-
-.typography-title-2-bold-tall:lang(zh) {
-  font-weight: 600
-}
-
 .typography-title-3-bold-tall {
   font-size: 15px;
   line-height: 1.46667;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-title-3-bold-tall:lang(th) {
-  line-height: 2.05338
-}
-
-.typography-title-3-bold-tall:lang(zh) {
-  font-weight: 600
 }
 
 .typography-headline-bold-tall {
@@ -1691,27 +1485,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-headline-bold-tall:lang(th) {
-  line-height: 1.93848
-}
-
-.typography-headline-bold-tall:lang(zh) {
-  font-weight: 600
-}
-
 .typography-body-bold-tall {
   font-size: 13px;
   line-height: 1.38462;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-body-bold-tall:lang(th) {
-  line-height: 1.93848
-}
-
-.typography-body-bold-tall:lang(zh) {
-  font-weight: 600
 }
 
 .typography-callout-bold-tall {
@@ -1721,27 +1499,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-callout-bold-tall:lang(th) {
-  line-height: 1.98337
-}
-
-.typography-callout-bold-tall:lang(zh) {
-  font-weight: 600
-}
-
 .typography-subhead-bold-tall {
   font-size: 11px;
   line-height: 1.45455;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-subhead-bold-tall:lang(th) {
-  line-height: 2.0364
-}
-
-.typography-subhead-bold-tall:lang(zh) {
-  font-weight: 600
 }
 
 .typography-footnote-bold-tall {
@@ -1751,27 +1513,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-footnote-bold-tall:lang(th) {
-  line-height: 2.1
-}
-
-.typography-footnote-bold-tall:lang(zh) {
-  font-weight: 600
-}
-
 .typography-caption-1-bold-tall {
   font-size: 10px;
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-caption-1-bold-tall:lang(th) {
-  line-height: 2.1
-}
-
-.typography-caption-1-bold-tall:lang(zh) {
-  font-weight: 600
 }
 
 .typography-caption-2-bold-tall {
@@ -1781,23 +1527,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-caption-2-bold-tall:lang(th) {
-  line-height: 2.1
-}
-
-.typography-caption-2-bold-tall:lang(zh) {
-  font-weight: 600
-}
-
 .typography-large-title-medium-short {
   font-size: 26px;
   line-height: 1.15385;
   font-weight: 500;
   letter-spacing: 0
-}
-
-.typography-large-title-medium-short:lang(th) {
-  line-height: 1.6155
 }
 
 .typography-title-1-medium-short {
@@ -1807,19 +1541,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-title-1-medium-short:lang(th) {
-  line-height: 1.52733
-}
-
 .typography-title-2-medium-short {
   font-size: 17px;
   line-height: 1.17648;
   font-weight: 500;
   letter-spacing: 0
-}
-
-.typography-title-2-medium-short:lang(th) {
-  line-height: 1.64706
 }
 
 .typography-title-3-medium-short {
@@ -1829,19 +1555,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-title-3-medium-short:lang(th) {
-  line-height: 1.68
-}
-
 .typography-headline-medium-short {
   font-size: 13px;
   line-height: 1.07696;
   font-weight: 500;
   letter-spacing: 0
-}
-
-.typography-headline-medium-short:lang(th) {
-  line-height: 1.50772
 }
 
 .typography-body-medium-short {
@@ -1851,19 +1569,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-body-medium-short:lang(th) {
-  line-height: 1.50772
-}
-
 .typography-callout-medium-short {
   font-size: 12px;
   line-height: 1.08337;
   font-weight: 500;
   letter-spacing: 0
-}
-
-.typography-callout-medium-short:lang(th) {
-  line-height: 1.51667
 }
 
 .typography-subhead-medium-short {
@@ -1873,19 +1583,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-subhead-medium-short:lang(th) {
-  line-height: 1.5273
-}
-
 .typography-footnote-medium-short {
   font-size: 10px;
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0
-}
-
-.typography-footnote-medium-short:lang(th) {
-  line-height: 1.54
 }
 
 .typography-caption-1-medium-short {
@@ -1895,19 +1597,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-caption-1-medium-short:lang(th) {
-  line-height: 1.54
-}
-
 .typography-caption-2-medium-short {
   font-size: 10px;
   line-height: 1.1;
   font-weight: 500;
   letter-spacing: 0
-}
-
-.typography-caption-2-medium-short:lang(th) {
-  line-height: 1.54
 }
 
 .typography-large-title-semibold-short {
@@ -1917,19 +1611,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-large-title-semibold-short:lang(th) {
-  line-height: 1.6155
-}
-
 .typography-title-1-semibold-short {
   font-size: 22px;
   line-height: 1.09091;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-title-1-semibold-short:lang(th) {
-  line-height: 1.52733
 }
 
 .typography-title-2-semibold-short {
@@ -1939,19 +1625,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-title-2-semibold-short:lang(th) {
-  line-height: 1.64706
-}
-
 .typography-title-3-semibold-short {
   font-size: 15px;
   line-height: 1.2;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-title-3-semibold-short:lang(th) {
-  line-height: 1.68
 }
 
 .typography-headline-semibold-short {
@@ -1961,19 +1639,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-headline-semibold-short:lang(th) {
-  line-height: 1.50772
-}
-
 .typography-body-semibold-short {
   font-size: 13px;
   line-height: 1.07696;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-body-semibold-short:lang(th) {
-  line-height: 1.50772
 }
 
 .typography-callout-semibold-short {
@@ -1983,19 +1653,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-callout-semibold-short:lang(th) {
-  line-height: 1.51667
-}
-
 .typography-subhead-semibold-short {
   font-size: 11px;
   line-height: 1.09091;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-subhead-semibold-short:lang(th) {
-  line-height: 1.5273
 }
 
 .typography-footnote-semibold-short {
@@ -2005,19 +1667,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-footnote-semibold-short:lang(th) {
-  line-height: 1.54
-}
-
 .typography-caption-1-semibold-short {
   font-size: 10px;
   line-height: 1.1;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-caption-1-semibold-short:lang(th) {
-  line-height: 1.54
 }
 
 .typography-caption-2-semibold-short {
@@ -2027,23 +1681,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-caption-2-semibold-short:lang(th) {
-  line-height: 1.54
-}
-
 .typography-large-title-bold-short {
   font-size: 26px;
   line-height: 1.15385;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-large-title-bold-short:lang(th) {
-  line-height: 1.6155
-}
-
-.typography-large-title-bold-short:lang(zh) {
-  font-weight: 600
 }
 
 .typography-title-1-bold-short {
@@ -2053,27 +1695,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-title-1-bold-short:lang(th) {
-  line-height: 1.52733
-}
-
-.typography-title-1-bold-short:lang(zh) {
-  font-weight: 600
-}
-
 .typography-title-2-bold-short {
   font-size: 17px;
   line-height: 1.17648;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-title-2-bold-short:lang(th) {
-  line-height: 1.64706
-}
-
-.typography-title-2-bold-short:lang(zh) {
-  font-weight: 600
 }
 
 .typography-title-3-bold-short {
@@ -2083,27 +1709,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-title-3-bold-short:lang(th) {
-  line-height: 1.68
-}
-
-.typography-title-3-bold-short:lang(zh) {
-  font-weight: 600
-}
-
 .typography-headline-bold-short {
   font-size: 13px;
   line-height: 1.07696;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-headline-bold-short:lang(th) {
-  line-height: 1.50772
-}
-
-.typography-headline-bold-short:lang(zh) {
-  font-weight: 600
 }
 
 .typography-body-bold-short {
@@ -2113,27 +1723,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-body-bold-short:lang(th) {
-  line-height: 1.50772
-}
-
-.typography-body-bold-short:lang(zh) {
-  font-weight: 600
-}
-
 .typography-callout-bold-short {
   font-size: 12px;
   line-height: 1.08337;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-callout-bold-short:lang(th) {
-  line-height: 1.51667
-}
-
-.typography-callout-bold-short:lang(zh) {
-  font-weight: 600
 }
 
 .typography-subhead-bold-short {
@@ -2143,27 +1737,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-subhead-bold-short:lang(th) {
-  line-height: 1.5273
-}
-
-.typography-subhead-bold-short:lang(zh) {
-  font-weight: 600
-}
-
 .typography-footnote-bold-short {
   font-size: 10px;
   line-height: 1.1;
   font-weight: 700;
   letter-spacing: 0
-}
-
-.typography-footnote-bold-short:lang(th) {
-  line-height: 1.54
-}
-
-.typography-footnote-bold-short:lang(zh) {
-  font-weight: 600
 }
 
 .typography-caption-1-bold-short {
@@ -2173,14 +1751,6 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-caption-1-bold-short:lang(th) {
-  line-height: 1.54
-}
-
-.typography-caption-1-bold-short:lang(zh) {
-  font-weight: 600
-}
-
 .typography-caption-2-bold-short {
   font-size: 10px;
   line-height: 1.1;
@@ -2188,33 +1758,11 @@ textarea {
   letter-spacing: 0
 }
 
-.typography-caption-2-bold-short:lang(th) {
-  line-height: 1.54
-}
-
-.typography-caption-2-bold-short:lang(zh) {
-  font-weight: 600
-}
-
 .typography-monogram {
   font-size: 325px;
   line-height: .00308;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-monogram:lang(ar),
-.typography-monogram:lang(he),
-.typography-monogram:lang(hi),
-.typography-monogram:lang(ja),
-.typography-monogram:lang(ko),
-.typography-monogram:lang(zh) {
-  font-weight: 500
-}
-
-.typography-monogram:lang(th) {
-  line-height: .00431;
-  font-weight: 500
 }
 
 .typography-title,
@@ -2266,10 +1814,6 @@ textarea {
   line-height: 1.3;
   font-weight: 600;
   letter-spacing: 0
-}
-
-.typography-footnote-emphasized-rounded:lang(th) {
-  line-height: 1.82
 }
 
 .typography-system-medium {
@@ -3240,10 +2784,10 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 @media only screen and (min-width: 740px) {
-.shelf-grid__header {
-	padding-left: 0;
-	padding-right: 0;
-}
+  .shelf-grid__header {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 [data-grid='A'] .shelf-grid__list {
@@ -5345,7 +4889,6 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   letter-spacing: 0
 }
 
-
 .episode-lockup__content__episode-number:hover,
 .episode-lockup__content__title:hover {
   text-decoration: underline
@@ -6221,7 +5764,6 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   font-weight: 600;
   letter-spacing: 0
 }
-
 
 @media only screen and (min-width:740px) {
   .epic-showcase-shelf__upsell-container--d .epic-showcase__promo__text {
@@ -9796,7 +9338,6 @@ only screen and (min-resolution:1.5dppx),
   color: rgba(235, 235, 245, .3)
 }
 
-
 @media screen and (prefers-color-scheme:light) {
   .library-sidebar__nav-label {
     color: rgba(60, 60, 67, .3)
@@ -10197,7 +9738,6 @@ html[dir=rtl] .context-menu__title {
   color: rgba(255, 255, 255, .95)
 }
 
-
 @media only screen and (min-width:484px) {
   .context-menu__option {
     height: 32px;
@@ -10263,7 +9803,6 @@ html[dir=rtl] .context-menu__title {
   border-bottom-color: rgba(255, 255, 255, .1);
   color: rgba(255, 255, 255, .55)
 }
-
 
 html[dir=ltr] .context-menu__title,
 html[dir=rtl] .context-menu__title {
@@ -10574,6 +10113,7 @@ html[dir=rtl] .context-menu__title {
   padding: 4px 30px 28px;
   width: 100%
 }
+
 .content-modal__content-container__bottom-gradient {
   bottom: 0;
   height: 64px;
@@ -11728,8 +11268,6 @@ h3 .locale-switcher-modal sup {
   max-width: 90%;
   padding-right: 2%
 }
-
-
 
 @media only screen and (min-width:740px) {
   .locale-switcher-banner .locale-switcher-banner__prompt-wrapper {
