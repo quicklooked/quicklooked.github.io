@@ -2589,7 +2589,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 .shelf-grid__header {
-  padding: 13px 25px
+  padding: 12px 5vw
 }
 
 @media only screen and (min-width: 740px) {
@@ -3178,7 +3178,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
     scroll-snap-type: none;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 25px
+    padding-left: 5vw
   }
 
   .shelf-grid__list::after {
