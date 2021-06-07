@@ -1965,12 +1965,6 @@ textarea {
   color: rgba(255, 255, 255, .9)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .clr-primary-text {
-    color: rgba(0, 0, 0, .95)
-  }
-}
-
 .clr-secondary-text-on-dark {
   color: rgba(235, 235, 245, .6)
 }
@@ -1982,14 +1976,6 @@ textarea {
 .clr-secondary-text,
 .watch-card-lockup__content__subtitle {
   color: rgba(235, 235, 245, .6)
-}
-
-@media screen and (prefers-color-scheme:light) {
-
-  .clr-secondary-text,
-  .watch-card-lockup__content__subtitle {
-    color: rgba(60, 60, 67, .6)
-  }
 }
 
 .clr-tertiary-text-on-dark {
@@ -2004,11 +1990,6 @@ textarea {
   color: rgba(235, 235, 245, .3)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .clr-tertiary-text {
-    color: rgba(60, 60, 67, .3)
-  }
-}
 
 .clr-quaternary-text-on-dark {
   color: rgba(235, 235, 245, .18)
@@ -2022,12 +2003,6 @@ textarea {
   color: rgba(235, 235, 245, .18)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .clr-quaternary-text {
-    color: rgba(60, 60, 67, .18)
-  }
-}
-
 .clr-divider-text-on-dark {
   color: rgba(235, 235, 245, .19)
 }
@@ -2038,12 +2013,6 @@ textarea {
 
 .clr-divider-text {
   color: rgba(235, 235, 245, .19)
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .clr-divider-text {
-    color: rgba(60, 60, 67, .29)
-  }
 }
 
 .clr-link {
@@ -2065,13 +2034,6 @@ body {
   -moz-font-feature-settings: 'kern';
   background-color: #2d2d2d;
   color: rgba(255, 255, 255, .9)
-}
-
-@media screen and (prefers-color-scheme:light) {
-  body {
-    background-color: #fff;
-    color: rgba(0, 0, 0, .95)
-  }
 }
 
 @media only screen and (max-width:999px) {
@@ -2107,12 +2069,6 @@ body {
 
 .secondary-bg-color {
   background-color: rgba(0, 0, 0, .3)
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .secondary-bg-color {
-    background-color: #f0f0f3
-  }
 }
 
 .tertiary-bg-color {
@@ -2156,25 +2112,9 @@ body {
   content: url("badges/MetadataBadge 4K OnDark-c90195dae0171c69694b4d7386421ad8.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .tertiary-bg-color {
-    background-color: rgba(0, 0, 0, .1)
-  }
-
-  .badge--4k {
-    content: url("badges/MetadataBadge 4K OnLight-fd5ab493fc53505d27ea2c770bae7129.svg")
-  }
-}
-
 .badge--hd,
 .badge--hd--on-dark {
   content: url("badges/MetadataBadge HD OnDark-753ea05bd994060f0eddda828992fe03.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--hd {
-    content: url("badges/MetadataBadge HD OnLight-4a124722b395b6a541a08ad5a2cdf84c.svg")
-  }
 }
 
 .badge--hdr,
@@ -2182,32 +2122,15 @@ body {
   content: url("badges/MetadataBadge HDR OnDark-6f875804fe8b0296c566a04d4335f0bc.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--hdr {
-    content: url("badges/MetadataBadge HDR OnLight-1ec085fd0f0765fde8b4c0364a161cc1.svg")
-  }
-}
-
 .badge--dolby-vision,
 .badge--dolby-vision--on-dark {
   content: url("badges/MetadataBadge Dolby OnDark-2c6afeb5b02b2c48655606bd9d178bfd.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--dolby-vision {
-    content: url("badges/MetadataBadge Dolby OnLight-ac284cf23c1045816e6f2d5952ba1354.svg")
-  }
-}
 
 .badge--dolby-atmos,
 .badge--dolby-atmos--on-dark {
   content: url("badges/MetadataBadge Atmos OnDark-007278edac4076aaf1bc01dedf68e3cd.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--dolby-atmos {
-    content: url("badges/MetadataBadge Atmos OnLight-1e15dc21abf2e8c7172da4feb3adf7b5.svg")
-  }
 }
 
 .badge--ad,
@@ -2215,36 +2138,14 @@ body {
   content: url("badges/MetadataBadge AD OnDark-4731d380509cdd9c3e59e73cb9dc09d5.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--ad {
-    content: url("badges/MetadataBadge AD OnLight-a575448a93571c3c9696b2a6936825c9.svg")
-  }
-}
-
 .badge--cc,
 .badge--cc--on-dark {
   content: url("badges/MetadataBadge CC OnDark-7b5b00df263bfee5af843510f708c307.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--cc {
-    content: url("badges/MetadataBadge CC OnLight-db01b8f3b686320f87c3566fe2a73762.svg")
-  }
-}
-
 .badge--sdh,
 .badge--sdh--on-dark {
   content: url("badges/MetadataBadge SDH OnDark-45f29ce5e07128bf67d924a31a003cf3.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--sdh {
-    content: url("badges/MetadataBadge SDH OnLight-69b645dfbab93de69f4072057e852e19.svg")
-  }
-
-  .badge--common-sense {
-    background-image: url(badges/common-sense-onLight-small@2x-491e5ca16a8a47cc45cd0e2eb57818c6.png)
-  }
 }
 
 .badge--rotten-tomatoes {
@@ -2272,21 +2173,9 @@ body {
   content: url("badges/ratings/mpaa/MetadataBadge PG_13 OnDark-58ebe50fe50195b299cf564de57122f2.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--mpaa--PG_13 {
-    content: url("badges/ratings/mpaa/MetadataBadge PG_13 OnLight-d85964724e019cbb9dca6cc7948085bb.svg")
-  }
-}
-
 .badge--rating--mpaa--G,
 .badge--rating--mpaa--G--on-dark {
   content: url("badges/ratings/mpaa/MetadataBadge G OnDark-b12657ec38dac5db5dda1ab6a0ab145a.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--mpaa--G {
-    content: url("badges/ratings/mpaa/MetadataBadge G OnLight-fba9595a948bbd5720b84fab969b2c67.svg")
-  }
 }
 
 .badge--rating--mpaa--PG,
@@ -2294,21 +2183,9 @@ body {
   content: url("badges/ratings/mpaa/MetadataBadge PG OnDark-568a8426a92770c2030448c0670bee33.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--mpaa--PG {
-    content: url("badges/ratings/mpaa/MetadataBadge PG OnLight-f50084754e67a6bbb36a51af55a76f16.svg")
-  }
-}
-
 .badge--rating--mpaa--R,
 .badge--rating--mpaa--R--on-dark {
   content: url("badges/ratings/mpaa/MetadataBadge R OnDark-9ba696e0734817d54a0a09037d5c83b1.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--mpaa--R {
-    content: url("badges/ratings/mpaa/MetadataBadge R OnLight-0eea57119d1af3f346dfb01f425e3395.svg")
-  }
 }
 
 .badge--rating--mpaa--UR,
@@ -2316,21 +2193,9 @@ body {
   content: url("badges/ratings/mpaa/MetadataBadge UR OnDark-8de58ea082a92b6fb006537229daddd4.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--mpaa--UR {
-    content: url("badges/ratings/mpaa/MetadataBadge UR OnLight-41e731f4794a6d7022df730dce149163.svg")
-  }
-}
-
 .badge--rating--mpaa--NC_17,
 .badge--rating--mpaa--NC_17--on-dark {
   content: url("badges/ratings/mpaa/MetadataBadge NC_17 OnDark-62300def03b83567ea169b56226cc78b.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--mpaa--NC_17 {
-    content: url("badges/ratings/mpaa/MetadataBadge NC_17 OnLight-5089a4286d8f8b8f05c0e2f9bef8acea.svg")
-  }
 }
 
 .badge--rating--bbfc--BBFC_12,
@@ -2363,21 +2228,9 @@ body {
   content: url("badges/ratings/us_tv/MetadataBadge TV-G OnDark-ee2d58e4e429b926bb477096228b7fae.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_G {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-G OnLight-14db253f2c0fb10c749af102eb0f0b25.svg")
-  }
-}
-
 .badge--rating--us_tv--TV_NR,
 .badge--rating--us_tv--TV_NR--on-dark {
   content: url("badges/ratings/us_tv/MetadataBadge TV-NR OnDark-273190d6df133e9ab81dcc458d66ffa6.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_NR {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-NR OnLight-c611a1c8d60520b15aa69f30ad534616.svg")
-  }
 }
 
 .badge--rating--us_tv--TV_MA,
@@ -2385,21 +2238,9 @@ body {
   content: url("badges/ratings/us_tv/MetadataBadge TV-MA OnDark-ad95b2e3f6a6d6741ad700568277017c.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_MA {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-MA OnLight-5bc94211f8e0ad01e2272828690d514e.svg")
-  }
-}
-
 .badge--rating--us_tv--TV_PG,
 .badge--rating--us_tv--TV_PG--on-dark {
   content: url("badges/ratings/us_tv/MetadataBadge TV-PG OnDark-72b292b401192ca9c7fe514ecd2b8b4b.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_PG {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-PG OnLight-af2ebd3e565db7e3b0c817f62002b6f4.svg")
-  }
 }
 
 .badge--rating--us_tv--TV_UR,
@@ -2407,21 +2248,9 @@ body {
   content: url("badges/ratings/us_tv/MetadataBadge TV-UR OnDark-8de58ea082a92b6fb006537229daddd4.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_UR {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-UR OnLight-41e731f4794a6d7022df730dce149163.svg")
-  }
-}
-
 .badge--rating--us_tv--TV_Y,
 .badge--rating--us_tv--TV_Y--on-dark {
   content: url("badges/ratings/us_tv/MetadataBadge TV-Y OnDark-49a3fa0e2fdd05fbe0364afe99c3dabf.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_Y {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-Y OnLight-f7c18198af20aa351bf20bbc119b0315.svg")
-  }
 }
 
 .badge--rating--us_tv--TV_Y7,
@@ -2429,21 +2258,10 @@ body {
   content: url("badges/ratings/us_tv/MetadataBadge TV-Y7 OnDark-6ed763d139c2f0e337905f7a207ef193.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_Y7 {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-Y7 OnLight-bc33cf46ac95fbd6922fdfad416e3dc1.svg")
-  }
-}
 
 .badge--rating--us_tv--TV_Y7FV,
 .badge--rating--us_tv--TV_Y7FV--on-dark {
   content: url("badges/ratings/us_tv/MetadataBadge TV-Y7FV OnDark-56e08f01f37376b7cd6292768cc81fe2.svg")
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_Y7FV {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-Y7FV OnLight-4d60a078387202f7e19449a3a745a54d.svg")
-  }
 }
 
 .badge--rating--us_tv--TV_14,
@@ -2451,11 +2269,7 @@ body {
   content: url("badges/ratings/us_tv/MetadataBadge TV-14 OnDark-624032d031d8f9a9325ee9c2389d4d9d.svg")
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .badge--rating--us_tv--TV_14 {
-    content: url("badges/ratings/us_tv/MetadataBadge TV-14 OnLight-8dab395d3bf612bf622c2fbdf4ab612a.svg")
-  }
-}
+
 
 :root {
   color-scheme: light dark;
@@ -3939,15 +3753,6 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   border-top: .5px solid rgba(255, 255, 255, .1)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .view-loading .pulse-spinner__nib {
-    background: #000
-  }
-
-  .product-main__shelf .shelf-grid__header {
-    border-top: .5px solid rgba(0, 0, 0, .1)
-  }
-}
 
 .product-main__shelf:first-of-type .shelf-grid__header {
   border: none
@@ -3996,11 +3801,6 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   color: rgba(235, 235, 245, .6)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .search-header {
-    color: rgba(60, 60, 67, .6)
-  }
-}
 
 .search-header.search-header--inView {
   transform: translate(-50%);
@@ -4026,11 +3826,6 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   color: rgba(255, 255, 255, .9)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .search-header__search-input {
-    color: rgba(0, 0, 0, .95)
-  }
-}
 
 .search-header__search-input:-ms-input-placeholder {
   color: rgba(235, 235, 245, .3)
@@ -4052,19 +3847,6 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   fill: rgba(235, 235, 245, .3)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .search-header__search-input:-ms-input-placeholder {
-    color: rgba(60, 60, 67, .3)
-  }
-
-  .search-header__search-input::placeholder {
-    color: rgba(60, 60, 67, .3)
-  }
-
-  .search-header__button {
-    fill: rgba(60, 60, 67, .6)
-  }
-}
 
 .search-header__button:hover {
   fill: rgba(235, 235, 245, .6)
@@ -4797,15 +4579,6 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   background-color: rgba(0, 0, 0, .3)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .search-header__button:hover {
-    fill: rgba(0, 0, 0, .95)
-  }
-
-  .artwork--placeholder {
-    background-color: #f0f0f3
-  }
-}
 
 .artwork--placeholder::after {
   content: '';
@@ -4822,11 +4595,6 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   background-color: rgba(235, 235, 245, .18)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .artwork--placeholder::after {
-    background-color: rgba(60, 60, 67, .18)
-  }
-}
 
 .artwork--placeholder.artwork--placeholder--type-show::after {
   -webkit-mask-image: url(placeholders/shows-6832e7fcf5f4493fe4bd5fafddaf60fd.svg);
@@ -4843,12 +4611,6 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   box-shadow: 0 0 0 .5px rgba(128, 128, 128, .2), 0 7px 7px -5px rgba(0, 0, 0, .3);
   z-index: 1001;
   background-color: rgba(0, 0, 0, .3)
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .media-artwork-v2__container.channel-lockup__artwork {
-    background-color: #f0f0f3
-  }
 }
 
 .extras-lockup {
@@ -6018,13 +5780,6 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   border-bottom-color: #353535
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .navbar {
-    background-color: #fff;
-    border-bottom-color: #aaa
-  }
-}
-
 .navbar__links {
   text-align: center
 }
@@ -6042,13 +5797,6 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   border-color: #848484 #525252 #484848
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .navbar__links__link {
-    background-color: #eee;
-    color: #555;
-    border-color: #eee #bbb #aaa
-  }
-}
 
 .navbar__links__link a {
   color: inherit;
@@ -6216,11 +5964,6 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   width: 53px
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .nav-header__tv-plus-logo {
-    background-image: url(brands/Apple_TV_plus_logo_black-8f8ee485ebc6d720f59210aefc05f905.svg)
-  }
-}
 
 .dark-mode .nav-header__logo.nav-header__tv-logo,
 .nav-header__tv-logo {
@@ -6273,27 +6016,12 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   background-color: rgba(0, 0, 0, .6)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .nav-header__tv-logo {
-    background-image: url(brands/Apple_TV_logo_black-df893b8f7ee5282f266e4f1ada8435e1.svg)
-  }
-
-  .nav-header__bg--scroll {
-    background-color: rgba(255, 255, 255, .97)
-  }
-}
 
 @supports ((-webkit-backdrop-filter: initial) or (backdrop-filter: initial)) {
   .nav-header__bg--scroll {
     -webkit-backdrop-filter: saturate(50%) blur(15px);
     backdrop-filter: saturate(50%) blur(15px);
     background-color: rgba(0, 0, 0, .4)
-  }
-
-  @media screen and (prefers-color-scheme:light) {
-    .nav-header__bg--scroll {
-      background-color: rgba(255, 255, 255, .88)
-    }
   }
 }
 
@@ -6376,11 +6104,6 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   }
 }
 
-@media only screen and (min-width:740px) and (prefers-color-scheme:light) {
-  .nav-header__link {
-    color: rgba(60, 60, 67, .6)
-  }
-}
 
 @media only screen and (min-width:740px) {
   .nav-header__link:not(:first-child) {
@@ -6397,19 +6120,6 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   }
 }
 
-@media only screen and (min-width:740px) and (prefers-color-scheme:light) {
-
-  .nav-header__link.nav-header__link--active,
-  .nav-header__link:hover {
-    color: rgba(0, 0, 0, .95)
-  }
-}
-
-@media only screen and (max-width:739px) and (prefers-color-scheme:light) {
-  .nav-header__link.nav-header__link--active {
-    background-color: rgba(60, 60, 67, .1)
-  }
-}
 
 .nav-header__link--library {
   display: none
@@ -6493,28 +6203,12 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   color: rgba(255, 255, 255, .9)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .nav-header--mobile {
-    background-color: #fff
-  }
-
-  .nav-header--mobile .nav-header__link {
-    color: rgba(0, 0, 0, .95)
-  }
-}
 
 .nav-header--mobile .nav-header__link.nav-header__link--active,
 .nav-header--mobile .nav-header__link:hover {
   color: rgba(255, 255, 255, .9)
 }
 
-@media screen and (prefers-color-scheme:light) {
-
-  .nav-header--mobile .nav-header__link.nav-header__link--active,
-  .nav-header--mobile .nav-header__link:hover {
-    color: rgba(0, 0, 0, .95)
-  }
-}
 
 .nav-header__divider {
   background-color: rgba(255, 255, 255, .1);
@@ -6597,25 +6291,7 @@ html[dir=rtl] .nav-header__buttons-wrapper {
   color: rgba(235, 235, 245, .6)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .nav-header_pounchout-button {
-    color: rgba(60, 60, 67, .6)
-  }
 
-  .nav-header_pounchout-button path {
-    fill: rgba(60, 60, 67, .6)
-  }
-}
-
-@media only screen and (prefers-color-scheme:light) {
-  .image-full-bleed .nav-header_pounchout-button {
-    color: rgba(235, 235, 245, .6)
-  }
-
-  .image-full-bleed .nav-header_pounchout-button path {
-    fill: rgba(235, 235, 245, .6)
-  }
-}
 
 .open_tv_arrow {
   margin-left: 3px
@@ -6726,19 +6402,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   background-color: #fff
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .nav-header__auth-avatar {
-    fill: #000
-  }
 
-  .nav-header__mobile-label {
-    color: rgba(60, 60, 67, .3)
-  }
-
-  .mobile-nav-bread-crust {
-    background-color: #000
-  }
-}
 
 .mobile-nav-bread-crust--top {
   top: 9px;
@@ -6812,14 +6476,6 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   top: 13px;
   z-index: 1;
   background-color: #fff
-}
-
-@media screen and (prefers-color-scheme:light) {
-
-  .mobile-nav-chevron__menucta-chevron::after,
-  .mobile-nav-chevron__menucta-chevron::before {
-    background-color: #000
-  }
 }
 
 .mobile-nav-chevron__menucta-chevron::before {
@@ -7267,16 +6923,6 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   background-color: rgba(255, 255, 255, .1)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .product-footer__info {
-    border-bottom: .5px solid rgba(0, 0, 0, .1)
-  }
-
-  .review-card {
-    background-color: #fff
-  }
-}
-
 .review-card__title {
   padding-bottom: 5px;
   margin: 0
@@ -7436,11 +7082,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   }
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .preview-product-header__content__details__metadata--info {
-    color: rgba(60, 60, 67, .6)
-  }
-}
+
 
 .preview-product-header__content__details__metadata--info span::after {
   content: ' · '
@@ -7471,11 +7113,6 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   }
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .preview-product-header__content__details__metadata--info--xs-view {
-    color: rgba(60, 60, 67, .6)
-  }
-}
 
 .preview-product-header__content__details__metadata--info--xs-view span::after {
   content: ' · '
@@ -7490,13 +7127,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   color: rgba(235, 235, 245, .6)
 }
 
-@media screen and (prefers-color-scheme:light) {
 
-  .preview-product-header__secondary-text,
-  .sport-preview-product-header__main__leagueName {
-    color: rgba(60, 60, 67, .6)
-  }
-}
 
 .sport-preview-product-header__main__container {
   display: flex;
@@ -8069,11 +7700,7 @@ html[dir=rtl] .product-header__image-logo {
   background: rgba(235, 235, 245, .18)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .product-page__cta-button:disabled {
-    background: rgba(60, 60, 67, .18)
-  }
-}
+
 
 .product-page__cta-button__glyph,
 .product-page__cta-button__glyph--play {
@@ -8122,17 +7749,7 @@ html[dir=rtl] .product-header__image-logo {
   background-color: rgba(235, 235, 245, .3)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .product-page__cta-button--play--vibrant {
-    background-color: rgba(60, 60, 67, .3)
-  }
-}
 
-@media only screen and (max-width:739px) {
-  .product-page__cta-button--play--vibrant {
-    height: 36px
-  }
-}
 
 .product-page__cta-button__glyph {
   display: inline-block;
@@ -8432,11 +8049,6 @@ only screen and (min-resolution:1.5dppx),
   border-top: .5px solid rgba(255, 255, 255, .1)
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .divider {
-    border-top: .5px solid rgba(0, 0, 0, .1)
-  }
-}
 
 .canvas {
   max-width: 1680px;
@@ -8738,11 +8350,6 @@ only screen and (min-resolution:1.5dppx),
   color: #fff
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .commerce-button {
-    color: #000
-  }
-}
 
 @media only screen and (min-width:740px) {
   .commerce-button {
@@ -8751,11 +8358,6 @@ only screen and (min-resolution:1.5dppx),
   }
 }
 
-@media only screen and (min-width:740px) and (prefers-color-scheme:light) {
-  .commerce-button {
-    border-color: #000
-  }
-}
 
 .image-full-bleed .commerce-button {
   color: #fff
@@ -8770,11 +8372,7 @@ only screen and (min-resolution:1.5dppx),
   fill: #fff
 }
 
-@media screen and (prefers-color-scheme:light) {
-  .commerce-button__avatar {
-    fill: #000
-  }
-}
+
 
 .image-full-bleed .commerce-button__avatar {
   fill: currentColor
@@ -8906,12 +8504,6 @@ only screen and (min-resolution:1.5dppx),
   position: relative;
   box-shadow: 0 2px 20px rgba(0, 0, 0, .24);
   background-color: #2d2d2d
-}
-
-@media screen and (prefers-color-scheme:light) {
-  .modal-content {
-    background-color: #fff
-  }
 }
 
 .modal-header {
