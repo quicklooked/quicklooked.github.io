@@ -2518,12 +2518,12 @@ html[dir=rtl] .shelf-grid__list-item {
   height: 29px;
   opacity: .85;
   background-repeat: no-repeat;
-  background-image: url(/assets/css/uservideos/svg/paddle-default-left.svg);
+  background-image: url(/assets/css/uservideos/svg/paddle-dark.svg);
   z-index: 1
 }
 
 .dark-mode .shelf-grid-nav__arrow::after {
-  background-image: url(../assets/shelf/paddle-dark-3bc9eef848158860d017803b15a9911c.svg)
+  background-image: url(/assets/css/uservideos/svg/paddle-dark.svg)
 }
 
 .shelf-grid-nav__arrow:active:not([disabled])::after {
@@ -6593,7 +6593,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
 }
 
 .header-shelf__container .shelf-grid .shelf-grid-nav__arrow::after {
-  background-image: url(shelf/paddle-dark-3bc9eef848158860d017803b15a9911c.svg)
+  background-image: url(/assets/css/uservideos/svg/paddle-dark.svg)
 }
 
 .landing__main__section {
@@ -9545,7 +9545,7 @@ html[dir=rtl] .context-menu__title {
 }
 
 .shelf-grid .shelf-grid-nav__arrow::after {
-  background-image: url(/assets/css/uservideos/svg/paddle-default.svg)
+  background-image: url(/assets/css/uservideos/svg/paddle-dark.svg)
 }
 
 .shelf-grid.shelf-grid--no-title .shelf-grid-nav__arrow {
