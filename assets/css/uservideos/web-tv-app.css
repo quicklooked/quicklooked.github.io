@@ -3516,7 +3516,7 @@ body {
 
 .shelf-grid {
   width: 100%;
-  padding: 0 40px;
+  padding: 0 5vw;
   position: relative;
   z-index: 1
 }
@@ -9327,7 +9327,7 @@ only screen and (min-resolution:1.5dppx),
 
 .divider {
   margin: 0 auto;
-  width: calc(100% - 80px);
+  width: calc(100% - 10vw);
   border-top: .5px solid rgba(255, 255, 255, .1)
 }
 
