@@ -3669,10 +3669,11 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   padding: 13px 25px
 }
 
-@media only screen and (min-width: 740px)
+@media only screen and (min-width: 740px) {
 .shelf-grid__header {
 	padding-left: 0;
 	padding-right: 0;
+}
 }
 
 [data-grid='A'] .shelf-grid__list {
