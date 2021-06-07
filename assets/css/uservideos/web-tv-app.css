@@ -9600,7 +9600,7 @@ html[dir=rtl] .context-menu__title {
 
 .canvas-lockup__artwork .media-artwork-v2__image,
 .watch-live-lockup__artwork .media-artwork-v2__image {
-  border-radius: 8px;
+  border-radius: 0;
   /*
   border-radius: 12px
   */
