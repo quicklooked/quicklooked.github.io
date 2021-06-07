@@ -4320,6 +4320,7 @@ html[dir=rtl] .line-clamp--with-more {
   background-color: transparent;
   border: none;
   border-radius: 12px;
+  cursor: pointer;
   z-index: 1
 }
 
