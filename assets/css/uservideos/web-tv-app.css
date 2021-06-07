@@ -3184,6 +3184,10 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   .shelf-grid__list::after {
     width: 15px
   }
+	
+  .shelf-grid__list_no_left {
+    padding-left: 0 !important
+  }
 
   .shelf-grid__list-item {
     scroll-snap-align: none
