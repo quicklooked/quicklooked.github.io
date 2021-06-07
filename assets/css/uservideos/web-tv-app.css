@@ -3574,7 +3574,7 @@ html[dir=rtl] .shelf-grid__list-item {
 .shelf-grid-nav__arrow {
   width: 5vw;
   height: 100%;
-  background: #000;
+  background: 0 0;
   display: block;
   overflow: hidden;
   position: absolute;
@@ -3582,7 +3582,6 @@ html[dir=rtl] .shelf-grid__list-item {
   transition: 250ms background-color linear, 250ms color linear, 250ms opacity linear;
   border: none;
   cursor: pointer;
-  background-image: linear-gradient(to right,#000 30%,rgba(24,24,24,0) 100%);
   z-index: 1
 }
 
@@ -3647,7 +3646,7 @@ html.has-touch .shelf-grid--onhover .shelf-grid-nav__arrow {
 }
 
 .shelf-grid-nav__arrow--next {
-  right: 5vw
+  right: 0
 }
 
 .shelf-grid-nav__arrow--next::after {
