@@ -54,7 +54,7 @@
 
 
 .grabbing {
-  cursor: url(../images/grabbing.png) 8 8, move;
+  cursor: url() 8 8, move;
 }
 
 
