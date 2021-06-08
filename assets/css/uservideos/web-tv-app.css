@@ -2488,6 +2488,7 @@ body {
 
 .shelf-grid__list-item {
   scroll-snap-align: start;
+  margin-right: 20px;
 }
 
 html[dir=rtl] .shelf-grid__list-item {
