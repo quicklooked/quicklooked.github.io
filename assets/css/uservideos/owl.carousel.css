@@ -460,7 +460,7 @@
 
 .owl-item.loading {
   min-height: 150px;
-  background: url(../images/AjaxLoader.gif) no-repeat center center
+  background: url(/assets/css/uservideos/svg/ajax-loader.gif) no-repeat center center
 }
 
 .carousel-container {
