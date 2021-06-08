@@ -2488,6 +2488,9 @@ body {
 
 .shelf-grid__list-item {
   scroll-snap-align: start;
+}
+
+.shelf-grid__list-item[data-grid='A'] {
   min-width: 298px;
 }
 
