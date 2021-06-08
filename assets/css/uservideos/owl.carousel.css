@@ -23,7 +23,7 @@
 .owl-carousel .owl-wrapper-outer {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 99%;
 }
 
 .owl-carousel .owl-wrapper-outer.autoHeight {
