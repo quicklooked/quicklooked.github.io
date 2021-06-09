@@ -110,13 +110,14 @@ colorhover: "#e50914"
       </div>
     </div>
     <script>
-      var watch100620210449 = document.getElementById("watch100620210449"); 
+      var watch100620210449 = document.getElementById("watch100620210449");
+
       function playVideo() {
         var playPromise = watch100620210449.play();
         if(playPromise !== undefined) {
-          playPromise.then(_ => {
-            watch100620210449.pause();
-          }).catch(error => {});
+          watch100620210449.pause();
+        } else {
+          watch100620210449.play();
         }
       }
     </script>
