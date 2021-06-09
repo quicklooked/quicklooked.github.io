@@ -7405,7 +7405,7 @@ html[dir=rtl] .product-header__image-logo {
 .product-header__content__container {
   width: 100%;
   display: grid;
-  padding: 0 5vw 5vw;
+  padding: 0 5vw 40px;
   grid-gap: 20px;
   grid-template-columns: 1fr
 }
