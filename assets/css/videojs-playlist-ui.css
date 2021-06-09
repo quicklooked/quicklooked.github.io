@@ -22638,16 +22638,20 @@ button,
   left: 16px;
   transform: translate(0%, 0%);
   position: absolute;
+  /*
   background: rgba(0,0,0,0.302);
   border: 1px solid;
+  */
+  background: rgba(26, 137, 23, 1);
+  border: 1px solid rgba(26, 137, 23, 1);
 }
 
 .MuiButtonColor:hover {
   -webkit-box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .45);
   box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
-  border: 1px solid transparent !important;
-  background-color: #e50914 !important;
+  border: 1px solid rgba(26, 137, 23, 1) !important;
+  background-color: rgba(26, 137, 23, 1) !important;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e50914), to(#db0510)) !important;
   background-image: -webkit-linear-gradient(top, #e50914, #db0510) !important;
   background-image: -moz- oldlinear-gradient(top, #e50914, #db0510) !important;
@@ -22656,8 +22660,8 @@ button,
 }
 
 .autoplay-controls-container:hover~.MuiButtonBase-root-313 {
-  border: 1px solid transparent !important;
-  background-color: #e50914 !important;
+  border: 1px solid rgba(26, 137, 23, 1) !important;
+  background-color: rgba(26, 137, 23, 1) !important;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e50914), to(#db0510)) !important;
   background-image: -webkit-linear-gradient(top, #e50914, #db0510) !important;
   background-image: -moz- oldlinear-gradient(top, #e50914, #db0510) !important;
@@ -22667,7 +22671,7 @@ button,
 
 .autoplay-controls-container:hover .MuiButtonBase-root-313 {
   border: 1px solid transparent !important;
-  background-color: #e50914 !important;
+  background-color: rgba(26, 137, 23, 1) !important;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e50914), to(#db0510)) !important;
   background-image: -webkit-linear-gradient(top, #e50914, #db0510) !important;
   background-image: -moz- oldlinear-gradient(top, #e50914, #db0510) !important;
