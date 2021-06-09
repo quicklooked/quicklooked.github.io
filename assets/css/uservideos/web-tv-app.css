@@ -3417,7 +3417,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .landing__header__next-arrow {
   position: absolute;
   bottom: 20px;
-  background-image: url(button_glyphs/chevron_down_white-ac33693b2675c26fc4eab8fb94b6190c.png);
+  background-image: url(/assets/css/uservideos/svg/chevron_down_white-ac.png);
   background-size: 14px 8px;
   height: 8px;
   width: 14px;
