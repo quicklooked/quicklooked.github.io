@@ -7650,7 +7650,10 @@ html[dir=rtl] .product-header__image-logo {
 
 .product-page__cta-button {
   width: 100%;
+  /*
   border-radius: 6px;
+  */
+  border-radius: 0;
   border: none;
   padding: 0 16px;
   text-align: center;
