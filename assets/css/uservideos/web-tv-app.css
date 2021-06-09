@@ -2095,7 +2095,7 @@ body {
 .badge--common-sense,
 .badge--common-sense--on-dark {
   background-size: 15px 13px;
-  background-image: url(badges/common-sense-onDark-small@2x-f3312938f6b7188fbf37701e3557e399.png);
+  background-image: url(/assets/css/uservideos/svg/common-sense-onDark.png);
   display: inline;
   opacity: 1;
   background-position-x: left;
@@ -2108,17 +2108,17 @@ body {
 
 .badge--4k,
 .badge--4k--on-dark {
-  content: url("badges/MetadataBadge 4K OnDark-c90195dae0171c69694b4d7386421ad8.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge 4K OnDark.svg")
 }
 
 .badge--hd,
 .badge--hd--on-dark {
-  content: url("badges/MetadataBadge HD OnDark-753ea05bd994060f0eddda828992fe03.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge HD OnDark.svg")
 }
 
 .badge--hdr,
 .badge--hdr--on-dark {
-  content: url("badges/MetadataBadge HDR OnDark-6f875804fe8b0296c566a04d4335f0bc.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge HDR OnDark.svg")
 }
 
 .badge--dolby-vision,
@@ -2155,115 +2155,115 @@ body {
 }
 
 .badge--rotten-tomatoes--CertifiedFresh {
-  background-image: url(badges/rotten-tomatoes-certifiedfresh-32bc84736c61efafe4ea4a1973cbd102.svg)
+  background-image: url(/assets/css/uservideos/svg/rotten-tomatoes-certifiedfresh.svg)
 }
 
 .badge--rotten-tomatoes--Fresh {
-  background-image: url(badges/rotten-tomatoes-fresh-289ac09a5fae6a9bc6ca5d48dbaa45f3.svg)
+  background-image: url(/assets/css/uservideos/svg/rotten-tomatoes-fresh.svg)
 }
 
 .badge--rotten-tomatoes--Rotten {
-  background-image: url(badges/rotten-tomatoes-rotten-dd0820f76456b3d7bb46301998cd5200.svg)
+  background-image: url(/assets/css/uservideos/svg/rotten-tomatoes-rotten.svg)
 }
 
 .badge--rating--mpaa--PG_13,
 .badge--rating--mpaa--PG_13--on-dark {
-  content: url("badges/ratings/mpaa/MetadataBadge PG_13 OnDark-58ebe50fe50195b299cf564de57122f2.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge PG_13 OnDark.svg")
 }
 
 .badge--rating--mpaa--G,
 .badge--rating--mpaa--G--on-dark {
-  content: url("badges/ratings/mpaa/MetadataBadge G OnDark-b12657ec38dac5db5dda1ab6a0ab145a.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge G OnDark.svg")
 }
 
 .badge--rating--mpaa--PG,
 .badge--rating--mpaa--PG--on-dark {
-  content: url("badges/ratings/mpaa/MetadataBadge PG OnDark-568a8426a92770c2030448c0670bee33.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge PG OnDark.svg")
 }
 
 .badge--rating--mpaa--R,
 .badge--rating--mpaa--R--on-dark {
-  content: url("badges/ratings/mpaa/MetadataBadge R OnDark-9ba696e0734817d54a0a09037d5c83b1.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge R OnDark.svg")
 }
 
 .badge--rating--mpaa--UR,
 .badge--rating--mpaa--UR--on-dark {
-  content: url("badges/ratings/mpaa/MetadataBadge UR OnDark-8de58ea082a92b6fb006537229daddd4.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge UR OnDark.svg")
 }
 
 .badge--rating--mpaa--NC_17,
 .badge--rating--mpaa--NC_17--on-dark {
-  content: url("badges/ratings/mpaa/MetadataBadge NC_17 OnDark-62300def03b83567ea169b56226cc78b.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge NC_17 OnDark.svg")
 }
 
 .badge--rating--bbfc--BBFC_12,
 .badge--rating--bbfc--BBFC_12--on-dark {
-  content: url(badges/ratings/bbfc/BBFC_12_RGB-f8d43cdf44541a12ce3e17a734e83767.svg)
+  content: url(/assets/css/uservideos/svg/BBFC_12_RGB.svg)
 }
 
 .badge--rating--bbfc--BBFC_15,
 .badge--rating--bbfc--BBFC_15--on-dark {
-  content: url(badges/ratings/bbfc/BBFC_15_RGB-007c2844617590b8614e35953fadc119.svg)
+  content: url(/assets/css/uservideos/svg/BBFC_15_RGB.svg)
 }
 
 .badge--rating--bbfc--BBFC_18,
 .badge--rating--bbfc--BBFC_18--on-dark {
-  content: url(badges/ratings/bbfc/BBFC_18_RGB-acd651ad17474952318e5f18f1650138.svg)
+  content: url(/assets/css/uservideos/svg/BBFC_18_RGB.svg)
 }
 
 .badge--rating--bbfc--BBFC_PG,
 .badge--rating--bbfc--BBFC_PG--on-dark {
-  content: url(badges/ratings/bbfc/BBFC_PG_RGB-1093413660efeec003ee6919fde21c67.svg)
+  content: url(/assets/css/uservideos/svg/BBFC_PG_RGB.svg)
 }
 
 .badge--rating--bbfc--BBFC_U,
 .badge--rating--bbfc--BBFC_U--on-dark {
-  content: url(badges/ratings/bbfc/BBFC_U_RGB-595677d445c4d31d83a7cf028138a44e.svg)
+  content: url(/assets/css/uservideos/svg/BBFC_U_RGB.svg)
 }
 
 .badge--rating--us_tv--TV_G,
 .badge--rating--us_tv--TV_G--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-G OnDark-ee2d58e4e429b926bb477096228b7fae.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-G OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_NR,
 .badge--rating--us_tv--TV_NR--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-NR OnDark-273190d6df133e9ab81dcc458d66ffa6.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-NR OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_MA,
 .badge--rating--us_tv--TV_MA--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-MA OnDark-ad95b2e3f6a6d6741ad700568277017c.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-MA OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_PG,
 .badge--rating--us_tv--TV_PG--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-PG OnDark-72b292b401192ca9c7fe514ecd2b8b4b.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-PG OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_UR,
 .badge--rating--us_tv--TV_UR--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-UR OnDark-8de58ea082a92b6fb006537229daddd4.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-UR OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_Y,
 .badge--rating--us_tv--TV_Y--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-Y OnDark-49a3fa0e2fdd05fbe0364afe99c3dabf.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-Y OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_Y7,
 .badge--rating--us_tv--TV_Y7--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-Y7 OnDark-6ed763d139c2f0e337905f7a207ef193.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-Y7 OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_Y7FV,
 .badge--rating--us_tv--TV_Y7FV--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-Y7FV OnDark-56e08f01f37376b7cd6292768cc81fe2.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-Y7FV OnDark.svg")
 }
 
 .badge--rating--us_tv--TV_14,
 .badge--rating--us_tv--TV_14--on-dark {
-  content: url("badges/ratings/us_tv/MetadataBadge TV-14 OnDark-624032d031d8f9a9325ee9c2389d4d9d.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge TV-14 OnDark.svg")
 }
 
 :root {
