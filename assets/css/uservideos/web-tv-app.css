@@ -5449,7 +5449,8 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
 }
 
 .epic-inline-shelf__container .shelf-grid__list-item {
-  padding-bottom: 6px
+  padding-bottom: 6px;
+  cursor: pointer;
 }
 
 .epic-inline-shelf__shelf-container .episode-lockup__content__title {
