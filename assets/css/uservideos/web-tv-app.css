@@ -11140,7 +11140,25 @@ html[dir=rtl] .locale-switcher-footer .locale-switcher-footer__country-name {
   background-color: var(--joe-color);
 }
 
-video.background-video__wrapper {
+.background-video__wrapper {
   background-color: transparent;
   -webkit-mask-image: linear-gradient(0deg, transparent, rgb(0, 0, 0) 8%, rgb(0, 0, 0) 100%);
+}
+
+.background-video__media {
+  height: auto;
+}
+
+.background-video__media:not(:fullscreen) {
+  object-fit: cover;
+}
+
+.background-video__media:not(:-webkit-full-screen) {
+  object-fit: cover;
+}
+
+.background-video__media {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
