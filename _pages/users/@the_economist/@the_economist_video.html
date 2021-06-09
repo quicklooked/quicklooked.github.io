@@ -507,8 +507,8 @@ colorhover: "#e50914"
           <div class="dark-mode epic-inline-shelf__shelf-container">
             <div class="clr-primary-text-on-dark shelf-grid shelf-grid--onhover" data-grid="EpicInline">
               <div class="shelf-grid__body">
-                <ul class="shelf-grid__list shelf-grid__list_no_left" style="--grid-rows:1; --grid-column-gap:20px;">
-                  <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
+                <ul id="grid_list-tedlasso" class="shelf-grid__list shelf-grid__list_no_left" style="--grid-rows:1; --grid-column-gap:20px;">
+                  <li id="grid_list-item-tedlasso" aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
                     <div class="header-shelf-lockup" aria-label="The Body Is A Miracle">
                       <div class="canvas-lockup">
                         <div role="group">
@@ -530,7 +530,7 @@ colorhover: "#e50914"
                       </div>
                     </div>
                   </li>
-                  <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
+                  <li id="grid_list-item-tedlasso" aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
                     <div class="header-shelf-lockup" aria-label="Embrace Change">
                       <div class="canvas-lockup">
                         <div role="group">
@@ -552,7 +552,7 @@ colorhover: "#e50914"
                       </div>
                     </div>
                   </li>
-                  <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
+                  <li id="grid_list-item-tedlasso" aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
                     <div class="header-shelf-lockup" aria-label="Be A Goldfish">
                       <div class="canvas-lockup">
                         <div role="group">
@@ -596,7 +596,7 @@ colorhover: "#e50914"
                       </div>
                     </div>
                   </li>
-                  <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
+                  <li id="grid_list-item-tedlasso" aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
                     <div class="header-shelf-lockup" aria-label="Believe In Miracles">
                       <div class="canvas-lockup">
                         <div role="group">
@@ -618,7 +618,7 @@ colorhover: "#e50914"
                       </div>
                     </div>
                   </li>
-                  <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="5">
+                  <li id="grid_list-item-tedlasso" aria-hidden="false" class="shelf-grid__list-item" data-item-index="5">
                     <div class="header-shelf-lockup" aria-label="An American Phrase">
                       <div class="canvas-lockup">
                         <div role="group">
@@ -645,11 +645,11 @@ colorhover: "#e50914"
               <div class="shelf-grid-nav">
                 <ul>
                   <li>
-                    <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
+                    <button id="next-tedlasso" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
                     </button>
                   </li>
                   <li>
-                    <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
+                    <button id="prev-tedlasso" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
                     </button>
                   </li>
                 </ul>
@@ -658,6 +658,28 @@ colorhover: "#e50914"
           </div>
         </div>
       </div>
+      <script>
+        var grid_list_tedlasso = document.getElementById("grid_list-tedlasso");
+        var next_tedlasso = document.getElementById("next-tedlasso");
+        var prev_tedlasso = document.getElementById("prev-tedlasso");
+        var grid_list_item_tedlasso = document.getElementById("grid_list-item-tedlasso").clientWidth;
+        next_tedlasso.addEventListener("click", scrollToNextTedLasso);
+        prev_tedlasso.addEventListener("click", scrollToPrevTedLasso);
+
+        function scrollToNextTedLasso() {
+          grid_list_tedlasso.scrollBy({
+            left: grid_list_item_tedlasso,
+            behavior: "smooth"
+          });
+        }
+
+        function scrollToPrevTedLasso() {
+          grid_list_tedlasso.scrollBy({
+            left: -grid_list_item_tedlasso,
+            behavior: "smooth"
+          });
+        }
+      </script>
       <div class="shelf-grid shelf-grid--onhover" data-grid="B">
         <div class="shelf-grid__header">
           <h2 class="VideoListSectionTitle__sectionTitleTitle___1f_0x" style="font-size: 18px;line-height: 24px;color: rgba(255, 255, 255, .9);">Drama Series<span class="DSIcon__dsIcon___2_fah VideoListSectionTitle__sectionTitleIcon___11AqF"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
