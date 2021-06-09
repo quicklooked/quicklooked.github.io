@@ -1014,7 +1014,7 @@ li.vjs-menu-item::before {
 .video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder {
   background: rgba(255, 255, 255, .2);
   border-radius: 0px;
-  height: 4px;
+  height: 2px;
   -webkit-transition: height .2s ease;
   -o-transition: height .2s ease;
   -moz-transition: height .2s ease;
@@ -1023,7 +1023,7 @@ li.vjs-menu-item::before {
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-progress-holder:hover {
-  height: 4px;
+  height: 2px;
 }
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-load-progress {
