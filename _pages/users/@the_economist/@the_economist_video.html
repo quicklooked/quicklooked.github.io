@@ -431,8 +431,8 @@ colorhover: "#e50914"
         <h2 class="VideoListSectionTitle__sectionTitleTitle___1f_0x" style="font-size: 18px;line-height: 24px;color: rgba(255, 255, 255, .9);">Feature Films <span class="DSIcon__dsIcon___2_fah VideoListSectionTitle__sectionTitleIcon___11AqF"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g><path id="right-arrow-a" fill="#f5f5f7" d="M13.5857864,12 L9.29289322,7.70710678 C8.90236893,7.31658249 8.90236893,6.68341751 9.29289322,6.29289322 C9.68341751,5.90236893 10.3165825,5.90236893 10.7071068,6.29289322 L15.7071068,11.2928932 C16.0976311,11.6834175 16.0976311,12.3165825 15.7071068,12.7071068 L10.7071068,17.7071068 C10.3165825,18.0976311 9.68341751,18.0976311 9.29289322,17.7071068 C8.90236893,17.3165825 8.90236893,16.6834175 9.29289322,16.2928932 L13.5857864,12 Z"></path></g></svg></span></h2>
       </div>
       <div class="shelf-grid__body">
-        <ul class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
+        <ul id="grid_list-feature" class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
+          <li id="grid_list-item-feature" aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
             <div class="canvas-lockup" aria-label="Lisey's Story">
               <a aria-label="Lisey's Story" href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(6,5,5);" aria-hidden="true">
@@ -447,7 +447,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
+          <li id="grid_list-item-feature" aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
             <div class="canvas-lockup" aria-label="The Mosquito Coast">
               <a aria-label="The Mosquito Coast" href="/us/show/the-mosquito-coast/umc.cmc.5nghmxp88xe0qxhtlhfiu5r2h?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(253,239,214);" aria-hidden="true">
@@ -462,7 +462,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
+          <li id="grid_list-item-feature" aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
             <div class="canvas-lockup" aria-label="For All Mankind">
               <a aria-label="For All Mankind" href="/us/show/for-all-mankind/umc.cmc.6wsi780sz5tdbqcf11k76mkp7?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(142,186,211);" aria-hidden="true">
@@ -477,7 +477,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
+          <li id="grid_list-item-feature" aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
             <div class="canvas-lockup" aria-label="See">
               <a aria-label="See" href="/us/show/see/umc.cmc.3s4mgg2y7h95fks9gnc4pw13m?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(255,255,255);" aria-hidden="true">
@@ -492,7 +492,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
+          <li id="grid_list-item-feature" aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
             <div class="canvas-lockup" aria-label="The Morning Show">
               <a aria-label="The Morning Show" href="/us/show/the-morning-show/umc.cmc.25tn3v8ku4b39tr6ccgb8nl6m?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(13,13,13);" aria-hidden="true">
@@ -512,24 +512,46 @@ colorhover: "#e50914"
       <div class="shelf-grid-nav">
         <ul>
           <li>
-            <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
+            <button id="next-feature" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
             </button>
           </li>
           <li>
-            <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
+            <button id="prev-feature" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
             </button>
           </li>
         </ul>
       </div>
     </div>
+    <script>
+      var grid_list_feature = document.getElementById("grid_list-feature");
+      var next_feature = document.getElementById("next-feature");
+      var prev_feature = document.getElementById("prev-feature");
+      var grid_list_item_feature = document.getElementById("grid_list-item-feature").clientWidth;
+      next_feature.addEventListener("click", scrollToNextFeature);
+      prev_feature.addEventListener("click", scrollToPrevFeature);
+
+      function scrollToNextFeature() {
+        grid_list_feature.scrollBy({
+          left: 2 * grid_list_item_feature,
+          behavior: "smooth"
+        });
+      }
+
+      function scrollToPrevFeature() {
+        grid_list_feature.scrollBy({
+          left: -2 * grid_list_item_feature,
+          behavior: "smooth"
+        });
+      }
+    </script>
     <div class="divider"></div>
     <div class="shelf-grid shelf-grid--onhover" data-grid="C">
       <div class="shelf-grid__header">
         <h2 class="VideoListSectionTitle__sectionTitleTitle___1f_0x" style="font-size: 18px;line-height: 24px;color: rgba(255, 255, 255, .9);">Family Fun <span class="DSIcon__dsIcon___2_fah VideoListSectionTitle__sectionTitleIcon___11AqF"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><g><path id="right-arrow-a" fill="#f5f5f7" d="M13.5857864,12 L9.29289322,7.70710678 C8.90236893,7.31658249 8.90236893,6.68341751 9.29289322,6.29289322 C9.68341751,5.90236893 10.3165825,5.90236893 10.7071068,6.29289322 L15.7071068,11.2928932 C16.0976311,11.6834175 16.0976311,12.3165825 15.7071068,12.7071068 L10.7071068,17.7071068 C10.3165825,18.0976311 9.68341751,18.0976311 9.29289322,17.7071068 C8.90236893,17.3165825 8.90236893,16.6834175 9.29289322,16.2928932 L13.5857864,12 Z"></path></g></svg></span></h2>
       </div>
       <div class="shelf-grid__body">
-        <ul class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
+        <ul id="grid_list-family" class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
+          <li id="grid_list-item-family" aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
             <div class="canvas-lockup" aria-label="Lisey's Story">
               <a aria-label="Lisey's Story" href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(20,26,32);" aria-hidden="true">
@@ -544,7 +566,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
+          <li id="grid_list-item-family" aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
             <div class="canvas-lockup" aria-label="The Mosquito Coast">
               <a aria-label="The Mosquito Coast" href="/us/show/the-mosquito-coast/umc.cmc.5nghmxp88xe0qxhtlhfiu5r2h?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(8,19,8);" aria-hidden="true">
@@ -559,7 +581,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
+          <li id="grid_list-item-family" aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
             <div class="canvas-lockup" aria-label="For All Mankind">
               <a aria-label="For All Mankind" href="/us/show/for-all-mankind/umc.cmc.6wsi780sz5tdbqcf11k76mkp7?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(5,16,37);" aria-hidden="true">
@@ -574,7 +596,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
+          <li id="grid_list-item-family" aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
             <div class="canvas-lockup" aria-label="See">
               <a aria-label="See" href="/us/show/see/umc.cmc.3s4mgg2y7h95fks9gnc4pw13m?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(12,16,18);" aria-hidden="true">
@@ -589,7 +611,7 @@ colorhover: "#e50914"
               </div>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
+          <li id="grid_list-item-family" aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
             <div class="canvas-lockup" aria-label="The Morning Show">
               <a aria-label="The Morning Show" href="/us/show/the-morning-show/umc.cmc.25tn3v8ku4b39tr6ccgb8nl6m?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(189,185,184);" aria-hidden="true">
@@ -609,16 +631,38 @@ colorhover: "#e50914"
       <div class="shelf-grid-nav">
         <ul>
           <li>
-            <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
+            <button id="next-family" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
             </button>
           </li>
           <li>
-            <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
+            <button id="prev-family" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
             </button>
           </li>
         </ul>
       </div>
     </div>
+    <script>
+      var grid_list_family = document.getElementById("grid_list-family");
+      var next_family = document.getElementById("next-family");
+      var prev_family = document.getElementById("prev-family");
+      var grid_list_item_family = document.getElementById("grid_list-item-family").clientWidth;
+      next_family.addEventListener("click", scrollToNextFamily);
+      prev_family.addEventListener("click", scrollToPrevFamily);
+
+      function scrollToNextFamily() {
+        grid_list_family.scrollBy({
+          left: 2 * grid_list_item_family,
+          behavior: "smooth"
+        });
+      }
+
+      function scrollToPrevFamily() {
+        grid_list_family.scrollBy({
+          left: -2 * grid_list_item_family,
+          behavior: "smooth"
+        });
+      }
+    </script>
     <div class="divider"></div>
     <div class="shelf-grid shelf-grid--onhover" data-grid="C">
       <div class="shelf-grid__header">
