@@ -2123,27 +2123,27 @@ body {
 
 .badge--dolby-vision,
 .badge--dolby-vision--on-dark {
-  content: url("badges/MetadataBadge Dolby OnDark-2c6afeb5b02b2c48655606bd9d178bfd.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge Dolby OnDark.svg")
 }
 
 .badge--dolby-atmos,
 .badge--dolby-atmos--on-dark {
-  content: url("badges/MetadataBadge Atmos OnDark-007278edac4076aaf1bc01dedf68e3cd.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge Atmos OnDark.svg")
 }
 
 .badge--ad,
 .badge--ad--on-dark {
-  content: url("badges/MetadataBadge AD OnDark-4731d380509cdd9c3e59e73cb9dc09d5.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge AD OnDark.svg")
 }
 
 .badge--cc,
 .badge--cc--on-dark {
-  content: url("badges/MetadataBadge CC OnDark-7b5b00df263bfee5af843510f708c307.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge CC OnDark.svg")
 }
 
 .badge--sdh,
 .badge--sdh--on-dark {
-  content: url("badges/MetadataBadge SDH OnDark-45f29ce5e07128bf67d924a31a003cf3.svg")
+  content: url("/assets/css/uservideos/svg/MetadataBadge SDH OnDark.svg")
 }
 
 .badge--rotten-tomatoes {
