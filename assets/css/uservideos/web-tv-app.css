@@ -7393,7 +7393,7 @@ html[dir=rtl] .product-header__image-logo {
 
 .product-header__main__container {
   position: absolute;
-  bottom: 0;
+  bottom: 156px;
   left: 0;
   right: 0;
   width: 100%;
