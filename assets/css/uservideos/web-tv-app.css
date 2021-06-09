@@ -2067,7 +2067,10 @@ body {
 }
 
 .secondary-bg-color {
+  /*
   background-color: rgba(0, 0, 0, .3)
+  */
+  background-color: transparent
 }
 
 .tertiary-bg-color {
@@ -4943,6 +4946,7 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   border-radius: 12px;
   */
   width: 100%;
+  cursor: pointer;
   text-align: left;
   box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
   border: 0px solid rgba(128, 128, 128, .2);
@@ -6890,7 +6894,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
 .product-footer__container {
   max-width: 1680px;
   margin: 0 auto;
-  padding: 0 40px
+  padding: 0 5vw
 }
 
 .product-footer__info,
