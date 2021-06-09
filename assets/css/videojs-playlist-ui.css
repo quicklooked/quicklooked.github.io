@@ -22550,7 +22550,7 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.75;
-  border-radius: 4px;
+  border-radius: 50px;
   letter-spacing: 0.02857em;
   text-transform: uppercase;
 }
