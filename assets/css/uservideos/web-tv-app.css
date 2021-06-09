@@ -7261,7 +7261,7 @@ html[dir=rtl] .product-header__image-logo__blur {
 .product-header__image-logo {
   position: absolute;
   left: 0;
-  margin: 40px 0 0 40px;
+  margin: 5vw 0 0 5vw;
   top: 52px;
   z-index: 1
 }
