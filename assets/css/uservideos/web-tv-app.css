@@ -4938,11 +4938,15 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   display: block;
   box-sizing: content-box;
   margin-bottom: 4px;
+  /*
   border: .5px solid rgba(128, 128, 128, .2);
+  border-radius: 12px;
+  */
   width: 100%;
   text-align: left;
   box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
-  border-radius: 12px;
+  border: 0px solid rgba(128, 128, 128, .2);
+  border-radius: 0;
   overflow: hidden;
   -webkit-appearance: none;
   -moz-appearance: none;
