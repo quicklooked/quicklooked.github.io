@@ -317,8 +317,8 @@ colorhover: "#e50914"
         <span class="VideoListSectionTitle__sectionTitleTagline___M2_PZ"> Some stories are so rich they need more than a movie to tell them. Crime sagas, medical dramas, sci-fi and more–these shows will keep you glued to your seat. </span>
       </div>
       <div class="shelf-grid__body">
-        <ul class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
+        <ul id="grid_list-drama" class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
+          <li id="grid_list-item-drama" aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
             <div class="canvas-lockup">
               <a href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(162,21,9);">
@@ -332,7 +332,7 @@ colorhover: "#e50914"
               </a>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
+          <li id="grid_list-item-drama" aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
             <div class="canvas-lockup">
               <a href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(213, 213, 213);">
@@ -346,7 +346,7 @@ colorhover: "#e50914"
               </a>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
+          <li id="grid_list-item-drama" aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
             <div class="canvas-lockup">
               <a href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color: rgb(151, 30, 43);">
@@ -360,7 +360,7 @@ colorhover: "#e50914"
               </a>
             </div>
           </li>
-          <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
+          <li id="grid_list-item-drama" aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
             <div class="canvas-lockup">
               <a href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(145, 213, 243);">
@@ -374,7 +374,7 @@ colorhover: "#e50914"
               </a>
             </div>
           </li>
-          <li aria-hidden="true" class="shelf-grid__list-item" data-item-index="4">
+          <li id="grid_list-item-drama" aria-hidden="true" class="shelf-grid__list-item" data-item-index="4">
             <div class="canvas-lockup">
               <a href="/us/show/liseys-story/umc.cmc.34uwnqvp7211b9fl3vb25vled?ctx_brand=tvs.sbd.4000">
                 <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download canvas-lockup__artwork" style="padding-top:56.25%; height:100%; background-color:rgb(0,0,0);">
@@ -393,16 +393,38 @@ colorhover: "#e50914"
       <div class="shelf-grid-nav">
         <ul>
           <li>
-            <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
+            <button id="next-drama" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
             </button>
           </li>
           <li>
-            <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
+            <button id="prev-drama" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
             </button>
           </li>
         </ul>
       </div>
     </div>
+    <script>
+      var grid_list_drama = document.getElementById("grid_list-drama");
+      var next_drama = document.getElementById("next-drama");
+      var prev_drama = document.getElementById("prev-drama");
+      var grid_list_item_drama = document.getElementById("grid_list-item-drama").clientWidth;
+      next_drama.addEventListener("click", scrollToNextDrama);
+      prev_drama.addEventListener("click", scrollToPrevDrama);
+
+      function scrollToNextDrama() {
+        grid_list_drama.scrollBy({
+          left: 2 * grid_list_item_drama,
+          behavior: "smooth"
+        });
+      }
+
+      function scrollToPrevDrama() {
+        grid_list_drama.scrollBy({
+          left: -2 * grid_list_item_drama,
+          behavior: "smooth"
+        });
+      }
+    </script>
     <div class="divider"></div>
     <div class="shelf-grid shelf-grid--onhover" data-grid="C">
       <div class="shelf-grid__header">
