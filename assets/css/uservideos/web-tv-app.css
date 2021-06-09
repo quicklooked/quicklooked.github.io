@@ -4950,7 +4950,7 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   text-align: left;
   box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
   border: .5px solid rgba(128, 128, 128, .2);
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -7656,7 +7656,7 @@ html[dir=rtl] .product-header__image-logo {
   /*
   border-radius: 6px;
   */
-  border-radius: 8px;
+  border-radius: 6px;
   border: none;
   padding: 0 16px;
   text-align: center;
