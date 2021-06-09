@@ -6849,7 +6849,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
 }
 
 .landing__content__lockup__button .product-page__cta-button__glyph--play {
-  background-image: url(button_glyphs/button_play@2x-1d9c8befdf80a1c39d244fef46964571.png)
+  background-image: url(https://tv.apple.com/assets/button_glyphs/button_play@2x-1d9c8befdf80a1c39d244fef46964571.png)
 }
 
 .landing__content__lockup__button--learn-more {
@@ -7737,11 +7737,11 @@ html[dir=rtl] .product-header__image-logo {
 }
 
 .product-page__cta-button__glyph--add {
-  background-image: url(button_glyphs/button_add_white@2x-4012452e8344f8ab6e26bdd907fd4ab8.png)
+  background-image: url(/assets/css/uservideos/svg/button_add_white.png)
 }
 
 .product-page__cta-button__glyph--remove {
-  background-image: url(button_glyphs/button_check_white@2x-a38cd38189492b5adffbafad195ce36a.png)
+  background-image: url(https://tv.apple.com/assets/button_glyphs/button_check_white@2x-a38cd38189492b5adffbafad195ce36a.png)
 }
 
 .download-button {
@@ -7754,7 +7754,7 @@ html[dir=rtl] .product-header__image-logo {
   width: 16px;
   height: 16px;
   margin-right: 6px;
-  background-image: url(button_glyphs/button_download_white@2x-39747dc7a230b60ce869a04e9cbd14c0.png);
+  background-image: url(https://tv.apple.com/assets/button_glyphs/button_download_white@2x-39747dc7a230b60ce869a04e9cbd14c0.png);
   background-size: 16px 16px;
   background-repeat: no-repeat
 }
