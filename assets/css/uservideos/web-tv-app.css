@@ -7651,6 +7651,7 @@ html[dir=rtl] .product-header__image-logo {
   margin-bottom: 12px;
   display: flex;
   align-items: center;
+  cursor: pointer;
   justify-content: center
 }
 
