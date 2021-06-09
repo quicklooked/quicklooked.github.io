@@ -7656,7 +7656,7 @@ html[dir=rtl] .product-header__image-logo {
   /*
   border-radius: 6px;
   */
-  border-radius: 0;
+  border-radius: 8px;
   border: none;
   padding: 0 16px;
   text-align: center;
