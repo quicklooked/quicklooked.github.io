@@ -8372,7 +8372,9 @@ only screen and (min-resolution:1.5dppx),
 
 @media only screen and (min-width:740px) {
   .image-full-bleed .commerce-button {
+    /*
     border-color: #fff
+    */
   }
 
   .commerce-button__avatar {
