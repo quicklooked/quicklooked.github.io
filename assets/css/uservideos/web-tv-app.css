@@ -11163,3 +11163,7 @@ html[dir=rtl] .locale-switcher-footer .locale-switcher-footer__country-name {
   height: 100%;
   display: block;
 }
+
+.commerce-button:not(:first-child) {
+  margin-left: 4px;
+}
