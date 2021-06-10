@@ -168,13 +168,6 @@ colorhover: "#e50914"
                 behavior: "smooth"
               });
             }
-            $(document).ready(function() {
-              $("#landing-content").click(function() {
-                $('html, body').animate({
-                  scrollTop: $("#landing-content-show").offset().top
-                }, 1000);
-              });
-            });
           </script>
           <div class="divider"></div>
           <div class="shelf-grid shelf-grid--onhover" data-grid="A">
@@ -1254,3 +1247,12 @@ colorhover: "#e50914"
         </div>
       </div>
     </div>
+    <script>
+      $(document).ready(function() {
+        $("#landing-content").click(function() {
+          $('html, body').animate({
+            scrollTop: $("#landing-content-show").offset().top
+          }, 1000);
+        });
+      });
+    </script>
