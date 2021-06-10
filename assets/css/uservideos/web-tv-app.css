@@ -5870,7 +5870,7 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
 
 .image-full-bleed .nav-header:not(.nav-header--mobile) .nav-header__bg::after {
   content: '';
-  height: 43px;
+  height: 44px;
   width: 100%;
   display: block;
   position: absolute;
