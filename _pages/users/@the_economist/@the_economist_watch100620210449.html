@@ -20,7 +20,7 @@ colorhover: "#e50914"
           <div class="product-header__video-wrapper">
             <div class="product-header__video product-header__video__container animate background-video contain hydrated fade-in" aria-hidden="false" fit="contain" style="--joe-color:rgb(73,81,97);">
               <div class="background-video__wrapper">
-                <video id="watch100620210449" class="background-video__media" playsinline="" preload="none" src="https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD" type="application/x-mpegURL"></video>
+                <video id="watch100620210449" class="background-video__media" playsinline="" preload="none" type="application/x-mpegURL"></video>
               </div>
             </div>
           </div>
@@ -122,6 +122,18 @@ colorhover: "#e50914"
       volume_watch100620210449.addEventListener("click", handleVolButton, false);
       fullscreen_watch100620210449.addEventListener("click", openFullscreen, false);
       watch100620210449.addEventListener("ended", handleEndButton, false);
+      if(Hls.isSupported()) {
+        var hls = new Hls();
+        hls.loadSource('https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD');
+        hls.attachMedia(watch100620210449);
+        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+          watch100620210449.play();
+        });
+      } else if(video.canPlayType('application/vnd.apple.mpegurl')) {
+        watch100620210449.src = 'https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD';
+        watch100620210449.addEventListener('canplay', handlePlayButton, false);
+        });
+      }
       play__watch100620210449();
       async function play__watch100620210449() {
         try {
