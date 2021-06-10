@@ -4131,8 +4131,8 @@ html[dir=rtl] .line-clamp--with-more {
   opacity: 1
 }
 
-.header-shelf-lockup .canvas-lockup .play-button,
-.header-shelf-lockup .watch-live-lockup .play-button {
+.header-shelf-lockup .canvas-lockup .play-button-main,
+.header-shelf-lockup .watch-live-lockup .play-button-main {
   display: none
 }
 
@@ -4159,8 +4159,8 @@ html[dir=rtl] .line-clamp--with-more {
     opacity: 1
   }
 
-  .header-shelf-lockup .canvas-lockup .play-button,
-  .header-shelf-lockup .watch-live-lockup .play-button {
+  .header-shelf-lockup .canvas-lockup .play-button-main,
+  .header-shelf-lockup .watch-live-lockup .play-button-main {
     display: block
   }
 }
@@ -8405,7 +8405,7 @@ only screen and (min-resolution:1.5dppx),
   margin-bottom: 14px
 }
 
-.play-button::before {
+.play-button-main::before {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border-radius: 100%;
@@ -8417,7 +8417,7 @@ only screen and (min-resolution:1.5dppx),
   width: 100%
 }
 
-.play-button {
+.play-button-main {
   background-color: transparent;
   border: none;
   opacity: 1;
@@ -8426,7 +8426,7 @@ only screen and (min-resolution:1.5dppx),
   z-index: 1
 }
 
-.play-button:hover {
+.play-button-main:hover {
   cursor: pointer
 }
 
@@ -8439,7 +8439,7 @@ only screen and (min-resolution:1.5dppx),
   max-width: 24px
 }
 
-.play-button::after {
+.play-button-main::after {
   content: '';
   height: 100%;
   left: 0;
@@ -8454,7 +8454,7 @@ only screen and (min-resolution:1.5dppx),
 }
 
 .play-button--hover::before,
-.play-button:hover::before {
+.play-button-main:hover::before {
   background-color: #2e7df6
 }
 
