@@ -168,6 +168,11 @@ colorhover: "#e50914"
                 behavior: "smooth"
               });
             }
+            $('.scroll').click(function() {
+              $('body').animate({
+                scrollTop: eval($('#' + $(this).attr('target')).offset().top)
+              }, 1000);
+            });
           </script>
           <div class="divider"></div>
           <div class="shelf-grid shelf-grid--onhover" data-grid="A">
