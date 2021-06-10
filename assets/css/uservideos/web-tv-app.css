@@ -6211,7 +6211,7 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
 .nav-header__divider {
   background-color: rgba(255, 255, 255, .1);
   height: 0;
-  width: calc(100% - (5vw));
+  width: calc(100% - (2*5vw));
   margin: auto
 }
 
