@@ -7230,7 +7230,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
 
 .product-header__video-control__container {
   position: absolute;
-  padding: 0 40px;
+  padding: 0 5vw;
   right: 0;
   bottom: 194px;
   z-index: 2
