@@ -8324,13 +8324,16 @@ only screen and (min-resolution:1.5dppx),
 }
 
 .commerce-button {
+  /*
   padding: 0 11px;
+  */
   margin-top: 8px;
   height: 28px;
   position: relative;
   border-radius: 6px;
   border-width: 1px;
   border-style: solid;
+  border-color: transparent;
   background-color: transparent;
   cursor: pointer;
   z-index: 1;
@@ -8343,8 +8346,10 @@ only screen and (min-resolution:1.5dppx),
 
 @media only screen and (min-width:740px) {
   .commerce-button {
+    /*
     padding-left: 26px;
     border-color: #fff
+    */
   }
 }
 
@@ -11165,5 +11170,5 @@ html[dir=rtl] .locale-switcher-footer .locale-switcher-footer__country-name {
 }
 
 .commerce-button:not(:first-child) {
-  margin-left: 4px;
+  margin-left: 26px;
 }
