@@ -168,8 +168,12 @@ colorhover: "#e50914"
                 behavior: "smooth"
               });
             }
-            $('#landing-content').click(function() {
-              $.scrollTo($('#landing-content-show'), 1000);
+            $(document).ready(function() {
+              $("#landing-content").click(function() {
+                $('html, body').animate({
+                  scrollTop: $("#landing-content-show").offset().top
+                }, 1000);
+              });
             });
           </script>
           <div class="divider"></div>
