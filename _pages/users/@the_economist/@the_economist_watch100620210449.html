@@ -197,8 +197,8 @@ colorhover: "#e50914"
           </div>
         </div>
         <div class="shelf-grid__body">
-          <ul class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
+          <ul id="grid_list-season" class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
+            <li id="grid_list-item-season" aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
               <div data-lockups-show-page-episode="" data-episode-index="0">
                 <a class="episode-lockup" aria-label="Episode 1. Pilot." href="/us/episode/pilot/umc.cmc.zb0yksqtym68hasbq8mj4jwp?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -224,7 +224,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
+            <li id="grid_list-item-season" aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
               <div data-lockups-show-page-episode="" data-episode-index="1">
                 <a class="episode-lockup" aria-label="Episode 2. Biscuits." href="/us/episode/biscuits/umc.cmc.45cu44369hb2qfuwr3fihnr8e?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -250,7 +250,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
+            <li id="grid_list-item-season" aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
               <div data-lockups-show-page-episode="" data-episode-index="2">
                 <a class="episode-lockup" aria-label="Episode 3. Trent Crimm: The Independent." href="/us/episode/trent-crimm-the-independent/umc.cmc.e2jl6wwe6j3g6kxim23lx0u6?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -276,7 +276,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
+            <li id="grid_list-item-season" aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
               <div data-lockups-show-page-episode="" data-episode-index="3">
                 <a class="episode-lockup" aria-label="Episode 4. For the Children." href="/us/episode/trent-crimm-the-independent/umc.cmc.e2jl6wwe6j3g6kxim23lx0u6?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -302,7 +302,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="true" class="shelf-grid__list-item" data-item-index="4">
+            <li id="grid_list-item-season" aria-hidden="true" class="shelf-grid__list-item" data-item-index="4">
               <div data-lockups-show-page-episode="" data-episode-index="4">
                 <a class="episode-lockup" aria-label="Episode 5. Tan Lines." href="/us/episode/tan-lines/umc.cmc.21roantvdf68j0twf412rnfmx?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -328,7 +328,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="true" class="shelf-grid__list-item" data-item-index="5">
+            <li id="grid_list-item-season" aria-hidden="true" class="shelf-grid__list-item" data-item-index="5">
               <div data-lockups-show-page-episode="" data-episode-index="5">
                 <a class="episode-lockup" aria-label="Episode 6. Two Aces." href="/us/episode/two-aces/umc.cmc.670xfbs4addfycxkk3vvojea7?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -354,7 +354,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="true" class="shelf-grid__list-item" data-item-index="6">
+            <li id="grid_list-item-season" aria-hidden="true" class="shelf-grid__list-item" data-item-index="6">
               <div data-lockups-show-page-episode="" data-episode-index="6">
                 <a class="episode-lockup" aria-label="Episode 7. Make Rebecca Great Again." href="/us/episode/make-rebecca-great-again/umc.cmc.1zzkhptbom1da61ga7ars15my?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -380,7 +380,7 @@ colorhover: "#e50914"
                 </a>
               </div>
             </li>
-            <li aria-hidden="true" class="shelf-grid__list-item" data-item-index="7">
+            <li id="grid_list-item-season" aria-hidden="true" class="shelf-grid__list-item" data-item-index="7">
               <div data-lockups-show-page-episode="" data-episode-index="7">
                 <a class="episode-lockup" aria-label="Episode 8. The Diamond Dogs." href="/us/episode/the-diamond-dogs/umc.cmc.eaaizh8wdtnjuohaebw843ft?showId=umc.cmc.vtoh0mn0xn7t3c643xqonfzy">
                   <div class="episode-lockup-show-page">
@@ -411,16 +411,38 @@ colorhover: "#e50914"
         <div class="shelf-grid-nav">
           <ul>
             <li>
-              <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
+              <button id="next-season" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
               </button>
             </li>
             <li>
-              <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
+              <button id="prev-season" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
               </button>
             </li>
           </ul>
         </div>
       </div>
+      <script>
+        var grid_list_season = document.getElementById("grid_list-season");
+        var next_season = document.getElementById("next-season");
+        var prev_season = document.getElementById("prev-season");
+        var grid_list_item_season = document.getElementById("grid_list-item-season").clientWidth;
+        next_season.addEventListener("click", scrollToNextSeason);
+        prev_season.addEventListener("click", scrollToPrevSeason);
+
+        function scrollToNextSeason() {
+          grid_list_season.scrollBy({
+            left: grid_list_item_season,
+            behavior: "smooth"
+          });
+        }
+
+        function scrollToPrevSeason() {
+          grid_list_season.scrollBy({
+            left: -grid_list_item_season,
+            behavior: "smooth"
+          });
+        }
+      </script>
       <div class="divider"></div>
       <div class="shelf-grid shelf-grid--onhover" data-grid="C">
         <div class="shelf-grid__header">
@@ -448,11 +470,11 @@ colorhover: "#e50914"
         <div class="shelf-grid-nav">
           <ul>
             <li>
-              <button id="next-trailers" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" disabled aria-label="Next Page" type="button">
+              <button id="next-trailers" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
               </button>
             </li>
             <li>
-              <button id="prev-trailers" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" disabled aria-label="Previous Page" type="button">
+              <button id="prev-trailers" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
               </button>
             </li>
           </ul>
@@ -636,8 +658,8 @@ colorhover: "#e50914"
           <h2 class="VideoListSectionTitle__sectionTitleTitle___1f_0x" style="font-size: 18px;line-height: 24px;color: rgba(255, 255, 255, .9);"> Cast &amp; Crew </h2>
         </div>
         <div class="shelf-grid__body">
-          <ul class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
+          <ul id="grid_list-castcrew" class="shelf-grid__list" style="--grid-rows:1; --grid-column-gap:20px;">
+            <li id="grid_list-item-castcrew" aria-hidden="false" class="shelf-grid__list-item" data-item-index="0">
               <a class="profile-lockup" href="/us/person/david-attenborough/umc.cpc.qooewjc5cxl6lbyu1vj6uae6">
                 <div class="canvas-lockup canvas-lockup--profile">
                   <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download profile-lockup__image" style="padding-top:100%; height:100%; background-color:#ccc;">
@@ -652,7 +674,7 @@ colorhover: "#e50914"
                 </div>
               </a>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
+            <li id="grid_list-item-castcrew" aria-hidden="false" class="shelf-grid__list-item" data-item-index="1">
               <a class="profile-lockup" href="/us/person/tom-beard/umc.cpc.4h9kc9q0ol10rvr2g7ddn9ft4">
                 <div class="canvas-lockup canvas-lockup--profile">
                   <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download profile-lockup__image" style="padding-top:100%; height:100%; background-color:#ccc;">
@@ -667,7 +689,7 @@ colorhover: "#e50914"
                 </div>
               </a>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
+            <li id="grid_list-item-castcrew" aria-hidden="false" class="shelf-grid__list-item" data-item-index="2">
               <a class="profile-lockup" href="/us/person/mike-gunton/umc.cpc.5eazhqc6u3yt5byx1tvk2f20a">
                 <div class="canvas-lockup canvas-lockup--profile">
                   <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download profile-lockup__image" style="padding-top:100%; height:100%; background-color:#ccc;">
@@ -682,7 +704,7 @@ colorhover: "#e50914"
                 </div>
               </a>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
+            <li id="grid_list-item-castcrew" aria-hidden="false" class="shelf-grid__list-item" data-item-index="3">
               <a class="profile-lockup" href="/us/person/alice-keens-soper/umc.cpc.1qwwmdiu44hzltb08a7qx40t7">
                 <div class="canvas-lockup canvas-lockup--profile">
                   <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download profile-lockup__image" style="padding-top:100%; height:100%; background-color:#ccc;">
@@ -705,7 +727,7 @@ colorhover: "#e50914"
                 </div>
               </a>
             </li>
-            <li aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
+            <li id="grid_list-item-castcrew" aria-hidden="false" class="shelf-grid__list-item" data-item-index="4">
               <a class="profile-lockup" href="/us/person/alex-griffiths/umc.cpc.3ea4eccra2tbcg5ta1otl2gqe">
                 <div class="canvas-lockup canvas-lockup--profile">
                   <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download profile-lockup__image" style="padding-top:100%; height:100%; background-color:#ccc;">
@@ -733,16 +755,38 @@ colorhover: "#e50914"
         <div class="shelf-grid-nav">
           <ul>
             <li>
-              <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" disabled="" aria-label="Next Page" type="button">
+              <button id="next-castcrew" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--next" aria-label="Next Page" type="button">
               </button>
             </li>
             <li>
-              <button class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" disabled="" aria-label="Previous Page" type="button">
+              <button id="prev-castcrew" class="shelf-grid-nav__arrow shelf-grid-nav__arrow--previous" aria-label="Previous Page" type="button">
               </button>
             </li>
           </ul>
         </div>
       </div>
+      <script>
+        var grid_list_castcrew = document.getElementById("grid_list-castcrew");
+        var next_castcrew = document.getElementById("next-castcrew");
+        var prev_castcrew = document.getElementById("prev-castcrew");
+        var grid_list_item_castcrew = document.getElementById("grid_list-item-castcrew").clientWidth;
+        next_castcrew.addEventListener("click", scrollToNextCastCrew);
+        prev_castcrew.addEventListener("click", scrollToPrevCastCrew);
+
+        function scrollToNextCastCrew() {
+          grid_list_castcrew.scrollBy({
+            left: grid_list_item_castcrew,
+            behavior: "smooth"
+          });
+        }
+
+        function scrollToPrevCastCrew() {
+          grid_list_castcrew.scrollBy({
+            left: -grid_list_item_castcrew,
+            behavior: "smooth"
+          });
+        }
+      </script>
       <div class="product-footer secondary-bg-color">
         <div id="about-footer" class="product-footer__container">
           <h2 class="product-footer__title typ-headline-emph">About</h2>
