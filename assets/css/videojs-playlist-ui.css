@@ -22611,18 +22611,7 @@ button,
   fill: currentColor;
   height: 24px;
   flex-shrink: 0;
-}
-
-.Hawkins-Icon {
-  fill: currentColor;
-  height: 24px;
-  flex-shrink: 0;
-}
-
-.Hawkins-Icon {
-  fill: currentColor;
-  height: 24px;
-  flex-shrink: 0;
+  display: none;
 }
 
 .jss600 {
