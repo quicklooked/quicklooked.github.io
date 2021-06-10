@@ -8459,7 +8459,8 @@ only screen and (min-resolution:1.5dppx),
   opacity: 1;
   background-size: contain;
   background-color: transparent;
-  border: none
+  border: none;
+  cursor: pointer;
 }
 
 .modal-content,
