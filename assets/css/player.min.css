@@ -508,11 +508,11 @@ li.vjs-menu-item.vjs-texttrack-settings {
   .video-js.vjs-fluid,
   .video-js.vjs-16-9,
   .video-js.vjs-4-3 {
-    border-radius: 0.625rem !important;
+    border-radius: 12px !important;
   }
 
   .video-js .vjs-tech {
-    border-radius: 0.625rem !important;
+    border-radius: 12px !important;
   }
 }
 
