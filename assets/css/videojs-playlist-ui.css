@@ -5618,6 +5618,7 @@ svg {
   width: 10px;
   height: 10px;
   margin-left: 4px;
+  display: none;
   border-radius: 50%
 }
 
