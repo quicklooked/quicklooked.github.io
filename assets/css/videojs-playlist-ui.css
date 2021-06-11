@@ -5346,21 +5346,27 @@ svg {
 }
 
 .desktop .Card__card___2FbPd:not(.Card__nohover___FjJE7):hover {
+  /*
   -webkit-box-shadow: rgba(45, 45, 45, .05) 0 2px 2px, rgba(49, 49, 49, .05) 0 4px 4px, rgba(42, 42, 42, .05) 0 8px 8px, rgba(32, 32, 32, .05) 0 16px 16px, rgba(49, 49, 49, .05) 0 32px 32px, rgba(35, 35, 35, .05) 0 64px 64px;
   box-shadow: 0 2px 2px rgba(45, 45, 45, .05), 0 4px 4px rgba(49, 49, 49, .05), 0 8px 8px rgba(42, 42, 42, .05), 0 16px 16px rgba(32, 32, 32, .05), 0 32px 32px rgba(49, 49, 49, .05), 0 64px 64px rgba(35, 35, 35, .05);
   -webkit-transform: translate3D(0, -4px, 0);
   transform: translate3D(0, -4px, 0)
+  */
 }
 
 .touch .Card__card___2FbPd:not(.Card__nohover___FjJE7):active {
+  /*
   -webkit-box-shadow: rgba(35, 35, 35, .3) 0 0 16px;
   box-shadow: 0 0 16px rgba(35, 35, 35, .3)
+  */
 }
 
 .Card__card___2FbPd:not(.Card__noshadow___1M4s1) {
   background-color: transparent;
+  /*
   -webkit-box-shadow: 0 3px 4px 0 rgba(35, 35, 35, .1), 0 0 1px 0 rgba(10, 31, 68, .08);
   box-shadow: 0 3px 4px 0 rgba(35, 35, 35, .1), 0 0 1px 0 rgba(10, 31, 68, .08);
+  */
   -webkit-transition: opacity .2s ease-out, -webkit-box-shadow .3s ease-out, -webkit-transform .3s ease-out;
   transition: opacity .2s ease-out, -webkit-box-shadow .3s ease-out, -webkit-transform .3s ease-out;
   transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
