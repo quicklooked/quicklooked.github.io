@@ -2474,70 +2474,70 @@ svg {
 }
 
 .row {
-  margin: 0 -20px -20px 0
+  margin: 0 -10px -10px 0
 }
 
 .col {
-  border-width: 0 20px 20px 0
+  border-width: 0 10px 10px 0
 }
 
 @media (min-width:480px) {
   .row {
-    margin: 0 -20px -20px 0
+    margin: 0 -10px -10px 0
   }
 
   .col {
-    border-width: 0 20px 20px 0
+    border-width: 0 10px 10px 0
   }
 }
 
 @media (min-width:768px) {
   .row {
-    margin: 0 -20px -20px 0
+    margin: 0 -10px -10px 0
   }
 
   .col {
-    border-width: 0 20px 20px 0
+    border-width: 0 10px 10px 0
   }
 }
 
 @media (min-width:1024px) {
   .row {
-    margin: 0 -20px -20px 0
+    margin: 0 -10px -10px 0
   }
 
   .col {
-    border-width: 0 20px 20px 0
+    border-width: 0 10px 10px 0
   }
 }
 
 @media (min-width:1280px) {
   .row {
-    margin: 0 -20px -20px 0
+    margin: 0 -10px -10px 0
   }
 
   .col {
-    border-width: 0 20px 20px 0
+    border-width: 0 10px 10px 0
   }
 }
 
 @media (min-width:1366px) {
   .row {
-    margin: 0 -20px -20px 0
+    margin: 0 -10px -10px 0
   }
 
   .col {
-    border-width: 0 20px 20px 0
+    border-width: 0 10px 10px 0
   }
 }
 
 @media (min-width:1600px) {
   .row {
-    margin: 0 -20px -20px 0
+    margin: 0 -10px -10px 0
   }
 
   .col {
-    border-width: 0 20px 20px 0
+    border-width: 0 10px 10px 0
   }
 }
 
@@ -16978,7 +16978,7 @@ input[type=checkbox] {
 }
 
 .Collection__small___25JGE {
-  margin: 0 20px 20px 0;
+  margin: 0 10px 10px 0;
   border-radius: 3px
 }
 
@@ -17042,7 +17042,7 @@ input[type=checkbox] {
 .Collection__large___3-dF8,
 .Collection__medium___2QXp6,
 .Collection__xlarge___Lqlim {
-  margin: 0 20px 20px 0;
+  margin: 0 10px 10px 0;
   border-radius: 3px
 }
 
@@ -17666,7 +17666,7 @@ input[type=checkbox] {
 }
 
 .Video__small___1hcXC {
-  margin: 0 20px 20px 0;
+  margin: 0 10px 10px 0;
   border-radius: 3px
 }
 
@@ -17730,7 +17730,7 @@ input[type=checkbox] {
 .Video__large___HkCZW,
 .Video__medium___UNw4p,
 .Video__xlarge___1gzJe {
-  margin: 0 20px 20px 0;
+  margin: 0 10px 10px 0;
   border-radius: 3px
 }
 
@@ -17919,7 +17919,7 @@ input[type=checkbox] {
 }
 
 .Video__margin___2AsxH {
-  margin: 0 20px 20px 0
+  margin: 0 10px 10px 0
 }
 
 .Video__video___2Qq1K {
@@ -17991,7 +17991,7 @@ input[type=checkbox] {
 }
 
 .Video__sortable___NLz98 {
-  margin: 0 20px 20px 0
+  margin: 0 10px 10px 0
 }
 
 .Video__sortable___NLz98 .Video__thumbnail___2MHSe {
