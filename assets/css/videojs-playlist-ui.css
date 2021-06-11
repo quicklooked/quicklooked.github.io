@@ -22691,3 +22691,7 @@ button,
 .VideoCard__videoChannelInfo___3b-l0 .product-header__content__details__metadata.typ-footnote-emph {
   margin-top: 0;
 }
+
+.VideoCard__videoChannelInfo___3b-l0 .product-header__content__details__metadata--info {
+  display: block;
+}
