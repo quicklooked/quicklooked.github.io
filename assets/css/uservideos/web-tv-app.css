@@ -8673,7 +8673,7 @@ only screen and (min-resolution:1.5dppx),
 }
 
 .global-footer {
-  padding: 18px 40px;
+  padding: 18px 5vw;
   display: flex;
   align-items: center
 }
