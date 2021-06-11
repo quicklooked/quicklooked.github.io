@@ -2271,28 +2271,30 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: inline-block;
 }
 
-.vjs-volume-panel:hover+.vjs-progress-control {
-  display: block !important;
-}
+@media only screen and (min-width: 768px) {
+  .vjs-volume-panel:hover+.vjs-progress-control {
+    display: block !important;
+  }
 
-.vjs-volume-panel:hover~.vjs-progress-control {
-  display: none !important;
-}
+  .vjs-volume-panel:hover~.vjs-progress-control {
+    display: none !important;
+  }
 
-.vjs-volume-panel:hover+.vjs-current-time {
-  display: block !important;
-}
+  .vjs-volume-panel:hover+.vjs-current-time {
+    display: block !important;
+  }
 
-.vjs-volume-panel:hover~.vjs-current-time {
-  display: none !important;
-}
+  .vjs-volume-panel:hover~.vjs-current-time {
+    display: none !important;
+  }
 
-.vjs-volume-panel:hover+.vjs-remaining-time {
-  display: flex !important;
-}
+  .vjs-volume-panel:hover+.vjs-remaining-time {
+    display: flex !important;
+  }
 
-.vjs-volume-panel:hover~.vjs-remaining-time {
-  display: none !important;
+  .vjs-volume-panel:hover~.vjs-remaining-time {
+    display: none !important;
+  }
 }
 
 .vjs-subs-caps-button:hover+.vjs-progress-control {
