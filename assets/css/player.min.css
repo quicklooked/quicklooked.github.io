@@ -2731,11 +2731,11 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .video-js.vjs-user-active.vjs-playing .vjs-text-track-display {
-  top: -64px;
+  top: -54px;
 }
 
 .video-js.vjs-user-active.vjs-paused .vjs-text-track-display {
-  top: -64px;
+  top: -54px;
 }
 
 .video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-icon-next-item {
