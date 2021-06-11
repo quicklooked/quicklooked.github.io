@@ -2,7 +2,7 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://p-events-delivery.akamaized.net/2605bdtgclbnfypwzfkzdsupvcyzhhbx/m3u8/hls_vod_mvp.m3u8',
+      src: 'https://github.com/aquicklook/simply-jekyll/blob/master/videojs_v720P.mp4?raw=true',
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
