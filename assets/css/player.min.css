@@ -2271,7 +2271,7 @@ button.vjs-descriptions-button.vjs-menu-button.vjs-menu-button-popup.vjs-button 
   display: inline-block;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .vjs-volume-panel:hover+.vjs-progress-control {
     display: block !important;
   }
