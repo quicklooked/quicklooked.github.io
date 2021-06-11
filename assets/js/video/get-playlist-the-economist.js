@@ -2,26 +2,26 @@ function getPlaylistTheEconomist() {
   const BASE_URL = 'https://storage.googleapis.com/media-session/';
   return [{
     sources: [{
-      src: 'https://github.com/aquicklook/simply-jekyll/blob/master/videojs_v720P.mp4?raw=true',
+      src: 'https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8',
       type: 'application/x-mpegURL'
     }],
     textTracks: [{
       "kind": "subtitles",
       "label": "English (United States) CC",
-      "src": "https://m.wsj.net/video/20210104/010521nio2/010521nio2.en_US.vtt",
+      "src": "https://m.wsj.net/video/20210301/030221minwage/030221minwage.en_US.vtt",
       "srclang": "en",
     }],
-    name: 'Apple Events - April 2021 - Apple (US)',
+    name: 'The Costs and Benefits of a $15 Federal Minimum Wage',
     epsiodes: '1',
-    duration: '6532',
+    duration: '503',
     date: 'May 14',
     authors: 'The Economist',
     authorsImg: 'https://www.economist.com/engassets/ico/favicon.f1ea908894.ico',
-    description: 'Announcing our biggest updates ever to iOS, iPadOS, watchOS — and the entirely reimagined macOS Big Sur.',
-    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">iPhone Support</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Designed for everyone</a></li>',
-    poster: 'https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/psp-hero-banner-new-iphone.image.large_2x.jpg',
+    description: 'Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.',
+    moredescription: '<li class="developerForum" data-hires-status="pending"><a href="" target="_blank">U.S. Treasury Offers 15% Minimum Corporate Tax in Global Talks.</a></li><li class="document" data-hires-status="pending"><a href="" target="_blank">Minimum Wage Tracker</a></li>',
+    poster: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg',
     thumbnail: [{
-      src: 'https://support.apple.com/content/dam/edam/applecare/images/en_US/psp/psp-hero-banner-new-iphone.image.large_2x.jpg'
+      src: 'https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg'
     }],
   }, {
     sources: [{
