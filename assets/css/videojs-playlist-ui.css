@@ -5479,6 +5479,7 @@ svg {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
+  display: none;
   line-height: 1.6
 }
 
