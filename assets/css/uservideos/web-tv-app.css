@@ -4946,13 +4946,13 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   /*
   border: .5px solid rgba(128, 128, 128, .2);
   border-radius: 12px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
   */
   width: 100%;
   cursor: pointer;
   text-align: left;
-  box-shadow: 0 4px 7px rgba(0, 0, 0, .25);
-  border: .5px solid rgba(128, 128, 128, .2);
-  border-radius: 12px;
+  border: 0px solid rgba(128, 128, 128, .2);
+  border-radius: 0;
   overflow: hidden;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -4980,8 +4980,10 @@ html[dir=rtl] .lockup-overlay__channel-logo__gradient {
   justify-content: center;
   height: 58px;
   padding: 0 12px 5px;
+  /*
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px
+  */
 }
 
 .watch-card-lockup__content__title__container {
