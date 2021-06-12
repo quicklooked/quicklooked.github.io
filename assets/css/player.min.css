@@ -1238,7 +1238,7 @@ button.vjs-mute-control.vjs-control.vjs-button.vjs-vol-0 {
 @media (min-width: 1024px) {
   .video-js .vjs-control-bar .vjs-button.vjs-seek-button,
   .video-js .vjs-control-bar button.vjs-control.vjs-seek-button {
-    display: inline-block !important;
+    display: none !important;
   }
   .video-js .vjs-overlay {
     z-index: 0 !important;
