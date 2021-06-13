@@ -127,11 +127,11 @@ colorhover: "#e50914"
       watch100620210449.addEventListener("ended", handleEndButton, false);
       if(Hls.isSupported()) {
         var hls = new Hls();
-        hls.loadSource('https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD');
+        hls.loadSource('https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD&xtrick=true&webbrowser=true');
         hls.attachMedia(watch100620210449);
         hls.on(Hls.Events.MANIFEST_PARSED, handlePlayButton, false);
       } else if(video.canPlayType('application/vnd.apple.mpegurl')) {
-        watch100620210449.src = 'https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD';
+        watch100620210449.src = 'https://play.itunes.apple.com/WebObjects/MZPlay.woa/hls/subscription/playlist.m3u8?cc=US&svcId=tvs.vds.4105&a=1561104524&isExternal=true&brandId=tvs.sbd.4000&id=248266278&l=en-US&aec=UHD&xtrick=true&webbrowser=true';
         watch100620210449.addEventListener('canplay', handlePlayButton, false);
       }
       play__watch100620210449();
