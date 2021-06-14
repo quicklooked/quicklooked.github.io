@@ -1075,7 +1075,7 @@ li.vjs-menu-item::before {
   font-size: .64em;
   right: 0;
   height: 100%;
-  padding: 0;
+  padding: 0 0 0 2.5em;
 }
 
 .video-js .vjs-current-time,
@@ -2930,5 +2930,5 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .video-js .vjs-progress-control .vjs-progress-holder {
-  margin: 0 16px 0 5px !important;
+  margin: 0 0 0 5px !important;
 }
