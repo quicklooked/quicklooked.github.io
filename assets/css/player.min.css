@@ -1074,10 +1074,9 @@ li.vjs-menu-item::before {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: -.022em;
-  position: absolute;
-  top: -18px;
   right: 0;
   height: 18px;
+  padding: 0;
 }
 
 .video-js .vjs-current-time,
@@ -1098,6 +1097,9 @@ li.vjs-menu-item::before {
 .video-js .vjs-control-bar .vjs-remaining-time .vjs-remaining-time-display {
   width: auto;
   text-align: right;
+  display: inline-flex;
+  height: 18px;
+  align-items: center;
 }
 
 .video-js .vjs-control-bar .vjs-volume-control .vjs-volume-bar {
@@ -2928,5 +2930,5 @@ i.icon.fa.fa-4x.fa-pause {
 }
 
 .video-js .vjs-progress-control .vjs-progress-holder {
-  margin: 0 5px 0 10px !important;
+  margin: 0 16px 0 5px !important;
 }
