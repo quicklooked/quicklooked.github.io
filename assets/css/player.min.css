@@ -960,11 +960,11 @@ li.vjs-menu-item::before {
 
 .video-js .vjs-control-bar .vjs-progress-control .vjs-mouse-display .vjs-time-tooltip {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 1.8em;
   line-height: 12px;
   font-weight: 400;
-  top: -3.2em;
-  padding: .5em;
+  top: -4.2em;
+  padding: 1em;
   border-radius: .3em;
   transform: translate(0%, 0%);
   /*
@@ -976,6 +976,11 @@ li.vjs-menu-item::before {
   display: inline-block;
   cursor: -webkit-grab;
   cursor: grab;
+  display: inline-block;
+  min-width: 100%;
+  min-height: 100%;
+  vertical-align: middle;
+  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
 }
 
 /*
