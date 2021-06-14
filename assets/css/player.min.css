@@ -953,7 +953,7 @@ li.vjs-menu-item::before {
   position: absolute;
   top: -1.8em;
   left: 1.2em;
-  right: 5em;
+  right: 1.2em;
   width: auto;
   height: 1.8em;
 }
