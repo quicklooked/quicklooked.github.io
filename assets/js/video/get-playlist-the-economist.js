@@ -279,7 +279,7 @@ function getPlaylistTheEconomist() {
       "srclang": "en",
     }, {
       "kind": "chapters",
-      "label": "Desktops are making a comeback during the pandemic",
+      "label": "Main Contents",
       "src": "https://m.wsj.net/video/20210224/02242021swpc/02242021swpc.en_US.vtt",
       "srclang": "en",
     }],
