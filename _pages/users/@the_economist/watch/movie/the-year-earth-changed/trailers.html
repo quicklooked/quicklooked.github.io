@@ -23,6 +23,7 @@ colorhover: "#e50914"
                 <picture>
                   <img class="media-artwork-v2__image" src="https://is4-ssl.mzstatic.com/image/thumb/Video/93/f4/93/mzl.dkvqqncs.jpg/2000x1125mw.jpg" decoding="async" alt="David Attenborough Wildlife Specials">
                 </picture>
+                <div id="the-year-earth-changed"></div>
               </div>
             </div>
           </div>
@@ -443,3 +444,93 @@ colorhover: "#e50914"
         </div>
       </div>
     </div>
+    <script>
+      const playerInstance = jwplayer("the-year-earth-changed").setup({
+        playlist: [{
+          title: "The Costs and Benefits of a $15 Federal Minimum Wage",
+          description: "Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.",
+          duration: "503",
+          image: "https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg",
+          sources: [{
+            file: "https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }, {
+          title: "Tesla vs. NIO: Battle for the World’s Largest EV Market",
+          description: "Gone are the long waits at charging stations: Chinese electric-vehicle startup NIO is pioneering battery-swap systems, challenging Tesla and other rival car makers. Here’s how NIO and Tesla are racing for the world’s largest EV market in China. Photo illustration: Sharon Shi",
+          duration: "388",
+          image: "https://m.wsj.net/video/20210104/010521nio2/010521nio2_960x540.jpg",
+          sources: [{
+            file: "https://m.wsj.net/video/20210104/010521nio2/hls/manifest-hd-wifi.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }, {
+          title: "How Vulnerable Is U.S. Energy Infrastructure to Future Cyberattacks?",
+          duration: '352',
+          description: "A cyberattack on the U.S.’s largest fuel pipeline on May 7 forced a shutdown that triggered a spike in gas prices and shortages in parts of the Southeast. WSJ explains just how vulnerable the nation’s critical energy infrastructure is to attack. Photo illustration: Liz Ornitz/WSJ",
+          image: "https://m.wsj.net/video/20210516/pipelinecyberattack051621/pipelinecyberattack051621_960x540.jpg",
+          sources: [{
+            file: "https://m.wsj.net/video/20210505/05042021streetwisesalim/hls/manifest-hd-wifi.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }, {
+          title: "50 Years\' Worth of Indexing",
+          description: "Salim Ramji, global head of iShares and index investments for BlackRock, discusses innovations in indexing and how investors can balance active and passive management.",
+          duration: '175',
+          image: "https://m.wsj.net/video/20210505/05042021streetwisesalim/05042021streetwisesalim_960x540.jpg",
+          sources: [{
+            file: "https://m.wsj.net/video/20210426/04262021mbep97/hls/manifest-hd-wifi.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }, {
+          title: "Wall Street\'s Next Frontier",
+          description: "As investors pursue new opportunities in space, Dylan Taylor, CEO of Voyager Space Holdings, weighs in. Plus, Katie Nixon, CIO of Northern Trust Wealth Management, unpacks her bull case for U.S. stocks.",
+          duration: '576',
+          image: "https://m.wsj.net/video/20210322/03222021mb92/03222021mb92_1280x720.jpg",
+          sources: [{
+            file: "https://m.wsj.net/video/20210312/03122021barronsbitcoin/hls/manifest-hd-wifi.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }, {
+          title: "Low Rates, Rising Yields & Your Money",
+          description: "Ahead of this week\'s Fed meeting, Dana Peterson, chief economist with The Conference Board, unpacks the central bank\'s role amid the ongoing economic recovery. Plus, Lee Ferridge of State Street Global Markets discusses his firm\'s bull case for gold and big tech.",
+          duration: '563',
+          image: "https://m.wsj.net/video/20210426/04262021mb97/04262021mb97_1280x720.jpg",
+          sources: [{
+            file: "https://m.wsj.net/video/20210407/04072021swoil/hls/manifest-hd-wifi.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }, {
+          title: "Apple Event 15 September 2020",
+          description: "Introducing Apple Watch Series 6, Apple Watch SE, the new iPad Air and iPad, and Apple One — the all-new Apple services bundle.",
+          duration: '3853',
+          image: "https://cdn.tgdd.vn/Files/2021/03/17/1335893/apple-event_800x450.jpg",
+          sources: [{
+            file: "https://p-events-delivery.akamaized.net/1108byjxmnoakagswdphbwatymztxxew/m3u8/vod_index.m3u8",
+            default: false,
+            type: "hls"
+          }]
+        }]
+      });
+      playerInstance.on("ready", function() {
+        const playerContainer = playerInstance.getContainer();
+        const buttonContainer = playerContainer.querySelector(".jw-button-container");
+        const countdownText = buttonContainer.querySelector(".jw-text-countdown");
+        const timeSlider = playerContainer.querySelector(".jw-slider-time");
+        timeSlider.appendChild(countdownText);
+        var skipForward = document.createElement("div");
+        skipForward.setAttribute("class", "jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-forward");
+        skipForward.setAttribute("role", "button");
+        skipForward.setAttribute("tabindex", "0");
+        skipForward.setAttribute("aria-label", "Forward 10s");
+        skipForward.setAttribute("onclick", "jwplayer().seek(jwplayer().getPosition()+10)");
+        skipForward.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-forward" viewBox="0 0 240 240" focusable="false"><path d="M113.2,131.078a21.589,21.589,0,0,0-17.7-10.6,21.589,21.589,0,0,0-17.7,10.6,44.769,44.769,0,0,0,0,46.3,21.589,21.589,0,0,0,17.7,10.6,21.589,21.589,0,0,0,17.7-10.6,44.769,44.769,0,0,0,0-46.3Zm-17.7,47.2c-7.8,0-14.4-11-14.4-24.1s6.6-24.1,14.4-24.1,14.4,11,14.4,24.1S103.4,178.278,95.5,178.278Zm-43.4,9.7v-51l-4.8,4.8-6.8-6.8,13-13a4.8,4.8,0,0,1,8.2,3.4v62.7l-9.6-.1Zm162-130.2v125.3a4.867,4.867,0,0,1-4.8,4.8H146.6v-19.3h48.2v-96.4H79.1v19.3c0,5.3-3.6,7.2-8,4.3l-41.8-27.9a6.013,6.013,0,0,1-2.7-8,5.887,5.887,0,0,1,2.7-2.7l41.8-27.9c4.4-2.9,8-1,8,4.3v19.3H209.2A4.974,4.974,0,0,1,214.1,57.778Z"></path></svg><div class="jw-reset-text jw-tooltip jw-tooltip-forward" dir="auto"><div class="jw-text">Forward 10s</div></div>';
+        buttonContainer.insertBefore(skipForward, buttonContainer.childNodes[2]);
+      });
+    </script>
