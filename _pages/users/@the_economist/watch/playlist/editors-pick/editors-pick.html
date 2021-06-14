@@ -150,6 +150,11 @@ colorhover: "#e50914"
             }
           },
         });
+        player051820211001.on("ready", function() {
+          const progressControl = document.querySelector(".vjs-progress-control");
+          const timeRemaining = document.querySelector(".vjs-remaining-time");
+          progressControl.appendChild(timeRemaining);
+        });
         player051820211001.responsive(true);
         player051820211001.chromecast({
           metatitle: 'video.name',
