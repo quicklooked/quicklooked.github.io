@@ -440,14 +440,25 @@ colorhover: "#e50914"
       </div>
     </div>
     <script>
+      $.ajax({
+        url: "https://content.jwplatform.com/libraries/Jq6HIbgz.js",
+        success: function(result) {
+          const regex = /"key": "(?<key>.*)",/gm;
+          key = result.match(regex)[0];
+          key = key.replace('",', "").replace('"key": "', "");
+          create_licensed_player(key);
+        }
+      });
       var player = jwplayer("the-year-earth-changed");
       var nmplayer = nmplayer("the-year-earth-changed");
 
-      function create_opensource_player() {
+      function create_licensed_player(key) {
         nmplayer.setup({
           jwplayerInstance: player,
           jwplayerSetup: {
-            playlist: "https://cdn.nomercy.tv/playlists/85324.json"
+            playlist: "https://cdn.nomercy.tv/playlists/85324.json",
+            key: key,
+            controls: false
           }
         });
       }
