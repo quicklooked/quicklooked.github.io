@@ -19,12 +19,7 @@ colorhover: "#e50914"
         <div class="preview-product-header__wrapper">
           <div class="preview-product-header__image__wrapper">
             <div class="preview-product-header__image__container">
-              <div class="media-artwork-v2__container media-artwork-v2--image-did-attempt-download preview-product-header__image" style="padding-top:56.25%; height:100%;">
-                <picture>
-                  <img class="media-artwork-v2__image" src="https://is4-ssl.mzstatic.com/image/thumb/Video/93/f4/93/mzl.dkvqqncs.jpg/2000x1125mw.jpg" decoding="async" alt="David Attenborough Wildlife Specials">
-                </picture>
-                <div id="the-year-earth-changed"></div>
-              </div>
+              <div id="the-year-earth-changed"></div>
             </div>
           </div>
           <div class="preview-product-header__blur"></div>
@@ -446,13 +441,22 @@ colorhover: "#e50914"
     </div>
     <script>
       const playerInstance = jwplayer("the-year-earth-changed").setup({
+        captions: {
+          fontFamily: "Helvetica, Arial, sans-serif",
+          fontOpacity: "100",
+          color: "#FFF",
+          windowColor: "#000000",
+          windowOpacity: "0",
+          backgroundColor: "#000000",
+          backgroundOpacity: "50"
+        },
         playlist: [{
           title: "The Costs and Benefits of a $15 Federal Minimum Wage",
           description: "Biden has identified raising the minimum wage as a key goal of his administration, but economists and lawmakers disagree on the potential impact. WSJ asked two economists and a minimum-wage worker what the costs and benefits of a $15 minimum wage might be.",
           duration: "503",
-          image: "https://m.wsj.net/video/20210301/030221minwagesplash/030221minwagesplash_960x540.jpg",
+          image: "https://is4-ssl.mzstatic.com/image/thumb/Video/93/f4/93/mzl.dkvqqncs.jpg/2000x1125mw.jpg",
           sources: [{
-            file: "https://m.wsj.net/video/20210301/030221minwage/hls/manifest-hd-wifi.m3u8",
+            file: "https://p-events-delivery.akamaized.net/1108byjxmnoakagswdphbwatymztxxew/m3u8/vod_index.m3u8",
             default: false,
             type: "hls"
           }]
