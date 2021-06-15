@@ -6,7 +6,9 @@
 .jwplayer .jw-icon-settings,
 .jwplayer .jw-icon-rewind,
 .jwplayer .jw-icon-forward,
-.jw-nextup-container-visible {
+.jwplayer .jw-nextup-container-visible,
+.jwplayer .jw-display-icon-rewind, 
+.jwplayer .jw-display-icon-next {
   display: none !important;
 }
 
