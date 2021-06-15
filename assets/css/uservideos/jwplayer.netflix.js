@@ -215,11 +215,6 @@ window.nmplayer = function(e) {
       addEventListeners();
     });
     jwplayer().on("beforePlay", (e) => {
-      // jwplayer().getPlaylistItem().tracks.forEach(function (e, i) {
-      //     if (e.kind == 'thumbnails' && e.video_type == 'movie') {
-      //         jwplayer().getPlaylistItem().tracks.splice(i, 1);
-      //     }
-      // });
       $("#slider-pop").css('display', 'none');
       if(jwplayer().getPlaylistItem().video_type != 'movie' && jwplayer().getPlaylistItem().video_type != 'special') {
         var res = (f.subroute || '') + "/watch?id=" + jwplayer().getPlaylistItem().tmdbid + "&season=" + zeroPad(jwplayer().getPlaylistItem().season, 2) + "&episode=" + zeroPad(jwplayer().getPlaylistItem().episode, 2);
@@ -288,7 +283,6 @@ window.nmplayer = function(e) {
       firstError = true;
       if(jwplayer().getCurrentCaptions() == 0 && jwplayer().getPlaylistItem().tracks) {
         $('.subtitle-window').text('');
-        // $('.subtitle-window').css('display', 'none');
       } else {
         getCue(e.position);
       }
@@ -310,8 +304,6 @@ window.nmplayer = function(e) {
       $('.spinner').css('display', 'none');
       jwplayer().play();
     });
-    // }
-    // Button toggle functionality.
     function clearToggles() {
       optionsMenuToggle = false;
       audioMenuToggle = false;
@@ -519,7 +511,6 @@ window.nmplayer = function(e) {
         $('#seasons').removeClass('hidden');
       }
     };
-    // Sync or storage functions.
     function setSubtitleTrack() {
       if(typeof localStorage !== 'undefined') {
         jwplayer().getPlaylistItem().tracks.forEach((e, index) => {
@@ -772,9 +763,7 @@ window.nmplayer = function(e) {
           if(e.season != season) {
             var src;
             season = e.season;
-            // if(supportsBackgroundLoading){
             src = `src="${e.season_image || '/img/poster-not-available.png'}" onerror="this.src='${f.host || ''}/img/poster-not-available.png'"`;
-            // }
             $('#season-forward-container').append(`
                                 <div onclick="nmplayer.seasonForward(${e.season != 0 ? e.season : 'Specials'})" class="flex flex-col mb-2 overflow-hidden season-forward" style="background:${i % 2 == 0 ? '#0a090980' : '#000000ba'}">
                                     <div class="flex flex-row overflow-hidden season-forward">
@@ -813,9 +802,7 @@ window.nmplayer = function(e) {
         });
         jwplayer().getPlaylist().forEach((e, i) => {
           var src;
-          // if(supportsBackgroundLoading){
           src = `src="${e.image != 'Specials' ? e.image.replace('original', 'original') : '.x'}" onerror="this.src='${f.host || ''}/img/still-not-available.png'"`;
-          // }
           $(`#season-${e.season != 0 ? e.season : 'Specials'}-list`).append(`
                             <div id="${i}" data-button="video" onclick="nmplayer.setEpisode(${e.season || 0},${e.episode || 'Specials'})" class="w-full h-32 p-2 mb-2" style="background:${i % 2 == 0 ? '#0a090980' : '#000000ba'}">
                                 <div data-button="video" class="w-full p-2 text-sm">
@@ -863,7 +850,6 @@ window.nmplayer = function(e) {
     function loadPreviewSlider() {
       let previewTime = [];
       let m;
-      // if (supportsBackgroundLoading) {
       $("#slider-image").css('background-image', `url('${jwplayer().getPlaylistItem().tracks[0].file.replace("previews.vtt", "sprite.webp").replace('chapters.vtt', 'sprite.webp')}')`);
       $.get(jwplayer().getPlaylistItem().tracks[0].file, function(data) {
         const regex = /(\d{2}:\d{2}:\d{2})\.\d{3}\s-->\s(\d{2}:\d{2}:\d{2})\.\d{3}\nsprite\.webp#(xywh=\d{1,},\d{1,},\d{1,},\d{1,})/gm;
@@ -878,7 +864,6 @@ window.nmplayer = function(e) {
           });
         }
       });
-      // }
       $('#slider').mousemove(function(e) {
         lock = true;
         let parentOffset = $(this).offset().left,
@@ -892,7 +877,6 @@ window.nmplayer = function(e) {
         $("#slider-pop").css('display', 'flex');
         $("#slider-pop").css('left', popLeft);
         $("#slider-time").html(humanTime(sliderTime));
-        // if (supportsBackgroundLoading) {
         previewTime.forEach((match) => {
           let start = convertToSeconds(match.start),
             end = convertToSeconds(match.end);
@@ -900,14 +884,12 @@ window.nmplayer = function(e) {
             $("#slider-image").css('background-position', `-${match.position.split('=')[1].split(',')[0]}px -${match.position.split('=')[1].split(',')[1]}px`);
           }
         });
-        // }
       }).mouseleave(function(e) {
         $("#subtitle-window").css('display', 'block');
         $("#slider-pop").css('display', 'none');
         $("#time-nipple").css('display', 'none');
         lock = false;
       }).click(function(e) {
-        // lock = false;
         let offset = $(this).offset();
         let left = e.pageX - offset.left;
         let totalWidth = $("#slider").width();
@@ -916,10 +898,8 @@ window.nmplayer = function(e) {
         jwplayer().seek(videoTime);
       });
       $('.time-nipple').hover(function() {
-        // lock = true;
       })
       $('.time-nipple').mouseleave(function() {
-        // lock = false;
       })
     }
     jwplayer().on('captionsList', (e, index) => {
