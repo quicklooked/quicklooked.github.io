@@ -139,10 +139,10 @@ span.jw-text.jw-reset {
 
 .jwplayer .jw-svg-icon-fullscreen-on path,
 .jwplayer .jw-svg-icon-fullscreen-off path,
-.jwplayer .jw-svg-icon-volume-100,
-.jwplayer .jw-svg-icon-volume-0,
-.jwplayer .jw-svg-icon-more-videos,
-.jwplayer .jw-svg-icon-next {
+.jwplayer .jw-svg-icon-volume-100 path,
+.jwplayer .jw-svg-icon-volume-0 path,
+.jwplayer .jw-svg-icon-more-videos path,
+.jwplayer .jw-svg-icon-next path {
   display: none;
 }
 
