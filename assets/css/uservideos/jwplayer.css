@@ -56,10 +56,10 @@ button.jw-reset-text.jw-settings-content-item {
 button.jw-reset-text.jw-settings-content-item:before {
   content: "" !important;
   font-size: 0 !important;
-  display: inline-flex !important;
+  display: flex !important;
   vertical-align: 4% !important;
-  margin-right: 20px !important;
   width: 12px !important;
+  margin: 14px 12px 14px 10px !important;
   height: 12px !important;
   border: 1px solid #666 !important;
   border-radius: 50% !important;
@@ -150,7 +150,7 @@ span.jw-text.jw-reset {
 
 .jw-settings-content-item {
   font-size: 12px !important;
-  padding: 10px 10px 10px 20px !important;
+  padding: 10px !important;
   height: 40px !important;
   color: #fff !important;
 }
