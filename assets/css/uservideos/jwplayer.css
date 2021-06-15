@@ -147,7 +147,7 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-forward path,
 .jwplayer .jw-svg-icon-play path,
 .jwplayer .jw-svg-icon-pause path,
-.jwplayer .jw-svg-icon-replay path, {
+.jwplayer .jw-svg-icon-replay path {
   display: none;
 }
 
