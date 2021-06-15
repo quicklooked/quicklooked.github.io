@@ -1,0 +1,8 @@
+.jwplayer .jw-text-elapsed,
+.jwplayer .jw-text-duration {
+  display: none;
+}
+
+.jwplayer .jw-text-countdown {
+  display: flex !important;
+}
