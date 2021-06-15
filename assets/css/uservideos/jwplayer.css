@@ -9,6 +9,18 @@
 
 .jwplayer .jw-text-countdown {
   display: flex !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  border: 0 solid !important;
+  padding: 0 !important;
+  font-size: 1.8em !important;
+}
+
+.jw-slider-time.jw-background-color.jw-reset.jw-slider-horizontal.jw-reset {
+  font-size: .4em;
+  height: 3.3em !important;
+  padding-left: 3em !important;
+  padding-right: 2.5em !important;
 }
 
 .jwplayer .jw-icon::after {
