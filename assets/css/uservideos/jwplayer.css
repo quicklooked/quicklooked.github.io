@@ -1,16 +1,17 @@
-.jwplayer .jw-text-elapsed,
-.jwplayer .jw-text-duration,
 .jwplayer .jw-tooltip,
 .jwplayer .jw-rightclick,
-.jwplayer .jw-slider-vertical,
-.jwplayer .jw-icon-settings,
 .jwplayer .jw-icon-rewind,
+.jwplayer .jw-text-elapsed,
 .jwplayer .jw-icon-forward,
+.jwplayer .jw-text-duration,
+.jwplayer .jw-icon-settings,
+.jwplayer .jw-slider-vertical,
+.jwplayer .jw-display-icon-next,
+.jwplayer .jw-display-icon-rewind, 
 .jwplayer .jw-nextup-container-visible,
 .jwplayer.jw-state-paused .jw-display-icon-display,
 .jwplayer.jw-state-playing .jw-display-icon-display,
-.jwplayer .jw-display-icon-rewind, 
-.jwplayer .jw-display-icon-next,
+.jw-slider-volume.jw-volume-tip.jw-reset.jw-slider-vertical,
 .jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-full .jw-overlay.jw-reset {
   display: none !important;
 }
