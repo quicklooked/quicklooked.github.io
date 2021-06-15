@@ -280,7 +280,14 @@ colorhover: "#e50914"
       });
       var player = jwplayer("the-year-earth-changed");
       var nmplayer = nmplayer("the-year-earth-changed");
-
+      function create_opensource_player() {
+        nmplayer.setup({
+          jwplayerInstance: player,
+          jwplayerSetup: {
+            playlist: "https://cdn.nomercy.tv/playlists/85324.json"
+          }
+        });
+      }
       function create_licensed_player(key) {
         nmplayer.setup({
           jwplayerInstance: player,
