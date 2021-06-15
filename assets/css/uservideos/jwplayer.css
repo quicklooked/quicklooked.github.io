@@ -68,3 +68,65 @@ span.jw-text.jw-reset {
   box-shadow: none !important;
   background-color: #e50914 !important;
 }
+
+.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-slider-time .jw-knob {
+  border-radius: 50px !important;
+  border: none !important;
+}
+
+.jw-slider-time .jw-rail,
+.jw-horizontal-volume-container .jw-rail,
+.jw-slider-time .jw-buffer,
+.jw-horizontal-volume-container .jw-buffer,
+.jw-slider-time .jw-progress,
+.jw-horizontal-volume-container .jw-progress,
+.jw-slider-time .jw-cue,
+.jw-horizontal-volume-container .jw-cue {
+  -webkit-transform: none !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+.jw-slider-horizontal .jw-rail,
+.jw-slider-horizontal .jw-buffer,
+.jw-slider-horizontal .jw-progress,
+.jw-slider-horizontal .jw-cue,
+.jw-slider-horizontal .jw-knob {
+  top: 0 !important;
+}
+
+.jw-slider-time:hover .jw-rail,
+.jw-horizontal-volume-container:hover .jw-rail,
+.jw-slider-time:focus .jw-rail,
+.jw-horizontal-volume-container:focus .jw-rail,
+.jw-flag-dragging .jw-slider-time .jw-rail,
+.jw-flag-dragging .jw-horizontal-volume-container .jw-rail,
+.jw-flag-touch .jw-slider-time .jw-rail,
+.jw-flag-touch .jw-horizontal-volume-container .jw-rail,
+.jw-slider-time:hover .jw-buffer,
+.jw-horizontal-volume-container:hover .jw-buffer,
+.jw-slider-time:focus .jw-buffer,
+.jw-horizontal-volume-container:focus .jw-buffer,
+.jw-flag-dragging .jw-slider-time .jw-buffer,
+.jw-flag-dragging .jw-horizontal-volume-container .jw-buffer,
+.jw-flag-touch .jw-slider-time .jw-buffer,
+.jw-flag-touch .jw-horizontal-volume-container .jw-buffer,
+.jw-slider-time:hover .jw-progress,
+.jw-horizontal-volume-container:hover .jw-progress,
+.jw-slider-time:focus .jw-progress,
+.jw-horizontal-volume-container:focus .jw-progress,
+.jw-flag-dragging .jw-slider-time .jw-progress,
+.jw-flag-dragging .jw-horizontal-volume-container .jw-progress,
+.jw-flag-touch .jw-slider-time .jw-progress,
+.jw-flag-touch .jw-horizontal-volume-container .jw-progress,
+.jw-slider-time:hover .jw-cue,
+.jw-horizontal-volume-container:hover .jw-cue,
+.jw-slider-time:focus .jw-cue,
+.jw-horizontal-volume-container:focus .jw-cue,
+.jw-flag-dragging .jw-slider-time .jw-cue,
+.jw-flag-dragging .jw-horizontal-volume-container .jw-cue,
+.jw-flag-touch .jw-slider-time .jw-cue,
+.jw-flag-touch .jw-horizontal-volume-container .jw-cue {
+  -webkit-transform: none !important;
+  transform: none !important;
+}
