@@ -3,7 +3,9 @@
   display: none;
 }
 
-.jwplayer .jw-rightclick {
+.jwplayer .jw-tooltip,
+.jwplayer .jw-rightclick,
+.jw-slider-vertical {
   display: none !important;
 }
 
@@ -19,8 +21,4 @@
   line-height: 1.2em !important;
   padding: 0.2em !important;
   border-radius: 0.2em !important;
-}
-
-.jwplayer .jw-tooltip {
-  display: none !important;
 }
