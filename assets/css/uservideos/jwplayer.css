@@ -27,7 +27,7 @@
   box-shadow: none !important;
 }
 
-.jw-text-track-cue {
+.jwplayer .jw-text-track-cue {
   font-weight: 700 !important;
   letter-spacing: -0.022em !important;
   display: inline-block !important;
@@ -46,7 +46,7 @@ span.jw-text.jw-reset {
   min-height: 1em !important;
 }
 
-.jw-time-tip::after {
+.jwplayer .jw-time-tip::after {
   height: 0 !important;
   width: 0 !important;
 }
