@@ -5,7 +5,8 @@
 .jwplayer .jw-slider-vertical,
 .jwplayer .jw-icon-settings,
 .jwplayer .jw-icon-rewind,
-.jwplayer .jw-icon-forward {
+.jwplayer .jw-icon-forward,
+.jw-nextup-container-visible {
   display: none !important;
 }
 
