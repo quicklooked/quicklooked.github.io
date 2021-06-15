@@ -2,7 +2,8 @@
 .jwplayer .jw-text-duration,
 .jwplayer .jw-tooltip,
 .jwplayer .jw-rightclick,
-.jwplayer .jw-slider-vertical {
+.jwplayer .jw-slider-vertical,
+.jwplayer .jw-icon-settings {
   display: none !important;
 }
 
