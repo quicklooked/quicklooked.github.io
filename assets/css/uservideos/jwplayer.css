@@ -16,6 +16,7 @@
 
 .jwplayer .jw-settings-menu {
   z-index: 1;
+  border-radius: 4px;
 }
 
 .jwplayer .jw-text-countdown {
