@@ -14,6 +14,10 @@
   display: none !important;
 }
 
+.jwplayer .jw-settings-menu {
+  z-index: 1;
+}
+
 .jwplayer .jw-text-countdown {
   display: flex !important;
   width: fit-content !important;
