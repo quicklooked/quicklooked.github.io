@@ -135,6 +135,14 @@ span.jw-text.jw-reset {
   padding: 0 !important;
 }
 
+.jw-breakpoint-1 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
+  display: flex !important
+}
+
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
+  display: none;
+}
+
 .jw-slider-time:hover .jw-rail,
 .jw-horizontal-volume-container:hover .jw-rail,
 .jw-slider-time:focus .jw-rail,
@@ -212,7 +220,7 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-replay path,
 .jwplayer .jw-svg-icon-cc-on path,
 .jwplayer .jw-svg-icon-cc-off path,
-.jwplayer jw-svg-icon-close path {
+.jwplayer .jw-svg-icon-close path {
   display: none;
 }
 
