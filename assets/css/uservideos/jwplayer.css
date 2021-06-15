@@ -144,6 +144,10 @@ span.jw-text.jw-reset {
   display: none;
 }
 
+.jw-breakpoint-7 .jw-settings-menu {
+  bottom: 70px !important
+}
+
 .jw-slider-time:hover .jw-rail,
 .jw-horizontal-volume-container:hover .jw-rail,
 .jw-slider-time:focus .jw-rail,
