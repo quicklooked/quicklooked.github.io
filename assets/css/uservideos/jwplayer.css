@@ -58,6 +58,7 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
   padding-left: 32px !important;
   align-items: center !important;
   font-weight: 400 !important;
+  color: rgba(255,255,255) !important;
 }
 
 button.jw-reset-text.jw-settings-content-item:before {
