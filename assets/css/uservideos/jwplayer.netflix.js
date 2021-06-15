@@ -216,17 +216,6 @@ window.nmplayer = function(e) {
     });
     jwplayer().on("beforePlay", (e) => {
       $("#slider-pop").css('display', 'none');
-      if(jwplayer().getPlaylistItem().video_type != 'movie' && jwplayer().getPlaylistItem().video_type != 'special') {
-        var res = (f.subroute || '') + "/watch?id=" + jwplayer().getPlaylistItem().tmdbid + "&season=" + zeroPad(jwplayer().getPlaylistItem().season, 2) + "&episode=" + zeroPad(jwplayer().getPlaylistItem().episode, 2);
-      } else {
-        var res = (f.subroute || '') + "/watch?id=" + jwplayer().getPlaylistItem().tmdbid;
-      }
-      if(new URLSearchParams(window.location.search).get('type') == null) {
-        window.history.pushState("nmplayer", jwplayer().getPlaylistItem().title, res);
-      } else {
-        var res = "/watch?id=" + jwplayer().getPlaylistItem().tmdbid + '&type=' + new URLSearchParams(window.location.search).get('type') + "&item=" + jwplayer().getPlaylistIndex();
-        window.history.pushState("nmplayer", jwplayer().getPlaylistItem().title, res);
-      }
       document.title = jwplayer().getPlaylistItem().title;
       window.newTime = 0;
       $('#remaining-time').text(humanTime(jwplayer().getDuration() - jwplayer().getPosition()));
