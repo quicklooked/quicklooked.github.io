@@ -7,8 +7,8 @@
 .jwplayer .jw-icon-rewind,
 .jwplayer .jw-icon-forward,
 .jwplayer .jw-nextup-container-visible,
-.jwplayer .jw-state-paused .jw-display-icon-display,
-.jwplayer .jw-state-playing .jw-display-icon-display,
+.jwplayer.jw-state-paused .jw-display-icon-display,
+.jwplayer.jw-state-playing .jw-display-icon-display,
 .jwplayer .jw-display-icon-rewind, 
 .jwplayer .jw-display-icon-next {
   display: none !important;
