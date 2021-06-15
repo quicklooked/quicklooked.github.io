@@ -3,7 +3,9 @@
 .jwplayer .jw-tooltip,
 .jwplayer .jw-rightclick,
 .jwplayer .jw-slider-vertical,
-.jwplayer .jw-icon-settings {
+.jwplayer .jw-icon-settings,
+.jwplayer .jw-icon-rewind,
+.jwplayer .jw-icon-rewind {
   display: none !important;
 }
 
