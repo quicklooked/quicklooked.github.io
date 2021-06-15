@@ -75,8 +75,8 @@ button.jw-reset-text.jw-settings-content-item:before {
 button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   content: "" !important;
   font-size: 0 !important;
-  background-color: rgb(140, 140, 140) !important;
-  border-color: rgb(140, 140, 140) !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
 }
 
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
