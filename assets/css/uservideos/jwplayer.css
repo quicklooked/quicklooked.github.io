@@ -1,11 +1,8 @@
 .jwplayer .jw-text-elapsed,
-.jwplayer .jw-text-duration {
-  display: none;
-}
-
+.jwplayer .jw-text-duration,
 .jwplayer .jw-tooltip,
 .jwplayer .jw-rightclick,
-.jw-slider-vertical {
+.jwplayer .jw-slider-vertical {
   display: none !important;
 }
 
