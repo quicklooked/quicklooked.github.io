@@ -57,7 +57,6 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
   display: flex !important;
   padding-left: 32px !important;
   align-items: center !important;
-  opacity: .75 !important;
   font-weight: 400 !important;
 }
 
@@ -160,7 +159,7 @@ span.jw-text.jw-reset {
   font-size: 12px !important;
   padding: 10px 0px 10px 0 !important;
   height: 40px !important;
-  color: #fff !important;
+  color: rgb(140, 140, 140) !important;
 }
 
 .jw-settings-submenu .jw-submenu-topbar {
