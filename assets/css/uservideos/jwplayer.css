@@ -74,26 +74,6 @@ span.jw-text.jw-reset {
   border: none !important;
 }
 
-.jw-slider-time .jw-rail,
-.jw-horizontal-volume-container .jw-rail,
-.jw-slider-time .jw-buffer,
-.jw-horizontal-volume-container .jw-buffer,
-.jw-slider-time .jw-progress,
-.jw-horizontal-volume-container .jw-progress,
-.jw-slider-time .jw-cue,
-.jw-horizontal-volume-container .jw-cue {
-  -webkit-transform: none !important;
-  transform: none !important;
-  transition: none !important;
-}
-
-.jw-slider-horizontal .jw-rail,
-.jw-slider-horizontal .jw-buffer,
-.jw-slider-horizontal .jw-progress,
-.jw-slider-horizontal .jw-cue,
-.jw-slider-horizontal .jw-knob {
-  top: 0 !important;
-}
 
 .jw-slider-time:hover .jw-rail,
 .jw-horizontal-volume-container:hover .jw-rail,
@@ -127,6 +107,18 @@ span.jw-text.jw-reset {
 .jw-flag-dragging .jw-horizontal-volume-container .jw-cue,
 .jw-flag-touch .jw-slider-time .jw-cue,
 .jw-flag-touch .jw-horizontal-volume-container .jw-cue {
-  -webkit-transform: none !important;
-  transform: none !important;
+  -webkit-transform: translate(0, -50%) scale(1, 1) !important;
+  transform: translate(0, -50%) scale(1, 1) !important;
+}
+
+.jw-slider-time .jw-rail,
+.jw-horizontal-volume-container .jw-rail,
+.jw-slider-time .jw-buffer,
+.jw-horizontal-volume-container .jw-buffer,
+.jw-slider-time .jw-progress,
+.jw-horizontal-volume-container .jw-progress,
+.jw-slider-time .jw-cue,
+.jw-horizontal-volume-container .jw-cue {
+  -webkit-transform: translate(0, -50%) scale(1, 1) !important;
+  transform: translate(0, -50%) scale(1, 1) !important;
 }
