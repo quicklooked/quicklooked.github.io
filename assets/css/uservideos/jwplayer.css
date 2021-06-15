@@ -140,6 +140,7 @@ span.jw-text.jw-reset {
 .jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
   text-align: left !important;
   text-decoration: none !important;
+  display: none !important;
 }
 
 .jw-settings-topbar {
