@@ -10,7 +10,8 @@
 .jwplayer.jw-state-paused .jw-display-icon-display,
 .jwplayer.jw-state-playing .jw-display-icon-display,
 .jwplayer .jw-display-icon-rewind, 
-.jwplayer .jw-display-icon-next {
+.jwplayer .jw-display-icon-next,
+.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-full .jw-overlay.jw-reset {
   display: none !important;
 }
 
