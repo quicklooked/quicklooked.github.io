@@ -48,13 +48,28 @@
   box-shadow: none !important;
 }
 
-.jw-settings-item-active::before {
+button.jw-reset-text.jw-settings-content-item {
+  display: flex;
+  align-items: center !important;
+}
+
+button.jw-reset-text.jw-settings-content-item:before {
   content: "" !important;
-  width: 8px !important;
-  height: 8px !important;
-  background: #fff !important;
-  margin: 16px 0px 16px 6px !important;
-  border-radius: 50px !important;
+  font-size: 0 !important;
+  display: inline-flex !important;
+  vertical-align: 4% !important;
+  margin-right: 20px !important;
+  width: 12px !important;
+  height: 12px !important;
+  border: 1px solid #666 !important;
+  border-radius: 50% !important;
+}
+
+button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
+  content: "" !important;
+  font-size: 0 !important;
+  background-color: rgb(140, 140, 140) !important;
+  border-color: rgb(140, 140, 140) !important;
 }
 
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
