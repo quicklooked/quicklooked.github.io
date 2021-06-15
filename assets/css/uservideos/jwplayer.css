@@ -104,6 +104,12 @@ span.jw-text.jw-reset {
   border: none !important;
 }
 
+.jw-settings-content-item {
+  font-size: 12px !important;
+  padding: 10px 10px 10px 20px !important;
+  height: 40px !important;
+  color: #fff !important;
+}
 
 .jw-slider-time:hover .jw-rail,
 .jw-horizontal-volume-container:hover .jw-rail,
