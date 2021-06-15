@@ -252,3 +252,13 @@ span.jw-text.jw-reset {
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-forward {
   display: none;
 }
+
+.jw-settings-quality,
+.jw-settings-audioTracks,
+.jw-settings-captions,
+.jw-settings-close {
+  padding: 0 !important;
+  border: 0 !important;
+  width: 25% !important;
+  height: 40px !important;
+}
