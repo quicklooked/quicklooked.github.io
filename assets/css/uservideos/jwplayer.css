@@ -19,6 +19,11 @@
   border-radius: 4px;
 }
 
+.jw-reset.jw-settings-topbar {
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
+}
+
 .jwplayer .jw-text-countdown {
   display: flex !important;
   width: fit-content !important;
