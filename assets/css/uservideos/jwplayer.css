@@ -268,4 +268,6 @@ span.jw-text.jw-reset {
   background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute; fill:%23fff' viewBox='0 0 18 18'%3E%3Cpath d='M7.53821454,9 L0,1.46178546 L1.46178546,0 L9,7.53821454 L16.5382145,0 L18,1.46178546 L10.4617855,9 L18,16.5382145 L16.5382145,18 L9,10.4617855 L1.46178546,18 L0,16.5382145 L7.53821454,9 Z'%3E%3C/path%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
+  width: 16px !important;
+  height: 16px !important;
 }
