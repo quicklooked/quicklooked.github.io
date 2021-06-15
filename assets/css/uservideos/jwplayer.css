@@ -111,6 +111,29 @@ span.jw-text.jw-reset {
   color: #fff !important;
 }
 
+.jw-settings-content-item {
+  font-size: 12px !important;
+  padding: 10px 10px 10px 20px !important;
+  height: 40px !important;
+  color: #fff !important;
+}
+
+.jw-settings-submenu .jw-submenu-topbar {
+  box-shadow: none !important;
+  background-color: transparent !important;
+  margin: 0 !important;
+}
+
+.jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.jw-settings-topbar {
+  background-color: #2f2d2d !important;
+  padding: 0 !important;
+}
+
 .jw-slider-time:hover .jw-rail,
 .jw-horizontal-volume-container:hover .jw-rail,
 .jw-slider-time:focus .jw-rail,
