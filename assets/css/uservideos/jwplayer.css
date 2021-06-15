@@ -3,6 +3,10 @@
   display: none;
 }
 
+.jwplayer .jw-rightclick {
+  display: none !important;
+}
+
 .jwplayer .jw-text-countdown {
   display: flex !important;
 }
