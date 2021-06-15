@@ -24,3 +24,24 @@
   padding: 0.2em !important;
   border-radius: 0.2em !important;
 }
+
+.jw-time-tip.jw-reset {
+  font-size: .4em !important;
+  line-height: 1 !important;
+}
+
+span.jw-text.jw-reset {
+  background-color: #262626 !important;
+  border-radius: 0.3em !important;
+  color: #fff !important;
+  font-size: 1.8em !important;
+  padding: 10px !important;
+  min-height: 1em !important;
+}
+
+.jw-time-tip::after,
+.jw-controlbar .jw-tooltip::after,
+.jw-settings-menu .jw-tooltip::after {
+  height: 0 !important;
+  width: 0 !important;
+}
