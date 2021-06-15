@@ -38,6 +38,27 @@
   box-shadow: none !important;
 }
 
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
+  display: flex !important;
+}
+
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-next,
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-related-btn,
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-rewind,
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-forward {
+  display: none;
+}
+
+.jw-settings-quality,
+.jw-settings-audioTracks,
+.jw-settings-captions,
+.jw-settings-close {
+  padding: 0 !important;
+  border: 0 !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
 .jwplayer .jw-text-track-cue {
   font-weight: 700 !important;
   letter-spacing: -0.022em !important;
@@ -160,7 +181,8 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-pause path,
 .jwplayer .jw-svg-icon-replay path,
 .jwplayer .jw-svg-icon-cc-on path,
-.jwplayer .jw-svg-icon-cc-off path {
+.jwplayer .jw-svg-icon-cc-off path,
+.jwplayer jw-svg-icon-close path {
   display: none;
 }
 
@@ -242,23 +264,8 @@ span.jw-text.jw-reset {
   background-repeat: no-repeat;
 }
 
-.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
-  display: flex !important;
-}
-
-.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-next,
-.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-related-btn,
-.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-rewind,
-.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-forward {
-  display: none;
-}
-
-.jw-settings-quality,
-.jw-settings-audioTracks,
-.jw-settings-captions,
-.jw-settings-close {
-  padding: 0 !important;
-  border: 0 !important;
-  width: 40px !important;
-  height: 40px !important;
+.jw-svg-icon-close {
+  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute; fill:%23fff' viewBox='0 0 18 18'%3E%3Cpath d='M7.53821454,9 L0,1.46178546 L1.46178546,0 L9,7.53821454 L16.5382145,0 L18,1.46178546 L10.4617855,9 L18,16.5382145 L16.5382145,18 L9,10.4617855 L1.46178546,18 L0,16.5382145 L7.53821454,9 Z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
