@@ -6,3 +6,13 @@
 .jwplayer .jw-text-countdown {
   display: flex !important;
 }
+
+.jw-text-track-cue {
+  font-weight: 700 !important;
+  letter-spacing: -0.022em !important;
+  display: inline-block !important;
+  text-align: center !important;
+  line-height: 1.2em !important;
+  padding: 0.2em !important;
+  border-radius: 0.2em !important;
+}
