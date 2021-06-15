@@ -214,22 +214,6 @@ window.nmplayer = function(e) {
     jwplayer().on("viewable", (e) => {
       addEventListeners();
     });
-    jwplayer().on("beforePlay", (e) => {
-      $("#slider-pop").css('display', 'none');
-      document.title = jwplayer().getPlaylistItem().title;
-      window.newTime = 0;
-      $('#remaining-time').text(humanTime(jwplayer().getDuration() - jwplayer().getPosition()));
-      if(jwplayer().getMute()) {
-        $("#btn-mute-mobile").toggleClass("unmuted", "muted");
-      };
-      hideOptionsMenu();
-      hideSeasonsMenu();
-      hideQualityMenu();
-      if(typeof window.nmsync == 'undefined') {
-        setAudioTrack();
-        setSubtitleTrack();
-      }
-    });
     jwplayer().on("play", (e) => {
       lock = false;
       $('.spinner').css("display", "none");
