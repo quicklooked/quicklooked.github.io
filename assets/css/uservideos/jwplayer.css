@@ -55,6 +55,7 @@ button.jw-reset-text.jw-settings-content-item {
 
 button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
   display: flex !important;
+  padding-left: 32px !important;
   align-items: center !important;
   opacity: .75 !important;
   font-weight: 400 !important;
