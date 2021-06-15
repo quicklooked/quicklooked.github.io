@@ -19,6 +19,10 @@
   border-radius: 0;
 }
 
+.jw-settings-submenu::-webkit-scrollbar-thumb {
+  border-radius: 0 !important;
+}
+
 .jw-reset.jw-settings-topbar {
   border-top-left-radius: 0 !important;
   border-top-right-radius: 0 !important;
