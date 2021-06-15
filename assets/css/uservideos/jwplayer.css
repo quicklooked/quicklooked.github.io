@@ -146,7 +146,10 @@ span.jw-text.jw-reset {
 }
 
 .jw-icon {
-  transition: all .2s;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
   transform-origin: 50% 50%;
 }
 
