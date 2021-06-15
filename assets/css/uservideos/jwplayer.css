@@ -10,6 +10,10 @@
   display: flex !important;
 }
 
+.jwplayer .jw-icon::after {
+  box-shadow: none !important;
+}
+
 .jw-text-track-cue {
   font-weight: 700 !important;
   letter-spacing: -0.022em !important;
