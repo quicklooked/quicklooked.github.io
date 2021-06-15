@@ -48,6 +48,15 @@
   box-shadow: none !important;
 }
 
+.jw-settings-item-active::before {
+  content: "" !important;
+  width: 8px !important;
+  height: 8px !important;
+  background: #fff !important;
+  margin: 16px 0px 16px 6px !important;
+  border-radius: 50px !important;
+}
+
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
   display: flex !important;
 }
