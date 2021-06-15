@@ -7003,7 +7003,7 @@ html[dir=rtl] .mobile-nav-button[aria-expanded=true] .mobile-nav-bread--bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 40px 0
+  margin: 20px 5vw 0
 }
 
 .preview-product-header__image__container {
