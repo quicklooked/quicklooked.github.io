@@ -366,6 +366,46 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   display: flex !important;
 }
 
+.jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color {
+  border: 0 !important;
+  padding: 0 !important;
+  margin-right: 5vw !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.jw-reset.jw-related-container {
+  padding: 40px 5vw 40px !important;
+}
+
+.jw-related-title.jw-reset-text {
+  font-weight: 700 !important;
+  color: #fff !important;
+  padding: 0 5vw !important;
+  line-height: 2 !important;
+  font-size: 20px !important;
+}
+
+.jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color {
+  padding: 0 !important;
+  border: 0 !important;
+  width: 40px !important;
+  height: 40px !important;
+  position: absolute !important;
+  top: 20px !important;
+  left: 0 !important;
+}
+
+.jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-right.jw-button-color {
+  padding: 0 !important;
+  border: 0 !important;
+  width: 40px !important;
+  height: 40px !important;
+  position: absolute !important;
+  top: 20px !important;
+  right: 0 !important;
+}
+
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-next,
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-related-btn,
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-rewind,
@@ -553,7 +593,9 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-close path,
 .jwplayer .jw-svg-icon-quality-100 path,
 .jwplayer .jw-svg-icon-audio-tracks path,
-.jwplayer .jw-svg-icon-buffer path {
+.jwplayer .jw-svg-icon-buffer path,
+.jwplayer .jw-svg-icon-arrow-right, 
+.jwplayer .jw-svg-icon-arrow-left, {
   display: none;
 }
 
@@ -659,6 +701,20 @@ span.jw-text.jw-reset {
 
 .jw-svg-icon-buffer {
   background-image: url("/assets/images/icons/site-spinner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jw-svg-icon-arrow-right {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 6 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jw-svg-icon-arrow-left {
+  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36' fill='%23fff'%3E%3Cpath d='M312,392.74a0.34,0.34,0,0,0-.41-0.34h-6.79v-3.71c0-.3-0.34-0.41-0.45-0.26l-6.79,6.79a0.32,0.32,0,0,0-.11.22,0.29,0.29,0,0,0,.11.26l6.79,6.75a0.26,0.26,0,0,0,.19.11,0.23,0.23,0,0,0,.19,0,0.27,0.27,0,0,0,.19-0.3v-3.71h6.71a0.4,0.4,0,0,0,.38-0.3v-5.48Zm-6.15,17.85A15.13,15.13,0,1,1,321,395.44,15.11,15.11,0,0,1,305.89,410.59Zm0-33.15a18,18,0,1,0,18,18A18.09,18.09,0,0,0,305.89,377.44Z' transform='translate(-287.85 -377.44)'%3E%3C/path%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
