@@ -24,6 +24,7 @@ var jwDefaults = {
   },
   "cast": {},
   "abouttext": "Quicklook TV+",
+  "name": "Quicklook TV+ Player",
   "aboutlink": "https://quicklooked.github.io/media/watch/help",
   "aspectratio": "16:9",
   "horizontalVolumeSlider": false,
