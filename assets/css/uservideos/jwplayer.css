@@ -324,6 +324,44 @@
   width: 28px !important;
 }
 
+.jw-breakpoint-4 .jw-display .jw-icon,
+.jw-breakpoint-5 .jw-display .jw-icon,
+.jw-breakpoint-6 .jw-display .jw-icon,
+.jw-breakpoint-7 .jw-display .jw-icon,
+.jw-breakpoint-4 .jw-display .jw-svg-icon,
+.jw-breakpoint-5 .jw-display .jw-svg-icon,
+.jw-breakpoint-6 .jw-display .jw-svg-icon,
+.jw-breakpoint-7 .jw-display .jw-svg-icon {
+  width: 98px !important;
+  height: 98px !important;
+  line-height: 98px !important;
+}
+
+.jw-breakpoint-2 .jw-display .jw-icon,
+.jw-breakpoint-3 .jw-display .jw-icon,
+.jw-breakpoint-2 .jw-display .jw-svg-icon,
+.jw-breakpoint-3 .jw-display .jw-svg-icon {
+  width: 70px !important;
+  height: 70px !important;
+  line-height: 70px !important;
+}
+
+.jw-breakpoint-1 .jw-display .jw-icon,
+.jw-breakpoint-1 .jw-display .jw-svg-icon {
+  width: 56px !important;
+  height: 56px !important;
+  line-height: 56px !important;
+}
+
+.jw-breakpoint-0 .jw-display .jw-icon,
+.jw-breakpoint--1 .jw-display .jw-icon,
+.jw-breakpoint-0 .jw-display .jw-svg-icon,
+.jw-breakpoint--1 .jw-display .jw-svg-icon {
+  width: 42px !important;
+  height: 42px !important;
+  line-height: 42px !important;
+}
+
 .jw-settings-menu .jw-icon.jw-button-color::after {
   width: 28px !important;
 }
