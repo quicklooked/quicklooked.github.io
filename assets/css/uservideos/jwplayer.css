@@ -292,12 +292,16 @@
   border-radius: 0;
 }
 
-.jw-flag-floating .jw-wrapper {
-  top: 44px !important;
-  bottom: auto !important;
-  left: auto !important;
-  right: 0 !important;
-  margin: 0 !important;
+@media only screen and (max-width: 739px) {
+  .jw-flag-floating .jw-wrapper {
+    top: 44px !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
 }
 
 .jw-settings-submenu::-webkit-scrollbar-thumb {
