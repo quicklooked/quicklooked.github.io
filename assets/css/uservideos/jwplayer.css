@@ -300,6 +300,13 @@
   background-color: #5b5b5b !important;
 }
 
+.jw-related-shelf-item .jw-text {
+  line-height: 16px !important;
+  -webkit-line-clamp: 1 !important;
+  max-height: 16px !important;
+  font-size: 12px !important;
+}
+
 .jwplayer.jw-state-buffering .jw-display-icon-display .jw-icon .jw-svg-icon-buffer {
   -webkit-animation: jw-spin 350ms linear infinite !important;
   animation: jw-spin 350ms linear infinite !important;
