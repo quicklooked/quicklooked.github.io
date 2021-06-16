@@ -9,7 +9,7 @@ var jwDefaults = {
   "controls": true,
   "debug": false,
    "localization": {
-     "related": "Flere Videoer"
+     "related": "Episodes"
   },
   "cast": {},
   "abouttext": "Quicklook TV+",
@@ -34,7 +34,7 @@ var jwDefaults = {
   },
   "mute": true,
   "ph": 1,
-  "pid": "Jq6HIbgz",
+  "pid": "q5q3aKtq",
   "playbackRateControls": false,
   "preload": "metadata",
   "repeat": false,
