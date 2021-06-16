@@ -8,6 +8,9 @@ var jwDefaults = {
   "renderCaptionsNatively": false,
   "controls": true,
   "debug": false,
+   "localization": {
+     "related": "Flere Videoer"
+  },
   "cast": {},
   "abouttext": "Quicklook TV+",
   "aspectratio": "16:9",
