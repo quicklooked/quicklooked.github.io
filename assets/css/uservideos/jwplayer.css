@@ -402,6 +402,13 @@
   padding: 0 !important;
 }
 
+
+.jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
+  text-align: left !important;
+  text-decoration: none !important;
+  display: none !important;
+}
+
 /*
 button.jw-reset-text.jw-settings-content-item {
   display: flex;
@@ -419,14 +426,6 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
   font-weight: 400 !important;
   color: rgba(255,255,255) !important;
 }
-
-
-.jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
-  text-align: left !important;
-  text-decoration: none !important;
-  display: none !important;
-}
-
 
 .jw-settings-content-item {
   font-size: 12px !important;
