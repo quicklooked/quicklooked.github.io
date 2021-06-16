@@ -5,11 +5,20 @@ var jwDefaults = {
   "fullscreen": true,
   "flashplayer": "//ssl.p.jwpcdn.com/player/v/8.12.5/jwplayer.flash.swf",
   "stagevideo": true,
+  "seekBackward": 10,
+  "seekForward": 10,
   "renderCaptionsNatively": false,
   "controls": true,
   "debug": false,
   "localization": {
     "related": "Episodes"
+  },
+  "related": {
+    "autoplaymessage": "__title__ spilles av om xx sekunder.",
+    "autoplaytimer": 5,
+    "file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
+    "onclick": "play",
+    "oncomplete": "autoplay"
   },
   "floating": {
     "dismissible": true
