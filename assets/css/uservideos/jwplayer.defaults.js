@@ -12,7 +12,7 @@ var jwDefaults = {
     "related": "Episodes"
   },
   "related": {
-    "autoplaymessage": "__title__ spilles av om xx sekunder.",
+    "autoplaymessage": "__title__ will play in xxs",
     "autoplaytimer": 5,
     "file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
     "onclick": "play",
