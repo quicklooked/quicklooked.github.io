@@ -594,8 +594,8 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-quality-100 path,
 .jwplayer .jw-svg-icon-audio-tracks path,
 .jwplayer .jw-svg-icon-buffer path,
-.jwplayer .jw-svg-icon-arrow-right, 
-.jwplayer .jw-svg-icon-arrow-left {
+.jwplayer .jw-svg-icon-arrow-right path, 
+.jwplayer .jw-svg-icon-arrow-left path {
   display: none;
 }
 
