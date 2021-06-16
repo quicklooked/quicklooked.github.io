@@ -271,6 +271,7 @@
 .jwplayer .jw-text-duration,
 .jwplayer .jw-icon-settings,
 .jwplayer .jw-slider-vertical,
+.jwplayer .jw-svg-icon-arrow-down,
 .jwplayer .jw-display-icon-next,
 .jwplayer .jw-display-icon-rewind, 
 .jwplayer .jw-nextup-container-visible,
@@ -694,7 +695,8 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-quality-100 path,
 .jwplayer .jw-svg-icon-audio-tracks path,
 .jwplayer .jw-svg-icon-buffer path,
-.jwplayer .jw-svg-icon-arrow-right path, 
+.jwplayer .jw-svg-icon-arrow-right path,
+.jwplayer .jw-svg-icon-arrow-down path,
 .jwplayer .jw-svg-icon-arrow-left path {
   display: none;
 }
