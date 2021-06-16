@@ -408,6 +408,7 @@
 
 button.jw-reset-text.jw-settings-content-item {
   height: 28px !important;
+  line-height: 1 !important;
   font-size: 12px !important;
   padding: 8px 12px 8px 20px !important;
 }
@@ -538,8 +539,6 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   padding: 0 !important;
   padding-left: 0 !important;
   border: 0 !important;
-  width: 40px !important;
-  height: 40px !important;
 }
 
 .jwplayer .jw-text-track-cue {
