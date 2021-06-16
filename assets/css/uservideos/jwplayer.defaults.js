@@ -8,7 +8,6 @@ var jwDefaults = {
   "renderCaptionsNatively": false,
   "controls": true,
   "debug": false,
-  "volumeSlider": false,
   "localization": {
     "related": "Episodes"
   },
