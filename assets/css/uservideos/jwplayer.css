@@ -304,6 +304,9 @@
     max-width: calc(100vh - 0px) !important;
     max-height: calc(100vh - 44px) !important;
   }
+  .jw-icon.jw-icon-tooltip.jw-tooltip-time.jw-button-color.jw-reset {
+    display: none !important
+  }
 }
 
 .jw-settings-submenu::-webkit-scrollbar-thumb {
