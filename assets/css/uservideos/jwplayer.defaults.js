@@ -5,8 +5,6 @@ var jwDefaults = {
   "fullscreen": true,
   "flashplayer": "//ssl.p.jwpcdn.com/player/v/8.12.5/jwplayer.flash.swf",
   "stagevideo": true,
-  "seekBackward": 10,
-  "seekForward": 10,
   "renderCaptionsNatively": false,
   "controls": true,
   "debug": false,
