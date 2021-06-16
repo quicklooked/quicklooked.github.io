@@ -20,7 +20,7 @@ var jwDefaults = {
   },
   "floating": {
     "dismissible": true
-  }
+  },
   "cast": {},
   "abouttext": "Quicklook TV+",
   "aspectratio": "16:9",
