@@ -298,7 +298,7 @@
     bottom: auto !important;
     left: auto !important;
     right: 0 !important;
-    margin: 0 !important;
+    margin: 0 auto !important;
     max-width: calc(100vh - 0px) !important;
     max-height: calc(100vh - 44px) !important;
   }
