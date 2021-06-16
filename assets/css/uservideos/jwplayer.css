@@ -492,8 +492,11 @@ span.jw-text.jw-reset {
 }
 
 .jwplayer .jw-time-tip::after {
+  /*
   height: 0 !important;
   width: 0 !important;
+  */
+  background: #262626 !important;
 }
 
 .jw-slider-horizontal .jw-slider-container {
