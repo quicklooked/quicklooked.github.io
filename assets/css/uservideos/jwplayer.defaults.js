@@ -11,13 +11,6 @@ var jwDefaults = {
   "localization": {
     "related": "Episodes"
   },
-  "related": {
-    "autoplaymessage": "__title__ spilles av om xx sekunder.",
-    "autoplaytimer": 5,
-    "file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
-    "onclick": "play",
-    "oncomplete": "autoplay"
-  },
   "cast": {},
   "abouttext": "Quicklook TV+",
   "aspectratio": "16:9",
