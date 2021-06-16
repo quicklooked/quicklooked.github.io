@@ -492,6 +492,15 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   background-color: #e50914;
 }
 
+.jw-breakpoint-2 .jw-related-item,
+.jw-breakpoint-3 .jw-related-item,
+.jw-breakpoint-4 .jw-related-item,
+.jw-breakpoint-5 .jw-related-item,
+.jw-breakpoint-6 .jw-related-item,
+.jw-breakpoint-7 .jw-related-item {
+  padding: 0 10px 10px 0 !important;
+}
+
 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color {
   padding: 3px !important;
   border: 0 !important;
