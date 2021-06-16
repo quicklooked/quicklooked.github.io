@@ -402,9 +402,14 @@
   padding: 0 !important;
 }
 
+/*
 button.jw-reset-text.jw-settings-content-item {
   display: flex;
   align-items: center !important;
+}
+
+.jw-settings-content-item:hover {
+  background: #262626;
 }
 
 button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
@@ -413,6 +418,20 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
   align-items: center !important;
   font-weight: 400 !important;
   color: rgba(255,255,255) !important;
+}
+
+
+.jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
+  text-align: left !important;
+  text-decoration: none !important;
+  display: none !important;
+}
+
+
+.jw-settings-content-item {
+  font-size: 12px !important;
+  padding: 10px 0px 10px 0 !important;
+  height: 40px !important;
 }
 
 button.jw-reset-text.jw-settings-content-item:before {
@@ -433,6 +452,7 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   background-color: #fff !important;
   border-color: #fff !important;
 }
+*/
 
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
   display: flex !important;
@@ -542,30 +562,14 @@ span.jw-text.jw-reset {
   border: none !important;
 }
 
-.jw-settings-content-item:hover {
-  background: #262626;
-}
-
 .jw-settings-submenu {
   padding: 0 !important
-}
-
-.jw-settings-content-item {
-  font-size: 12px !important;
-  padding: 10px 0px 10px 0 !important;
-  height: 40px !important;
 }
 
 .jw-settings-submenu .jw-submenu-topbar {
   box-shadow: none !important;
   background-color: transparent !important;
   margin: 0 !important;
-}
-
-.jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
-  text-align: left !important;
-  text-decoration: none !important;
-  display: none !important;
 }
 
 .jw-settings-topbar {
