@@ -465,10 +465,9 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
 
 .jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color {
   border: 0 !important;
-  padding: 0 !important;
-  margin-right: 5vw !important;
-  width: 40px !important;
-  height: 40px !important;
+	padding: 3px !important;
+	width: 34px !important;
+	height: 34px !important;
 }
 
 .jw-reset.jw-related-container {
@@ -478,9 +477,19 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
 .jw-related-title.jw-reset-text {
   font-weight: 700 !important;
   color: #fff !important;
-  padding: 0 5vw !important;
-  line-height: 2 !important;
+  padding-left: 1em !important;
+  line-height: 34px !important;
   font-size: 20px !important;
+}
+
+.jw-related-title.jw-reset-text:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 3px;
+  top: 8px;
+  bottom: 8px;
+  background-color: #e50914;
 }
 
 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color {
@@ -488,8 +497,6 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   border: 0 !important;
   width: 40px !important;
   height: 40px !important;
-  position: absolute !important;
-  top: 20px !important;
   left: 0 !important;
 }
 
@@ -498,8 +505,6 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   border: 0 !important;
   width: 40px !important;
   height: 40px !important;
-  position: absolute !important;
-  top: 20px !important;
   right: 0 !important;
 }
 
@@ -759,11 +764,11 @@ span.jw-text.jw-reset {
 }
 
 .jw-svg-icon-close {
-  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute; fill:%23fff' viewBox='0 0 18 18'%3E%3Cpath d='M7.53821454,9 L0,1.46178546 L1.46178546,0 L9,7.53821454 L16.5382145,0 L18,1.46178546 L10.4617855,9 L18,16.5382145 L16.5382145,18 L9,10.4617855 L1.46178546,18 L0,16.5382145 L7.53821454,9 Z'%3E%3C/path%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25.5 25.5'%3E%3Cpolygon fill='%23fff' class='st0' points='25.5,1.4 24,0 12.7,11.3 1.4,0 0,1.4 11.3,12.7 0,24 1.4,25.5 12.7,14.1 24,25.5 25.5,24 14.1,12.7 '%3E%3C/polygon%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 16px !important;
-  height: 16px !important;
+  width: 26px !important;
+  height: 26px !important;
 }
 
 .jw-svg-icon-quality-100 {
