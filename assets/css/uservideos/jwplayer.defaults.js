@@ -25,7 +25,6 @@ var jwDefaults = {
   "cast": {},
   "abouttext": "Quicklook TV+",
   "related_dimensions": true,
-  "related_heading": "Episodes The Year Earth Changed",
   "name": "Quicklook TV+ Player",
   "aboutlink": "https://quicklooked.github.io/media/watch/help",
   "aspectratio": "16:9",
