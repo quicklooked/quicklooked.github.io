@@ -14,12 +14,11 @@ var jwDefaults = {
   },
   "related": {
     "autoplaymessage": "__title__ will play in xxs",
-    "autoplaytimer": 5,
+    "autoplaytimer": 0,
     "file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
     "onclick": "play",
     "oncomplete": "autoplay",
-    "displayMode": "shelf",
-    "heading": "Season 1 Trailer: The Year Earth Changed"
+    "displayMode": "shelf"
   },
   "floating": {
     "dismissible": true
