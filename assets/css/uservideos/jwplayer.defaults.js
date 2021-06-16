@@ -11,6 +11,9 @@ var jwDefaults = {
   "localization": {
     "related": "Episodes"
   },
+  "floating": {
+    "dismissible": true
+  }
   "cast": {},
   "abouttext": "Quicklook TV+",
   "aspectratio": "16:9",
@@ -24,13 +27,14 @@ var jwDefaults = {
   "height": "100%",
   "visualplaylist": true,
   "captions": {
-    "fontFamily": "Helvetica, Arial, sans-serif",
-    "fontOpacity": "100",
-    "color": "#FFF",
+    "fontFamily": "sans",
+    "fontOpacity": 100,
+    "edgeStyle": "none", 
+    "color": "#ffffff",
     "windowColor": "#000000",
-    "windowOpacity": "0",
+    "windowOpacity": 0,
     "backgroundColor": "#000000",
-    "backgroundOpacity": "50"
+    "backgroundOpacity": 50
   },
   "mute": true,
   "ph": 1,
