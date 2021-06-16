@@ -281,6 +281,10 @@
   display: none !important;
 }
 
+.jw-reset.jw-related-item-group {
+	width: 100% !important;
+}
+
 .jw-icon {
   -webkit-transition: all .1s ease;
   -moz-transition: all .1s ease;
