@@ -314,15 +314,6 @@
   }
 }
 
-.jw-settings-submenu::-webkit-scrollbar-thumb {
-  border-radius: 0 !important;
-}
-
-.jw-reset.jw-settings-topbar {
-  border-top-left-radius: 0 !important;
-  border-top-right-radius: 0 !important;
-}
-
 .jwplayer .jw-text-countdown {
   display: flex !important;
   width: fit-content !important;
@@ -417,6 +408,15 @@ button.jw-reset-text.jw-settings-content-item {
 
 .jw-settings-content-item:hover {
   background: #262626;
+}
+
+.jw-reset.jw-settings-topbar {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+.jw-settings-submenu::-webkit-scrollbar-thumb {
+  border-radius: 0 !important;
 }
 
 button.jw-reset-text.jw-settings-content-item.jw-settings-item-active {
