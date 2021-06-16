@@ -294,6 +294,11 @@
   border-radius: 0;
 }
 
+.jwplayer.jw-state-buffering .jw-display-icon-display .jw-icon .jw-svg-icon-buffer {
+  -webkit-animation: jw-spin 350ms linear infinite !important;
+  animation: jw-spin 350ms linear infinite !important;
+}
+
 @media only screen and (max-width: 739px) {
   .jw-flag-floating .jw-wrapper {
     top: 44px !important;
