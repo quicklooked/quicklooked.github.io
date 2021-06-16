@@ -9,7 +9,6 @@ var jwDefaults = {
   "controls": true,
   "debug": false,
   "responsive": true,
-  "playlist": "right",
   "localization": {
     "related": "Episodes"
   },
