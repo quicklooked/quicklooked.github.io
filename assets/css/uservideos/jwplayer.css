@@ -320,8 +320,13 @@
 }
 
 .jw-svg-icon {
-  height: 28px !important;
-  width: 28px !important;
+  height: 1.6em !important;
+  width: 1.6em !important;
+  font-size: 1.19em !important;
+  border: solid 1px transparent !important;
+  margin: 0 -1px !important;
+  stroke-width: 0 !important;
+  stroke: #fff !important;
 }
 
 .jw-breakpoint-4 .jw-display .jw-icon,
