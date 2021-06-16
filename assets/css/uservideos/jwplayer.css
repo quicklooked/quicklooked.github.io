@@ -319,6 +319,15 @@
   padding-right: 2.5em !important;
 }
 
+.jw-svg-icon {
+  height: 28px !important;
+  width: 28px !important;
+}
+
+.jw-settings-menu .jw-icon.jw-button-color::after {
+  width: 28px !important;
+}
+
 .jwplayer .jw-icon::after {
   box-shadow: none !important;
 }
