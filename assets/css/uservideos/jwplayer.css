@@ -601,7 +601,8 @@ span.jw-text.jw-reset {
   padding: 0 !important;
 }
 
-.jw-breakpoint-1 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
+.jw-breakpoint-1 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close,
+.jw-breakpoint-0 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
   display: flex !important
 }
 
