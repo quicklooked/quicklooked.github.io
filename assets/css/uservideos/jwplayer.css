@@ -300,6 +300,7 @@
   -webkit-animation-direction: alternate;
 }
 
+/*
 .jw-icon {
   -webkit-transition: all .1s ease;
   -moz-transition: all .1s ease;
@@ -307,6 +308,7 @@
   transition: all .1s ease;
   transform-origin: 50% 50%;
 }
+*/
 
 .jwplayer .jw-overlays .jw-plugin-related.jw-plugin-related-open {
   padding: 20px !important;
