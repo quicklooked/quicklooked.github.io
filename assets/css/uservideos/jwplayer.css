@@ -694,6 +694,19 @@ span.jw-text.jw-reset {
   padding: 0 0 0.6em 0 !important;
 }
 
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback .jw-svg-icon,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind .jw-svg-icon,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-forward .jw-svg-icon,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next .jw-svg-icon,
+.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-off .jw-svg-icon,
+.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-full .jw-svg-icon,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-related-btn .jw-svg-icon,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button .jw-svg-icon,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen .jw-svg-icon {
+  min-height: 28px !important;
+  min-width: 28px !important;
+}
+
 .jwplayer .jw-svg-icon-fullscreen-on path,
 .jwplayer .jw-svg-icon-fullscreen-off path,
 .jwplayer .jw-svg-icon-volume-100 path,
