@@ -310,6 +310,30 @@
 }
 */
 
+span.jw-item-index-text.jw-related-item-title-text.jw-reset-text {
+  font-size: 14px !important;
+  line-height: 20px !important;
+  font-weight: 700 !important;
+}
+
+.jw-related-item-description-content {
+  font-size: 12px !important;
+  line-height: 18px !important;
+  font-weight: 400 !important;
+  color: #a3a3a3 !important;
+  -webkit-line-clamp: 3 !important;
+  height: 54px !important;
+  line-clamp: 3 !important;
+  overflow: hidden !important;
+  -webkit-box-orient: vertical !important;
+}
+
+strong.jw-related-next-up-text.jw-reset-text {
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  line-height: 1.6 !important;
+}
+
 .jwplayer .jw-settings-menu {
   z-index: 1;
   border-radius: 0;
