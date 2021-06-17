@@ -19,7 +19,7 @@ var jwDefaults = {
     "onclick": "play",
     "oncomplete": "autoplay",
     //"displayMode": "shelf",
-    "displayMode": "shelfWidget"
+    "displayMode": "none"
   },
   "floating": {
     "dismissible": true
