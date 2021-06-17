@@ -493,12 +493,8 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
 .jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color {
   border: 0 !important;
   padding: 3px !important;
-  width: 34px !important;
-  height: 34px !important;
-}
-
-.jw-reset.jw-related-container {
-  padding: 34px 34px 34px !important;
+  width: 60px !important;
+  height: 60px !important;
 }
 
 .jw-related-title.jw-reset-text {
@@ -509,16 +505,16 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color {
   padding: 3px !important;
   border: 0 !important;
-  width: 34px !important;
-  height: 34px !important;
+  width: 60px !important;
+  height: 60px !important;
   left: 0 !important;
 }
 
 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-right.jw-button-color {
   padding: 3px !important;
   border: 0 !important;
-  width: 34px !important;
-  height: 34px !important;
+  width: 60px !important;
+  height: 60px !important;
   right: 0 !important;
 }
 
