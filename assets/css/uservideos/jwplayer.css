@@ -702,7 +702,9 @@ span.jw-text.jw-reset {
 .jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-full svg.jw-svg-icon.jw-svg-icon-volume-100,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-related-btn .jw-svg-icon,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button .jw-svg-icon,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen .jw-svg-icon {
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen .jw-svg-icon,
+svg.jw-svg-icon.jw-svg-icon-volume-100,
+svg.jw-svg-icon.jw-svg-icon-volume-0 {
   height: 28px !important;
   width: 28px !important;
 }
