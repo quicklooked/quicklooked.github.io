@@ -217,6 +217,17 @@ button.jw-reset-text.jw-settings-content-item {
 }
 */
 
+button.jw-reset-text.jw-settings-content-item {
+  font-size: 13px !important;
+  height: 30px !important;
+  padding: 8.5px 0 8.5px 15px !important;
+  line-height: 1em !important;
+}
+
+.jw-settings-submenu .jw-submenu-topbar {
+  margin: 0 !important;
+}
+
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
   display: flex !important;
 }
