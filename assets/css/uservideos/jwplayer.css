@@ -676,6 +676,23 @@ span.jw-text.jw-reset {
 }
 */
 
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-forward,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next,
+.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset.jw-full,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-related-btn,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen {
+  border: 3px solid transparent !important;
+  -webkit-border-radius: 0.3em !important;
+  -moz-border-radius: 0.3em !important;
+  border-radius: 0.3em !important;
+  width: 3.4em !important;
+  height: 3.6em !important;
+  padding: 0 0 0.6em 0 !important;
+}
+
 .jwplayer .jw-svg-icon-fullscreen-on path,
 .jwplayer .jw-svg-icon-fullscreen-off path,
 .jwplayer .jw-svg-icon-volume-100 path,
