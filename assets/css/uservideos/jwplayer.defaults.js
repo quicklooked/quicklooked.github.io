@@ -14,11 +14,11 @@ var jwDefaults = {
   },
   "related": {
     "autoplaymessage": "__title__ will play in xxs",
-    "autoplaytimer": 0,
-    "file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
+    "autoplaytimer": 5,
+    //"file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
     "onclick": "play",
     "oncomplete": "autoplay",
-    "displayMode": "shelf"
+    //"displayMode": "shelf"
   },
   "floating": {
     "dismissible": true
