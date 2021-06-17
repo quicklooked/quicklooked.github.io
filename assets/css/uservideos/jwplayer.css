@@ -310,10 +310,6 @@
 }
 */
 
-.jwplayer .jw-overlays .jw-plugin-related.jw-plugin-related-open {
-  padding: 20px !important;
-}
-
 .jwplayer .jw-settings-menu {
   z-index: 1;
   border-radius: 0;
@@ -322,13 +318,6 @@
 .jw-slider-time .jw-buffer,
 .jw-horizontal-volume-container .jw-buffer {
   background-color: #5b5b5b !important;
-}
-
-.jw-related-shelf-item .jw-text {
-  line-height: 16px !important;
-  -webkit-line-clamp: 1 !important;
-  max-height: 16px !important;
-  font-size: 12px !important;
 }
 
 .jwplayer.jw-state-buffering .jw-display-icon-display .jw-icon .jw-svg-icon-buffer {
@@ -515,28 +504,6 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
 .jw-related-title.jw-reset-text {
   font-weight: 700 !important;
   color: #fff !important;
-  padding-left: 1em !important;
-  line-height: 34px !important;
-  font-size: 20px !important;
-}
-
-.jw-related-title.jw-reset-text:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 3px;
-  top: 8px;
-  bottom: 8px;
-  background-color: #e50914;
-}
-
-.jw-breakpoint-2 .jw-related-item,
-.jw-breakpoint-3 .jw-related-item,
-.jw-breakpoint-4 .jw-related-item,
-.jw-breakpoint-5 .jw-related-item,
-.jw-breakpoint-6 .jw-related-item,
-.jw-breakpoint-7 .jw-related-item {
-  padding: 0 10px 10px 0 !important;
 }
 
 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color {
