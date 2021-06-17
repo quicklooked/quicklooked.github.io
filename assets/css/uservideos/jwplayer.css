@@ -1,3 +1,12 @@
+@-webkit-keyframes scaling {
+  from {
+    -webkit-transform: scale(1.0);
+  }
+
+  to {
+    -webkit-transform: scale(1.1);
+  }
+}
 
 @-webkit-keyframes fadeinout2 {
   0% {
