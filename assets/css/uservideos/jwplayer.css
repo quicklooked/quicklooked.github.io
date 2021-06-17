@@ -730,8 +730,8 @@ svg.jw-svg-icon.jw-svg-icon-volume-0 {
 /*
 .jwplayer .jw-svg-icon-close path,
 .jwplayer .jw-svg-icon-arrow-right path,
-.jwplayer .jw-svg-icon-arrow-left path,
 */
+.jwplayer .jw-svg-icon-arrow-left path,
 .jwplayer .jw-svg-icon-quality-100 path,
 .jwplayer .jw-svg-icon-audio-tracks path,
 .jwplayer .jw-svg-icon-buffer path,
@@ -855,16 +855,13 @@ svg.jw-svg-icon.jw-svg-icon-volume-0 {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 10px !important;
-  height: 20px !important;
 }
+*/
 
 .jw-svg-icon-arrow-left {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 12' style='transform:scaleX(-1)'%3E%3Cpath d='M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z' fill='%23fff'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' focusable='false' fill='%23fff' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 240 240' style='enable-background:new 0 0 240 240;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M52.5,120l120-120l15,15L82.7,119.8L187.5,225l-15,15L52.5,120z'/%3E%3C/g%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 10px !important;
-  height: 20px !important;
 }
-*/
+
