@@ -156,13 +156,38 @@ strong.jw-related-next-up-text.jw-reset-text {
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-captions.jw-submenu-captions,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-audioTracks.jw-submenu-audioTracks,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
-..jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-back,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-back,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
   border: 0 !important;
   padding: 0 !important;
   width: 44px !important;
   height: 44px !important;
 }
+
+.jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color,
+.jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color,
+.jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-right.jw-button-color {
+  padding: 0 !important;
+  border: 0 !important;
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.jw-breakpoint-5 .jw-related .jw-icon-inline {
+  height: 55px !important;
+  width: 55px !important;
+}
+
+.jw-breakpoint-6 .jw-related .jw-icon-inline {
+  height: 66px !important;
+  width: 66px !important;
+}
+
+.jw-breakpoint-7 .jw-related .jw-icon-inline {
+  height: 77px !important;
+  width: 77px !important;
+}
+
 
 /*
 button.jw-reset-text.jw-settings-content-item {
