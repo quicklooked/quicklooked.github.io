@@ -173,21 +173,30 @@ strong.jw-related-next-up-text.jw-reset-text {
   height: 44px !important;
 }
 
-.jw-breakpoint-5 .jw-related .jw-icon-inline {
+.jw-breakpoint-5 .jw-related .jw-icon-inline,
+.jw-breakpoint-5 .jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color,
+.jw-breakpoint-5 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color,
+.jw-breakpoint-5 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-right.jw-button-color {
   height: 55px !important;
   width: 55px !important;
   padding: 0 !important;
   border: 0 !important;
 }
 
-.jw-breakpoint-6 .jw-related .jw-icon-inline {
+.jw-breakpoint-6 .jw-related .jw-icon-inline,
+.jw-breakpoint-6 .jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color,
+.jw-breakpoint-6 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color,
+.jw-breakpoint-6 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-right.jw-button-color {
   height: 66px !important;
   width: 66px !important;
   padding: 0 !important;
   border: 0 !important;
 }
 
-.jw-breakpoint-7 .jw-related .jw-icon-inline {
+.jw-breakpoint-7 .jw-related .jw-icon-inline,
+.jw-breakpoint-7 .jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color,
+.jw-breakpoint-7 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color,
+.jw-breakpoint-7 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-right.jw-button-color {
   height: 77px !important;
   width: 77px !important;
   padding: 0 !important;
