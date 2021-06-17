@@ -707,6 +707,11 @@ span.jw-text.jw-reset {
   width: 28px !important;
 }
 
+.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-volume,
+.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-text-live {
+  bottom: 0 !important;
+}
+
 .jwplayer .jw-svg-icon-fullscreen-on path,
 .jwplayer .jw-svg-icon-fullscreen-off path,
 .jwplayer .jw-svg-icon-volume-100 path,
