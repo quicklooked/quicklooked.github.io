@@ -354,11 +354,11 @@ strong.jw-related-next-up-text.jw-reset-text {
 .jw-breakpoint-5 .jw-related-item-next-up,
 .jw-breakpoint-6 .jw-related-item-next-up,
 .jw-breakpoint-7 .jw-related-item-next-up {
-  width: 50% !important;
+  width: 50%;
 }
 
 .jwplayer:not(.jw-flag-small-player):not(.jw-breakpoint-2) .jw-related-item-next-up+.jw-related-item-group {
-  width: 50% !important;
+  width: 50%;
 }
 
 .jw-related,
@@ -375,8 +375,8 @@ strong.jw-related-next-up-text.jw-reset-text {
 .jw-related-shelf-items,
 .jw-related-shelf-item-contents,
 .jw-shelf-widget .jw-related-shelf-item .jw-related-shelf-item-image::before {
-  height: 100% !important;
-  width: 100% !important;
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 739px) {
