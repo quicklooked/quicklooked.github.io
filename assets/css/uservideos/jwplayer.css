@@ -152,6 +152,16 @@ strong.jw-related-next-up-text.jw-reset-text {
   display: none !important;
 }
 
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-captions.jw-submenu-captions,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-audioTracks.jw-submenu-audioTracks,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
+  border: 0 !important;
+  padding: 0 !important;
+  width: 44px !important;
+  height: 44px !important;
+}
+
 button.jw-reset-text.jw-settings-content-item {
   height: 28px !important;
   line-height: 1 !important;
