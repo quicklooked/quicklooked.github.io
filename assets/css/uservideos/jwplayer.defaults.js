@@ -18,7 +18,7 @@ var jwDefaults = {
     //"file": "//cdn.jwplayer.com/v2/playlists/rU34S8ZY?related_media_id=MEDIAID",
     "onclick": "play",
     "oncomplete": "autoplay",
-    //"displayMode": "shelf"
+    "displayMode": "shelf"
   },
   "floating": {
     "dismissible": true
