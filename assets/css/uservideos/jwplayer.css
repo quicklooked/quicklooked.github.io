@@ -704,7 +704,7 @@ span.jw-text.jw-reset {
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-forward,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next,
-.jw-icon.jw-icon-tooltip.jw-icon-volume, 
+.jw-icon-volume, 
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-related-btn,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen {
@@ -731,13 +731,6 @@ svg.jw-svg-icon.jw-svg-icon-volume-0 {
   height: 28px !important;
   width: 28px !important;
 }
-
-/*
-.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-volume,
-.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-text-live {
-  bottom: 0 !important;
-}
-*/
 
 .jwplayer .jw-svg-icon-fullscreen-on path,
 .jwplayer .jw-svg-icon-fullscreen-off path,
