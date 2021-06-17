@@ -145,13 +145,15 @@ strong.jw-related-next-up-text.jw-reset-text {
   padding: 0 !important;
 }
 
-/*
+
 .jw-settings-submenu .jw-submenu-topbar .jw-settings-content-item {
+  /*
   text-align: left !important;
   text-decoration: none !important;
+  */
   display: none !important;
 }
-*/
+
 
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-captions.jw-submenu-captions,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-audioTracks.jw-submenu-audioTracks,
