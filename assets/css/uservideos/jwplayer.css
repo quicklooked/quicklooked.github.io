@@ -294,16 +294,19 @@ span.jw-text.jw-reset {
   padding: 0 !important
 }
 
+/*
 .jw-settings-submenu .jw-submenu-topbar {
   box-shadow: none !important;
   background-color: transparent !important;
   margin: 0 !important;
 }
 
+
 .jw-settings-topbar {
   background-color: #2f2d2d !important;
   padding: 0 !important;
 }
+*/
 
 .jw-breakpoint-1 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close,
 .jw-breakpoint-0 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-close {
