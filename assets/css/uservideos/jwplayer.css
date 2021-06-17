@@ -703,8 +703,8 @@ span.jw-text.jw-reset {
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-related-btn .jw-svg-icon,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button .jw-svg-icon,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen .jw-svg-icon {
-  min-height: 28px !important;
-  min-width: 28px !important;
+  height: 28px !important;
+  width: 28px !important;
 }
 
 .jwplayer .jw-svg-icon-fullscreen-on path,
