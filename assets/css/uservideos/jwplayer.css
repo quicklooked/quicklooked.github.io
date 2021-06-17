@@ -290,6 +290,10 @@
   transform-origin: 50% 50%;
 }
 
+.jwplayer .jw-overlays .jw-plugin-related.jw-plugin-related-open {
+  padding: 20px !important;
+}
+
 .jwplayer .jw-settings-menu {
   z-index: 1;
   border-radius: 0;
