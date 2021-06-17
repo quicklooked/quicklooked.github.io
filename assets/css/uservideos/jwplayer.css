@@ -291,6 +291,7 @@
   display: none !important;
 }
 
+/*
 .jw-flag-audio-player .jw-button-container .jw-icon,
 .jwplayer:not(.jw-flag-small-player) .jw-button-container .jw-icon {
   -webkit-animation-name: scaling;
@@ -300,7 +301,6 @@
   -webkit-animation-direction: alternate;
 }
 
-/*
 .jw-icon {
   -webkit-transition: all .1s ease;
   -moz-transition: all .1s ease;
