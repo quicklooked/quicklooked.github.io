@@ -356,15 +356,15 @@
   padding-right: 2.5em !important;
 }
 
+/*
 .jw-svg-icon {
-  /*
   height: 1.6em !important;
   width: 1.6em !important;
-  */
   min-height: 28px !important;
   min-width: 28px !important;
   font-size: 1.19em !important;
 }
+*/
 
 .jw-breakpoint-4 .jw-display .jw-icon,
 .jw-breakpoint-5 .jw-display .jw-icon,
@@ -490,16 +490,17 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   display: flex !important;
 }
 
+.jw-related-title.jw-reset-text {
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+/*
 .jw-reset.jw-icon.jw-icon-inline.jw-related-close.jw-button-color {
   border: 0 !important;
   padding: 3px !important;
   width: 60px !important;
   height: 60px !important;
-}
-
-.jw-related-title.jw-reset-text {
-  font-weight: 700 !important;
-  color: #fff !important;
 }
 
 .jw-reset.jw-icon.jw-icon-inline.jw-related-page.jw-related-page-left.jw-button-color {
@@ -517,6 +518,7 @@ button.jw-reset-text.jw-settings-content-item.jw-settings-item-active:before {
   height: 60px !important;
   right: 0 !important;
 }
+*/
 
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-next,
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-related-btn,
@@ -661,6 +663,7 @@ span.jw-text.jw-reset {
   font-size: 1.1em !important;
 }
 
+/*
 .jw-icon-inline,
 .jw-icon-tooltip {
   border: 3px solid transparent !important;
@@ -671,6 +674,7 @@ span.jw-text.jw-reset {
   height: 3.6em !important;
   padding: 0 0 0.6em 0 !important;
 }
+*/
 
 .jwplayer .jw-svg-icon-fullscreen-on path,
 .jwplayer .jw-svg-icon-fullscreen-off path,
@@ -685,13 +689,15 @@ span.jw-text.jw-reset {
 .jwplayer .jw-svg-icon-replay path,
 .jwplayer .jw-svg-icon-cc-on path,
 .jwplayer .jw-svg-icon-cc-off path,
+/*
 .jwplayer .jw-svg-icon-close path,
+.jwplayer .jw-svg-icon-arrow-right path,
+.jwplayer .jw-svg-icon-arrow-left path,
+*/
 .jwplayer .jw-svg-icon-quality-100 path,
 .jwplayer .jw-svg-icon-audio-tracks path,
 .jwplayer .jw-svg-icon-buffer path,
-.jwplayer .jw-svg-icon-arrow-right path,
-.jwplayer .jw-svg-icon-arrow-down path,
-.jwplayer .jw-svg-icon-arrow-left path {
+.jwplayer .jw-svg-icon-arrow-down path {
   display: none;
 }
 
@@ -773,6 +779,7 @@ span.jw-text.jw-reset {
   background-repeat: no-repeat;
 }
 
+/*
 .jw-svg-icon-close {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 25.5 25.5'%3E%3Cpolygon fill='%23fff' class='st0' points='25.5,1.4 24,0 12.7,11.3 1.4,0 0,1.4 11.3,12.7 0,24 1.4,25.5 12.7,14.1 24,25.5 25.5,24 14.1,12.7 '%3E%3C/polygon%3E%3C/svg%3E");
   background-size: 20px;
@@ -781,6 +788,7 @@ span.jw-text.jw-reset {
   width: 26px !important;
   height: 26px !important;
 }
+*/
 
 .jw-svg-icon-quality-100 {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Layer_1' fill='%23fff' viewBox='0 0 28 28'%3E%3Cg%3E%3Cpath d='M25,6.9c0.5,0,1,0.2,1.4,0.6C26.8,7.9,27,8.3,27,8.9v10.3c0,0.5-0.2,1-0.6,1.4s-0.8,0.6-1.4,0.6H3c-0.5,0-1-0.2-1.4-0.6 S1,19.7,1,19.1V8.9c0-0.5,0.2-1,0.6-1.4C2,7.1,2.4,6.9,3,6.9H25z M11.6,10.6v2.9H7.1v-2.9H5.7v7.4h1.4V15h4.5v2.9H13v-7.4H11.6z M15.3,10.6v7.4h3.6c1.1,0,1.9-0.2,2.4-0.6c0.9-0.7,1.3-1.7,1.3-3.1c0-0.7-0.1-1.3-0.3-1.8c-0.2-0.5-0.6-1-1-1.3 c-0.5-0.4-1.3-0.6-2.4-0.6H15.3z M16.7,16.3v-4.2h2c0.4,0,0.8,0,1.1,0.1c0.3,0.1,0.5,0.2,0.7,0.3c0.2,0.1,0.3,0.3,0.4,0.5 s0.2,0.4,0.2,0.6c0,0.2,0,0.4,0,0.6c0,1.4-0.8,2.2-2.3,2.2H16.7z'/%3E%3C/g%3E%3C/svg%3E");
@@ -803,6 +811,7 @@ span.jw-text.jw-reset {
   background-position: center;
 }
 
+/*
 .jw-svg-icon-arrow-right {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 6 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z' fill='%23fff'%3E%3C/path%3E%3C/svg%3E");
   background-size: contain;
@@ -820,3 +829,4 @@ span.jw-text.jw-reset {
   width: 10px !important;
   height: 20px !important;
 }
+*/
