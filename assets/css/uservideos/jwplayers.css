@@ -1,3 +1,4 @@
+.jw-svg-icon-pause path,
 .jw-svg-icon-play path {
   display: none;
 }
@@ -8,7 +9,14 @@
   background-repeat: no-repeat;
 }
 
-svg.jw-svg-icon.jw-svg-icon-play {
+.jw-svg-icon-pause {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 44'%3E%3Cg id='pause' fill='%23fff'%3E%3Crect x='13.1' y='11' width='6.2' height='22'%3E%3C/rect%3E%3Crect x='24.8' y='11' width='6.2' height='22'%3E%3C/rect%3E%3C/g%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+svg.jw-svg-icon.jw-svg-icon-play,
+svg.jw-svg-icon.jw-svg-icon-pause {
   width: 31px !important;
   height: 31px !important;
 }
