@@ -263,6 +263,7 @@
   border-radius: 0.2em !important;
 }
 
-.jw-controlbar {
+.jw-state-paused .jw-controlbar,
+.jw-state-playing .jw-controlbar {
   display: block !important;
 }
