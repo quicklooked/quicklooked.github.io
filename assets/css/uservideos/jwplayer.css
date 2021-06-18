@@ -81,6 +81,8 @@ strong.jw-related-next-up-text.jw-reset-text {
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-text-live {
   font-size: inherit !important;
   color: #fff !important;
+  width: fit-content !important;
+	box-shadow: none !important;
   font-weight: 400 !important;
 }
 
