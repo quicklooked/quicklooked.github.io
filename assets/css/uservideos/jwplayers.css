@@ -186,3 +186,22 @@
 .jw-reset.jw-submenu-topbar {
   display: none !important;
 }
+
+.jw-breakpoint-7 .jw-settings-menu {
+  bottom: 0 !important;
+  right: 0 !important;
+  width: calc((100vw - 1056px)/2 + 44px) !important;
+  height: auto !important;
+  max-height: 100vh !important;
+  z-index: 1 !important;
+  font-size: 13px !important;
+}
+
+.jw-text-track-cue {
+  font-weight: 700 !important;
+  display: inline-block !important;
+  text-align: center !important;
+  line-height: 1.2em !important;
+  padding: 0.2em !important;
+  border-radius: 0.2em !important;
+}
