@@ -197,9 +197,7 @@
 
 .jw-breakpoint-7 .jw-settings-menu,
 .jw-breakpoint-6 .jw-settings-menu,
-.jw-breakpoint-5 .jw-settings-menu,
-.jw-breakpoint-4 .jw-settings-menu,
-.jw-breakpoint-3 .jw-settings-menu {
+.jw-breakpoint-5 .jw-settings-menu {
   bottom: 0 !important;
   right: 0 !important;
   width: calc((100vw - 1056px)/2 + 44px) !important;
