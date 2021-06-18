@@ -9,7 +9,7 @@
 .jwplayer .jw-svg-icon-arrow-down,
 .jwplayer .jw-display-icon-next,
 .jwplayer .jw-display-icon-rewind, 
-.jwplayer .jw-nextup-container-visible,
+/*.jwplayer .jw-nextup-container-visible,*/
 .jwplayer.jw-state-paused .jw-display-icon-display,
 .jwplayer.jw-state-playing .jw-display-icon-display,
 .jw-slider-volume.jw-volume-tip.jw-reset.jw-slider-vertical,
