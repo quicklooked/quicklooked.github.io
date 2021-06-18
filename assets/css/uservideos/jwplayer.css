@@ -1,11 +1,7 @@
 .jwplayer .jw-tooltip,
 .jwplayer .jw-rightclick,
-.jw-breakpoint-2 .jw-icon-rewind,
-.jw-breakpoint-1 .jw-icon-rewind,
-.jw-breakpoint-0 .jw-icon-rewind,
-.jw-breakpoint-2 .jw-icon-forward,
-.jw-breakpoint-1 .jw-icon-forward,
-.jw-breakpoint-0 .jw-icon-forward,
+.jwplayer .jw-icon-rewind,
+.jwplayer .jw-icon-forward,
 .jwplayer .jw-text-elapsed,
 .jwplayer .jw-text-duration,
 .jwplayer .jw-icon-settings,
@@ -13,7 +9,7 @@
 .jwplayer .jw-svg-icon-arrow-down,
 .jwplayer .jw-display-icon-next,
 .jwplayer .jw-display-icon-rewind, 
-/*.jwplayer .jw-nextup-container-visible,*/
+.jwplayer .jw-nextup-container-visible,
 .jwplayer.jw-state-paused .jw-display-icon-display,
 .jwplayer.jw-state-playing .jw-display-icon-display,
 .jw-slider-volume.jw-volume-tip.jw-reset.jw-slider-vertical,
@@ -88,6 +84,7 @@ strong.jw-related-next-up-text.jw-reset-text {
   width: fit-content !important;
   box-shadow: none !important;
   font-weight: 400 !important;
+  text-transform: none !important;
 }
 
 .jw-text-live.jw-dvr-live::before {
