@@ -120,6 +120,7 @@
 .jw-horizontal-volume-container .jw-slider-volume {
   height: 44px !important;
   padding: 0 !important;
+  margin: 0 auto !important;
   max-width: 1056px !important;
 }
 
