@@ -131,3 +131,17 @@
   -webkit-transform: translate(0, -50%) scale(1, 1) !important;
   transform: translate(0, -50%) scale(1, 1) !important;
 }
+
+.jw-progress {
+  background: #e50914 !important;
+}
+
+.jw-slider-time .jw-rail,
+.jw-horizontal-volume-container .jw-rail {
+  background-color: #767676 !important;
+}
+
+.jw-slider-time .jw-buffer,
+.jw-horizontal-volume-container .jw-buffer {
+  background-color: #5b5b5b !important;
+}
