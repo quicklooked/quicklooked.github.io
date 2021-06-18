@@ -119,7 +119,7 @@
 .jw-slider-time,
 .jw-horizontal-volume-container .jw-slider-volume {
   height: 44px !important;
-  padding: 0 16px !important;
+  padding: 0 !important;
   max-width: 1056px !important;
 }
 
@@ -135,7 +135,7 @@
 .jw-breakpoint-4 .jw-horizontal-volume-container .jw-slider-volume,
 .jw-breakpoint-5 .jw-slider-time,
 .jw-breakpoint-5 .jw-horizontal-volume-container .jw-slider-volume {
-  padding: 0 !important;
+  padding: 0 16px !important;
 }
 
 .jw-controlbar {
