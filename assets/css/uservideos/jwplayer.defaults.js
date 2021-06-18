@@ -9,7 +9,7 @@ var jwDefaults = {
   "controls": true,
   "debug": false,
   "responsive": true,
-  //"nextupoffset": 0, 
+  "nextupoffset": 0, 
   "localization": {
     "related": "Episodes"
   },
