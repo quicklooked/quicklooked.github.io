@@ -195,11 +195,15 @@
   display: none !important;
 }
 
-.jw-breakpoint-7 .jw-settings-menu {
+.jw-breakpoint-7 .jw-settings-menu,
+.jw-breakpoint-6 .jw-settings-menu,
+.jw-breakpoint-5 .jw-settings-menu,
+.jw-breakpoint-4 .jw-settings-menu,
+.jw-breakpoint-3 .jw-settings-menu {
   bottom: 0 !important;
   right: 0 !important;
   width: calc((100vw - 1056px)/2 + 44px) !important;
-  height: auto !important;
+  height: 100vh !important;
   max-height: 100vh !important;
   z-index: 1 !important;
   font-size: 13px !important;
