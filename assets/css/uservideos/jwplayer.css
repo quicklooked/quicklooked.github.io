@@ -78,6 +78,19 @@ strong.jw-related-next-up-text.jw-reset-text {
   }
 }
 
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-text-live {
+  font-size: inherit !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+
+.jw-text-live::before {
+  height: 0 !important;
+  width: 0 !important;
+  border-radius: 0 !important;
+  margin-right: 0 !important;
+}
+
 .jwplayer .jw-text-countdown {
   display: flex !important;
   width: fit-content !important;
