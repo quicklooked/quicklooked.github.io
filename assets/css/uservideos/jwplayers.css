@@ -267,6 +267,11 @@
   line-height: 44px !important;
 }
 
+.jw-display-icon-container .jw-icon {
+  height: 75px !important;
+  width: 75px !important;
+}
+
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
 .jw-reset.jw-settings-submenu.jw-settings-submenu-quality,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button,
