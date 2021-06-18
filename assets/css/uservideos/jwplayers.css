@@ -379,3 +379,17 @@
     display: none !important
   }
 }
+
+.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-volume,
+.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-text-live {
+  bottom: 0 !important;
+}
+
+.jw-display-icon-container.jw-display-icon-rewind.jw-reset,
+.jw-display-icon-container.jw-display-icon-next.jw-reset,
+.jw-state-playing .jw-display-icon-container.jw-display-icon-display.jw-reset,
+.jw-state-paused .jw-display-icon-container.jw-display-icon-display.jw-reset,
+.jw-state-playing .jw-display-container.jw-reset,
+.jw-state-paused .jw-display-container.jw-reset {
+  display: none !important;
+}
