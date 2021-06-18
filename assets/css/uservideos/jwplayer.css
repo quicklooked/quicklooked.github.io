@@ -87,10 +87,11 @@ strong.jw-related-next-up-text.jw-reset-text {
 }
 
 .jw-text-live::before {
-  height: 0 !important;
-  width: 0 !important;
-  border-radius: 0 !important;
-  margin-right: 0 !important;
+  height: 4px !important;
+  width: 4px !important;
+  border-radius: 50px !important;
+  margin-right: 8px !important;
+  background: #e50914 !important;
 }
 
 .jwplayer .jw-text-countdown {
