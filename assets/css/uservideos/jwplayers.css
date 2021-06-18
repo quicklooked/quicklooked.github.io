@@ -7,3 +7,8 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+svg.jw-svg-icon.jw-svg-icon-play {
+  width: 31px !important;
+  height: 31px !important;
+}
