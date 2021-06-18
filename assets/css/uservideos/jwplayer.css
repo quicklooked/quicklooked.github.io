@@ -82,8 +82,12 @@ strong.jw-related-next-up-text.jw-reset-text {
   font-size: inherit !important;
   color: #fff !important;
   width: fit-content !important;
-	box-shadow: none !important;
+  box-shadow: none !important;
   font-weight: 400 !important;
+}
+
+.jw-text-live.jw-dvr-live::before {
+  background-color: #fff !important;
 }
 
 .jw-text-live::before {
@@ -307,8 +311,8 @@ span.jw-text.jw-reset {
 }
 
 .jw-knob {
-  height: 18px !important;
-  width: 18px !important;
+  height: 16px !important;
+  width: 16px !important;
   box-shadow: none !important;
   background-color: #e50914 !important;
 }
