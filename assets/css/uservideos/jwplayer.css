@@ -100,6 +100,7 @@ strong.jw-related-next-up-text.jw-reset-text {
   border: 0 solid !important;
   padding: 0 !important;
   font-size: 1.8em !important;
+  margin: 0 0 0 16px !important;
 }
 
 .jw-slider-time.jw-background-color.jw-reset.jw-slider-horizontal.jw-reset {
@@ -297,7 +298,7 @@ span.jw-text.jw-reset {
 
 .jw-slider-horizontal .jw-slider-container {
   height: 0.5em !important;
-  margin: 0 2.5em 0 0 !important;
+  /*margin: 0 2.5em 0 0 !important;*/
 }
 
 .jw-progress {
