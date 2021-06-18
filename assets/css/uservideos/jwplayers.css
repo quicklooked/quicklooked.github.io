@@ -172,3 +172,9 @@
 .jw-display-container.jw-reset {
   display: none !important;
 }
+
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
+.jw-reset.jw-settings-submenu.jw-settings-submenu-quality,
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button {
+  display: none !important;
+}
