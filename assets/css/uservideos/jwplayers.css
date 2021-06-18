@@ -123,6 +123,13 @@
   max-width: 1056px !important;
 }
 
+@media only screen and (min-width: 1056px) {
+  .jw-slider-time,
+  .jw-horizontal-volume-container .jw-slider-volume {
+    padding: 0 !important
+  }
+}
+
 .jw-controlbar {
   max-height: 88px !important;
 }
