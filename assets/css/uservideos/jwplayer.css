@@ -445,6 +445,7 @@ svg.jw-svg-icon.jw-svg-icon-volume-0 {
 .jwplayer .jw-svg-icon-pause path,
 .jwplayer .jw-svg-icon-replay path,
 .jwplayer .jw-svg-icon-cc-on path,
+.jwplayer .jw-svg-icon-stop path,
 .jwplayer .jw-svg-icon-cc-off path,
 .jwplayer .jw-svg-icon-close path,
 .jwplayer .jw-svg-icon-arrow-right path,
@@ -576,3 +577,9 @@ svg.jw-svg-icon.jw-svg-icon-volume-0 {
   background-position: center;
 }
 
+.jw-svg-icon-stop {
+  background-image: url("data:image/svg+xml,%3Csvg role='presentation' aria-hidden='true' fill='%23fff' xmlns='http://www.w3.org/2000/svg' style='height: 0px; width: 0px; position: absolute;' viewBox='0 0 32 32'%3E%3Cpath d='M30.2190978,32 L1.78090217,32 C0.780785003,32 0,31.18737 0,30.2182127 L0,1.78178729 C0,0.781699423 0.780785003,0 1.78090217,0 L30.2190978,0 C31.219215,0 32,0.781699423 32,1.78178729 L32,30.2182127 C32,31.18737 31.219215,32 30.2190978,32 Z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
