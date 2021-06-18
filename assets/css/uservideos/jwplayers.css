@@ -390,6 +390,11 @@
 .jw-state-playing .jw-display-icon-container.jw-display-icon-display.jw-reset,
 .jw-state-paused .jw-display-icon-container.jw-display-icon-display.jw-reset,
 .jw-state-playing .jw-display-container.jw-reset,
+.jw-state-complete .jw-display-container.jw-reset,
 .jw-state-paused .jw-display-container.jw-reset {
   display: none !important;
+}
+
+.jw-display {
+  padding: 88px 0 !important;
 }
