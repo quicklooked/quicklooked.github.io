@@ -158,3 +158,7 @@
 .jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
   display: flex !important;
 }
+
+.jw-display-container.jw-reset {
+  display: none !important;
+}
