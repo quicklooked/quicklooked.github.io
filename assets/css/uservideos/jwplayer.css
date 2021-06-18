@@ -87,8 +87,8 @@ strong.jw-related-next-up-text.jw-reset-text {
 }
 
 .jw-text-live::before {
-  height: 4px !important;
-  width: 4px !important;
+  height: 8px !important;
+  width: 8px !important;
   border-radius: 50px !important;
   margin-right: 8px !important;
   background: #e50914 !important;
