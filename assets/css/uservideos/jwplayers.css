@@ -212,8 +212,42 @@
   display: flex !important;
 }
 
-.jw-display-container.jw-reset {
-  display: none !important;
+.jw-breakpoint-4 .jw-display .jw-icon,
+.jw-breakpoint-5 .jw-display .jw-icon,
+.jw-breakpoint-6 .jw-display .jw-icon,
+.jw-breakpoint-7 .jw-display .jw-icon,
+.jw-breakpoint-4 .jw-display .jw-svg-icon,
+.jw-breakpoint-5 .jw-display .jw-svg-icon,
+.jw-breakpoint-6 .jw-display .jw-svg-icon,
+.jw-breakpoint-7 .jw-display .jw-svg-icon {
+  width: 88px !important;
+  height: 88px !important;
+  line-height: 88px !important;
+}
+
+.jw-breakpoint-2 .jw-display .jw-icon,
+.jw-breakpoint-3 .jw-display .jw-icon,
+.jw-breakpoint-2 .jw-display .jw-svg-icon,
+.jw-breakpoint-3 .jw-display .jw-svg-icon {
+  width: 77px !important;
+  height: 77px !important;
+  line-height: 77px !important;
+}
+
+.jw-breakpoint-1 .jw-display .jw-icon,
+.jw-breakpoint-1 .jw-display .jw-svg-icon {
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+}
+
+.jw-breakpoint-0 .jw-display .jw-icon,
+.jw-breakpoint--1 .jw-display .jw-icon,
+.jw-breakpoint-0 .jw-display .jw-svg-icon,
+.jw-breakpoint--1 .jw-display .jw-svg-icon {
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
 }
 
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
