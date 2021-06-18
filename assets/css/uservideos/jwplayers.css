@@ -82,3 +82,16 @@
 .jw-icon-volume::after {
   box-shadow: none !important;
 }
+
+.jw-button-container {
+  padding: 0 !important;
+  margin: 0 auto !important;
+  height: 44px !important;
+  max-width: 1024px !important;
+}
+
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset,
+.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset {
+  width: 44px !important;
+  height: 44px !important;
+}
