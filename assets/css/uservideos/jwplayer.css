@@ -289,6 +289,7 @@ button.jw-reset-text.jw-settings-content-item {
   border-radius: 0.2em !important;
 }
 
+/*
 span.jw-text.jw-reset {
   background-color: #262626 !important;
   border-radius: 0.3em !important;
@@ -302,6 +303,7 @@ span.jw-text.jw-reset {
   height: 0 !important;
   width: 0 !important;
 }
+*/
 
 .jw-slider-horizontal .jw-slider-container {
   height: 0.5em !important;
