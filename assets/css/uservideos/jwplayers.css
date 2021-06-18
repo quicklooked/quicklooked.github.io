@@ -71,3 +71,9 @@
 .jw-icon.jw-icon-inline.jw-text.jw-reset.jw-text-duration {
   display: none !important;
 }
+
+.jw-settings-menu .jw-icon::after,
+.jw-icon-settings::after,
+.jw-icon-volume::after {
+  box-shadow: none !important;
+}
