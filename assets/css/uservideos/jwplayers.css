@@ -123,11 +123,19 @@
   max-width: 1056px !important;
 }
 
-@media only screen and (min-width: 1056px) {
-  .jw-slider-time,
-  .jw-horizontal-volume-container .jw-slider-volume {
-    padding: 0 !important
-  }
+.jw-breakpoint-0 .jw-slider-time,
+.jw-breakpoint-0 .jw-horizontal-volume-container .jw-slider-volume,
+.jw-breakpoint-1 .jw-slider-time,
+.jw-breakpoint-1 .jw-horizontal-volume-container .jw-slider-volume,
+.jw-breakpoint-2 .jw-slider-time,
+.jw-breakpoint-2 .jw-horizontal-volume-container .jw-slider-volume,
+.jw-breakpoint-3 .jw-slider-time,
+.jw-breakpoint-3 .jw-horizontal-volume-container .jw-slider-volume,
+.jw-breakpoint-4 .jw-slider-time,
+.jw-breakpoint-4 .jw-horizontal-volume-container .jw-slider-volume,
+.jw-breakpoint-5 .jw-slider-time,
+.jw-breakpoint-5 .jw-horizontal-volume-container .jw-slider-volume {
+  padding: 0 !important;
 }
 
 .jw-controlbar {
