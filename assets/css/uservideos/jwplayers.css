@@ -303,3 +303,18 @@
   width: 6px !important;
   background-color: #e50914 !important;
 }
+
+@media only screen and (max-width: 739px) {
+  .jw-flag-floating .jw-wrapper {
+    top: 44px !important;
+    bottom: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+    max-width: calc(100vh - 0px) !important;
+    max-height: calc(100vh - 44px) !important;
+  }
+  .jw-icon.jw-icon-tooltip.jw-tooltip-time.jw-button-color.jw-reset {
+    display: none !important
+  }
+}
