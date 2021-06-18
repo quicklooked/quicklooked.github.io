@@ -216,3 +216,7 @@
   padding: 0.2em !important;
   border-radius: 0.2em !important;
 }
+
+.jw-controlbar {
+  display: block !important;
+}
