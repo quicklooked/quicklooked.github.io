@@ -220,30 +220,8 @@
   min-width: 320px !important;
 }
 
-.jw-breakpoint-5 .jw-settings-menu {
-  bottom: 0 !important;
-  right: 0 !important;
-  width: calc((100vw - 440px)/2 + 44px) !important;
-  max-width: 100% !important;
-  height: 100% !important;
-  max-height: 100% !important;
-  z-index: 1 !important;
-  font-size: 13px !important;
-  min-width: 320px !important;
-}
-
-.jw-breakpoint-4 .jw-settings-menu {
-  bottom: 0 !important;
-  right: 0 !important;
-  width: calc((100vw - 240px)/2 + 44px) !important;
-  max-width: 100% !important;
-  height: 100% !important;
-  max-height: 100% !important;
-  z-index: 1 !important;
-  font-size: 13px !important;
-  min-width: 320px !important;
-}
-
+.jw-breakpoint-5 .jw-settings-menu,
+.jw-breakpoint-4 .jw-settings-menu,
 .jw-breakpoint-3 .jw-settings-menu,
 .jw-breakpoint-2 .jw-settings-menu,
 .jw-breakpoint-1 .jw-settings-menu,
