@@ -31,6 +31,7 @@
   background-repeat: no-repeat;
 }
 
+/*
 svg.jw-svg-icon.jw-svg-icon-play,
 svg.jw-svg-icon.jw-svg-icon-pause,
 svg.jw-svg-icon.jw-svg-icon-volume-0,
@@ -39,7 +40,7 @@ svg.jw-svg-icon.jw-svg-icon-volume-100 {
   width: 31px !important;
   height: 31px !important;
 }
-
+*/
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback:hover,
 .jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset:hover {
   background: #e50914;
