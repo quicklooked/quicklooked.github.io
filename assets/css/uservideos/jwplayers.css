@@ -175,6 +175,7 @@
 
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
 .jw-reset.jw-settings-submenu.jw-settings-submenu-quality,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button {
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button,
+.jw-reset.jw-submenu-topbar {
   display: none !important;
 }
