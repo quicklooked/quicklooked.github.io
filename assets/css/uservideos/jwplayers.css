@@ -287,3 +287,17 @@
   font-size: 12px !important;
   line-height: 44px !important;
 }
+
+.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-text-live {
+  width: auto !important;
+  height: 44px !important;
+  font-size: 12px !important;
+  color: #fff;
+  text-transform: none !important;
+}
+
+.jw-text-live::before {
+  height: 6px !important;
+  width: 6px !important;
+  background-color: #e50914 !important;
+}
