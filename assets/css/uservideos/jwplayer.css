@@ -88,6 +88,7 @@ strong.jw-related-next-up-text.jw-reset-text {
 
 .jw-text-live.jw-dvr-live::before {
   background-color: #fff !important;
+  opacity: 1 !important;
 }
 
 .jw-text-live::before {
