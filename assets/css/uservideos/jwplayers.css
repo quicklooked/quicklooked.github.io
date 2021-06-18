@@ -154,3 +154,7 @@
 .jw-horizontal-volume-container .jw-buffer {
   background-color: #5b5b5b !important;
 }
+
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-playback {
+  display: flex !important;
+}
