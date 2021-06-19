@@ -4,6 +4,7 @@
 .jw-svg-icon-volume-50 path,
 .jw-svg-icon-cc-off path,
 .jw-svg-icon-replay path,
+.jw-svg-icon-episodes path,
 .jw-svg-icon-cc-on path,
 .jw-svg-icon-volume-100 path,
 .jw-svg-icon-settings path,
@@ -78,6 +79,14 @@
   background-repeat: no-repeat;
   width: auto !important;
   height: auto !important;
+}
+
+.jw-svg-icon-episodes {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' fill='%23fff' viewBox='0 0 32 32'%3E%3Cpath d='M4 26h22V4h2v24H4v-2z'%3E%3C/path%3E%3Cpath d='M8 32v-2h22V8h2v24H8z'%3E%3C/path%3E%3Cpath d='M0 24h24V0H0z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .jw-svg-icon-settings {
