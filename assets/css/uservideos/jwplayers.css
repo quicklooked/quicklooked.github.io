@@ -469,9 +469,9 @@
   top: 0;
   width: 400px;
   z-index: 520;
-  background-color: #181818;
+  background-color: #000;
   overflow: auto;
-  box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
+  /*box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;*/
   transform: translateX(-400px);
   transition: transform .6s cubic-bezier(.23, 1, .32, 1) 0s, opacity .6s cubic-bezier(.23, 1, .32, 1) 0s;
 }
