@@ -337,7 +337,7 @@
 }
 
 .jw-settings-menu .jw-icon.jw-button-color:after {
-  box-shadow: inset 0 -4px 0 -1px #b80000 !important;
+  box-shadow: inset 0 -3px 0 -1px #fff !important;
   width: 100% !important;
 }
 
