@@ -363,7 +363,7 @@
   text-align: center !important;
   line-height: 1.2em !important;
   padding: 0.2em !important;
-  border-radius: 0.2em !important;
+  /*border-radius: 0.2em !important;*/
 }
 
 .jw-state-paused .jw-controlbar,
