@@ -290,6 +290,9 @@
   display: flex !important;
 }
 
+.jw-flag-small-player:not(.jw-flag-audio-player):not(.jw-flag-ads) .jw-controlbar .jw-button-container>.jw-icon-forward {
+  display: none;
+}
 
 .jw-breakpoint-4 .jw-display .jw-icon,
 .jw-breakpoint-5 .jw-display .jw-icon,
