@@ -23,7 +23,7 @@ colorhover: "#e50914"
             </div>
           </div>
           <div class="preview-product-header__blur"></div>
-          <p onclick="relatedOpenHide()" class="preview-product-header__title typ-headline-emph" style="cursor: pointer;">David Attenborough Wildlife Specials</p>
+          <p onclick="episodesShow()" class="preview-product-header__title typ-headline-emph" style="cursor: pointer;">David Attenborough Wildlife Specials</p>
           <div class="preview-product-header__main__container">
             <div class="product-header__content__container">
               <div class="preview-product-header__content__details__metadata--info--xs-view">
@@ -358,27 +358,27 @@ colorhover: "#e50914"
         const countdownText = buttonContainer.querySelector(".jw-text-countdown");
         const timeSlider = playerContainer.querySelector(".jw-slider-time");
         // timeSlider.appendChild(countdownText);
-        var skipForward = document.createElement("div");
-        skipForward.setAttribute("class", "jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-forward");
-        skipForward.setAttribute("role", "button");
-        skipForward.setAttribute("tabindex", "0");
-        skipForward.setAttribute("aria-label", "Forward 10s");
-        skipForward.setAttribute("onclick", "relatedOpenHide()");
-        skipForward.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-forward" viewBox="0 0 240 240" focusable="false"><path d="M113.2,131.078a21.589,21.589,0,0,0-17.7-10.6,21.589,21.589,0,0,0-17.7,10.6,44.769,44.769,0,0,0,0,46.3,21.589,21.589,0,0,0,17.7,10.6,21.589,21.589,0,0,0,17.7-10.6,44.769,44.769,0,0,0,0-46.3Zm-17.7,47.2c-7.8,0-14.4-11-14.4-24.1s6.6-24.1,14.4-24.1,14.4,11,14.4,24.1S103.4,178.278,95.5,178.278Zm-43.4,9.7v-51l-4.8,4.8-6.8-6.8,13-13a4.8,4.8,0,0,1,8.2,3.4v62.7l-9.6-.1Zm162-130.2v125.3a4.867,4.867,0,0,1-4.8,4.8H146.6v-19.3h48.2v-96.4H79.1v19.3c0,5.3-3.6,7.2-8,4.3l-41.8-27.9a6.013,6.013,0,0,1-2.7-8,5.887,5.887,0,0,1,2.7-2.7l41.8-27.9c4.4-2.9,8-1,8,4.3v19.3H209.2A4.974,4.974,0,0,1,214.1,57.778Z"></path></svg><div class="jw-reset-text jw-tooltip jw-tooltip-forward" dir="auto"><div class="jw-text">Forward 10s</div></div>';
-        buttonContainer.insertBefore(skipForward, buttonContainer.childNodes[2]);
+        var episodes = document.createElement("div");
+        episodes.setAttribute("class", "jw-icon jw-icon-inline jw-button-color jw-reset jw-icon-episodes");
+        episodes.setAttribute("role", "button");
+        episodes.setAttribute("tabindex", "0");
+        episodes.setAttribute("aria-label", "Forward 10s");
+        episodes.setAttribute("onclick", "episodesShow()");
+        episodes.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" class="jw-svg-icon jw-svg-icon-episodes" viewBox="0 0 240 240" focusable="false"><path d="M113.2,131.078a21.589,21.589,0,0,0-17.7-10.6,21.589,21.589,0,0,0-17.7,10.6,44.769,44.769,0,0,0,0,46.3,21.589,21.589,0,0,0,17.7,10.6,21.589,21.589,0,0,0,17.7-10.6,44.769,44.769,0,0,0,0-46.3Zm-17.7,47.2c-7.8,0-14.4-11-14.4-24.1s6.6-24.1,14.4-24.1,14.4,11,14.4,24.1S103.4,178.278,95.5,178.278Zm-43.4,9.7v-51l-4.8,4.8-6.8-6.8,13-13a4.8,4.8,0,0,1,8.2,3.4v62.7l-9.6-.1Zm162-130.2v125.3a4.867,4.867,0,0,1-4.8,4.8H146.6v-19.3h48.2v-96.4H79.1v19.3c0,5.3-3.6,7.2-8,4.3l-41.8-27.9a6.013,6.013,0,0,1-2.7-8,5.887,5.887,0,0,1,2.7-2.7l41.8-27.9c4.4-2.9,8-1,8,4.3v19.3H209.2A4.974,4.974,0,0,1,214.1,57.778Z"></path></svg><div class="jw-reset-text jw-tooltip jw-tooltip-episodes" dir="auto"><div class="jw-text">Episodes</div></div>';
+        buttonContainer.insertBefore(episodes, buttonContainer.childNodes[13]);
       });
     </script>
-    <div id="related_open_hide" class="y ac">
-      <div onclick="relatedOpenHide()" class="container_related_over" aria-hidden="false" role="presentation"></div>
-      <div class="container_related_overlay_open" aria-hidden="false" style="">
-        <div class="container_related_overlay_top">
+    <div id="episodes_open_hide" class="y ac">
+      <div onclick="episodesShow()" class="container_episodes_over" aria-hidden="false" role="presentation"></div>
+      <div class="container_episodes_overlay_open" aria-hidden="false" style="">
+        <div class="container_episodes_overlay_top">
           <div class="n aq">
-            <h2 class="related_title-over">Episodes</h2>
+            <h2 class="episodes_title-over">Episodes</h2>
           </div>
           <div class="n aq">
             <div>
               <div class="dg" role="tooltip" aria-hidden="false" aria-describedby="5" aria-labelledby="5">
-                <a href="https://quicklooked.github.io/privacy" class="related_privacy_btn" target="_blank" rel="noopener">
+                <a href="https://quicklooked.github.io/privacy" class="episodes_privacy_btn" target="_blank" rel="noopener">
                   <svg width="25" height="25" viewBox="0 0 25 25">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.99 5.04c.26-.21.64-.22.91-.01.97.72 1.77 1.21 2.6 1.54.83.32 1.72.48 2.89.5.41.01.74.35.74.76-.02 3.62-.43 6.26-1.45 8.21-1.03 1.98-2.66 3.21-4.97 4.08a.75.75 0 0 1-.53 0c-2.25-.87-3.86-2.1-4.9-4.07-1.02-1.95-1.46-4.59-1.48-8.22 0-.41.33-.75.75-.76 1.19-.02 2.1-.18 2.92-.5.82-.32 1.6-.81 2.52-1.53zm.46.9c-.9.69-1.71 1.21-2.62 1.56a8.9 8.9 0 0 1-3.02.57c.03 3.45.46 5.82 1.36 7.51.88 1.69 2.25 2.77 4.28 3.57 2.1-.8 3.47-1.89 4.34-3.57.89-1.7 1.3-4.07 1.34-7.51a8.8 8.8 0 0 1-3-.57 11.8 11.8 0 0 1-2.68-1.56zm0 9.15a2.67 2.67 0 1 0 0-5.34 2.67 2.67 0 0 0 0 5.34zm0 1a3.67 3.67 0 1 0 0-7.34 3.67 3.67 0 0 0 0 7.34zm-1.82-3.77l.53-.53.91.92 1.63-1.63.52.53-2.15 2.15-1.44-1.44z"></path>
                   </svg>
@@ -386,15 +386,15 @@ colorhover: "#e50914"
               </div>
             </div>
             <div class="y">
-              <button class="related_dots_btn" aria-controls="managementPopoverMenu" aria-expanded="false">
+              <button class="episodes_dots_btn" aria-controls="managementPopoverMenu" aria-expanded="false">
                 <svg class="overflow-dots-filled-25px_svg__svgIcon-use" width="25" height="25">
                   <path d="M5 12.5c0 .55.2 1.02.59 1.41.39.4.86.59 1.41.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41A1.93 1.93 0 0 0 7 10.5c-.55 0-1.02.2-1.41.59-.4.39-.59.86-.59 1.41zm5.62 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.42.59.55 0 1.02-.2 1.41-.59.4-.39.59-.86.59-1.41 0-.55-.2-1.02-.59-1.41a1.93 1.93 0 0 0-1.41-.59c-.55 0-1.03.2-1.42.59-.39.39-.58.86-.58 1.41zm5.6 0c0 .55.2 1.02.58 1.41.4.4.87.59 1.43.59.56 0 1.03-.2 1.42-.59.39-.39.58-.86.58-1.41 0-.55-.2-1.02-.58-1.41a1.93 1.93 0 0 0-1.42-.59c-.56 0-1.04.2-1.43.59-.39.39-.58.86-.58 1.41z" fill-rule="evenodd"></path>
                 </svg>
               </button>
             </div>
-            <div class="y related_close_btn">
-              <div class="y related_close_btn_over">
-                <button onclick="relatedOpenHide()" id="related_open_hide_arial_lable" class="related_close_btn_overlay" data-testid="close-button" aria-label="open">
+            <div class="y episodes_close_btn">
+              <div class="y episodes_close_btn_over">
+                <button onclick="episodesShow()" id="episodes_open_hide_arial_lable" class="episodes_close_btn_overlay" data-testid="close-button" aria-label="open">
                   <svg width="25" height="25" viewBox="0 0 25 25">
                     <path d="M18.13 6.11l-5.61 5.61-5.6-5.61-.81.8 5.61 5.61-5.61 5.61.8.8 5.61-5.6 5.61 5.6.8-.8-5.6-5.6 5.6-5.62"></path>
                   </svg>
@@ -406,15 +406,15 @@ colorhover: "#e50914"
       </div>
     </div>
     <script>
-      function relatedOpenHide() {
-        var x = document.getElementById("related_open_hide");
-        var attr = document.getElementById("related_open_hide_arial_lable");
-        if(document.getElementById("related_open_hide_arial_lable").ariaLabel == "open") {
+      function episodesShow() {
+        var x = document.getElementById("episodes_open_hide");
+        var attr = document.getElementById("episodes_open_hide_arial_lable");
+        if(document.getElementById("episodes_open_hide_arial_lable").ariaLabel == "open") {
           x.style.display = "block";
-          document.getElementById("related_open_hide_arial_lable").ariaLabel = "close";
+          document.getElementById("episodes_open_hide_arial_lable").ariaLabel = "close";
         } else {
           x.style.display = "none";
-          document.getElementById("related_open_hide_arial_lable").ariaLabel = "open";
+          document.getElementById("episodes_open_hide_arial_lable").ariaLabel = "open";
         }
       }
     </script>
