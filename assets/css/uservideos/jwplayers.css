@@ -240,39 +240,39 @@
 .jw-breakpoint-5 .jw-display .jw-svg-icon,
 .jw-breakpoint-6 .jw-display .jw-svg-icon,
 .jw-breakpoint-7 .jw-display .jw-svg-icon {
-  width: 88px !important;
-  height: 88px !important;
-  line-height: 88px !important;
+  width: 120px !important;
+  height: 120px !important;
+  line-height: 120px !important;
 }
 
 .jw-breakpoint-2 .jw-display .jw-icon,
 .jw-breakpoint-3 .jw-display .jw-icon,
 .jw-breakpoint-2 .jw-display .jw-svg-icon,
 .jw-breakpoint-3 .jw-display .jw-svg-icon {
-  width: 77px !important;
-  height: 77px !important;
-  line-height: 77px !important;
+  width: 88px !important;
+  height: 88px !important;
+  line-height: 88px !important;
 }
 
 .jw-breakpoint-1 .jw-display .jw-icon,
 .jw-breakpoint-1 .jw-display .jw-svg-icon {
-  width: 44px !important;
-  height: 44px !important;
-  line-height: 44px !important;
+  width: 66px !important;
+  height: 66px !important;
+  line-height: 66px !important;
 }
 
 .jw-breakpoint-0 .jw-display .jw-icon,
 .jw-breakpoint--1 .jw-display .jw-icon,
 .jw-breakpoint-0 .jw-display .jw-svg-icon,
 .jw-breakpoint--1 .jw-display .jw-svg-icon {
-  width: 44px !important;
-  height: 44px !important;
-  line-height: 44px !important;
+  width: 66px !important;
+  height: 66px !important;
+  line-height: 66px !important;
 }
 
 .jw-display-icon-container .jw-icon {
-  height: 75px !important;
-  width: 75px !important;
+  height: 88px !important;
+  width: 88px !important;
 }
 
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
