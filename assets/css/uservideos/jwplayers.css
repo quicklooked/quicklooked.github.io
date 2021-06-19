@@ -416,3 +416,9 @@
 .jw-settings-menu {
   background-color: #000 !important;
 }
+
+.jw-settings-content-item {
+  font-size: 12px !important;
+  line-height: 1 !important;
+  padding: 7px 0 7px 15px !important;
+}
