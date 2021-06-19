@@ -467,12 +467,12 @@
   opacity: 1;
   left: 100%;
   top: 0;
-  width: 414px;
+  width: 400px;
   z-index: 520;
-  background-color: #fff;
+  background-color: #181818;
   overflow: auto;
   box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
-  transform: translateX(-415px);
+  transform: translateX(-400px);
   transition: transform .6s cubic-bezier(.23, 1, .32, 1) 0s, opacity .6s cubic-bezier(.23, 1, .32, 1) 0s;
 }
 
@@ -498,6 +498,7 @@
 }
 
 .related_privacy_btn:hover,
+.related_close_btn_overlay:hover,
 .related_dots_btn:hover {
   fill: #b80000;
 }
