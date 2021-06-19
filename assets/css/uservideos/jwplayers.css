@@ -125,7 +125,7 @@
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button:hover,
 .jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset:hover,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen:hover {
-  background: #e50914;
+  background: #b80000;
 }
 
 .jw-reset-text.jw-tooltip,
@@ -215,7 +215,7 @@
 }
 
 .jw-progress {
-  background: #e50914 !important;
+  background: #b80000 !important;
 }
 
 .jw-slider-time .jw-rail,
@@ -366,7 +366,7 @@
 .jw-text-live::before {
   height: 6px !important;
   width: 6px !important;
-  background-color: #e50914 !important;
+  background-color: #b80000 !important;
 }
 
 @media only screen and (max-width: 739px) {
