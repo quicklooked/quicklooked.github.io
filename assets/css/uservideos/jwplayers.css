@@ -453,7 +453,7 @@
   opacity: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, .08);
+  background-color: rgba(0, 0, 0, .8);
   z-index: 510;
   pointer-events: all;
   transition: opacity .6s cubic-bezier(.23, 1, .32, 1) 0s;
@@ -466,12 +466,12 @@
   opacity: 1;
   left: 100%;
   top: 0;
-  width: 400px;
+  width: 410px;
   z-index: 520;
   background-color: #000;
   overflow: auto;
   box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
-  transform: translateX(-400px);
+  transform: translateX(-410px);
   transition: transform .6s cubic-bezier(.23, 1, .32, 1) 0s, opacity .6s cubic-bezier(.23, 1, .32, 1) 0s;
 }
 
