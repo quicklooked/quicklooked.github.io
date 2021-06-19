@@ -394,7 +394,7 @@
   background-color: #e50914 !important;
 }
 
-@media only screen and (max-width: 739px) {
+@media all and (max-width: 739px) {
   .jw-flag-floating .jw-wrapper {
     top: 44px !important;
     bottom: auto !important;
@@ -404,6 +404,8 @@
     max-width: calc(100vh - 0px) !important;
     max-height: calc(100vh - 44px) !important;
   }
+}
+@media all and (max-width: 1024px) {
   .jw-icon.jw-icon-tooltip.jw-tooltip-time.jw-button-color.jw-reset {
     display: none !important
   }
