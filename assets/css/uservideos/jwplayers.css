@@ -343,8 +343,8 @@
 }
 
 .jwplayer.jw-state-buffering .jw-display-icon-display .jw-icon .jw-svg-icon-buffer {
-  -webkit-animation: jw-spin 500ms linear infinite !important;
-  animation: jw-spin 500ms linear infinite !important;
+  -webkit-animation: jw-spin 750ms linear infinite !important;
+  animation: jw-spin 750ms linear infinite !important;
 }
 
 .jw-icon.jw-icon-inline.jw-text.jw-reset.jw-text-countdown,
