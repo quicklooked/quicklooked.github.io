@@ -403,13 +403,12 @@
   padding: 88px 0 !important;
 }
 
-/*
+
 .jwplayer:not(.jw-flag-controls-hidden):not(.jw-state-playing) .jw-captions,
 .jwplayer.jw-flag-media-audio.jw-state-playing .jw-captions,
 .jwplayer.jw-state-playing:not(.jw-flag-user-inactive):not(.jw-flag-controls-hidden) .jw-captions {
   max-height: calc(100% - 88px) !important;
 }
-*/
 
 .jw-settings-topbar {
   background-color: #b80000 !important;
