@@ -150,7 +150,7 @@
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button:hover,
 .jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset:hover,
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen:hover {
-  background: #b80000;
+  background: #e50914;
 }
 
 .jw-reset-text.jw-tooltip,
@@ -240,7 +240,7 @@
 }
 
 .jw-progress {
-  background: #b80000 !important;
+  background: #e50914 !important;
 }
 
 .jw-slider-time .jw-rail,
@@ -391,7 +391,7 @@
 .jw-text-live::before {
   height: 6px !important;
   width: 6px !important;
-  background-color: #b80000 !important;
+  background-color: #e50914 !important;
 }
 
 @media only screen and (max-width: 739px) {
@@ -436,7 +436,7 @@
 }
 
 .jw-settings-topbar {
-  background-color: #b80000 !important;
+  background-color: #e50914 !important;
 }
 
 .jw-settings-menu {
@@ -523,7 +523,7 @@
 .episodes_privacy_btn:hover,
 .episodes_close_btn_overlay:hover,
 .episodes_dots_btn:hover {
-  fill: #b80000;
+  fill: #e50914;
 }
 
 .episodes_dots_btn {
