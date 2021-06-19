@@ -424,3 +424,123 @@
   line-height: 1 !important;
   padding: 7px 0 7px 15px !important;
 }
+
+
+/* Relative */
+
+.related_title-over {
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container_related_overlay_top {
+  padding-bottom: 24px;
+  padding: 24px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.container_related_over {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  cursor: pointer;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .08);
+  z-index: 510;
+  pointer-events: all;
+  transition: opacity .6s cubic-bezier(.23, 1, .32, 1) 0s;
+}
+
+.container_related_overlay_open {
+  box-sizing: border-box;
+  position: fixed;
+  height: 100%;
+  opacity: 1;
+  left: 100%;
+  top: 0;
+  width: 414px;
+  z-index: 520;
+  background-color: #fff;
+  overflow: auto;
+  box-shadow: rgb(0 0 0 / 15%) 0 4px 12px;
+  transform: translateX(-415px);
+  transition: transform .6s cubic-bezier(.23, 1, .32, 1) 0s, opacity .6s cubic-bezier(.23, 1, .32, 1) 0s;
+}
+
+@media only screen and (min-width: 1080px) {
+  .container_related_overlay_open {
+    margin-right: -16px;
+  }
+}
+
+@media only screen and (max-width: 739px) {
+  .container_related_overlay_open {
+    width: 100%;
+    top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    left: 0;
+    transform: translateY(0);
+  }
+}
+
+.related_privacy_btn {
+  fill: #fff;
+}
+
+.related_privacy_btn:hover,
+.related_dots_btn:hover {
+  fill: #b80000;
+}
+
+.related_dots_btn {
+  fill: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.related_dots_btn:focus {
+  outline: 0;
+}
+
+.related_close_btn {
+  position: relative;
+  right: -7px;
+}
+
+.related_close_btn_over {
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.related_close_btn_overlay {
+  font-size: inherit;
+  border: inherit;
+  cursor: pointer;
+  font-family: inherit;
+  letter-spacing: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+  margin-bottom: 0px;
+  color: inherit;
+  fill: inherit;
+}
+
+@media only screen and (max-width: 739px) {
+  .related_close_btn_overlay {
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+}
