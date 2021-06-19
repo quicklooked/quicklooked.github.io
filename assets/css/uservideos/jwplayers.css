@@ -508,6 +508,10 @@
   margin: 0 0 12px !important;
 }
 
+.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-episodes,
+.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-slider-time {
+  display: none !important;
+}
 
 /* episodes */
 
