@@ -458,8 +458,36 @@
   padding: 8px 0 8px 12px !important;
 }
 
+.jw-time-tip::after,
+.jw-controlbar .jw-tooltip::after,
+.jw-settings-menu .jw-tooltip::after {
+  height: 12px !important;
+  width: 12px !important;
+  border-radius: 0 !important;
+}
 
-/* Relative */
+.jw-time-tip .jw-text,
+.jw-controlbar .jw-tooltip .jw-text,
+.jw-settings-menu .jw-tooltip .jw-text {
+  border-radius: 0 !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  margin: 0 !important;
+  color: #181818 !important;
+  line-height: 1 !important;
+  padding: 6px 8px !important;
+  min-height: 1em !important;
+}
+
+.jw-time-tip,
+.jw-controlbar .jw-tooltip,
+.jw-settings-menu .jw-tooltip {
+  box-shadow: none !important;
+  margin: 0 0 12px !important;
+}
+
+
+/* episodes */
 
 .episodes_title-over {
   color: #fff;
