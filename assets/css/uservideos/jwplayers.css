@@ -337,7 +337,8 @@
 }
 
 .jw-settings-menu .jw-icon.jw-button-color:after {
-  box-shadow: inset 0 -3px 0 -1px rgb(229 9 20) !important;
+  box-shadow: inset 0 -4px 0 -1px rgb(229 9 20) !important;
+  width: 100% !important;
 }
 
 .jwplayer.jw-state-buffering .jw-display-icon-display .jw-icon .jw-svg-icon-buffer {
