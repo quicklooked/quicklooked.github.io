@@ -438,10 +438,12 @@
 }
 
 .jw-settings-topbar {
+  padding: 0 !important;
   background-color: #e50914 !important;
 }
 
 .jw-settings-menu {
+  padding: 8px 20px 0 0 !important;
   background-color: #000 !important;
 }
 
