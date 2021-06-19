@@ -536,7 +536,7 @@
   align-items: flex-start;
   margin-bottom: 0px;
   color: inherit;
-  fill: inherit;
+  fill: #fff;
 }
 
 @media only screen and (max-width: 739px) {
