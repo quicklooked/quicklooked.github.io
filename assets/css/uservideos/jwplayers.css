@@ -430,11 +430,10 @@
 
 .related_title-over {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.8rem;
   line-height: 24px;
   letter-spacing: 0;
   font-weight: 700;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 .container_related_overlay_top {
