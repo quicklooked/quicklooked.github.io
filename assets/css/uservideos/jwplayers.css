@@ -603,7 +603,7 @@
 }
 
 .episodes_privacy_btn:hover,
-.jw-float-icon.jw-icon.jw-button-color.jw-reset:hover,
+.jw-flag-floating .jw-float-icon .jw-svg-icon:hover,
 .episodes_close_btn_overlay:hover,
 .episodes_dots_btn:hover {
   fill: #e50914;
