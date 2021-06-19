@@ -443,14 +443,18 @@
 }
 
 .jw-settings-menu {
-  padding: 8px 20px 0 0 !important;
   background-color: #000 !important;
+}
+
+.jw-settings-submenu {
+  padding: 8px 20px 0 0 !important;
 }
 
 .jw-settings-content-item {
   font-size: 12px !important;
   line-height: 1 !important;
-  padding: 7px 0 7px 15px !important;
+  height: 28px !important;
+  padding: 8px 0 8px 15px !important;
 }
 
 
