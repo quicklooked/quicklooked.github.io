@@ -408,3 +408,11 @@
 .jwplayer.jw-state-playing:not(.jw-flag-user-inactive):not(.jw-flag-controls-hidden) .jw-captions {
   max-height: calc(100% - 88px) !important;
 }
+
+.jw-settings-topbar {
+  background-color: #111 !important;
+}
+
+.jw-settings-menu {
+  background-color: #000 !important;
+}
