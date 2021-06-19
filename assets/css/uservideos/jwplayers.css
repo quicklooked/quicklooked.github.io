@@ -249,30 +249,30 @@
 .jw-breakpoint-3 .jw-display .jw-icon,
 .jw-breakpoint-2 .jw-display .jw-svg-icon,
 .jw-breakpoint-3 .jw-display .jw-svg-icon {
-  width: 88px !important;
-  height: 88px !important;
-  line-height: 88px !important;
+  width: 100px !important;
+  height: 100px !important;
+  line-height: 100px !important;
 }
 
 .jw-breakpoint-1 .jw-display .jw-icon,
 .jw-breakpoint-1 .jw-display .jw-svg-icon {
-  width: 66px !important;
-  height: 66px !important;
-  line-height: 66px !important;
+  width: 88px !important;
+  height: 88px !important;
+  line-height: 88px !important;
 }
 
 .jw-breakpoint-0 .jw-display .jw-icon,
 .jw-breakpoint--1 .jw-display .jw-icon,
 .jw-breakpoint-0 .jw-display .jw-svg-icon,
 .jw-breakpoint--1 .jw-display .jw-svg-icon {
-  width: 66px !important;
-  height: 66px !important;
-  line-height: 66px !important;
+  width: 88px !important;
+  height: 88px !important;
+  line-height: 88px !important;
 }
 
 .jw-display-icon-container .jw-icon {
-  height: 88px !important;
-  width: 88px !important;
+  height: 100px !important;
+  width: 100px !important;
 }
 
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
