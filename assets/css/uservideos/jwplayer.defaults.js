@@ -25,6 +25,14 @@ var jwDefaults = {
   "floating": {
     "dismissible": true
   },
+  "advertising": {
+    "client": "vast",
+    "adscheduleid": "Az87bY12",
+    "schedule": [{
+      "offset": "pre",
+      "tag": "https://www.domain.com/adtag.xml"
+    }]
+  },
   "cast": {},
   "abouttext": "Quicklook TV+",
   "related_dimensions": true,
