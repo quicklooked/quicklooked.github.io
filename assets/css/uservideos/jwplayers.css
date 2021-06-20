@@ -229,6 +229,12 @@
   width: 6px !important;
 }
 
+.jw-time-thumb {
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 1);
+  transition: opacity 0s linear 0.4s;
+}
+
 .jw-reset-text.jw-tooltip,
 .jw-rightclick.jw-reset,
 .jw-icon-volume::after,
