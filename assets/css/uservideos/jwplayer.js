@@ -3328,7 +3328,7 @@ window.jwplayer = function(t) {
     auto: "Auto",
     buffer: "Loading",
     cast: "Chromecast",
-    cc: "Closed captions",
+    cc: "Captions",
     close: "Close",
     errors: {
       badConnection: "This video cannot be played because of a problem with your internet connection.",
@@ -3353,7 +3353,7 @@ window.jwplayer = function(t) {
     pause: "Pause",
     play: "Play",
     playback: "Play",
-    playbackRates: "Playback speed",
+    playbackRates: "Speed",
     player: "Quicklook Inc.",
     poweredBy: "Powered by",
     prev: "Previous",
