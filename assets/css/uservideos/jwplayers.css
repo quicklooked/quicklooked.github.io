@@ -466,7 +466,7 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 380px) {
   .jw-breakpoint-0 .jw-slider-time,
   .jw-breakpoint-1 .jw-slider-time,
   .jw-breakpoint--1:not(.jw-flag-audio-player) .jw-slider-time {
