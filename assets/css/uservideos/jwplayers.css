@@ -210,6 +210,25 @@
   background: #e50914;
 }
 
+.jw-icon-volume .jw-overlay {
+  background: #111 !important;
+}
+
+.jw-volume-tip {
+  padding: 20px 0 20px !important;
+}
+
+.jw-slider-vertical .jw-slider-container {
+  height: 100px !important;
+  width: 6px !important;
+}
+
+.jw-slider-vertical .jw-rail,
+.jw-slider-vertical .jw-buffer,
+.jw-slider-vertical .jw-progress {
+  width: 6px !important;
+}
+
 .jw-reset-text.jw-tooltip,
 .jw-rightclick.jw-reset,
 .jw-icon-volume::after,
