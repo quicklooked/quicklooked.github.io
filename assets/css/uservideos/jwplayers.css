@@ -741,3 +741,16 @@
   background-color: transparent;
   width: 6px;
 }
+
+/* ads */
+
+.jwplayer.jw-flag-ads .jw-controlbar .jw-text-alt {
+  font-size: 11px !important;
+  line-height: 44px !important;
+  height: 44px !important;
+  color: #fff !important;
+}
+
+.jwplayer.jw-flag-ads .jw-controlbar .jw-slider-time {
+  display: none !important;
+}
