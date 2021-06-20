@@ -34,7 +34,8 @@ var jwDefaults = {
   "horizontalVolumeSlider": false,
   "autostart": false,
   "controls": true,
-  "nextUpDisplay": true,
+  //"nextUpDisplay": true,
+  "nextUpDisplay": false,
   "displaydescription": false,
   "displaytitle": false,
   "displayPlaybackLabel": false,
@@ -55,7 +56,6 @@ var jwDefaults = {
   "pid": "Jq6HIbgz",
   "playbackRateControls": false,
   "preload": "metadata",
-  "repeat": false,
   "stretching": "uniform",
   "repeat": false,
   "width": "100%"
