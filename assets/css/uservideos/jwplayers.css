@@ -11,6 +11,7 @@
 .jw-svg-icon-episodes>g,
 .jw-svg-icon-cc-on path,
 .jw-svg-icon-volume-100 path,
+.jw-svg-icon-quality-100 path,
 .jw-svg-icon-settings path,
 .jwplayer .jw-svg-icon-buffer path,
 .jw-svg-icon-audio-tracks path,
@@ -171,6 +172,15 @@
   background-repeat: no-repeat;
   width: auto !important;
   height: auto !important;
+  background-position: center;
+}
+
+.jw-svg-icon-quality-100 {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 32 32' fill='%23fff' xmlns='http://www.w3.org/2000/svg' aria-hidden='true' focusable='false'%3E%3Cpath d='M10 5v22h22V5H10zm19 19H13V8h16v16zM5 27h3v-2H7V7h1V5H5M0 27h3v-2H2V7h1V5H0z M17 11v10l9-5z'%3E%3C/path%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px !important;
+  height: 20px !important;
   background-position: center;
 }
 
@@ -396,8 +406,8 @@
   width: 100px !important;
 }
 
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
-.jw-reset.jw-settings-submenu.jw-settings-submenu-quality,
+/*.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-settings-quality.jw-submenu-quality,
+.jw-reset.jw-settings-submenu.jw-settings-submenu-quality,*/
 .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button,
 .jw-reset.jw-submenu-topbar {
   display: none !important;
