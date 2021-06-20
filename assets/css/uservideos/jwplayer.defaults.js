@@ -26,9 +26,9 @@ var jwDefaults = {
     "dismissible": true
   },
   "advertising": {
-    "client": "googima",
+    "client": "vast",
     "skipoffset": 10,
-    "adscheduleid": "Az87bY12",
+    //"adscheduleid": "Az87bY12",
     "schedule": [{
       "offset": "pre",
       "tag": "https://video-ads-apex.rubiconproject.com/apex/assets/testad/forest_vast2.xml"
