@@ -730,3 +730,14 @@
     flex-direction: column;
   }
 }
+
+.container_episodes_overlay_open::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.container_episodes_overlay_open::-webkit-scrollbar {
+  background-color: transparent;
+  width: 6px;
+}
