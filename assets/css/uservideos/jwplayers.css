@@ -582,6 +582,10 @@
   margin: 0 0 12px !important;
 }
 
+.jw-breakpoint-7 .jw-controlbar .jw-button-container .jw-icon-volume .jw-overlay {
+  padding-bottom: 0 !important;
+}
+
 .jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-episodes,
 .jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-forward,
 /*.jwplayer.jw-breakpoint--1:not(.jw-flag-audio-player) .jw-icon-volume,*/
