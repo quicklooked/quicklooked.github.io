@@ -28,7 +28,7 @@ var jwDefaults = {
   "advertising": {
     "client": "googima",
     "skipoffset": 10,
-    //"adscheduleid": "Az87bY12",
+    "adscheduleid": "Az87bY12",
     "schedule": [{
       "offset": "pre",
       "tag": "https://pubads.g.doubleclick.net/gampad/ads?' +
