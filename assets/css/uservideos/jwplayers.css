@@ -230,9 +230,9 @@
 }
 
 .jw-time-thumb {
-  border: 1px solid #fff;
-  background: rgba(0, 0, 0, 1);
-  transition: opacity 0s linear 0.4s;
+  border: 1px solid #fff !important;
+  background: rgba(0, 0, 0, 1) !important;
+  transition: opacity 0s linear 0.4s !important;
 }
 
 .jw-reset-text.jw-tooltip,
