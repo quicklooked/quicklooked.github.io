@@ -197,17 +197,19 @@
   right: 0 !important;
 }
 
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-forward:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-episodes:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next:hover,
-.jw-float-icon.jw-icon.jw-button-color.jw-reset:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button:hover,
-.jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset:hover,
-.jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen:hover {
-  background: #e50914;
+@media all and (min-width: 739px) {
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-forward:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-episodes:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-next:hover,
+  .jw-float-icon.jw-icon.jw-button-color.jw-reset:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-cc.jw-settings-submenu-button:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-settings.jw-settings-submenu-button:hover,
+  .jw-icon.jw-icon-tooltip.jw-icon-volume.jw-button-color.jw-reset:hover,
+  .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-fullscreen:hover {
+    background: #e50914;
+  }
 }
 
 .jw-icon-volume .jw-overlay {
