@@ -197,7 +197,7 @@
   right: 0 !important;
 }
 
-@media all and (min-width: 739px) {
+@media all and (min-width: 1056px) {
   .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-playback:hover,
   .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-forward:hover,
   .jw-icon.jw-icon-inline.jw-button-color.jw-reset.jw-icon-rewind:hover,
