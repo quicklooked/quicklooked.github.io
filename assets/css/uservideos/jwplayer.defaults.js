@@ -28,10 +28,11 @@ var jwDefaults = {
   "advertising": {
     "client": "vast",
     "skipoffset": 10,
+    "skipmessage": 'Skip this ad in XXs'
     //"adscheduleid": "Az87bY12",
     "schedule": [{
       "offset": "pre",
-      "tag": "https://video-ads-apex.rubiconproject.com/apex/assets/testad/forest_vast2.xml"
+      "tag": "https://playertest.longtailvideo.com/vast-30s-ad.xml"
     }]
   },
   "cast": {},
