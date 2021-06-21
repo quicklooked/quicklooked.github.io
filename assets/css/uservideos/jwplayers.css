@@ -805,3 +805,11 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+
+.jwplayer.jw-flag-ads .jw-controlbar .jw-slider-time .jw-progress {
+  top: 50% !important;
+}
+
+.jwplayer.jw-flag-ads .jw-controlbar .jw-slider-time .jw-rail {
+  display: inline-flex !important;
+}
