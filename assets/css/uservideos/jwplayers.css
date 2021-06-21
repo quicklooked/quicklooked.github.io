@@ -813,3 +813,7 @@
 .jwplayer.jw-flag-ads .jw-controlbar .jw-slider-time .jw-rail {
   display: inline-flex !important;
 }
+
+.jwplayer.jw-flag-ads .jw-controlbar {
+  flex-direction: column !important;
+}
