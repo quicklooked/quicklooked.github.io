@@ -13400,7 +13400,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
   height: 17px;
   display: inline-block;
   margin-left: 3px;
-  background-image: url(https://podcasts.apple.com/assets/images/icons/video-thumbnail-sm-c3cb41a10f2ac99ce149671c1d7c02d9.svg);
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/video-thumbnail-sm-c3cb41a10f2ac99ce149671c1d7c02d9.svg);
   background-position: center;
   background-size: 15px 17px
 }
@@ -13430,7 +13430,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
     height: 23px;
     margin-top: 1px;
     margin-left: 6px;
-    background-image: url(https://podcasts.apple.com/assets/images/icons/video-thumbnail-lg-ba9e0ce51c10e57cf68c0a32aa421cee.svg);
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/video-thumbnail-lg-ba9e0ce51c10e57cf68c0a32aa421cee.svg);
     background-size: 20px 23px
   }
 
@@ -15952,7 +15952,7 @@ html[dir=rtl] .story-card__day-icon {
 
 @media only screen and (min-width:1069px) {
   .story-card__iap-purchase::before {
-    background: url(https://podcasts.apple.com/assets/images/iap-overlay-262-e2079545c44d09715c518a1a9052a9ce.svg) no-repeat
+    background: url(/assets/css/uservideos/iconproduct/iproduct/iap-overlay-262-e2079545c44d09715c518a1a9052a9ce.svg) no-repeat
   }
 
   .story-card__iap-footer {
@@ -17743,7 +17743,7 @@ html[dir=rtl] .we-banner-arcade__artwork {
   top: 50%;
   transform: translateY(1px) translateY(-50%);
   background-repeat: no-repeat;
-  background-image: url(https://podcasts.apple.com/assets/images/laurel-left-3c4464a8dbb88e0a7039a15a7008a6ac.svg);
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/laurel-left-3c4464a8dbb88e0a7039a15a7008a6ac.svg);
   z-index: 1
 }
 
@@ -18969,7 +18969,7 @@ html[dir=rtl] .no-touch .we-share--header .we-share__message {
 }
 
 .is-lazy-visible .we-subscribe__image-apple-music {
-  background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_small-cb224a01e8439b6c0a3f92be6ed47531.png)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/musicbanner_small-cb224a01e8439b6c0a3f92be6ed47531.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
@@ -18977,7 +18977,7 @@ only screen and (min-resolution:1.5dppx),
 (-webkit-min-device-pixel-ratio:1.5),
 (min-resolution:144dpi) {
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_small@2x-80552722ae5aa8f2f2061239524dd60c.png)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/musicbanner_small@2x-80552722ae5aa8f2f2061239524dd60c.png)
   }
 }
 
@@ -18989,7 +18989,7 @@ only screen and (min-resolution:1.5dppx),
   }
 
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_medium-68df7c3c577cda3fd2625d6337a2a498.png)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/musicbanner_medium-68df7c3c577cda3fd2625d6337a2a498.png)
   }
 }
 
@@ -18997,7 +18997,7 @@ only screen and (min-resolution:1.5dppx),
 only screen and (min-width:735px) and (min-resolution:1.5dppx),
 only screen and (min-width:735px) and (min-resolution:144dpi) {
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_medium@2x-600f789b8f5246752ca81f7970b173c7.png)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/musicbanner_medium@2x-600f789b8f5246752ca81f7970b173c7.png)
   }
 }
 
@@ -19011,7 +19011,7 @@ only screen and (min-width:735px) and (min-resolution:144dpi) {
   }
 
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_large-9234ba20c78ac16b9122279127309cfc.png)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/musicbanner_large-9234ba20c78ac16b9122279127309cfc.png)
   }
 }
 
@@ -19019,7 +19019,7 @@ only screen and (min-width:735px) and (min-resolution:144dpi) {
 only screen and (min-width:1069px) and (min-resolution:1.5dppx),
 only screen and (min-width:1069px) and (min-resolution:144dpi) {
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_large@2x-483412606e5ed5cc510b8f5c9083eabf.png)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/musicbanner_large@2x-483412606e5ed5cc510b8f5c9083eabf.png)
   }
 }
 
@@ -20041,11 +20041,11 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .single-book-widget--on-light .single-book-widget__quote__text::after {
-  background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
 }
 
 .single-book-widget--on-dark .single-book-widget__quote__text::after {
-  background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
 }
 
 @media only screen and (min-width:735px) {
@@ -20065,11 +20065,11 @@ html[dir=rtl] .book-badge__caption--duration {
   }
 
   .single-book-widget--on-light .single-book-widget__quote__text::after {
-    background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
   }
 
   .single-book-widget--on-dark .single-book-widget__quote__text::after {
-    background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
+    background-image: url(/assets/css/uservideos/iconproduct/iproduct/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
   }
 }
 
@@ -20081,11 +20081,11 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .single-book-widget--on-light .single-book-widget__quote__signature {
-  background-image: url(https://podcasts.apple.com/assets/images/oprah/signature-on-light-278a2d485bf33c292419fcf980c42fa5.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/signature-on-light-278a2d485bf33c292419fcf980c42fa5.svg)
 }
 
 .single-book-widget--on-dark .single-book-widget__quote__signature {
-  background-image: url(https://podcasts.apple.com/assets/images/oprah/signature-on-dark-f73a49a24ab29efac12bd087f59b17b9.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/signature-on-dark-f73a49a24ab29efac12bd087f59b17b9.svg)
 }
 
 @media only screen and (min-width:735px) {
@@ -20113,19 +20113,19 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .star-rating--on-dark .star-rating__outline {
-  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-on-dark-d455b3a343d60d0b308ca25f92b1eb97.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/star-on-dark-d455b3a343d60d0b308ca25f92b1eb97.svg)
 }
 
 .star-rating--on-dark .star-rating__fill {
-  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-filled-on-dark-d88316065ed485c1ee2a38e820e486a3.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/star-filled-on-dark-d88316065ed485c1ee2a38e820e486a3.svg)
 }
 
 .star-rating--on-light .star-rating__outline {
-  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-on-light-4f92dff733f80e79a4c1c1b2ab4789f3.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/star-on-light-4f92dff733f80e79a4c1c1b2ab4789f3.svg)
 }
 
 .star-rating--on-light .star-rating__fill {
-  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-filled-on-light-57a194695bb7a69d1ef02c6db698541c.svg)
+  background-image: url(/assets/css/uservideos/iconproduct/iproduct/star-filled-on-light-57a194695bb7a69d1ef02c6db698541c.svg)
 }
 
 .star-rating__fill {
