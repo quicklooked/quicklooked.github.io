@@ -27,7 +27,7 @@ var jwDefaults = {
   },
   "advertising": {
     "client": "vast",
-    "admessage": "Quicklook advertising",
+    "admessage": "Video will play after ad",
     //"skipoffset": 5,
     //"admessage": "Video will play after ad",
     //"skipmessage": 'Video will play after ad',
