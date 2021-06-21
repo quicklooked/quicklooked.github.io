@@ -21061,3 +21061,147 @@ html[dir=rtl] .book-badge__caption--duration {
     padding-top: 100%;
   }
 }
+
+.ember_larger,
+#ember_larger::before {
+  width: 268px;
+  height: 268px;
+}
+
+.ember_larger::before {
+  padding-top: 100%;
+}
+
+.ember_larger,
+#ember_larger::before {
+  width: 268px;
+  height: 268px;
+}
+
+.ember_larger::before {
+  padding-top: 100%;
+}
+
+@media (min-width: 735px) {
+
+  .ember_larger,
+  #ember_larger::before {
+    width: 276px;
+    height: 276px;
+  }
+
+  .ember_larger::before {
+    padding-top: 100%;
+  }
+}
+
+@media (min-width: 735px) {
+
+  .ember_larger,
+  #ember_larger::before {
+    width: 276px;
+    height: 276px;
+  }
+
+  .ember_larger::before {
+    padding-top: 100%;
+  }
+}
+
+@media (min-width: 1069px) {
+
+  .ember_larger,
+  #ember_larger::before {
+    width: 313px;
+    height: 313px;
+  }
+
+  .ember_larger::before {
+    padding-top: 100%;
+  }
+}
+
+@media (min-width: 1069px) {
+
+  .ember_larger,
+  #ember_larger::before {
+    width: 313px;
+    height: 313px;
+  }
+
+  .ember_larger::before {
+    padding-top: 100%;
+  }
+}
+
+.ember_small,
+#ember_small::before {
+  width: 268px;
+  height: 268px;
+}
+
+.ember_small::before {
+  padding-top: 100%;
+}
+
+.ember_small,
+#ember_small::before {
+  width: 268px;
+  height: 268px;
+}
+
+.ember_small::before {
+  padding-top: 100%;
+}
+
+@media (min-width: 735px) {
+
+  .ember_small,
+  #ember_small::before {
+    width: 276px;
+    height: 276px;
+  }
+
+  .ember_small::before {
+    padding-top: 100%;
+  }
+}
+
+@media (min-width: 735px) {
+
+  .ember_small,
+  #ember_small::before {
+    width: 276px;
+    height: 276px;
+  }
+
+  .ember_small::before {
+    padding-top: 100%;
+  }
+}
+
+@media (min-width: 1069px) {
+
+  .ember_small,
+  #ember_small::before {
+    width: 313px;
+    height: 313px;
+  }
+
+  .ember_small::before {
+    padding-top: 100%;
+  }
+}
+
+@media (min-width: 1069px) {
+
+  .ember_small,
+  #ember_small::before {
+    width: 313px;
+    height: 313px;
+  }
+
+  .ember_small::before {
+    padding-top: 100%;
+  }
+}
