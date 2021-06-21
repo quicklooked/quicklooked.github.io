@@ -6789,12 +6789,12 @@ html[dir=rtl] .shelf-grid__list-item {
   height: 29px;
   opacity: .85;
   background-repeat: no-repeat;
-  background-image: url(../assets/shelf/paddle-default-c982e76e4d16230b8424bb5e3618038e.svg);
+  background-image: url(https://podcasts.apple.com/assets/shelf/paddle-default-c982e76e4d16230b8424bb5e3618038e.svg);
   z-index: 1
 }
 
 .dark-mode .shelf-grid-nav__arrow::after {
-  background-image: url(../assets/shelf/paddle-dark-eec61ec5e516c8b50a97265169ef76a2.svg)
+  background-image: url(https://podcasts.apple.com/assets/shelf/paddle-dark-eec61ec5e516c8b50a97265169ef76a2.svg)
 }
 
 .shelf-grid-nav__arrow:active:not([disabled])::after {
@@ -7129,7 +7129,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   opacity: 0;
   -webkit-animation: animation-wrapper-appear .1s cubic-bezier(.21, .11, .18, 1) 1s forwards;
   animation: animation-wrapper-appear .1s cubic-bezier(.21, .11, .18, 1) 1s forwards;
-  background-image: url(/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
+  background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain
@@ -7139,7 +7139,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   .animation-wrapper__spinner {
     height: 35px;
     width: 35px;
-    background-image: url(/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg)
+    background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg)
   }
 
   .app-privacy__cards {
@@ -8477,7 +8477,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--dbatmos {
   width: 54px;
   height: 15px;
-  background-image: url(/assets/images/badges/DolbyAtmos-70ab2ea7ee4691795d2b34690b0142fa.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/DolbyAtmos-70ab2ea7ee4691795d2b34690b0142fa.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8495,7 +8495,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--4k {
   width: 26px;
   height: 15px;
-  background-image: url(/assets/images/badges/4k-4c90fbf0a1821a598e773d5ea4ad6e77.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/4k-4c90fbf0a1821a598e773d5ea4ad6e77.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8513,7 +8513,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--dbvision {
   width: 53px;
   height: 15px;
-  background-image: url(/assets/images/badges/Dolby-497c98cb1fc2f03af4340eb7c773a89f.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/Dolby-497c98cb1fc2f03af4340eb7c773a89f.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8531,7 +8531,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--hdr {
   width: 34px;
   height: 15px;
-  background-image: url(/assets/images/badges/HDR-864ec51c88d14811cf718ff5967367bc.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/HDR-864ec51c88d14811cf718ff5967367bc.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8549,7 +8549,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--hd {
   width: 25px;
   height: 15px;
-  background-image: url(/assets/images/badges/HD-37d1d7ccaa33ae5e9cf0c9ef3065ef4e.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/HD-37d1d7ccaa33ae5e9cf0c9ef3065ef4e.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8567,7 +8567,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--cc {
   width: 26px;
   height: 15px;
-  background-image: url(/assets/images/badges/CC-2f7dac355007c6b3005c44335084a2aa.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/CC-2f7dac355007c6b3005c44335084a2aa.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8585,7 +8585,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--sdh {
   width: 31px;
   height: 15px;
-  background-image: url(/assets/images/badges/SDH-83bbf10234a14204c0cc79e0999bd051.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/SDH-83bbf10234a14204c0cc79e0999bd051.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -8603,7 +8603,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-asset--ad {
   width: 25px;
   height: 15px;
-  background-image: url(/assets/images/badges/AD-3e35e8fab792644d6ee0f1d09e5e1255.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/badges/AD-3e35e8fab792644d6ee0f1d09e5e1255.svg)
 }
 
 @media only screen and (max-width:734px) {
@@ -9005,38 +9005,38 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .badge-with-label--common-sense-age::before {
   width: 17px;
   height: 16px;
-  background-image: url(/assets/images/common_sense_media@2x-ba947a7e24841bcf89c8ceb8ad1e8740.svg);
+  background-image: url(https://podcasts.apple.com/assets/images/common_sense_media@2x-ba947a7e24841bcf89c8ceb8ad1e8740.svg);
   background-size: 17px 16px
 }
 
 .badge-with-label--rotten-tomatoes-rotten::before {
   width: 16px;
   height: 16px;
-  background-image: url(/assets/images/rotten-tomatoes/rottenTomatoesRotten@2x-98ec4a00ea3b3433cb7a1d7c002301ea.png)
+  background-image: url(https://podcasts.apple.com/assets/images/rotten-tomatoes/rottenTomatoesRotten@2x-98ec4a00ea3b3433cb7a1d7c002301ea.png)
 }
 
 .badge-with-label--rotten-tomatoes-fresh::before {
   width: 16px;
   height: 16px;
-  background-image: url(/assets/images/rotten-tomatoes/rottenTomatoesFresh@2x-954fdebfc87f0e82ba498c2de76a1a60.png)
+  background-image: url(https://podcasts.apple.com/assets/images/rotten-tomatoes/rottenTomatoesFresh@2x-954fdebfc87f0e82ba498c2de76a1a60.png)
 }
 
 .badge-with-label--rotten-tomatoes-certified-fresh::before {
   width: 16px;
   height: 16px;
-  background-image: url(/assets/images/rotten-tomatoes/rottenTomatoesCertified@2x-495b000fa56a535eaafd1b782dc3613d.png)
+  background-image: url(https://podcasts.apple.com/assets/images/rotten-tomatoes/rottenTomatoesCertified@2x-495b000fa56a535eaafd1b782dc3613d.png)
 }
 
 .badge-with-label--rotten-tomatoes-audience-fresh::before {
   width: 12px;
   height: 16px;
-  background-image: url(/assets/images/rotten-tomatoes/rottenTomatoesAudienceFresh@2x-126f48ab0930a47341ea99db01d593e7.png)
+  background-image: url(https://podcasts.apple.com/assets/images/rotten-tomatoes/rottenTomatoesAudienceFresh@2x-126f48ab0930a47341ea99db01d593e7.png)
 }
 
 .badge-with-label--rotten-tomatoes-audience-rotten::before {
   width: 21px;
   height: 16px;
-  background-image: url(/assets/images/rotten-tomatoes/rottenTomatoesAudienceRotten@2x-d703c9bb4ccc877ca03ec8079db9d606.png)
+  background-image: url(https://podcasts.apple.com/assets/images/rotten-tomatoes/rottenTomatoesAudienceRotten@2x-d703c9bb4ccc877ca03ec8079db9d606.png)
 }
 
 .icon-clean-large::after,
@@ -12197,7 +12197,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports ((-webkit-mask-position: initial) or (mask-position: initial)) {
   .we-artwork--ios-app-icon::before {
-    background: url(/assets/images/masks/icon-app-mask-border-61226afcae6a8f2b3d2755728daaf4f2.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/icon-app-mask-border-61226afcae6a8f2b3d2755728daaf4f2.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--ios-app-icon .we-artwork__image,
@@ -12221,13 +12221,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   }
 
   .we-artwork--imessages-app-icon::before {
-    background: url(/assets/images/masks/icon-imessageapp-mask-border-46aa71b51fb5abf162266c3077920755.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/icon-imessageapp-mask-border-46aa71b51fb5abf162266c3077920755.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--imessages-app-icon .we-artwork__image,
   .we-artwork--imessages-app-icon::after {
-    -webkit-mask: url(/assets/images/masks/icon-imessageapp-mask-0cae74e1909032f57e31502f52671a1a.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/icon-imessageapp-mask-0cae74e1909032f57e31502f52671a1a.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/icon-imessageapp-mask-0cae74e1909032f57e31502f52671a1a.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/icon-imessageapp-mask-0cae74e1909032f57e31502f52671a1a.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12254,13 +12254,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   }
 
   .we-artwork--screenshot-version-iphone-5-8::before {
-    background: url(/assets/images/masks/iphone-5-8-mask-border-e453b2a203c0d81e022e62489d3d9d89.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/iphone-5-8-mask-border-e453b2a203c0d81e022e62489d3d9d89.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-iphone-5-8 .we-artwork__image,
   .we-artwork--screenshot-version-iphone-5-8::after {
-    -webkit-mask: url(/assets/images/masks/iphone-5-8-mask-9baf93122ddc47233a2526b454e0f3fe.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/iphone-5-8-mask-9baf93122ddc47233a2526b454e0f3fe.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/iphone-5-8-mask-9baf93122ddc47233a2526b454e0f3fe.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/iphone-5-8-mask-9baf93122ddc47233a2526b454e0f3fe.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12287,13 +12287,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports ((-webkit-mask-position: initial) or (mask-position: initial)) {
   .we-artwork--screenshot-version-iphone-5-8.we-artwork--screenshot-orientation-landscape::before {
-    background: url(/assets/images/masks/iphone-5-8-mask-landscape-border-c22a7e9d8d03dfe903a0fc0d37c88dbc.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/iphone-5-8-mask-landscape-border-c22a7e9d8d03dfe903a0fc0d37c88dbc.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-iphone-5-8.we-artwork--screenshot-orientation-landscape .we-artwork__image,
   .we-artwork--screenshot-version-iphone-5-8.we-artwork--screenshot-orientation-landscape::after {
-    -webkit-mask: url(/assets/images/masks/iphone-5-8-mask-landscape-1b2a2016c3b7f34a88315b3939bb6a6c.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/iphone-5-8-mask-landscape-1b2a2016c3b7f34a88315b3939bb6a6c.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/iphone-5-8-mask-landscape-1b2a2016c3b7f34a88315b3939bb6a6c.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/iphone-5-8-mask-landscape-1b2a2016c3b7f34a88315b3939bb6a6c.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12311,13 +12311,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   }
 
   .we-artwork--screenshot-version-iphone-6-5::before {
-    background: url(/assets/images/masks/iphone-6-5-mask-border-f519029c9bc5f9130e7826c69b475d0b.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/iphone-6-5-mask-border-f519029c9bc5f9130e7826c69b475d0b.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-iphone-6-5 .we-artwork__image,
   .we-artwork--screenshot-version-iphone-6-5::after {
-    -webkit-mask: url(/assets/images/masks/iphone-6-5-mask-c88356640b7a7aedb98664cb26145a83.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/iphone-6-5-mask-c88356640b7a7aedb98664cb26145a83.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/iphone-6-5-mask-c88356640b7a7aedb98664cb26145a83.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/iphone-6-5-mask-c88356640b7a7aedb98664cb26145a83.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12344,13 +12344,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports ((-webkit-mask-position: initial) or (mask-position: initial)) {
   .we-artwork--screenshot-version-iphone-6-5.we-artwork--screenshot-orientation-landscape::before {
-    background: url(/assets/images/masks/iphone-6-5-mask-landscape-border-94e3ff16ec3bc95022c5652298a74864.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/iphone-6-5-mask-landscape-border-94e3ff16ec3bc95022c5652298a74864.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-iphone-6-5.we-artwork--screenshot-orientation-landscape .we-artwork__image,
   .we-artwork--screenshot-version-iphone-6-5.we-artwork--screenshot-orientation-landscape::after {
-    -webkit-mask: url(/assets/images/masks/iphone-6-5-mask-landscape-16bacd4de8aa1ba058b0da951d75741e.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/iphone-6-5-mask-landscape-16bacd4de8aa1ba058b0da951d75741e.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/iphone-6-5-mask-landscape-16bacd4de8aa1ba058b0da951d75741e.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/iphone-6-5-mask-landscape-16bacd4de8aa1ba058b0da951d75741e.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12368,13 +12368,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   }
 
   .we-artwork--screenshot-version-ipad-pro-2018::before {
-    background: url(/assets/images/masks/ipad-pro-2018-mask-border-9d37f129a14c3ccf9de0dfdec6bfc0ac.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/ipad-pro-2018-mask-border-9d37f129a14c3ccf9de0dfdec6bfc0ac.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-ipad-pro-2018 .we-artwork__image,
   .we-artwork--screenshot-version-ipad-pro-2018::after {
-    -webkit-mask: url(/assets/images/masks/ipad-pro-2018-mask-550a9817026c250dff671b4c04a3bd26.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/ipad-pro-2018-mask-550a9817026c250dff671b4c04a3bd26.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/ipad-pro-2018-mask-550a9817026c250dff671b4c04a3bd26.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/ipad-pro-2018-mask-550a9817026c250dff671b4c04a3bd26.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12401,13 +12401,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports ((-webkit-mask-position: initial) or (mask-position: initial)) {
   .we-artwork--screenshot-version-ipad-pro-2018.we-artwork--screenshot-orientation-landscape::before {
-    background: url(/assets/images/masks/ipad-pro-2018-mask-landscape-border-ac617fa7f451cb6481a3408bdaef99e0.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/ipad-pro-2018-mask-landscape-border-ac617fa7f451cb6481a3408bdaef99e0.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-ipad-pro-2018.we-artwork--screenshot-orientation-landscape .we-artwork__image,
   .we-artwork--screenshot-version-ipad-pro-2018.we-artwork--screenshot-orientation-landscape::after {
-    -webkit-mask: url(/assets/images/masks/ipad-pro-2018-mask-landscape-fbe2f6c11c72985df0148a6a4d7ba717.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/ipad-pro-2018-mask-landscape-fbe2f6c11c72985df0148a6a4d7ba717.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/ipad-pro-2018-mask-landscape-fbe2f6c11c72985df0148a6a4d7ba717.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/ipad-pro-2018-mask-landscape-fbe2f6c11c72985df0148a6a4d7ba717.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12425,13 +12425,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   }
 
   .we-artwork--screenshot-version-ipad-11::before {
-    background: url(/assets/images/masks/ipad-11-mask-border-e211518f660ac044c4dbbaa57b792696.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/ipad-11-mask-border-e211518f660ac044c4dbbaa57b792696.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-ipad-11 .we-artwork__image,
   .we-artwork--screenshot-version-ipad-11::after {
-    -webkit-mask: url(/assets/images/masks/ipad-11-mask-79182a96e66f978a06917565006e0a4e.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/ipad-11-mask-79182a96e66f978a06917565006e0a4e.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/ipad-11-mask-79182a96e66f978a06917565006e0a4e.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/ipad-11-mask-79182a96e66f978a06917565006e0a4e.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12458,13 +12458,13 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports ((-webkit-mask-position: initial) or (mask-position: initial)) {
   .we-artwork--screenshot-version-ipad-11.we-artwork--screenshot-orientation-landscape::before {
-    background: url(/assets/images/masks/ipad-11-mask-landscape-border-beb095ef40cc1e932b04f9fac7c1d010.svg) center/100% 100% no-repeat
+    background: url(https://podcasts.apple.com/assets/images/masks/ipad-11-mask-landscape-border-beb095ef40cc1e932b04f9fac7c1d010.svg) center/100% 100% no-repeat
   }
 
   .we-artwork--screenshot-version-ipad-11.we-artwork--screenshot-orientation-landscape .we-artwork__image,
   .we-artwork--screenshot-version-ipad-11.we-artwork--screenshot-orientation-landscape::after {
-    -webkit-mask: url(/assets/images/masks/ipad-11-mask-landscape-9f5cda335b4895f39446f7cd2c92ec68.svg) center/100% 100% no-repeat;
-    mask: url(/assets/images/masks/ipad-11-mask-landscape-9f5cda335b4895f39446f7cd2c92ec68.svg) center/100% 100% no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/ipad-11-mask-landscape-9f5cda335b4895f39446f7cd2c92ec68.svg) center/100% 100% no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/ipad-11-mask-landscape-9f5cda335b4895f39446f7cd2c92ec68.svg) center/100% 100% no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12562,8 +12562,8 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   .we-artwork--screenshot-version-apple-watch-2018 .we-artwork__image,
   .we-artwork--screenshot-version-apple-watch-2018::after {
     border: none;
-    -webkit-mask: url(/assets/images/masks/apple-watch-2018-mask-44f016e901ad9d33cc7dc9ad912172ed.svg) center/contain no-repeat;
-    mask: url(/assets/images/masks/apple-watch-2018-mask-44f016e901ad9d33cc7dc9ad912172ed.svg) center/contain no-repeat
+    -webkit-mask: url(https://podcasts.apple.com/assets/images/masks/apple-watch-2018-mask-44f016e901ad9d33cc7dc9ad912172ed.svg) center/contain no-repeat;
+    mask: url(https://podcasts.apple.com/assets/images/masks/apple-watch-2018-mask-44f016e901ad9d33cc7dc9ad912172ed.svg) center/contain no-repeat
   }
 
   @supports (-ms-ime-align:auto) {
@@ -12645,18 +12645,18 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   position: absolute;
   top: -4.7%;
   opacity: .6;
-  background-image: url(/assets/images/book/iBooks_Covers_LTR_Flat-L_Shadow-f8587fbf6a7bc90d9b2668a9dda158e3.png);
+  background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_LTR_Flat-L_Shadow-f8587fbf6a7bc90d9b2668a9dda158e3.png);
   background-size: 100% 100%;
   left: -10.9%;
   z-index: 1
 }
 
 .we-book-artwork[dir=rtl]::before {
-  background-image: url(/assets/images/book/iBooks_Covers_RTL_Flat-L_Shadow-f8587fbf6a7bc90d9b2668a9dda158e3.png)
+  background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_RTL_Flat-L_Shadow-f8587fbf6a7bc90d9b2668a9dda158e3.png)
 }
 
 .we-book-artwork::after {
-  background-image: url(/assets/images/book/iBooks_Covers_Flat-L_Edges-dd435b3b0f0e613845d32b66e4e087ab.png);
+  background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_Flat-L_Edges-dd435b3b0f0e613845d32b66e4e087ab.png);
   height: 100%;
   width: 100%;
   display: block;
@@ -12691,7 +12691,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   }
 
   .we-book-artwork--spine .we-book-artwork__lighting::after {
-    background-image: url(/assets/images/book/iBooks_Covers_LTR_Flat-L_Spine_LinearBurnBlend-abfc65af197e0bc65d1ef4919779adae.png);
+    background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_LTR_Flat-L_Spine_LinearBurnBlend-abfc65af197e0bc65d1ef4919779adae.png);
     mix-blend-mode: multiply;
     height: 100%;
     width: 100%;
@@ -12707,7 +12707,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 }
 
 .we-book-artwork--spine .we-book-artwork__foreground::before {
-  background-image: url(/assets/images/book/iBooks_Covers_LTR_Flat-L_Spine_NormalBlend-7ddc2727e278e22ec7b69864bb2d22c9.png);
+  background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_LTR_Flat-L_Spine_NormalBlend-7ddc2727e278e22ec7b69864bb2d22c9.png);
   height: 100%;
   width: 100%;
   display: block;
@@ -12718,7 +12718,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports (mix-blend-mode:soft-light) {
   .we-book-artwork--spine .we-book-artwork__foreground::after {
-    background-image: url(/assets/images/book/iBooks_Covers_LTR_Flat-L_Spine_SoftLightBlend-535831fb9b8481f02a18e136be4dc8ca.png);
+    background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_LTR_Flat-L_Spine_SoftLightBlend-535831fb9b8481f02a18e136be4dc8ca.png);
     mix-blend-mode: soft-light;
     height: 100%;
     width: 100%;
@@ -12735,17 +12735,17 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @supports (mix-blend-mode:multiply) {
   .we-book-artwork--spine[dir=rtl] .we-book-artwork__lighting::after {
-    background-image: url(/assets/images/book/iBooks_Covers_RTL_Flat-L_Spine_LinearBurnBlend-41f1843d5873427ae11b8bb3489b96d0.png)
+    background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_RTL_Flat-L_Spine_LinearBurnBlend-41f1843d5873427ae11b8bb3489b96d0.png)
   }
 }
 
 .we-book-artwork--spine[dir=rtl] .we-book-artwork__foreground::before {
-  background-image: url(/assets/images/book/iBooks_Covers_RTL_Flat-L_Spine_NormalBlend-357a0c99f14bfba13c2f7708510440c6.png)
+  background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_RTL_Flat-L_Spine_NormalBlend-357a0c99f14bfba13c2f7708510440c6.png)
 }
 
 @supports (mix-blend-mode:soft-light) {
   .we-book-artwork--spine[dir=rtl] .we-book-artwork__foreground::after {
-    background-image: url(/assets/images/book/iBooks_Covers_RTL_Flat-L_Spine_SoftLightBlend-d94643eacd3689f025d98ce51221c38c.png)
+    background-image: url(https://podcasts.apple.com/assets/images/book/iBooks_Covers_RTL_Flat-L_Spine_SoftLightBlend-d94643eacd3689f025d98ce51221c38c.png)
   }
 }
 
@@ -12797,7 +12797,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
   display: block;
   position: absolute;
   top: 0;
-  background: url(/assets/images/iap-overlay-a858bf5d48a809d514e6396f68569dbe.svg) no-repeat;
+  background: url(https://podcasts.apple.com/assets/images/iap-overlay-a858bf5d48a809d514e6396f68569dbe.svg) no-repeat;
   background-size: 100%;
   z-index: 1
 }
@@ -13293,7 +13293,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
   width: 35px;
   height: 35px;
   display: block;
-  background-image: url(/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
+  background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
   background-position: center center;
   background-size: 20px 20px;
   transition: background-image 0s linear;
@@ -13306,7 +13306,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
 
 @media only screen and (min-width:735px) {
   .ac-video-poster::before {
-    background-image: url(/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg);
+    background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg);
     background-size: 35px 35px
   }
 }
@@ -13400,7 +13400,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
   height: 17px;
   display: inline-block;
   margin-left: 3px;
-  background-image: url(/assets/images/icons/video-thumbnail-sm-c3cb41a10f2ac99ce149671c1d7c02d9.svg);
+  background-image: url(https://podcasts.apple.com/assets/images/icons/video-thumbnail-sm-c3cb41a10f2ac99ce149671c1d7c02d9.svg);
   background-position: center;
   background-size: 15px 17px
 }
@@ -13430,7 +13430,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
     height: 23px;
     margin-top: 1px;
     margin-left: 6px;
-    background-image: url(/assets/images/icons/video-thumbnail-lg-ba9e0ce51c10e57cf68c0a32aa421cee.svg);
+    background-image: url(https://podcasts.apple.com/assets/images/icons/video-thumbnail-lg-ba9e0ce51c10e57cf68c0a32aa421cee.svg);
     background-size: 20px 23px
   }
 
@@ -14239,7 +14239,7 @@ html[dir=rtl] .we-customer-review__separator {
 .we-loading-spinner {
   min-width: 20px;
   height: 20px;
-  background-image: url(/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
+  background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
   background-size: 20px;
   background-position: center center;
   background-repeat: no-repeat
@@ -14264,7 +14264,7 @@ html[dir=rtl] .we-customer-review__separator {
 
   .we-loading-spinner {
     height: 35px;
-    background-image: url(/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg);
+    background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg);
     background-size: 35px
   }
 }
@@ -15915,7 +15915,7 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .story-card__iap-purchase::before {
-  background: url(/assets/images/iap-overlay-158-392b6a4999f137137e18536b8d60a5b2.svg) no-repeat
+  background: url(https://podcasts.apple.com/assets/images/iap-overlay-158-392b6a4999f137137e18536b8d60a5b2.svg) no-repeat
 }
 
 .story-card__name-highlight {
@@ -15952,7 +15952,7 @@ html[dir=rtl] .story-card__day-icon {
 
 @media only screen and (min-width:1069px) {
   .story-card__iap-purchase::before {
-    background: url(/assets/images/iap-overlay-262-e2079545c44d09715c518a1a9052a9ce.svg) no-repeat
+    background: url(https://podcasts.apple.com/assets/images/iap-overlay-262-e2079545c44d09715c518a1a9052a9ce.svg) no-repeat
   }
 
   .story-card__iap-footer {
@@ -17743,7 +17743,7 @@ html[dir=rtl] .we-banner-arcade__artwork {
   top: 50%;
   transform: translateY(1px) translateY(-50%);
   background-repeat: no-repeat;
-  background-image: url(/assets/images/laurel-left-3c4464a8dbb88e0a7039a15a7008a6ac.svg);
+  background-image: url(https://podcasts.apple.com/assets/images/laurel-left-3c4464a8dbb88e0a7039a15a7008a6ac.svg);
   z-index: 1
 }
 
@@ -18969,7 +18969,7 @@ html[dir=rtl] .no-touch .we-share--header .we-share__message {
 }
 
 .is-lazy-visible .we-subscribe__image-apple-music {
-  background-image: url(/assets/images/subscribe/musicbanner_small-cb224a01e8439b6c0a3f92be6ed47531.png)
+  background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_small-cb224a01e8439b6c0a3f92be6ed47531.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
@@ -18977,7 +18977,7 @@ only screen and (min-resolution:1.5dppx),
 (-webkit-min-device-pixel-ratio:1.5),
 (min-resolution:144dpi) {
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(/assets/images/subscribe/musicbanner_small@2x-80552722ae5aa8f2f2061239524dd60c.png)
+    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_small@2x-80552722ae5aa8f2f2061239524dd60c.png)
   }
 }
 
@@ -18989,7 +18989,7 @@ only screen and (min-resolution:1.5dppx),
   }
 
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(/assets/images/subscribe/musicbanner_medium-68df7c3c577cda3fd2625d6337a2a498.png)
+    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_medium-68df7c3c577cda3fd2625d6337a2a498.png)
   }
 }
 
@@ -18997,7 +18997,7 @@ only screen and (min-resolution:1.5dppx),
 only screen and (min-width:735px) and (min-resolution:1.5dppx),
 only screen and (min-width:735px) and (min-resolution:144dpi) {
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(/assets/images/subscribe/musicbanner_medium@2x-600f789b8f5246752ca81f7970b173c7.png)
+    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_medium@2x-600f789b8f5246752ca81f7970b173c7.png)
   }
 }
 
@@ -19011,7 +19011,7 @@ only screen and (min-width:735px) and (min-resolution:144dpi) {
   }
 
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(/assets/images/subscribe/musicbanner_large-9234ba20c78ac16b9122279127309cfc.png)
+    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_large-9234ba20c78ac16b9122279127309cfc.png)
   }
 }
 
@@ -19019,7 +19019,7 @@ only screen and (min-width:735px) and (min-resolution:144dpi) {
 only screen and (min-width:1069px) and (min-resolution:1.5dppx),
 only screen and (min-width:1069px) and (min-resolution:144dpi) {
   .is-lazy-visible .we-subscribe__image-apple-music {
-    background-image: url(/assets/images/subscribe/musicbanner_large@2x-483412606e5ed5cc510b8f5c9083eabf.png)
+    background-image: url(https://podcasts.apple.com/assets/images/subscribe/musicbanner_large@2x-483412606e5ed5cc510b8f5c9083eabf.png)
   }
 }
 
@@ -20041,11 +20041,11 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .single-book-widget--on-light .single-book-widget__quote__text::after {
-  background-image: url(/assets/images/oprah/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
 }
 
 .single-book-widget--on-dark .single-book-widget__quote__text::after {
-  background-image: url(/assets/images/oprah/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
 }
 
 @media only screen and (min-width:735px) {
@@ -20065,11 +20065,11 @@ html[dir=rtl] .book-badge__caption--duration {
   }
 
   .single-book-widget--on-light .single-book-widget__quote__text::after {
-    background-image: url(/assets/images/oprah/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
+    background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-light-c0918a698d164016dec2e9d78b30c3c2.svg)
   }
 
   .single-book-widget--on-dark .single-book-widget__quote__text::after {
-    background-image: url(/assets/images/oprah/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
+    background-image: url(https://podcasts.apple.com/assets/images/oprah/quotation-mark-on-dark-b5e2d513cb077754f9e7d464071c6cb6.svg)
   }
 }
 
@@ -20081,11 +20081,11 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .single-book-widget--on-light .single-book-widget__quote__signature {
-  background-image: url(/assets/images/oprah/signature-on-light-278a2d485bf33c292419fcf980c42fa5.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/oprah/signature-on-light-278a2d485bf33c292419fcf980c42fa5.svg)
 }
 
 .single-book-widget--on-dark .single-book-widget__quote__signature {
-  background-image: url(/assets/images/oprah/signature-on-dark-f73a49a24ab29efac12bd087f59b17b9.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/oprah/signature-on-dark-f73a49a24ab29efac12bd087f59b17b9.svg)
 }
 
 @media only screen and (min-width:735px) {
@@ -20113,19 +20113,19 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .star-rating--on-dark .star-rating__outline {
-  background-image: url(/assets/images/star-rating/star-on-dark-d455b3a343d60d0b308ca25f92b1eb97.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-on-dark-d455b3a343d60d0b308ca25f92b1eb97.svg)
 }
 
 .star-rating--on-dark .star-rating__fill {
-  background-image: url(/assets/images/star-rating/star-filled-on-dark-d88316065ed485c1ee2a38e820e486a3.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-filled-on-dark-d88316065ed485c1ee2a38e820e486a3.svg)
 }
 
 .star-rating--on-light .star-rating__outline {
-  background-image: url(/assets/images/star-rating/star-on-light-4f92dff733f80e79a4c1c1b2ab4789f3.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-on-light-4f92dff733f80e79a4c1c1b2ab4789f3.svg)
 }
 
 .star-rating--on-light .star-rating__fill {
-  background-image: url(/assets/images/star-rating/star-filled-on-light-57a194695bb7a69d1ef02c6db698541c.svg)
+  background-image: url(https://podcasts.apple.com/assets/images/star-rating/star-filled-on-light-57a194695bb7a69d1ef02c6db698541c.svg)
 }
 
 .star-rating__fill {
