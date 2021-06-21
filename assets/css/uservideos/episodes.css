@@ -21206,3 +21206,75 @@ html[dir=rtl] .book-badge__caption--duration {
     padding-top: 100%;
   }
 }
+
+.ember_Episodes,
+#ember_Episodes::before {
+  width: 196px;
+  height: 110.25px;
+}
+
+.ember_Episodes::before {
+  padding-top: 56.25%;
+}
+
+.ember_Episodes,
+#ember_Episodes::before {
+  width: 196px;
+  height: 110.25px;
+}
+
+.ember_Episodes::before {
+  padding-top: 56.25%;
+}
+
+@media (min-width: 735px) {
+
+  .ember_Episodes,
+  #ember_Episodes::before {
+    width: 157px;
+    height: 88.3125px;
+  }
+
+  .ember_Episodes::before {
+    padding-top: 56.25%;
+  }
+}
+
+@media (min-width: 735px) {
+
+  .ember_Episodes,
+  #ember_Episodes::before {
+    width: 157px;
+    height: 88.3125px;
+  }
+
+  .ember_Episodes::before {
+    padding-top: 56.25%;
+  }
+}
+
+@media (min-width: 1069px) {
+
+  .ember_Episodes,
+  #ember_Episodes::before {
+    width: 196px;
+    height: 110.25px;
+  }
+
+  .ember_Episodes::before {
+    padding-top: 56.25%;
+  }
+}
+
+@media (min-width: 1069px) {
+
+  .ember_Episodes,
+  #ember_Episodes::before {
+    width: 196px;
+    height: 110.25px;
+  }
+
+  .ember_Episodes::before {
+    padding-top: 56.25%;
+  }
+}
