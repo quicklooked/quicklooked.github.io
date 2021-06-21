@@ -731,6 +731,7 @@
   }
 }
 
+/*
 .container_episodes_overlay_open::-webkit-scrollbar-thumb {
   background-color: #fff;
   border: 1px solid #333;
@@ -741,7 +742,7 @@
   background-color: transparent;
   width: 6px;
 }
-
+*/
 /* ads */
 
 .jwplayer.jw-flag-ads .jw-controlbar .jw-text-alt {
