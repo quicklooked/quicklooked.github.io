@@ -13793,7 +13793,7 @@ html[dir=rtl] .information-list__item__definition p[dir=ltr] {
 
 .we-customer-review,
 .we-trusted-review {
-  background-color: #f8f8f8;
+  background-color: rgba(255, 255, 255, .1);
   border-radius: 6px;
   align-self: start;
   height: 100%
