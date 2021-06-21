@@ -786,6 +786,7 @@
 
 .jw-skip.jw-skippable .jw-skip-icon {
   display: inline-flex !important;
+  display: none !important;
   height: 44px !important;
   width: 44px !important;
   margin: 0 !important;
