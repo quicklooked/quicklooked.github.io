@@ -7129,7 +7129,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   opacity: 0;
   -webkit-animation: animation-wrapper-appear .1s cubic-bezier(.21, .11, .18, 1) 1s forwards;
   animation: animation-wrapper-appear .1s cubic-bezier(.21, .11, .18, 1) 1s forwards;
-  background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
+  background-image: url(/assets/css/uservideos/iconproduct/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain
@@ -7139,7 +7139,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   .animation-wrapper__spinner {
     height: 35px;
     width: 35px;
-    background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg)
+    background-image: url(/assets/css/uservideos/iconproduct/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg)
   }
 
   .app-privacy__cards {
@@ -13293,7 +13293,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
   width: 35px;
   height: 35px;
   display: block;
-  background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
+  background-image: url(/assets/css/uservideos/iconproduct/loading-spinner-small-89b12d3c4bf034acf043c7e19e2a9ccd.svg);
   background-position: center center;
   background-size: 20px 20px;
   transition: background-image 0s linear;
@@ -14264,7 +14264,7 @@ html[dir=rtl] .we-customer-review__separator {
 
   .we-loading-spinner {
     height: 35px;
-    background-image: url(https://podcasts.apple.com/assets/images/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg);
+    background-image: url(/assets/css/uservideos/iconproduct/loading-spinner-large-2cbc4da7c3996a3a0178735cf08b63c1.svg);
     background-size: 35px
   }
 }
