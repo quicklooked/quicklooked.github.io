@@ -8393,6 +8393,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   letter-spacing: .006em;
 }
 
+/*
 .badge {
   display: inline-block;
   border: 1px solid #636366;
@@ -8409,6 +8410,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   padding-right: 3px;
   z-index: 1
 }
+*/
 
 .bordered-list__copy,
 .link-list__item--a:first-child {
