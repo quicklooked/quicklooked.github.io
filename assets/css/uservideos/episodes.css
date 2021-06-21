@@ -15915,7 +15915,7 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .story-card__iap-purchase::before {
-  background: url(https://podcasts.apple.com/assets/images/iap-overlay-158-392b6a4999f137137e18536b8d60a5b2.svg) no-repeat
+  background: url(/assets/css/uservideos/iconproduct/iproduct/iap-overlay-158-392b6a4999f137137e18536b8d60a5b2.svg) no-repeat
 }
 
 .story-card__name-highlight {
