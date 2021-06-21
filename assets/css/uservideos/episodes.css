@@ -7318,7 +7318,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .is-podcasts-theme .link--no-tint,
 .is-tv-theme .link--no-tint,
 .link--no-tint {
-  color: inherit
+  color: rgba(235, 235, 245, .6)
 }
 
 .targeted-link.is-active .targeted-link__target,
@@ -11313,7 +11313,10 @@ html[dir=rtl] .table__row__titles [dir=rtl] {
 .tracks__track__eyebrow,
 .tracks__track__subcopy {
   position: relative;
+  /*
   color: #636366
+  */
+  color: #a3a3a3
 }
 
 .tracks__track__headline {
@@ -11551,7 +11554,7 @@ html[dir=rtl] .tracks__track__link--block~.tracks__track__headline::after {
 }
 
 .tracks__track__copy {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -13778,7 +13781,7 @@ html[dir=rtl] .information-list__item__definition p[dir=ltr] {
 .we-customer-ratings__count {
   margin-top: 8px;
   text-align: right;
-  color: #636366;
+  color: #a3a3a3;
   font-size: 13px;
   line-height: 1.38462;
   font-weight: 400;
@@ -13807,7 +13810,7 @@ html[dir=rtl] .information-list__item__definition p[dir=ltr] {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: -.07em;
-  color: #4c4c50;
+  color: #a3a3a3;
   margin-right: 3px
 }
 
@@ -14347,7 +14350,7 @@ html[dir=rtl] .supports-list__item__copy__heading[dir=ltr] {
 .product-header__routes__client-not-detected,
 .product-header__subtitle,
 .product-hero__controls {
-  color: #636366
+  color: rgba(235, 235, 245, .6)
 }
 
 @media only screen and (min-width:735px) {
@@ -15093,7 +15096,7 @@ html[dir=rtl] .supports-list__item__copy__heading[dir=ltr] {
 .show-header__list--price {
   margin-top: 4px;
   margin-bottom: 5px;
-  color: #333
+  color: rgba(235, 235, 245, .6)
 }
 
 .show-header__desc+.show-header__routes {
@@ -19470,7 +19473,7 @@ html[dir=rtl] .we-audio-controls__progress-wrapper:hover .we-audio-controls__pro
 }
 
 .sosumi {
-  color: #636366;
+  color: rgba(235, 235, 245, .6);
   font-size: 12px;
   line-height: 1.33337;
   font-weight: 400;
