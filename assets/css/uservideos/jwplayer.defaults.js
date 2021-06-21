@@ -1,3 +1,4 @@
+var myvar = '<button class="ytp-ad-button ytp-ad-visit-advertiser-button ytp-ad-button-link" id="visit-advertiser:l" aria-label="vidyard.com" style=""><span class="ytp-ad-button-text">vidyard.com</span><span class="ytp-ad-button-icon"><svg fill="#fff" height="100%" version="1.1" viewBox="0 0 48 48" width="100%"><path d="M0 0h48v48H0z" fill="none"></path><path d="M38 38H10V10h14V6H10c-2.21 0-4 1.79-4 4v28c0 2.21 1.79 4 4 4h28c2.21 0 4-1.79 4-4V24h-4v14zM28 6v4h7.17L15.51 29.66l2.83 2.83L38 12.83V20h4V6H28z"></path></svg></span></button>';
 var jwDefaults = {
   "key": "GytdaYuqfyvirEusXu6WqDo4Flbquswk8SceF+iP+chw318UDdxUxovv3nFnvgsa",
   "hlshtml": true,
@@ -27,7 +28,7 @@ var jwDefaults = {
   },
   "advertising": {
     "client": "vast",
-    "admessage": "Quicklook advertising',
+    "admessage": "myvar",
     //"skipoffset": 5,
     //"admessage": "Video will play after ad",
     //"skipmessage": 'Video will play after ad',
