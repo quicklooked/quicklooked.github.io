@@ -3926,7 +3926,8 @@ body {
 
 #ember-app,
 body>.ember-view {
-  background-color: #fff
+  /*background-color: #fff */
+  background-color: #000
 }
 
 .l-viewport-centered {
