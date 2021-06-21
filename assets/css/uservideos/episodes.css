@@ -11403,6 +11403,7 @@ html[dir=rtl] .table__row__titles [dir=rtl] {
 
 .tracks__track__link--block~.tracks__track__headline::after,
 .tracks__track__link--block~.tracks__track__headline::before {
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
