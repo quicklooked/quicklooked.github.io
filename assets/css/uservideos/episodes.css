@@ -2727,7 +2727,7 @@ ul {
   padding: 0;
   display: inline-block;
   vertical-align: bottom;
-  font-size: 13px
+  font-size: 12px
 }
 
 .l-row {
@@ -7224,7 +7224,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 .app-privacy__modal-section p {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -7239,7 +7239,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 .app-privacy__developer-name {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -8350,7 +8350,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   padding: 7px 8px 5px;
   -webkit-animation: we-button-fade-in .2s;
   animation: we-button-fade-in .2s;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -9613,7 +9613,7 @@ html[dir=rtl] .icon-review-quote::before {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -9669,7 +9669,7 @@ html[dir=rtl] .icon-review-quote::before {
 
 @media only screen and (min-width:735px) {
   .inline-list--mobile-compact {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.38462;
     font-weight: 400;
     letter-spacing: -.005em;
@@ -9723,7 +9723,7 @@ html[dir=rtl] .inline-list__item--slashed:not(:first-of-type)::before {
 }
 
 .inline-list__item--reduced {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -9911,7 +9911,7 @@ html[dir=rtl] .inline-list__item--slashed:not(:first-of-type)::before {
 }
 
 .bordered-list__title {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -10036,7 +10036,7 @@ html[dir=rtl] .inline-list__item--slashed:not(:first-of-type)::before {
   display: inline-block;
   margin: 0;
   list-style: none;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -10832,7 +10832,7 @@ only screen and (-ms-high-contrast:active) and (min-width:735px) {
 
 .table__row__headline {
   color: #333;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: -.005em;
   line-height: 1.5em
@@ -10904,7 +10904,7 @@ only screen and (-ms-high-contrast:active) and (min-width:735px) {
 }
 
 .table__row__explicit::after {
-  font-size: 13px
+  font-size: 12px
 }
 
 .table__row__star-rating {
@@ -11011,7 +11011,7 @@ only screen and (-ms-high-contrast:active) and (min-width:735px) {
 
 .table--artwork .table__row,
 .table--see-all .table__row {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -11384,7 +11384,7 @@ html[dir=rtl] .table__row__titles [dir=rtl] {
 }
 
 .tracks__track__headline .icon-after::after {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   margin-right: .3em
 }
@@ -11574,7 +11574,7 @@ html[dir=rtl] .tracks__track__link--block~.tracks__track__headline::after {
   }
 
   .tracks__track__copy {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.38462;
     font-weight: 400;
     letter-spacing: -.005em;
@@ -12084,7 +12084,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 
 @media screen and (min-width:735px) {
   .we-localnav__menu {
-    font-size: 13px
+    font-size: 12px
   }
 
   .we-localnav__menu .localnav-menu-tray .localnav-menu-link {
@@ -13442,7 +13442,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
 .we-video-thumbnail__control__text {
   padding-top: 2px;
   margin-left: 5px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13470,7 +13470,7 @@ html[dir=rtl] .we-video-thumbnail__control__text {
 }
 
 .we-video-thumbnail--hero .we-video-thumbnail__control__text {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13532,7 +13532,7 @@ html[dir=rtl] .we-video-thumbnail__control__text {
 }
 
 .we-about-artist-inline__details-info {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: -.005em;
 }
@@ -13570,7 +13570,7 @@ html[dir=rtl] .we-video-thumbnail__control__text {
   display: table-cell;
   text-align: right;
   vertical-align: initial;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -13587,7 +13587,7 @@ html[dir=rtl] .we-video-thumbnail__control__text {
   display: table-cell;
   vertical-align: initial;
   padding-left: 20px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -13605,7 +13605,7 @@ html[dir=rtl] .information-list__item__definition p[dir=ltr] {
 
 .information-list__item__definition__item__term {
   color: #000;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13761,7 +13761,7 @@ html[dir=rtl] .information-list__item__definition p[dir=ltr] {
 .we-customer-ratings__averages {
   text-align: center;
   color: #636366;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13777,7 +13777,7 @@ html[dir=rtl] .information-list__item__definition p[dir=ltr] {
   margin-top: 8px;
   text-align: right;
   color: #a3a3a3;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -13842,14 +13842,14 @@ html[dir=rtl] .we-customer-review__separator {
 }
 
 .we-customer-review__title {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
 }
 
 .we-customer-review__body {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -13874,7 +13874,7 @@ html[dir=rtl] .we-customer-review__separator {
 }
 
 .we-customer-review__date--response {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13949,7 +13949,7 @@ html[dir=rtl] .we-customer-review__separator {
 .we-trusted-review__rating-subcopy {
   display: block;
   color: #636366;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13957,7 +13957,7 @@ html[dir=rtl] .we-customer-review__separator {
 
 .we-trusted-review__body-label,
 .we-trusted-review__breakdown-label {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -13966,14 +13966,14 @@ html[dir=rtl] .we-customer-review__separator {
 .we-trusted-review__summary-item {
   display: flex;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
 }
 
 .we-trusted-review__summary-value {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -14333,7 +14333,7 @@ html[dir=rtl] .supports-list__item__copy__heading[dir=ltr] {
 
 .app-header--arcade .product-header__eyebrow {
   color: #1d1d1f;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -14752,7 +14752,7 @@ html[dir=rtl] .supports-list__item__copy__heading[dir=ltr] {
 
 .app-header__identity,
 .app-header__subtitle {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -14824,7 +14824,7 @@ html[dir=rtl] .supports-list__item__copy__heading[dir=ltr] {
 .app-header__designed-for {
   margin-top: 2px;
   color: #636366;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -15407,7 +15407,7 @@ html[dir=rtl] .supports-list__item__copy__heading[dir=ltr] {
   border-radius: 6px;
   padding: 13px 32px 11.5px 16px;
   color: #000;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -16014,7 +16014,7 @@ html[dir=rtl] .story-card__day-icon {
 .version-history__item__version-number {
   margin-bottom: 10px;
   float: left;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -16024,7 +16024,7 @@ html[dir=rtl] .story-card__day-icon {
   float: right;
   margin-bottom: 10px;
   color: #636366;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -16033,7 +16033,7 @@ html[dir=rtl] .story-card__day-icon {
 .version-history__item__release-notes {
   margin-bottom: 21px;
   clear: both;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -16127,7 +16127,7 @@ html[dir=rtl] .story-card__day-icon {
 
 .featured-album__text__headline {
   color: #333;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -16170,7 +16170,7 @@ html[dir=rtl] .story-card__day-icon {
 
 .tracklist-footer__item {
   margin-bottom: 0;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -16185,14 +16185,14 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .tracklist-footer__item--released {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
 }
 
 .tracklist-footer__date {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -16379,7 +16379,7 @@ html[dir=rtl] .story-card__day-icon {
 .app-placard__subtitle {
   color: #636366;
   flex-shrink: 1;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -17195,7 +17195,7 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .we-callout__copy {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -17251,14 +17251,14 @@ html[dir=rtl] .story-card__day-icon {
 
 .we-banner-callout__copy {
   color: #333;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
 }
 
 .we-banner-callout__more-link {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -17312,14 +17312,14 @@ html[dir=rtl] .story-card__day-icon {
 .we-banner__copy {
   color: #333;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
 }
 
 .we-banner__copy__title {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -17427,7 +17427,7 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .we-banner-arcade__cta {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 600;
   letter-spacing: -.005em;
@@ -17555,7 +17555,7 @@ html[dir=rtl] .we-banner-arcade__artwork {
 }
 
 .we-footer-arcade__cta {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: -.005em;
   margin-top: 8px;
@@ -17611,7 +17611,7 @@ html[dir=rtl] .we-banner-arcade__artwork {
 }
 
 .we-footer-disclaimer__text {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -17783,7 +17783,7 @@ html[dir=rtl] .we-banner-arcade__artwork {
 }
 
 .we-editorial-quote__author {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -18226,7 +18226,7 @@ html[dir=rtl] .we-clamp[dir=ltr] {
   padding-left: 2px;
   top: 0;
   color: #636366;
-  font-size: 13px
+  font-size: 12px
 }
 
 .we-share--open .we-share__close {
@@ -18251,7 +18251,7 @@ html[dir=rtl] .we-clamp[dir=ltr] {
   animation-duration: .2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -18296,7 +18296,7 @@ html[dir=rtl] .we-clamp[dir=ltr] {
 .has-touch .we-share--header .we-share__list-button--facebook::after {
   padding-left: 3px;
   top: -1px;
-  font-size: 13px
+  font-size: 12px
 }
 
 .has-touch .we-share--header .we-share__list-button--weibo::after {
@@ -18734,7 +18734,7 @@ html[dir=rtl] .no-touch .we-share--header .we-share__message {
 .no-touch .we-share--header .we-share__list-button--facebook::after {
   padding-left: 0;
   top: 0;
-  font-size: 13px
+  font-size: 12px
 }
 
 .no-touch .we-share--header .we-share__list-button--weibo::after {
@@ -19407,7 +19407,7 @@ html[dir=rtl] .we-audio-controls__progress-wrapper:hover .we-audio-controls__pro
 .we-audio-controls__time {
   flex-shrink: 0;
   color: #636366;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -19482,7 +19482,7 @@ html[dir=rtl] .we-audio-controls__progress-wrapper:hover .we-audio-controls__pro
 .sosumi--subscribe {
   padding-top: 28px;
   background-color: #f5f5f7;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -19569,7 +19569,7 @@ html[dir=rtl] .we-audio-controls__progress-wrapper:hover .we-audio-controls__pro
   }
 
   .book-badge__eyebrow {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.38462;
     font-weight: 600;
     letter-spacing: -.005em;
@@ -19938,7 +19938,7 @@ html[dir=rtl] .book-badge__caption--duration {
 }
 
 .single-book-widget__cta-price {
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -20494,7 +20494,7 @@ html[dir=rtl] .book-badge__caption--duration {
   white-space: nowrap;
   padding-left: 17px;
   padding-right: 17px;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -20612,7 +20612,7 @@ html[dir=rtl] .book-badge__caption--duration {
   cursor: pointer;
   height: 22px;
   box-sizing: content-box;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -20748,7 +20748,7 @@ html[dir=rtl] .book-badge__caption--duration {
   padding-top: 7px;
   padding-bottom: 5px;
   color: #111;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -20772,7 +20772,7 @@ html[dir=rtl] .book-badge__caption--duration {
   margin-top: 6px;
   color: #666;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
@@ -20958,7 +20958,7 @@ html[dir=rtl] .book-badge__caption--duration {
   margin-top: 13px;
   margin-bottom: 19px;
   color: #86868b;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.38462;
   font-weight: 400;
   letter-spacing: -.005em;
