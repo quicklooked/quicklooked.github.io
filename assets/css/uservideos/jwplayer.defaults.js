@@ -28,6 +28,8 @@ var jwDefaults = {
   "advertising": {
     "client": "vast",
     "skipoffset": 10,
+    "admessage": "Video will play after ad",
+    "skiptext": "Skip ad"
     "skipmessage": 'Skip this ad in XXs'
     //"adscheduleid": "Az87bY12",
     "schedule": [{
