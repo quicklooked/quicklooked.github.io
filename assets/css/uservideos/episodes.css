@@ -1623,11 +1623,6 @@ a {
   letter-spacing: inherit
 }
 
-.link:hover,
-a:hover {
-  text-decoration: underline
-}
-
 .footnote a:hover,
 .link:active,
 a:active {
