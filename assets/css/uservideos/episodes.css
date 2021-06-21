@@ -7262,7 +7262,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 .is-music-theme .link {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .link {
@@ -7595,7 +7595,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .we-button--applemusic {
   color: #fff;
-  background: #da0f47
+  background: #e50914
 }
 
 .we-button--applemusic.disabled,
@@ -7605,8 +7605,8 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .we-button-flat {
   color: #fff;
-  border: 1px solid #da0f47;
-  background: #da0f47
+  border: 1px solid #e50914;
+  background: #e50914
 }
 
 .we-button-flat:hover {
@@ -7622,8 +7622,8 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .we-button-flat.disabled,
 .we-button-flat:disabled {
-  background: #da0f47;
-  border-color: #da0f47;
+  background: #e50914;
+  border-color: #e50914;
   color: #fff;
   opacity: .3
 }
@@ -7663,7 +7663,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 }
 
 .is-music-theme .we-button-flat--plain:hover {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .we-button-flat--plain:hover {
@@ -7710,7 +7710,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .is-music-theme .we-button--pill,
 .is-music-theme .we-button--pill-small {
-  color: #da0f47;
+  color: #e50914;
   border: 1px solid #efeff4;
   background: #efeff4
 }
@@ -7735,7 +7735,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .is-music-theme .we-button--pill:disabled {
   background: #efeff4;
   border-color: #efeff4;
-  color: #da0f47;
+  color: #e50914;
   opacity: .3
 }
 
@@ -7904,8 +7904,8 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .is-music-theme .we-button--pill-keycolor {
   color: #fff;
-  border: 1px solid #da0f47;
-  background: #da0f47
+  border: 1px solid #e50914;
+  background: #e50914
 }
 
 .is-music-theme .we-button--pill-keycolor:hover {
@@ -7921,8 +7921,8 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .is-music-theme .we-button--pill-keycolor.disabled,
 .is-music-theme .we-button--pill-keycolor:disabled {
-  background: #da0f47;
-  border-color: #da0f47;
+  background: #e50914;
+  border-color: #e50914;
   color: #fff;
   opacity: .3
 }
@@ -8072,8 +8072,8 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .is-music-theme .we-button--pill-small:active,
 .is-music-theme .we-button--pill-small:focus,
 .is-music-theme .we-button--pill-small:hover {
-  background-color: #da0f47;
-  border-color: #da0f47;
+  background-color: #e50914;
+  border-color: #e50914;
   color: #fff
 }
 
@@ -8180,9 +8180,9 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 .is-music-theme .we-button--outlined {
   border-width: 1px;
   border-style: solid;
-  border-color: #da0f47;
+  border-color: #e50914;
   background: 0 0;
-  color: #da0f47
+  color: #e50914
 }
 
 .is-music-theme .we-button--outlined:hover {
@@ -8200,9 +8200,9 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
 
 .is-music-theme .we-button--outlined.disabled,
 .is-music-theme .we-button--outlined:disabled {
-  border-color: #da0f47;
+  border-color: #e50914;
   background: 0 0;
-  color: #da0f47;
+  color: #e50914;
   opacity: .3
 }
 
@@ -9067,7 +9067,7 @@ html[dir=rtl] .icon-review-quote::before {
 }
 
 .is-music-theme .is-deep-linked .inline-player {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .is-deep-linked .inline-player {
@@ -9174,7 +9174,7 @@ html[dir=rtl] .icon-review-quote::before {
 
 .is-music-theme .radial-progress path,
 .is-music-theme .radial-progress rect {
-  fill: #da0f47
+  fill: #e50914
 }
 
 .is-itunes-theme .radial-progress path,
@@ -9233,7 +9233,7 @@ html[dir=rtl] .icon-review-quote::before {
 }
 
 .is-music-theme .radial-progress__indicator {
-  stroke: #da0f47
+  stroke: #e50914
 }
 
 .is-itunes-theme .radial-progress__indicator {
@@ -9267,7 +9267,7 @@ html[dir=rtl] .icon-review-quote::before {
 }
 
 .is-music-theme .radial-progress__spinner {
-  stroke: #da0f47
+  stroke: #e50914
 }
 
 .is-itunes-theme .radial-progress__spinner {
@@ -9374,7 +9374,7 @@ html[dir=rtl] .icon-review-quote::before {
 }
 
 .is-music-theme .radial-progress__eq-bars__bar {
-  background-color: #da0f47
+  background-color: #e50914
 }
 
 .is-itunes-theme .radial-progress__eq-bars__bar {
@@ -10707,7 +10707,7 @@ html[dir=rtl] .table__row:hover td:last-child {
 .is-music-theme .we-selectable-item--allows-interaction:focus .table__row__price,
 .is-music-theme .we-selectable-item--allows-interaction:hover .table__row__duration,
 .is-music-theme .we-selectable-item--allows-interaction:hover .table__row__price {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .is-deep-linked .table__row__duration,
@@ -10858,7 +10858,7 @@ only screen and (-ms-high-contrast:active) and (min-width:735px) {
 .is-music-theme .table__row__link:hover .table__row__headline,
 .is-music-theme .we-selectable-item--allows-interaction:focus .table__row__headline,
 .is-music-theme .we-selectable-item--allows-interaction:hover .table__row__headline {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .table__row.is-deep-linked .table__row__headline,
@@ -10926,7 +10926,7 @@ only screen and (-ms-high-contrast:active) and (min-width:735px) {
 
 .is-music-theme .is-deep-linked .table__row__star-rating,
 .is-music-theme .is-now-playing .table__row__star-rating {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .is-deep-linked .table__row__star-rating,
@@ -11106,7 +11106,7 @@ only screen and (-ms-high-contrast:active) and (min-width:735px) {
 .is-music-theme .table__row__link:hover,
 .is-music-theme .we-selectable-item--allows-interaction:focus .table__row__link,
 .is-music-theme .we-selectable-item--allows-interaction:hover .table__row__link {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .is-deep-linked .table__row__link,
@@ -11352,7 +11352,7 @@ html[dir=rtl] .table__row__titles [dir=rtl] {
 .is-music-theme .tracks__track__link:active .tracks__track__headline,
 .is-music-theme .tracks__track__link:focus .tracks__track__headline,
 .is-music-theme .tracks__track__link:hover .tracks__track__headline {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .tracks__track__link:active .tracks__track__headline,
@@ -11468,7 +11468,7 @@ html[dir=rtl] .tracks__track__link--block~.tracks__track__headline::after {
 .is-music-theme .tracks__track__link--block:active~.tracks__track__headline,
 .is-music-theme .tracks__track__link--block:focus~.tracks__track__headline,
 .is-music-theme .tracks__track__link--block:hover~.tracks__track__headline {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .tracks__track__link--block:active~.tracks__track__headline,
@@ -11971,7 +11971,7 @@ html[dir=rtl] .tracks__track__button .icon-play::after {
 }
 
 .is-music-theme .we-localnav__app__subcopy {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .we-localnav__app__subcopy {
@@ -13156,7 +13156,7 @@ html[dir=rtl] .we-lockup__title div[dir=rtl] {
 .is-music-theme .we-selectable-item--allows-interaction:hover .we-selectable-item__link-text__headline,
 .is-music-theme .we-selectable-item--allows-interaction:hover .we-selectable-item__link-text__link,
 .is-music-theme .we-selectable-item--allows-interaction:hover .we-selectable-item__star-rating {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .we-selectable-item--allows-interaction.is-deep-linked .we-selectable-item__badge-inline-start,
@@ -15925,7 +15925,7 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .is-music-theme .story-card__name-highlight {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .story-card__name-highlight {
@@ -16104,7 +16104,7 @@ html[dir=rtl] .story-card__day-icon {
 }
 
 .is-music-theme .featured-album__text__eyebrow {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .featured-album__text__eyebrow {
@@ -17887,7 +17887,7 @@ html[dir=rtl] .we-clamp[dir=ltr] {
 }
 
 .is-music-theme .we-share {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .we-share {
@@ -18192,7 +18192,7 @@ html[dir=rtl] .we-clamp[dir=ltr] {
 }
 
 .is-music-theme .we-share--closing .we-share__trigger {
-  color: #da0f47
+  color: #e50914
 }
 
 .is-itunes-theme .we-share--closing .we-share__trigger {
