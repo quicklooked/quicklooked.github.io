@@ -11316,7 +11316,7 @@ html[dir=rtl] .table__row__titles [dir=rtl] {
 
 .tracks__track__headline {
   position: relative;
-  color: #333;
+  color: #fff;
   margin-bottom: 6px;
   z-index: 1;
   font-size: 15px;
