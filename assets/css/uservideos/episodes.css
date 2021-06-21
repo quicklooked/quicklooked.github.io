@@ -2011,6 +2011,7 @@ sub.footnote-number.footnote-reduced {
 .more::after,
 .more::before {
   color: inherit;
+  font-family: sgtb icons, Apple WebExp Icons Custom;
   display: inline-block;
   font-style: normal;
   font-weight: inherit;
