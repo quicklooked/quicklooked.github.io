@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Bold.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Bold.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BlackIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BlackIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BlackIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BlackIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BlackIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BlackIta.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -20,9 +20,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Black.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Black.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Black.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Black.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Black.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Black.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -30,9 +30,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBdIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBdIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBdIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBdIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBdIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBdIta.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -40,9 +40,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay ExtraBlack';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlk.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlk.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlk.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlk.ttf') format('truetype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -50,9 +50,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BoldIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BoldIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BoldIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BoldIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BoldIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-BoldIta.ttf') format('truetype');
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -60,9 +60,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLt.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -70,9 +70,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtraBold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -80,9 +80,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay ExtraBlack';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlkIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlkIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlkIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlkIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlkIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtBlkIta.ttf') format('truetype');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -90,9 +90,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLtIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLtIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLtIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLtIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLtIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ExtLtIta.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -100,9 +100,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay Hairline';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Hairline.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -110,9 +110,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay Hairline';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-HairlineI.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-HairlineI.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-HairlineI.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-HairlineI.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-HairlineI.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-HairlineI.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -120,9 +120,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Light.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Light.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -130,9 +130,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-LightIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-LightIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-LightIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-LightIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-LightIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-LightIta.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -140,9 +140,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Medium.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Medium.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Medium.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Medium.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -150,9 +150,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-MedIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-MedIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-MedIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-MedIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-MedIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-MedIta.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -160,9 +160,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-RegIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-RegIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-RegIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-RegIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-RegIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-RegIta.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -170,9 +170,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ThinIta.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ThinIta.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ThinIta.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ThinIta.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ThinIta.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-ThinIta.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -180,9 +180,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Thin.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Thin.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Thin.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Thin.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Thin.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Thin.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -190,9 +190,9 @@
 
 @font-face {
   font-family: 'HelveticaNowDisplay';
-  src: url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff2') format('woff2'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff') format('woff'),
-    url('assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Regular.ttf') format('truetype');
+  src: url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Regular.woff') format('woff'),
+    url('/assets/css/HelveticaNowDisplay/HelveticaNowDisplay-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
