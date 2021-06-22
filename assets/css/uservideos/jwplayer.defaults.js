@@ -56,7 +56,7 @@ var jwDefaults = {
   "height": "100%",
   "visualplaylist": true,
   "captions": {
-    "fontFamily": "Arial, sans-serif",
+    "fontFamily": "HelveticaNowText, Arial, sans-serif",
     "fontOpacity": 100,
     "edgeStyle": "none", 
     "color": "#ffffff",
