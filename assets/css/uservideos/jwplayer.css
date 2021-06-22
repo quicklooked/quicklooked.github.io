@@ -586,12 +586,17 @@
 .jw-settings-menu .jw-tooltip .jw-text {
   border-radius: 0 !important;
   font-size: 11px !important;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
   margin: 0 !important;
-  color: #181818 !important;
+  color: #000 !important;
   line-height: 1 !important;
   padding: 6px 8px !important;
   min-height: 1em !important;
+}
+
+.jw-reset-text,
+.jw-reset {
+  font-family: HelveticaNowText, Helvetica, Arial, sans-serif !important;
 }
 
 .jw-time-tip,
