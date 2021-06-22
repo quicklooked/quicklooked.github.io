@@ -743,6 +743,11 @@
   width: 6px;
 }
 */
+
+.container_episodes_overlay_open::-webkit-scrollbar {
+  background-color: transparent;
+  width: 0;
+}
 /* ads */
 
 .jwplayer.jw-flag-ads .jw-controlbar .jw-text-alt {
