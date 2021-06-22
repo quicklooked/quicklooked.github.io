@@ -758,6 +758,7 @@
 .jwplayer.jw-flag-ads .jw-controlbar .jw-text-alt {
   font-size: 11px !important;
   line-height: 44px !important;
+  font-weight: 500 !important;
   height: 44px !important;
   color: #fff !important;
 }
