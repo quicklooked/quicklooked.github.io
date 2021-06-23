@@ -68,7 +68,7 @@ var jwDefaults = {
   "mute": true,
   "ph": 1,
   //"pid": "Jq6HIbgz",
-  "pid": "true",
+  "pid": true,
   "playbackRateControls": false,
   "preload": "metadata",
   "stretching": "uniform",
