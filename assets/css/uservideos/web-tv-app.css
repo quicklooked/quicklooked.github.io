@@ -5925,7 +5925,7 @@ html[dir=rtl] .epic-showcase-shelf__radial-gradient {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: calc(100% - 40px);
+  width: calc(100% - 5vw);
   margin: auto;
   height: inherit
 }
@@ -7472,7 +7472,7 @@ html[dir=rtl] .product-header__image-logo {
   }
 
   .product-header__content__container {
-    padding: 0 20px;
+    padding: 0 5vw;
     display: block
   }
 
