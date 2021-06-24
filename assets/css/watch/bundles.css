@@ -14,7 +14,7 @@
 .button:focus,
 .button:hover,
 .button:active {
-  background-color: #cf3e80;
+  background-color: #e50914;
   color: #fff
 }
 
@@ -42,7 +42,7 @@
 }
 
 .button--inverted {
-  background-color: #cf3e80;
+  background-color: #e50914;
   color: #fff;
   fill: #fff
 }
@@ -56,7 +56,7 @@
 }
 
 .button--active {
-  background-color: #cf3e80;
+  background-color: #e50914;
   color: #fff;
   fill: #fff;
   cursor: auto
@@ -242,7 +242,7 @@
 .chevron:focus,
 .chevron:hover,
 .chevron:active {
-  background: #cf3e80;
+  background: #e50914;
   color: #fff;
   fill: #fff
 }
@@ -271,8 +271,8 @@
 .chevron--transparent:hover,
 .chevron--transparent:active {
   background: none;
-  color: #cf3e80;
-  fill: #cf3e80
+  color: #e50914;
+  fill: #e50914
 }
 
 .chevron--transparent[disabled] {
@@ -2431,7 +2431,7 @@
 .search-bar .search-bar__button:focus,
 .search-bar .search-bar__button:hover,
 .search-bar .search-bar__button:active {
-  fill: #cf3e80
+  fill: #e50914
 }
 
 .search-bar .search-bar__results {
@@ -4730,7 +4730,7 @@
 }
 
 .column-section__item--active {
-  background-color: #cf3e80
+  background-color: #e50914
 }
 
 .column-section__item:focus,
@@ -4840,7 +4840,7 @@
 }
 
 .column-section__item--active {
-  background-color: #cf3e80
+  background-color: #e50914
 }
 
 .column-section__item:focus,
@@ -5539,7 +5539,7 @@
 .navigation--u13 .navigation__logo__link:focus,
 .navigation--u13 .navigation__logo__link:hover,
 .navigation--u13 .navigation__logo__link:active {
-  fill: #cf3e80
+  fill: #e50914
 }
 
 @media (min-width: 63em) {
@@ -5651,12 +5651,12 @@
 
 .navigation--u13 .navigation__link--active,
 .navigation--u13 .navigation__link--selected {
-  color: #cf3e80
+  color: #e50914
 }
 
 .navigation--u13 .navigation__link--active .navigation__link__down-icon,
 .navigation--u13 .navigation__link--selected .navigation__link__down-icon {
-  fill: #cf3e80
+  fill: #e50914
 }
 
 .navigation--u13 .navigation__link--active .navigation__link__icon--active,
