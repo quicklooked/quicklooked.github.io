@@ -179,6 +179,7 @@ body {
   clear: both
 }
 
+/*
 @font-face {
   font-family: "ReithSans";
   src: url(https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff2) format("woff2"), url(https://static.files.bbci.co.uk/fonts/reith/2.512/BBCReithSans_W_Rg.woff) format("woff");
@@ -344,9 +345,9 @@ body {
   font-style: italic;
   font-weight: 500
 }
-
+*/
 .b-reith-sans-font body {
-  font-family: ReithSans, Arial, Helvetica, freesans, sans-serif
+  font-family: "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif
 }
 
 .b-reith-sans-font body .gel-canon-bold,
@@ -357,11 +358,11 @@ body {
 }
 
 .b-font-family-serif {
-  font-family: 'Times New Roman', serif
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif
 }
 
 .b-reith-serif-font .b-font-family-serif {
-  font-family: ReithSerif, 'Times New Roman', serif
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif
 }
 
 .b-font-weight-300 {
@@ -460,7 +461,7 @@ body {
 }
 
 .orb-nav-pri .orb-icon {
-  background-image: url(../img/orb-sprite.gif);
+  background-image: url(/assets/css/watch/svg/watch/orb-sprite.gif);
   background-repeat: no-repeat
 }
 
@@ -483,8 +484,8 @@ body {
   text-indent: -1000%;
   padding: 0 !important;
   min-height: auto;
-  background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_grey_sm.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_sm.svg) no-repeat;
   width: 74px;
   height: 21px;
   margin-top: 6px
@@ -525,7 +526,7 @@ body {
 #orb-nav-more a {
   position: relative;
   text-indent: 100%;
-  background: url(../img/more-menu-grey.png) no-repeat center 10px
+  background: url(/assets/css/watch/svg/watch/more-menu-grey.png) no-repeat center 10px
 }
 
 #orb-nav-more span {
@@ -636,8 +637,8 @@ body {
 }
 
 .b-header--black--white .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -647,8 +648,8 @@ body {
   .b-header--black--white .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -657,7 +658,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--black--white .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -687,8 +688,8 @@ body {
 }
 
 .b-header--grey--white .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -698,8 +699,8 @@ body {
   .b-header--grey--white .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -708,7 +709,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--grey--white .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -738,8 +739,8 @@ body {
 }
 
 .b-header--dark-grey--grey .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -749,8 +750,8 @@ body {
   .b-header--dark-grey--grey .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -759,7 +760,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--dark-grey--grey .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -791,8 +792,8 @@ body {
 }
 
 .b-header--semitransparent-dark--white .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -802,8 +803,8 @@ body {
   .b-header--semitransparent-dark--white .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -812,7 +813,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--semitransparent-dark--white .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -844,8 +845,8 @@ body {
 }
 
 .b-header--semitransparent-medium--white .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -855,8 +856,8 @@ body {
   .b-header--semitransparent-medium--white .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -865,7 +866,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--semitransparent-medium--white .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -897,8 +898,8 @@ body {
 }
 
 .b-header--semitransparent-light--white .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -908,8 +909,8 @@ body {
   .b-header--semitransparent-light--white .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -918,7 +919,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--semitransparent-light--white .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -950,8 +951,8 @@ body {
 }
 
 .b-header--transparent--dark-grey .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_grey.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -961,8 +962,8 @@ body {
   .b-header--transparent--dark-grey .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_grey_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -971,7 +972,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--transparent--dark-grey .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-grey.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-grey.png)
   }
 }
 
@@ -1002,8 +1003,8 @@ body {
 }
 
 .b-header--transparent--white .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_white.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -1013,8 +1014,8 @@ body {
   .b-header--transparent--white .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_white_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_white_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_white_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -1023,7 +1024,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--transparent--white .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-white.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-white.png)
   }
 }
 
@@ -1053,8 +1054,8 @@ body {
 }
 
 .b-header--white--black .orb-nav-pri .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_grey.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -1064,8 +1065,8 @@ body {
   .b-header--white--black .orb-nav-pri .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_grey_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -1074,7 +1075,7 @@ body {
 
 @media screen and (max-width:319px) {
   .b-header--white--black .orb-nav-pri #orb-nav-more a {
-    background-image: url(../img/more-menu-grey.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-grey.png)
   }
 }
 
@@ -1138,8 +1139,8 @@ body {
 }
 
 .orb-nav-pri.orb-nav-active .orb-nav-blocks a {
-  background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-  background: 0 0, url(../img/blq-orbit-blocks_grey.svg) no-repeat;
+  background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+  background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey.svg) no-repeat;
   width: 84px;
   height: 24px;
   margin-top: 8px
@@ -1149,8 +1150,8 @@ body {
   .orb-nav-pri.orb-nav-active .orb-nav-blocks a {
     padding: 0 !important;
     min-height: auto;
-    background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_grey_sm.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_sm.svg) no-repeat;
     width: 74px;
     height: 21px;
     margin-top: 6px
@@ -1159,7 +1160,7 @@ body {
 
 @media screen and (max-width:319px) {
   .orb-nav-pri.orb-nav-active #orb-nav-more a {
-    background-image: url(../img/more-menu-grey.png)
+    background-image: url(/assets/css/watch/svg/watch/more-menu-grey.png)
   }
 }
 
@@ -1353,8 +1354,8 @@ body {
   .orb-nav-pri .orb-nav-blocks a {
     padding-left: 16px;
     padding-right: 16px;
-    background: url(../img/blq-orbit-blocks_grey_alpha.png) no-repeat;
-    background: 0 0, url(../img/blq-orbit-blocks_grey.svg) no-repeat;
+    background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
+    background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey.svg) no-repeat;
     width: 84px;
     height: 24px;
     margin-top: 8px
@@ -1965,57 +1966,57 @@ div.orb-footer-primary-links {
   top: -999em
 }
 
-    .background-facets {
-      position: relative;
-      background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xs-s_facets.jpg") no-repeat center top
-    }
+.background-facets {
+  position: relative;
+  background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xs-s_facets.jpg") no-repeat center top
+}
 
-    @media (min-width: 37.5em) {
-      .background-facets {
-        background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/m-xl_facets.jpg") no-repeat center top;
-        background-size: contain
-      }
-    }
+@media (min-width: 37.5em) {
+  .background-facets {
+    background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/m-xl_facets.jpg") no-repeat center top;
+    background-size: contain
+  }
+}
 
-    @media (min-width: 80em) {
-      .background-facets {
-        background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xxl_facets.jpg") no-repeat center top
-      }
-    }
+@media (min-width: 80em) {
+  .background-facets {
+    background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xxl_facets.jpg") no-repeat center top
+  }
+}
 
-    .background-facets--hide-at-lower {
-      background: none
-    }
+.background-facets--hide-at-lower {
+  background: none
+}
 
-    @media (min-width: 37.5em) {
-      .background-facets--hide-at-lower {
-        background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/m-xl_facets.jpg") no-repeat center top;
-        background-size: contain
-      }
-    }
+@media (min-width: 37.5em) {
+  .background-facets--hide-at-lower {
+    background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/m-xl_facets.jpg") no-repeat center top;
+    background-size: contain
+  }
+}
 
-    @media (min-width: 80em) {
-      .background-facets--hide-at-lower {
-        background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xxl_facets.jpg") no-repeat center top
-      }
-    }
+@media (min-width: 80em) {
+  .background-facets--hide-at-lower {
+    background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xxl_facets.jpg") no-repeat center top
+  }
+}
 
-    .tvip-theme-light .background-facets {
-      background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xs-s_light_facets.jpg") no-repeat center top
-    }
+.tvip-theme-light .background-facets {
+  background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xs-s_light_facets.jpg") no-repeat center top
+}
 
-    @media (min-width: 37.5em) {
-      .tvip-theme-light .background-facets {
-        background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/m-xl_light_facets.jpg") no-repeat center top;
-        background-size: contain
-      }
-    }
+@media (min-width: 37.5em) {
+  .tvip-theme-light .background-facets {
+    background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/m-xl_light_facets.jpg") no-repeat center top;
+    background-size: contain
+  }
+}
 
-    @media (min-width: 80em) {
-      .tvip-theme-light .background-facets {
-        background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xxl_light_facets.jpg") no-repeat center top
-      }
-    }
+@media (min-width: 80em) {
+  .tvip-theme-light .background-facets {
+    background: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-bundles/1.0.0-1219/img/xxl_light_facets.jpg") no-repeat center top
+  }
+}
 
 .notificationsContainer-0-2-27 {
   margin: 0 auto;
