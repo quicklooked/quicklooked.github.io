@@ -31,7 +31,6 @@ _:-ms-lang(x) {
   min-height: 30px;
   padding: 0 10px;
   color: #7f7f7f;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer
@@ -400,7 +399,6 @@ footer.Footer__footer___2nCUd {
 
 .ModalCountry__title___2NOU4 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -866,7 +864,6 @@ footer.Footer__footer___2nCUd {
 
 .SearchBar__searchInput___1k14_ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -1007,7 +1004,6 @@ footer.Footer__footer___2nCUd {
 
 .SearchInput__search___BQkKh input[type=text] {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -1188,7 +1184,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .SigninSignupSplit__authenticationButton___1ENJ4 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -1207,9 +1202,7 @@ header.ResponsiveHeader__container___3dy6u {
 }
 
 .SigninSignupSplit__authenticationButton___1ENJ4 span,
-.TCF2Banner__title___3q3rd {
-  font-family: Helvetica, Arial, sans-serif;
-}
+.TCF2Banner__title___3q3rd {}
 
 .SigninSignupSplit__authenticationButton___1ENJ4 span:hover {
   color: rgb(0, 173, 239);
@@ -1424,7 +1417,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2Banner__title___3q3rd.TCF2Banner__updatedBanner___3RxHu {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2;
@@ -1436,7 +1428,6 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:768px) {
   .TCF2Banner__title___3q3rd.TCF2Banner__updatedBanner___3RxHu {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 900;
     line-height: 1.14;
@@ -1448,7 +1439,6 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:1280px) {
   .TCF2Banner__title___3q3rd.TCF2Banner__updatedBanner___3RxHu {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 1.11;
@@ -1557,7 +1547,6 @@ header.ResponsiveHeader__container___3dy6u {
   -ms-flex-align: center;
   align-items: center;
   border: 0px solid;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   text-align: center;
   -webkit-transition: .2s;
@@ -1616,7 +1605,6 @@ header.ResponsiveHeader__container___3dy6u {
   color: #aaa;
 }
 
-
 .desktop .Button__secondary___23Z--:hover svg {
   fill: #fff
 }
@@ -1628,7 +1616,6 @@ header.ResponsiveHeader__container___3dy6u {
 .Button__large___uZ3kp,
 .Button__medium___9hsOo {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   color: #232323;
@@ -1661,7 +1648,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2BannerButtons__button___zUO8r {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -1728,7 +1714,6 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:768px) {
   .TCF2BannerButtons__button___zUO8r.TCF2BannerButtons__updatedBanner___jboty {
     color: #7e7e7e;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42;
     color: #232323;
@@ -1745,7 +1730,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2ContinueWithoutAcceptingButton__button___2ugfc {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -1763,7 +1747,6 @@ header.ResponsiveHeader__container___3dy6u {
 @media (min-width:768px) {
   .TCF2ContinueWithoutAcceptingButton__button___2ugfc {
     color: #7e7e7e;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42;
     width: unset;
@@ -1775,7 +1758,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2BannerLegalText__legalText___Gs9Ut {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   padding-right: 9px;
@@ -1812,7 +1794,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .TCF2ExpansionButton__button___9br0- {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -1856,7 +1837,6 @@ header.ResponsiveHeader__container___3dy6u {
 
 .WebToNativeBanner__title___CfJwn {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -1865,7 +1845,6 @@ header.ResponsiveHeader__container___3dy6u {
 .WebToNativeBanner__openInAppButton___1i1NU,
 .WebToNativeBanner__text___1GW7N {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -2340,29 +2319,6 @@ header.ResponsiveHeader__container___3dy6u {
   bottom: 0;
   width: 100%;
   z-index: 203
-}
-
-@font-face {
-  font-family: Retina;
-  src: url(//static1.dmcdn.net/neon/prod/fonts/Retina-Regular.3ffb73ee04af18a2aaa81bb96f522b42.woff2) format("woff2"), url(//static1.dmcdn.net/neon/prod/fonts/Retina-Regular.2ed725418e0ae29ff083117a9a830693.woff) format("woff"), url(//static1.dmcdn.net/neon/prod/fonts/Retina-Regular.d1beb242654bdc4b926ed5366ebf727f.ttf) format("truetype"), url(//static1.dmcdn.net/neon/prod/fonts/Retina-Regular.19ccc5d63bfb5f2ec8f8cdf0a280776c.otf) format("opentype")
-}
-
-@font-face {
-  font-family: Retina;
-  font-weight: 500;
-  src: url(//static1.dmcdn.net/neon/prod/fonts/RetinaMedium.2802969ef9268141c2b16b2e10f69cad.woff2) format("woff2"), url(//static1.dmcdn.net/neon/prod/fonts/RetinaMedium.4746d23389a0366db8f7138c2a848ced.woff) format("woff"), url(//static1.dmcdn.net/neon/prod/fonts/RetinaMedium.dd4d083b06f910713c04c819e3e7bcda.ttf) format("truetype"), url(//static1.dmcdn.net/neon/prod/fonts/RetinaMedium.3b7f821dbede9f7fc08445314fd0fcae.otf) format("opentype")
-}
-
-@font-face {
-  font-family: Retina;
-  font-weight: 800;
-  src: url(//static1.dmcdn.net/neon/prod/fonts/Retina-Bold.3bbf9f017650e3891393e041647f9e1e.woff2) format("woff2"), url(//static1.dmcdn.net/neon/prod/fonts/Retina-Bold.6cfffde6a71b85addf36b787e74e5134.woff) format("woff"), url(//static1.dmcdn.net/neon/prod/fonts/Retina-Bold.131bfc1958d587afdc4f88de7053599f.ttf) format("truetype"), url(//static1.dmcdn.net/neon/prod/fonts/Retina-Bold.e82060324acf3d6f9e8ca28de5f3da9a.otf) format("opentype")
-}
-
-@font-face {
-  font-family: Retina;
-  font-weight: 900;
-  src: url(//static1.dmcdn.net/neon/prod/fonts/RetinaBlack.f4bb6486ade65bdabcb864092d372f49.woff2) format("woff2"), url(//static1.dmcdn.net/neon/prod/fonts/RetinaBlack.272d785ddc612740bce47aac15baa718.woff) format("woff"), url(//static1.dmcdn.net/neon/prod/fonts/RetinaBlack.06b33e14c656f7af2ca8fe31a5b136bf.ttf) format("truetype"), url(//static1.dmcdn.net/neon/prod/fonts/RetinaBlack.4392930c24f62e1f17ab2cbc9c1b4043.otf) format("opentype")
 }
 
 html {
@@ -3999,7 +3955,6 @@ svg {
 
 .ErrorStep__header___3tKGc {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4008,7 +3963,6 @@ svg {
 
 .ErrorStep__description___2O9fz {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4046,7 +4000,6 @@ svg {
 
 .LoggedInUserStep__header___1eYO2 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4055,7 +4008,6 @@ svg {
 
 .LoggedInUserStep__legalText___1Sf83 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4132,7 +4084,6 @@ svg {
 
 .RadioButton__inputButtonLabel___3oA7Q {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29;
@@ -4173,14 +4124,12 @@ svg {
 
 .RadioButton__optionDescription___3aSGl {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   margin-left: 26px
 }
 
 .TextArea__textArea___3L6_0 {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4235,7 +4184,6 @@ svg {
 
 .TextArea__title___1-Unj,
 .TimeInput__timeInput___yKkCp {
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 800;
   font-weight: 100
 }
@@ -4283,7 +4231,6 @@ svg {
 
 .TimeInput__errorMessage___-Apvk {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -4331,7 +4278,6 @@ svg {
 
 .MainFormStep__mainStepTitle___2y0Qf {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -4340,7 +4286,6 @@ svg {
 @media (min-width:768px) {
   .MainFormStep__mainStepTitle___2y0Qf {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -4377,7 +4322,6 @@ svg {
 .MainFormStep__partSelectionTitle___1s3Ke,
 .MainFormStep__reasonsTitle___HdGoX {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4451,7 +4395,6 @@ svg {
 
 .MainFormStep__messageArea___2Bd3O {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4485,7 +4428,6 @@ svg {
 
 .Input__input___1EydI {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4529,7 +4471,6 @@ svg {
 
 .Input__errorMessage___-aWGn {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -4557,7 +4498,6 @@ svg {
 
 .NonLoggedInUserStep__header___25dNX {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4566,7 +4506,6 @@ svg {
 
 .NonLoggedInUserStep__subheader___12QlZ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -4580,7 +4519,6 @@ svg {
 
 .NonLoggedInUserStep__legalText___3q9pV {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   margin-top: 20px
@@ -4645,7 +4583,6 @@ svg {
 
 .SuccessfulStep__header___3Kvij {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -4654,7 +4591,6 @@ svg {
 
 .SuccessfulStep__description___2NLO_ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -5375,7 +5311,6 @@ svg {
 
 .PlayingIndicatorTag__playingIndicatorTag___193h3 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -5468,7 +5403,6 @@ svg {
 
 .VideoCard__videoTitle___Yclps {
   color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.29;
@@ -5476,7 +5410,6 @@ svg {
 
 .VideoCard__videoChannelName___3ktxc {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   display: none;
@@ -5784,7 +5717,6 @@ svg {
 
 .TextButton__button___27kgW {
   color: #757575;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.5;
@@ -5803,7 +5735,6 @@ svg {
 
 .RankViewsAndPubDate__videoStats___3VH4W {
   color: #757575;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   -webkit-box-flex: 0;
@@ -5831,7 +5762,6 @@ svg {
 }
 
 .TopicListItem__pill___3R3RW div {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -5876,7 +5806,6 @@ svg {
 
 .VideoInfoTopicList__videoTopicsTitle___15kEV {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -5898,7 +5827,6 @@ svg {
 .ChannelLine__channelLine___2rGdC,
 .ChannelLine__channelName___1tEki {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -5923,8 +5851,7 @@ svg {
 }
 
 @media (min-width:480px) {
-  .ChannelLine__channelLine___2rGdC {
-  }
+  .ChannelLine__channelLine___2rGdC {}
 }
 
 @media (max-width:1023px) {
@@ -6494,7 +6421,6 @@ li.tab.active a button {
 .VideoInfoDescription__descriptionReadMoreLink___18aWT,
 .VideoInfoDescription__descriptionText___3wvx1 {
   color: rgb(101, 121, 135);
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -6626,7 +6552,6 @@ li.tab.active a button {
 .VideoInfoTitle__hiddenText___1Si0J,
 .VideoInfoTitle__videoTitle___UDnVC {
   color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.17
@@ -6868,7 +6793,6 @@ li.tab.active a button {
 }
 
 .PlaylistStats__text___35MeC {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   color: #7e7e7e
@@ -6876,7 +6800,6 @@ li.tab.active a button {
 
 .PlaylistInfo__text___2uVgP {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -6972,7 +6895,6 @@ li.tab.active a button {
 
 .GenericCard__title___3AHSD,
 .GenericCard__titlesWrapper___BrqTm {
-  font-family: Retina, Arial, Helvetica, sans-serif;
   -webkit-box-orient: vertical
 }
 
@@ -7001,7 +6923,6 @@ li.tab.active a button {
   text-align: center;
   font-stretch: normal;
   text-transform: uppercase;
-  font-family: Retina, Arial, Helvetica, sans-serif;
 }
 
 .GenericCard__logo___2YleC {
@@ -7060,7 +6981,6 @@ li.tab.active a button {
 
 .VideoListSectionTitle__sectionTitleTitle___1f_0x {
   color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.2
@@ -7068,7 +6988,6 @@ li.tab.active a button {
 
 .VideoListSectionTitle__sectionTitleTagline___M2_PZ {
   color: #aaaaaa;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -7108,7 +7027,6 @@ li.tab.active a button {
 }
 
 .VideoListSectionTitle__channelInfo___k_IIh {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   height: 18px;
@@ -7125,7 +7043,6 @@ li.tab.active a button {
 
 .DiscoveryChannelSection__sectionTitle___1Vf1n {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -7183,7 +7100,6 @@ li.tab.active a button {
 
 .DiscoveryQueueDisplay__queueTitle___QPPn_ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -7292,7 +7208,6 @@ li.tab.active a button {
 
 .AdDiscovery__label___5rdpN {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -7538,7 +7453,6 @@ li.tab.active a button {
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .24), 0 0 1px 0 rgba(0, 0, 0, .12);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .24), 0 0 1px 0 rgba(0, 0, 0, .12);
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   cursor: pointer
@@ -7579,7 +7493,6 @@ li.tab.active a button {
 
 .FacebookButton__facebookButton___2wmvz .FacebookButton__buttonText___1iUPQ {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -7757,7 +7670,6 @@ li.tab.active a button {
   border-radius: 2px;
   color: #fff;
   background: linear-gradient(262deg, #00d2f3, #0af);
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px
 }
 
@@ -8039,7 +7951,6 @@ li.tab.active a button {
 
 .InfoTooltip__container___3Kfw0 .InfoTooltip__tooltipText___1IwZO {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   position: absolute;
@@ -8211,7 +8122,6 @@ li.tab.active a button {
 
 .PrimaryContent__h3___RcWau {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2;
@@ -8225,7 +8135,6 @@ li.tab.active a button {
     margin-top: 20px;
     margin-bottom: 24px;
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 900;
     line-height: 1.14
@@ -8326,7 +8235,6 @@ li.tab.active a button {
 
 .ChannelSearchCard__channelTitle___6BhmK {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -8429,7 +8337,6 @@ li.tab.active a button {
 }
 
 .ChannelSearchCard__channelInfo___3132p {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   display: -webkit-box;
@@ -8463,7 +8370,6 @@ li.tab.active a button {
 @media (min-width:768px) {
   .ChannelSearchCard__channelTitle___6BhmK {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -8515,7 +8421,6 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .ChannelSearchCard__description___3MsIe {
     color: #0d0d0d;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 1;
@@ -8530,7 +8435,6 @@ li.tab.active a button {
 }
 
 .ChannelSearchCard__stats___3sHqL {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -8621,7 +8525,6 @@ li.tab.active a button {
   flex-direction: column;
   margin-top: 20px;
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   text-align: center
@@ -8642,7 +8545,6 @@ li.tab.active a button {
 }
 
 .NoSearchResults__title___2DSxO {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -8674,7 +8576,6 @@ li.tab.active a button {
 
 .ChannelInfo__videoChannelName___24tUT {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -8723,7 +8624,6 @@ li.tab.active a button {
 .VideoCard__videoCard___3RIZ9.VideoCard__smallCards___3iQZ- .VideoCard__videoTitle___3sTKj,
 .VideoCard__videoTitle___3sTKj {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -8731,7 +8631,6 @@ li.tab.active a button {
 
 .VideoCard__infoBlock___24SSB .VideoCard__timestamp___3fWMe {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -8739,7 +8638,6 @@ li.tab.active a button {
 
 .VideoCard__videoInfoTitle___1mu_q {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33
@@ -8944,7 +8842,6 @@ li.tab.active a button {
 @media (min-width:768px) {
   .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2
@@ -8954,7 +8851,6 @@ li.tab.active a button {
 @media (min-width:1366px) {
   .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -8999,7 +8895,6 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .VideoCard__videoCard___3RIZ9.VideoCard__smallCards___3iQZ- .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 800;
     line-height: 1.29
@@ -9009,7 +8904,6 @@ li.tab.active a button {
 @media (min-width:1280px) {
   .VideoCard__videoCard___3RIZ9.VideoCard__smallCards___3iQZ- .VideoCard__videoTitle___3sTKj {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -9042,7 +8936,6 @@ li.tab.active a button {
 
 .PlaylistCard__playlistTitle___2CHS5 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -9050,7 +8943,6 @@ li.tab.active a button {
 
 .PlaylistCard__channelName___2qVFm {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -9123,7 +9015,6 @@ li.tab.active a button {
 @media (min-width:768px) {
   .PlaylistCard__playlistTitle___2CHS5 {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -9133,7 +9024,6 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .PlaylistCard__playlistTitle___2CHS5 {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2
@@ -9143,7 +9033,6 @@ li.tab.active a button {
 @media (min-width:1280px) {
   .PlaylistCard__playlistTitle___2CHS5 {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -9215,7 +9104,6 @@ li.tab.active a button {
 }
 
 .PlaylistCard__stats___16gCY {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -9269,7 +9157,6 @@ li.tab.active a button {
 
 .VideoDurationTag__videoDuration___3XMUb {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6;
@@ -9301,7 +9188,6 @@ li.tab.active a button {
 
 .SecondaryContent__h3___3NUU1 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -9309,7 +9195,6 @@ li.tab.active a button {
 
 .SecondaryContent__h3___3NUU1 .SecondaryContent__tagline___2-pAq {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -9391,7 +9276,6 @@ li.tab.active a button {
 .Section__h1___1gFrb,
 .Section__hiddenText___3-OyO {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 900
 }
 
@@ -9481,7 +9365,6 @@ li.tab.active a button {
 @media (min-width:768px) {
   .Section__h1___1gFrb {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 1.11
@@ -9533,7 +9416,6 @@ li.tab.active a button {
 
 .VideoSearchCard__videoTitle___TNod1 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -9541,7 +9423,6 @@ li.tab.active a button {
 
 .VideoSearchCard__infoBlock___2UbwX .VideoSearchCard__timestamp___3pzFK {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 1.6
@@ -9755,7 +9636,6 @@ li.tab.active a button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   white-space: nowrap
 }
@@ -9799,7 +9679,6 @@ li.tab.active a button {
 
 .VideoSearchCard__videoChannelName___1ckhF {
   height: unset;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400
 }
@@ -9926,7 +9805,6 @@ li.tab.active a button {
 
 .ConfirmationModal__modal___3qQxw h1 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -9934,7 +9812,6 @@ li.tab.active a button {
 
 .ConfirmationModal__modal___3qQxw p {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -9972,7 +9849,6 @@ li.tab.active a button {
 
 .USPrivacy__container___2OUeY h1 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -9980,7 +9856,6 @@ li.tab.active a button {
 
 .USPrivacy__container___2OUeY h3 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -9988,7 +9863,6 @@ li.tab.active a button {
 
 .USPrivacy__container___2OUeY p {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -10053,7 +9927,6 @@ li.tab.active a button {
 
 .CollectionCard__header___3zoKb {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33
@@ -10214,7 +10087,6 @@ li.tab.active a button {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -10223,7 +10095,6 @@ li.tab.active a button {
 @media (min-width:350px) {
   .CollectionCard__title___11ukb {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -10233,7 +10104,6 @@ li.tab.active a button {
 @media (min-width:480px) {
   .CollectionCard__title___11ukb {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -10308,7 +10178,6 @@ li.tab.active a button {
 
 .ConfirmationButtonsWrapper__confirmationBoxButtons___2achI button {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -10355,7 +10224,6 @@ li.tab.active a button {
 }
 
 .CreateCollectionPopup__title___MrZYE {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -10404,7 +10272,6 @@ li.tab.active a button {
 .Button__blueGradientButton___10Yta,
 .Button__button___2D5Vd {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33
@@ -10472,7 +10339,6 @@ li.tab.active a button {
 }
 
 .RemoveAllConfirmationPopup__confirmationBoxHeader___3ChMb p {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -10523,7 +10389,6 @@ li.tab.active a button {
 
 .DeletionMenu__dropdown___2j7H- button {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -10589,7 +10454,6 @@ li.tab.active a button {
 
 .LibraryHeader__headerContainer___17ohf {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14
@@ -10597,7 +10461,6 @@ li.tab.active a button {
 
 .LibraryHeader__deletionDoneButton___30hZE {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
@@ -10695,7 +10558,6 @@ li.tab.active a button {
 
 .DSSecondaryButton__dsButton___1Gp0k {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -10762,7 +10624,6 @@ li.tab.active a button {
 @media (min-width:1280px) {
   .DSSecondaryButton__dsButton___1Gp0k.DSSecondaryButton__responsive___2YUMq {
     padding: 8px 24px;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42
   }
@@ -11088,7 +10949,6 @@ li.tab.active a button {
 
 .ListEmpty__title___kbmuZ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -11102,7 +10962,6 @@ li.tab.active a button {
 .ListEmpty__description___3X0l4,
 .ListEmpty__exploreButton___2GYK9 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-weight: 800
 }
 
@@ -11162,7 +11021,6 @@ li.tab.active a button {
 
 .LibraryHomeCard__linkTitle___3y9xn {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -11170,7 +11028,6 @@ li.tab.active a button {
 
 .LibraryHomeCard__linkStats___7vrSy {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -11326,7 +11183,6 @@ li.tab.active a button {
 
 .LibraryHomePage__linkTitle___xiGxP {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -11334,7 +11190,6 @@ li.tab.active a button {
 
 .LibraryHomePage__linkStats___dB8CL {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -11580,7 +11435,6 @@ li.tab.active a button {
 
 .ChannelCard__channelCardTitle___1wur4 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -11786,7 +11640,6 @@ li.tab.active a button {
 .SubscriptionsPage__channelSubscriptionsSectionTitle___My55m,
 .SubscriptionsPage__topicSubscriptionsSectionTitle___lHQEJ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -11843,7 +11696,6 @@ li.tab.active a button {
 
 .TopicCard__topicCardTitle___3hebp {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -11966,7 +11818,6 @@ li.tab.active a button {
 }
 
 .EmptyPlaylist__title___iguAU {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17
@@ -11974,7 +11825,6 @@ li.tab.active a button {
 
 .EmptyPlaylist__informationTitle___1czqz {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -12027,7 +11877,6 @@ li.tab.active a button {
 
 .EmptyPlaylist__text___2UmJo {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   overflow: hidden;
@@ -12040,7 +11889,6 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .EmptyPlaylist__text___2UmJo {
     color: #7e7e7e;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42;
     color: #232323
@@ -12083,7 +11931,6 @@ li.tab.active a button {
 
 .EmptyPlaylist__description___3N4D4 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -12160,7 +12007,6 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .EmptyPlaylist__title___iguAU {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 28px;
     font-weight: 900;
     line-height: 1.14;
@@ -12183,7 +12029,6 @@ li.tab.active a button {
 @media (min-width:1024px) {
   .EmptyPlaylist__informationTitle___1czqz {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 1.17
@@ -12278,14 +12123,12 @@ li.tab.active a button {
 .TCF2Purpose__details___3-kx1 .TCF2Purpose__liCheckbox___1zaH2,
 .TCF2Purpose__name___1-X7e {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
 
 .TCF2Purpose__details___3-kx1 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -12501,7 +12344,6 @@ li.tab.active a button {
 
 .TCF2PurposeSection__section___11hvg h4 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29;
@@ -12531,7 +12373,6 @@ li.tab.active a button {
   border: none;
   color: #a7a7a7;
   background: inherit;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 32px;
   cursor: pointer
@@ -12549,7 +12390,6 @@ li.tab.active a button {
 
 .TCF2ConsentPage__subcontainer___38hYK h2 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2
@@ -12557,7 +12397,6 @@ li.tab.active a button {
 
 .TCF2ConsentPage__subcontainer___38hYK h3 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25
@@ -12565,7 +12404,6 @@ li.tab.active a button {
 
 .TCF2ConsentPage__button___1epOp {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -12681,14 +12519,12 @@ li.tab.active a button {
 .TCF2Vendor__details___11toz .TCF2Vendor__liCheckbox___1B3HX,
 .TCF2Vendor__name___3AlLF {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42
 }
 
 .TCF2Vendor__details___11toz {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5
 }
@@ -12864,7 +12700,6 @@ li.tab.active a button {
 
 .TCF2VendorSection__section___1zppk h4 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29
@@ -13278,7 +13113,6 @@ li.tab.active a button {
 
 .GoogleButton__googleButton___1CmPG .GoogleButton__buttonText___2HsT5 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -13403,7 +13237,6 @@ li.tab.active a button {
   border-radius: 3px;
   color: #fff;
   background-image: linear-gradient(262deg, #00d2f3, #0af);
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 15px;
@@ -13432,7 +13265,6 @@ li.tab.active a button {
 }
 
 .ContactAccountManagerStep__title___V_ANK {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -13443,7 +13275,6 @@ li.tab.active a button {
 
 .ContactAccountManagerStep__explanationText___1Mu4P {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   width: 226px;
@@ -13481,7 +13312,6 @@ li.tab.active a button {
 }
 
 .RemoveSocialMediaAccountStep__title___32VNJ {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
   font-weight: 900;
   line-height: 1.17;
@@ -13492,7 +13322,6 @@ li.tab.active a button {
 
 .RemoveSocialMediaAccountStep__explanationText___29xXM {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   width: 239px;
@@ -13530,7 +13359,6 @@ li.tab.active a button {
 }
 
 .SomethingWentWrongStep__title___24UIf {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -13541,7 +13369,6 @@ li.tab.active a button {
 
 .SomethingWentWrongStep__explanationText___1xAMd {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13563,7 +13390,6 @@ li.tab.active a button {
 }
 
 .SomethingWentWrongStep__contactSupportInfo___1ZTTw {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13592,7 +13418,6 @@ li.tab.active a button {
 }
 
 .TryAgainStep__title___30ehl {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -13603,7 +13428,6 @@ li.tab.active a button {
 
 .TryAgainStep__explanationText___3xKC4 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13625,7 +13449,6 @@ li.tab.active a button {
 }
 
 .TryAgainStep__contactSupportInfo___3Uv3w {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13659,7 +13482,6 @@ li.tab.active a button {
 
 .InputError__container___KI76i .InputError__errorMessage___OGPM9 {
   color: #ea3030;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   line-height: 1.5;
   margin: 0
@@ -13695,7 +13517,6 @@ li.tab.active a button {
 
 .BirthdayInput__input___3FFSF {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13717,7 +13538,6 @@ li.tab.active a button {
 
 .BirthdayInput__input___3FFSF::-webkit-input-placeholder {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13775,7 +13595,6 @@ li.tab.active a button {
 
 .BirthdayInput__inputDate___1g0DF {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13804,7 +13623,6 @@ li.tab.active a button {
 
 .BirthdayInput__tooltipText___7vhd0 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -13824,7 +13642,6 @@ li.tab.active a button {
 
 .EmailInput__input___2Pq6c {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13846,7 +13663,6 @@ li.tab.active a button {
 
 .EmailInput__input___2Pq6c::-webkit-input-placeholder {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13919,7 +13735,6 @@ li.tab.active a button {
 
 .PasswordInput__input___2KTm0 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -13941,7 +13756,6 @@ li.tab.active a button {
 
 .PasswordInput__input___2KTm0::-webkit-input-placeholder {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14076,7 +13890,6 @@ li.tab.active a button {
 }
 
 .UpdateYourEmailStep__title___2yVqI {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -14141,7 +13954,6 @@ li.tab.active a button {
 
 .UpdateYourEmailStep__error___1NOV2 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   margin-top: 10px;
@@ -14150,7 +13962,6 @@ li.tab.active a button {
 }
 
 .UpdateYourEmailStep__contactSupportInfo___3pljo {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14211,7 +14022,6 @@ li.tab.active a button {
 
 .GenderSelect__input___2ZnxG {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14232,7 +14042,6 @@ li.tab.active a button {
 
 .GenderSelect__input___2ZnxG::-webkit-input-placeholder {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14455,7 +14264,6 @@ input[type=checkbox] {
 
 .ShortSignupFlow__socialButtons___1wG8P {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14510,7 +14318,6 @@ input[type=checkbox] {
 
 .InformationItem__container___ZCbWB,
 .InformationItem__textContainer___3-ZD4 {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14574,7 +14381,6 @@ input[type=checkbox] {
 
 .CodeInput__input___1wZEF {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14596,7 +14402,6 @@ input[type=checkbox] {
 
 .CodeInput__input___1wZEF::-webkit-input-placeholder {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14663,7 +14468,6 @@ input[type=checkbox] {
 .CodeResendLink__resend___3ayij,
 .CodeResendLink__resendError___jjLBe {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14744,7 +14548,6 @@ input[type=checkbox] {
 
 .ValidationBox__directions___1PyNQ,
 .ValidationBox__directions___1PyNQ.ValidationBox__message___29eBO {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14757,7 +14560,6 @@ input[type=checkbox] {
 }
 
 .ValidationBox__validationFooter___2YXvb {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -14774,7 +14576,6 @@ input[type=checkbox] {
 
 .ValidationBox__legalText___3L_y9 {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -14852,7 +14653,6 @@ input[type=checkbox] {
 
 .ValidationSuccess__validationSuccessText___3jkHL {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15006,7 +14806,6 @@ input[type=checkbox] {
 
 .EmailSignin__forgotpassLink___1JDWZ {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15082,7 +14881,6 @@ input[type=checkbox] {
 }
 
 .ShortSigninFlow__socialText___Cz906 {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15096,7 +14894,6 @@ input[type=checkbox] {
 }
 
 .ShortSigninFlow__text___R6E4V {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15306,7 +15103,6 @@ input[type=checkbox] {
 
 .RecoverPasswordPage__instructionsMessage___3waOh {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15340,7 +15136,6 @@ input[type=checkbox] {
 
 .RecoverPasswordPage__successFooter___1UZUo,
 .RecoverPasswordPage__successHeader___1gRLc {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15395,7 +15190,6 @@ input[type=checkbox] {
 }
 
 .VerifyYourEmailStep__title___3yuHA {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14;
@@ -15404,7 +15198,6 @@ input[type=checkbox] {
 }
 
 .VerifyYourEmailStep__enterCodeMessage___2B27f {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15424,7 +15217,6 @@ input[type=checkbox] {
 
 .VerifyYourEmailStep__emailResendError___24x_4,
 .VerifyYourEmailStep__emailResendSuccess___3ETpI {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   text-align: center
@@ -15437,7 +15229,6 @@ input[type=checkbox] {
 
 .VerifyYourEmailStep__haventReceivedCode___k7wcd {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   color: #232323;
@@ -15446,7 +15237,6 @@ input[type=checkbox] {
 
 .VerifyYourEmailStep__resendEmailButton___3Cqkj {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   display: inline-block;
@@ -15483,7 +15273,6 @@ input[type=checkbox] {
 }
 
 .VerifyYourEmailStep__contactSupportInfo___2OSfO {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -15534,7 +15323,6 @@ input[type=checkbox] {
 
 .SuccessNotification__message___1a_Ei {
   color: #7e7e7e;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42;
   color: #fff;
@@ -15543,7 +15331,6 @@ input[type=checkbox] {
 
 .SuccessNotification__button___1ffGy {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 800;
   line-height: 1.29;
@@ -15650,7 +15437,6 @@ input[type=checkbox] {
 
 .EditAccount__popinButton___162sK {
   color: #0d0d0d;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1;
@@ -16181,7 +15967,6 @@ input[type=checkbox] {
 
 .SearchFilters__titleContainer___7uaGB {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 800;
   line-height: 1.2;
@@ -16194,7 +15979,6 @@ input[type=checkbox] {
 @media (min-width:768px) {
   .SearchFilters__titleContainer___7uaGB {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     line-height: 1.25
@@ -16204,7 +15988,6 @@ input[type=checkbox] {
 @media (min-width:1280px) {
   .SearchFilters__titleContainer___7uaGB {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2
@@ -16217,7 +16000,6 @@ input[type=checkbox] {
 
 .SearchFilters__subtitle___qPicH {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 1.25;
@@ -16236,7 +16018,6 @@ input[type=checkbox] {
 
 .SearchFilters__button___2I6uQ {
   color: #56c7ff;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.33;
@@ -16328,7 +16109,6 @@ input[type=checkbox] {
 @media (min-width:1280px) {
   .Search__text___3VAJk {
     color: #232323;
-    font-family: Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: 800;
     line-height: 1.2;
@@ -17515,7 +17295,6 @@ input[type=checkbox] {
   padding: 15px;
   border: none;
   background: none;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500
 }
@@ -19262,7 +19041,6 @@ input[type=checkbox] {
 
 .SubHeader__title___2oRPK h3 {
   color: #232323;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 28px;
   font-weight: 900;
   line-height: 1.14
@@ -21822,7 +21600,6 @@ input[type=checkbox] {
 }
 
 .transcript-body {
-  font-family: Helvetica, Arial, sans-serif;
   line-height: 20px;
   color: rgb(101, 121, 135);
   font-size: 14px;
@@ -21911,7 +21688,6 @@ ul.links.small>li {
   line-height: 20px;
   min-height: 0;
   padding-top: 0;
-  font-family: Helvetica, Arial, sans-serif;
   color: rgb(0, 173, 239);
 }
 
@@ -22002,7 +21778,6 @@ ul.links.small>li.developerForum {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24px' height='24px' viewBox='0 0 24 24' version='1.1'%3E%3Ctitle%3Ebubble%3C/title%3E%3Cg id='bubble' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpath d='M19.0127042,0.735027223 C22.1723183,0.735027223 23.90726,2.4384398 23.9963847,5.47333964 L24,5.72232305 L24,14.0635209 C24,17.1701213 22.348206,18.9552865 19.2657627,19.0470912 L19.0127042,19.0508167 L12.0217786,19.0508167 L8.26497278,22.3938294 C7.60072595,22.9818512 7.23049002,23.2649728 6.6969147,23.2649728 C5.9823049,23.2649728 5.56438578,22.7864394 5.51493733,22.0357402 L5.50998185,21.8820327 L5.50998185,19.0508167 L4.98729583,19.0508167 C1.82768173,19.0508167 0.0927399691,17.3577278 0.00361534344,14.3133193 L0,14.0635209 L0,5.72232305 C0,2.60511988 1.65179402,0.829999346 4.73423726,0.738730678 L4.98729583,0.735027223 L19.0127042,0.735027223 Z M19.0127042,2.48820327 L4.98729583,2.48820327 C2.86350835,2.48820327 1.82590512,3.52363123 1.75687159,5.50627626 L1.75317604,5.72232305 L1.75317604,14.0526316 C1.75317604,16.1028225 2.71754523,17.2190979 4.76389813,17.2936446 L4.98729583,17.2976407 L6.32667877,17.2976407 C6.87269899,17.2976407 7.1088744,17.4948146 7.13982793,17.9937855 L7.14337568,18.1143376 L7.14337568,21.2722323 L10.6279492,17.8094374 C11.0041247,17.4233625 11.2903061,17.3162694 11.7973823,17.2999887 L11.9564428,17.2976407 L19.0127042,17.2976407 C21.1259778,17.2976407 22.1733698,16.2520614 22.2430909,14.2687163 L22.246824,14.0526316 L22.246824,5.72232305 C22.246824,3.67213217 21.2723035,2.56600797 19.2350517,2.49216135 L19.0127042,2.48820327 Z' id='Shape' fill='%23fff' fill-rule='nonzero'/%3E%3C/g%3E%3C/svg%3E") !important;
 }
 
-
 .PlayingIndicatorTag__playingIndicatorTag___193h3.PlayingIndicatorTag__horizontalCards___1wcU-.VideoCard__playingTag___39XFp.PlayingIndicatorTag__mutedBackground___1ZYg5 {
   display: none;
 }
@@ -22052,7 +21827,6 @@ ul.links.small>li.developerForum {
   width: 90px;
   background-position: 0px center;
 }
-
 
 @media only screen and (max-width: 734px) {
   .video {
@@ -22392,7 +22166,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: 1.33337;
   font-weight: 400;
   letter-spacing: -.01em;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 1068px) {
@@ -22435,7 +22208,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   line-height: 18px;
   font-weight: 400;
   color: #a3a3a3;
-  font-family: Helvetica, Arial, sans-serif;
   -webkit-line-clamp: 3;
   height: 54px;
   line-clamp: 3;
@@ -22555,7 +22327,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   min-width: 64px;
   box-sizing: border-box;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.75;
   border-radius: 50px;
@@ -22571,7 +22342,6 @@ only screen and (max-width: 734px) and (min-resolution: 144dpi) {
   padding: 8px 12px;
   font-size: 13px;
   min-height: 40px;
-  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   letter-spacing: normal;
   text-transform: inherit;
