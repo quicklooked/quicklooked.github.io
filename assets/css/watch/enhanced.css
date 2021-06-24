@@ -1734,7 +1734,7 @@
 
 .se-searchbox-app .se-searchbox__submit,
 .se-searchbox-app .se-searchbox__clear {
-  background: #fff url("../img/gel-icon-search.svg") no-repeat scroll 0 0;
+  background: #fff url("/assets/css/watch/svg/enhanced/gel-icon-search.svg") no-repeat scroll 0 0;
   background-size: 22px;
   background-position: center;
   background-position: center;
@@ -1758,7 +1758,7 @@
 
 .se-searchbox-app .se-searchbox__clear {
   right: 0;
-  background-image: url("../img/gel-icon-no.svg");
+  background-image: url("/assets/css/watch/svg/enhanced/gel-icon-no.svg");
   background-color: #18b;
   opacity: 0.4
 }
@@ -2163,7 +2163,7 @@
 }
 
 .se-searchbox-app .se-icon__video {
-  background: transparent url("../img/gel-icon-iplayer.svg") no-repeat scroll 0 0;
+  background: transparent url("/assets/css/watch/svg/enhanced/gel-icon-iplayer.svg") no-repeat scroll 0 0;
   background-size: 16px;
   background-position: center center;
   color: #000
@@ -2171,7 +2171,7 @@
 
 .se-searchbox-app .se-icon__audio {
   width: 38px;
-  background: transparent url("../img/gel-icon-audio-cta-black.svg") no-repeat scroll 0 0;
+  background: transparent url("/assets/css/watch/svg/enhanced/gel-icon-audio-cta-black.svg") no-repeat scroll 0 0;
   background-size: 20px;
   background-position: center center;
   color: #000
@@ -2493,7 +2493,7 @@
 }
 
 .se-iplayer-radio-theme .se-searchbox__submit {
-  background: #fff url("../img/gel-icon-search-pink.svg") no-repeat scroll 0 0;
+  background: #fff url("/assets/css/watch/svg/enhanced/gel-icon-search-pink.svg") no-repeat scroll 0 0;
   background-size: 22px;
   background-position: center;
   background-position: center
@@ -2510,14 +2510,14 @@
 }
 
 .se-iplayer-radio-theme .se-icon__audio {
-  background: transparent url("../img/gel-icon-iplayer-radio-white.svg") no-repeat scroll;
+  background: transparent url("/assets/css/watch/svg/enhanced/gel-icon-iplayer-radio-white.svg") no-repeat scroll;
   background-size: 20px;
   background-position: center center
 }
 
 @media (min-width: 37.5em) {
   .se-iplayer-radio-theme .se-icon__audio {
-    background: #f54997 url("../img/gel-icon-iplayer-radio-white.svg") no-repeat scroll;
+    background: #f54997 url("/assets/css/watch/svg/enhanced/gel-icon-iplayer-radio-white.svg") no-repeat scroll;
     background-size: 20px;
     background-position: center center
   }
@@ -2550,7 +2550,7 @@
 }
 
 .se-sounds-theme .se-searchbox__submit {
-  background: #fff url("../img/gel-icon-search-orange.svg") no-repeat scroll 0 0;
+  background: #fff url("/assets/css/watch/svg/enhanced/gel-icon-search-orange.svg") no-repeat scroll 0 0;
   background-size: 22px;
   background-position: center;
   background-position: center
@@ -2590,7 +2590,7 @@
 }
 
 .se-sounds-theme .se-episode-suggestion .se-icon__audio {
-  background: transparent url("../img/gel-icon-sounds-white.svg") no-repeat scroll;
+  background: transparent url("/assets/css/watch/svg/enhanced/gel-icon-sounds-white.svg") no-repeat scroll;
   background-size: 15px;
   background-position: center center
 }
@@ -2602,7 +2602,7 @@
 
 @media (min-width: 37.5em) {
   .se-sounds-theme .se-episode-suggestion .se-icon__audio {
-    background: #ff4900 url("../img/gel-icon-sounds-white.svg") no-repeat scroll;
+    background: #ff4900 url("/assets/css/watch/svg/enhanced/gel-icon-sounds-white.svg") no-repeat scroll;
     background-size: 18px;
     background-position: center center
   }
