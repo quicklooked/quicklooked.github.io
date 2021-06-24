@@ -710,7 +710,7 @@
 }
 
 .modal-dialog--msi {
-  background-image: url("https://iplayer-web.files.bbci.co.uk/iplayer-web-components/95.2.0/images/modal/msi-background.png");
+  background-image: url("/assets/css/watch/svg/bundles/msi-background.png");
   background-repeat: no-repeat;
   background-position: bottom right
 }
@@ -5919,7 +5919,7 @@
 
 .profile-entry {
   background-color: #0c101c;
-  background-image: url("../img/xs-s_facets.jpg");
+  background-image: url("/assets/css/watch/svg/bundles/xs-s_facets.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   color: #fff;
@@ -5952,7 +5952,7 @@
 
 @media (min-width: 37.5em) {
   .profile-entry {
-    background-image: url("../img/m-xl_facets.jpg");
+    background-image: url("/assets/css/watch/svg/bundles/m-xl_facets.jpg");
     background-size: contain
   }
 
@@ -5964,7 +5964,7 @@
 
 @media (min-width: 80em) {
   .profile-entry {
-    background-image: url("../img/xxl_facets.jpg")
+    background-image: url("/assets/css/watch/svg/bundles/xxl_facets.jpg")
   }
 }
 
