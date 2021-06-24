@@ -10,7 +10,8 @@ var jwDefaults = {
   "controls": false,
   "debug": false,
   "responsive": true,
-  "nextupoffset": 0, 
+  "nextupoffset": 0,
+  "playbackRateControls": [0.25, 0.5, 0.75, 1, 1.25, 1.5, 2],
   "localization": {
     "related": "Episodes"
   },
