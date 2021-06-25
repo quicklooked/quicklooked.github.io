@@ -2072,21 +2072,21 @@
 }
 
 .typo--canary {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.2
 }
 
 @media (min-width: 25em) {
   .typo--canary {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.2
   }
 }
 
 @media (min-width: 37.5em) {
   .typo--canary {
-    font-size: 14px;
-    line-height: 1.28571
+    font-size: 12px;
+    line-height: 1.2
   }
 }
 
