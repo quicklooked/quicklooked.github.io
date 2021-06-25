@@ -1981,8 +1981,8 @@
 #tviplayer {
   min-width: 320px;
   background-color: #000;
-  font-size: 1.3em;
-  line-height: 1.6em;
+  font-size: 1.1em;
+  line-height: 1.3em;
   overflow: hidden;
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -2053,21 +2053,21 @@
 }
 
 .typo--bullfinch {
-  font-size: 13px;
-  line-height: 1.23077
+  font-size: 11px;
+  line-height: 1.2
 }
 
 @media (min-width: 25em) {
   .typo--bullfinch {
-    font-size: 14px;
-    line-height: 1.14286
+    font-size: 11px;
+    line-height: 1.2
   }
 }
 
 @media (min-width: 37.5em) {
   .typo--bullfinch {
-    font-size: 13px;
-    line-height: 1.23077
+    font-size: 11px;
+    line-height: 1.2
   }
 }
 
@@ -2122,14 +2122,14 @@
 }
 
 .typo--heron {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.2
 }
 
 @media (min-width: 37.5em) {
   .typo--heron {
-    font-size: 24px;
-    line-height: 1.16667
+    font-size: 18px;
+    line-height: 1.2
   }
 }
 
