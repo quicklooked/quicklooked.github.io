@@ -39,7 +39,7 @@
 }
 
 a.id4-cta-button {
-  background-image: url(img/idcta-icon-sprite.svg);
+  background-image: url(/assets/css/watch/svg/id-cta/idcta-icon-sprite.svg);
   background-position: 10px -61px;
   background-repeat: no-repeat;
   background-size: 19px;
@@ -218,7 +218,7 @@ a.id4-cta-register:hover {
 
 #idcta-link:before {
   content: "";
-  background-image: url(img/idcta-icon-sprite.svg);
+  background-image: url(/assets/css/watch/svg/id-cta/idcta-icon-sprite.svg);
   background-size: 22px;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -428,7 +428,7 @@ a.id4-cta-register:hover {
 
 .id-cta--blue .id-cta-button {
   background-color: #006def;
-  background-image: url(img/idcta-icon-sprite.svg);
+  background-image: url(/assets/css/watch/svg/id-cta/idcta-icon-sprite.svg);
   border-color: #006def;
   color: #fff;
   outline-color: #006def
@@ -455,7 +455,7 @@ a.id4-cta-register:hover {
 .id-cta--white .id-cta-button {
   background-position-y: -124px;
   background-color: #fff;
-  background-image: url(img/idcta-icon-sprite.svg);
+  background-image: url(/assets/css/watch/svg/id-cta/idcta-icon-sprite.svg);
   border-color: #fff;
   color: #006def;
   outline-color: #006def
@@ -489,7 +489,7 @@ a.id4-cta-register:hover {
 
 .id-cta--mixed .id-cta-button {
   background-color: #006def;
-  background-image: url(img/idcta-icon-sprite.svg);
+  background-image: url(/assets/css/watch/svg/id-cta/idcta-icon-sprite.svg);
   border-color: #006def;
   color: #fff;
   outline-color: #006def
@@ -613,12 +613,12 @@ a.id4-cta-register:hover {
 }
 
 .profile-switcher .avatar__icon--add-profile {
-  background-image: url(img/add-profile-circle.svg)
+  background-image: url(/assets/css/watch/svg/id-cta/add-profile-circle.svg)
 }
 
 .profile-switcher .avatar__icon--add-profile:focus,
 .profile-switcher .avatar__icon--add-profile:hover {
-  background-image: url(img/add-profile-circle-rollover.svg)
+  background-image: url(/assets/css/watch/svg/id-cta/add-profile-circle-rollover.svg)
 }
 
 @media (max-width:37.49em) {
@@ -639,7 +639,7 @@ a.id4-cta-register:hover {
   animation-name: spin;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
-  background-image: url(img/loading_spinner.svg);
+  background-image: url(/assets/css/watch/svg/id-cta/loading_spinner.svg);
   content: "";
   display: block;
   height: 32px;
@@ -848,7 +848,7 @@ a.id4-cta-register:hover {
 }
 
 .profile-switcher__list-item--active {
-  background: url(img/tick_blue.svg);
+  background: url(/assets/css/watch/svg/id-cta/tick_blue.svg);
   background-repeat: no-repeat;
   background-position: right 16px center
 }
@@ -866,11 +866,11 @@ a.id4-cta-register:hover {
 
 .profile-switcher__list-item:focus .avatar__icon--add-profile,
 .profile-switcher__list-item:hover .avatar__icon--add-profile {
-  background-image: url(img/add-profile-circle-rollover.svg)
+  background-image: url(/assets/css/watch/svg/id-cta/add-profile-circle-rollover.svg)
 }
 
 .profile-switcher__error {
-  background: url(img/exclamation_icon.svg) #f5f5f5;
+  background: url(/assets/css/watch/svg/id-cta/exclamation_icon.svg) #f5f5f5;
   background-repeat: no-repeat;
   background-position: top 24px center;
   margin: 0 16px 80px;
@@ -1024,7 +1024,7 @@ a.id4-cta-register:hover {
   margin-bottom: -16px;
   text-decoration: none;
   color: #006def;
-  background: url(img/settings_cog.svg) 0 no-repeat
+  background: url(/assets/css/watch/svg/id-cta/settings_cog.svg) 0 no-repeat
 }
 
 @media (min-width:20em) {
