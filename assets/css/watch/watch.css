@@ -265,7 +265,7 @@ body {
 
 .orb-nav-pri {
   background: #fff;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0px solid #ccc;
   font-size: 1.3em;
   font-weight: 700;
   -moz-transition: background .25s;
