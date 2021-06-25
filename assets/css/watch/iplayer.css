@@ -2091,13 +2091,13 @@
 }
 
 .typo--skylark {
-  font-size: 15px;
-  line-height: 1.33333
+  font-size: 12px;
+  line-height: 1.25
 }
 
 @media (min-width: 25em) {
   .typo--skylark {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.25
   }
 }
@@ -2173,7 +2173,8 @@
 }
 
 .typo--bold {
-  font-weight: bold
+  font-weight: bold;
+  font-family: "Malgun Gothic", HelveticaNowDisplay, Helvetica, Arial, sans-serif;
 }
 
 .svg-defs {
