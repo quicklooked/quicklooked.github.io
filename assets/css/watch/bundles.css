@@ -602,7 +602,7 @@
   width: 1em;
   display: inline-block;
   vertical-align: middle;
-  fill: #00ccca
+  fill: #fff
 }
 
 .live-label__icon__dot {
@@ -654,7 +654,7 @@
 .live-label__text {
   padding-left: 4px;
   vertical-align: middle;
-  color: #00ccca;
+  color: #fff;
   text-transform: uppercase
 }
 
@@ -3881,10 +3881,11 @@
 
 .content-item__live--over-image {
   position: absolute;
+  height: 18px;
   top: 0;
   left: 0;
-  padding: 3px 6px;
-  background-color: #0c101c;
+  padding: 2px 5px;
+  background-color: rgba(0, 0, 0, 0.7);
   -webkit-transition: .1s ease 0s;
   transition: .1s ease 0s;
   -webkit-transition-property: opacity;
