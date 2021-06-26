@@ -279,7 +279,7 @@ body {
   color: #333;
   display: block;
   text-decoration: none;
-  padding: .462em 8px .308em;
+  padding: 10px 0 10px 10px;
   line-height: 1.692em;
   min-height: 1.692em
 }
