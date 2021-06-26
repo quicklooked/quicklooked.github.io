@@ -310,7 +310,7 @@ body {
 .orb-nav-pri .orb-nav-blocks {
   overflow: hidden;
   white-space: nowrap;
-  width: 82px
+  width: 24px
 }
 
 .orb-nav-pri .orb-nav-blocks a {
@@ -319,9 +319,9 @@ body {
   min-height: auto;
   background: url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_alpha.png) no-repeat;
   background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_grey_sm.svg) no-repeat;
-  width: 74px;
-  height: 21px;
-  margin-top: 6px
+  width: 24px;
+  height: 24px;
+  margin-top: 10px
 }
 
 .orb-nav-links ul {
@@ -573,9 +573,9 @@ body {
 
 .b-header--dark-grey--grey .orb-nav-pri .orb-nav-blocks a {
   background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_whitev.svg) no-repeat;
-  width: 84px;
+  width: 24px;
   height: 24px;
-  margin-top: 8px
+  margin-top: 10px
 }
 
 @media screen and (max-width:599px) {
@@ -583,9 +583,9 @@ body {
     padding: 0 !important;
     min-height: auto;
     background: 0 0, url(/assets/css/watch/svg/watch/blq-orbit-blocks_whitev.svg) no-repeat;
-    width: 74px;
-    height: 21px;
-    margin-top: 6px
+    width: 24px;
+    height: 24px;
+    margin-top: 10px
   }
 }
 
@@ -1137,7 +1137,7 @@ body {
 
 @media screen and (min-width:225px) {
   .orb-nav-pri-container {
-    height: 32px
+    height: 44px
   }
 
   #orb-nav-more a {
@@ -1159,7 +1159,7 @@ body {
 
 @media screen and (min-width:600px) {
   .orb-nav-pri-container {
-    height: 40px
+    height: 44px
   }
 
   .orb-nav-pri a {
@@ -1169,7 +1169,7 @@ body {
   }
 
   .orb-nav-pri .orb-nav-blocks {
-    width: 92px;
+    width: 24px;
     overflow: hidden;
     white-space: nowrap
   }
@@ -1222,7 +1222,7 @@ body {
 
   .b-pw-1280 .orb-nav-pri .orb-nav-blocks,
   .b-pw-1280 .orb-nav-pri .orb-nav-blocks a {
-    width: 100px
+    width: 24px
   }
 
   .b-pw-1280 .orb-nav-pri .orb-nav-home,
