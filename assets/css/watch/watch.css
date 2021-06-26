@@ -1458,9 +1458,9 @@ div.orb-footer-primary-links {
 }
 
 .b-footer--white--dark-grey .orb-footer {
-  background-color: #fff;
+  background-color: #000;
   color: #333;
-  border-color: #333
+  border-color: #0000;
 }
 
 .b-footer--white--dark-grey .orb-footer a,
@@ -1474,7 +1474,7 @@ div.orb-footer-primary-links {
 .b-footer--white--dark-grey .orb-footer #orb-footer-promo,
 .b-footer--white--dark-grey .orb-footer .orb-footer-inner,
 .b-footer--white--dark-grey .orb-footer .orb-footer-inner a {
-  border-color: #333
+  border-color: rgba(255, 255, 255, .1)
 }
 
 @media screen and (max-width:399px) {
