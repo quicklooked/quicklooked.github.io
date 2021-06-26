@@ -27,7 +27,7 @@
 }
 
 .orb-nav-search a.orb-search__button {
-  border-right: 1px solid #ccc
+  border-right: 0px solid #ccc
 }
 
 .orb-nav-search img {
@@ -37,11 +37,11 @@
 
 .orb-nav-search form {
   display: none;
-  padding: 0.615em 0 0.539em 8px
+  padding: 10px 0px 10px 0px
 }
 
 .orb-nav-search form div {
-  width: 200px;
+  width: 24px;
   height: 1.846em;
   min-height: 24px
 }
@@ -128,7 +128,7 @@
   }
 
   .orb-nav-search .orb-search__button {
-    width: 32px;
+    width: 24px;
     height: 24px
   }
 }
@@ -139,7 +139,7 @@
   }
 
   .b-pw-1280 .orb-nav-search form div {
-    width: 180px
+    width: 24px
   }
 
   .b-pw-1280 .orb-nav-search #orb-search-q {
