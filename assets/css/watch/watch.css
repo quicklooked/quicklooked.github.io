@@ -1240,7 +1240,7 @@ body {
 }
 
 .orb-nav-sec {
-  font-size: 1.3em
+  font-size: 1.1em
 }
 
 .orb-footer,
@@ -1309,7 +1309,7 @@ body {
 #orb-aside,
 .orb-nav-pri .orb-menu b,
 .orb-nav-sec .orb-hilight {
-  font-weight: 700
+  font-weight: normal
 }
 
 #orb-aside {
@@ -1459,13 +1459,13 @@ div.orb-footer-primary-links {
 
 .b-footer--white--dark-grey .orb-footer {
   background-color: #000;
-  color: #333;
+  color: rgba(235, 235, 245, .6);
   border-color: #0000;
 }
 
 .b-footer--white--dark-grey .orb-footer a,
 .pulse-banner .orb-banner-title {
-  color: #333
+  color: rgba(255, 255, 255, .9)
 }
 
 .b-footer--dark-grey--grey .orb-footer #orb-footer-promo,
