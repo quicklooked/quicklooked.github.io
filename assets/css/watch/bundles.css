@@ -6356,6 +6356,10 @@
   display: flex;
 }
 
+.search-bar .search-bar__input:hover {
+  border: 1px solid #e50914;
+}
+
 .search-bar .search-bar__button {
   position: absolute;
   top: 32px;
