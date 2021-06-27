@@ -3826,36 +3826,36 @@
 }
 
 .tvip-theme-light .facets {
-  background: url("../img/facets/xs-s_light.jpg") no-repeat center top
+  background: none
 }
 
 @media (min-width: 37.5em) {
   .tvip-theme-light .facets {
-    background: url("../img/facets/m-xl_light.jpg") no-repeat center top;
+    background: none;
     background-size: contain
   }
 }
 
 @media (min-width: 80em) {
   .tvip-theme-light .facets {
-    background: url("../img/facets/xxl_light.jpg") no-repeat center top
+    background: none
   }
 }
 
 .facets {
-  background: url("../img/facets/xs-s.jpg") no-repeat center top
+  background: none
 }
 
 @media (min-width: 37.5em) {
   .facets {
-    background: url("../img/facets/m-xl.jpg") no-repeat center top;
+    background: none;
     background-size: contain
   }
 }
 
 @media (min-width: 80em) {
   .facets {
-    background: url("../img/facets/xxl.jpg") no-repeat center top
+    background: none
   }
 }
 
