@@ -171,6 +171,72 @@
               <path d="M23.4 24h-2.7l-.2-1.7c-1.1 1.5-3 2.1-4.5 2.1-4.8 0-8-3.7-8-8.3s3.1-8.3 8-8.3c3.3 0 6.8 1.8 7.2 5.8H19c-.1-1.4-1.5-2.2-3.2-2.2-2.7 0-3.7 2.4-3.7 4.7 0 2.4 1 4.7 3.7 4.7 2.1 0 3.4-1 3.7-2.4h-2.9v-3.1h6.7V24z" fill="#FFF"></path>
             </symbol>
           </svg>
+          <div class="list search-list facets">
+            <div class="search-list__header">
+              <div class="gel-wrap">
+                <div class="search-bar">
+                  <form action="/iplayer/search" method="get">
+                    <button aria-label="Search" class="button search-bar__button js-submit button--icon-svg button--no-background button--clickable" type="submit">
+                      <svg role="presentation" viewBox="0 0 24 24" aria-hidden="true" focusable="false" width="20px" height="40px" style="margin-right: 8px;">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill-rule="evenodd" d="M11 18a7 7 0 10-7-7 7 7 0 007 7zm7-1.38l3.68 3.67-1.42 1.42L16.62 18A9 9 0 1118 16.62z"></path>
+                      </svg>
+                      <span class="tvip-hide">Search</span>
+                    </button><label for="search-bar-input" class="tvip-hide">Search Results</label>
+                    <input type="text" class="search-bar__input typo typo--skylark" placeholder="What are you looking for?" id="search-bar-input" name="q" autocomplete="off" maxlength="100" value="">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="gel-wrap">
+              <div class="grid list__grid">
+                <ul class="gel-layout"></ul>
+              </div>
+            </div>
+          </div>
+          <div class="myprogrammes">
+            <div class="facets">
+              <div class="hero-header">
+                <div class="gel-wrap">
+                  <div class="gel-layout">
+                    <div class="gel-layout__item">
+                      <div class="hero-header__inner">
+                        <div class="hero-header__content">
+                          <h1 class="hero-header__title typo typo--bold typo--buzzard" aria-label="Search Results">Search Results</h1>
+                          <div class="hero-header__children">
+                            <nav class="myprogrammes__nav">
+                              <a class="tab typo typo--canary myprogrammes__nav__link myprogrammes__nav__link--active typo--bold tab--active" href="/iplayer/watching">
+                                <span class="tab__inner">People</span>
+                              </a>
+                              <a class="tab typo typo--canary myprogrammes__nav__link" href="/iplayer/added">
+                                <span class="tab__inner">Trailers</span>
+                              </a>
+                              <a class="tab typo typo--canary myprogrammes__nav__link" href="/iplayer/recommendations">
+                                <span class="tab__inner">Video</span>
+                              </a>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="gel-layout">
+                  <div class="gel-layout__item gel-7/8@s gel-3/4@m gel-1/2@l gel-1/3@xxl myprogrammes__empty-state">
+                    <div class="empty-state">
+                      <svg role="presentation" class="empty-state__icon" focusable="false">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gel-icon-iplayer" href="#gel-icon-iplayer" role="presentation"></use>
+                      </svg>
+                      <h2 class="empty-state__title typo typo--heron">The easy way to pick up where you left off</h2>
+                      <p class="empty-state__text typo typo--canary">Want a quick, simple way to resume watching episodes and series?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="">
             <h1 class="tvip-hide">Quicklook Watch</h1>
             <div class="background-facets background-facets--hide-at-lower">
