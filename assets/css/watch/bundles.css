@@ -977,7 +977,7 @@
 }
 
 .empty-state__text {
-  color: #b2b7c4;
+  color: rgba(235, 235, 245, .6);
   text-align: center
 }
 
@@ -3860,7 +3860,7 @@
 }
 
 .myprogrammes__nav {
-  border-bottom: 1px solid #242833;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
   margin-top: -8px
 }
 
