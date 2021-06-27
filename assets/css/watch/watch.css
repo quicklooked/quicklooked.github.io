@@ -171,7 +171,7 @@ html {
 
 body {
   font-size: 62.5%;
-  font-family: "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif;
+  font-family: "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", Circular, "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif;
   line-height: 1;
   background: #000;
 }
@@ -181,7 +181,7 @@ body {
 }
 
 .b-reith-sans-font body {
-  font-family: "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif
+  font-family: "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", Circular, "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif
 }
 
 .b-reith-sans-font body .gel-canon-bold,
