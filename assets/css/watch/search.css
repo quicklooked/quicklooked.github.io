@@ -526,10 +526,6 @@
   }
 }
 
-body {
-  font-family: Helvetica, Arial, freesans, sans-serif
-}
-
 .gel-wrap {
   max-width: 1008px;
   margin: 0 auto;
@@ -12036,10 +12032,6 @@ button {
 
 .no-keyboard-navigation-in-use * {
   outline: none
-}
-
-body {
-  background-color: #fff
 }
 
 .play-c-synopsis_subscribe {
