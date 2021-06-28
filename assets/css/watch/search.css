@@ -98,10 +98,10 @@
 }
 
 .gel-trafalgar-bold {
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 24px;
-  line-height: 1.5rem;
+  font-size: 18px;
+  font-size: 18px;
+  line-height: 36px;
+  line-height: 2.25rem;
   font-weight: 700;
   letter-spacing: -1px;
   letter-spacing: -.0625rem
@@ -109,24 +109,24 @@
 
 @media (min-width:20em) {
   .gel-trafalgar-bold {
-    font-size: 24px;
-    font-size: 1.5rem;
-    line-height: 28px;
-    line-height: 1.75rem
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 36px;
+    line-height: 2.25rem
   }
 }
 
 @media (min-width:37.5em) {
   .gel-trafalgar-bold {
-    font-size: 36px;
-    font-size: 2.25rem;
-    line-height: 40px;
+    font-size: 18px;
+    font-size: 18px;
+    line-height: 36px;
     line-height: 2.5rem
   }
 
   .no-touch .gel-trafalgar-bold {
-    font-size: 32px;
-    font-size: 2rem;
+    font-size: 18px;
+    font-size: 18px;
     line-height: 36px;
     line-height: 2.25rem
   }
@@ -9887,7 +9887,7 @@
 }
 
 .sc-c-module-title__text {
-  color: #000
+  color: #fff
 }
 
 .sc-c-module-title__pipe {
