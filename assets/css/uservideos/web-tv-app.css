@@ -3907,7 +3907,7 @@ html[dir=rtl] .shelf-grid-nav__arrow--previous::after {
   position: relative;
   height: 25vw;
   min-height: calc(300px * 47 / 124);
-  background-color: rgba(40, 40, 40, .9);
+  /*background-color: rgba(40, 40, 40, .9);*/
   z-index: 1;
   padding-top: 43px
 }
