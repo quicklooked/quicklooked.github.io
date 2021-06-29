@@ -63,8 +63,8 @@
 }
 
 .button--active.button--no-background {
-  color: #f54997;
-  fill: #f54997
+  color: #e50914;
+  fill: #e50914
 }
 
 .button--dark {
@@ -153,7 +153,7 @@
 }
 
 .button--primary-icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .button--primary-icon:focus,
@@ -175,8 +175,8 @@
 .button--no-background:focus,
 .button--no-background:hover,
 .button--no-background:active {
-  color: #f54997;
-  fill: #f54997;
+  color: #e50914;
+  fill: #e50914;
   background-color: transparent
 }
 
@@ -209,7 +209,7 @@
 }
 
 .button--selected .button__text {
-  border-bottom: 2px solid #f54997
+  border-bottom: 2px solid #e50914
 }
 
 .button__icon-svg {
@@ -428,13 +428,13 @@
 }
 
 .lnk--primary-icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .lnk--primary-icon:focus,
 .lnk--primary-icon:hover,
 .lnk--primary-icon:active {
-  fill: #f54997
+  fill: #e50914
 }
 
 .lnk__icon {
@@ -450,8 +450,8 @@
 .lnk:hover,
 .lnk:active {
   background: none;
-  color: #f54997;
-  fill: #f54997
+  color: #e50914;
+  fill: #e50914
 }
 
 .lnk__label--right,
@@ -510,13 +510,13 @@
 .lnk--no-theme:focus,
 .lnk--no-theme:hover,
 .lnk--no-theme:active {
-  color: #f54997
+  color: #e50914
 }
 
 .lnk--no-theme:focus .lnk__icon,
 .lnk--no-theme:hover .lnk__icon,
 .lnk--no-theme:active .lnk__icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .lnk--expanded-hit-area {
@@ -540,7 +540,7 @@
 .lnk--dark:focus,
 .lnk--dark:hover,
 .lnk--dark:active {
-  color: #f54997
+  color: #e50914
 }
 
 .lnk--theme-light:focus,
@@ -694,7 +694,7 @@
 }
 
 .modal-dialog__title {
-  color: #f54997;
+  color: #e50914;
   margin-bottom: 16px
 }
 
@@ -746,7 +746,7 @@
 
 .progress__position {
   height: 100%;
-  background-color: #f54997;
+  background-color: #e50914;
   max-width: 100%
 }
 
@@ -922,7 +922,7 @@
 .play-cta__inner:focus .play-cta__icon,
 .play-cta__inner:hover .play-cta__icon,
 .play-cta__inner:active .play-cta__icon {
-  background-color: #f54997
+  background-color: #e50914
 }
 
 .play-cta__inner:focus .play-cta__svg,
@@ -1074,7 +1074,7 @@
   opacity: 1;
   transition: fill .4s ease, opacity 0.2s ease;
   -webkit-transition: fill .4s ease, opacity 0.2 ease;
-  fill: #f54997
+  fill: #e50914
 }
 
 @media (min-width: 37.5em) {
@@ -1098,7 +1098,7 @@
 .play-cta__divider {
   width: 16px;
   height: 1px;
-  background-color: #f54997;
+  background-color: #e50914;
   margin-top: 8px
 }
 
@@ -1192,7 +1192,7 @@
 
 .play-cta__label-primary {
   padding-bottom: 0;
-  color: #f54997
+  color: #e50914
 }
 
 .play-cta__label-primary--with-separator {
@@ -1895,7 +1895,7 @@
 .content-item__link:hover .content-item__icon,
 .content-item__link:active .content-item__icon {
   opacity: 1;
-  background-color: #f54997
+  background-color: #e50914
 }
 
 @media (min-width: 63em) {
@@ -1981,7 +1981,7 @@
   width: 100%;
   height: 1px;
   opacity: 0;
-  background-color: #f54997;
+  background-color: #e50914;
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
   -webkit-transition-property: opacity;
@@ -2054,7 +2054,7 @@
   width: 48px;
   height: 48px;
   fill: #fff;
-  background: #f54997;
+  background: #e50914;
   opacity: 0;
   z-index: 352;
   -webkit-transition: .3s ease 0s;
@@ -2168,8 +2168,8 @@
   left: 0;
   opacity: 0;
   z-index: 351;
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.2) 67%, rgba(12, 16, 28, 0) 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.2) 67%, rgba(12, 16, 28, 0) 100%);
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.77) 77%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.77) 77%, rgba(0, 0, 0, 0) 100%);
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
   -webkit-transition-property: opacity, transform;
@@ -2293,12 +2293,12 @@
     top: 0;
     left: 0;
     width: 16px;
-    border-top: 1px solid #f54997
+    border-top: 1px solid #e50914
   }
 }
 
 .content-item__label--primary {
-  color: #f54997
+  color: #e50914
 }
 
 .content-item__label--with-separator {
@@ -2324,7 +2324,7 @@
 
 .content-item__secondary-cta {
   padding: 12px 12px 12px 0;
-  fill: #f54997;
+  fill: #e50914;
   text-align: left;
   position: absolute;
   left: 0;
@@ -2425,8 +2425,8 @@
 }
 
 .content-item--with-background .content-item__image::after {
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.6) 67%, #181c27 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.6) 67%, #181c27 100%)
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.77) 77%, #000 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.77) 77%, #000 100%)
 }
 
 .content-item--with-background .content-item__info {
@@ -2434,8 +2434,8 @@
 }
 
 .content-item--with-background .content-item__info::before {
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.2) 67%, rgba(24, 28, 39, 0) 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.2) 67%, rgba(24, 28, 39, 0) 100%)
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 77%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 77%, rgba(0, 0, 0, 0) 100%)
 }
 
 .content-item--has-overlay:hover .content-item__image::before,
@@ -2607,7 +2607,7 @@
   left: 0;
   width: 16px;
   height: 1px;
-  background-color: #f54997
+  background-color: #e50914
 }
 
 .hero-header--show-bottom-border .hero-header__inner::after {
@@ -3001,7 +3001,7 @@
 }
 
 .categories-sub-nav__item--active {
-  color: #f54997
+  color: #e50914
 }
 
 @media (min-width: 63em) {
@@ -3521,7 +3521,7 @@
 }
 
 .navigation__logo__link {
-  fill: #f54997
+  fill: #e50914
 }
 
 .navigation__logo__link:focus,
@@ -3617,12 +3617,12 @@
 
 .navigation__link--active,
 .navigation__link--selected {
-  color: #f54997
+  color: #e50914
 }
 
 .navigation__link--active .navigation__link__down-icon,
 .navigation__link--selected .navigation__link__down-icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .navigation__link--active .navigation__link__icon--active,
@@ -3765,7 +3765,7 @@
 }
 
 .navigation--u13 .navigation__logo__link {
-  fill: #f54997
+  fill: #e50914
 }
 
 .navigation--u13 .navigation__logo__link:focus,
@@ -3849,7 +3849,7 @@
     left: 15%;
     width: 70%;
     height: 2px;
-    background-color: #f54997;
+    background-color: #e50914;
     transform: translateY(100%);
     transition: transform .4s ease 0s
   }
@@ -4046,7 +4046,7 @@
   margin-bottom: 330px;
   width: 32px;
   height: 32px;
-  fill: #f54997;
+  fill: #e50914;
   -webkit-animation: rotating 1s linear infinite;
   animation: rotating 1s linear infinite
 }
@@ -4120,7 +4120,7 @@
 .tleo-list .series-nav__button--inactive:focus,
 .tleo-list .series-nav__button--inactive:hover,
 .tleo-list .series-nav__button--inactive:active {
-  color: #f54997
+  color: #e50914
 }
 
 .tleo-list .series-title {
