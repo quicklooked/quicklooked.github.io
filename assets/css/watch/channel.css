@@ -65,7 +65,7 @@
   padding: 10px 12px;
   text-align: center;
   font-family: inherit;
-  background-color: #242833;
+  background-color: #000;
   color: #fff;
   transition: color .4s ease 0s, fill .4s ease 0s, background-color .4s ease 0s;
   -webkit-font-smoothing: antialiased
@@ -74,7 +74,7 @@
 .button:focus,
 .button:hover,
 .button:active {
-  background-color: #cf3e80;
+  background-color: #e50914;
   color: #fff
 }
 
@@ -102,7 +102,7 @@
 }
 
 .button--inverted {
-  background-color: #cf3e80;
+  background-color: #e50914;
   color: #fff;
   fill: #fff
 }
@@ -116,7 +116,7 @@
 }
 
 .button--active {
-  background-color: #cf3e80;
+  background-color: #e50914;
   color: #fff;
   fill: #fff;
   cursor: auto
@@ -200,7 +200,7 @@
 }
 
 .button--translucent {
-  background-color: rgba(2, 0, 17, 0.2);
+  /*background-color: rgba(2, 0, 17, 0.2);*/
   color: #fff;
   fill: #fff
 }
@@ -208,7 +208,7 @@
 .button--translucent:focus,
 .button--translucent:hover,
 .button--translucent:active {
-  background-color: rgba(2, 0, 17, 0.6);
+  /*background-color: rgba(2, 0, 17, 0.6);*/
   fill: #fff
 }
 
@@ -302,7 +302,7 @@
 .chevron:focus,
 .chevron:hover,
 .chevron:active {
-  background: #cf3e80;
+  background: #e50914;
   color: #fff;
   fill: #fff
 }
@@ -331,8 +331,8 @@
 .chevron--transparent:hover,
 .chevron--transparent:active {
   background: none;
-  color: #cf3e80;
-  fill: #cf3e80
+  color: #e50914;
+  fill: #e50914
 }
 
 .chevron--transparent[disabled] {
@@ -2866,7 +2866,7 @@
 }
 
 .column-section__item--active {
-  background-color: #cf3e80
+  background-color: #e50914
 }
 
 .column-section__item:focus,
@@ -2976,7 +2976,7 @@
 }
 
 .column-section__item--active {
-  background-color: #cf3e80
+  background-color: #e50914
 }
 
 .column-section__item:focus,
@@ -3675,7 +3675,7 @@
 .navigation--u13 .navigation__logo__link:focus,
 .navigation--u13 .navigation__logo__link:hover,
 .navigation--u13 .navigation__logo__link:active {
-  fill: #cf3e80
+  fill: #e50914
 }
 
 @media (min-width: 63em) {
@@ -3787,12 +3787,12 @@
 
 .navigation--u13 .navigation__link--active,
 .navigation--u13 .navigation__link--selected {
-  color: #cf3e80
+  color: #e50914
 }
 
 .navigation--u13 .navigation__link--active .navigation__link__down-icon,
 .navigation--u13 .navigation__link--selected .navigation__link__down-icon {
-  fill: #cf3e80
+  fill: #e50914
 }
 
 .navigation--u13 .navigation__link--active .navigation__link__icon--active,
