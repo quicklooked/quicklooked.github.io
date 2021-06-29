@@ -45,95 +45,16 @@
     <div id="orb-header" class="orb-nav-pri orb-nav-pri-white orb-nav-dyn" dir="ltr">
       <div class="orb-nav-pri-container b-r b-g-p">
         <div class="orb-nav-section orb-nav-blocks">
-          <a href="https://www.bbc.co.uk">Homepage</a>
+          <a href="{{page.linkmain}}">Homepage</a>
         </div>
-        <section>
-          <div class="orb-skip-links">
-            <h2>Accessibility links</h2>
-            <ul>
-              <li>
-                <a href="#main">Skip to content</a>
-              </li>
-              <li>
-                <a id="orb-accessibility-help" href="https://www.bbc.co.uk/accessibility/">Accessibility Help</a>
-              </li>
-            </ul>
-          </div>
-        </section>
         <div class="orb-nav-section orb-nav-search">
-          <a class="orb-search__button" href="/search" title="Search Watch">Search</a>
+          <a class="orb-search__button" href="/media/watch/search" title="Search Watch">Search</a>
           <form class="b-f" id="orb-search-form" role="search" method="get" action="/search" accept-charset="utf-8">
             <div>
               <label for="orb-search-q">Search Watch</label>
               <button id="orb-search-button" class="orb-search__button">Search Watch</button>
             </div>
           </form>
-        </div>
-      </div>
-      <div id="orb-panels">
-        <div id="orb-panel-more" class="orb-panel">
-          <div class="orb-panel-content b-g-p b-r orb-nav-sec">
-            <h2 id="orb-panel-more-title">More<span class="orb-icon orb-icon-arrow"></span></h2>
-            <ul>
-              <li class="orb-nav-home orb-panel-hide"><a href="https://www.bbc.co.uk">Home</a></li>
-              <li class="orb-nav-news orb-panel-hide"><a href="https://www.bbc.co.uk/news">News</a></li>
-              <li class="orb-nav-sport orb-panel-hide"><a href="https://www.bbc.co.uk/sport">Sport</a></li>
-              <li class="orb-nav-weather orb-panel-hide"><a href="https://www.bbc.co.uk/weather">Weather</a></li>
-              <li class="orb-nav-iplayer orb-panel-hide"><a href="https://www.bbc.co.uk/iplayer">iPlayer</a></li>
-              <li class="orb-nav-sounds orb-panel-hide"><a href="https://www.bbc.co.uk/sounds">Sounds</a></li>
-              <li class="orb-nav-cbbc orb-panel-hide"><a href="https://www.bbc.co.uk/cbbc">CBBC</a></li>
-              <li class="orb-nav-cbeebies orb-first-visible"><a href="https://www.bbc.co.uk/cbeebies">CBeebies</a></li>
-              <li class="orb-nav-food"><a href="https://www.bbc.co.uk/food">Food</a></li>
-              <li class="orb-nav-bitesize"><a href="https://www.bbc.co.uk/bitesize">Bitesize</a></li>
-              <li class="orb-nav-arts"><a href="https://www.bbc.co.uk/arts">Arts</a></li>
-              <li class="orb-nav-taster"><a href="https://www.bbc.co.uk/taster">Taster</a></li>
-              <li class="orb-nav-local"><a href="https://www.bbc.co.uk/news/localnews">Local</a></li>
-              <li class="orb-nav-three"><a href="https://www.bbc.co.uk/bbcthree">Three</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="orb-panel se-searchbox-app" id="se-searchbox-app">
-          <div tabindex="-1">
-            <div>
-              <section class="se-searchbox-panel">
-                <div class="se-g-wrap">
-                  <div class="se-g-layout">
-                    <div class="se-g-layout__item se-searchbox-title" aria-hidden="true">search</div>
-                    <div class="se-g-layout__item se-searchbox">
-                      <form accept-charset="utf-8" id="searchboxDrawerForm" method="get" action="https://search.bbc.co.uk/search">
-                        <label class="se-searchbox__input" for="se-searchbox-input-field">
-                          <span class="se-sr-only">Search Term</span>
-                          <div>
-                            <input type="text" name="q" value="" id="se-searchbox-input-field" class="se-searchbox__input__field" maxlength="100" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0">
-                          </div>
-                        </label>
-                        <input type="hidden" name="scope" value="">
-                        <button type="submit" class="se-searchbox__submit" tabindex="0">Search</button>
-                        <button type="button" class="se-searchbox__clear se-searchbox__clear--visible" tabindex="0">Close</button>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <div aria-live="polite" aria-atomic="true" class="se-suggestions-container">
-                <section class="se-g-wrap"></section>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="orb-panel" id="orb-panel">
-          <div class="drawer-0-2-28">
-            <div class="notificationsContainer-0-2-27">
-              <section class="notificationErrorContainer-0-2-78">
-                <div id="hub-error-main">
-                  <div class="notificationsErrorHeader-0-2-79">
-                    <p class="notificationsErrorHeaderText-0-2-80 notificationsErrorHeaderText-d0-0-2-82">Sorry, something has gone wrong.</p>
-                  </div>
-                  <p class="notificationErrorBody-0-2-81">There's been an error and your notifications <br>can't be displayed at the moment. Please try again later.</p>
-                </div>
-              </section>
-            </div>
-          </div>
         </div>
       </div>
     </div>
