@@ -7963,7 +7963,7 @@
 }
 
 .content-item__labels {
-  color: rgba(235, 235, 245, .6);
+  color: #b2b7c4;
   z-index: 352;
   position: relative;
   opacity: 1;
@@ -7988,7 +7988,7 @@
 @media (min-width: 63em) {
   .content-item__sublabels {
     display: block;
-    color: rgba(235, 235, 245, .6);
+    color: #b2b7c4;
     position: relative;
     margin-top: 12px;
     padding-top: 12px
@@ -8025,7 +8025,7 @@
 }
 
 .content-item__description {
-  color: rgba(235, 235, 245, .6);
+  color: #b2b7c4;
   padding-top: 1px
 }
 
