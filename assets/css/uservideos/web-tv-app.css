@@ -2028,7 +2028,7 @@ textarea {
 }
 
 body {
-  font-family: "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif;
+  font-family: Circular, "-apple-system", BlinkMacSystemFont, "-webkit-system-font", "Malgun Gothic", "Segoe UI", HelveticaNowText, Helvetica, Arial, sans-serif;
   font-feature-settings: 'kern';
   -moz-font-feature-settings: 'kern';
   background-color: #000;
