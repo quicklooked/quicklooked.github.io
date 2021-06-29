@@ -2431,7 +2431,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  border-bottom: 1px solid #242833
+  border-bottom: .5px solid rgba(255, 255, 255, .1)
 }
 
 .hero-header--with-background .hero-header__label {
@@ -2494,7 +2494,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  border-bottom: 1px solid #242833
+  border-bottom: .5px solid rgba(255, 255, 255, .1)
 }
 
 .hero-header--with-background .hero-header__content {
