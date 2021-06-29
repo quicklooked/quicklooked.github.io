@@ -4010,23 +4010,6 @@
   }
 }
 
-.facets {
-  background: url("../img/facets/xs-s.jpg") no-repeat center top
-}
-
-@media (min-width: 37.5em) {
-  .facets {
-    background: url("../img/facets/m-xl.jpg") no-repeat center top;
-    background-size: 100% auto
-  }
-}
-
-@media (min-width: 80em) {
-  .facets {
-    background: url("../img/facets/xxl.jpg") no-repeat center top
-  }
-}
-
 .list__grid {
   margin-top: 20px
 }
