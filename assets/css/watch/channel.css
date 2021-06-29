@@ -4321,36 +4321,36 @@
 
 @media (min-width: 15em) {
   .channel-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/bbcone_xs.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/cbeebies_xs.png")
   }
 }
 
 @media (min-width: 25em) {
   .channel-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/bbcone_s.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/cbeebies_s.png")
   }
 }
 
 @media (min-width: 37.5em) {
   .channel-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/bbcone_m.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/cbeebies_m.png")
   }
 }
 
 @media (min-width: 56.25em) {
   .channel-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/bbcone_l.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/cbeebies_l.png")
   }
 }
 
 @media (min-width: 63em) {
   .channel-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/bbcone_xl.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/cbeebies_xl.png")
   }
 }
 
 @media (min-width: 80em) {
   .channel-wrap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/bbcone_xxl.png")
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 180px, #000 400px), url("https://iplayer-web.files.bbci.co.uk/iplayer-web-app-highlights/1.0.0-781/channel/backgrounds/cbeebies_xxl.png")
   }
 }
