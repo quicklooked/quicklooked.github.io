@@ -10180,7 +10180,6 @@ html[dir=rtl] .context-menu__title {
   -moz-font-feature-settings: 'kern';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
 .locale-switcher-banner sup,
