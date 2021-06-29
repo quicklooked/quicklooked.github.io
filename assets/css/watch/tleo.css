@@ -1924,7 +1924,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #0c101c;
+    background-color: #000;
     opacity: 0;
     -webkit-transition: .3s ease 0s;
     transition: .3s ease 0s;
@@ -2017,8 +2017,8 @@
   bottom: -1px;
   left: -1px;
   opacity: 0;
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.6) 67%, #0c101c 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.6) 67%, #0c101c 100%);
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.77) 77%, #000 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.77) 77%, #000 100%);
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
   -webkit-transition-property: opacity;
