@@ -755,7 +755,7 @@
 
 .list-content-item--always-icon .list-content-item__play-button {
   opacity: 1;
-  background: #0c101c
+  background: rgba(0, 0, 0, 0.75)
 }
 
 .list-content-item--with-progress .list-content-item__play-button {
@@ -785,7 +785,7 @@
   bottom: 0;
   left: 16px;
   opacity: .8;
-  background-color: #0c101c;
+  background-color: rgba(0, 0, 0, 0.75);
   transition: opacity .3s
 }
 
@@ -1195,7 +1195,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  border-bottom: 1px solid #242833
+  border-bottom: .5px solid rgba(255, 255, 255, .1)
 }
 
 .hero-header--with-background .hero-header__label {
