@@ -2685,12 +2685,12 @@
 }
 
 .schedule-item--live {
-  border-top: 1px solid #e50914;
+  border-top: .5px solid rgba(255, 255, 255, .1);
   background-color: #242833
 }
 
 .schedule-item:not(:last-child) {
-  border-bottom: 1px solid #242833
+  border-bottom: .5px solid rgba(255, 255, 255, .1)
 }
 
 .schedule-item__start-time {
