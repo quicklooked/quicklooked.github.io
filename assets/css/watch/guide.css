@@ -2685,7 +2685,7 @@
 }
 
 .schedule-item--live {
-  border-top: .5px solid rgba(255, 255, 255, .1);
+  border-top: .5px solid #e50914;
   background-color: rgba(40, 40, 40, .9)
 }
 
