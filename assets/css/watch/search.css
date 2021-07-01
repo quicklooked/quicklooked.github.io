@@ -15650,7 +15650,7 @@ button {
 }
 
 .search-list {
-  min-height: 136px
+  min-height: auto
 }
 
 .search-title {
@@ -15673,7 +15673,7 @@ button {
 }
 
 .search-list__header {
-  background-color: #020011
+  background-color: #000
 }
 
 .search-title {
