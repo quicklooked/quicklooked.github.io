@@ -13876,7 +13876,7 @@ button {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #0c101c;
+    background-color: #000;
     opacity: 0;
     -webkit-transition: .3s ease 0s;
     transition: .3s ease 0s;
@@ -13969,8 +13969,8 @@ button {
   bottom: -1px;
   left: -1px;
   opacity: 0;
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.6) 67%, #0c101c 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.6) 67%, #0c101c 100%);
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 67%, #000 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 67%, #000 100%);
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
   -webkit-transition-property: opacity;
@@ -14120,8 +14120,8 @@ button {
   left: 0;
   opacity: 0;
   z-index: 351;
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.2) 67%, rgba(12, 16, 28, 0) 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(12, 16, 28, 0.2) 67%, rgba(12, 16, 28, 0) 100%);
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 67%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 67%, rgba(0, 0, 0, 0) 100%);
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
   -webkit-transition-property: opacity, transform;
@@ -14361,7 +14361,7 @@ button {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #181c27;
+  background-color: #000;
   opacity: 1;
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
@@ -14377,8 +14377,8 @@ button {
 }
 
 .content-item--with-background .content-item__image::after {
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.6) 67%, #181c27 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.6) 67%, #181c27 100%)
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 67%, #000 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.6) 67%, #000 100%)
 }
 
 .content-item--with-background .content-item__info {
@@ -14386,8 +14386,8 @@ button {
 }
 
 .content-item--with-background .content-item__info::before {
-  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.2) 67%, rgba(24, 28, 39, 0) 100%);
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(24, 28, 39, 0.2) 67%, rgba(24, 28, 39, 0) 100%)
+  background-image: -webkit-linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 67%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 67%, rgba(0, 0, 0, 0) 100%)
 }
 
 .content-item--has-overlay:hover .content-item__image::before,
@@ -14417,7 +14417,7 @@ button {
 }
 
 .content-item--dimmed .content-item__image::after {
-  background-color: #0c101c;
+  background-color: #000;
   opacity: .8
 }
 
@@ -14430,7 +14430,7 @@ button {
 
 .footr {
   position: relative;
-  background: #0c101c
+  background: #000
 }
 
 @media (min-width: 56.25em) {
