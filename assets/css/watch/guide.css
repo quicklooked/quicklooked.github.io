@@ -2686,7 +2686,7 @@
 
 .schedule-item--live {
   border-top: .5px solid rgba(255, 255, 255, .1);
-  background-color: #242833
+  background-color: rgba(40, 40, 40, .9)
 }
 
 .schedule-item:not(:last-child) {
