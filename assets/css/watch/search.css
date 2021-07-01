@@ -12450,8 +12450,8 @@ button {
 }
 
 .button--active.button--no-background {
-  color: #f54997;
-  fill: #f54997
+  color: #e50914;
+  fill: #e50914
 }
 
 .button--dark {
@@ -12540,7 +12540,7 @@ button {
 }
 
 .button--primary-icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .button--primary-icon:focus,
@@ -12562,8 +12562,8 @@ button {
 .button--no-background:focus,
 .button--no-background:hover,
 .button--no-background:active {
-  color: #f54997;
-  fill: #f54997;
+  color: #e50914;
+  fill: #e50914;
   background-color: transparent
 }
 
@@ -12596,7 +12596,7 @@ button {
 }
 
 .button--selected .button__text {
-  border-bottom: 2px solid #f54997
+  border-bottom: 2px solid #e50914
 }
 
 .button__icon-svg {
@@ -12799,13 +12799,13 @@ button {
 }
 
 .lnk--primary-icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .lnk--primary-icon:focus,
 .lnk--primary-icon:hover,
 .lnk--primary-icon:active {
-  fill: #f54997
+  fill: #e50914
 }
 
 .lnk__icon {
@@ -12821,8 +12821,8 @@ button {
 .lnk:hover,
 .lnk:active {
   background: none;
-  color: #f54997;
-  fill: #f54997
+  color: #e50914;
+  fill: #e50914
 }
 
 .lnk__label--right,
@@ -12881,13 +12881,13 @@ button {
 .lnk--no-theme:focus,
 .lnk--no-theme:hover,
 .lnk--no-theme:active {
-  color: #f54997
+  color: #e50914
 }
 
 .lnk--no-theme:focus .lnk__icon,
 .lnk--no-theme:hover .lnk__icon,
 .lnk--no-theme:active .lnk__icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .lnk--expanded-hit-area {
@@ -12911,7 +12911,7 @@ button {
 .lnk--dark:focus,
 .lnk--dark:hover,
 .lnk--dark:active {
-  color: #f54997
+  color: #e50914
 }
 
 .lnk--theme-light:focus,
@@ -13000,7 +13000,7 @@ button {
 }
 
 .modal-dialog__title {
-  color: #f54997;
+  color: #e50914;
   margin-bottom: 16px
 }
 
@@ -13847,7 +13847,7 @@ button {
 .content-item__link:hover .content-item__icon,
 .content-item__link:active .content-item__icon {
   opacity: 1;
-  background-color: #f54997
+  background-color: #e50914
 }
 
 @media (min-width: 63em) {
@@ -13933,7 +13933,7 @@ button {
   width: 100%;
   height: 1px;
   opacity: 0;
-  background-color: #f54997;
+  background-color: #e50914;
   -webkit-transition: .3s ease 0s;
   transition: .3s ease 0s;
   -webkit-transition-property: opacity;
@@ -14006,7 +14006,7 @@ button {
   width: 48px;
   height: 48px;
   fill: #fff;
-  background: #f54997;
+  background: #e50914;
   opacity: 0;
   z-index: 352;
   -webkit-transition: .3s ease 0s;
@@ -14245,12 +14245,12 @@ button {
     top: 0;
     left: 0;
     width: 16px;
-    border-top: 1px solid #f54997
+    border-top: 1px solid #e50914
   }
 }
 
 .content-item__label--primary {
-  color: #f54997
+  color: #e50914
 }
 
 .content-item__label--with-separator {
@@ -14276,7 +14276,7 @@ button {
 
 .content-item__secondary-cta {
   padding: 12px 12px 12px 0;
-  fill: #f54997;
+  fill: #e50914;
   text-align: left;
   position: absolute;
   left: 0;
@@ -14612,7 +14612,7 @@ button {
 }
 
 .categories-sub-nav__item--active {
-  color: #f54997
+  color: #e50914
 }
 
 @media (min-width: 63em) {
@@ -15132,7 +15132,7 @@ button {
 }
 
 .navigation__logo__link {
-  fill: #f54997
+  fill: #e50914
 }
 
 .navigation__logo__link:focus,
@@ -15228,12 +15228,12 @@ button {
 
 .navigation__link--active,
 .navigation__link--selected {
-  color: #f54997
+  color: #e50914
 }
 
 .navigation__link--active .navigation__link__down-icon,
 .navigation__link--selected .navigation__link__down-icon {
-  fill: #f54997
+  fill: #e50914
 }
 
 .navigation__link--active .navigation__link__icon--active,
@@ -15376,7 +15376,7 @@ button {
 }
 
 .navigation--u13 .navigation__logo__link {
-  fill: #f54997
+  fill: #e50914
 }
 
 .navigation--u13 .navigation__logo__link:focus,
@@ -15460,7 +15460,7 @@ button {
     left: 15%;
     width: 70%;
     height: 2px;
-    background-color: #f54997;
+    background-color: #e50914;
     transform: translateY(100%);
     transition: transform .4s ease 0s
   }
@@ -15640,7 +15640,7 @@ button {
   margin-bottom: 330px;
   width: 32px;
   height: 32px;
-  fill: #f54997;
+  fill: #e50914;
   -webkit-animation: rotating 1s linear infinite;
   animation: rotating 1s linear infinite
 }
