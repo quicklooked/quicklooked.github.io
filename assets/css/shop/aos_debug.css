@@ -83,48 +83,6 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.ribbon .ribbon-content:lang(ar) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(ja) {
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(ko) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(zh) {
-  letter-spacing: 0
-}
-
-.ribbon .ribbon-content:lang(th) {
-  line-height: 1.35718;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon .ribbon-content:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .ribbon .ribbon-content-wrapper {
   background-color: var(--ribbon-background-color)
@@ -155,48 +113,6 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.ribbon-elevated .ribbon-content:lang(ar) {
-  line-height: 1.58824;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(ja) {
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(ko) {
-  line-height: 1.58824;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(zh) {
-  letter-spacing: 0
-}
-
-.ribbon-elevated .ribbon-content:lang(th) {
-  line-height: 1.35296;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.ribbon-elevated .ribbon-content:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .ribbon-blue {
   --ribbon-background-color: #0071e3;
@@ -3067,49 +2983,7 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-caption:lang(ar) {
-  line-height: 1.66667;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-caption:lang(ja) {
-  line-height: 1.41667;
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-caption:lang(ko) {
-  line-height: 1.41667;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-caption:lang(zh) {
-  letter-spacing: 0
-}
-
-.typography-caption:lang(th) {
-  line-height: 1.33337;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-caption:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-caption:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-caption:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-caption:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .typography-label {
   font-size: 24px;
@@ -3119,41 +2993,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-label:lang(ar) {
-  line-height: 1.33341;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-label:lang(ja) {
-  line-height: 1.25;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-label:lang(ko) {
-  line-height: 1.29167;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-label:lang(th) {
-  line-height: 1.375;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-label:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-label:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-label:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-label:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .typography-label {
@@ -3164,40 +3004,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .typography-label:lang(ja) {
-    line-height: 1.2381;
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
 
-  .typography-label:lang(ko) {
-    line-height: 1.2858;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-label:lang(th) {
-    line-height: 1.381;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-label:lang(ar) {
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-label:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-label:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-label:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-label:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
 }
 
 .typography-intro-elevated {
@@ -3208,41 +3015,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-intro-elevated:lang(ar) {
-  line-height: 1.5;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-intro-elevated:lang(ja) {
-  line-height: 1.41667;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro-elevated:lang(ko) {
-  line-height: 1.45841;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro-elevated:lang(th) {
-  line-height: 1.375;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro-elevated:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro-elevated:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro-elevated:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro-elevated:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .typography-intro-elevated {
@@ -3253,41 +3026,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .typography-intro-elevated:lang(ar) {
-    line-height: 1.52381;
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
 
-  .typography-intro-elevated:lang(ja) {
-    line-height: 1.4286;
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro-elevated:lang(ko) {
-    line-height: 1.52381;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro-elevated:lang(th) {
-    line-height: 1.381;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro-elevated:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro-elevated:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro-elevated:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro-elevated:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
 }
 
 .typography-eyebrow-reduced {
@@ -3298,40 +3037,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-eyebrow-reduced:lang(ja) {
-  line-height: 1.2381;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-eyebrow-reduced:lang(ko) {
-  line-height: 1.2858;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-eyebrow-reduced:lang(th) {
-  line-height: 1.381;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-eyebrow-reduced:lang(ar) {
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-eyebrow-reduced:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-eyebrow-reduced:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-eyebrow-reduced:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-eyebrow-reduced:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .typography-eyebrow-reduced {
@@ -3342,41 +3048,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .typography-eyebrow-reduced:lang(ar) {
-    line-height: 1.36844;
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
 
-  .typography-eyebrow-reduced:lang(ja) {
-    line-height: 1.26316;
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-eyebrow-reduced:lang(ko) {
-    line-height: 1.31579;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-eyebrow-reduced:lang(th) {
-    line-height: 1.36844;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-eyebrow-reduced:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-eyebrow-reduced:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-eyebrow-reduced:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-eyebrow-reduced:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
 }
 
 .typography-intro {
@@ -3387,41 +3059,6 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-intro:lang(ar) {
-  line-height: 1.52381;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(ja) {
-  line-height: 1.4286;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(ko) {
-  line-height: 1.52381;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(th) {
-  line-height: 1.381;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-intro:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .typography-intro {
@@ -3432,41 +3069,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .typography-intro:lang(ar) {
-    line-height: 1.57895;
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(ja) {
-    line-height: 1.47376;
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(ko) {
-    line-height: 1.52632;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(th) {
-    line-height: 1.36844;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .typography-intro:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
+ 
 }
 
 .typography-tout {
@@ -3477,41 +3080,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-tout:lang(ar) {
-  line-height: 1.36844;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-tout:lang(ja) {
-  line-height: 1.26316;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-tout:lang(ko) {
-  line-height: 1.31579;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-tout:lang(th) {
-  line-height: 1.36844;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-tout:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-tout:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-tout:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-tout:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .typography-body-reduced {
   font-size: 14px;
@@ -3521,48 +3090,7 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-body-reduced:lang(ar) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-body-reduced:lang(ja) {
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced:lang(ko) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced:lang(zh) {
-  letter-spacing: 0
-}
-
-.typography-body-reduced:lang(th) {
-  line-height: 1.35718;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .typography-body-reduced-tight {
   font-size: 14px;
@@ -3572,48 +3100,7 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.typography-body-reduced-tight:lang(ar) {
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.typography-body-reduced-tight:lang(ja) {
-  line-height: 1.35718;
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced-tight:lang(ko) {
-  line-height: 1.42859;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced-tight:lang(zh) {
-  letter-spacing: 0
-}
-
-.typography-body-reduced-tight:lang(th) {
-  line-height: 1.35718;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced-tight:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced-tight:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced-tight:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.typography-body-reduced-tight:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .dd-billboard h1+*,
 .dd-billboard h2+*,
@@ -3669,48 +3156,6 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.dd-modal .dd-modal-headline:lang(ar) {
-  line-height: 1.25;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(ja) {
-  line-height: 1.14599;
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(ko) {
-  line-height: 1.1875;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(zh) {
-  letter-spacing: 0
-}
-
-.dd-modal .dd-modal-headline:lang(th) {
-  line-height: 1.33349;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-headline:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .dd-modal .dd-modal-headline {
@@ -3721,41 +3166,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .dd-modal .dd-modal-headline:lang(ar) {
-    line-height: 1.34375;
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(ja) {
-    line-height: 1.21875;
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(ko) {
-    line-height: 1.21875;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(th) {
-    line-height: 1.375;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-headline:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
+ 
 }
 
 .dd-modal .dd-modal-header {
@@ -3767,41 +3178,7 @@
   text-align: center
 }
 
-.dd-modal .dd-modal-header:lang(ar) {
-  line-height: 1.3;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-header:lang(ja) {
-  line-height: 1.175;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-header:lang(ko) {
-  line-height: 1.2;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-header:lang(th) {
-  line-height: 1.35;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-header:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-header:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-header:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-header:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .dd-modal .dd-modal-header {
@@ -3812,39 +3189,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .dd-modal .dd-modal-header:lang(ko) {
-    line-height: 1.25;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(th) {
-    line-height: 1.39286;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(ar) {
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(ja) {
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-header:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
+  
 }
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
@@ -3861,41 +3206,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.dd-modal .dd-modal-tout:lang(ar) {
-  line-height: 1.36844;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-tout:lang(ja) {
-  line-height: 1.26316;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-tout:lang(ko) {
-  line-height: 1.31579;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-tout:lang(th) {
-  line-height: 1.36844;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-tout:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-tout:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-tout:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-tout:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .dd-modal .dd-modal-label {
   font-size: 24px;
@@ -3905,41 +3216,7 @@
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.dd-modal .dd-modal-label:lang(ar) {
-  line-height: 1.33341;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-label:lang(ja) {
-  line-height: 1.25;
-  font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-label:lang(ko) {
-  line-height: 1.29167;
-  font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-label:lang(th) {
-  line-height: 1.375;
-  font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-label:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-label:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-label:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-label:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
   .dd-modal .dd-modal-label {
@@ -3950,40 +3227,7 @@
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
   }
 
-  .dd-modal .dd-modal-label:lang(ja) {
-    line-height: 1.2381;
-    font-family: "SF Pro JP", "SF Pro Display", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(ko) {
-    line-height: 1.2858;
-    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(th) {
-    line-height: 1.381;
-    font-family: "SF Pro TH", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(ar) {
-    font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(zh-CN) {
-    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(zh-HK) {
-    font-family: "SF Pro HK", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(zh-MO) {
-    font-family: "SF Pro HK", "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-
-  .dd-modal .dd-modal-label:lang(zh-TW) {
-    font-family: "SF Pro TC", "SF Pro Display", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
+  
 }
 
 .dd-modal .dd-modal-body {
@@ -3994,48 +3238,8 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.dd-modal .dd-modal-body:lang(ar) {
-  line-height: 1.58824;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-body:lang(ja) {
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-body:lang(ko) {
-  line-height: 1.58824;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body:lang(zh) {
-  letter-spacing: 0
-}
-
-.dd-modal .dd-modal-body:lang(th) {
-  line-height: 1.35296;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .dd-modal .dd-modal-body-reduced {
   font-size: 14px;
@@ -4045,48 +3249,7 @@
   font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 
-.dd-modal .dd-modal-body-reduced:lang(ar) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-body-reduced:lang(ja) {
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced:lang(ko) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced:lang(zh) {
-  letter-spacing: 0
-}
-
-.dd-modal .dd-modal-body-reduced:lang(th) {
-  line-height: 1.35718;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .dd-modal .dd-modal-body-reduced-semi {
   font-size: 14px;
@@ -4097,48 +3260,7 @@
   font-weight: 600
 }
 
-.dd-modal .dd-modal-body-reduced-semi:lang(ar) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
-.dd-modal .dd-modal-body-reduced-semi:lang(ja) {
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(ko) {
-  line-height: 1.57143;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(zh) {
-  letter-spacing: 0
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(th) {
-  line-height: 1.35718;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-body-reduced-semi:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .dd-modal .dd-modal-footnote {
   font-size: 12px;
@@ -4149,49 +3271,6 @@
   color: #86868b
 }
 
-.dd-modal .dd-modal-footnote:lang(ar) {
-  line-height: 1.66667;
-  letter-spacing: 0;
-  font-family: "SF Pro AR", "SF Pro Gulf", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(ja) {
-  line-height: 1.41667;
-  letter-spacing: 0;
-  font-family: "SF Pro JP", "SF Pro Text", "SF Pro Icons", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(ko) {
-  line-height: 1.41667;
-  letter-spacing: 0;
-  font-family: "SF Pro KR", "SF Pro Text", "SF Pro Icons", "Apple Gothic", "HY Gulim", MalgunGothic, "HY Dotum", "Lexi Gulim", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(zh) {
-  letter-spacing: 0
-}
-
-.dd-modal .dd-modal-footnote:lang(th) {
-  line-height: 1.33337;
-  letter-spacing: 0;
-  font-family: "SF Pro TH", "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(zh-CN) {
-  font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(zh-HK) {
-  font-family: "SF Pro HK", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(zh-MO) {
-  font-family: "SF Pro HK", "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang HK", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
-
-.dd-modal .dd-modal-footnote:lang(zh-TW) {
-  font-family: "SF Pro TC", "SF Pro Text", "SF Pro Icons", "PingFang TC", "Helvetica Neue", Helvetica, Arial, sans-serif
-}
 
 .dd-modal .dd-modal-footnote li+li {
   margin-top: .8em
