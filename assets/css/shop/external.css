@@ -1321,7 +1321,7 @@ html[dir=rtl] .as-footnotes .icon-copy {
   height: 72px;
   background-size: 14px 72px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-footer/breadcrumbs/apple/icon_large.svg);
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-footer/breadcrumbs/apple/icon_large.svg);
   height: 18px;
   display: block;
   position: relative;
@@ -1409,7 +1409,7 @@ html[dir=rtl] .as-footnotes .icon-copy {
   height: 36px;
   background-size: 8px 36px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-footer/breadcrumbs/separator/icon_large.svg);
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-footer/breadcrumbs/separator/icon_large.svg);
   margin-right: 11px;
   content: '';
   display: inline-block;
