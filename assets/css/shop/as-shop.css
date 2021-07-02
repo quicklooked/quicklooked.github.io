@@ -1,0 +1,69 @@
+.dd-modal-trade-in .tabnav-items {
+  margin: 0;
+}
+
+.dd-modal-trade-in .tabnav .tabnav-item:first-child {
+  padding-left: 0;
+}
+
+.dd-modal-trade-in .tabnav .tabnav-item {
+  padding-left: 16px;
+  padding-right: 28px;
+}
+
+.dd-modal-trade-in [data-core-tabs-panel] {
+  width: 100%
+}
+
+html.touch .dd-modal-trade-in .tabnav {
+  width: auto;
+  margin-right: -6.25%;
+}
+
+html.touch .dd-modal-trade-in [data-core-tabs-tablist] {
+  padding-left: 0;
+  padding-right: 6.25%;
+}
+
+html.touch .dd-modal-trade-in .tabnav .tabnav-item {
+  padding-right: 13px;
+}
+
+html.touch .dd-modal-trade-in .tabnav .tabnav-item:last-child {
+  padding-right: 0;
+}
+
+.as-lp-cards .as-lp-card .dd-chat-link {
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: 3;
+}
+
+.as-lp-cards .as-lp-card .dd-chat-link:hover {
+  text-decoration: none;
+}
+
+.as-lp-cards .as-lp-card .dd-card-link .as-chat-button {
+  position: relative;
+}
+
+.dd-card-split .as-lp-card-info .as-util-relatedlink {
+  padding-bottom: 57px;
+}
+
+.rf-downloadasa-container {
+  padding-top: 25px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.rf-downloadasa-container p {
+  padding: 0 6px 7px;
+}
+
+.rf-downloadasa-iconcontainer {
+  height: 65px;
+  width: 65px;
+  margin: 35px auto 32px;
+}
