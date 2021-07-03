@@ -13250,7 +13250,7 @@ html.as-mouseuser .dotnav-item:focus:not(input):not(textarea):not(select) {
   font-weight: 400;
   letter-spacing: -.022em;
   background-color: #fff;
-  /*border-radius: 18px;*/
+  border-radius: 18px;
   box-sizing: border-box;
   padding: 49px 34px 60px;
   position: relative;
