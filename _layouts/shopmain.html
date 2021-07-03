@@ -534,10 +534,10 @@
   <div id="ac-gn-viewport-emitter">&nbsp;</div>
   <script>
     document.getElementById("bagview").addEventListener("click", bagview);
-    var bag = document.getElementById("bagview").attributes;
+    var bag = document.getElementById("bagview");
 
     function bagview() {
-      if(bag['aria-expanded'].value == "false") {
+      if(bag.ariaExpanded.value == "false") {
         document.getElementById("ac-globalnav").addClass('with-bagview');
         bag.ariaExpanded = "true";
       } else {
