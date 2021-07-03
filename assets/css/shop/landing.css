@@ -1804,7 +1804,7 @@ a[role=button] {
 .icon:before,
 .more:after,
 .more:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -2895,7 +2895,7 @@ body {
   line-height: 1;
   font-weight: 300;
   letter-spacing: -.024em;
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: #86868b;
   position: absolute;
   top: 68px;
@@ -2913,13 +2913,13 @@ body {
     line-height: 1;
     font-weight: 300;
     letter-spacing: -.012em;
-    font-family: SF Pro Icons, AOS Icons
+    font-family: sgtb icons
   }
 }
 
 .rc-overlay-close:after,
 .rc-overlay-close:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3380,7 +3380,7 @@ body {
   line-height: 1;
   font-weight: 300;
   letter-spacing: -.0405em;
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: #86868b;
   padding: 0 5px 0 10px
 }
@@ -3393,7 +3393,7 @@ body {
     line-height: 1;
     font-weight: 300;
     letter-spacing: -.015em;
-    font-family: SF Pro Icons, AOS Icons
+    font-family: sgtb icons
   }
 }
 
@@ -3459,7 +3459,7 @@ body {
   line-height: 1.27273;
   font-weight: 600;
   letter-spacing: .003em;
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   padding: 0 2px 0 6px
 }
 
@@ -3471,7 +3471,7 @@ body {
     line-height: 1;
     font-weight: 600;
     letter-spacing: .003em;
-    font-family: SF Pro Icons, AOS Icons
+    font-family: sgtb icons
   }
 }
 
@@ -8172,7 +8172,7 @@ html.no-touch .localnav-link.current:hover {
 .localnav-wrapper .icon:before,
 .localnav-wrapper .more:after,
 .localnav-wrapper .more:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -9934,7 +9934,7 @@ html.no-svg .colornav-logo-productred {
 
 .form-message-wrapper:after,
 .form-message-wrapper:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -11966,7 +11966,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-next:after,
 .paddlenav .paddlenav-arrow-next:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -11995,7 +11995,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-previous:after,
 .paddlenav .paddlenav-arrow-previous:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12024,7 +12024,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-up:after,
 .paddlenav .paddlenav-arrow-up:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12049,7 +12049,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-down:after,
 .paddlenav .paddlenav-arrow-down:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12123,7 +12123,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
   .paddlenav .paddlenav-arrow-next:after,
   .paddlenav .paddlenav-arrow-next:before {
-    font-family: SF Pro Icons, AOS Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -12152,7 +12152,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
   .paddlenav .paddlenav-arrow-previous:after,
   .paddlenav .paddlenav-arrow-previous:before {
-    font-family: SF Pro Icons, AOS Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -12181,7 +12181,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
   .paddlenav .paddlenav-arrow-up:after,
   .paddlenav .paddlenav-arrow-up:before {
-    font-family: SF Pro Icons, AOS Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -12206,7 +12206,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
   .paddlenav .paddlenav-arrow-down:after,
   .paddlenav .paddlenav-arrow-down:before {
-    font-family: SF Pro Icons, AOS Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -12251,7 +12251,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
 .paddlenav-compact .paddlenav-arrow-next:after,
 .paddlenav-compact .paddlenav-arrow-next:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12280,7 +12280,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
 .paddlenav-compact .paddlenav-arrow-previous:after,
 .paddlenav-compact .paddlenav-arrow-previous:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12309,7 +12309,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
 .paddlenav-compact .paddlenav-arrow-up:after,
 .paddlenav-compact .paddlenav-arrow-up:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12334,7 +12334,7 @@ html.as-mouseuser .paddlenav .paddlenav-arrow:focus:not(input):not(textarea):not
 
 .paddlenav-compact .paddlenav-arrow-down:after,
 .paddlenav-compact .paddlenav-arrow-down:before {
-  font-family: SF Pro Icons, AOS Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
