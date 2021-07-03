@@ -503,15 +503,14 @@
   <div id="ac-gn-viewport-emitter">&nbsp;</div>
   <script>
     document.getElementById("bagview").addEventListener("click", bagview);
-
+    var bagview = document.getElementById("bagview");
     function bagview() {
-      let bag = document.getElementById("bag");
-      if(bag.ariaExpanded == "false") {
+      if(bagview.ariaExpanded == "false") {
         document.getElementById("ac-globalnav").addClass('with-bagview');
-        bag.ariaExpanded = "true";
+        bagview.ariaExpanded = "true";
       } else {
         document.getElementById("ac-globalnav").removeClass('with-bagview');
-        bag.ariaExpanded = "false";
+        bagview.ariaExpanded = "false";
       }
   </script>
 </body>
