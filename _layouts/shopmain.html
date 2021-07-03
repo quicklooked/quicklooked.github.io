@@ -504,6 +504,7 @@
   <script>
     document.getElementById("bagview").addEventListener("click", bagview);
     var bag = document.getElementById("bagview").attributes;
+
     function bagview() {
       if(bag['aria-expanded'].value == "false") {
         document.getElementById("ac-globalnav").addClass('with-bagview');
@@ -512,6 +513,7 @@
         document.getElementById("ac-globalnav").removeClass('with-bagview');
         bag.ariaExpanded = "false";
       }
+    }
   </script>
 </body>
 
