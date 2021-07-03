@@ -72,7 +72,7 @@
         </ul>
         <div class="ac-gn-search-placeholder-container" role="search">
           <div class="ac-gn-search ac-gn-search-small">
-            <a id="ac-gn-link-search-small" class="ac-gn-link" href="/search" aria-label="Search for anything" role="button" aria-haspopup="true">
+            <a id="ac-gn-link-search-small" onclick="searchOpenSmall();return false;" class="ac-gn-link" href="/search" aria-label="Search for anything" role="button" aria-haspopup="true" aria-expanded="false">
               <div class="ac-gn-search-placeholder-bar">
                 <div class="ac-gn-search-placeholder-input">
                   <div class="ac-gn-search-placeholder-input-text" aria-hidden="true">
@@ -565,6 +565,17 @@
         document.getElementById("ac-gn-link-search").ariaExpanded = "false";
       }
     }
+    
+    function searchOpenSmall() {
+      if(document.getElementById("ac-gn-link-search-small").ariaExpanded == "false") {
+        document.getElementById("ac-globalnav").classList.add('searchopen');
+        document.getElementById("ac-gn-link-search-small").ariaExpanded = "true";
+      } else {
+        document.getElementById("ac-globalnav").classList.remove('searchopen');
+        document.getElementById("ac-gn-link-search-small").ariaExpanded = "false";
+      }
+    }
+    
   </script>
 </body>
 
