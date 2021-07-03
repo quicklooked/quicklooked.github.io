@@ -58,7 +58,7 @@
           </li>
           <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
             <div class="ac-gn-bag-wrapper">
-              <a class="ac-gn-link ac-gn-link-bag " href="/shop/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count :" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
+              <a id="bagview" class="ac-gn-link ac-gn-link-bag " href="/shop/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count :" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
                 <span class="ac-gn-link-text">Shopping Bag</span>
               </a>
               <span class="ac-gn-bag-badge">
@@ -521,6 +521,19 @@
   </div>
   <div id="portal"></div>
   <div id="ac-gn-viewport-emitter">&nbsp;</div>
+  <script>
+    document.getElementById("bagview").addEventListener("click", bagview);
+
+    function bagview() {
+      let bag = document.getElementById("bag");
+      if(bag.ariaExpanded == "false") {
+        document.getElementById("ac-globalnav").addClass('with-bagview');
+        bag.ariaExpanded = "true";
+      } else {
+        document.getElementById("ac-globalnav").removeClass('with-bagview');
+        bag.ariaExpanded = "false";
+      }
+  </script>
 </body>
 
 </html>
