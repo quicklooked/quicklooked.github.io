@@ -94,7 +94,7 @@
             </a>
           </li>
           <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
-            <a id="ac-gn-link-search" onclick="searchOpen();return false;" class="ac-gn-link ac-gn-link-search " href="/search" role="button" aria-haspopup="true"></a>
+            <a id="ac-gn-link-search" onclick="searchOpen();return false;" class="ac-gn-link ac-gn-link-search " href="/search" role="button" aria-haspopup="true" aria-expanded="false"></a>
           </li>
           <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
             <div class="ac-gn-bag-wrapper">
@@ -149,7 +149,7 @@
               </section>
             </aside>
           </div>
-          <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search">
+          <button id="ac-gn-searchview-close" class="ac-gn-searchview-close" aria-label="Cancel Search" onclick="searchOpen();return false;">
             <span class="ac-gn-searchview-close-wrapper">
               <span class="ac-gn-searchview-close-left"></span>
               <span class="ac-gn-searchview-close-right"></span>
@@ -557,12 +557,12 @@
     }
     
     function searchOpen() {
-      if(document.getElementById("ac-gn-link-search").ariaHaspopup == "true") {
+      if(document.getElementById("ac-gn-link-search").ariaExpanded == "false") {
         document.getElementById("ac-globalnav").classList.add('searchopen');
-        document.getElementById("ac-gn-link-search").ariaHaspopup = "false";
+        document.getElementById("ac-gn-link-search").ariaExpanded = "true";
       } else {
         document.getElementById("ac-globalnav").classList.remove('searchopen');
-        document.getElementById("ac-gn-link-search").ariaHaspopup = "true";
+        document.getElementById("ac-gn-link-search").ariaExpanded = "false";
       }
     }
   </script>
