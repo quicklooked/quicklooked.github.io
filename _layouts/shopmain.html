@@ -58,7 +58,7 @@
           </li>
           <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
             <div class="ac-gn-bag-wrapper">
-              <a class="ac-gn-link ac-gn-link-bag " href="/shop/bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
+              <a id="bagbig" class="ac-gn-link ac-gn-link-bag " href="/shop/bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
                 <span class="ac-gn-link-text">Shopping Bag</span>
               </a>
               <span class="ac-gn-bag-badge">
@@ -95,7 +95,7 @@
           </li>
           <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
             <div class="ac-gn-bag-wrapper">
-              <a id="bagview" class="ac-gn-link ac-gn-link-bag" href="/shop/bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
+              <a id="bagsmall" class="ac-gn-link ac-gn-link-bag" href="/shop/bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
                 <span class="ac-gn-link-text">Shopping Bag</span>
               </a>
               <span class="ac-gn-bag-badge" aria-hidden="true">
@@ -533,16 +533,25 @@
   <div id="portal"></div>
   <div id="ac-gn-viewport-emitter">&nbsp;</div>
   <script>
-    document.getElementById("bagview").addEventListener("click", bagview);
+    document.getElementById("bagbig").addEventListener("click", bagBig);
+    document.getElementById("bagsmall").addEventListener("click", bagSmall);
 
-
-    function bagview() {
-      if(document.getElementById("bagview").ariaExpanded == "false") {
+    function bagBig() {
+      if(document.getElementById("bagbig").ariaExpanded == "false") {
         document.getElementById("ac-globalnav").addClass('with-bagview');
         document.getElementById("bagview").ariaExpanded = "true";
       } else {
         document.getElementById("ac-globalnav").removeClass('with-bagview');
-        document.getElementById("bagview").ariaExpanded = "false";
+        document.getElementById("bagbig").ariaExpanded = "false";
+      }
+    }
+        function bagSmall() {
+      if(document.getElementById("bagsmall").ariaExpanded == "false") {
+        document.getElementById("ac-globalnav").addClass('with-bagview');
+        document.getElementById("bagview").ariaExpanded = "true";
+      } else {
+        document.getElementById("ac-globalnav").removeClass('with-bagview');
+        document.getElementById("bagsmall").ariaExpanded = "false";
       }
     }
   </script>
