@@ -538,19 +538,19 @@
 
     function bagBig() {
       if(document.getElementById("bagbig").ariaExpanded == "false") {
-        document.getElementById("ac-globalnav").addClass('with-bagview');
+        document.getElementById("ac-globalnav").classList.add('with-bagview');
         document.getElementById("bagview").ariaExpanded = "true";
       } else {
-        document.getElementById("ac-globalnav").removeClass('with-bagview');
+        document.getElementById("ac-globalnav").classList.remove('with-bagview');
         document.getElementById("bagbig").ariaExpanded = "false";
       }
     }
         function bagSmall() {
       if(document.getElementById("bagsmall").ariaExpanded == "false") {
-        document.getElementById("ac-globalnav").addClass('with-bagview');
+        document.getElementById("ac-globalnav").classList.add('with-bagview');
         document.getElementById("bagview").ariaExpanded = "true";
       } else {
-        document.getElementById("ac-globalnav").removeClass('with-bagview');
+        document.getElementById("ac-globalnav").classList.remove('with-bagview');
         document.getElementById("bagsmall").ariaExpanded = "false";
       }
     }
