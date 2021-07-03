@@ -58,9 +58,9 @@
           </li>
           <li class="ac-gn-item ac-gn-bag ac-gn-bag-small" id="ac-gn-bag-small">
             <div class="ac-gn-bag-wrapper">
-              <button id="bagbig" class="ac-gn-link ac-gn-link-bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
+              <a id="bagbig" onclick="bagBig();return false;" class="ac-gn-link ac-gn-link-bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
                 <span class="ac-gn-link-text">Shopping Bag</span>
-              </button>
+              </a>
               <span class="ac-gn-bag-badge">
                 <span class="ac-gn-bag-badge-separator"></span>
                 <span class="ac-gn-bag-badge-number"></span>
@@ -95,9 +95,9 @@
           </li>
           <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
             <div class="ac-gn-bag-wrapper">
-              <button id="bagsmall" class="ac-gn-link ac-gn-link-bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
+              <a id="bagsmall" onclick="bagSmall();return false;" class="ac-gn-link ac-gn-link-bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
                 <span class="ac-gn-link-text">Shopping Bag</span>
-              </button>
+              </a>
               <span class="ac-gn-bag-badge" aria-hidden="true">
                 <span class="ac-gn-bag-badge-separator"></span>
                 <span class="ac-gn-bag-badge-number"></span>
@@ -533,9 +533,6 @@
   <div id="portal"></div>
   <div id="ac-gn-viewport-emitter">&nbsp;</div>
   <script>
-    document.getElementById("bagbig").addEventListener("click", bagBig);
-    document.getElementById("bagsmall").addEventListener("click", bagSmall);
-
     function bagBig() {
       if(document.getElementById("bagbig").ariaExpanded == "false") {
         document.getElementById("ac-globalnav").classList.add('with-bagview');
