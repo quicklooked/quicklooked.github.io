@@ -1,3 +1,61 @@
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/assets/css/shop/font/NetflixSansBlack.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/assets/css/shop/font/NetflixSansBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Netflix Sans Icon';
+  src: url('/assets/css/shop/font/NetflixSansIcon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/assets/css/shop/font/NetflixSansThin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/assets/css/shop/font/NetflixSansMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/assets/css/shop/font/NetflixSansRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('/assets/css/shop/font/NetflixSansLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%
@@ -127,7 +185,7 @@ body {
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: sohne, Helvetica, Arial, sans-serif;
+  font-family: Netflix Sans, Helvetica, Arial, sans-serif;
   background-color: #fff;
   color: #1d1d1f;
   font-style: normal
