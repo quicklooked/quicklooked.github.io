@@ -3305,7 +3305,7 @@
 
 .dd-card-split .as-lp-card-info .as-util-relatedlink {
   background-color: #fff;
-  /*border-radius: 15px;*/
+  border-radius: 15px;
   width: auto;
   padding: 49px 34px 60px
 }
