@@ -1,4 +1,20 @@
 @font-face {
+  font-family: 'Market Sans';
+  src: url('/assets/css/shop/font/MarketSans-SemiBold-WebS.woff2') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Market Sans';
+  src: url('/assets/css/shop/font/MarketSans-Regular-WebS.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Netflix Sans';
   src: url('/assets/css/shop/font/NetflixSansBlack.woff') format('woff');
   font-weight: 900;
@@ -185,7 +201,7 @@ body {
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: Arial, sans-serif;
+  font-family: Market Sans, Arial, sans-serif;
   background-color: #fff;
   color: #1d1d1f;
   font-style: normal
