@@ -534,15 +534,15 @@
   <div id="ac-gn-viewport-emitter">&nbsp;</div>
   <script>
     document.getElementById("bagview").addEventListener("click", bagview);
-    var bag = document.getElementById("bagview");
+
 
     function bagview() {
-      if(bag.ariaExpanded.value == "false") {
+      if(document.getElementById("bagview").ariaExpanded == "false") {
         document.getElementById("ac-globalnav").addClass('with-bagview');
-        bag.ariaExpanded = "true";
+        document.getElementById("bagview").ariaExpanded = "true";
       } else {
         document.getElementById("ac-globalnav").removeClass('with-bagview');
-        bag.ariaExpanded = "false";
+        document.getElementById("bagview").ariaExpanded = "false";
       }
     }
   </script>
