@@ -13125,7 +13125,7 @@ html.as-mouseuser .dotnav-item:focus:not(input):not(textarea):not(select) {
 }
 
 .as-lp-cards {
-  background-color: #f5f5f7
+  /*background-color: #f5f5f7*/
 }
 
 .as-lp-cardsgroup {
@@ -13175,8 +13175,9 @@ html.as-mouseuser .dotnav-item:focus:not(input):not(textarea):not(select) {
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
-  background-color: #fff;
-  /*border-radius: 18px;*/
+  background-color: #f5f5f7;
+  /*background-color: #fff;
+  border-radius: 18px;*/
   box-sizing: border-box;
   padding: 49px 34px 60px;
   position: relative;
