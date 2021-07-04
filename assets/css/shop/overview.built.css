@@ -3723,7 +3723,7 @@ br.small {
 
 .chapternav-paddle-left::before,
 .chapternav-paddle-left::after {
-  content: "ïš"
+  content: "\f35a"
 }
 
 .chapternav-paddle-left::after {
@@ -3767,7 +3767,7 @@ br.small {
 
 .chapternav-paddle-right::before,
 .chapternav-paddle-right::after {
-  content: "ï›"
+  content: "\f35b"
 }
 
 .chapternav-paddle-right::after {
