@@ -2829,7 +2829,7 @@ abbr {
 
 .more::before,
 .more::after {
-  content: "ïŒ"
+  content: "\f301"
 }
 
 .more-block {
