@@ -2474,7 +2474,7 @@ abbr {
 
 .icon-external::before,
 .icon-external::after {
-  content: "ïŒ­"
+  content: "\f32d"
 }
 
 .icon-share::before,
