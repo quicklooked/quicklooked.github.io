@@ -3305,7 +3305,7 @@
 
 .dd-card-split .as-lp-card-info .as-util-relatedlink {
   background-color: #fff;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
   width: auto;
   padding: 49px 34px 60px
 }
@@ -3416,7 +3416,7 @@
 
 .dd-shop .dd-l-plate {
   background-color: #fff;
-  border-radius: 18px;
+  /*border-radius: 18px;*/
   margin-bottom: 20px;
   overflow: hidden
 }
@@ -3450,7 +3450,7 @@
 .dd-shop-grid .dd-shop-cards {
   width: 481px;
   background-color: #fff;
-  border-radius: 18px;
+  /*border-radius: 18px;*/
   overflow: hidden;
   margin: 0 9px 20px
 }
@@ -4791,7 +4791,7 @@
 .dd-shop-products .dd-shop-product {
   overflow: hidden;
   background-color: #fff;
-  border-radius: 18px;
+  /*border-radius: 18px;*/
   margin: 0 7px 14px
 }
 
