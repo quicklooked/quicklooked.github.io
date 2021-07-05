@@ -697,6 +697,7 @@
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
       document.getElementById(product).classList.add('current');
+      document.getElementById(product + '-trigger').classList.add('current');
       evt.currentTarget.className += " current";
     }
 
