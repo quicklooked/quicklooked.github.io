@@ -11952,6 +11952,7 @@ only screen and (min-resolution: 1.5dppx),
 .section-retail .promo-intro {
   margin-top: 20px;
   font-size: 17px;
+  font-family: sgtb text;
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
