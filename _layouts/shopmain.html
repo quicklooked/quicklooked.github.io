@@ -679,9 +679,9 @@
     document.addEventListener("DOMContentLoaded", function() {
       var compare_gallery_notebook = document.getElementById("compare-gallery-notebook");
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
-      if(compare_gallery_notebook.classList.contains('current')) {
+      if(compare_gallery_notebook.ariaHidden == "false") {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
-      } else if(compare_gallery_desktop.classList.contains('current')) {
+      } else {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
       }
     })
@@ -701,6 +701,7 @@
         gallery_item[i].style.visibility = "hidden";
         gallery_item[i].style.opacity = "0";
         gallery_item[i].style.zIndex = "0";
+        gallery_item[i].ariaHidden = "true";
       }
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
@@ -709,6 +710,7 @@
       document.getElementById(product).style.opacity = "1";
       document.getElementById(product).style.zIndex = "1";
       document.getElementById(product).classList.add('current');
+      document.getElementById(product).ariaHidden = "false";
       document.getElementById(product + '-trigger').classList.add('current');
       document.getElementById(product + '-trigger').ariaSelected = "true";
       evt.currentTarget.className += " current";
