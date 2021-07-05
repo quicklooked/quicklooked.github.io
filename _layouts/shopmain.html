@@ -696,7 +696,9 @@
         compare_tabnav_notebook.classList.add('current');
         compare_tabnav_notebook.ariaSelected = "true";
       } else {
-        compare_tabnav_notebook.ariaSelected = "true";
+        tabnav_notebook.classList.remove('current');
+        compare_tabnav_notebook.classList.remove('current');
+        compare_tabnav_notebook.ariaSelected = "false";
       }
     });
     
@@ -706,7 +708,9 @@
         compare_tabnav_desktop.classList.add('current');
         compare_tabnav_desktop.ariaSelected = "true";
       } else {
-        compare_tabnav_desktop.ariaSelected = "true";
+        tabnav_desktop.classList.remove('current');
+        compare_tabnav_desktop.classList.remove('current');
+        compare_tabnav_desktop.ariaSelected = "false";
       }
     });
   </script>
