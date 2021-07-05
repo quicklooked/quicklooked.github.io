@@ -4460,6 +4460,7 @@ br.small {
   font-size: 48px;
   line-height: 1.08349;
   font-weight: 600;
+  font-family: sgbt display;
   letter-spacing: -.003em;
 }
 
@@ -4509,6 +4510,7 @@ br.small {
 .typography-eyebrow-elevated {
   font-size: 28px;
   line-height: 1.14286;
+  font-family: sgtb display;
   font-weight: 600;
   letter-spacing: .007em;
 }
@@ -4583,6 +4585,7 @@ br.small {
   font-size: 17px;
   line-height: 1.47059;
   font-weight: 400;
+  font-family: 'sgtb text';
   letter-spacing: -.022em;
 }
 
@@ -4692,6 +4695,7 @@ br.small {
 .typography-hero-product-headline {
   font-size: 56px;
   line-height: 1.07143;
+  font-family: sgtb display;
   font-weight: 600;
   letter-spacing: -.005em;
 }
