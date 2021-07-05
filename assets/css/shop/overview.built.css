@@ -4460,7 +4460,7 @@ br.small {
   font-size: 48px;
   line-height: 1.08349;
   font-weight: 600;
-  font-family: sgbt display;
+  font-family: sgtb display;
   letter-spacing: -.003em;
 }
 
@@ -4536,6 +4536,7 @@ br.small {
 .typography-eyebrow {
   font-size: 24px;
   line-height: 1.16667;
+  font-family: sgtb display;
   font-weight: 600;
   letter-spacing: .009em;
 }
@@ -4552,6 +4553,7 @@ br.small {
 .typography-eyebrow-reduced {
   font-size: 21px;
   line-height: 1.19048;
+  font-family: sgtb display;
   font-weight: 600;
   letter-spacing: .011em;
 }
