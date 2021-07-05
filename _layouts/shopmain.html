@@ -679,9 +679,9 @@
     document.addEventListener("DOMContentLoaded", function() {
       var compare_gallery_notebook = document.getElementById("compare-gallery-notebook");
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
-      if(compare_gallery_notebook.ariaHidden == "false") {
+      if(compare_gallery_notebook.ariaHidden == "false" && compare_gallery_desktop.ariaHidden == "true") {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
-      } else if(compare_gallery_notebook.ariaHidden == "true") {
+      } else {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
       }
     })
