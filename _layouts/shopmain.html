@@ -681,12 +681,11 @@
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
       if(compare_gallery_notebook.ariaHidden == "false") {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
-      } else {
+      } else if(compare_gallery_notebook.ariaHidden == "true") {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
       }
     })
 
-    
     function compare_product(evt, product) {
       var i, tabnav_item, tabnav_link, gallery_item;
       tabnav_item = document.getElementsByClassName("tabnav-item");
