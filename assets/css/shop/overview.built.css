@@ -4435,6 +4435,7 @@ br.small {
   font-size: 64px;
   line-height: 1.0625;
   font-weight: 600;
+  font-family: sgtb display;
   letter-spacing: -.009em;
 }
 
@@ -4571,6 +4572,7 @@ br.small {
   font-size: 21px;
   line-height: 1.381;
   font-weight: 400;
+  font-family: sgtb display;
   letter-spacing: .011em;
 }
 
@@ -4615,6 +4617,7 @@ br.small {
 .typography-buystrip-copy {
   font-size: 21px;
   line-height: 1.381;
+  font-family: sgtb display;
   font-weight: 400;
   letter-spacing: .011em;
 }
@@ -4781,6 +4784,7 @@ br.small {
   font-size: 64px;
   line-height: 1.0625;
   font-weight: 600;
+  font-family: sgtb display;
   letter-spacing: -.009em;
 }
 
@@ -4831,6 +4835,7 @@ br.small {
   font-size: 48px;
   line-height: 1.08349;
   font-weight: 600;
+  font-family: sgtb display;
   letter-spacing: -.003em;
 }
 
@@ -4882,6 +4887,7 @@ br.small {
 .typography-product-lockup {
   font-size: 21px;
   line-height: 1.381;
+  font-family: sgtb display;
   font-weight: 400;
   letter-spacing: .011em;
 }
