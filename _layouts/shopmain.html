@@ -681,8 +681,10 @@
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
       if(compare_gallery_notebook.ariaHidden == "false" && compare_gallery_desktop.ariaHidden == "true") {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
+        document.getElementsByClassName("eyebrow-container-21").classList.add('large-hide');
       } else {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
+        document.getElementsByClassName("eyebrow-container-21").classList.remove('large-hide');
       }
     })
     
@@ -691,8 +693,10 @@
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
       if(compare_gallery_notebook.ariaHidden == "false" && compare_gallery_desktop.ariaHidden == "true") {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
+        document.getElementsByClassName("eyebrow-container-21").classList.add('large-hide');
       } else {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
+        document.getElementsByClassName("eyebrow-container-21").classList.remove('large-hide');
       }
     })
 
