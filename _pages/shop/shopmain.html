@@ -56,8 +56,15 @@ colorhover: "#e50914"
             <div class="tablist-wrapper">
               <div data-analytics-gallery-interaction-type="tabnav" class="tabnav">
                 <ul role="tablist" class="tabnav-items">
-                  <li id="tabnav-notebook" onclick="compare_product(event, 'Notebook')" role="presentation" class="tabnav-item current"><a href="#compare-gallery-notebook" id="compare-gallery-notebook-trigger" onclick="compare_product_trigger(event, 'Notebook');return false;" data-ac-gallery-trigger="compare-gallery-notebook" class="tabnav-link current" data-analytics-gallery-item-id="compare-gallery-notebook" role="tab" aria-controls="compare-gallery-notebook" tabindex="0" aria-selected="true"><span>Notebook</span></a></li>
-                  <li id="tabnav-desktop" onclick="compare_product(event, 'Desktop')" role="presentation" class="tabnav-item"><a href="#compare-gallery-desktop" id="compare-gallery-desktop-trigger" onclick="compare_product_trigger(event, 'Desktop');return false;" data-ac-gallery-trigger="compare-gallery-desktop" class="tabnav-link" data-analytics-gallery-item-id="compare-gallery-desktop" role="tab" aria-controls="compare-gallery-desktop" tabindex="-1" aria-selected="false"><span>Desktop</span></a></li>
+                  <li id="tabnav-notebook" onclick="compare_product(event, 'Notebook');return false;" role="presentation" class="tabnav-item current">
+                    <a href="#compare-gallery-notebook" id="compare-gallery-notebook-trigger" data-ac-gallery-trigger="compare-gallery-notebook" class="tabnav-link current" data-analytics-gallery-item-id="compare-gallery-notebook" role="tab" aria-controls="compare-gallery-notebook" tabindex="0" aria-selected="true">
+                      <span>Notebook</span>
+                    </a>
+                  </li>
+                  <li id="tabnav-desktop" onclick="compare_product(event, 'Desktop');return false;" role="presentation" class="tabnav-item"><a href="#compare-gallery-desktop" id="compare-gallery-desktop-trigger" data-ac-gallery-trigger="compare-gallery-desktop" class="tabnav-link" data-analytics-gallery-item-id="compare-gallery-desktop" role="tab" aria-controls="compare-gallery-desktop" tabindex="-1" aria-selected="false">
+                    <span>Desktop</span>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
