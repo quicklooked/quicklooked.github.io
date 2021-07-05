@@ -4589,7 +4589,7 @@ br.small {
   font-size: 17px;
   line-height: 1.47059;
   font-weight: 400;
-  font-family: 'sgtb text';
+  font-family: Arial, sans-serif;
   letter-spacing: -.022em;
 }
 
@@ -11952,7 +11952,7 @@ only screen and (min-resolution: 1.5dppx),
 .section-retail .promo-intro {
   margin-top: 20px;
   font-size: 17px;
-  font-family: sgtb text;
+  font-family: Arial, sans-serif;
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
@@ -11967,7 +11967,7 @@ only screen and (min-resolution: 1.5dppx),
 .section-retail .icon-wrapper {
   font-size: 17px;
   line-height: 1.47059;
-  font-family: sgtb text;
+  font-family: Arial, sans-serif;
   font-weight: 400;
   letter-spacing: -.022em;
   color: #06c
