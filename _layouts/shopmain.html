@@ -698,7 +698,8 @@
       } else(compare_tabnav_notebook.ariaSelected == "true") {
         compare_tabnav_notebook.ariaSelected = "true";
       }
-    })
+    });
+    
     tabnav_desktop.addEventListener("click", function() {
       if(compare_tabnav_desktop.ariaSelected == "false") {
         tabnav_desktop.classList.add('current');
@@ -707,7 +708,7 @@
       } else(compare_tabnav_notebook.ariaSelected == "true") {
         compare_tabnav_desktop.ariaSelected = "true";
       }
-    })
+    });
   </script>
 </body>
 
