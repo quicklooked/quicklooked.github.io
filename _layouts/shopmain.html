@@ -692,12 +692,14 @@
       tabnav_link = document.getElementsByClassName("tabnav-link");
       for(i = 0; i < tabnav_link.length; i++) {
         tabnav_link[i].classList.remove('current');
+        tabnav_link[i].ariaSelected= "false";
       }
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
       document.getElementById(product).classList.add('current');
       document.getElementById(product + '-trigger').classList.add('current');
+      document.getElementById(product + '-trigger').ariaSelected = "true";
       evt.currentTarget.className += " current";
     }
 
