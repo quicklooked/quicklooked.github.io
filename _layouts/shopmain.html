@@ -679,7 +679,7 @@
     document.addEventListener("DOMContentLoaded", function() {
       var compare_gallery_notebook = document.getElementById("compare-gallery-notebook");
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
-      if(compare_gallery_notebook.style.visibility == "visible") {
+      if(compare_gallery_notebook.classList.contains('current') {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
       } else {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
