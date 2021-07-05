@@ -56,12 +56,12 @@ colorhover: "#e50914"
             <div class="tablist-wrapper">
               <div data-analytics-gallery-interaction-type="tabnav" class="tabnav">
                 <ul role="tablist" class="tabnav-items">
-                  <li onclick="compare_product(event, 'compare-gallery-notebook-trigger');return false;" role="presentation" class="tabnav-item current">
+                  <li onclick="compare_product(event, 'compare-gallery-notebook');return false;" role="presentation" class="tabnav-item current">
                     <a href="#compare-gallery-notebook" id="compare-gallery-notebook-trigger" data-ac-gallery-trigger="compare-gallery-notebook" class="tabnav-link current" data-analytics-gallery-item-id="compare-gallery-notebook" role="tab" aria-controls="compare-gallery-notebook" tabindex="0" aria-selected="true">
                       <span>Notebook</span>
                     </a>
                   </li>
-                  <li onclick="compare_product(event, 'compare-gallery-desktop-trigger');return false;" role="presentation" class="tabnav-item">
+                  <li onclick="compare_product(event, 'compare-gallery-desktop');return false;" role="presentation" class="tabnav-item">
                     <a href="#compare-gallery-desktop" id="compare-gallery-desktop-trigger" data-ac-gallery-trigger="compare-gallery-desktop" class="tabnav-link" data-analytics-gallery-item-id="compare-gallery-desktop" role="tab" aria-controls="compare-gallery-desktop" tabindex="-1" aria-selected="false">
                     <span>Desktop</span>
                     </a>
@@ -70,7 +70,7 @@ colorhover: "#e50914"
               </div>
             </div>
             <div id="height-item-container" class="item-container">
-              <div id="compare-gallery-notebook" data-ac-gallery-item="" class="gallery-item notebooks current" role="tabpanel" aria-label="compare-gallery-notebook-trigger" style="visibility: visible; z-index: 2; opacity: 1; transform: translate(0px, 0px);">
+              <div id="compare-gallery-notebook" data-ac-gallery-item="" class="gallery-item notebooks current" role="tabpanel" aria-labelledby="compare-gallery-notebook-trigger" style="visibility: visible; z-index: 2; opacity: 1; transform: translate(0px, 0px);">
                 <div class="compare-table">
                   <div class="mba device">
                     <a class="image-wrapper" href="/macbook-air/">
@@ -223,7 +223,7 @@ colorhover: "#e50914"
                   </div>
                 </div>
               </div>
-              <div id="compare-gallery-desktop" data-ac-gallery-item="" class="gallery-item desktops" role="tabpanel" aria-label="compare-gallery-desktop-trigger" data-original-aria-hidden="" aria-hidden="true" style="visibility: hidden; opacity: 0; z-index: 0; transform: translate(0px, 0px);">
+              <div id="compare-gallery-desktop" data-ac-gallery-item="" class="gallery-item desktops" role="tabpanel" aria-labelledby="compare-gallery-desktop-trigger" data-original-aria-hidden="" aria-hidden="true" style="visibility: hidden; opacity: 0; z-index: 0; transform: translate(0px, 0px);">
                 <div class="compare-table">
                   <div class="imac24 device">
                     <a class="image-wrapper" href="/imac-24/" data-original-tabindex="" tabindex="-1">
