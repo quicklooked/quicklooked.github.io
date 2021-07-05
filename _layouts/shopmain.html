@@ -687,16 +687,26 @@
     })
     
     function compare_product(evt, product) {
-      var i, tabnav_item, tabnav_link;
+      var i, tabnav_item, tabnav_link, gallery_item;
       tabnav_item = document.getElementsByClassName("tabnav-item");
       tabnav_link = document.getElementsByClassName("tabnav-link");
+      gallery_item = document.getElementsByClassName("gallery-item");
       for(i = 0; i < tabnav_link.length; i++) {
         tabnav_link[i].classList.remove('current');
         tabnav_link[i].ariaSelected= "false";
       }
+      for(i = 0; i < gallery_item.length; i++) {
+        gallery_item[i].classList.remove('current');
+        gallery_item[i].style.visibility = "hidden";
+        gallery_item[i].style.opacity = "0";
+        gallery_item[i].style.zIndex = "0";
+      }
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
+      document.getElementById(product).style.visibility = "visible";
+      document.getElementById(product).style.opacity = "1";
+      document.getElementById(product).style.zIndex = "1";
       document.getElementById(product).classList.add('current');
       document.getElementById(product + '-trigger').classList.add('current');
       document.getElementById(product + '-trigger').ariaSelected = "true";
