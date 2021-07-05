@@ -11967,6 +11967,7 @@ only screen and (min-resolution: 1.5dppx),
 .section-retail .icon-wrapper {
   font-size: 17px;
   line-height: 1.47059;
+  font-family: sgtb text;
   font-weight: 400;
   letter-spacing: -.022em;
   color: #06c
