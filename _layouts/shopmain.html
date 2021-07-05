@@ -686,33 +686,14 @@
       document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
     })
     
-    var tabnav_notebook = document.getElementById("tabnav-notebook");
-    var compare_tabnav_notebook = document.getElementById("compare-gallery-notebook-trigger");
-    var tabnav_desktop = document.getElementById("tabnav-desktop");
-    var compare_tabnav_desktop = document.getElementById("compare-gallery-desktop-trigger");
-    tabnav_notebook.addEventListener("click", function() {
-      if(compare_tabnav_notebook.ariaSelected == "false") {
-        tabnav_notebook.classList.add('current');
-        compare_tabnav_notebook.classList.add('current');
-        compare_tabnav_notebook.ariaSelected = "true";
-      } else {
-        tabnav_notebook.classList.remove('current');
-        compare_tabnav_notebook.classList.remove('current');
-        compare_tabnav_notebook.ariaSelected = "false";
+    function compare_product(evt, product) {
+      var i, tabnav_item;
+      tabnav_item = document.getElementsByClassName("tabnav-item");
+      for(i = 0; i < tabnav_item.length; i++) {
+        tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
-    });
-    
-    tabnav_desktop.addEventListener("click", function() {
-      if(compare_tabnav_desktop.ariaSelected == "false") {
-        tabnav_desktop.classList.add('current');
-        compare_tabnav_desktop.classList.add('current');
-        compare_tabnav_desktop.ariaSelected = "true";
-      } else {
-        tabnav_desktop.classList.remove('current');
-        compare_tabnav_desktop.classList.remove('current');
-        compare_tabnav_desktop.ariaSelected = "false";
-      }
-    });
+      evt.currentTarget.className += " current";
+    }
   </script>
 </body>
 
