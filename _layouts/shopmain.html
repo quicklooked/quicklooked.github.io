@@ -687,22 +687,17 @@
     })
     
     function compare_product(evt, product) {
-      var i, tabnav_item;
+      var i, tabnav_item, tabnav_link;
       tabnav_item = document.getElementsByClassName("tabnav-item");
+      tabnav_link = document.getElementsByClassName("tabnav-link");
+      
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
+      document.getElementById(product).classList.add('current');
       evt.currentTarget.className += " current";
     }
-    
-    function compare_product_trigger(evt, productTrigger) {
-      var i, tabnav_link;
-      tabnav_link = document.getElementsByClassName("tabnav-link");
-      for(i = 0; i < tabnav_item.length; i++) {
-        tabnav_link[i].className = tabnav_link[i].className.replace(" current", "");
-      }
-      evt.currentTarget.className += " current";
-    }
+
   </script>
 </body>
 
