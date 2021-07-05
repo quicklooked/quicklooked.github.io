@@ -690,7 +690,7 @@
       var i, tabnav_item, tabnav_link;
       tabnav_item = document.getElementsByClassName("tabnav-item");
       tabnav_link = document.getElementsByClassName("tabnav-link");
-      for(i = 1; i < tabnav_link.length; i++) {
+      for(i = 0; i < tabnav_link.length; i++) {
         tabnav_link[i].classList.remove('current');
       }
       for(i = 0; i < tabnav_item.length; i++) {
