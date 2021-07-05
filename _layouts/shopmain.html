@@ -681,7 +681,7 @@
       var compare_gallery_desktop = document.getElementById("compare-gallery-desktop");
       if(compare_gallery_notebook.classList.contains('current')) {
         document.getElementById("height-item-container").style.height = compare_gallery_notebook.clientHeight + "px";
-      } else {
+      } else if(compare_gallery_desktop.classList.contains('current')) {
         document.getElementById("height-item-container").style.height = compare_gallery_desktop.clientHeight + "px";
       }
     })
