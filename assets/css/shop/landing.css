@@ -127,7 +127,7 @@ body {
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
-  font-family: Circular, Arial, sans-serif;
+  font-family: sohne, Arial, sans-serif;
   background-color: #fff;
   color: #1d1d1f;
   font-style: normal
@@ -4458,7 +4458,7 @@ body {
 
 .tabnav-paddle-left:after,
 .tabnav-paddle-left:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -4498,7 +4498,7 @@ body {
 
 .tabnav-paddle-right:after,
 .tabnav-paddle-right:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
