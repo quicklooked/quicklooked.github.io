@@ -781,6 +781,17 @@
       }
     })
     
+    document.addEventListener("scroll", function() {
+      var i, gallery_captions_container_default, gallery_caption;
+      gallery_caption = document.getElementsByClassName("gallery-caption");
+      gallery_captions_container_default = document.getElementById("gallery-captions-container-default");
+      for(i = 0; i < 7; i++) {
+        if(gallery_caption[i].ariaHidden == "true") {
+          gallery_captions_container_default.style.height = gallery_caption[i].clientHeight + "px";
+        }
+      }
+    })
+    
     function advance_product(evt, product) {
       var i, tabnav_item, tabnav_link, gallery_caption, gallery_item, dotnav_item;
       tabnav_item = document.getElementsByClassName("tabnav-item");
