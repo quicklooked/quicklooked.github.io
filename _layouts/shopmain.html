@@ -714,7 +714,6 @@
       }
       for(i = 0; i < gallery_item.length; i++) {
         gallery_item[i].classList.remove('current');
-        gallery_item[i].style.visibility = "hidden";
         gallery_item[i].style.opacity = "0";
         gallery_item[i].style.zIndex = "0";
         gallery_item[i].ariaHidden = "true";
@@ -722,13 +721,13 @@
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
-      document.getElementById(product).style.visibility = "visible";
-      document.getElementById(product).style.opacity = "1";
-      document.getElementById(product).style.zIndex = "1";
-      document.getElementById(product).classList.add('current');
-      document.getElementById(product).ariaHidden = "false";
-      document.getElementById(product + '-trigger').classList.add('current');
-      document.getElementById(product + '-trigger').ariaSelected = "true";
+      document.getElementById('compare-gallery-' + product).style.visibility = "visible";
+      document.getElementById('compare-gallery-' + product).style.opacity = "1";
+      document.getElementById('compare-gallery-' + product).style.zIndex = "1";
+      document.getElementById('compare-gallery-' + product).classList.add('current');
+      document.getElementById('compare-gallery-' + product).ariaHidden = "false";
+      document.getElementById('compare-gallery-' + product + '-trigger').classList.add('current');
+      document.getElementById('compare-gallery-' + product + '-trigger').ariaSelected = "true";
       evt.currentTarget.className += " current";
     }
     
