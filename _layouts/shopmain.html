@@ -739,22 +739,22 @@
       gallery_caption = document.getElementsByClassName("gallery-caption");
       gallery_item = document.getElementsByClassName("gallery-item");
       dotnav_item = document.getElementsByClassName("dotnav-item");
-      for(i = 0; i < tabnav_link.length; i++) {
+      for(i = 2; i < 9; i++) {
         tabnav_link[i].classList.remove('current');
         tabnav_link[i].ariaSelected= "false";
       }
-      for(i = 0; i < dotnav_item.length; i++) {
+      for(i = 2; i < 9; i++) {
         dotnav_item[i].classList.remove('current');
         dotnav_item[i].ariaSelected= "false";
       }
-      for(i = 0; i < tabnav_item.length; i++) {
+      for(i = 2; i < 9; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
-      for(i = 0; i < gallery_caption.length; i++) {
+      for(i = 2; i < 9; i++) {
         gallery_caption[i].classList.remove('current');
         gallery_caption[i].ariaHidden= "true";
       }
-      for(i = 0; i < gallery_item.length; i++) {
+      for(i = 2; i < 9; i++) {
         gallery_item[i].classList.remove('current');
         gallery_item[i].ariaHidden= "true";
         gallery_item[i].style.opacity = "0";
