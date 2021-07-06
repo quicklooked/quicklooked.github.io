@@ -733,6 +733,7 @@
       var i, tabnav_item, tabnav_link, gallery_caption, gallery_item;
       tabnav_item = document.getElementsByClassName("tabnav-item");
       tabnav_link = document.getElementsByClassName("tabnav-link");
+      gallery_caption = document.getElementsByClassName("gallery-caption");
       for(i = 0; i < tabnav_link.length; i++) {
         tabnav_link[i].classList.remove('current');
         tabnav_link[i].ariaSelected= "false";
@@ -740,6 +741,12 @@
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
+      for(i = 0; i < gallery_caption.length; i++) {
+        gallery_caption[i].classList.remove('current');
+        gallery_caption[i].ariaHidden= "false";
+      }
+      document.getElementById('caption-slide-' + product).classList.add('current');
+      document.getElementById('caption-slide-' + product).ariaHidden = "true";
       document.getElementById('built-in-apps-gallery-slide-' + product + '-trigger').classList.add('current');
       document.getElementById('built-in-apps-gallery-slide-' + product + '-trigger').ariaSelected = "true";
       evt.currentTarget.className += " current";
