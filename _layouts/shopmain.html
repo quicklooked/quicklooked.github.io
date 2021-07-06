@@ -775,7 +775,7 @@
       gallery_caption = document.getElementsByClassName("gallery-caption");
       gallery_captions_container_default = document.getElementById("gallery-captions-container-default");
       for(i = 0; i < 7; i++) {
-        if(gallery_caption[i].ariaHidden == "true") {
+        if(gallery_caption[i].ariaHidden == "false") {
           gallery_captions_container_default.style.height = gallery_caption[i].clientHeight + "px";
         }
       }
@@ -786,7 +786,7 @@
       gallery_caption = document.getElementsByClassName("gallery-caption");
       gallery_captions_container_default = document.getElementById("gallery-captions-container-default");
       for(i = 0; i < 7; i++) {
-        if(gallery_caption[i].ariaHidden == "true") {
+        if(gallery_caption[i].ariaHidden == "false") {
           gallery_captions_container_default.style.height = gallery_caption[i].clientHeight + "px";
         }
       }
