@@ -730,14 +730,19 @@
     }
     
     function default_product(evt, product) {
-      var i, tabnav_item, tabnav_link, gallery_caption, gallery_item;
+      var i, tabnav_item, tabnav_link, gallery_caption, gallery_item, dotnav_item;
       tabnav_item = document.getElementsByClassName("tabnav-item");
       tabnav_link = document.getElementsByClassName("tabnav-link");
       gallery_caption = document.getElementsByClassName("gallery-caption");
       gallery_item = document.getElementsByClassName("gallery-item");
+      dotnav_item = document.getElementsByClassName("dotnav-item");
       for(i = 0; i < tabnav_link.length; i++) {
         tabnav_link[i].classList.remove('current');
         tabnav_link[i].ariaSelected= "false";
+      }
+      for(i = 0; i < dotnav_item.length; i++) {
+        dotnav_item[i].classList.remove('current');
+        dotnav_item[i].ariaSelected= "false";
       }
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
@@ -752,6 +757,8 @@
         gallery_item[i].style.opacity = "0";
         gallery_item[i].style.zIndex = "0";
       }
+      document.getElementById('built-in-apps-gallery-slide-' + product + '-trigger').classList.add('current');
+      document.getElementById('built-in-apps-gallery-slide-' + product + '-trigger').ariaSelected = "true";
       document.getElementById('built-in-apps-gallery-slide-' + product).style.opacity = "1";
       document.getElementById('built-in-apps-gallery-slide-' + product).style.zIndex = "1";
       document.getElementById('built-in-apps-gallery-slide-' + product).classList.add('current');
