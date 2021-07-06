@@ -799,12 +799,13 @@
     })
     
     function advance_product(evt, product) {
-      var i, tabnav_item, tabnav_link, gallery_caption, gallery_item, dotnav_item;
+      var i, tabnav_item, tabnav_link, gallery_caption, gallery_item, dotnav_item, gallery_captions_container_advance;
       tabnav_item = document.getElementsByClassName("tabnav-item");
       tabnav_link = document.getElementsByClassName("tabnav-link");
       gallery_caption = document.getElementsByClassName("gallery-caption");
       gallery_item = document.getElementsByClassName("gallery-item");
       dotnav_item = document.getElementsByClassName("dotnav-item");
+      gallery_captions_container_advance = document.getElementById("gallery-captions-container-advance");
       for(i = 9; i < tabnav_link.length; i++) {
         tabnav_link[i].classList.remove('current');
         tabnav_link[i].ariaSelected= "false";
@@ -837,8 +838,34 @@
       document.getElementById('pro-apps-gallery-slide-' + product + '-trigger').classList.add('current');
       document.getElementById('pro-apps-gallery-slide-' + product + '-trigger').ariaSelected = "true";
       evt.currentTarget.className += " current";
+      for(i = 7; i < gallery_caption.length; i++) {
+        if(gallery_caption[i].ariaHidden == "false") {
+          gallery_captions_container_advance.style.height = gallery_caption[i].clientHeight + "px";
+        }
+      }
     }
-
+    
+    document.addEventListener("DOMContentLoaded", function() {
+      var i, gallery_captions_container_advance, gallery_caption;
+      gallery_caption = document.getElementsByClassName("gallery-caption");
+      gallery_captions_container_advance = document.getElementById("gallery-captions-container-advance");
+      for(i = 7; i < gallery_caption.length; i++) {
+        if(gallery_caption[i].ariaHidden == "false") {
+          gallery_captions_container_advance.style.height = gallery_caption[i].clientHeight + "px";
+        }
+      }
+    })
+    
+    document.addEventListener("scroll", function() {
+      var i, gallery_captions_container_advance, gallery_caption;
+      gallery_caption = document.getElementsByClassName("gallery-caption");
+      gallery_captions_container_advance = document.getElementById("gallery-captions-container-advance");
+      for(i = 7; i < gallery_caption.length; i++) {
+        if(gallery_caption[i].ariaHidden == "false") {
+          gallery_captions_container_advance.style.height = gallery_caption[i].clientHeight + "px";
+        }
+      }
+    })
   </script>
 </body>
 
