@@ -719,13 +719,13 @@
       for(i = 0; i < tabnav_item.length; i++) {
         tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
       }
-      document.getElementById(product).style.visibility = "visible";
-      document.getElementById(product).style.opacity = "1";
-      document.getElementById(product).style.zIndex = "1";
-      document.getElementById(product).classList.add('current');
-      document.getElementById(product).ariaHidden = "false";
-      document.getElementById(product + '-trigger').classList.add('current');
-      document.getElementById(product + '-trigger').ariaSelected = "true";
+      $('#product').style.visibility = "visible";
+      $('#product').style.opacity = "1";
+      $('#product').style.zIndex = "1";
+      $('#product').classList.add('current');
+      $('#product').ariaHidden = "false";
+      $('#product' + '-trigger').classList.add('current');
+      $('#product' + '-trigger').ariaSelected = "true";
       evt.currentTarget.className += " current";
     }
     
