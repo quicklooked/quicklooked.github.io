@@ -4435,7 +4435,7 @@ br.small {
   font-size: 64px;
   line-height: 1.0625;
   font-weight: 600;
-  font-family: sohne;
+  font-family: adobe-clean;
   letter-spacing: -.009em;
 }
 
@@ -4461,7 +4461,7 @@ br.small {
   font-size: 48px;
   line-height: 1.08349;
   font-weight: 600;
-  font-family: sohne;
+  font-family: adobe-clean;
   letter-spacing: -.003em;
 }
 
@@ -4511,7 +4511,7 @@ br.small {
 .typography-eyebrow-elevated {
   font-size: 28px;
   line-height: 1.14286;
-  font-family: sohne;
+  font-family: adobe-clean;
   font-weight: 600;
   letter-spacing: .007em;
 }
@@ -4537,7 +4537,7 @@ br.small {
 .typography-eyebrow {
   font-size: 24px;
   line-height: 1.16667;
-  font-family: sohne;
+  font-family: adobe-clean;
   font-weight: 600;
   letter-spacing: .009em;
 }
@@ -4554,7 +4554,7 @@ br.small {
 .typography-eyebrow-reduced {
   font-size: 21px;
   line-height: 1.19048;
-  font-family: sohne;
+  font-family: adobe-clean;
   font-weight: 600;
   letter-spacing: .011em;
 }
@@ -4572,7 +4572,7 @@ br.small {
   font-size: 21px;
   line-height: 1.381;
   font-weight: 400;
-  font-family: sohne;
+  font-family: adobe-clean;
   letter-spacing: .011em;
 }
 
@@ -4589,7 +4589,7 @@ br.small {
   font-size: 17px;
   line-height: 1.47059;
   font-weight: 400;
-  font-family: sohne, Arial, sans-serif;
+  font-family: adobe-clean;
   letter-spacing: -.022em;
 }
 
@@ -4617,7 +4617,7 @@ br.small {
 .typography-buystrip-copy {
   font-size: 21px;
   line-height: 1.381;
-  font-family: sohne;
+  font-family: adobe-clean;
   font-weight: 400;
   letter-spacing: .011em;
 }
@@ -4700,7 +4700,7 @@ br.small {
 .typography-hero-product-headline {
   font-size: 56px;
   line-height: 1.07143;
-  font-family: sohne;
+  font-family: adobe-clean;
   font-weight: 600;
   letter-spacing: -.005em;
 }
@@ -4784,7 +4784,7 @@ br.small {
   font-size: 64px;
   line-height: 1.0625;
   font-weight: 600;
-  font-family: sohne;
+  font-family: adobe-clean;
   letter-spacing: -.009em;
 }
 
@@ -4835,7 +4835,7 @@ br.small {
   font-size: 48px;
   line-height: 1.08349;
   font-weight: 600;
-  font-family: sohne;
+  font-family: adobe-clean;
   letter-spacing: -.003em;
 }
 
@@ -4887,7 +4887,7 @@ br.small {
 .typography-product-lockup {
   font-size: 21px;
   line-height: 1.381;
-  font-family: sohne;
+  font-family: adobe-clean;
   font-weight: 400;
   letter-spacing: .011em;
 }
@@ -11952,7 +11952,7 @@ only screen and (min-resolution: 1.5dppx),
 .section-retail .promo-intro {
   margin-top: 20px;
   font-size: 17px;
-  font-family: sohne, Arial, sans-serif;
+  font-family: adobe-clean;
   line-height: 1.47059;
   font-weight: 400;
   letter-spacing: -.022em;
@@ -11967,7 +11967,7 @@ only screen and (min-resolution: 1.5dppx),
 .section-retail .icon-wrapper {
   font-size: 17px;
   line-height: 1.47059;
-  font-family: sohne, Arial, sans-serif;
+  font-family: adobe-clean;
   font-weight: 400;
   letter-spacing: -.022em;
   color: #06c
