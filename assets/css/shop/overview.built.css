@@ -6376,6 +6376,18 @@ html.no-svg .chapternav-item-macbook-air .chapternav-icon {
   background-image: url("https://www.apple.com/v/mac/home/bf/images/familybrowser/macbookair_light__fj8r9488gr6u_large.png")
 }
 
+.chapternav-item-fashion .chapternav-icon {
+  width: 52px;
+  height: 54px;
+  background-size: 52px 54px;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ebayimg.com/images/g/IqYAAOSwznNc~-9c/s-l225.png")
+}
+
+html.no-svg .chapternav-item-fashion .chapternav-icon {
+  background-image: url("https://i.ebayimg.com/images/g/IqYAAOSwznNc~-9c/s-l225.png")
+}
+
 .chapternav-item-macbook-pro-13 .chapternav-icon {
   width: 51px;
   height: 54px;
