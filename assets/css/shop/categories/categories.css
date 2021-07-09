@@ -5284,6 +5284,7 @@ a:hover .thumbnail .thumbnail-copy {
 .typography-body {
   font-size: 17px;
   line-height: 1.4705882353;
+  font-family: adobe-clean, Arial, sans-serif;
   font-weight: 400;
   letter-spacing: -.022em;
 }
