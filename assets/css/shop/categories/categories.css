@@ -8366,7 +8366,7 @@ html.touch .page-wrapper {
     line-height: 1;
     width: 16px;
     height: 16px;
-    background-image: url(/retail/retail-static/assets/images/icons/nav_search_icon_small.svg);
+    background-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/nav_search_icon_small.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 50%
@@ -8509,7 +8509,7 @@ html.touch .page-wrapper {
   width: 16px;
   height: 16px;
   pointer-events: none;
-  background-image: url(/retail/retail-static/assets/images/icons/spyglass_icon_large.svg);
+  background-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/spyglass_icon_large.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 50%
@@ -8536,7 +8536,7 @@ html.touch .page-wrapper {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url(/retail/retail-static/assets/images/icons/x_icon_large.svg);
+  background-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/x_icon_large.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 50%;
@@ -8646,15 +8646,15 @@ html.touch .page-wrapper {
 }
 
 .store-search-input .form-autocomplete-results .use-geolocation a.is-available:before {
-  -webkit-mask-image: url(/retail/retail-static/assets/images/icons/current_location_icon_grey_filled_large.svg);
-  mask-image: url(/retail/retail-static/assets/images/icons/current_location_icon_grey_filled_large.svg)
+  -webkit-mask-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/current_location_icon_grey_filled_large.svg);
+  mask-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/current_location_icon_grey_filled_large.svg)
 }
 
 .store-search-input .form-autocomplete-results .use-geolocation a:before {
   content: "";
   background-color: #86868b;
-  -webkit-mask-image: url(/retail/retail-static/assets/images/icons/current_location_icon_grey_open_large.svg);
-  mask-image: url(/retail/retail-static/assets/images/icons/current_location_icon_grey_open_large.svg);
+  -webkit-mask-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/current_location_icon_grey_open_large.svg);
+  mask-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/current_location_icon_grey_open_large.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   background-repeat: no-repeat;
@@ -9180,7 +9180,7 @@ html.touch .page-wrapper {
 }
 
 .store-search-results .search-results-toggler button.results-map:before {
-  background-image: url(/retail/retail-static/assets/images/icons/map_icon_large.svg)
+  background-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/map_icon_large.svg)
 }
 
 .store-search-results .search-results-toggler button.results-map:focus,
@@ -9189,7 +9189,7 @@ html.touch .page-wrapper {
 }
 
 .store-search-results .search-results-toggler button.results-list:before {
-  background-image: url(/retail/retail-static/assets/images/icons/list_icon_large.svg)
+  background-image: url(https://www.apple.com/retail/retail-static/assets/images/icons/list_icon_large.svg)
 }
 
 .store-search-results .search-results-toggler button:before {
@@ -13950,7 +13950,7 @@ html.no-reduced-motion .programs-section-heading-subheadline.active.active {
 .be-right-back .be-right-back-figure {
   width: 257px;
   height: 313px;
-  background: url(/retail/retail-static/assets/images/covers_large.png) 50%/257px 313px
+  background: url(https://www.apple.com/retail/retail-static/assets/images/covers_large.png) 50%/257px 313px
 }
 
 @media (-webkit-min-device-pixel-ratio:1.5),
@@ -13958,7 +13958,7 @@ html.no-reduced-motion .programs-section-heading-subheadline.active.active {
 only screen and (-webkit-min-device-pixel-ratio:1.5),
 only screen and (min-resolution:1.5dppx) {
   .be-right-back .be-right-back-figure {
-    background: url(/retail/retail-static/assets/images/covers_large_2x.png) 50%/257px 313px;
+    background: url(https://www.apple.com/retail/retail-static/assets/images/covers_large_2x.png) 50%/257px 313px;
     background-size: 257px 313px
   }
 }
@@ -13967,7 +13967,7 @@ only screen and (min-resolution:1.5dppx) {
   .be-right-back .be-right-back-figure {
     width: 180px;
     height: 220px;
-    background: url(/retail/retail-static/assets/images/covers_small.png) 50%/180px 220px
+    background: url(https://www.apple.com/retail/retail-static/assets/images/covers_small.png) 50%/180px 220px
   }
 }
 
@@ -13975,7 +13975,7 @@ only screen and (min-resolution:1.5dppx) {
 only screen and (max-width:734px)and (min-resolution:1.5dppx),
 only screen and (max-width:734px)and (min-resolution:144dpi) {
   .be-right-back .be-right-back-figure {
-    background: url(/retail/retail-static/assets/images/covers_small_2x.png) 50%/180px 220px
+    background: url(https://www.apple.com/retail/retail-static/assets/images/covers_small_2x.png) 50%/180px 220px
   }
 }
 
