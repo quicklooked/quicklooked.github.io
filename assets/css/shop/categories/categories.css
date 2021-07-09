@@ -1858,7 +1858,7 @@ abbr {
 .icon:before,
 .more:after,
 .more:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3562,7 +3562,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-next:after,
 .paddlenav .paddlenav-arrow-next:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3595,7 +3595,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-previous:after,
 .paddlenav .paddlenav-arrow-previous:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3628,7 +3628,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-up:after,
 .paddlenav .paddlenav-arrow-up:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3657,7 +3657,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav .paddlenav-arrow-down:after,
 .paddlenav .paddlenav-arrow-down:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3749,7 +3749,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
   .paddlenav .paddlenav-arrow-next:after,
   .paddlenav .paddlenav-arrow-next:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -3782,7 +3782,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
   .paddlenav .paddlenav-arrow-previous:after,
   .paddlenav .paddlenav-arrow-previous:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -3815,7 +3815,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
   .paddlenav .paddlenav-arrow-up:after,
   .paddlenav .paddlenav-arrow-up:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -3844,7 +3844,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
   .paddlenav .paddlenav-arrow-down:after,
   .paddlenav .paddlenav-arrow-down:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -3893,7 +3893,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav-compact .paddlenav-arrow-next:after,
 .paddlenav-compact .paddlenav-arrow-next:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3926,7 +3926,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav-compact .paddlenav-arrow-previous:after,
 .paddlenav-compact .paddlenav-arrow-previous:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3959,7 +3959,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav-compact .paddlenav-arrow-up:after,
 .paddlenav-compact .paddlenav-arrow-up:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -3988,7 +3988,7 @@ html.touch .paddlenav .paddlenav-arrow:disabled {
 
 .paddlenav-compact .paddlenav-arrow-down:after,
 .paddlenav-compact .paddlenav-arrow-down:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -4594,7 +4594,7 @@ a:hover .thumbnail .thumbnail-copy {
 
 .thumbnail-button:after,
 .thumbnail-button:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -4641,7 +4641,7 @@ a:hover .thumbnail .thumbnail-copy {
 
 .thumbnail-copy:after,
 .thumbnail-copy:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -5433,7 +5433,7 @@ a:hover .thumbnail .thumbnail-copy {
 
 .form-message-wrapper:after,
 .form-message-wrapper:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -8131,7 +8131,7 @@ html.touch .page-wrapper {
 
 .store-search-wrapper .store-search-bar .store-search-bar__content .store-search-section-storelist a:after,
 .store-search-wrapper .store-search-bar .store-search-bar__content .store-search-section-storelist a:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -8877,7 +8877,7 @@ html.touch .page-wrapper {
 
   .store-search-input-compact #form-autocomplete-listbox .form-autocomplete-results-other-links a:after,
   .store-search-input-compact #form-autocomplete-listbox .form-autocomplete-results-other-links a:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -10267,7 +10267,7 @@ html.no-reduced-motion .store-details-hero-back-button.visible.visible {
 
 .store-safety-measures ul li a:after,
 .store-safety-measures ul li a:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -10400,7 +10400,7 @@ html.no-reduced-motion .store-details-hero-back-button.visible.visible {
 
 .store-details-hero-drawer .section-hero-drawer .full-width-hero .image-hero-figure .drawer-button:after,
 .store-details-hero-drawer .section-hero-drawer .full-width-hero .image-hero-figure .drawer-button:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -10519,7 +10519,7 @@ html.no-reduced-motion .store-details-hero-back-button.visible.visible {
 
 .close-button:after,
 .close-button:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -11085,7 +11085,7 @@ html.no-reduced-motion .store-details-hero-back-button.visible.visible {
 
 .store-summary-support ul li a:after,
 .store-summary-support ul li a:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -11129,7 +11129,7 @@ html.no-reduced-motion .store-details-hero-back-button.visible.visible {
 
 .store-summary-support-section a[href^="mailto:"]:after,
 .store-summary-support-section a[href^="mailto:"]:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -11222,7 +11222,7 @@ html.touch .gallery-overlay-container .store-detail-gallery .gallery-container .
 
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-next:after,
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-next:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -11255,7 +11255,7 @@ html.touch .gallery-overlay-container .store-detail-gallery .gallery-container .
 
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-previous:after,
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-previous:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -11288,7 +11288,7 @@ html.touch .gallery-overlay-container .store-detail-gallery .gallery-container .
 
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-up:after,
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-up:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -11317,7 +11317,7 @@ html.touch .gallery-overlay-container .store-detail-gallery .gallery-container .
 
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-down:after,
   .gallery-overlay-container .store-detail-gallery .gallery-container .paddlenav .paddlenav-arrow-down:before {
-    font-family: SF Pro Icons;
+    font-family: sgtb icons;
     color: inherit;
     display: inline-block;
     font-style: normal;
@@ -11852,7 +11852,7 @@ html.no-reduced-motion .retail-spotlight-gallery .paddle-arrow.visible.visible {
 
 .retail-spotlight-gallery .spotlight-all-sessions:after,
 .retail-spotlight-gallery .spotlight-all-sessions:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -12536,7 +12536,7 @@ html.no-reduced-motion .retail-spotlight-gallery .paddle-arrow.visible.visible {
 
 .page-storelist .form-dropdown .icon-chevron-down:after,
 .page-storelist .form-dropdown .icon-chevron-down:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -13074,7 +13074,7 @@ html.no-reduced-motion .retail-spotlight-gallery .paddle-arrow.visible.visible {
 
 .modal-close:after,
 .modal-close:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -13209,7 +13209,7 @@ html.touch .tabnav-paddles {
 
 .tabnav-paddle-left:after,
 .tabnav-paddle-left:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -13247,7 +13247,7 @@ html.touch .tabnav-paddles {
 
 .tabnav-paddle-right:after,
 .tabnav-paddle-right:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
@@ -13707,7 +13707,7 @@ html.touch .tabnav .tabnav-items {
 
 .trade-values-modal .gatekeeper-open:after,
 .trade-values-modal .gatekeeper-open:before {
-  font-family: SF Pro Icons;
+  font-family: sgtb icons;
   color: inherit;
   display: inline-block;
   font-style: normal;
