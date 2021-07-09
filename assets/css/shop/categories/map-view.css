@@ -1,0 +1,88 @@
+.mk-map-view {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent
+}
+
+.mk-map-view.mk-dragging-annotation {
+  cursor: none
+}
+
+.mk-map-view.mk-disable-all-gestures {
+  touch-action: none
+}
+
+.mk-map-view.mk-disable-pinch-gestures {
+  touch-action: pan-x pan-y
+}
+
+.mk-map-view.mk-disable-zoom-gestures {
+  touch-action: manipulation
+}
+
+.mk-map-view.mk-disable-pan-gestures {
+  touch-action: none;
+  touch-action: pinch-zoom
+}
+
+div.mk-map-view.mk-map-view img,
+div.mk-map-view.mk-map-view svg {
+  margin: 0;
+  padding: 0
+}
+
+.mk-annotation-container,
+.mk-map-view {
+  z-index: 0
+}
+
+.mk-map-view>* {
+  position: absolute;
+  left: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none
+}
+
+.mk-map-node-element {
+  background-color: rgba(0, 0, 0, 0)
+}
+
+.mk-map-view .rt-root {
+  letter-spacing: .3px
+}
+
+.mk-controls-container {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  pointer-events: none
+}
+
+.mk-map-view .mk-annotation-container,
+.mk-map-view .mk-controls-container {
+  -ms-user-select: text
+}
+
+.mk-map-view.mk-panning ::selection {
+  background: 0 0
+}
+
+.mk-map-view.mk-dragging-cursor {
+  cursor: pointer;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+  cursor: grabbing
+}
+
+.mk-map-view>iframe {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+  border: 0
+}
