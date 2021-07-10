@@ -5684,6 +5684,7 @@ a:hover .thumbnail .thumbnail-copy {
   font-weight: 400;
   letter-spacing: -.022em;
   width: 100%;
+  font-family: adobe-clean, Arial, sans-serif;
   height: 3.2941176471rem;
   border-radius: 12px;
   border-width: 1px;
