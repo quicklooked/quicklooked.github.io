@@ -2361,48 +2361,48 @@ body {
 }
 
 #ac-globalnav .ac-gn-bagview-nav-link-bag {
-  background-image: url("../assets/ac-store/bag.png");
-  background-image: none, url("../assets/ac-store/bag.svg");
+  background-image: url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/bag.png");
+  background-image: none, url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/bag.svg");
   background-position: -3px 10px;
   background-repeat: no-repeat;
   background-size: 23px 23px
 }
 
 #ac-globalnav .ac-gn-bagview-nav-link-favorites {
-  background-image: url("../assets/ac-store/favorites.png");
-  background-image: none, url("../assets/ac-store/favorites.svg");
+  background-image: url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/favorites.png");
+  background-image: none, url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/favorites.svg");
   background-position: -3px 10px;
   background-repeat: no-repeat;
   background-size: 23px 23px
 }
 
 #ac-globalnav .ac-gn-bagview-nav-link-orders {
-  background-image: url("../assets/ac-store/orders.png");
-  background-image: none, url("../assets/ac-store/orders.svg");
+  background-image: url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/orders.png");
+  background-image: none, url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/orders.svg");
   background-position: -3px 10px;
   background-repeat: no-repeat;
   background-size: 23px 23px
 }
 
 #ac-globalnav .ac-gn-bagview-nav-link-account {
-  background-image: url("../assets/ac-store/account.png");
-  background-image: none, url("../assets/ac-store/account.svg");
+  background-image: url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/account.png");
+  background-image: none, url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/account.svg");
   background-position: -3px 10px;
   background-repeat: no-repeat;
   background-size: 23px 23px
 }
 
 #ac-globalnav .ac-gn-bagview-nav-link-signIn {
-  background-image: url("../assets/ac-store/signIn.png");
-  background-image: none, url("../assets/ac-store/signIn.svg");
+  background-image: url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/signIn.png");
+  background-image: none, url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/signIn.svg");
   background-position: -3px 10px;
   background-repeat: no-repeat;
   background-size: 23px 23px
 }
 
 #ac-globalnav .ac-gn-bagview-nav-link-signOut {
-  background-image: url("../assets/ac-store/signIn.png");
-  background-image: none, url("../assets/ac-store/signIn.svg");
+  background-image: url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/signIn.png");
+  background-image: none, url("https://www.apple.com/retail/retail-static/assets/static/globalnav/en_US/assets/ac-store/signIn.svg");
   background-position: -3px 10px;
   background-repeat: no-repeat;
   background-size: 23px 23px
