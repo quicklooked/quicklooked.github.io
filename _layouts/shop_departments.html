@@ -131,7 +131,7 @@
             </a>
           </li>
           <li class="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">
-            <a id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="/us/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link="" aria-label="Search apple.com" role="button" aria-haspopup="true"></a>
+            <a id="ac-gn-link-search" onclick="searchOpen();return false;" id="ac-gn-link-search" class="ac-gn-link ac-gn-link-search" href="/shop/search" data-analytics-title="search" data-analytics-click="search" data-analytics-intrapage-link="" aria-label="Search for anything" role="button" aria-haspopup="true"></a>
           </li>
           <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
             <div class="ac-gn-bag-wrapper">
@@ -153,7 +153,7 @@
               <div class="ac-gn-searchview-bar-wrapper">
                 <form id="ac-gn-searchform" class="ac-gn-searchform" action="/us/search" method="get">
                   <div class="ac-gn-searchform-wrapper">
-                    <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search apple.com" placeholder="Search apple.com" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions">
+                    <input id="ac-gn-searchform-input" class="ac-gn-searchform-input" type="text" aria-label="Search for anything" placeholder="Search for anything" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="true" aria-owns="quicklinks suggestions">
                     <input id="ac-gn-searchform-src" type="hidden" name="src" value="globalnav">
                     <button id="ac-gn-searchform-submit" class="ac-gn-searchform-submit" type="submit" disabled="" aria-label="Submit Search"> </button>
                     <button id="ac-gn-searchform-reset" class="ac-gn-searchform-reset" type="reset" disabled="" aria-label="Clear Search">
@@ -161,7 +161,7 @@
                     </button>
                   </div>
                 </form>
-                <button id="ac-gn-searchview-close-small" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
+                <button id="ac-gn-searchview-close-small" onclick="searchOpenSmall();return false;" class="ac-gn-searchview-close ac-gn-searchview-close-small" aria-label="Cancel Search">
                   <span class="ac-gn-searchview-close-cancel" aria-hidden="true"> Cancel </span>
                 </button>
               </div>
