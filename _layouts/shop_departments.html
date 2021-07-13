@@ -135,7 +135,7 @@
           </li>
           <li class="ac-gn-item ac-gn-bag" id="ac-gn-bag">
             <div class="ac-gn-bag-wrapper">
-              <a class="ac-gn-link ac-gn-link-bag" href="/us/shop/goto/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
+              <a id="bagbig" onclick="bagBig();return false;" class="ac-gn-link ac-gn-link-bag" href="/shop/bag" data-analytics-title="bag" data-analytics-click="bag" aria-label="Shopping Bag" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="ac-gn-bagview-content">
                 <span class="ac-gn-link-text">Shopping Bag</span>
               </a>
               <span class="ac-gn-bag-badge" aria-hidden="true">
@@ -217,6 +217,47 @@
   <div id="modal-root"></div>
   <div id="viewport-emitter"></div>
 </body>
+<script>
+function bagBig() {
+  if(document.getElementById("bagbig").ariaExpanded == "false") {
+    document.getElementById("ac-globalnav").classList.add('with-bagview');
+    document.getElementById("bagbig").ariaExpanded = "true";
+  } else {
+    document.getElementById("ac-globalnav").classList.remove('with-bagview');
+    document.getElementById("bagbig").ariaExpanded = "false";
+  }
+}
+
+function bagSmall() {
+  if(document.getElementById("bagsmall").ariaExpanded == "false") {
+    document.getElementById("ac-globalnav").classList.add('with-bagview');
+    document.getElementById("bagsmall").ariaExpanded = "true";
+  } else {
+    document.getElementById("ac-globalnav").classList.remove('with-bagview');
+    document.getElementById("bagsmall").ariaExpanded = "false";
+  }
+}
+
+function searchOpen() {
+  if(document.getElementById("ac-gn-link-search").ariaExpanded == "false") {
+    document.getElementById("ac-globalnav").classList.add('searchopen');
+    document.getElementById("ac-gn-link-search").ariaExpanded = "true";
+  } else {
+    document.getElementById("ac-globalnav").classList.remove('searchopen');
+    document.getElementById("ac-gn-link-search").ariaExpanded = "false";
+  }
+}
+
+function searchOpenSmall() {
+  if(document.getElementById("ac-gn-link-search-small").ariaExpanded == "false") {
+    document.getElementById("ac-globalnav").classList.add('searchopen');
+    document.getElementById("ac-gn-link-search-small").ariaExpanded = "true";
+  } else {
+    document.getElementById("ac-globalnav").classList.remove('searchopen');
+    document.getElementById("ac-gn-link-search-small").ariaExpanded = "false";
+  }
+}
+</script>
 <div cssdimensionstracker="true" style="position: fixed; top: 0px; width: 100%; height: 100vh; pointer-events: none; visibility: hidden; z-index: -1;"></div>
 
 </html>
