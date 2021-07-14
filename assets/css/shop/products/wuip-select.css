@@ -6046,7 +6046,7 @@ a[role=button] {
 
 .more:after,
 .more:before {
-  content: "ïŒ"
+  content: "\f301"
 }
 
 .more-block {
