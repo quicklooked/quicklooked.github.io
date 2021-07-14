@@ -1321,7 +1321,7 @@ html[dir=rtl] .as-footnotes .icon-copy {
   height: 72px;
   background-size: 14px 72px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-footer/breadcrumbs/apple/icon_large.svg);
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-footer/breadcrumbs/apple/icon_large.svg);
   height: 18px;
   display: block;
   position: relative;
@@ -1335,7 +1335,7 @@ html[dir=rtl] .as-footnotes .icon-copy {
 .as-globalfooter.theme-dark .as-globalfooter-breadcrumbs-home-icon,
 .theme-dark.as-footnotes .as-globalfooter-breadcrumbs-home-icon {
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-footer/breadcrumbs/apple/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-footer/breadcrumbs/apple/icon_dark_large.svg)
 }
 
 .as-globalfooter .as-globalfooter-breadcrumbs-home:hover,
@@ -1409,7 +1409,7 @@ html[dir=rtl] .as-footnotes .icon-copy {
   height: 36px;
   background-size: 8px 36px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-footer/breadcrumbs/separator/icon_large.svg);
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-footer/breadcrumbs/separator/icon_large.svg);
   margin-right: 11px;
   content: '';
   display: inline-block;
@@ -1424,7 +1424,7 @@ html[dir=rtl] .as-footnotes .icon-copy {
 .as-globalfooter.theme-dark .as-globalfooter-breadcrumbs-item:before,
 .theme-dark.as-footnotes .as-globalfooter-breadcrumbs-item:before {
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-footer/breadcrumbs/separator/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-footer/breadcrumbs/separator/icon_dark_large.svg)
 }
 
 html[dir=rtl] .as-globalfooter .as-globalfooter-breadcrumbs-item:before,
@@ -2223,7 +2223,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/asa/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/asa/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-asa,
@@ -2234,7 +2234,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/asa/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/asa/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-bag,
@@ -2243,7 +2243,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/bag/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/bag/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-bag,
@@ -2254,7 +2254,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/bag/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/bag/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-call,
@@ -2263,7 +2263,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/call/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/call/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-call,
@@ -2274,7 +2274,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/call/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/call/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-engraving,
@@ -2283,7 +2283,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/engraving/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/engraving/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-engraving,
@@ -2294,7 +2294,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/engraving/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/engraving/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-financing,
@@ -2303,7 +2303,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/financing/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/financing/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-financing,
@@ -2314,7 +2314,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/financing/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/financing/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-giftwrap,
@@ -2323,7 +2323,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/giftwrap/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/giftwrap/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-giftwrap,
@@ -2334,7 +2334,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/giftwrap/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/giftwrap/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-help,
@@ -2343,7 +2343,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/help/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/help/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-help,
@@ -2354,7 +2354,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/help/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/help/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-personal_setup,
@@ -2363,7 +2363,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/personal_setup/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/personal_setup/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-personal_setup,
@@ -2374,7 +2374,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/personal_setup/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/personal_setup/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-retail,
@@ -2383,7 +2383,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/retail/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/retail/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-retail,
@@ -2394,7 +2394,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/retail/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/retail/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-shipping,
@@ -2403,7 +2403,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/shipping/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/shipping/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-shipping,
@@ -2414,7 +2414,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/shipping/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/shipping/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-icon-thirdparty_retail,
@@ -2423,7 +2423,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/thirdparty_retail/icon_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/thirdparty_retail/icon_large.svg)
 }
 
 .theme-dark .buystrip .as-globalfooter .buystrip-item-icon-thirdparty_retail,
@@ -2434,7 +2434,7 @@ only screen and (min-resolution:1.5dppx),
   height: 56px;
   background-size: 100% 56px;
   background-repeat: no-repeat;
-  background-image: url(../assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg)
+  background-image: url(https://store.storeimages.cdn-apple.com/4982/store.apple.com/shop/rs-external/rel/assets/ac-buystrip/thirdparty_retail/icon_dark_large.svg)
 }
 
 .as-globalfooter .buystrip-item-title,
