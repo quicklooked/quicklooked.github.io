@@ -174,7 +174,7 @@
 
 .rc-overlay-close:after,
 .rc-overlay-close:before {
-  content: "ïž"
+  content: "\f35e"
 }
 
 @media only screen and (max-width:1023px) and (max-device-width:736px) {
