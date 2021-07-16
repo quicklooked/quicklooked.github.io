@@ -1070,7 +1070,7 @@ a.block-inline {
 .as-footnotes .more:before,
 .as-globalfooter .more:after,
 .as-footnotes .more:after {
-  content: "ïŒ"
+  content: "\f301"
 }
 
 .as-globalfooter .more-block,
