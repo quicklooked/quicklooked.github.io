@@ -10321,25 +10321,6 @@ html[dir=rtl] .localnav-wrapper .icon-external:before {
   padding-top: 1em
 }
 
-.localnav-title {
-  font-size: 24px;
-  line-height: 1.20849;
-  font-weight: 500;
-  letter-spacing: 0;
-  margin-top: 3px;
-  margin-bottom: 13px;
-  cursor: auto
-}
-
-@media only screen and (max-width:767px) and (max-device-width:767px) {
-  .localnav-title {
-    font-size: 20px;
-    line-height: 1.25;
-    font-weight: 500;
-    letter-spacing: .012em;
-  }
-}
-
 .localnav-title .as-localnav-subtitle,
 .localnav-title span {
   font-size: 17px;
