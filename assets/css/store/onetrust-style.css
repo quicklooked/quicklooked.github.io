@@ -7037,3 +7037,7 @@ a.ot-sdk-show-settings:not(.spectrum-Button):hover {
 .text.placeholder {
   visibility: hidden
 }
+
+#terms-disclaimer {
+  display: none !important;
+}
