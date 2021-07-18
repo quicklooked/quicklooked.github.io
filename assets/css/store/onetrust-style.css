@@ -8021,3 +8021,8 @@ a.ot-sdk-show-settings:not(.spectrum-Button):hover {
     border-bottom: none
   }
 }
+#row0>.dexter-FlexContainer-Items>*:nth-child(1) {
+  flex: 1 1 1%;
+  max-width: 100%;
+  min-height: auto;
+}
