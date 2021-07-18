@@ -7033,3 +7033,7 @@ a.ot-sdk-show-settings:not(.spectrum-Button):hover {
 #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table th {
   background-color: #F8F8F8;
 }
+
+.text.placeholder {
+  visibility: hidden
+}
