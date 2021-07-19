@@ -2767,50 +2767,18 @@ document.addEventListener("scroll", function() {
   i = e <= 0 ? 0 : e;
 }, false);
 
-function tabnav(evt, product) {
-  var i, tabnav_item, tabnav_link, gallery_item;
-  tabnav_item = document.getElementsByClassName("tabnav-item");
-  tabnav_link = document.getElementsByClassName("tabnav-link");
-  gallery_item = document.getElementsByClassName("gallery-item");
-  for(i = 0; i < 2; i++) {
-    tabnav_link[i].classList.remove('current');
-    tabnav_link[i].ariaSelected = "false";
+function tabnav(evt, tab) {
+  var i, t, s;
+  t = document.getElementById("Globalnav.");
+  s = document.getElementById("gnav_19");
+  for(i = 0; i < 5; i++) {
+    s[i].classList.remove('current');
+    s[i].ariaExpanded = "true";
   }
-  for(i = 0; i < 2; i++) {
-    gallery_item[i].classList.remove('current');
-    gallery_item[i].style.opacity = "0";
-    gallery_item[i].style.zIndex = "0";
-    gallery_item[i].ariaHidden = "true";
-    gallery_item[i].style.visibility = "hidden";
+  for(i = 0; i < 5; i++) {
+    t[i].className = t[i].className.replace(" current", "");
   }
-  for(i = 0; i < 2; i++) {
-    tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
-  }
-  document.getElementById('compare-gallery-' + product).style.visibility = "visible";
-  document.getElementById('compare-gallery-' + product).style.opacity = "1";
-  document.getElementById('compare-gallery-' + product).style.zIndex = "1";
-  document.getElementById('compare-gallery-' + product).classList.add('current');
-  document.getElementById('compare-gallery-' + product).ariaHidden = "false";
-  document.getElementById('compare-gallery-' + product + '-trigger').classList.add('current');
-  document.getElementById('compare-gallery-' + product + '-trigger').ariaSelected = "true";
   evt.currentTarget.className += " current";
 }
-var s = document.getElementById("Globalnav.Creativity_Design");
-s.addEventListener("click", function() {
-  var i, u;
-  i = document.getElementById("gnav_19");
-  u = document.getElementById("feds-curtainWrapper");
-  if(i.ariaExpanded == "false") {
-    i.ariaExpanded = "true";
-    i.daaLh = "header|Close";
-    u.classList.add('feds-curtainWrapper--open');
-    u.dataRequestor = "popup";
-  } else {
-    i.ariaExpanded = "false";
-    i.daaLh = "header|Open";
-    u.classList.remove('feds-curtainWrapper--open');
-    u.dataRequestor = "";
-  }
-}, false);
 </script>
 </html>
