@@ -2768,16 +2768,13 @@ document.addEventListener("scroll", function() {
 }, false);
 
 function tabnav(evt, tab) {
-  var i, t, s;
-  t = document.getElementById("Globalnav.");
+  var i, t, u, v, w, s;
+  t = document.getElementById("Globalnav.Creativity_Design");
+  u = document.getElementById("Globalnav.PDF_E_signatures");
+  v = document.getElementById("Globalnav.Marketing_Commerce");
+  w = document.getElementById("Globalnav.Support");
   s = document.getElementById("gnav_19");
-  for(i = 0; i < 5; i++) {
-    s[i].classList.remove('current');
-    s[i].ariaExpanded = "true";
-  }
-  for(i = 0; i < 5; i++) {
-    t[i].className = t[i].className.replace(" current", "");
-  }
+
   evt.currentTarget.className += " current";
 }
 </script>
