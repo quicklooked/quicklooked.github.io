@@ -2752,7 +2752,7 @@
     "use strict"
     var i = 0;
     document.addEventListener("scroll", function() {
-      var e, t, m, s, j, u, v, w, x, y, z, n, p, q, k;
+      var e, t, m, s, j, u, v, w, x, y, z, n, p, q, k, l;
       m = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -2769,6 +2769,7 @@
       p = document.getElementById("feds-navList-hamburger");
       q = document.getElementById("keyboardnavigationenabled");
       k = document.getElementById("gnav_746");
+      l = document.getElementById("gnav_746_searchTemplate");
       if(n > 1200) {
         if(e > i) {
           t.style.transform = "translateY(-60px)";
@@ -2785,6 +2786,7 @@
           k.classList.remove('is-open');
           k.ariaExpanded = "false";
           q.style = "";
+          l.classList.remove('is-open');
         } else {
           t.style = "";
           t.classList.remove("feds-header-wrapper--retracted");
@@ -2800,6 +2802,7 @@
           k.classList.remove('is-open');
           k.ariaExpanded = "false";
           q.style = "";
+          l.classList.remove('is-open');
         }
         i = e <= 0 ? 0 : e;
       } else {
@@ -2819,6 +2822,7 @@
           q.style.maxHeight = screen.availHeight - 136 + "px";
           k.classList.remove('is-open');
           k.ariaExpanded = "false";
+          l.classList.remove('is-open');
         } else {
           t.style = "";
           t.classList.remove("feds-header-wrapper--retracted");
@@ -2835,13 +2839,14 @@
           q.style.maxHeight = screen.availHeight - 136 + "px";
           k.classList.remove('is-open');
           k.ariaExpanded = "false";
+          l.classList.remove('is-open');
         }
         i = e <= 0 ? 0 : e;
       }
     }, false);
     var gnav_19 = document.getElementById("gnav_19");
     gnav_19.addEventListener("click", function(e) {
-      var i, s, t, u, v, w, x, y, z, k;
+      var i, s, t, u, v, w, x, y, z, k, l;
       i = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -2852,6 +2857,7 @@
       u = document.getElementById("gnav_370");
       v = document.getElementById("gnav_638");
       k = document.getElementById("gnav_746");
+      l = document.getElementById("gnav_746_searchTemplate");
       if(s.ariaExpanded == "false") {
         s.ariaExpanded = "true";
         t.ariaExpanded = "false";
@@ -2864,6 +2870,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       } else {
         s.ariaExpanded = "false";
         t.ariaExpanded = "false";
@@ -2876,6 +2883,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       };
       e.preventDefault();
       e.stopPropagation();
@@ -2883,7 +2891,7 @@
     });
     var gnav_240 = document.getElementById("gnav_240");
     gnav_240.addEventListener("click", function(e) {
-      var i, s, t, u, v, w, x, y, z, k;
+      var i, s, t, u, v, w, x, y, z, k, l;
       i = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -2894,6 +2902,7 @@
       u = document.getElementById("gnav_370");
       v = document.getElementById("gnav_638");
       k = document.getElementById("gnav_746");
+      l = document.getElementById("gnav_746_searchTemplate");
       if(t.ariaExpanded == "false") {
         t.ariaExpanded = "true";
         s.ariaExpanded = "false";
@@ -2906,6 +2915,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       } else {
         t.ariaExpanded = "false";
         s.ariaExpanded = "false";
@@ -2918,6 +2928,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       };
       e.preventDefault();
       e.stopPropagation();
@@ -2925,7 +2936,7 @@
     });
     var gnav_370 = document.getElementById("gnav_370");
     gnav_370.addEventListener("click", function(e) {
-      var i, s, t, u, v, w, x, y, z, k;
+      var i, s, t, u, v, w, x, y, z, k, l;
       i = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -2936,6 +2947,7 @@
       u = document.getElementById("gnav_370");
       v = document.getElementById("gnav_638");
       k = document.getElementById("gnav_746");
+      l = document.getElementById("gnav_746_searchTemplate");
       if(u.ariaExpanded == "false") {
         u.ariaExpanded = "true";
         s.ariaExpanded = "false";
@@ -2948,6 +2960,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       } else {
         t.ariaExpanded = "false";
         s.ariaExpanded = "false";
@@ -2960,6 +2973,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       };
       e.preventDefault();
       e.stopPropagation();
@@ -2967,7 +2981,7 @@
     });
     var gnav_638 = document.getElementById("gnav_638");
     gnav_638.addEventListener("click", function(e) {
-      var i, s, t, u, v, w, x, y, z, k;
+      var i, s, t, u, v, w, x, y, z, k, l;
       i = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -2978,6 +2992,7 @@
       u = document.getElementById("gnav_370");
       v = document.getElementById("gnav_638");
       k = document.getElementById("gnav_746");
+      l = document.getElementById("gnav_746_searchTemplate");
       if(v.ariaExpanded == "false") {
         v.ariaExpanded = "true";
         s.ariaExpanded = "false";
@@ -2990,6 +3005,7 @@
         z.classList.add('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       } else {
         t.ariaExpanded = "false";
         s.ariaExpanded = "false";
@@ -3002,6 +3018,7 @@
         z.classList.remove('feds-popup--open');
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
+        l.classList.remove('is-open');
       };
       e.preventDefault();
       e.stopPropagation();
@@ -3021,7 +3038,7 @@
     });
     var gnav_746 = document.getElementById("gnav_746");
     gnav_746.addEventListener("click", function(e) {
-      var i, s, t, u, v, w, x, y, z, k;
+      var i, s, t, u, v, w, x, y, z, k, l;
       i = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -3032,6 +3049,7 @@
       u = document.getElementById("gnav_370");
       v = document.getElementById("gnav_638");
       k = document.getElementById("gnav_746");
+      l = document.getElementById("gnav_746_searchTemplate");
       if(k.ariaExpanded == "false") {
         k.ariaExpanded = "true";
         s.ariaExpanded = "false";
@@ -3039,6 +3057,7 @@
         u.ariaExpanded = "false";
         v.ariaExpanded = "false";
         k.classList.add('is-open');
+        l.classList.add('is-open');
         i.classList.add('feds-curtainWrapper--open');
         w.classList.remove('feds-popup--open');
         x.classList.remove('feds-popup--open');
@@ -3049,6 +3068,7 @@
         t.ariaExpanded = "false";
         u.ariaExpanded = "false";
         v.ariaExpanded = "false";
+        l.classList.remove('is-open');
         i.classList.remove('feds-curtainWrapper--open');
         w.classList.remove('feds-popup--open');
         x.classList.remove('feds-popup--open');
