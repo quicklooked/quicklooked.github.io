@@ -115,7 +115,7 @@
                                         </div>
                                       </aside>
                                       <ul class="feds-navList" data-feds-keyboardnavigationenabled="">
-                                        <li id="Globalnav.Creativity_Design" class="feds-navList-item">
+                                        <li id="Globalnav.Creativity_Design" onclick="tabnav();return false;" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_19" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" data-feds-action="open-popup" data-feds-element="link" daa-ll="Creativity_Design-1" daa-lh="header|Open" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -2767,15 +2767,27 @@ document.addEventListener("scroll", function() {
   i = e <= 0 ? 0 : e;
 }, false);
 
-function tabnav(evt, tab) {
-  var i, t, u, v, w, s;
-  t = document.getElementById("Globalnav.Creativity_Design");
-  u = document.getElementById("Globalnav.PDF_E_signatures");
-  v = document.getElementById("Globalnav.Marketing_Commerce");
-  w = document.getElementById("Globalnav.Support");
-  s = document.getElementById("gnav_19");
-
-  evt.currentTarget.className += " current";
-}
+function tabnav() {
+  var i, j, k, l, m, n, o, p;
+  i = document.getElementById("feds-curtainWrapper");
+  j = document.getElementById("Globalnav.Creativity_Design");
+  k = document.getElementById("Globalnav.PDF_E_signatures");
+  l = document.getElementById("Globalnav.Marketing_Commerce");
+  m = document.getElementById("Globalnav.Support");
+  n = document.getElementById("gnav_19");
+  o = document.getElementById("gnav_240");
+  p = document.getElementById("gnav_370");
+  if(j.ariaExpanded == "false") {
+    j.ariaExpanded = "true";
+    j.daaLh = "header|Close";
+    i.classList.add('feds-curtainWrapper--open');
+    i.dataRequestor = "popup";
+  } else {
+    j.ariaExpanded = "false";
+    j.daaLh = "header|Open";
+    i.classList.remove('feds-curtainWrapper--open');
+    i.dataRequestor = "";
+  }
+};
 </script>
 </html>
