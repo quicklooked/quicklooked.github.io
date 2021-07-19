@@ -468,7 +468,7 @@
                                             </div>
                                           </div>
                                         </li>
-                                        <li id="Globalnav.PDF_E_signatures" class="feds-navList-item">
+                                        <li id="Globalnav.PDF_E_signatures" onclick="tabnav();return false;" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_240" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -746,7 +746,7 @@
                                             </div>
                                           </div>
                                         </li>
-                                        <li id="Globalnav.Marketing_Commerce" class="feds-navList-item">
+                                        <li id="Globalnav.Marketing_Commerce" onclick="tabnav();return false;" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_370" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -1133,7 +1133,7 @@
                                             </div>
                                           </div>
                                         </li>
-                                        <li id="Globalnav.Support" class="feds-navList-item">
+                                        <li id="Globalnav.Support" onclick="tabnav();return false;" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_638" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -2789,6 +2789,45 @@ function tabnav() {
     o.ariaExpanded = "false";
     p.ariaExpanded = "false";
     q.ariaExpanded = "false";
+    i.classList.remove('feds-curtainWrapper--open');
+  }
+  if(o.ariaExpanded == "false") {
+    o.ariaExpanded = "true";
+    n.ariaExpanded = "false";
+    p.ariaExpanded = "false";
+    q.ariaExpanded = "false";
+    i.classList.add('feds-curtainWrapper--open');
+  } else {
+    o.ariaExpanded = "false";
+    n.ariaExpanded = "false";
+    p.ariaExpanded = "false";
+    q.ariaExpanded = "false";
+    i.classList.remove('feds-curtainWrapper--open');
+  }
+  if(p.ariaExpanded == "false") {
+    p.ariaExpanded = "true";
+    n.ariaExpanded = "false";
+    o.ariaExpanded = "false";
+    q.ariaExpanded = "false";
+    i.classList.add('feds-curtainWrapper--open');
+  } else {
+    p.ariaExpanded = "false";
+    n.ariaExpanded = "false";
+    o.ariaExpanded = "false";
+    q.ariaExpanded = "false";
+    i.classList.remove('feds-curtainWrapper--open');
+  }
+  if(q.ariaExpanded == "false") {
+    q.ariaExpanded = "true";
+    n.ariaExpanded = "false";
+    o.ariaExpanded = "false";
+    p.ariaExpanded = "false";
+    i.classList.add('feds-curtainWrapper--open');
+  } else {
+    q.ariaExpanded = "false";
+    n.ariaExpanded = "false";
+    o.ariaExpanded = "false";
+    p.ariaExpanded = "false";
     i.classList.remove('feds-curtainWrapper--open');
   }
 };
