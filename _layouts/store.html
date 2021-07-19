@@ -114,7 +114,7 @@
                                           </div>
                                         </div>
                                       </aside>
-                                      <ul class="feds-navList" data-feds-keyboardnavigationenabled>
+                                      <ul id="keyboardnavigationenabled" class="feds-navList" data-feds-keyboardnavigationenabled>
                                         <li id="Globalnav.Creativity_Design" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_19" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
@@ -2753,7 +2753,7 @@
 "use strict"
 var i = 0;
 document.addEventListener("scroll", function() {
-  var e, t, m, s, j, u, v, w, x, y, z, n, p;
+  var e, t, m, s, j, u, v, w, x, y, z, n, p, q;
   m = document.getElementById("feds-curtainWrapper");
   w = document.getElementById("header.Creativity_Design");
   x = document.getElementById("header.PDF_E_signatures");
@@ -2768,6 +2768,7 @@ document.addEventListener("scroll", function() {
   t.classList.add("feds-header-wrapper--scrolled");
   n = document.documentElement.clientWidth;
   p = document.getElementById("feds-navList-hamburger");
+  q = document.getElementById("keyboardnavigationenabled");
   if(n > 1200) {
     if(e > i) {
       t.style.transform = "translateY(-60px)";
@@ -2800,10 +2801,30 @@ document.addEventListener("scroll", function() {
       t.style.transform = "translateY(-60px)";
       t.classList.add("feds-header-wrapper--retracted");
       p.ariaExpanded = "false";
+      s.ariaExpanded = "false";
+      j.ariaExpanded = "false";
+      u.ariaExpanded = "false";
+      v.ariaExpanded = "false";
+      m.classList.remove("feds-curtainWrapper--open");
+      w.classList.remove("feds-popup--open");
+      x.classList.remove("feds-popup--open");
+      y.classList.remove("feds-popup--open");
+      z.classList.remove("feds-popup--open");
+      q.style.maxHeight = screen.height - 136 + "px";
     } else {
       t.style = "";
       t.classList.remove("feds-header-wrapper--retracted");
       p.ariaExpanded = "false";
+      s.ariaExpanded = "false";
+      j.ariaExpanded = "false";
+      u.ariaExpanded = "false";
+      v.ariaExpanded = "false";
+      m.classList.remove("feds-curtainWrapper--open");
+      w.classList.remove("feds-popup--open");
+      x.classList.remove("feds-popup--open");
+      y.classList.remove("feds-popup--open");
+      z.classList.remove("feds-popup--open");
+      q.style.maxHeight = screen.height - 136 + "px";
     }
     i = e <= 0 ? 0 : e;
   }
