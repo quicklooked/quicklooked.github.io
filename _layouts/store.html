@@ -2755,7 +2755,7 @@ var i = 0;
 document.addEventListener("scroll", function() {
   var e, t;
   e = window.pageYOffset || document.documentElement.scrollTop;
-  t = document.getElementsById("feds-header-wrapper");
+  t = document.getElementById("feds-header-wrapper");
   t.classList.add = "feds-header-wrapper--scrolled";
   if(e > i) {
     t.style.transform = "translateY(-60px)";
