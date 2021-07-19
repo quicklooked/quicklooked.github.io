@@ -2768,7 +2768,7 @@ document.addEventListener("scroll", function() {
 }, false);
 
 var globalnav_x = document.getElementById("Globalnav.Creativity_Design");
-globalnav_x.addEventListener("click", function() {
+globalnav_x.addEventListener("click", function(e) {
   var i, s, t, u, v;
   i = document.getElementById("feds-curtainWrapper");
   s = document.getElementById("gnav_19");
@@ -2787,7 +2787,9 @@ globalnav_x.addEventListener("click", function() {
     u.ariaExpanded = "false";
     v.ariaExpanded = "false";
     i.classList.remove('feds-curtainWrapper--open');
-  }
+  };
+  e.preventDefault();
+  e.stopPropagation();
   return false;
 });
 </script>
