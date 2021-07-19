@@ -71,7 +71,7 @@
         <div id="feds-header-wrapper" class="feds-header-wrapper feds-header-wrapper--sticky">
           <div id="feds-header">
             <div class="gnavTopnav">
-              <span class="feds-curtainWrapper">
+              <span id="feds-curtainWrapper" class="feds-curtainWrapper">
                 <span class="feds-curtain"></span>
               </span>
               <header id="feds-topnav" class="feds-navBar-wrapper" daa-lh="gnav|acom" daa-im="true">
@@ -2771,7 +2771,7 @@ var s = document.getElementById("Globalnav.Creativity_Design");
 s.addEventListener("click", function() {
   var i, u;
   i = document.getElementById("gnav_19");
-  u = document.getElementsByClassName("feds-curtainWrapper");
+  u = document.getElementById("feds-curtainWrapper");
   if(i.ariaExpanded == "false") {
     i.ariaExpanded = "true";
     i.daaLh = "header|Close";
