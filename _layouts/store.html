@@ -72,7 +72,7 @@
           <div id="feds-header">
             <div class="gnavTopnav">
               <span id="feds-curtainWrapper" class="feds-curtainWrapper">
-                <span class="feds-curtain"></span>
+                <span id="feds-curtain" class="feds-curtain"></span>
               </span>
               <header id="feds-topnav" class="feds-navBar-wrapper">
                 <nav class="feds-navBar">
@@ -2942,7 +2942,7 @@ globalnav_i.addEventListener("click", function(e) {
   return false;
 });
   
-var globalnav_t = document.getElementById("feds-curtainWrapper");
+var globalnav_t = document.getElementById("feds-curtain");
 globalnav_t.addEventListener("click", function(e) {
   var i, s, t, u, v, w, x, y, z;
   i = document.getElementById("feds-curtainWrapper");
