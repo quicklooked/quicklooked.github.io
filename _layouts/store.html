@@ -96,7 +96,7 @@
                                     <div id="gnav_14" class="feds-navList-wrapper feds-navList-wrapper--main">
                                       <aside id="gnav_746_searchTemplate" class="feds-search" role="search">
                                         <div class="feds-searchForm-wrapper">
-                                          <form action="https://helpx.adobe.com/globalsearch.html" method="GET" class="feds-searchForm">
+                                          <form id="feds--Globalsearch" action="/shop/globalsearch" method="GET" class="feds-searchForm">
                                             <input type="text" name="q" placeholder="Search" aria-label="Search" class="feds-searchInput" autocomplete="off" aria-autocomplete="list" aria-controls="feds-searchResults" daa-ll="search-results:standard search">
                                             <div class="feds-searchIcons">
                                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false">
@@ -3077,6 +3077,14 @@
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
       };
+      e.preventDefault();
+      e.stopPropagation();
+      return false;
+    });
+    var feds_Globalsearch = document.getElementById("feds--Globalsearch");
+    feds_Globalsearch.addEventListener("click", function(e) {
+      var feds_Globalsearch = document.getElementById("feds--Globalsearch");
+      feds_Globalsearch.classList.remove('feds-searchForm--focused');
       e.preventDefault();
       e.stopPropagation();
       return false;
