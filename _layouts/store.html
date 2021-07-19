@@ -3114,7 +3114,7 @@
       return false;
     });
     var searchInput = document.getElementById("searchInput");
-    searchInput.addEventListener("click", function(e) {
+    searchInput.addEventListener("keypress", function(e) {
       var d = document.getElementById("searchInput");
       var c = document.getElementById("feds-searchIcons--hasInput");
       if(d.value.length > 0) {
