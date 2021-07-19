@@ -2755,7 +2755,7 @@ var i = 0;
 document.addEventListener("scroll", function() {
   var e, t;
   e = window.pageYOffset || document.documentElement.scrollTop;
-  t = document.getElementsById("feds-header-wrapper");
+  t = document.getElementById("feds-header-wrapper");
   if(e > i) {
     t.style.transform = "translateY(-60px)";
     t.classList.add = "feds-header-wrapper--scrolled feds-header-wrapper--retracted";
@@ -2763,7 +2763,7 @@ document.addEventListener("scroll", function() {
     t.style = "";
     t.classList.remove = "feds-header-wrapper--retracted";
   }
-  i = e <= 0 ? 0 : st;
+  i = e <= 0 ? 0 : e;
 }, false);
 </script>
 </html>
