@@ -3084,6 +3084,7 @@
         z.classList.remove('feds-popup--open');
         f.classList.add('feds-searchForm--focused');
         d.focus();
+        d.value = "";
       } else {
         s.ariaExpanded = "false";
         t.ariaExpanded = "false";
@@ -3098,6 +3099,7 @@
         k.classList.remove('is-open');
         k.ariaExpanded = "false";
         f.classList.remove('feds-searchForm--focused');
+        d.value = "";
       };
       e.preventDefault();
       e.stopPropagation();
