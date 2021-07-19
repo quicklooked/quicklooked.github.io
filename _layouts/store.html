@@ -2941,5 +2941,31 @@ globalnav_i.addEventListener("click", function(e) {
   e.stopPropagation();
   return false;
 });
+  
+var globalnav_t = document.getElementById("feds-curtainWrapper");
+globalnav_t.addEventListener("click", function(e) {
+  var i, s, t, u, v, w, x, y, z;
+  i = document.getElementById("feds-curtainWrapper");
+  w = document.getElementById("header.Creativity_Design");
+  x = document.getElementById("header.PDF_E_signatures");
+  y = document.getElementById("header.Marketing_Commerce");
+  z = document.getElementById("header.Help_Support");
+  s = document.getElementById("gnav_19");
+  t = document.getElementById("gnav_240");
+  u = document.getElementById("gnav_370");
+  v = document.getElementById("gnav_638");
+  t.ariaExpanded = "false";
+  s.ariaExpanded = "false";
+  u.ariaExpanded = "false";
+  v.ariaExpanded = "false";
+  i.classList.remove('feds-curtainWrapper--open');
+  w.classList.remove('feds-popup--open');
+  x.classList.remove('feds-popup--open');
+  y.classList.remove('feds-popup--open');
+  z.classList.remove('feds-popup--open');
+  e.preventDefault();
+  e.stopPropagation();
+  return false;
+});
 </script>
 </html>
