@@ -68,7 +68,7 @@
     <div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
       <div class="globalNavHeader aem-GridColumn aem-GridColumn--default--12">
         <div class="feds-topnav-spacing" style="height: 60px;"></div>
-        <div id="feds-header-wrapper" class="feds-header-wrapper feds-header-wrapper--sticky" style="">
+        <div class="feds-header-wrapper feds-header-wrapper--sticky">
           <div id="feds-header">
             <div class="gnavTopnav">
               <span class="feds-curtainWrapper">
@@ -2755,10 +2755,11 @@ var i = 0;
 document.addEventListener("scroll", function() {
   var e, t;
   e = window.pageYOffset || document.documentElement.scrollTop;
-  t = document.getElementById("feds-header-wrapper");
+  t = document.getElementsByClassName("feds-header-wrapper");
+  t.classList.add = "feds-header-wrapper--scrolled";
   if(e > i) {
     t.style.transform = "translateY(-60px)";
-    t.classList.add = "feds-header-wrapper--scrolled feds-header-wrapper--retracted";
+    t.classList.add = "feds-header-wrapper--retracted";
   } else {
     t.style = "";
     t.classList.remove = "feds-header-wrapper--retracted";
