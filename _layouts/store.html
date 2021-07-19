@@ -114,7 +114,7 @@
                                           </div>
                                         </div>
                                       </aside>
-                                      <ul class="feds-navList" data-feds-keyboardnavigationenabled="">
+                                      <ul class="feds-navList">
                                         <li id="Globalnav.Creativity_Design" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_19" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
@@ -2806,7 +2806,7 @@ globalnav_x.addEventListener("click", function(e) {
 });
   
 var globalnav_y = document.getElementById("Globalnav.PDF_E_signatures");
-globalnav_x.addEventListener("click", function(et) {
+globalnav_y.addEventListener("click", function(e) {
   var i, s, t, u, v, w, x, y, z;
   i = document.getElementById("feds-curtainWrapper");
   w = document.getElementById("header.Creativity_Design");
@@ -2838,8 +2838,46 @@ globalnav_x.addEventListener("click", function(et) {
     y.classList.remove('feds-popup--open');
     z.classList.remove('feds-popup--open');
   };
-  et.preventDefault();
-  et.stopPropagation();
+  e.preventDefault();
+  e.stopPropagation();
+  return false;
+});
+  
+var globalnav_z = document.getElementById("Globalnav.Marketing_Commerce");
+globalnav_z.addEventListener("click", function(e) {
+  var i, s, t, u, v, w, x, y, z;
+  i = document.getElementById("feds-curtainWrapper");
+  w = document.getElementById("header.Creativity_Design");
+  x = document.getElementById("header.PDF_E_signatures");
+  y = document.getElementById("header.Marketing_Commerce");
+  z = document.getElementById("header.Help_Support");
+  s = document.getElementById("gnav_19");
+  t = document.getElementById("gnav_240");
+  u = document.getElementById("gnav_370");
+  v = document.getElementById("gnav_638");
+  if(u.ariaExpanded == "false") {
+    u.ariaExpanded = "true";
+    s.ariaExpanded = "false";
+    t.ariaExpanded = "false";
+    v.ariaExpanded = "false";
+    i.classList.add('feds-curtainWrapper--open');
+    w.classList.remove('feds-popup--open');
+    x.classList.remove('feds-popup--open');
+    y.classList.add('feds-popup--open');
+    z.classList.remove('feds-popup--open');
+  } else {
+    t.ariaExpanded = "false";
+    s.ariaExpanded = "false";
+    u.ariaExpanded = "false";
+    v.ariaExpanded = "false";
+    i.classList.remove('feds-curtainWrapper--open');
+    w.classList.remove('feds-popup--open');
+    x.classList.remove('feds-popup--open');
+    y.classList.remove('feds-popup--open');
+    z.classList.remove('feds-popup--open');
+  };
+  e.preventDefault();
+  e.stopPropagation();
   return false;
 });
 </script>
