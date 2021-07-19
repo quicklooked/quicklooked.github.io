@@ -115,7 +115,7 @@
                                         </div>
                                       </aside>
                                       <ul class="feds-navList" data-feds-keyboardnavigationenabled="">
-                                        <li id="Globalnav.Creativity_Design" onclick="tabnav();return false;" class="feds-navList-item">
+                                        <li id="Globalnav.Creativity_Design" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_19" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -468,7 +468,7 @@
                                             </div>
                                           </div>
                                         </li>
-                                        <li id="Globalnav.PDF_E_signatures" onclick="tabnav();return false;" class="feds-navList-item">
+                                        <li id="Globalnav.PDF_E_signatures" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_240" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -746,7 +746,7 @@
                                             </div>
                                           </div>
                                         </li>
-                                        <li id="Globalnav.Marketing_Commerce" onclick="tabnav();return false;" class="feds-navList-item">
+                                        <li id="Globalnav.Marketing_Commerce" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_370" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -1133,7 +1133,7 @@
                                             </div>
                                           </div>
                                         </li>
-                                        <li id="Globalnav.Support" onclick="tabnav();return false;" class="feds-navList-item">
+                                        <li id="Globalnav.Support" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
                                             <a id="gnav_638" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
@@ -2767,69 +2767,28 @@ document.addEventListener("scroll", function() {
   i = e <= 0 ? 0 : e;
 }, false);
 
-function tabnav() {
-  var i, j, k, l, m, n, o, p, q;
+var globalnav_x = document.getElementById("Globalnav.Creativity_Design");
+globalnav_x.addEventListener("click", function() {
+  var i, s, t, u, v;
   i = document.getElementById("feds-curtainWrapper");
-  j = document.getElementById("Globalnav.Creativity_Design");
-  k = document.getElementById("Globalnav.PDF_E_signatures");
-  l = document.getElementById("Globalnav.Marketing_Commerce");
-  m = document.getElementById("Globalnav.Support");
-  n = document.getElementById("gnav_19");
-  o = document.getElementById("gnav_240");
-  p = document.getElementById("gnav_370");
-  q = document.getElementById("gnav_638");
-  if(n.ariaExpanded == "false") {
-    n.ariaExpanded = "true";
-    o.ariaExpanded = "false";
-    p.ariaExpanded = "false";
-    q.ariaExpanded = "false";
+  s = document.getElementById("gnav_19");
+  t = document.getElementById("gnav_240");
+  u = document.getElementById("gnav_370");
+  v = document.getElementById("gnav_638");
+  if(s.ariaExpanded == "false") {
+    s.ariaExpanded = "true";
+    t.ariaExpanded = "false";
+    u.ariaExpanded = "false";
+    v.ariaExpanded = "false";
     i.classList.add('feds-curtainWrapper--open');
   } else {
-    n.ariaExpanded = "false";
-    o.ariaExpanded = "false";
-    p.ariaExpanded = "false";
-    q.ariaExpanded = "false";
+    s.ariaExpanded = "false";
+    t.ariaExpanded = "false";
+    u.ariaExpanded = "false";
+    v.ariaExpanded = "false";
     i.classList.remove('feds-curtainWrapper--open');
   }
-  if(o.ariaExpanded == "false") {
-    o.ariaExpanded = "true";
-    n.ariaExpanded = "false";
-    p.ariaExpanded = "false";
-    q.ariaExpanded = "false";
-    i.classList.add('feds-curtainWrapper--open');
-  } else {
-    o.ariaExpanded = "false";
-    n.ariaExpanded = "false";
-    p.ariaExpanded = "false";
-    q.ariaExpanded = "false";
-    i.classList.remove('feds-curtainWrapper--open');
-  }
-  if(p.ariaExpanded == "false") {
-    p.ariaExpanded = "true";
-    n.ariaExpanded = "false";
-    o.ariaExpanded = "false";
-    q.ariaExpanded = "false";
-    i.classList.add('feds-curtainWrapper--open');
-  } else {
-    p.ariaExpanded = "false";
-    n.ariaExpanded = "false";
-    o.ariaExpanded = "false";
-    q.ariaExpanded = "false";
-    i.classList.remove('feds-curtainWrapper--open');
-  }
-  if(q.ariaExpanded == "false") {
-    q.ariaExpanded = "true";
-    n.ariaExpanded = "false";
-    o.ariaExpanded = "false";
-    p.ariaExpanded = "false";
-    i.classList.add('feds-curtainWrapper--open');
-  } else {
-    q.ariaExpanded = "false";
-    n.ariaExpanded = "false";
-    o.ariaExpanded = "false";
-    p.ariaExpanded = "false";
-    i.classList.remove('feds-curtainWrapper--open');
-  }
+  return false;
 };
 </script>
 </html>
