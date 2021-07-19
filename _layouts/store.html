@@ -3045,7 +3045,9 @@
     globalnav_p.addEventListener("click", function(e) {
       var p = document.getElementById("feds-navList-hamburger");
       var d = document.getElementById("searchInput");
+      var c = document.getElementById("feds-searchIcons--hasInput");
       d.value = "";
+      c.classList.remove('feds-searchIcons--hasInput');
       if(p.ariaExpanded == "false") {
         p.ariaExpanded = "true";
       } else {
