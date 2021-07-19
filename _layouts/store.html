@@ -2767,6 +2767,34 @@ document.addEventListener("scroll", function() {
   i = e <= 0 ? 0 : e;
 }, false);
 
+function tabnav(evt, product) {
+  var i, tabnav_item, tabnav_link, gallery_item;
+  tabnav_item = document.getElementsByClassName("tabnav-item");
+  tabnav_link = document.getElementsByClassName("tabnav-link");
+  gallery_item = document.getElementsByClassName("gallery-item");
+  for(i = 0; i < 2; i++) {
+    tabnav_link[i].classList.remove('current');
+    tabnav_link[i].ariaSelected = "false";
+  }
+  for(i = 0; i < 2; i++) {
+    gallery_item[i].classList.remove('current');
+    gallery_item[i].style.opacity = "0";
+    gallery_item[i].style.zIndex = "0";
+    gallery_item[i].ariaHidden = "true";
+    gallery_item[i].style.visibility = "hidden";
+  }
+  for(i = 0; i < 2; i++) {
+    tabnav_item[i].className = tabnav_item[i].className.replace(" current", "");
+  }
+  document.getElementById('compare-gallery-' + product).style.visibility = "visible";
+  document.getElementById('compare-gallery-' + product).style.opacity = "1";
+  document.getElementById('compare-gallery-' + product).style.zIndex = "1";
+  document.getElementById('compare-gallery-' + product).classList.add('current');
+  document.getElementById('compare-gallery-' + product).ariaHidden = "false";
+  document.getElementById('compare-gallery-' + product + '-trigger').classList.add('current');
+  document.getElementById('compare-gallery-' + product + '-trigger').ariaSelected = "true";
+  evt.currentTarget.className += " current";
+}
 var s = document.getElementById("Globalnav.Creativity_Design");
 s.addEventListener("click", function() {
   var i, u;
