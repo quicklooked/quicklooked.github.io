@@ -3044,6 +3044,8 @@
     var globalnav_p = document.getElementById("feds-navList-hamburger");
     globalnav_p.addEventListener("click", function(e) {
       var p = document.getElementById("feds-navList-hamburger");
+      var d = document.getElementById("searchInput");
+      d.value = "";
       if(p.ariaExpanded == "false") {
         p.ariaExpanded = "true";
       } else {
