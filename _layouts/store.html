@@ -117,7 +117,7 @@
                                       <ul class="feds-navList" data-feds-keyboardnavigationenabled="">
                                         <li id="Globalnav.Creativity_Design" onclick="tabnav();return false;" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
-                                            <a id="gnav_19" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" data-feds-action="open-popup" data-feds-element="link" daa-ll="Creativity_Design-1" daa-lh="header|Open" role="button">
+                                            <a id="gnav_19" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
                                                 <span class="feds-navLink-content">
                                                   <span class="feds-navLink-text">Creativity &amp; Design</span>
@@ -470,7 +470,7 @@
                                         </li>
                                         <li id="Globalnav.PDF_E_signatures" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
-                                            <a id="gnav_240" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" data-feds-action="open-popup" data-feds-element="link" daa-ll="PDF_E_signatures-2" daa-lh="header|Open" role="button">
+                                            <a id="gnav_240" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
                                                 <span class="feds-navLink-content">
                                                   <span class="feds-navLink-text">Departments &amp; Shopping</span>
@@ -748,7 +748,7 @@
                                         </li>
                                         <li id="Globalnav.Marketing_Commerce" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
-                                            <a id="gnav_370" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" data-feds-action="open-popup" data-feds-element="link" daa-ll="Marketing_Commerce-3" daa-lh="header|Open" role="button">
+                                            <a id="gnav_370" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
                                                 <span class="feds-navLink-content">
                                                   <span class="feds-navLink-text">Brands &amp; Store</span>
@@ -1135,7 +1135,7 @@
                                         </li>
                                         <li id="Globalnav.Support" class="feds-navList-item">
                                           <div class="feds-popup-trigger feds-popup-trigger--fullWidth">
-                                            <a id="gnav_638" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" data-feds-action="open-popup" data-feds-element="link" daa-ll="Support-4" daa-lh="header|Open" role="button">
+                                            <a id="gnav_638" href="#" class="feds-navLink feds-navLink--hoverCaret" aria-haspopup="true" aria-expanded="false" role="button">
                                               <span class="feds-navLink-contentWrapper">
                                                 <span class="feds-navLink-content">
                                                   <span class="feds-navLink-text">Help &amp; Support</span>
@@ -1421,7 +1421,7 @@
                               <ul class="feds-navList">
                                 <li id="Globalnav.Products" class="feds-navList-item">
                                   <div class="feds-popup-trigger">
-                                    <a id="gnav_776" href="#" class="feds-navLink feds-navLink--hoverCaret" data-feds-action="open-popup" data-feds-element="link" daa-ll="Products-1" role="heading" tabindex="-1" style="pointer-events: none;">
+                                    <a id="gnav_776" href="#" class="feds-navLink feds-navLink--hoverCaret" role="heading" tabindex="-1" style="pointer-events: none;">
                                       <span class="feds-navLink-contentWrapper">
                                         <span class="feds-navLink-content">
                                           <span class="feds-navLink-text">Shop for</span>
@@ -2768,7 +2768,7 @@ document.addEventListener("scroll", function() {
 }, false);
 
 function tabnav() {
-  var i, j, k, l, m, n, o, p;
+  var i, j, k, l, m, n, o, p, q;
   i = document.getElementById("feds-curtainWrapper");
   j = document.getElementById("Globalnav.Creativity_Design");
   k = document.getElementById("Globalnav.PDF_E_signatures");
@@ -2777,16 +2777,17 @@ function tabnav() {
   n = document.getElementById("gnav_19");
   o = document.getElementById("gnav_240");
   p = document.getElementById("gnav_370");
+  q = document.getElementById("gnav_638");
   if(n.ariaExpanded == "false") {
     n.ariaExpanded = "true";
-    n.daaLh = "header|Close";
+    o.ariaExpanded = "false";
+    p.ariaExpanded = "false";
+    q.ariaExpanded = "false";
     i.classList.add('feds-curtainWrapper--open');
-    i.dataRequestor = "popup";
   } else {
     n.ariaExpanded = "false";
     n.daaLh = "header|Open";
     i.classList.remove('feds-curtainWrapper--open');
-    i.dataRequestor = "";
   }
 };
 </script>
