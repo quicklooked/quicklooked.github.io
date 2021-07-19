@@ -3132,6 +3132,16 @@
       e.stopPropagation();
       return false;
     });
+    var searchIcons_hasInput = document.getElementById("feds-searchIcons--hasInput");
+    searchIcons_hasInput.addEventListener("click", function(e) {
+      var c = document.getElementById("feds-searchIcons--hasInput");
+      var d = document.getElementById("searchInput");
+      c.classList.remove('feds-searchIcons--hasInput');
+      d.value = "";
+      e.preventDefault();
+      e.stopPropagation();
+      return false;
+    }
   </script>
 </body>
 </html>
