@@ -2766,21 +2766,23 @@ document.addEventListener("scroll", function() {
   }
   i = e <= 0 ? 0 : e;
 }, false);
-var s = document.getElementById("Globalnav.Creativity_Design");
+
+s = document.getElementById("Globalnav.Creativity_Design");
 s.addEventListener("click", function() {
-      var i, u;
-      i = document.getElementById("gnav_19");
-      u = document.getElementsByClassName("feds-curtainWrapper");
-      if(i.ariaExpanded == "false") {
-        i.ariaExpanded = "true";
-        i.daaLh = "header|Close";
-        u.classList.add('feds-curtainWrapper--open');
-        u.dataRequestor = "popup";
-      } else {
-        i.ariaExpanded = "false";
-        i.daaLh = "header|Open";
-        u.classList.remove('feds-curtainWrapper--open');
-        u.dataRequestor = "";
-      })
+  var i, u;
+  i = document.getElementById("gnav_19");
+  u = document.getElementsByClassName("feds-curtainWrapper");
+  if(i.ariaExpanded == "false") {
+    i.ariaExpanded = "true";
+    i.daaLh = "header|Close";
+    u.classList.add('feds-curtainWrapper--open');
+    u.dataRequestor = "popup";
+  } else {
+    i.ariaExpanded = "false";
+    i.daaLh = "header|Open";
+    u.classList.remove('feds-curtainWrapper--open');
+    u.dataRequestor = "";
+  }
+}, false);
 </script>
 </html>
