@@ -97,7 +97,7 @@
                                       <aside id="gnav_746_searchTemplate" class="feds-search" role="search">
                                         <div class="feds-searchForm-wrapper">
                                           <form id="feds--Globalsearch" action="/shop/globalsearch" method="GET" class="feds-searchForm">
-                                            <input type="text" name="q" placeholder="Search" aria-label="Search" class="feds-searchInput" autocomplete="off" aria-autocomplete="list" aria-controls="feds-searchResults" daa-ll="search-results:standard search">
+                                            <input id="searchInput" type="text" name="q" placeholder="Search" aria-label="Search" class="feds-searchInput" autocomplete="off" aria-autocomplete="list" aria-controls="feds-searchResults" daa-ll="search-results:standard search">
                                             <div class="feds-searchIcons">
                                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" focusable="false">
                                                 <path d="M14 2A8 8 0 0 0 7.4 14.5L2.4 19.4a1.5 1.5 0 0 0 2.1 2.1L9.5 16.6A8 8 0 1 0 14 2Zm0 14.1A6.1 6.1 0 1 1 20.1 10 6.1 6.1 0 0 1 14 16.1Z"></path>
@@ -2752,7 +2752,7 @@
     "use strict"
     var i = 0;
     document.addEventListener("scroll", function() {
-      var e, t, m, s, j, u, v, w, x, y, z, n, p, q, k, l;
+      var e, t, m, s, j, u, v, w, x, y, z, n, p, q, k, l, f;
       m = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -2770,6 +2770,7 @@
       q = document.getElementById("keyboardnavigationenabled");
       k = document.getElementById("gnav_746");
       l = document.getElementById("gnav_746_searchTemplate");
+      f = document.getElementById("feds--Globalsearch");
       if(n > 1200) {
         if(e > i) {
           t.style.transform = "translateY(-60px)";
@@ -2787,6 +2788,7 @@
           k.ariaExpanded = "false";
           q.style = "";
           l.classList.remove('is-open');
+          f.classList.remove('feds-searchForm--focused');
         } else {
           t.style = "";
           t.classList.remove("feds-header-wrapper--retracted");
@@ -2803,6 +2805,7 @@
           k.ariaExpanded = "false";
           q.style = "";
           l.classList.remove('is-open');
+          f.classList.remove('feds-searchForm--focused');
         }
         i = e <= 0 ? 0 : e;
       } else {
@@ -2823,6 +2826,7 @@
           k.classList.remove('is-open');
           k.ariaExpanded = "false";
           l.classList.remove('is-open');
+          f.classList.remove('feds-searchForm--focused');
         } else {
           t.style = "";
           t.classList.remove("feds-header-wrapper--retracted");
@@ -2840,6 +2844,7 @@
           k.classList.remove('is-open');
           k.ariaExpanded = "false";
           l.classList.remove('is-open');
+          f.classList.remove('feds-searchForm--focused');
         }
         i = e <= 0 ? 0 : e;
       }
@@ -3050,7 +3055,7 @@
     });
     var gnav_746 = document.getElementById("gnav_746");
     gnav_746.addEventListener("click", function(e) {
-      var i, s, t, u, v, w, x, y, z, k, l, f;
+      var i, s, t, u, v, w, x, y, z, k, l, f, d;
       i = document.getElementById("feds-curtainWrapper");
       w = document.getElementById("header.Creativity_Design");
       x = document.getElementById("header.PDF_E_signatures");
@@ -3063,6 +3068,7 @@
       k = document.getElementById("gnav_746");
       l = document.getElementById("gnav_746_searchTemplate");
       f = document.getElementById("feds--Globalsearch");
+      d = document.getElementById("searchInput");
       if(k.ariaExpanded == "false") {
         k.ariaExpanded = "true";
         s.ariaExpanded = "false";
@@ -3077,7 +3083,7 @@
         y.classList.remove('feds-popup--open');
         z.classList.remove('feds-popup--open');
         f.classList.add('feds-searchForm--focused');
-        f.focus();
+        d.focus();
       } else {
         s.ariaExpanded = "false";
         t.ariaExpanded = "false";
@@ -3100,7 +3106,9 @@
     var feds_Globalsearch = document.getElementById("feds--Globalsearch");
     feds_Globalsearch.addEventListener("click", function(e) {
       var feds_Globalsearch = document.getElementById("feds--Globalsearch");
+      var d = document.getElementById("searchInput");
       feds_Globalsearch.classList.add('feds-searchForm--focused');
+      d.focus();
       e.preventDefault();
       e.stopPropagation();
       return false;
