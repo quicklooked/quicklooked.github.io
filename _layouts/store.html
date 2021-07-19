@@ -477,7 +477,7 @@
                                                 </span>
                                               </span>
                                             </a>
-                                            <div class="feds-popup" role="group">
+                                            <div id="" class="feds-popup" role="group">
                                               <div id="gnav_241" class="feds-navList-wrapper">
                                                 <ul class="feds-navList">
                                                   <li id="gnav_241_0" class="feds-navList-item">
@@ -755,7 +755,7 @@
                                                 </span>
                                               </span>
                                             </a>
-                                            <div class="feds-popup" role="group">
+                                            <div id="header." class="feds-popup" role="group">
                                               <div id="gnav_371" class="feds-navList-wrapper">
                                                 <ul class="feds-navList">
                                                   <li id="gnav_371_0" class="feds-navList-item">
@@ -2771,11 +2771,11 @@ var globalnav_x = document.getElementById("Globalnav.Creativity_Design");
 globalnav_x.addEventListener("click", function(e) {
   var i, s, t, u, v, w;
   i = document.getElementById("feds-curtainWrapper");
+  w = document.getElementById("header.Creativity_Design");
   s = document.getElementById("gnav_19");
   t = document.getElementById("gnav_240");
   u = document.getElementById("gnav_370");
   v = document.getElementById("gnav_638");
-  w = document.getElementById("header.Creativity_Design");
   if(s.ariaExpanded == "false") {
     s.ariaExpanded = "true";
     t.ariaExpanded = "false";
@@ -2786,6 +2786,38 @@ globalnav_x.addEventListener("click", function(e) {
   } else {
     s.ariaExpanded = "false";
     t.ariaExpanded = "false";
+    u.ariaExpanded = "false";
+    v.ariaExpanded = "false";
+    i.classList.remove('feds-curtainWrapper--open');
+    w.classList.remove('feds-popup--open');
+  };
+  e.preventDefault();
+  e.stopPropagation();
+  return false;
+});
+  
+var globalnav_y = document.getElementById("Globalnav.PDF_E_signatures");
+globalnav_x.addEventListener("click", function(e) {
+  var i, s, t, u, v, w, x, y, z;
+  i = document.getElementById("feds-curtainWrapper");
+  w = document.getElementById("header.Creativity_Design");
+  x = document.getElementById("header.PDF_E_signatures");
+  y = document.getElementById("header.Marketing_Commerce");
+  z = document.getElementById("header.Help_Support");
+  s = document.getElementById("gnav_19");
+  t = document.getElementById("gnav_240");
+  u = document.getElementById("gnav_370");
+  v = document.getElementById("gnav_638");
+  if(t.ariaExpanded == "false") {
+    t.ariaExpanded = "true";
+    s.ariaExpanded = "false";
+    u.ariaExpanded = "false";
+    v.ariaExpanded = "false";
+    i.classList.add('feds-curtainWrapper--open');
+    w.classList.add('feds-popup--open');
+  } else {
+    t.ariaExpanded = "false";
+    s.ariaExpanded = "false";
     u.ariaExpanded = "false";
     v.ariaExpanded = "false";
     i.classList.remove('feds-curtainWrapper--open');
