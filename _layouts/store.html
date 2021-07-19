@@ -124,7 +124,7 @@
                                                 </span>
                                               </span>
                                             </a>
-                                            <div class="feds-popup" role="group">
+                                            <div id="header.Creativity_Design" class="feds-popup" role="group">
                                               <div id="gnav_20" class="feds-navList-wrapper">
                                                 <ul class="feds-navList">
                                                   <li id="gnav_20_0" class="feds-navList-item">
@@ -146,7 +146,7 @@
                                                                     <li id="Globalnav.Creativity_Design.Shop_For.Adobe_Creative_Cloud" class="feds-navList-item">
                                                                       <a id="gnav_33" href="https://www.adobe.com/creativecloud.html" class="feds-navLink" data-feds-action="none" data-feds-element="link" daa-ll="Adobe_Creative_Cloud-1">
                                                                         <span class="feds-navLink-image">
-                                                                          <img data-feds-imgsrc="https://www.adobe.com/content/dam/cc/icons/creativecloud-app.svg" alt="Creative Cloud icon">
+                                                                          <img src="https://www.adobe.com/content/dam/cc/icons/creativecloud-app.svg" alt="Creative Cloud icon">
                                                                         </span>
                                                                         <span class="feds-navLink-contentWrapper">
                                                                           <span class="feds-navLink-content">
@@ -2769,24 +2769,27 @@ document.addEventListener("scroll", function() {
 
 var globalnav_x = document.getElementById("Globalnav.Creativity_Design");
 globalnav_x.addEventListener("click", function(e) {
-  var i, s, t, u, v;
+  var i, s, t, u, v, w;
   i = document.getElementById("feds-curtainWrapper");
   s = document.getElementById("gnav_19");
   t = document.getElementById("gnav_240");
   u = document.getElementById("gnav_370");
   v = document.getElementById("gnav_638");
+  w = document.getElementById("header.Creativity_Design");
   if(s.ariaExpanded == "false") {
     s.ariaExpanded = "true";
     t.ariaExpanded = "false";
     u.ariaExpanded = "false";
     v.ariaExpanded = "false";
     i.classList.add('feds-curtainWrapper--open');
+    w.classList.add('feds-popup--open');
   } else {
     s.ariaExpanded = "false";
     t.ariaExpanded = "false";
     u.ariaExpanded = "false";
     v.ariaExpanded = "false";
     i.classList.remove('feds-curtainWrapper--open');
+    w.classList.remove('feds-popup--open');
   };
   e.preventDefault();
   e.stopPropagation();
