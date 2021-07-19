@@ -2806,7 +2806,7 @@ globalnav_x.addEventListener("click", function(e) {
 });
   
 var globalnav_y = document.getElementById("Globalnav.PDF_E_signatures");
-globalnav_x.addEventListener("click", function(e) {
+globalnav_x.addEventListener("click", function(et) {
   var i, s, t, u, v, w, x, y, z;
   i = document.getElementById("feds-curtainWrapper");
   w = document.getElementById("header.Creativity_Design");
@@ -2838,8 +2838,8 @@ globalnav_x.addEventListener("click", function(e) {
     y.classList.remove('feds-popup--open');
     z.classList.remove('feds-popup--open');
   };
-  e.preventDefault();
-  e.stopPropagation();
+  et.preventDefault();
+  et.stopPropagation();
   return false;
 });
 </script>
