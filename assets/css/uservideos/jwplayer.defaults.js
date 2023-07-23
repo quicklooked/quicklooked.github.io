@@ -1,5 +1,5 @@
 var jwDefaults = {
-  "key": "GytdaYuqfyvirEusXu6WqDo4Flbquswk8SceF+iP+chw318UDdxUxovv3nFnvgsa",
+  "key": "ypdL3Acgwp4Uh2/LDE9dYh3W/EPwDMuA2yid4ytssfI=",
   "hlshtml": true,
   "primary": "html5",
   "fullscreen": false,
